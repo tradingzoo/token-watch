@@ -1,0 +1,349 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="900"><title>GitHub Token Watch</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1b;--mute:#6b6b66;--line:#e4e4df;--hi:#1f7a4d;--mid:#a86b00;--lo:#b3372f;--flag:#fdecea;--accent:#2f5bd3}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151614;--card:#1e1f1c;--ink:#ecebe6;--mute:#9c9b94;--line:#33342f;--hi:#4cc38a;--mid:#e0a63a;--lo:#ef7a6f;--flag:#3a2220;--accent:#8aa8ff}}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 4px} .top{color:var(--mute);margin:0 0 16px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px} .bar button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:6px 12px;cursor:pointer}
+.bar button.on{border-color:var(--accent);color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+.card header{display:flex;gap:14px;align-items:flex-start}
+.score{font-size:30px;font-weight:700;min-width:78px;text-align:center;border-radius:10px;padding:6px 4px;border:2px solid}
+.score small{font-size:13px;font-weight:400;color:var(--mute)} .hi{color:var(--hi)} .mid{color:var(--mid)} .lo{color:var(--lo)}
+h2{margin:0;font-size:19px} .sub,.meta{color:var(--mute);margin:2px 0;font-size:13px} .links{margin:4px 0 0;font-size:13px}
+a{color:var(--accent)} .new{font-size:11px;background:var(--accent);color:var(--card);border-radius:5px;padding:1px 6px;vertical-align:middle}
+.flag{background:var(--flag);border-radius:8px;padding:6px 10px;margin:10px 0 0;font-size:14px}
+.desc{margin:10px 0 6px} summary{cursor:pointer;color:var(--accent)} h4{margin:12px 0 2px;font-size:14px}
+.xline{margin:10px 0 0;font-size:13px;color:var(--mute)}
+ul{margin:0;padding-left:20px} button.wrong{font-size:12px;border:1px solid var(--line);background:none;color:var(--mute);border-radius:6px;padding:1px 8px;cursor:pointer;margin-right:6px} li{margin:2px 0} code{font-size:13px}
+</style></head><body><main>
+<h1>GitHub Token Watch</h1>
+<p class="top">New Robinhood Chain tokens (Pons + DexScreener) with a public GitHub. Checked every 30 minutes. Last run 2026-11-04 13:37 UTC · 21 tokens · 188 tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
+<div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="60">60+</button><button data-f="flag">Red flags</button></div>
+
+<article class="card" data-score="25" data-new="1">
+  <header>
+    <div class="score lo">25<small>/100</small></div>
+    <div class="title">
+      <h2>KROMT <span class='new'>NEW</span></h2>
+      <p class="sub">Kromt · found 2026-11-04 13:27 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x5b62e88d43907f8b37c654c54ed943c0d9c61c7a" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x5b62e88d43907f8b37c654c54ed943c0d9c61c7a" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/kromtxyz/kromt-rpcsh" target="_blank" rel="noopener">GitHub</a> · <a href="https://x.com/Kromtxyz" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/Kromtxyz" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/Kromtxyz" target="_blank" rel="noopener">@Kromtxyz</a>: joined 2 Nov 2026 (2 days ago), 2 days before the token · 89 followers · 27 posts · last post today · 19+ posts in last 7 days · about 6 likes and 172 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">The Non-Custodial AI Agent for Tokens, Perps &amp; Prediction Markets on Robinhood chain.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Maybe earns fees (perps) — guess from their text, needs a look (+10)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>🟡 Repo and website: website links the repo (+5)</li><li>ℹ️ Copy check: not enough of their own code to sample</li><li>❌ Their website, docs and GitHub never mention the token (read: no website)</li></ul><h4>Real code</h4><ul><li>❌ 1 changes over 0 days (+0)</li><li>❌ No smart contracts or tests (+0)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 147 days old, 1 people, 0 stars, 0 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>❌ No security, audit or timelock info (+0)</li></ul><h4>Roadmap</h4><ul><li>Website has a roadmap page: https://x.com/roadmap</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? KROMT 0x5b62e88d43907f8b37c654c54ed943c0d9c61c7a was matched to github.com/kromtxyz/kromt-rpcsh. The right one is: ">Wrong repo?</button> Repo kromtxyz/kromt-rpcsh · 1 changes · created 2026-11-02 · last update 2026-11-02 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="55" data-new="1">
+  <header>
+    <div class="score mid">55<small>/100</small></div>
+    <div class="title">
+      <h2>MAHA <span class='new'>NEW</span></h2>
+      <p class="sub">MAHA DAO · found 2026-11-04 13:16 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0xc0df3a7a1bade5741a87b2f960ed9d5abb374589" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0xc0df3a7a1bade5741a87b2f960ed9d5abb374589" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/mahaxyz/maha.xyz" target="_blank" rel="noopener">GitHub</a> · <a href="https://maha.xyz/" target="_blank" rel="noopener">Website</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 No X account listed.</p>
+  
+  <p class="desc"></p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Looks like it earns fees from users (borrow, dex, exchange, fees) — guess from their text, needs a look (+20)</li><li>🟡 Says fees go back to the token (burn, buy back, fee share) — claimed, not checked on chain (+10)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>✅ Repo and website: website links the repo, repo links the website (+10)</li><li>ℹ️ 1 of 1 sample lines also appears in older repo w-okada/image-analyze-workers — could be shared library code</li><li>✅ Their docs mentions the token: &#x27;MAHA token&#x27; — “rotocol, the MAHA community, and other products governed by the DAO. MAHA token holders can vote to allocate MAHA towards grants, strategic partnersh” (https://docs.maha.xyz/llms-full.txt)</li><li>✅ Their docs mentions the token: &#x27;MAHA token&#x27; — “governance-maha/maha-overview.md): This section briefly summaries the MAHA token. - [Token Distribution](https://docs.maha.xyz/governance-maha/incenti” (https://docs.maha.xyz/llms.txt)</li></ul><h4>Real code</h4><ul><li>❌ 2 changes over 0 days (+0)</li><li>❌ No smart contracts or tests (+0)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 906 days old, 1 people, 0 stars, 0 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>✅ Safety info: audit, timelock (+5)</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? MAHA 0xc0df3a7a1bade5741a87b2f960ed9d5abb374589 was matched to github.com/mahaxyz/maha.xyz. The right one is: ">Wrong repo?</button> Repo mahaxyz/maha.xyz · 2 changes · created 2024-05-30 · last update 2025-05-28 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="50" data-new="1">
+  <header>
+    <div class="score mid">50<small>/100</small></div>
+    <div class="title">
+      <h2>Kronos <span class='new'>NEW</span></h2>
+      <p class="sub">Kronos · found 2026-11-04 13:16 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x8dfd6052c1f92b295092f813bcde9ab151d9c2d6" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x8dfd6052c1f92b295092f813bcde9ab151d9c2d6" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener">GitHub</a> · <a href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/datalordstephen/status/2117920289753284702?a=ZTMapNht1kiUfSUVwGc&amp;s=20" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/datalordstephen" target="_blank" rel="noopener">@datalordstephen</a>: joined 21 Mar 2022 (1688 days ago), 1688 days before the token · 396 followers · 10,619 posts · last post today · 9 posts in last 7 days · about 2.3 likes and 129 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  <div class='flag'>⚠️ X link goes to a single post by @datalordstephen, not a project account</div>
+  <p class="desc"></p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Looks like it earns fees from users (exchange, hook, marketplace, options) — guess from their text, needs a look (+20)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>🟡 Repo and website: repo links the website (+5)</li><li>✅ Copy check: 3 sample lines from their main code not found in anyone else&#x27;s older repo</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (docs.github.com/llms.txt), docs (github.com/docs), docs (github.com/llms-full.txt), docs (github.com/llms.txt), docs (zdoc.app/de/shiyu-coder/Kronos), docs (zdoc.app/es/shiyu-coder/Kronos), docs (zdoc.app/fr/shiyu-coder/Kronos), docs (zdoc.app/ja/shiyu-coder/Kronos), website (github.com/shiyu-coder/Kronos))</li></ul><h4>Real code</h4><ul><li>✅ 76 changes over 286 days (+10)</li><li>🟡 Has tests (+5)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 2357 days old, 18 people, 46722 stars, 7690 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>❌ No security, audit or timelock info (+0)</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? Kronos 0x8dfd6052c1f92b295092f813bcde9ab151d9c2d6 was matched to github.com/shiyu-coder/Kronos. The right one is: ">Wrong repo?</button> Repo shiyu-coder/Kronos · 76 changes · created 2025-07-01 · last update 2026-04-13 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="0" data-new="1">
+  <header>
+    <div class="score lo">0<small>/100</small></div>
+    <div class="title">
+      <h2>EDIT <span class='new'>NEW</span></h2>
+      <p class="sub">edit · found 2026-11-04 12:59 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0xc23b07df578dff9abd904bb71026b59dd1234977" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0xc23b07df578dff9abd904bb71026b59dd1234977" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/longbridge/gpui-component" target="_blank" rel="noopener">GitHub</a> · <a href="https://rustedit.dev" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/rusteditdev" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/rusteditdev" target="_blank" rel="noopener">@rusteditdev</a>: joined 4 Nov 2026 (0 days ago), 0 days before the token · 1 followers · 9 posts · last post today · 9 posts in last 7 days · about 0 likes and 6 views per post · no past names on record (memory.lol, patchy)</p>
+  <div class='flag'>⚠️ Nothing ties a popular older repo (19,021 stars, made Jun 2024) to this token: it never mentions the token&#x27;s address or website, and the GitHub account (longbridge) isn&#x27;t named after the project — likely someone else&#x27;s project</div>
+  <p class="desc">Edit is an agentic editor on the GPU — Rust-native, feather-light, every agent change reviewable. $EDIT is its token.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Maybe earns fees (options) — guess from their text, needs a look (+10)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>⛔ Score set to 0: this GitHub is not their own work (see the warning above)</li><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>🟡 Repo and website: website links the repo (+5)</li><li>ℹ️ Copy check couldn&#x27;t run yet: GitHub&#x27;s search hasn&#x27;t indexed this repo (common for new repos), will retry</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (rustedit.dev/docs), docs (rustedit.dev/llms-full.txt), docs (rustedit.dev/llms.txt), website (rustedit.dev))</li></ul><h4>Real code</h4><ul><li>✅ 2763 changes over 874 days (+10)</li><li>🟡 Has tests (+5)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 2301 days old, 19 people, 19021 stars, 1197 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>❌ No security, audit or timelock info (+0)</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? EDIT 0xc23b07df578dff9abd904bb71026b59dd1234977 was matched to github.com/longbridge/gpui-component. The right one is: ">Wrong repo?</button> Repo longbridge/gpui-component · 2763 changes · created 2024-06-13 · last update 2026-11-04 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="50" data-new="1">
+  <header>
+    <div class="score mid">50<small>/100</small></div>
+    <div class="title">
+      <h2>CUBE <span class='new'>NEW</span></h2>
+      <p class="sub">Cube Computer · found 2026-11-04 12:39 UTC · $274k · exchange</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x938d767f1cd789850867a881fdf09631f2e43714" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x938d767f1cd789850867a881fdf09631f2e43714" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/collabs-inc/cube-releases" target="_blank" rel="noopener">GitHub</a> · <a href="https://cube.computer/" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/cubecomputer_" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/cubecomputer_" target="_blank" rel="noopener">@cubecomputer_</a>: joined 3 Nov 2026 (0 days ago), 0 days before the token · 193 followers · 30 posts · last post today · 15+ posts in last 7 days · about 9.5 likes and 703 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">Your repos, terminals and agents on a cloud computer of your own. Bring your own agent accounts.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Looks like it earns fees from users (hook, options, pay per) — guess from their text, needs a look (+20)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>🟡 Repo and website: website links the repo (+5)</li><li>ℹ️ Copy check couldn&#x27;t run yet: GitHub&#x27;s search hasn&#x27;t indexed this repo (common for new repos), will retry</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (cube.computer/docs), docs (cube.computer/llms-full.txt), docs (cube.computer/llms.txt), docs (docs.boat.dev/pricing), docs (docs.cube.computer/), docs (docs.cube.computer/docs/), docs (docs.cube.computer/llms-full.txt), docs (docs.cube.computer/llms.txt), docs (exe.dev/docs/billing/personal), website (cube.computer/))</li></ul><h4>Real code</h4><ul><li>✅ 101 changes over 89 days (+10)</li><li>🟡 Has tests (+5)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 269 days old, 2 people, 12 stars, 0 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>❌ No security, audit or timelock info (+0)</li></ul><h4>Checked by hand</h4><ul><li>Read all of docs.cube.computer (54k characters incl. FAQ and billing): it never mentions a token, $CUBE, crypto, a wallet or Robinhood Chain</li><li>Real paid product: cloud computers for coding agents, $6 per vCPU a month, $25 free credit; paid by card through Stripe, not with the token</li><li>Team launched it (checked 4 Nov): the real product&#x27;s website cube.computer links x.com/cubecomputer_, and that X account&#x27;s bio gives &#x27;$CUBE 0x938d767f...3714&#x27;, this exact token. The website and docs themselves still never mention the token</li><li>Chain from the GitHub: the main person committing to collabs-inc/cube-releases is yiliush (GitHub company @collabs-inc); his X bio says &#x27;keeping it hot @collabs_inc&#x27;. The Cube X account was made 3 Nov, the day before the token</li><li>The GitHub (collabs-inc/cube-releases) is only a feed of app downloads, no source code; the company (COLLAB, 47 repos) keeps its code elsewhere</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? CUBE 0x938d767f1cd789850867a881fdf09631f2e43714 was matched to github.com/collabs-inc/cube-releases. The right one is: ">Wrong repo?</button> Repo collabs-inc/cube-releases · 101 changes · created 2026-08-07 · last update 2026-11-04 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="75" data-new="1">
+  <header>
+    <div class="score hi">75<small>/100</small></div>
+    <div class="title">
+      <h2>LMNI <span class='new'>NEW</span></h2>
+      <p class="sub">Lemniscate · found 2026-11-04 12:39 UTC · $145k · exchange</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x63b5c2b1eb93ad62ea06560370f4f317ee1b97d3" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x63b5C2B1eB93Ad62EA06560370f4f317eE1b97D3" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/lemniscatedev/lemniscate" target="_blank" rel="noopener">GitHub</a> · <a href="https://get-lemniscate.tech/" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/UseLemniscate" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/UseLemniscate" target="_blank" rel="noopener">@UseLemniscate</a>: joined 8 Oct 2026 (27 days ago), 26 days before the token · 276 followers · 270 posts · last post today · 19+ posts in last 7 days · about 46.4 likes and 1,023 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">Everlasting options for tokenized stocks</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>✅ Charges a fee on every options trade (FeeRouter, protocol fee 10%) — checked by hand (+20)</li><li>🟡 Built but switched off: 5% of fees to LMNI stakers and 5% to buy and burn LMNI; both slots are empty in the live fee contract — checked by hand (+10)</li></ul><h4>Really theirs</h4><ul><li>✅ Repo mentions this token&#x27;s address (+10)</li><li>🟡 Repo and website: repo links the website (+5)</li><li>ℹ️ Copy check couldn&#x27;t run yet: GitHub&#x27;s search hasn&#x27;t indexed this repo (common for new repos), will retry</li><li>✅ Their GitHub mentions the token: its contract address (https://github.com/lemniscatedev/lemniscate)</li></ul><h4>Real code</h4><ul><li>✅ 218 changes over 13 days (+10)</li><li>✅ Has smart contracts and tests (+10)</li></ul><h4>Team</h4><ul><li>❌ One person, new account, no outside interest: account 19 days old, 1 people, 0 stars, 0 forks (+0)</li></ul><h4>Safety</h4><ul><li>✅ Contract addresses listed in the README (+5)</li><li>✅ Safety info: SECURITY file, audit, timelock (+5)</li><li>ℹ️ Audit looks self-done or AI-done, not an outside firm</li></ul><h4>Checked by hand</h4><ul><li>Holder perks are live: hold 100,000 LMNI (about $13 on 4 Nov) for analytics, alerts and history; 1,000,000 (about $127) for automation tools and data export. Their server already checks wallets</li><li>Only 10% of the protocol&#x27;s fee goes to the token side (5% stakers, 5% burn); 90% goes to the pool, keepers, hedger and team</li><li>Writer rewards (1,000,000 LMNI a week for 8 weeks to depositors of $1,000+) are not started: start date and token address still blank. This adds new supply</li><li>Admin is a single wallet, but upgrades wait 48 hours (timelock)</li></ul><h4>Roadmap</h4><ul><li><code>web/dist/roadmap.json</code>: 72 planned items</li><li>CHANGELOG.md: 15 updates shipped so far</li><li>Roadmap is 72 product updates, one an hour over 3 days; the changelog marks each one live as it ships</li><li>Staking and buy-and-burn are NOT on the roadmap; the code says they wait for the admin to switch them on</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? LMNI 0x63b5C2B1eB93Ad62EA06560370f4f317eE1b97D3 was matched to github.com/lemniscatedev/lemniscate. The right one is: ">Wrong repo?</button> Repo lemniscatedev/lemniscate · 218 changes · created 2026-10-29 · last update 2026-11-04 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="55" data-new="1">
+  <header>
+    <div class="score mid">55<small>/100</small></div>
+    <div class="title">
+      <h2>OAK <span class='new'>NEW</span></h2>
+      <p class="sub">Oak · found 2026-11-04 12:39 UTC · $584k · exchange</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x6511c233790ec10f7d673c64dc82c3f941d57828" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x6511c233790Ec10f7d673c64DC82C3F941D57828" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/OakAgentKit/oak" target="_blank" rel="noopener">GitHub</a> · <a href="https://oakagentkit.org" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/OakAgentKit" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/OakAgentKit" target="_blank" rel="noopener">@OakAgentKit</a>: joined 24 Oct 2026 (11 days ago), 9 days before the token · 537 followers · 69 posts · last post today · 20+ posts in last 7 days · about 39 likes and 2,078 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">Oak Agent Kit builds AI infrastructure for the agentic economy on Robinhood Chain. Our first product is live now: Oak MCP, giving AI agents efficient connections to projects on Robinhood Chain, with subscriptions powered by $OAK.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Looks like it earns fees from users (borrow, fees, hook, launchpad) — guess from their text, needs a look (+20)</li><li>🟡 Says fees go back to the token (burn, buyback, staking) — claimed, not checked on chain (+10)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>🟡 Repo and website: repo links the website (+5)</li><li>ℹ️ Copy check couldn&#x27;t run yet: GitHub&#x27;s search hasn&#x27;t indexed this repo (common for new repos), will retry</li><li>ℹ️ 100 of 127 files arrived in the very first change — could be copied, or moved over from a private repo</li><li>✅ Their website mentions the token: its contract address — “tive subscription. Official $OAK address: 0x6511c233790Ec10f7d673c64DC82C3F941D57828 . Pons page: &lt;a href=&quot;https://ponsfamily.com/launchpad/0x6511c2” (https://oakagentkit.org)</li><li>✅ Their website mentions the token: $OAK — “ire a verified ERC-8004 identity and an active subscription. Official $OAK address: 0x6511c233790Ec10f7d673c64DC82C3” (https://oakagentkit.org)</li><li>✅ Their website mentions the token: a link to its Pons page — “3790Ec10f7d673c64DC82C3F941D57828 . Pons page: https://ponsfamily.com/launchpad/0x6511c233790ec10f7d673c64dc82c3f94” (https://oakagentkit.org)</li><li>✅ Their docs mentions the token: its contract address — “tive subscription. Official $OAK address: 0x6511c233790Ec10f7d673c64DC82C3F941D57828 . Pons page: &lt;a href=&quot;https://ponsfamily.com/launchpad/0x6511c2” (https://oakagentkit.org/llms-full.txt)</li></ul><h4>Real code</h4><ul><li>🟡 20 changes over 5 days (+5)</li><li>✅ Has smart contracts and tests (+10)</li></ul><h4>Team</h4><ul><li>❌ One person, new account, no outside interest: account 6 days old, 1 people, 1 stars, 0 forks (+0)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>✅ Safety info: SECURITY file, audit (+5)</li></ul><h4>Roadmap</h4><ul><li>CHANGELOG.md: 8 updates shipped so far</li><li>Website has a roadmap page: https://oakagentkit.org/roadmap</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? OAK 0x6511c233790Ec10f7d673c64DC82C3F941D57828 was matched to github.com/OakAgentKit/oak. The right one is: ">Wrong repo?</button> Repo OakAgentKit/oak · 20 changes · created 2026-10-30 · last update 2026-11-04 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="50" data-new="1">
+  <header>
+    <div class="score mid">50<small>/100</small></div>
+    <div class="title">
+      <h2>AGAV <span class='new'>NEW</span></h2>
+      <p class="sub">agav · found 2026-11-04 12:39 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0xfc9eb397c4ed9321d7213484205ff3d4a27c21c0" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0xfc9eb397c4ed9321d7213484205ff3d4a27c21c0" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/prapaa-ai/agav" target="_blank" rel="noopener">GitHub</a> · <a href="https://agav.dev" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/agavdev_" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/agavdev_" target="_blank" rel="noopener">@agavdev_</a>: joined 4 Nov 2026 (0 days ago), 0 days before the token · 0 followers · 10 posts · last post today · 9 posts in last 7 days · about 0 likes and 7 views per post · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">Agav is a terminal-native AI coding assistant — one binary, every OS, the model you choose. $AGAV is its token.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Maybe earns fees (marketplace) — guess from their text, needs a look (+10)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>✅ Repo and website: website links the repo, repo links the website (+10)</li><li>✅ Copy check: 3 sample lines from their main code not found in anyone else&#x27;s older repo</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (docs.agav.dev), website (agav.dev))</li></ul><h4>Real code</h4><ul><li>✅ 41 changes over 93 days (+10)</li><li>🟡 Has tests (+5)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 671 days old, 3 people, 174 stars, 63 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>✅ Safety info: SECURITY file, audit (+5)</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? AGAV 0xfc9eb397c4ed9321d7213484205ff3d4a27c21c0 was matched to github.com/prapaa-ai/agav. The right one is: ">Wrong repo?</button> Repo prapaa-ai/agav · 41 changes · created 2026-07-31 · last update 2026-11-04 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="40" data-new="1">
+  <header>
+    <div class="score mid">40<small>/100</small></div>
+    <div class="title">
+      <h2>TOKENHOT <span class='new'>NEW</span></h2>
+      <p class="sub">TokenhotAi · found 2026-11-04 12:39 UTC · $3k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x9022ffd87c769ec5ef5afdb2b3dbc39409a4e7e0" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x9022ffd87c769ec5ef5afdb2b3dbc39409a4e7e0" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/Tokenhot-ai/Tokenhot-ai" target="_blank" rel="noopener">GitHub</a> · <a href="https://tokenhot.ai/" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/Tokenhot_ai" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/Tokenhot_ai" target="_blank" rel="noopener">@Tokenhot_ai</a>: joined 28 Sep 2025 (402 days ago) · 68 followers · 56 posts · last post 3 Nov 2026 · 2 posts in last 7 days · about 12.3 likes and 7,912 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">Better pricing, better stability. The unified LLM API gateway supporting OpenAl, Claude, Gemini, DeepSeek and 30+ providers.\nX : https://x.com/Tokenhot_ai\nWeb : https://tokenhot.ai/\nTelegram : https://x.com/Tokenhot_ai\nDiscord : https://discord.gg/fwh5wfx</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Looks like it earns fees from users (exchange, fees, hook, options) — guess from their text, needs a look (+20)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>🟡 Repo and website: website links the repo (+5)</li><li>ℹ️ Copy check: not enough of their own code to sample</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (docs.tokenhot.ai/llms-full.txt), docs (docs.tokenhot.ai/llms.txt), docs (tokenhot.ai), docs (tokenhot.ai/docs), docs (tokenhot.ai/llms-full.txt), docs (tokenhot.ai/llms.txt), docs (tokenhot.ai/tw), docs (tokenhot.ai/zh), website (tokenhot.ai/))</li></ul><h4>Real code</h4><ul><li>❌ 4 changes over 0 days (+0)</li><li>❌ No smart contracts or tests (+0)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 155 days old, 1 people, 0 stars, 0 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>✅ Safety info: audit (+5)</li></ul><h4>Roadmap</h4><ul><li>Website has a roadmap page: https://tokenhot.ai/roadmap</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? TOKENHOT 0x9022ffd87c769ec5ef5afdb2b3dbc39409a4e7e0 was matched to github.com/Tokenhot-ai/Tokenhot-ai. The right one is: ">Wrong repo?</button> Repo Tokenhot-ai/Tokenhot-ai · 4 changes · created 2026-08-07 · last update 2026-08-07 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="0" data-new="1">
+  <header>
+    <div class="score lo">0<small>/100</small></div>
+    <div class="title">
+      <h2>FLOEM <span class='new'>NEW</span></h2>
+      <p class="sub">Floem · found 2026-11-04 12:39 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0xb329d90aa612a122c2ab779e521e1092f4c15d9f" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0xb329d90aa612a122c2ab779e521e1092f4c15d9f" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/floemdotfun/" target="_blank" rel="noopener">GitHub</a> · <a href="https://floem.fun" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/floemdotfun" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/floemdotfun" target="_blank" rel="noopener">@floemdotfun</a>: joined 1 Nov 2026 (3 days ago) · 63 followers · 6 posts · last post today · 5 posts in last 7 days · about 6.4 likes and 894 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  <div class='flag'>⚠️ GitHub account floemdotfun has no public code</div><div class='flag'>⚠️ Near-identical X name to another token (FLOEM: @floemdotfun_), possible copycat</div>
+  <p class="desc">Launch a token. Graduate to spot + perps</p>
+  <details open><summary>Why this score</summary><h4>Really theirs</h4><ul><li>❌ github.com/floemdotfun has no public repos</li></ul><h4>Roadmap</h4><ul></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? FLOEM 0xb329d90aa612a122c2ab779e521e1092f4c15d9f was matched to github.com/floemdotfun/. The right one is: ">Wrong repo?</button> Repo floemdotfun/ · ? changes · created ? · last update ? · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="25" data-new="1">
+  <header>
+    <div class="score lo">25<small>/100</small></div>
+    <div class="title">
+      <h2>BURSAR <span class='new'>NEW</span></h2>
+      <p class="sub">Bursar · found 2026-11-04 12:39 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0xcce83a030692d89d66081fa8768346a5915878b0" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0xcce83a030692d89d66081fa8768346a5915878b0" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/bursar-world/landing" target="_blank" rel="noopener">GitHub</a> · <a href="https://bursar.world" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/UseBursar" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/UseBursar" target="_blank" rel="noopener">@UseBursar</a>: joined 27 Sep 2026 (38 days ago) · 342 followers · 327 posts · last post today · 15+ posts in last 7 days · about 18.3 likes and 490 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc"></p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>❌ No sign it earns fees from other people using it (+0)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>✅ Repo and website: website links the repo, repo links the website (+10)</li><li>ℹ️ Copy check couldn&#x27;t run yet: GitHub&#x27;s search hasn&#x27;t indexed this repo (common for new repos), will retry</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (bursar.world/docs), docs (bursar.world/llms-full.txt), docs (bursar.world/llms.txt), website (bursar.world))</li></ul><h4>Real code</h4><ul><li>✅ 21 changes over 38 days (+10)</li><li>❌ No smart contracts or tests (+0)</li></ul><h4>Team</h4><ul><li>❌ One person, new account, no outside interest: account 38 days old, 1 people, 0 stars, 0 forks (+0)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>✅ Safety info: SECURITY file, audit (+5)</li></ul><h4>Roadmap</h4><ul><li>Website has a roadmap page: https://bursar.world/roadmap</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? BURSAR 0xcce83a030692d89d66081fa8768346a5915878b0 was matched to github.com/bursar-world/landing. The right one is: ">Wrong repo?</button> Repo bursar-world/landing · 21 changes · created 2026-09-27 · last update 2026-11-04 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="45" data-new="1">
+  <header>
+    <div class="score mid">45<small>/100</small></div>
+    <div class="title">
+      <h2>ATLASC <span class='new'>NEW</span></h2>
+      <p class="sub">Atlas Class · found 2026-11-04 12:39 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x2785ecda3e8b4b920dc0aab6f287e421969a0233" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x2785ecda3e8b4b920dc0aab6f287e421969a0233" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/nathanliow/atlas-of-physics" target="_blank" rel="noopener">GitHub</a> · <a href="https://atlasclass.app/" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/tryatlasclass" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/tryatlasclass" target="_blank" rel="noopener">@tryatlasclass</a>: joined 31 Oct 2026 (3 days ago) · 338 followers · 8 posts · last post today · 3 posts in last 7 days · about 156 likes and 8,249 views per post · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">Atlas Class teaches AP science and math through interactive 3D textbooks and figures. Students take each concept apart and then practice.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Looks like it earns fees from users (exchange, hook) — guess from their text, needs a look (+20)</li><li>🟡 Says fees go back to the token (burn, stake) — claimed, not checked on chain (+10)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>🟡 Repo and website: website links the repo (+5)</li><li>✅ Copy check: 3 sample lines from their main code not found in anyone else&#x27;s older repo</li><li>ℹ️ 145 of 147 files arrived in the very first change — could be copied, or moved over from a private repo</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (atlasclass.app/docs), docs (atlasclass.app/llms-full.txt), docs (atlasclass.app/llms.txt), website (atlasclass.app/))</li></ul><h4>Real code</h4><ul><li>❌ 8 changes over 2 days (+0)</li><li>❌ No smart contracts or tests (+0)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 1258 days old, 1 people, 383 stars, 114 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>❌ No security, audit or timelock info (+0)</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? ATLASC 0x2785ecda3e8b4b920dc0aab6f287e421969a0233 was matched to github.com/nathanliow/atlas-of-physics. The right one is: ">Wrong repo?</button> Repo nathanliow/atlas-of-physics · 8 changes · created 2026-10-28 · last update 2026-10-30 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="70" data-new="1">
+  <header>
+    <div class="score hi">70<small>/100</small></div>
+    <div class="title">
+      <h2>GAGE <span class='new'>NEW</span></h2>
+      <p class="sub">GAGE · found 2026-11-04 12:39 UTC · $4.04M · exchange</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/DebenLabs/gage-audit" target="_blank" rel="noopener">GitHub</a> · <a href="https://gage.cash" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/gagedotcash" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/gagedotcash" target="_blank" rel="noopener">@gagedotcash</a>: joined 6 Sep 2026 (58 days ago), 0 days before the token · 2,157 followers · 1,075 posts · last post today · 12 posts in last 7 days · about 25.1 likes and 1,094 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">GAGE powers gage.cash, a peer-to-peer lending protocol on Robinhood Chain.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Looks like it earns fees from users (borrow, dex, exchange, fees) — guess from their text, needs a look (+20)</li><li>🟡 Says fees go back to the token (burn, buyback, fee share) — claimed, not checked on chain (+10)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>✅ Repo and website: website links the repo, repo links the website (+10)</li><li>ℹ️ Repo was created 44 days after the token launched</li><li>ℹ️ Copy check couldn&#x27;t run yet: GitHub&#x27;s search hasn&#x27;t indexed this repo (common for new repos), will retry</li><li>ℹ️ 300+ of 437 files arrived in the very first change — could be copied, or moved over from a private repo</li><li>✅ Their website mentions the token: its contract address — “t-ink&quot; href=&quot;/risk&quot;&gt;Risk disclosure Media &lt;a” (https://gage.cash)</li><li>✅ Their docs mentions the token: its contract address — “ddress / ID | Purpose | Source | | --- | --- | --- | --- | | GAGE | [<code>0x7163aE1B5AeA2f09EBc609C52b4dcAc0a7a4bC2d</code>](https://robinhoodchain.blockscout.com/address/0x7163aE1B5AeA2f09E” (https://gage.cash/llms-full.txt)</li><li>✅ Their docs mentions the token: &#x27;GAGE token&#x27; — “when volatility is low. Total pledged token value, including existing Gage token exposure, must be no larger than both 0.5% of conservative cap and tw” (https://gage.cash/llms-full.txt)</li><li>✅ Their docs mentions the token: its contract address — “------------------------------------------------------- | | GAGE | [<code>0x7163aE1B5AeA2f09EBc609C52b4dcAc0a7a4bC2d</code>](https://robinhoodchain.blockscout.com/address/0x7163aE1B5AeA2f09EB” (https://docs.gage.cash/llms-full.txt)</li></ul><h4>Real code</h4><ul><li>🟡 4 changes over 27 days (+5)</li><li>✅ Has smart contracts and tests (+10)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 92 days old, 1 people, 0 stars, 0 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>✅ Safety info: audit, timelock (+5)</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? GAGE 0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d was matched to github.com/DebenLabs/gage-audit. The right one is: ">Wrong repo?</button> Repo DebenLabs/gage-audit · 4 changes · created 2026-10-21 · last update 2026-10-21 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="0" data-new="1">
+  <header>
+    <div class="score lo">0<small>/100</small></div>
+    <div class="title">
+      <h2>HETAIROI <span class='new'>NEW</span></h2>
+      <p class="sub">Hetairoi AI Agent · found 2026-11-04 12:39 UTC · $5k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/HetairoiAgent/hetairoi" target="_blank" rel="noopener">GitHub</a> · <a href="https://hetairoiagent.cloud" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/HetairoiAgent" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/HetairoiAgent" target="_blank" rel="noopener">@HetairoiAgent</a>: joined 4 Nov 2026 (0 days ago) · 19 followers · 34 posts · last post today · 17+ posts in last 7 days · about 1.7 likes and 37 views per post · no past names on record (memory.lol, patchy)</p>
+  <div class='flag'>⚠️ 2,519 of its 2,540 files are byte-for-byte identical to openscout-app/scout: a renamed copy of OpenScout, made in 1 change on 3 Nov (checked by hand)</div>
+  <p class="desc">Hetairoi is an open-source agent mesh: Claude Code, Codex, Cursor, Grok, OpenCode and more ask each other for work, hand off tasks and report back, while you stay in control. Runs on your own machine. hetairoiagent.cloud</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>❌ No sign it earns fees from other people using it (+0)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>⛔ Score set to 0: this GitHub is not their own work (see the warning above)</li><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>🟡 Repo and website: website links the repo (+5)</li><li>ℹ️ Copy check couldn&#x27;t run yet: GitHub&#x27;s search hasn&#x27;t indexed this repo (common for new repos), will retry</li><li>✅ Their website mentions the token: $HETAIROI — “w mono&quot;&gt;IX — The token $HETAIROI The community behind the companions.” (https://hetairoiagent.cloud)</li><li>✅ Their docs mentions the token: $HETAIROI — “w mono&quot;&gt;IX — The token $HETAIROI The community behind the companions.” (https://hetairoiagent.cloud#token)</li></ul><h4>Real code</h4><ul><li>❌ 1 changes over 0 days (+0)</li><li>🟡 Has tests (+5)</li></ul><h4>Team</h4><ul><li>❌ One person, new account, no outside interest: account 1 days old, 1 people, 0 stars, 0 forks (+0)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>✅ Safety info: SECURITY file, audit (+5)</li></ul><h4>Checked by hand</h4><ul><li>Their real GitHub is in the website&#x27;s settings file (config.js): github.com/HetairoiAgent/hetairoi. The visible &#x27;GitHub&#x27; button only gets its link when the page loads</li><li>The website&#x27;s live settings (/api/site) give the official token address 0x74739ed2...0cd2, which matches this token, and X handle HetairoiAgent: the token and repo are the same team</li><li>The copy is allowed (OpenScout is Apache-2.0) and credited openly (&#x27;a distribution of OpenScout&#x27;); OpenScout itself never mentions Hetairoi</li><li>The GitHub account was created 3 Nov, the day before the token</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? HETAIROI 0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2 was matched to github.com/HetairoiAgent/hetairoi. The right one is: ">Wrong repo?</button> Repo HetairoiAgent/hetairoi · 1 changes · created 2026-11-03 · last update 2026-11-03 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="0" data-new="1">
+  <header>
+    <div class="score lo">0<small>/100</small></div>
+    <div class="title">
+      <h2>BUCKS <span class='new'>NEW</span></h2>
+      <p class="sub">Bucksonchain · found 2026-11-04 12:39 UTC · $3k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x1abb9127a65047b75747c3500f6344069cfb179a" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x1abb9127a65047b75747c3500f6344069cfb179a" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/priors-agents/priors" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.undertow.agency/" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/bucksonchain" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/bucksonchain" target="_blank" rel="noopener">@bucksonchain</a>: joined 17 Oct 2026 (18 days ago) · 69 followers · 351 posts · last post today · 15+ posts in last 7 days · about 8.5 likes and 720 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  <div class='flag'>⚠️ Repo never mentions this token, its name or its website (repo&#x27;s own site is priors.trade) — may be someone else&#x27;s project</div>
+  <p class="desc">Onchain agent #8811 on @orbiodotso hook research, experiments ... more to come\n\nMoney doesn&#x27;t grow on trees. Credit does.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Looks like it earns fees from users (borrow, fees, hook, launchpad) — guess from their text, needs a look (+20)</li><li>🟡 Says fees go back to the token (burn, stake, stakers) — claimed, not checked on chain (+10)</li></ul><h4>Really theirs</h4><ul><li>⛔ Score set to 0: this GitHub is not their own work (see the warning above)</li><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>🟡 Repo and website: website links the repo (+5)</li><li>✅ Copy check: 3 sample lines from their main code not found in anyone else&#x27;s older repo</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (www.undertow.agency/llms.txt), website (www.undertow.agency/))</li></ul><h4>Real code</h4><ul><li>✅ 278 changes over 45 days (+10)</li><li>✅ Has smart contracts and tests (+10)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 46 days old, 1 people, 7 stars, 9 forks (+10)</li></ul><h4>Safety</h4><ul><li>✅ Contract addresses listed in the README (+5)</li><li>✅ Safety info: SECURITY file, audit, timelock (+5)</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? BUCKS 0x1abb9127a65047b75747c3500f6344069cfb179a was matched to github.com/priors-agents/priors. The right one is: ">Wrong repo?</button> Repo priors-agents/priors · 278 changes · created 2026-09-19 · last update 2026-11-04 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="0" data-new="1">
+  <header>
+    <div class="score lo">0<small>/100</small></div>
+    <div class="title">
+      <h2>Perpets <span class='new'>NEW</span></h2>
+      <p class="sub">Perpets · found 2026-11-04 12:39 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x76b6cdb023ba935283547fe9c3addb305d6d48b0" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x76b6cdb023ba935283547fe9c3addb305d6d48b0" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/perpetsdev/" target="_blank" rel="noopener">GitHub</a> · <a href="https://perpets.lol" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/PerpetsRh" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/PerpetsRh" target="_blank" rel="noopener">@PerpetsRh</a>: joined 4 Nov 2026 (0 days ago) · 9 followers · 1 posts · no recent posts · no past names on record (memory.lol, patchy)</p>
+  <div class='flag'>⚠️ GitHub account perpetsdev has no public code</div>
+  <p class="desc"></p>
+  <details open><summary>Why this score</summary><h4>Really theirs</h4><ul><li>❌ github.com/perpetsdev has no public repos</li></ul><h4>Roadmap</h4><ul></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? Perpets 0x76b6cdb023ba935283547fe9c3addb305d6d48b0 was matched to github.com/perpetsdev/. The right one is: ">Wrong repo?</button> Repo perpetsdev/ · ? changes · created ? · last update ? · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="0" data-new="1">
+  <header>
+    <div class="score lo">0<small>/100</small></div>
+    <div class="title">
+      <h2>FLOEM <span class='new'>NEW</span></h2>
+      <p class="sub">Floem · found 2026-11-04 12:39 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x257bd594a54f04c3a5d77f87971233b13236c091" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x257bd594a54f04c3a5d77f87971233b13236c091" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/floemdotfun/" target="_blank" rel="noopener">GitHub</a> · <a href="https://floem.fun" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/floemdotfun_" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/floemdotfun_" target="_blank" rel="noopener">@floemdotfun_</a>: joined 4 Nov 2026 (0 days ago) · 0 followers · 13 posts · last post today · 5 posts in last 7 days · about 0 likes and 5 views per post · no past names on record (memory.lol, patchy)</p>
+  <div class='flag'>⚠️ GitHub account floemdotfun has no public code</div><div class='flag'>⚠️ Near-identical X name to another token (FLOEM: @floemdotfun), possible copycat</div>
+  <p class="desc">A garden for onchain markets. Launch tokens, trade perps, earn as LP. \nBuilt in the open on Robinhood Chain.</p>
+  <details open><summary>Why this score</summary><h4>Really theirs</h4><ul><li>❌ github.com/floemdotfun has no public repos</li></ul><h4>Roadmap</h4><ul></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? FLOEM 0x257bd594a54f04c3a5d77f87971233b13236c091 was matched to github.com/floemdotfun/. The right one is: ">Wrong repo?</button> Repo floemdotfun/ · ? changes · created ? · last update ? · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="60" data-new="1">
+  <header>
+    <div class="score hi">60<small>/100</small></div>
+    <div class="title">
+      <h2>XMTRX <span class='new'>NEW</span></h2>
+      <p class="sub">xMatrix · found 2026-11-04 12:39 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0xbf019e7f6eab2f04b374b6a98a482c50b157bd1b" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0xbf019e7f6eab2f04b374b6a98a482c50b157bd1b" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/LambdaLabsHQ/xmatrix" target="_blank" rel="noopener">GitHub</a> · <a href="https://xmatrix.page" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/xMatrix_hq" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/xMatrix_hq" target="_blank" rel="noopener">@xMatrix_hq</a>: joined 15 Sep 2026 (49 days ago) · 2 followers · 1 posts · last post 16 Oct 2026 · 0 posts in last 7 days · about 0 likes and 291 views per post · verified (individual) · no past names on record (memory.lol, patchy)</p>
+  <div class='flag'>⚠️ No X posts in 18 days</div>
+  <p class="desc">Teams and their coding agents meet in one conversation on xMatrix. Each discussion becomes a living page of decisions, open work.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Looks like it earns fees from users (hook, options, payments) — guess from their text, needs a look (+20)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>✅ Repo and website: website links the repo, repo links the website (+10)</li><li>ℹ️ Copy check couldn&#x27;t run yet: GitHub&#x27;s search hasn&#x27;t indexed this repo (common for new repos), will retry</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (xmatrix.page/docs), docs (xmatrix.page/docs/connectors), docs (xmatrix.page/llms-full.txt), docs (xmatrix.page/llms.txt), website (xmatrix.page))</li></ul><h4>Real code</h4><ul><li>✅ 1378 changes over 29 days (+10)</li><li>🟡 Has tests (+5)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 212 days old, 1 people, 90 stars, 3 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>✅ Safety info: SECURITY file, audit (+5)</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? XMTRX 0xbf019e7f6eab2f04b374b6a98a482c50b157bd1b was matched to github.com/LambdaLabsHQ/xmatrix. The right one is: ">Wrong repo?</button> Repo LambdaLabsHQ/xmatrix · 1378 changes · created 2026-10-04 · last update 2026-11-04 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="60" data-new="1">
+  <header>
+    <div class="score hi">60<small>/100</small></div>
+    <div class="title">
+      <h2>ORDE <span class='new'>NEW</span></h2>
+      <p class="sub">Ordewell · found 2026-11-04 12:39 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0xa4018d961759d729996f4db6d8eed7538091ecaa" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0xa4018d961759d729996f4db6d8eed7538091ecaa" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/ordewell/ordewell" target="_blank" rel="noopener">GitHub</a> · <a href="https://ordewell.ai" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/ordewell_ai" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/ordewell_ai" target="_blank" rel="noopener">@ordewell_ai</a>: joined 3 Nov 2026 (0 days ago) · 14 followers · 14 posts · last post today · 13 posts in last 7 days · about 1.8 likes and 44 views per post · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">Open-source orchestration for coding agents. Plan, coordinate, and execute tasks across multiple agents in one workflow.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>🟡 Looks like it earns fees from users (exchange, marketplace, options) — guess from their text, needs a look (+20)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>✅ Repo and website: website links the repo, repo links the website (+10)</li><li>✅ Copy check: 3 sample lines from their main code not found in anyone else&#x27;s older repo</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (ordewell.ai/docs), docs (ordewell.ai/docs.html), docs (ordewell.ai/llms.txt), website (ordewell.ai))</li></ul><h4>Real code</h4><ul><li>✅ 2387 changes over 96 days (+10)</li><li>🟡 Has tests (+5)</li></ul><h4>Team</h4><ul><li>✅ Not a brand-new one-person repo: account 96 days old, 8 people, 209 stars, 20 forks (+10)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>✅ Safety info: SECURITY file, audit (+5)</li></ul><h4>Roadmap</h4><ul><li>CHANGELOG.md: 65 updates shipped so far</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? ORDE 0xa4018d961759d729996f4db6d8eed7538091ecaa was matched to github.com/ordewell/ordewell. The right one is: ">Wrong repo?</button> Repo ordewell/ordewell · 2387 changes · created 2026-07-31 · last update 2026-11-04 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="10" data-new="1">
+  <header>
+    <div class="score lo">10<small>/100</small></div>
+    <div class="title">
+      <h2>AVERL <span class='new'>NEW</span></h2>
+      <p class="sub">Averlet · found 2026-11-04 12:10 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0x6624dc7ea0d54c36ecab3956e5bac5b21b695189" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0x6624dc7ea0d54c36ecab3956e5bac5b21b695189" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/Averlet/averlet.github.io" target="_blank" rel="noopener">GitHub</a> · <a href="https://averlet.dev" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/averlet_" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/averlet_" target="_blank" rel="noopener">@averlet_</a>: joined 2 Nov 2026 (2 days ago) · 0 followers · 1 posts · no recent posts · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">Averlet is a new start for error tracking. It helps developers read the message, the exception and the stack frames together.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>❌ No sign it earns fees from other people using it (+0)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>✅ Repo and website: website links the repo, repo links the website (+10)</li><li>ℹ️ Copy check couldn&#x27;t run yet: GitHub&#x27;s search hasn&#x27;t indexed this repo (common for new repos), will retry</li><li>❌ Their website, docs and GitHub never mention the token (read: docs (averlet.dev/docs), docs (averlet.dev/llms-full.txt), docs (averlet.dev/llms.txt), website (averlet.dev))</li></ul><h4>Real code</h4><ul><li>❌ 3 changes over 0 days (+0)</li><li>❌ No smart contracts or tests (+0)</li></ul><h4>Team</h4><ul><li>❌ One person, new account, no outside interest: account 5 days old, 1 people, 0 stars, 0 forks (+0)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>❌ No security, audit or timelock info (+0)</li></ul><h4>Roadmap</h4><ul><li>No roadmap found in the repo or on the website</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? AVERL 0x6624dc7ea0d54c36ecab3956e5bac5b21b695189 was matched to github.com/Averlet/averlet.github.io. The right one is: ">Wrong repo?</button> Repo Averlet/averlet.github.io · 3 changes · created 2026-11-03 · last update 2026-11-03 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<article class="card" data-score="25" data-new="1">
+  <header>
+    <div class="score lo">25<small>/100</small></div>
+    <div class="title">
+      <h2>TELEPORT <span class='new'>NEW</span></h2>
+      <p class="sub">Open Teleport · found 2026-11-04 12:10 UTC · $4k · Pons launchpad (curve)</p>
+      <p class="links"><a href="https://ponsfamily.com/launchpad/0xa4d0d038c6998c43f672fbcd21324c4363a2371c" target="_blank" rel="noopener">Pons</a> · <a href="https://dexscreener.com/robinhood/0xa4d0d038c6998c43f672fbcd21324c4363a2371c" target="_blank" rel="noopener">DexScreener</a> · <a href="https://github.com/Open-Teleport/openteleport" target="_blank" rel="noopener">GitHub</a> · <a href="https://openteleport.dev" target="_blank" rel="noopener">Website</a> · <a href="https://x.com/openteleportdev" target="_blank" rel="noopener">X</a></p>
+    </div>
+  </header>
+  <p class='xline'>𝕏 <a href="https://x.com/openteleportdev" target="_blank" rel="noopener">@openteleportdev</a>: joined 4 Nov 2026 (0 days ago) · 21 followers · 18 posts · last post today · 13 posts in last 7 days · about 3.5 likes and 84 views per post · no past names on record (memory.lol, patchy)</p>
+  
+  <p class="desc">OpenTeleport moves AI agents between apps in one command. $TELEPORT is its token. One agent format, eight apps, any direction.</p>
+  <details open><summary>Why this score</summary><h4>Platform</h4><ul><li>❌ No sign it earns fees from other people using it (+0)</li><li>❌ No sign fees go back to the token (+0)</li></ul><h4>Really theirs</h4><ul><li>❌ Repo never mentions this token&#x27;s address (+0)</li><li>✅ Repo and website: website links the repo, repo links the website (+10)</li><li>ℹ️ Copy check couldn&#x27;t run yet: GitHub&#x27;s search hasn&#x27;t indexed this repo (common for new repos), will retry</li><li>❌ Their website, docs and GitHub never mention the token (read: website (openteleport.dev))</li></ul><h4>Real code</h4><ul><li>✅ 325 changes over 7 days (+10)</li><li>🟡 Has tests (+5)</li></ul><h4>Team</h4><ul><li>❌ One person, new account, no outside interest: account 7 days old, 1 people, 0 stars, 0 forks (+0)</li></ul><h4>Safety</h4><ul><li>❌ No contract addresses in the README (+0)</li><li>❌ No security, audit or timelock info (+0)</li></ul><h4>Roadmap</h4><ul><li>CHANGELOG.md: 11 updates shipped so far</li></ul>
+  <p class="meta"><button class="wrong" data-msg="Wrong repo? TELEPORT 0xa4d0d038c6998c43f672fbcd21324c4363a2371c was matched to github.com/Open-Teleport/openteleport. The right one is: ">Wrong repo?</button> Repo Open-Teleport/openteleport · 325 changes · created 2026-10-28 · last update 2026-11-04 · scored 2026-11-04 13:37 UTC</p></details>
+</article>
+<details class='card'><summary>Skipped GitHub links, last 7 days (15 tokens)</summary><p class='sub'>Links the scanner found but did not use, mostly code libraries inside websites. If a real project is here, tell Claude and it goes in reviews.json.</p><ul><li><b>Ferris</b> (2026-11-04, ferriswheel.tech): no repo used; ignored <a href="https://github.com/ethers-io/ethers.js" target="_blank" rel="noopener">ethers-io/ethers.js</a></li><li><b>MYCURVE</b> (2026-11-04, mycurve.fun): no repo used; ignored <a href="https://github.com/uuidjs/uuid" target="_blank" rel="noopener">uuidjs/uuid</a></li><li><b>HYDX</b> (2026-11-04, hyperdex.app): no repo used; ignored <a href="https://github.com/timostamm/protobuf-ts" target="_blank" rel="noopener">timostamm/protobuf-ts</a></li><li><b>PerpScape</b> (2026-11-04, perpscape.quest): no repo used; ignored <a href="https://github.com/aeyakovenko/percolator-cli" target="_blank" rel="noopener">aeyakovenko/percolator-cli</a>, <a href="https://github.com/solana-labs/wallet-standard" target="_blank" rel="noopener">solana-labs/wallet-standard</a>, <a href="https://github.com/uuidjs/uuid" target="_blank" rel="noopener">uuidjs/uuid</a></li><li><b>EDIT</b> (2026-11-04, rustedit.dev): used <a href="https://github.com/longbridge/gpui-component" target="_blank" rel="noopener">longbridge/gpui-component</a>; ignored <a href="https://github.com/alacritty/alacritty" target="_blank" rel="noopener">alacritty/alacritty</a></li><li><b>CUBE</b> (2026-11-04, cube.computer): used <a href="https://github.com/collabs-inc/cube-releases" target="_blank" rel="noopener">collabs-inc/cube-releases</a>; ignored <a href="https://github.com/collabs-inc" target="_blank" rel="noopener">collabs-inc</a>, <a href="https://github.com/collabs-inc/collab-public" target="_blank" rel="noopener">collabs-inc/collab-public</a></li><li><b>?</b> (2026-11-04, hoodfellas.org): no repo used; ignored <a href="https://github.com/vercel/storage" target="_blank" rel="noopener">vercel/storage</a></li><li><b>GTAPAD</b> (2026-11-04, trygtapad.fun): no repo used; ignored <a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener">supabase/supabase-js</a></li><li><b>KODKID</b> (2026-11-04, kodingkids.app): no repo used; ignored <a href="https://github.com/ungap/url-search-params." target="_blank" rel="noopener">ungap/url-search-params.</a></li><li><b>GTAPAD</b> (2026-11-04, trygtapad.fun): no repo used; ignored <a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener">supabase/supabase-js</a></li><li><b>GTAPAD</b> (2026-11-04, trygtapad.fun): no repo used; ignored <a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener">supabase/supabase-js</a></li><li><b>HOOKIT</b> (2026-11-04, hookit.fun): no repo used; ignored <a href="https://github.com/krakenfx/kraken-cli" target="_blank" rel="noopener">krakenfx/kraken-cli</a></li><li><b>GLOBYR</b> (2026-11-04, globyr.xyz): no repo used; ignored <a href="https://github.com/ethers-io/ethers.js" target="_blank" rel="noopener">ethers-io/ethers.js</a></li><li><b>PerpScape</b> (2026-11-04, perpscape.quest): no repo used; ignored <a href="https://github.com/aeyakovenko/percolator-cli" target="_blank" rel="noopener">aeyakovenko/percolator-cli</a>, <a href="https://github.com/solana-labs/wallet-standard" target="_blank" rel="noopener">solana-labs/wallet-standard</a>, <a href="https://github.com/uuidjs/uuid" target="_blank" rel="noopener">uuidjs/uuid</a></li><li><b>LETHE</b> (2026-11-04, lethebridge.com): no repo used; ignored <a href="https://github.com/partykit/partykit" target="_blank" rel="noopener">partykit/partykit</a>, <a href="https://github.com/uuidjs/uuid" target="_blank" rel="noopener">uuidjs/uuid</a></li></ul></details>
+</main><script>
+document.querySelectorAll('button.wrong').forEach(b=>b.onclick=()=>{const m=b.dataset.msg;
+const done=()=>{b.textContent='Copied: paste it to Claude and add the right repo';};
+if(navigator.clipboard)navigator.clipboard.writeText(m).then(done,()=>prompt('Copy this and paste it to Claude:',m));else prompt('Copy this and paste it to Claude:',m);});
+document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.bar button').forEach(x=>x.classList.toggle('on',x===b));
+const f=b.dataset.f;document.querySelectorAll('.card').forEach(c=>{const s=+c.dataset.score,n=c.dataset.new==='1',fl=!!c.querySelector('.flag');
+c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))?'':'none'})});
+</script></body></html>
