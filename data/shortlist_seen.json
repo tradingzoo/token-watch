@@ -66,10 +66,10 @@
   },
   "0xaf2d6cc1586539997840d4635480c2f8494dac2e": {
    "symbol": "KILLFLOOR",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-05T18:17:33+00:00"
   },
   "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": {
    "symbol": "AUTONOMO",
@@ -115,10 +115,10 @@
   },
   "0x61e0deba0a6bd1d0df92af816739449c861e3cce": {
    "symbol": "SYNTHS",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-05T17:04:37+00:00"
+   "left": null
   },
   "0x89b76dcdda801f2e456765742c64950eb2a0c93c": {
    "symbol": "BORRO",
@@ -143,10 +143,10 @@
   },
   "0xa4ddf89a40a35264e9d7f896a1ef01c59b1e977a": {
    "symbol": "ANYR",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T14:50:31+00:00",
-   "left": null
+   "left": "2026-11-05T18:17:33+00:00"
   },
   "0xb33eb16782776b4d738c0fd643577cb0284db610": {
    "symbol": "HEY",
