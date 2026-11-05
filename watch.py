@@ -1098,6 +1098,41 @@ def shortlist_html(picks, e):
                if early else ""))
 
 
+# --- Still building (5 Nov): the team's own token + real GitHub changes on several different days lately ---
+BUILD_DAYS = 3             # different days with real (non-bot) changes in the last 8 days
+BUILD_RECENT = 3           # and a change in the last this-many days
+BUILD_AGE = 3              # token at least this many days old, so the work is after launch, not just before it
+
+
+def build_activity(a, ship):
+    """(days active in the last 8, changes, days since last change) from the still-shipping data, or None."""
+    s = ((ship or {}).get("tokens") or {}).get(a.lower()) or {}
+    runs = [x for x in s.get("runs", []) if "per_day" in x]
+    if not runs:
+        return None
+    first = (NOW - datetime.timedelta(days=7)).strftime("%Y-%m-%d")  # 8 calendar days, today included
+    pd = {d: n for d, n in (runs[-1]["per_day"] or {}).items() if d >= first}
+    last = runs[-1].get("last_commit")
+    since = days_between(NOW, iso(last)) if last else 99
+    return len(pd), sum(pd.values()), since
+
+
+def building_html(picks, e):
+    """picks: (row, sc, warnings, activity, card_html)."""
+    ok = [p for p in picks if p[3] and p[3][0] >= BUILD_DAYS and p[3][2] <= BUILD_RECENT
+          and days_between(NOW, iso(p[0].get("launched") or p[0]["first_seen"])) >= BUILD_AGE]
+    ok.sort(key=lambda p: (-p[3][0], -p[3][1]))
+    def one(p):
+        d, n, since = p[3]
+        line = f"🛠️ Real changes on {d} of the last 8 days ({n} changes), last one {('today' if since < 1 else f'{since:.0f} days ago')}"
+        return p[4].replace('<p class="verdict">', f'<p class="signs">{e(line)}</p><p class="verdict">', 1)
+    return (f"<h2 style='margin:22px 0 6px'>Still building: teams that keep working</h2>"
+            f"<p class='top'>The team's own token (they post its address or mention it), no score warnings, launched {BUILD_AGE}+ days ago, "
+            f"and real GitHub changes on at least {BUILD_DAYS} different days in the last 8, the latest in the last {BUILD_RECENT} days. "
+            f"Bots don't count. Price doesn't matter here. Teams with no public code can't show up yet. Most active first.</p>"
+            + ("".join(one(p) for p in ok) or "<p class='muted'>No token passes right now.</p>"))
+
+
 def ago(ts):
     """'40 min ago', '5 h ago', '3 days ago'."""
     if not ts:
@@ -1194,7 +1229,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
     e = html.escape
     def md(s):  # `code` only
         return re.sub(r"`([^`]+)`", r"<code>\1</code>", e(s))
-    cards, site_cards, picks = [], [], []
+    cards, site_cards, picks, builders = [], [], [], []
     reviews = json.load(open(REVIEWS, encoding="utf-8")) if os.path.exists(REVIEWS) else {}
     for r in rows + site_rows:
         sc = r["scoring"]
@@ -1282,6 +1317,9 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
   {meta_html}</details>
   </details>
 </article>"""))
+        if (sc["score"] > 0 and not unclaimed and not unoff and not sc.get("flags")
+                and r["address"].lower() not in {p[0]["address"].lower() for p in builders}):
+            builders.append((r, sc, warn_items, build_activity(a_, ship), (site_cards if is_site else cards)[-1][2]))
         if sc["score"] > 0 and not unclaimed and not warn_items and r["address"].lower() not in {p[0]["address"].lower() for p in picks}:
             picks.append((r, sc, warn_items, (pdb.get(a_.lower()) or {}).get("market") or {}, winner_signs(r, sc),
                           (site_cards if is_site else cards)[-1][2]))
@@ -1329,6 +1367,7 @@ ul{{margin:0;padding-left:20px}} button.wrong{{font-size:12px;border:1px solid v
 <h1>Token Watch</h1>
 <nav class="tabs" id="tabs">
 <a href="#short" data-tab="short">Shortlist <span class="cnt">{sum(1 for p in picks if len(p[4]) >= SHORT_SIGNS and (p[3].get('trades24') or 0) >= SHORT_TRADES and (p[3].get('liq') or 0) >= SHORT_LIQ)}</span></a>
+<a href="#building" data-tab="building">Still building</a>
 <a href="#github" data-tab="github">GitHub <span class="cnt">{len(rows)}</span></a>
 <a href="#sites" data-tab="sites">Site check <span class="cnt">{len(site_rows)}</span></a>
 <a href="#test" data-tab="test">30-day test</a>
@@ -1337,6 +1376,7 @@ ul{{margin:0;padding-left:20px}} button.wrong{{font-size:12px;border:1px solid v
 </nav>
 <p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
 <section class="tab" id="short">{shortlist_html(picks, e)}</section>
+<section class="tab" id="building">{building_html(builders, e)}</section>
 <section class="tab" id="sites">
 <h2 style="margin:22px 0 6px">Site check: tokens whose website lets developers and AI agents plug in</h2>
 <p class="top">No GitHub needed. Listed when their own website has at least {sitecheck.LIST_AT} of API key, SDK, MCP and llms.txt.

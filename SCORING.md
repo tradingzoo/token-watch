@@ -151,3 +151,11 @@ Most signs first, then score. Tokens that pass everything except trading go unde
 
 ## Maybe not official (hand note)
 `"unofficial": "why"` in reviews.json puts a ❓ badge and a warning on the card. The score doesn't change, but it keeps the token off the Shortlist. First used on CAPAFY (5 Nov): Capafy never mentions a token and a brand-new wallet made it.
+
+## Still building tab (5 Nov)
+Teams that keep working, whatever the price does. A token is listed when all of these hold:
+- It's the team's own token (they post its address or mention it), with no score warnings and no ❓ maybe-not-official note.
+- It launched 3+ days ago, so the work counts after launch and not just in the run-up to it.
+- Its GitHub has real changes (bots don't count) on at least 3 different days out of the last 8, the latest within 3 days.
+
+Data comes from the still-shipping check (shipping.py). Teams with no public code can't show up yet.
