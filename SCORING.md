@@ -102,7 +102,7 @@ Caveat: these are today's websites, so a winner may have built its developer pag
 | Part | What counts | Points |
 |---|---|---|
 | **Plug-in tools (45)** | API keys (incl. a holder's key or `Authorization: Bearer`) 10 · SDK or install line 10 · MCP 10 · llms.txt 10 · developer page (/developers, /docs, /build) or docs link 5 | 45 |
-| **Really theirs (25)** | Token's address on their website/docs, or posted by their official X (30+ days old) 15 · 2+ contract addresses listed 5 · works with past winners (Hookr, Orbio, Raeto, Priors, Harmonic, WTH, Fobo, Delta; not itself) 5 | 25 |
+| **Really theirs (25)** | Token's address on their website/docs, or posted by their official X (30+ days old) 15 · 2+ contract addresses listed 5 · works with past winners (Hookr, Orbio, Raeto, Priors, Harmonic, WTH, Fobo, Delta, UBIK; not itself) 5 | 25 |
 | **Money and Robinhood Chain (20)** | Says money goes back to the token (buyback, burn, staking, revenue share) **or** holding the token unlocks the product (e.g. "a wallet holding 200,000 UBIK", token-gated), 🟡 claimed, not checked 10 · uses stock tokens or USDG, on the site or as its trading pair (paired with USDG, TSLA, NVDA…) 10 | 20 |
 | **Live product (15)** | App, dashboard, console or wallet connect 5, or an app with 3+ sections (like SIC) 10 · made for AI agents (on the site, or in their official X's recent posts) 5 · mentions an audit, 🟡 not checked 5 | 15 |
 

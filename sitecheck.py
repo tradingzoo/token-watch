@@ -32,10 +32,11 @@ OTHER = {
     "app": r"launch (?:app|console)|open app|connect wallet|\bdashboard\b",
     "audit": r"\baudit(?:ed)?\b",
     "agents": r"\bAI agents?\b|\bagents? (?:can|pay|that)\b|\byour agents?\b|\bfor agents\b|\bagent[- ]native\b",
-    "winners": r"hookr\.fun|orbio\.so|raeto\.cc|priors\.trade|harmonicagent|whatthehook|fobo\.fun|deltaliquidity",
+    "winners": r"hookr\.fun|orbio\.so|raeto\.cc|priors\.trade|harmonicagent|whatthehook|fobo\.fun|deltaliquidity|ubik\.gold",
 }
 WINNER_NAMES = {"hookr.fun": "Hookr", "orbio.so": "Orbio", "raeto.cc": "Raeto", "priors.trade": "Priors",
-                "harmonicagent": "Harmonic", "whatthehook": "WTH", "fobo.fun": "Fobo", "deltaliquidity": "Delta"}
+                "harmonicagent": "Harmonic", "whatthehook": "WTH", "fobo.fun": "Fobo", "deltaliquidity": "Delta",
+                "ubik.gold": "UBIK"}  # UBIK added 5 Nov ($23M peak, $6M now)
 SOCIAL = re.compile(r"(?:^|\.)(?:x\.com|twitter\.com|t\.me|t\.co|github\.com|ponsfamily\.com|pons\.family|reddit\.com|youtube\.com|youtu\.be|"
                     r"instagram\.com|tiktok\.com|dexscreener\.com|gmgn\.ai|linktr\.ee|discord\.gg|discord\.com|medium\.com)$")
 
