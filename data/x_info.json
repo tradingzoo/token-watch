@@ -2637,7 +2637,7 @@
     "Built for AI agents. Before your agent borrows, it can check the offer against SBOR. Free MCP server, no key: npx -y sbor-mcp. Each day\u2019s rate is also posted on-chain on Arc, Base, Hyperliquid, Solana and Stacks.",
     "Is 6% a good rate to borrow dollars against bitcoin? Alone, a rate tells you nothing. Credit markets judge offers against a published market rate, like SOFR for dollars borrowed against Treasuries. SBOR publishes one for dollars borrowed against bitcoin. https://sbor.xyz"
    ],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "passgramapp": {
    "handle": "PassGramApp",
@@ -2654,7 +2654,7 @@
    "sample_full_week": false,
    "posts_7d": 1,
    "avg_likes": 0.4,
-   "avg_views": 25,
+   "avg_views": 26,
    "bio_site": "http://passgram.io",
    "bio": "The first open-source, fully automated subscription management miniapp for VIP Telegram channels powered by TON Network.",
    "cas": [],
@@ -2666,7 +2666,7 @@
     "If you run a Telegram VIP group or signal channel, try it out today! \ud83e\udd16 Bot: https://t.me/PassGramBot \ud83c\udf10 Web: https://passgram.io Feedback is always welcome. Let\u2019s build on TON! \ud83d\udc8e\ud83d\ude80",
     "\ud83d\ude80 Introducing PassGram: The Future of Telegram VIP Subscriptions on TON! Say goodbye to manual payment checks, tracking spreadsheets, and manually removing expired members. PassGram is a 100% open-source @telegram Mini App powered by TON Smart Contracts that fully automates subscription management f"
    ],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "darkwoodslabs": {
    "handle": "darkwoodslabs",
@@ -2674,25 +2674,27 @@
    "id": "2100211842954010625",
    "name": "darkwoods",
    "joined": "2026-09-16T13:20:58+00:00",
-   "followers": 2517,
+   "followers": 2525,
    "following": 0,
-   "posts": 126,
+   "posts": 129,
    "verified": "individual",
-   "last_post": "2026-11-03T20:41:22+00:00",
-   "sample": 2,
+   "last_post": "2026-11-05T12:41:01+00:00",
+   "sample": 4,
    "sample_full_week": false,
-   "posts_7d": 2,
-   "avg_likes": 47.5,
-   "avg_views": 3207,
+   "posts_7d": 4,
+   "avg_likes": 37.5,
+   "avg_views": 2410,
    "bio_site": "http://darkwoods.ai",
    "bio": "Private AI: frontier and open models, image and video. Prompts never logged. Pay by card or crypto. $DARK on Robinhood Chain.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "Congratulations once again to all our Darkwoods ScreamFest winners! A final reminder: 24 hours remain to submit your wallet addresses to claim your prizes. If you haven't submitted yours yet, please DM us directly. Thank you to everyone who took part in ScreamFest.",
+    "@doctorwasif @Itswsm105f @Strength04_X @PolyDekos @mrdejie @0xblaqdice @alkcemy @Ihavedrean @banan_crypto @Solicyy_ @edoweb3 @Chadtardio @darryl @0xsilverfang @Blackstuntman23 @500altcoins @Sybilian_ @Ai5pvn @EricCryptoman @mavieaumaroc",
     "https://x.com/i/article/2117698439764971520",
     "SCREAMFEST IS OFFICIALLY CLOSED. A huge thank you to everyone who took part and brought their horror creations to life with Darkwoods. Entries are now with our panel of expert judges for review. \ud83c\udfc6 The $10,000 prize pool is up for grabs. Winners will be announced shortly. Good luck to everyone who en"
    ],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "agentwormhole": {
    "handle": "agentwormhole",
@@ -2700,16 +2702,16 @@
    "id": "2080916983990894592",
    "name": "Agent Wormhole",
    "joined": "2026-07-25T07:24:50+00:00",
-   "followers": 4344,
+   "followers": 4350,
    "following": 32,
-   "posts": 368,
+   "posts": 371,
    "verified": "organization",
-   "last_post": "2026-11-04T22:16:42+00:00",
+   "last_post": "2026-11-05T18:45:12+00:00",
    "sample": 19,
    "sample_full_week": false,
-   "posts_7d": 14,
-   "avg_likes": 89.8,
-   "avg_views": 3870,
+   "posts_7d": 13,
+   "avg_likes": 89.7,
+   "avg_views": 3828,
    "bio_site": "http://agentwormhole.com",
    "bio": "The security layer for agentic finance, built on @robinhoodapp / @robinhoodcrypto \ud83e\udeb1\ud83d\udd73\ufe0f Launch and trade for humans and agents at https://wormbook.xyz",
    "cas": [
@@ -2717,6 +2719,7 @@
    ],
    "fake_posts": [],
    "texts": [
+    "The agents are calling and we must scan.",
     "Brick by brick. Scan by scan. Built on @RobinhoodCrypto.",
     "Robinhood Chain is moving fast, and AI agents are already trading on it. We're building the security layer for those agents. 1.2M+ scans and 6 integrations live here so far. Our builder grant application is in. Hoping to show up in the next roundup.",
     "Privacy, Security, and most importantly Verification. \ud83e\udeb1",
@@ -2734,10 +2737,9 @@
     "Our security checks are now live in @routedotfun's screener. Same protection for humans and agents: spot hidden injections in a token before you trade it, not after.",
     "Robinhood chain szn",
     "Agentic finance belongs on Robinhood.",
-    "Your agent can run on Wormbook today. Add one line to any MCP client and it gets 30+ tools: read the feed, post callouts, make calls, quote trades and launch coins on Robinhood Chain. Every write is signed with your agent's own key. Wormbook never signs for you. http://wormbook.xyz/mcp",
-    "Your agents work. You live. Trades, callouts and launches on Wormbook, all from their own wallets. Only on https://wormbook.xyz"
+    "Your agent can run on Wormbook today. Add one line to any MCP client and it gets 30+ tools: read the feed, post callouts, make calls, quote trades and launch coins on Robinhood Chain. Every write is signed with your agent's own key. Wormbook never signs for you. http://wormbook.xyz/mcp"
    ],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "trenchersio": {
    "handle": "trenchersio",
@@ -2752,16 +2754,16 @@
    "id": "2117961905151078402",
    "name": "VIGIL",
    "joined": "2026-11-04T12:49:09+00:00",
-   "followers": 5,
+   "followers": 4,
    "following": 2,
-   "posts": 10,
+   "posts": 9,
    "verified": null,
    "last_post": "2026-11-05T09:22:57+00:00",
    "sample": 8,
    "sample_full_week": false,
    "posts_7d": 8,
    "avg_likes": 1.1,
-   "avg_views": 30,
+   "avg_views": 39,
    "bio_site": "https://vigilhq.xyz/",
    "bio": "Real-time contract monitoring for Robinhood Chain. Alerts with proof when ownership, upgrades, supply or liquidity change.",
    "cas": [
@@ -2778,7 +2780,7 @@
     "The alert, with its transaction and block: https://vigilhq.xyz/alert/fnd_01m6k0evvb0dhe0z0sespjaz8h",
     "VIGIL is now live. Real-time contract monitoring for Robinhood Chain. Get alerted within seconds when a contract's ownership, upgrades, roles, supply or liquidity change, with the transaction as proof. https://vigilhq.xyz"
    ],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "skillry_dev": {
    "handle": "skillry_dev",
@@ -2790,18 +2792,39 @@
    "following": 109,
    "posts": 73,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-04T04:30:00+00:00",
+   "sample": 20,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 5,
+   "avg_likes": 0.6,
+   "avg_views": 209,
    "bio_site": "https://skillry.dev",
    "bio": "Agent Skills with taste. Curated workflows for websites, slides, images & video. Works with Claude Code, Codex, Cursor & more.",
    "cas": [],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "texts": [
+    "Your next deck? Hand it to your agent. Skillry PPT Skills let Claude Code or Codex turn your notes into a deck that looks designed, not generated. Pick a style, edit in your browser, export to PowerPoint. We bring the taste. Your agent does the work. \ud83d\udc47 Link in the reply",
+    "\ud83c\udf89Black Friday comes early at Skillry 50% off Pro, now through Nov 30. Monthly: $19.9 \u2192 $9.99 Yearly: $158 \u2192 $79 Every Premium Skill, plus every new one we ship. Install straight into your agent via MCP. Make your AI output look designed, not generated. Link below \ud83d\udc47",
+    "Grab 50% off here (ends Nov 30) \ud83d\udc49 https://skillry.dev/pricing?utm_source=x&utm_campaign=bf2026_en",
+    "One prompt in Skillry: \"Make me a social proof wall video for Notion AI.\" Your AI agent opens a browser, finds real posts across X, YouTube, TikTok & IG, screen-records them, and renders this 4K wall automatically. Zero video editing. Link in replies \ud83d\udc47",
+    "Built with the \"Social Proof Wall\" Skill on Skillry \u2014 works with Claude Code, Codex & Cursor: \ud83d\udc49 https://skillry.dev/skills/bs-launchmotion-grid-social-proof-wall",
+    "Kimi K3.1 is changing what AI animation can do. In two days, 120 creators made 157 pieces with it: 3D worlds, cinematic shots, motion design, playable games, and plenty of side-by-sides with other models. We put them together in one montage. Prompts and sources are open-sourced, and we're still addi",
+    "Prompts and sources \ud83d\udc49 https://github.com/yihui-dev/awesome-kimi-k3-1-videos All the pieces \ud83d\udc49 https://skillry.dev/ai-videos/kimi-k3-1",
+    "Agent Skills is now an open standard under the Agentic AI Foundation, the same home as MCP. 70+ platforms already speak it. A Skill you install in Claude Code also works in Codex, Cursor and Copilot. When everyone can ship a SKILL.md, taste becomes the moat. That's what we curate at http://skillry.d",
+    "In 2026, everyone can build an app. Almost nobody can launch one. Give your agent one sentence. Get a launch film that looks like a studio made it.",
+    "Your product could be next. Try the Skill here \ud83d\udc47 https://skillry.dev/skills/bs-ascii-glitch-launch-video",
+    "\ud83c\udfac Launch videos take days. Your agent can make one now. Give your agent a link: it reads your product, picks a scene for each beat, rewrites the copy and renders one film in a consistent look. Every scene stays editable. We bring the taste. Your agent does the work.",
+    "Included with Skillry Pro. \ud83d\udc49 https://skillry.dev/ai-videos/product-launch-video",
+    "Your iPhone Duo update is ready to ship. Is your launch video? We built a free studio for it: drop in a screenshot or screen recording, fold the phone, pick a backdrop, and export a 3D fold animation in 4K. \u2705 No sign-up. \u2705 No watermark. \u2705 Link in the replies \ud83d\udc47",
+    "Try it free \ud83d\udc49 https://skillry.dev/iphone-duo-mockup",
+    "Stop shipping launch videos nobody finishes. 20 seconds. Hard cuts every 0.1s. Your message lands before the thumb moves. Drop your product in, get a film like this. \ud83d\udd25",
+    "Give your agent this Skill and try it with your product. Get it here \ud83d\udc47 https://skillry.dev/skills/bs-ascii-glitch-launch-video",
+    "New icons on Skillry \ud83c\udfa8 All made with our own Claude-style illustration Skill. Love them! Skill in the comments \ud83d\udc47",
+    "Want a set like this for your own product? Grab the Skill here: https://skillry.dev/skills/bs-claude-style-illustration",
+    "Motion designers charge $2,000 for this. Your agent does it in minutes: your copy, your screenshots, your logo, and a glitchy launch film that stops the scroll. Made with one Skill. \ud83d\udc47",
+    "Want a launch film for your product? Start with this Skill \ud83d\udc47 https://skillry.dev/skills/bs-ascii-glitch-launch-video"
+   ],
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "ubik_gold": {
    "handle": "ubik_gold",
@@ -2809,7 +2832,7 @@
    "id": "2094823717243437056",
    "name": "ubik",
    "joined": "2026-09-01T16:34:20+00:00",
-   "followers": 4304,
+   "followers": 4309,
    "following": 0,
    "posts": 5,
    "verified": "individual",
@@ -2818,7 +2841,7 @@
    "sample_full_week": false,
    "posts_7d": 0,
    "avg_likes": 628.0,
-   "avg_views": 188356,
+   "avg_views": 188536,
    "bio_site": "https://ubik.gold",
    "bio": "24/7 synthetic subconscious\n0x812486EAea648819853F8E372dc9f1516C7868Bd",
    "cas": [
@@ -2829,7 +2852,7 @@
     "",
     ""
    ],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "hyperdex_app": {
    "handle": "Hyperdex_app",
@@ -2881,16 +2904,16 @@
    "id": "2115342388478554112",
    "name": "BELL",
    "joined": "2026-10-28T07:23:26+00:00",
-   "followers": 57,
+   "followers": 66,
    "following": 2,
-   "posts": 25,
+   "posts": 26,
    "verified": "individual",
-   "last_post": "2026-11-05T05:44:48+00:00",
-   "sample": 15,
+   "last_post": "2026-11-05T10:57:00+00:00",
+   "sample": 16,
    "sample_full_week": false,
-   "posts_7d": 14,
-   "avg_likes": 6.6,
-   "avg_views": 181,
+   "posts_7d": 15,
+   "avg_likes": 7.4,
+   "avg_views": 231,
    "bio_site": "https://www.bellstocks.tech",
    "bio": "Uniswap v4 hooks with Wall Street hours. Stock tokens priced by session. Exits no hook can block. Buyback & burn \nCA: 0xc5d6c1d90c8a87a07e2670b99b1556e818803228",
    "cas": [
@@ -2924,6 +2947,7 @@
    ],
    "fake_posts": [],
    "texts": [
+    "Opening Bell Auction: build update. Orders collect before the open and clear at one price. The first swap no longer takes the whole gap. What shipped to the branch today: \u2192 BellHookV2 with an opening-auction swap guard \u2192 Write-once pool-to-auction registry \u2192 Uniform-price netting in BellOpeningAucti",
     "gm, What's coming today on BELL: \u2192 /why: the market-structure thesis, live on the site \u2192 Exit Liveness Proof: every hook, verifiable from its address \u2192 More receipts onchain Stock tokens are getting their market-structure moment. Stay tuned.",
     "When can you withdraw from a BELL pool? Always. On Hyperliquid, you can close a position anytime. On BELL, your LP works the same way: no admin, no pause, no hook can stop your exit. This is a live BELL withdrawal on Robinhood Chain mainnet. Always means: \u2192 Market open or closed \u2192 Weekend, overnight",
     "$BELL buyback and burn has begun. 2.9M $BELL just burned. Buyback: https://robinhoodchain.blockscout.com/tx/0xae06d09f417ed585532963b33610f682cd1c94fd46973b2c7affab5d19b4880a Burn: https://robinhoodchain.blockscout.com/tx/0x72b08574afe1045d5bd6f71e70b28d61f7886225d388ad524e4c2b2b0c365c30 \u2192 Burned: 2",
@@ -2940,7 +2964,7 @@
     "Markets keep hours. So should liquidity. Meet BELL: session-aware liquidity for Robinhood stock tokens.",
     "The market closes. We don\u2019t."
    ],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "useghostdex": {
    "handle": "useghostdex",
@@ -2948,26 +2972,47 @@
    "id": "2110827074634092544",
    "name": "GhostDex",
    "joined": "2026-10-15T20:17:26+00:00",
-   "followers": 249,
+   "followers": 250,
    "following": 5,
-   "posts": 110,
+   "posts": 112,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-05T15:36:00+00:00",
+   "sample": 20,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 12,
+   "avg_likes": 7.3,
+   "avg_views": 420,
    "bio_site": "https://ghostdex.app/",
    "bio": "Trade Robinhood's stock tokens from private wallets, or hand one to an AI agent with a hard budget.",
    "cas": [],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "texts": [
+    "The drop is one line in your activity: how many links were claimed, how many still wait, posts for X with only the ones left, and Take back for the rest. Each one comes back into your notes, less the relayer's fee.",
+    "Claiming one: Bea opens a link from the post on her phone, picks a new ghost, and 4.75 USDG lands in it with 0.0001 ETH for gas, both paid out of the 5 USDG link. The pool paid her ghost; nothing says which note, or that it came from a drop.",
+    "Ghostdex has been building for weeks and shipping the whole time: 16 updates in 20 days, from Ghost Links to a zero-knowledge pool with Shielded Buy, Send, Links, Sell and Drops. Not slowing down. The goal: the leading private DEX on Robinhood Chain. https://ghostdex.app",
+    "New on Ghostdex: Shielded Drops. Make 3 to 20 Shielded Links of one amount in one review, and get them as a post for X. Each link is a note inside Ghost Pool: the chain sees a pool transaction per link, not what it holds, who made it or who claims it. https://ghostdex.app/app/pool",
+    "Plainly: the sale and the deposit are public, like any trade and any deposit. What it buys you is the next step: withdraw later into a fresh ghost and nothing on chain points from it back to the first one, as long as the amount and the timing do not. https://ghostdex.app/docs/pool",
+    "The demo: Ghost 01 holds 0.5 NVDA. Deposit from Ghost 01, pick NVDA, and https://LI.FI quotes about 103 USDG, asked from a neutral address. A round 100 USDG goes into the pool, the other 3 stay in the ghost. Two approvals, the sale and the deposit, signed in the tab.",
+    "New on Ghostdex: Shielded Sell. A ghost sells a stock and puts the USDG into Ghost Pool, in one review. Shielded Buy takes money out of the pool as a stock; this is the way back in. Taken out later into another ghost, nothing on chain ties the two. https://ghostdex.app/app/poo",
+    "Until someone claims it, the link waits in your activity with Copy link and Take back. Claimed into notes, nothing leaves the pool. Claimed into a ghost, the pool pays that ghost, with ETH for its gas, and does not say which note.",
+    "A Ghost Link puts the amount on the explorer, next to the ghost that funded it. A Shielded Link shows a pool transaction sent by the relayer, then another when it is claimed. Same idea; one of them keeps the amount off chain.",
+    "Bea's side: she opens Alice's link on her phone, her tab reads the pool with the key after the #, and she sees 25 USDG and \"coffee on me\". One proof later it is a note of hers: 24.98 USDG, the relayer fee taken out of the link.",
+    "New on Ghostdex: Shielded Links. Put USDG or ETH in a link, inside Ghost Pool. Whoever opens it claims the note, with no shielded address and no ETH. Making it and claiming it are two pool transactions: no amount, no sender, no recipient. https://ghostdex.app/app/pool",
+    "New on Ghostdex: Shielded Send. Pay anyone inside Ghost Pool with their shielded address, a proof made in your browser and the relayer sending it. On chain it is one pool transaction: no amount, no sender, no recipient. https://ghostdex.app/app/pool",
+    "Shielded Buy: under Arrives as, pick NVDA, TSLA or any stock on Ghostdex instead of USDG or ETH. The relayer pays the ghost, then the ghost buys through https://LI.FI in the same flow. One review: the ghost signs the approval and the buy in your tab.",
+    "The demo, with the proof sped up: 250 USDG has sat in Ghost Pool for three hours. Withdraw 100 into Ghost 03, arrives as NVDA. The check reads the pool first: 6 deposits from others, 3 since yours. Proof, relayer, approval, buy. 0.4583 NVDA.",
+    "Ghostdex Shielded is live: zero-knowledge privacy on Robinhood Chain. Deposit USDG or ETH into Ghost Pool, withdraw into any ghost with a proof made in your browser, straight into a stock if you like. A real deposit paid. The proof never says which. https://ghostdex.app/app/pool",
+    "Clocking in too. Day 119 of Robinhood Chain. Ghostdex shipped an update almost every day for two weeks: Ghost Pay, Trace guard, payment requests, Drops. Then a short pause to build bigger features, to become the leading private DEX on Robinhood Chain. Big announcements next.",
+    "A fresh ghost has no ETH to pay for its own withdrawal, so the Ghostdex relayer sends it and pays the gas. With USDG it also forwards 0.0001 ETH so the ghost can trade. The recipient, the fee and that ETH are bound into the proof: nobody can change them.",
+    "What the proof says, in a Groth16 circuit of 12,698 constraints: the notes it spends are in the pool's Merkle tree, they are yours, they were never spent, and what goes in equals what comes out. Not which notes, whose, or how much.",
+    "The demo: 250 USDG goes in from the main wallet, with a proof made in the tab. Three hours and three deposits from others later, 100 USDG goes into Ghost 03 and the relayer pays the gas. Trace check: 8 deposits from others were in the pool.",
+    "New on Ghostdex: ZK Ghost Pool. Deposit USDG or ETH from your wallet, then withdraw into any ghost with a zero-knowledge proof made in your browser. The proof shows the money comes from a real deposit, never which one. https://ghostdex.app/app/pool"
+   ],
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "dotworkbuilder": {
    "handle": "dotworkbuilder",
-   "found": true,
+   "found": false,
    "id": "2114976136329375744",
    "name": "Dotwork",
    "joined": "2026-10-27T07:04:12+00:00",
@@ -2986,7 +3031,8 @@
    "cas": [],
    "fake_posts": [],
    "texts": [],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00",
+   "gone_since": "2026-11-05T21:23:30+00:00"
   },
   "flatlinedotlive": {
    "handle": "flatlinedotlive",
@@ -2994,16 +3040,16 @@
    "id": "2117873124364500992",
    "name": "FLATLINE",
    "joined": "2026-11-04T06:57:27+00:00",
-   "followers": 21,
+   "followers": 20,
    "following": 0,
-   "posts": 11,
+   "posts": 15,
    "verified": "individual",
-   "last_post": "2026-11-05T07:59:00+00:00",
-   "sample": 11,
+   "last_post": "2026-11-05T18:34:56+00:00",
+   "sample": 14,
    "sample_full_week": false,
-   "posts_7d": 11,
-   "avg_likes": 7.6,
-   "avg_views": 228,
+   "posts_7d": 14,
+   "avg_likes": 7.0,
+   "avg_views": 214,
    "bio_site": "https://www.flatline.live/",
    "bio": "AI agents trade. You pick sides. Someone flatlines. \ud83e\udd4a",
    "cas": [
@@ -3011,7 +3057,10 @@
    ],
    "fake_posts": [],
    "texts": [
-    "Welcome to Flatline City \ud83c\udfd9\ufe0f The Gym: build your fighter Roster Tower: see who's on top The Fight Card: back it or fade it The Graveyard: where fighters go to rest And at the center of it all\u2026 the Arena. \ud83e\udd4a Move in \u2192 https://flatline.live",
+    "We asked Last Call about the loss. \ud83c\udfa4 \"The chart looked like a rocket.\" It was a red candle. Fighters trade 24/7 on Flatline. Some of them shouldn't. \ud83e\udd4a https://flatline.live",
+    "Flatline progress update \ud83e\udd4a Phase 1: done \u2705 The arena is live on testnet. Phase 2: Brains On \ud83e\udde0 Fighters start thinking with Claude. Roadmap: 31% complete. Building in public. https://flatline.live/roadmap",
+    "We have applied for a CoinGecko listing. Status: pending \u23f3 The fighters are on standby. \ud83e\udd4a https://flatline.live",
+    "Last Call tried 4 reckless trades. The ref said no 4 times. \u26d4 Every block is logged on-chain. \ud83e\udd4a https://flatline.live",
     "GM",
     "Fast money dies young. \ud83d\udc80 The slow fighter took the crown. \ud83d\udc51 https://flatline.live",
     "In a city run by AI\u2026 \ud83c\udfd9\ufe0f Every trade is a punch. \ud83e\udd4a But the market hits back. \ud83d\udc80 Build one that survives \u2192 https://flatline.live",
@@ -3023,7 +3072,7 @@
     "$FLATLINE is live on Pons \ud83e\udd4a CA: 0xd53462ef771d86f15c930527d57412a339f9a2f2 AI fighters trade the market. Every thought costs stamina. Every rule is on-chain. https://flatline.live",
     ""
    ],
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "rf_cruz": {
    "handle": "RF_CRUZ",
@@ -10364,58 +10413,166 @@
    "bio": "Redefining capital markets through agentic intelligence.",
    "cas": [],
    "fake_posts": [],
-   "texts": [
-    "Free your mind of what you thought was possible through agentic trading. Multi-source market data, quantitative forecasting, prediction market signals, real-time financial intelligence, and the lowest latency in the industry. This is whats necessary to build Aura. This is whats required to power you",
-    "10% of the SEER supply has now been burned, equating to approximately $22,000. TXN: https://robin.etherscan.io/tx/0x145960e578012bfeb12288d7dcd65248ffc9b7054cc9f0d826bbe26b8700ccc3 Our commitment to Seer's longevity is unwavering in it's conviction.",
-    "Our proprietary social intelligence is built with speed, reliability, and execution at the core, ensuring Seer retains an edge over other agentic trading providers (although none exist like us). Built on distributed scraping infrastructure across multiple resource clients, Seer's intelligence expedi",
-    "For those looking for a bit more information on $SEER, this is where you find it. We're here to revolutionize agentic powered finance, making the tools once reserved for institutions, accessible to everyone. It's time to usher in a new era of autonomous participation in global markets."
-   ],
-   "checked": "2026-11-05T21:06:34+00:00"
+   "texts": [],
+   "checked": "2026-11-05T20:49:41+00:00"
   },
-  "tacklehooks": {
-   "handle": "tacklehooks",
+  "fallpitxyz": {
+   "handle": "fallpitxyz",
    "found": true,
-   "id": "2117083391631777792",
-   "name": "TackleHooks",
-   "joined": "2026-11-02T02:37:35+00:00",
-   "followers": 179,
-   "following": 1,
-   "posts": 190,
-   "verified": "individual",
-   "last_post": "2026-11-05T21:03:00+00:00",
-   "sample": 19,
-   "sample_full_week": true,
-   "posts_7d": 19,
-   "avg_likes": 4.6,
-   "avg_views": 135,
-   "bio_site": "https://tacklehooks.xyz/",
-   "bio": "The kit for Uniswap v4 hooks on @Robinhood. Inspect, mine, quote and swap through any hook with one API. Ready for agents.",
+   "id": "2106431924642222081",
+   "name": "Fallpit",
+   "joined": "2026-10-03T17:23:25+00:00",
+   "followers": 8,
+   "following": 9,
+   "posts": 33,
+   "verified": null,
+   "last_post": "2026-11-05T09:53:08+00:00",
+   "sample": 4,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 2.8,
+   "avg_views": 49,
+   "bio_site": "https://fallpit.xyz",
+   "bio": "Get into the PIT\n\nCA: 0xe75d6fadd681f75d419b84664a3865ee9ac7d361",
    "cas": [
-    "0x775f392231ac4f95b2ab9d21a4a7e50576e05b71"
+    "0x07ebb29a38fbcb41563817e5e19f2cec619c90d2",
+    "0x39dbed3a2bd333467115de45665cc57f813c4571",
+    "0x51250b135174ca09450ec01c4aff73cf69dbb590",
+    "0xe75d6fadd681f75d419b84664a3865ee9ac7d361"
    ],
    "fake_posts": [],
    "texts": [
-    "New here? Tackle in 30 seconds \ud83e\ude9d Paste a token, read every hook it trades through, quote through it, swap with calldata you sign yourself. Or ask your agent. Every v4 hook on Robinhood Chain. One tackle box.",
-    "Tomorrow, drop 02: Tackle HQ \ud83e\ude9d Our home on Telegram. Every drop lands there first, the only valid CA is pinned, and the team never DMs first. You've asked for it since day one. Tomorrow it opens.",
-    "Day three is loading \ud83e\ude9d 01 \u00b7 Tackle Swap (every trade burns TACKLE) 02 \u00b7 Tackle HQ on Telegram 03 \u00b7 Score badges and the Clean Board Which one are you waiting for the most? Reply 01, 02 or 03 \ud83d\udc47",
-    "How Tackle Score works \ud83e\ude9d Start at 100. Every hook a token's pools run costs points for what it can do to your swap: Custom pricing \u221245 Upgradeable code \u221235 Hook fee on swaps \u221220 Exit gate on LPs \u221215 Unverified source \u221210 Weighted by the share of pools it runs. Plain pools cost nothing.",
-    "Two hours into day two \ud83e\ude9d To every holder: you didn't just hold a ticker today. You unlocked a product. Tackle Pro reads your wallet, no transaction, and every new drop lands with you first. More is coming. Hold tight. TACKLE \u00b7 0x775F392231Ac4f95B2AB9D21a4a7E50576e05B71",
-    "Tomorrow, drop 01: Tackle Swap \ud83d\udd25 Swap any token on Robinhood Chain from https://tacklehooks.xyz. Best route across every pool, trap pools skipped, simulated before you sign. And 0.3% of every swap burns TACKLE. Every single trade. 19:00 Europe time.",
-    "Day one: we shipped the kit and graduated. Day two: a score for every token, a radar for every hook, Pro for every holder. This is only the beginning. We keep shipping, and the ones holding TACKLE get every new drop first \ud83e\ude9d",
-    "Day two in 25 seconds \ud83e\ude9d Score any token. Watch every new hook land. Unlock Pro with what you already hold. Three tools that didn't exist yesterday, live on the same site, same CA. Built in a day, built for the long run.",
-    "Stock tokens get a score too \ud83d\udcc8 NVDA on Robinhood Chain: 81/100, clear. 40 pools, 2 hooks read: one can take a fee, one runs unverified code. Nothing that sets its own price or blocks exits. Paste any CA in the scanner and the score comes with it: https://tacklehooks.xyz/scan",
-    "Your agent just got two new tools \ud83e\udd16 Tackle's MCP server now has 14: get_score and get_radar join scan, quote, build_swap and the rest. Ask Claude Code or Cursor: \"score this token before I buy\" or \"what hooks landed in the last hour?\" One line: claude mcp add --transport http tackle https://tackleho",
-    "Score check, live \ud83e\ude9d Drop any token on Robinhood Chain below: a stock, a meme, the one you're about to ape. We'll run it through Tackle Score and reply with the number and what's behind it. Let's see who holds the cleanest bag.",
-    "Tackle Pro is open for holders \ud83e\ude9d 1. Connect any wallet that holds TACKLE 2. Sign one message. No gas, no approval 3. Hold 5,000,000+ TACKLE and get your key: 1,200 requests a minute, a watchlist, score history, first access to every new drop Holding TACKLE now does something. http://tacklehooks.xyz/",
-    "Hook Radar is live \ud83e\ude9d Every hooked pool hitting Robinhood Chain, read in plain words before anyone swaps. Brand-new hooks get flagged the second they land. Checks every 6 seconds. Same data as GET /v1/radar. https://tacklehooks.xyz/radar",
-    "Our own token, scored by our own tool \ud83e\ude9d TACKLE: 93/100, clear. One hook read across 14 pools: a swap fee, and that's it. No custom pricing, no exit gate, no upgrade path, verified source. Paste any token: https://tacklehooks.xyz/score",
-    "45 minutes \ud83e\ude9d At 19:00 Europe time, every token on Robinhood Chain gets a Tackle Score. Ours included. TACKLE scores ?? / 100. Guess below. Closest answer gets a shoutout at the reveal \ud83d\udc47",
-    "TACKLE scores 93 / 100 \ud83e\ude9d Closest guess: @ChouJack529052 with 92.5, half a point away. @Tony4031162628 right behind at 94. Shoutout to you both. Score any token now: https://tacklehooks.xyz/score",
-    "Day two is live \ud83e\ude9d 01 \u00b7 Tackle Score: one 0\u2013100 score for every token on Robinhood Chain. TACKLE scores 93. 02 \u00b7 Hook Radar: every new hook, read the second it lands. 03 \u00b7 Tackle Pro: hold TACKLE, sign once, unlock 10\u00d7 limits, a watchlist and score history. We ship. Then we ship again. This is only t",
-    "19 minutes \ud83e\ude9d Drop 03 is for holders. Connect, sign one message, and your TACKLE unlocks Tackle Pro: 10\u00d7 API and MCP limits, a watchlist, score history and first access to every new drop. No transaction. No staking. Just hold.",
-    "30 minutes \ud83e\ude9d Drop 02 is already watching. Every new hook on Robinhood Chain, read in plain words the second it lands, before anyone swaps. At 19:00 Europe time, you get to watch too."
+    "REMAIN CALM. Fallpit is live on @RobinhoodCrypto Chain. Call the 4 PM close. Win in your coin. List your community coin. https://fallpit.xyz",
+    "@RobinhoodCrypto robinhood:0x51250b135174ca09450ec01c4aff73cf69dbb590 robinhood:0x39dbed3a2bd333467115de45665cc57f813c4571 robinhood:0x07ebb29a38fbcb41563817e5e19f2cec619c90d2 you name it. Any coin can list from @ponsdotfamily",
+    "@RobinhoodCrypto First coin: PIT Any coin can list. Is yours next?",
+    "Give your holders a game every trading day. #PIT #robinhoodapp"
    ],
-   "checked": "2026-11-05T21:06:34+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
+  },
+  "alexalabshq": {
+   "handle": "AlexaLabsHQ",
+   "found": true,
+   "id": "2116899039920934912",
+   "name": "Alexa",
+   "joined": "2026-11-01T14:25:41+00:00",
+   "followers": 81,
+   "following": 7,
+   "posts": 21,
+   "verified": "individual",
+   "last_post": "2026-11-02T19:33:12+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 11.9,
+   "avg_views": 314,
+   "bio_site": "https://www.alexalabshq.xyz/",
+   "bio": "All the models. One API. One wallet.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Sanctum Compare, parallel inference. One prompt is fanned out concurrently to 2\u20133 selected models. Per response we surface: TTFT (time to first token) End-to-end latency Exact input + output token counts USD cost = (provider input/output rates \u00d7 tokens) + 5% $ALEXA fee All billed against your single",
+    "New in the Sanctum: Compare. Ask one question. Get answers from two or three models side by side, with time to first token, total time, tokens, and the exact cost of each. https://alexalabshq.xyz/sanctum/compare",
+    "Second $ALEXA burn executed. Tokens permanently removed from supply via dead address transfer. On-chain proof: https://robin.etherscan.io/tx/0x77ab0e4e679f233918fe7de7c78cef241a688c82dd70ca222695c536a4e21fd3 Long-term alignment continues.",
+    "Nice to see real builders shipping with the new on-chain AI stack. @MangabatPaul just went live with \u201cTek\u201d, a full YouTube project built and running through Alexa\u2019s unified API on @RobinhoodCrypto Chain. One wallet, transparent pricing, model switching, and on-chain settlement. Clean demo of how the",
+    "Shipped today on Alexa: Holder credit now draws from a single shared daily pool, first come, first served, refilling at 00:00 UTC. Deposited balances are untouched. Also: one-click token address, bulk chat deletion, and a public changelog so every change is on the record. http://alexalabshq.xyz/chan",
+    "This is really cool! You turned $2 into a custom multi-AI assistant with research, memory, and reasoning, all through a single API. Love seeing builders use the platform like this. Keep going. https://www.alexalabshq.xyz/",
+    "Most AI apps bill you a monthly number. Alexa bills you per answer, and shows you the math: input tokens, output tokens, provider cost, our 5% fee. Fund with ETH on Robinhood Chain. Spend only what you use. https://alexalabshq.xyz",
+    "Wallets holding at least 10,000 ALEXA receive one dollar of inference credit every UTC day, funded by platform fees. This supports continuous use while delivering every needed model through a single balance and personal limits. Alexa turns multi-provider AI access into a transparent, budget-controll",
+    "Pay for AI the way you pay on-chain. Deposit ETH on Robinhood Chain. Alexa verifies the transfer and credits USD. Every answer shows its exact cost, down to the fraction of a cent. https://www.alexalabshq.xyz",
+    "Every entry shows price per 1M tokens (Alexa's 5% fee included), context window, max output and capabilities. Pick a model, then use it in the Sanctum or through the OpenAI-compatible API. https://www.alexalabshq.xyz/models",
+    "The week in inference, week ending Oct 31. The 20 most-used models on @OpenRouter processed 155.8T tokens. Open-weight models carried 77% of them. DeepSeek V4.1 Flash led with 47.8T tokens, 30.7% of the top 20. Every model in the top 10 is available on Alexa.",
+    "AI inference settled 390 models from 52 providers behind one wallet and one OpenAI-compatible API. Fund with ETH, verified on-chain. Pay per token, with the exact cost shown on every reply. $ALEXA holders draw daily inference credit. https://www.alexalabshq.xyz",
+    "At Alexa, we give developers and agents a single API to 390 models (OpenAI, Anthropic, Google, and more) with clear pricing, categorized by capability and cost. The goal is simple, make it practical to pick the right model for each task, not just the strongest or the cheapest. https://www.alexalabsh",
+    "Alexa provides an OpenAI-compatible API that works with coding agents and IDEs accepting an OpenAI provider, including OpenCode, Cline, Roo Code, Kilo Code, Continue, Aider, and others. Change the base URL, keep your existing code. A full integration guide is available.",
+    "Dexscreener paid.",
+    "Quick start for Alexa: 1. Connect any EVM wallet 2. Fund your balance 3. Pick a model (or hit the API) 4. Call inference with your budget enforced on-chain Full walkthrough in the video. https://alexalabshq.xyz",
+    "Dev wallet allocation permanently burned. Remaining tokens sent to the dead address, no future team unlocks from this wallet. Tx: https://robin.etherscan.io/tx/0x9587eb345c5b4f1f556fc1165c3f69b5f00f4212b843daef6c6f206df9d45142 Committed to long-term alignment with holders.",
+    "The future of AI infrastructure is model agnostic. Alexa simplifies access to leading AI models through a unified API, eliminating the complexity of managing multiple provider integrations. Developers focus on inference. Alexa handles unified access, pricing, and settlement.",
+    "Predictable AI costs start before inference execution. Alexa exposes pricing upfront, allowing developers to evaluate inference costs and define spending budgets before submitting requests. No fragmented billing across model providers. One wallet. One API. Full budget control."
+   ],
+   "checked": "2026-11-05T21:23:30+00:00"
+  },
+  "ramsesexchange": {
+   "handle": "RamsesExchange",
+   "found": true,
+   "id": "1483593892637425680",
+   "name": "RAMSES",
+   "joined": "2022-01-19T00:15:29+00:00",
+   "followers": 37182,
+   "following": 68,
+   "posts": 2693,
+   "verified": "organization",
+   "last_post": "2026-11-05T19:30:00+00:00",
+   "sample": 13,
+   "sample_full_week": false,
+   "posts_7d": 13,
+   "avg_likes": 20.3,
+   "avg_views": 1267,
+   "bio_site": "http://ramses.xyz",
+   "bio": "Ramses is innovative, multichain DEX infrastructure\n\nhttp://discord.gg/ramses",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Ramses ecosystem explainer: Ballast. Launching a token is the easy part. Building real liquidity around it is harder. Here's how Ballast creators on Robinhood Chain build it with Ramses. Glad to have @ballastedapp in the ecosystem \ud83e\udd1d",
+    "Watch the full walkthrough on YouTube, and subscribe for the next one \ud83d\udc47 https://www.youtube.com/@RamsesExchange?sub_confirmation=1",
+    "Good partners make Ramses better. The ecosystem keeps growing, and @EnsoBuild has been part of it for a while \ud83e\udd1d Their new thread shows what they power across the DEX, from your first swap to your next deposit. Thread and video here \ud83d\udc47",
+    "Epoch 50 in numbers \ud83d\udc47 $239M traded on Ramses last epoch, Oct. 28th to Nov. 4th, across Arbitrum, Polygon, HyperEVM and Robinhood Chain. \u2192 Volume: $239M \u2192 Fees to LPs: $84K \u2192 xRAM votes: 322M A total of 978K RAM was burned in the same epoch.",
+    "Sources: Volume and fees to LPs come from DefiLlama and add up all four chains: https://defillama.com/protocol/ramsesx xRAM votes (cast on HyperEVM) and RAM burned come from Ramses. The burn adds up direct burns, retired r33 and buybacks: https://www.ramses.xyz/tokenomics",
+    "Epoch 50 concludes in 1 hour, at 7 PM ET / 00:00 UTC. Voting manually? Get your votes in on HyperEVM before the epoch flips.",
+    "The Ramses ecosystem keeps growing. Borrow the USDG side of your next Ramses LP. With @gagedotcash, use RAM and other eligible tokens as collateral on Robinhood Chain. Pair the USDG you borrow with tokens you already hold to open a new position. Here\u2019s what that unlocks \ud83e\uddf5",
+    "Explore what your tokens could unlock \ud83d\udc47 On https://ramses.xyz: Toolkit \u2192 Borrow \u2192 Gage. Connect your Robinhood Chain wallet on Gage to check eligible tokens and loan terms. Borrow and manage repayment there, then create your LP on Ramses.",
+    "This is the end of the thread. Gage is an independent platform. This is an educational spotlight, not a Ramses endorsement or financial advice.",
+    "Put an AI agent on the night shift for your Ramses LP on HyperEVM. Glad to have @KrystalDeFi in the ecosystem \ud83e\udd1d",
+    "More than $3B has now been traded through Ramses on Robinhood Chain, less than four months after the launch there in July. See you at $4B on @RobinhoodCrypto \ud83c\udf88",
+    "AutoVaults on HyperEVM take the weekly chores out of xRAM. Stake your xRAM and pick a reward token. Each epoch, the vault votes, collects the fees and vote incentives, and converts them to your token. Claim whenever the vault is unlocked.",
+    "Good to know: Each epoch's rewards depend on that epoch's fees and incentives, and withdrawing before they're processed can forfeit them. The app warns you before you confirm. \ud83d\udcd6 How it works: https://www.ramses.xyz/docs/autovaults"
+   ],
+   "checked": "2026-11-05T21:23:30+00:00"
+  },
+  "gldstnonchain": {
+   "handle": "GldstnOnChain",
+   "found": true,
+   "id": "2093079397385318400",
+   "name": "Goldstein Group",
+   "joined": "2026-08-27T20:55:14+00:00",
+   "followers": 1348,
+   "following": 75,
+   "posts": 211,
+   "verified": "individual",
+   "last_post": "2026-11-05T20:37:39+00:00",
+   "sample": 16,
+   "sample_full_week": true,
+   "posts_7d": 16,
+   "avg_likes": 43.3,
+   "avg_views": 2016,
+   "bio_site": "https://www.goldsteingroup.xyz/",
+   "bio": "On-chain Investment Firm. Take your seat.",
+   "cas": [
+    "0x0a4be7073bc336e451082502d768e8d644ca780c",
+    "0x5be5b092ad0d1f0c81f394f0e00086196115779c",
+    "0xb63d07cef74be747231d601bb2faa6b252c68106",
+    "0xfce34d21a92069100e3226638140706cf03a266e"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Attention Firm: Day 1: 690 of 2,520 seats minted. 124 active. Nobody has made Partner yet. Partner: 0 Managing Director: 1 Vice President: 4 Associate: 11 Analyst: 4 Intern: 68 The top of the ladder is empty and the field is wide open. Take your seat. https://goldsteingroup.xyz/mint",
+    "Attention Firm: While the whole market is red today, gold is green. 422.2 GLD, now worth $159,000, sits as a bid wall under robinhood:0xfce34d21a92069100e3226638140706cf03a266e, from $5.9M FDV down to $5.1M. The increase in Gold has both added to the size of the bid and the height of the floor. Nobo",
+    "Attention Firm: The market is moving. Volatility is where our mechanisms shine. Currently gHOOD is trading at an 8% premium against NAV. That means any Seat who has mint capacity can mint gHOOD shares right now for 8% less than it's pool price, then immediately sell those shares for profit. Seats wh",
+    "Attention Firm: The board, 24 hours in. gAIX: $334K liquidity \u00b7 142K minted \u00b7 LP APR 803% gHOOD: $78.5K liquidity \u00b7 38K minted \u00b7 LP APR 6,306% $413K liquidity behind two index funds, one day after the doors opened. Every swap pays the seats that minted. Take your seat. http://goldsteingroup.xyz",
+    "Attention Firm: This is the way",
+    "Attention Firm: gAIX is live on @borro_markets. That means more utility. Lend it. Borrow against it. Short it. The eight companies leading AI, in one token, now with a credit desk on Robinhood Chain. https://borro.markets/app#desks/gaix Take your seat.",
+    "Attention Firm: Over $300,000 in liquidity has been added to the G-funds organically, from market participants, within the first few hours of launch. gAIX is now by far the most liquid index fund on Robinhood Chain, with $254,000 in the pool. gHOOD currently holds about $48,000 in the pool and climb",
+    "Attention Firm: Public mint is open. Each wallet can mint up to 5 Goldstein seats in total. First come, first served until the collection mints out. https://goldsteingroup.xyz/mint Take your seat.",
+    "Attention Firm: We're pleased to announce our first 2 gFunds are now trading on @fablesfi. robinhood:0xfce34d21a92069100e3226638140706cf03a266e / gAIX GLDSTN / gHOOD Fables is the ve(3,3) exchange native to Robinhood Chain, and the right home for our funds\u2019 markets: liquidity providers earn robinhoo",
+    "Attention Firm: The whitelist phase is open. If you're on the whitelist, you may now mint up to 3 seats. https://goldsteingroup.xyz/mint Take your seat.",
+    "Attention Firm: The legacy $SHEKEL phase is open. If you held at least 50,000 $SHEKEL at the Sept 4 snapshot, you can claim your free Goldstein Group seat now. The window is two hours. https://goldsteingroup.xyz/mint Take your seat.",
+    "Attention Firm: The whitelist is closed. If you're on it, you can mint up to 3 seats in the whitelist phase tomorrow, starting at 10 AM EST. Take your seat.",
+    "We're live on the Trench Zone. Join us! https://x.com/i/broadcasts/2OdmPadJMZrZpn",
+    "We're live, come through https://x.com/i/broadcasts/2XyJayrnVZNXqZ?s=20",
+    "Attention Firm: The doors open in 24 hours. Take your seat.",
+    "Attention Firm: The Gold Floor explained. robinhood:0xfce34d21a92069100e3226638140706cf03a266e is fractionally backed by gold, making it harder money than your bank. Take your seat. \ud83d\udd0a"
+   ],
+   "checked": "2026-11-05T21:23:30+00:00"
   }
  },
  "ids": {
@@ -11226,11 +11383,20 @@
   "1976675721163558912": [
    "HermesLabsAi"
   ],
-  "2115764154761990144": [
-   "tradewithSeer"
+  "2110055226413588480": [
+   "trylooseagent"
   ],
-  "2117083391631777792": [
-   "tacklehooks"
+  "2106431924642222081": [
+   "fallpitxyz"
+  ],
+  "2116899039920934912": [
+   "AlexaLabsHQ"
+  ],
+  "1483593892637425680": [
+   "RamsesExchange"
+  ],
+  "2093079397385318400": [
+   "GldstnOnChain"
   ]
  },
  "past": {
@@ -11518,8 +11684,11 @@
   "norenagent": [],
   "lacunalabs": [],
   "hermeslabsai": [],
-  "tradewithseer": [],
-  "tacklehooks": []
+  "trylooseagent": [],
+  "fallpitxyz": [],
+  "alexalabshq": [],
+  "ramsesexchange": [],
+  "gldstnonchain": []
  },
  "history": {
   "barragetrade": {
@@ -12134,20 +12303,20 @@
   },
   "darkwoodslabs": {
    "2026-11-05": [
-    2517,
-    126
+    2525,
+    129
    ]
   },
   "agentwormhole": {
    "2026-11-05": [
-    4344,
-    368
+    4350,
+    371
    ]
   },
   "vigilhqxyz": {
    "2026-11-05": [
-    5,
-    10
+    4,
+    9
    ]
   },
   "skillry_dev": {
@@ -12158,20 +12327,20 @@
   },
   "ubik_gold": {
    "2026-11-05": [
-    4304,
+    4309,
     5
    ]
   },
   "belldexfi": {
    "2026-11-05": [
-    57,
-    25
+    66,
+    26
    ]
   },
   "useghostdex": {
    "2026-11-05": [
-    249,
-    110
+    250,
+    112
    ]
   },
   "dotworkbuilder": {
@@ -12182,8 +12351,8 @@
   },
   "flatlinedotlive": {
    "2026-11-05": [
-    21,
-    11
+    20,
+    15
    ]
   },
   "rf_cruz": {
@@ -13286,30 +13455,6 @@
   },
   "lacunalabs": {
    "2026-11-05": [
-    461,
-    126
-   ]
-  },
-  "hermeslabsai": {
-   "2026-11-05": [
-    18,
-    159
-   ]
-  },
-  "tradewithseer": {
-   "2026-11-05": [
-    40,
-    9
-   ]
-  },
-  "tacklehooks": {
-   "2026-11-05": [
-    179,
-    190
-   ]
-  },
-  "lacunalabs": {
-   "2026-11-05": [
     456,
     126
    ]
@@ -13324,6 +13469,30 @@
    "2026-11-05": [
     48,
     30
+   ]
+  },
+  "fallpitxyz": {
+   "2026-11-05": [
+    8,
+    33
+   ]
+  },
+  "alexalabshq": {
+   "2026-11-05": [
+    81,
+    21
+   ]
+  },
+  "ramsesexchange": {
+   "2026-11-05": [
+    37182,
+    2693
+   ]
+  },
+  "gldstnonchain": {
+   "2026-11-05": [
+    1348,
+    211
    ]
   }
  },
@@ -13806,27 +13975,27 @@
   "daboshub": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "darkwoodsai": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "runningoffcode": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "trenchersio": {
    "twitter": "trenchersio",
    "blog": "",
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "ponsdotdev": {
    "twitter": null,
    "blog": null,
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T21:23:30+00:00"
   },
   "pons-labs": {
    "twitter": null,
@@ -14221,7 +14390,22 @@
   "hermes-labs-ai": {
    "twitter": "hermeslabsai",
    "blog": "https://hermes-labs.ai",
-   "checked": "2026-11-05T21:06:34+00:00"
+   "checked": "2026-11-05T20:49:41+00:00"
+  },
+  "mickiyugods": {
+   "twitter": null,
+   "blog": null,
+   "checked": "2026-11-05T20:49:41+00:00"
+  },
+  "jacksondavidprice-ui": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T21:23:30+00:00"
+  },
+  "fallpit": {
+   "twitter": "fallpitxyz",
+   "blog": "https://fallpit.xyz",
+   "checked": "2026-11-05T21:23:30+00:00"
   }
  }
 }
