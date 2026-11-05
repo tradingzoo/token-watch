@@ -951,8 +951,8 @@ ul{{margin:0;padding-left:20px}} button.wrong{{font-size:12px;border:1px solid v
 </style></head><body><main>
 <h1>Token Watch</h1>
 <nav class="tabs" id="tabs">
-<a href="#sites" data-tab="sites">Site check <span class="cnt">{len(site_rows)}</span></a>
 <a href="#github" data-tab="github">GitHub <span class="cnt">{len(rows)}</span></a>
+<a href="#sites" data-tab="sites">Site check <span class="cnt">{len(site_rows)}</span></a>
 <a href="#test" data-tab="test">30-day test</a>
 <a href="#status" data-tab="status">Status changes</a>
 <a href="#scores" data-tab="scores">Was the score right?</a>
@@ -976,7 +976,7 @@ Prices are tracked so we can see whether this works.</p>
 </section>
 </main><script>
 (()=>{{const tabs=[...document.querySelectorAll('section.tab')],links=[...document.querySelectorAll('#tabs a')];
-const show=()=>{{let id=(location.hash||'#sites').slice(1);if(!tabs.some(t=>t.id===id))id='sites';
+const show=()=>{{let id=(location.hash||'#github').slice(1);if(!tabs.some(t=>t.id===id))id='github';
 tabs.forEach(t=>t.hidden=t.id!==id);links.forEach(a=>a.classList.toggle('on',a.dataset.tab===id));}};
 window.addEventListener('hashchange',()=>{{show();window.scrollTo(0,0);}});show();}})();
 document.querySelectorAll('button.wrong').forEach(b=>b.onclick=()=>{{const m=b.dataset.msg;
