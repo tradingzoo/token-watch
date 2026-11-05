@@ -1,5 +1,6 @@
-Pons: 49 tokens on the newest page
-DexScreener: 8 Robinhood Chain tokens in profiles/boosts
+Pons: 50 tokens on the newest page
+DexScreener: 7 Robinhood Chain tokens in profiles/boosts
+Pons: 79 tokens on the market-cap and volume pages
   RESCORED: OAK -> OakAgentKit/oak score 65
   NEW GITHUB: SBOR -> sborxyz/sbor score 75
   RESCORED: CUBE -> collabs-inc/cube-releases score 0 RED FLAG
@@ -51,11 +52,22 @@ DexScreener: 8 Robinhood Chain tokens in profiles/boosts
   RESCORED: CRW -> fastcrw/crw score 25 RED FLAG
   RESCORED: BISCOTTI -> psql/biscotti score 60
   RESCORED: OMHER -> rlaope/oh-my-hermes score 25 RED FLAG
+  RESCORED: HOLAOS -> holaboss-ai/holaOS score 25 RED FLAG
+  RESCORED: EGOLIT -> citrolabs/ego-lite score 25 RED FLAG
+  NEW GITHUB: PRIORS -> priors-agents/priors score 90
+  NEW GITHUB: DARK -> darkwoodsai/ score 40
+  NEW GITHUB: WORM -> runningoffcode/agent-wormhole score 80
+  NEW GITHUB: TRENCHERS -> trenchersio/trenchers score 25 RED FLAG
+  NEW GITHUB: byte -> bytejury-exe/contracts score 60
+  NEW GITHUB: DI -> pons-labs/ score 40
   NEW GITHUB: KROMT -> kromtxyz/kromt-rpcsh score 60
-Site check: 4 sites checked, 0 newly listed, 8 listed in all
-X: refreshed 1 accounts
-Wallets: 8 new Pons launches (total 724,277)
-Shipping: 30 green, 6 amber, 18 red, 44 grey, 11 changes
-Prices: 87 of 87 tokens priced, 2 rows logged
-Done 2026-11-05 08:30 UTC: 79 tokens with GitHub on the page
+  NEW SITE: UBIK https://ubik.gold score 55 (3 plug-in tools)
+  NEW SITE: GF http://gongfu.finance score 75 (2 plug-in tools)
+  NEW SITE: TEXEL https://texel.run score 60 (2 plug-in tools)
+Site check: 40 sites checked, 3 newly listed, 11 listed in all
+X: refreshed 7 accounts
+Wallets: 8 new Pons launches (total 724,285)
+Shipping: 33 green, 7 amber, 17 red, 48 grey, 12 changes
+Prices: 96 of 96 tokens priced, 96 rows logged
+Done 2026-11-05 08:51 UTC: 85 tokens with GitHub on the page
 Live site: page copied, the workflow pushes it

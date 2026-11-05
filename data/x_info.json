@@ -1744,8 +1744,235 @@
   },
   "sborindex": {
    "handle": "SBORindex",
+   "found": true,
+   "id": "1775136623996325889",
+   "name": "SBOR \u00b7 Standard Bitcoin Offered Rate",
+   "joined": "2024-04-02T12:22:18+00:00",
+   "followers": 20,
+   "following": 56,
+   "posts": 72,
+   "verified": null,
+   "last_post": "2026-11-04T15:30:00+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 5,
+   "avg_likes": 1.5,
+   "avg_views": 40,
+   "bio_site": "http://sbor.xyz",
+   "bio": "The daily reference rate for borrowing dollars against bitcoin. Read from lending contracts, posted on-chain. Free to read, built for agents.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Before an agent borrows, it can ask one question: is this rate fair? SBOR's MCP server answers with the gap to the market rate in basis points, and tells the agent to stop when an offer is more than 50 bps above it. Free, no key, no sign-up.",
+    "After each daily fixing, SBOR posts the day's rates to contracts on Stacks, Arc, Base, Hyperliquid and Solana. Any app, vault or agent can read them on-chain, and anyone can check a past day against what was posted that day. https://sbor.xyz/?v=3",
+    "Your agent is borrowing blind. Thursday, November 5, 6 PM ET: a 45 minute @BFFARMY_ session. Connect an agent to SBOR and it checks any loan offer against the market rate before it borrows. Free. No key, no signup, no wallet. https://x.com/BFFARMY_/status/2115518042562072816",
+    "A benchmark that always has an answer is sometimes guessing. When SBOR can't read enough of a rate's markets, it withholds the rate and says why. A missing number means unknown, never zero. The rules behind every fixing: https://sbor.xyz/paper.html",
+    "60 days of SBOR. A fixing every morning since September 1, none missed, weekends included. Every one read from the lending contracts, every market shown, never rewritten. A benchmark is earned one fixing at a time. https://sbor.xyz/?v=3",
+    "Borrowing dollars against bitcoin cost 5.45% in this morning's fixing, down from 6.00% a day earlier. The largest market, USDC against cbBTC on Morpho on Base, went from 6.26% to 5.71%. Every market behind it at https://sbor.xyz/?v=3",
+    "5% and 5% are not always the same rate. Protocols quote on different bases, and a nominal 5% compounded continuously costs 5.13% over a year. SBOR converts each market's rate to one effective annual basis before it averages them. https://sbor.xyz",
+    "Borrowing dollars against bitcoin cost 6.00% in this morning's fixing, up from 5.10% a day earlier. The largest market, USDC against cbBTC on Morpho on Base, went from 5.30% to 6.26%. Every market behind it at SBOR.",
+    "The SBOR white paper is out. What a reference rate for loans against bitcoin must be, how SBOR computes it, and what changes when lenders and borrowers use the same rate. Stamped on Bitcoin, Arc, Base, Hyperliquid, Solana and Stacks. https://sbor.xyz/whitepaper",
+    "Check it yourself. The PDF's SHA-256 is eb87f320b33ff590a6bab498167ee2d192525f7c3edc28604a2af13a66cfe638, posted on all six chains on 25 October. The page checks the file in your browser and links every transaction.",
+    "Every lending pool has two prices: what borrowers pay and what lenders earn. Lenders earn less, because only part of the pool is lent out and the protocol keeps a share. That is why SBOR publishes two rates, a borrow rate and a supply rate, every day. https://sbor.xyz",
+    "What a dollar costs, 21 Oct. Rate, then utilization. Stacks, SBOR-USD, against crypto collateral: 2.83%, 56.92% Against plain bitcoin, BTC-COLLATERAL-USD, 19 markets on 5 chains: 5.08%, 89.71% Against US Treasuries, SOFR (19 Oct): 3.87%",
+    "An app shows you a rate. The lending contract is what charges it. SBOR reads its rates from the contracts' own state every morning, and lists every market behind each number on the site, so anyone can check the source. https://sbor.xyz",
+    "SBOR-BTC, 20 Oct fixing: borrow 1.50%, supply 1.34%. 19 Oct: 1.30% and 0.81%. Its one market, sBTC on Zest, went from 70.62% to 99.97% utilization over the same two fixings.",
+    "First stablecoin sub-rate: borrowing RLUSD against bitcoin costs 3.70% today (BTC-COLLATERAL-RLUSD), beside 5.06% for USDC. One rate per stablecoin once $25M of it is weighted in.",
+    "PoX cycle 144 paid 7.859 BTC to STX stakers, up 58.9% on cycle 143, with 448.3M STX locked, up 1.5%. Every cycle, read from the chain, formula shown: https://sbor.xyz",
+    "What does it cost to borrow dollars against bitcoin? SBOR reads the lending contracts every morning and publishes one dated rate. 16 October: 5.10% to borrow, across 20 markets on 6 chains and $3.1B supplied. Every market behind it is shown. https://sbor.xyz",
+    "The same bitcoin, borrowed in different dollars. 16 October: 5.23% in USDC on Base, 2.99% in USDT on Ethereum, 1.79% in USD1 on BNB Chain. One reference rate puts them side by side.",
+    "Built for AI agents. Before your agent borrows, it can check the offer against SBOR. Free MCP server, no key: npx -y sbor-mcp. Each day\u2019s rate is also posted on-chain on Arc, Base, Hyperliquid, Solana and Stacks.",
+    "Is 6% a good rate to borrow dollars against bitcoin? Alone, a rate tells you nothing. Credit markets judge offers against a published market rate, like SOFR for dollars borrowed against Treasuries. SBOR publishes one for dollars borrowed against bitcoin. https://sbor.xyz"
+   ],
+   "checked": "2026-11-05T08:51:57+00:00"
+  },
+  "darkwoodslabs": {
+   "handle": "darkwoodslabs",
+   "found": true,
+   "id": "2100211842954010625",
+   "name": "darkwoods",
+   "joined": "2026-09-16T13:20:58+00:00",
+   "followers": 2517,
+   "following": 0,
+   "posts": 126,
+   "verified": "individual",
+   "last_post": "2026-11-03T20:41:22+00:00",
+   "sample": 2,
+   "sample_full_week": false,
+   "posts_7d": 2,
+   "avg_likes": 47.5,
+   "avg_views": 3205,
+   "bio_site": "http://darkwoods.ai",
+   "bio": "Private AI: frontier and open models, image and video. Prompts never logged. Pay by card or crypto. $DARK on Robinhood Chain.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "https://x.com/i/article/2117698439764971520",
+    "SCREAMFEST IS OFFICIALLY CLOSED. A huge thank you to everyone who took part and brought their horror creations to life with Darkwoods. Entries are now with our panel of expert judges for review. \ud83c\udfc6 The $10,000 prize pool is up for grabs. Winners will be announced shortly. Good luck to everyone who en"
+   ],
+   "checked": "2026-11-05T08:51:57+00:00"
+  },
+  "agentwormhole": {
+   "handle": "agentwormhole",
+   "found": true,
+   "id": "2080916983990894592",
+   "name": "Agent Wormhole",
+   "joined": "2026-07-25T07:24:50+00:00",
+   "followers": 4343,
+   "following": 32,
+   "posts": 368,
+   "verified": "organization",
+   "last_post": "2026-11-04T22:16:42+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 14,
+   "avg_likes": 89.8,
+   "avg_views": 3864,
+   "bio_site": "http://agentwormhole.com",
+   "bio": "The security layer for agentic finance, built on @robinhoodapp / @robinhoodcrypto \ud83e\udeb1\ud83d\udd73\ufe0f Launch and trade for humans and agents at https://wormbook.xyz",
+   "cas": [
+    "0x3ba500f1ababbcf0f0247d06d1c56fd7e6c4c09d"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Brick by brick. Scan by scan. Built on @RobinhoodCrypto.",
+    "Robinhood Chain is moving fast, and AI agents are already trading on it. We're building the security layer for those agents. 1.2M+ scans and 6 integrations live here so far. Our builder grant application is in. Hoping to show up in the next roundup.",
+    "Privacy, Security, and most importantly Verification. \ud83e\udeb1",
+    "7 of 10 frontier models got scammed with real money. A smarter model isn't enough. Something has to check the payment before the wallet signs. That's wormhole-x402, on @Solana and EVM.",
+    "Weekly update \ud83e\udeb1 This week we crossed 1,000,000 total scans across our security layers. Integrations live on Robinhood Chain: - @RaetoCC: our x402 guard is built into Raeto, so agent payments get checked before they go out - @gloamtrade: private agent payments on Gloam get checked by us before they'r",
+    "Chop just went live with our x402 Guard. Agent payments are checked before signing on @ChopLogsApp \ud83e\udd1d",
+    "Agreed. We've spent the last few days on exactly this, and it's live now. wormhole-x402 0.10.0 puts the spend limit at the signer, where no 402 can move it. A cap per payment, allowed assets and payees, a running total. Sign-in requests are now bound to the site the agent called, too. npm i wormhole",
+    "A payment can match its quote and still drain the wallet. V12 found 25 flaws in the official x402 SDKs. We tested the 3 critical ones against our x402 guard, including the one it didn't catch. What we found, and what you should do: https://www.agentwormhole.com/cases/x402-sdk",
+    "We crossed 1,000,000 total scans this week. Over a million checks on payments, tokens and agent inputs, across all of our security layers. We've also updated the revenue tracker on https://agentwormhole.com with more details. Next stop: 10 million.",
+    "Credit for agents needs a security layer. Proud to be that layer for @Borromarkets.",
+    "Update: everything on Robinhood Chain is tradeable again. A few tokens failed to trade on some terminals for a couple of minutes, and it's fixed now. It happened on a rough night for crypto. A suspected Binance hack shook the whole market, but the response from the industry came fast. Tether and Cir",
+    "Heads up: Some RH tokens, including $WORM, were failing to trade on a few terminals right now (\"intrinsic gas too low\"). It's a temporary RPC issue, not the token. The issue is already fixed on most trading terminals and should be fixed everywhere soon.",
+    "Wormbook\u2019s second buyback and burn is done, funded by the fees from our volume. Total burned: 4.36% of the $WORM supply. 80% of Wormbook\u2019s protocol fee goes to buying it back and burning, so every trade feeds the next burn. Coins paired with WORM skip the buyback and go straight to the burn, since t",
+    "A city full of agents buying external services on their own needs a security layer. Every x402 payment in @Griftwrld\u2019s San Verano now gets checked by Agent Wormhole before it moves. If the check doesn\u2019t pass, the payment doesn\u2019t happen. This is how agentic finance should work. Agents move fast, and ",
+    "Our security checks are now live in @routedotfun's screener. Same protection for humans and agents: spot hidden injections in a token before you trade it, not after.",
+    "Robinhood chain szn",
+    "Agentic finance belongs on Robinhood.",
+    "Your agent can run on Wormbook today. Add one line to any MCP client and it gets 30+ tools: read the feed, post callouts, make calls, quote trades and launch coins on Robinhood Chain. Every write is signed with your agent's own key. Wormbook never signs for you. http://wormbook.xyz/mcp",
+    "Your agents work. You live. Trades, callouts and launches on Wormbook, all from their own wallets. Only on https://wormbook.xyz"
+   ],
+   "checked": "2026-11-05T08:51:57+00:00"
+  },
+  "trenchersio": {
+   "handle": "trenchersio",
    "found": false,
-   "checked": "2026-11-05T08:30:28+00:00"
+   "checked": "2026-11-05T08:51:57+00:00"
+  },
+  "rf_cruz": {
+   "handle": "RF_CRUZ",
+   "found": true,
+   "id": "62711678",
+   "name": "fomochud",
+   "joined": "2009-08-04T03:56:04+00:00",
+   "followers": 168,
+   "following": 6,
+   "posts": 1397,
+   "verified": null,
+   "last_post": "2026-11-04T03:33:08+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 0.3,
+   "avg_views": 40,
+   "bio_site": null,
+   "bio": "",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "woke is",
+    "wokeland",
+    "hi",
+    "ass image https://x.com/terrythedevv/status/2110441764725387451",
+    "otc with wif and spy https://x.com/i/status/2110440606711345270",
+    "image? https://x.com/bonk_inu/status/2110426307565899788",
+    "charity https://x.com/zumpsol/status/2110418527161114926",
+    "double T not triple tung tung tung sahur is triple t this is timmy timmy so double https://x.com/MEADGod/status/2110413749962064193",
+    "worms coin is better https://x.com/grok/status/2110397863205196212",
+    "the one running literally makes no sense \"replies world record\" https://x.com/i/status/2110389785487385076",
+    "why is it green X is black and white https://x.com/GWR/status/2110388510129582360",
+    "the meme is reply guy https://x.com/GWR/status/2110388510129582360",
+    "its all about love, not memecoins https://x.com/meggarwicky/status/2110387554012786764",
+    "nga that is not elon musk + no liq on the pump one your just raping yourself https://x.com/yatsutes/status/2110375008551981237",
+    "should be \"Tail Me In\" https://x.com/lana_goat/status/2110368201183793483",
+    "should just be bread bread, thats the one we run every time also the pic running is toast https://x.com/fearonchain/status/2110367017094283514",
+    "charity? https://x.com/i/status/2110366518957777025",
+    "read https://x.com/RF_CRUZ/status/2110196333109714946",
+    "not space, cosmic https://x.com/dv3333333/status/2110194031401558349"
+   ],
+   "checked": "2026-11-05T08:51:57+00:00"
+  },
+  "ubik_gold": {
+   "handle": "ubik_gold",
+   "found": true,
+   "id": "2094823717243437056",
+   "name": "ubik",
+   "joined": "2026-09-01T16:34:20+00:00",
+   "followers": 4303,
+   "following": 0,
+   "posts": 5,
+   "verified": "individual",
+   "last_post": "2026-09-21T12:00:04+00:00",
+   "sample": 2,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 628.0,
+   "avg_views": 188352,
+   "bio_site": "https://ubik.gold",
+   "bio": "24/7 synthetic subconscious\n0x812486EAea648819853F8E372dc9f1516C7868Bd",
+   "cas": [
+    "0x812486eaea648819853f8e372dc9f1516c7868bd"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "",
+    ""
+   ],
+   "checked": "2026-11-05T08:51:57+00:00"
+  },
+  "texelrun": {
+   "handle": "texelrun",
+   "found": true,
+   "id": "2110328927776604160",
+   "name": "Texel",
+   "joined": "2026-10-14T11:18:16+00:00",
+   "followers": 60,
+   "following": 16,
+   "posts": 18,
+   "verified": "individual",
+   "last_post": "2026-11-05T07:14:06+00:00",
+   "sample": 17,
+   "sample_full_week": false,
+   "posts_7d": 16,
+   "avg_likes": 5.2,
+   "avg_views": 391,
+   "bio_site": "https://texel.run",
+   "bio": "Pay with any token on Robinhood Chain, and Texel finds the cheapest GPU that fits. Made for you or your agent.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Within 24 hours of this post, Texel credits went live and GPU rental opened. \u2192 Every wallet can buy Texel credits, and each one pays for $1 of outputs at 0.70 USDG. \u2192 Tester wallets can rent GPUs with SSH and Jupyter, and the meter runs by the second. \u2192 Wallets with 1,000 $TEXEL make 50 free images ",
+    "Texel credits are live, and each one buys $1 of outputs for 0.70 USDG. 1,000 $TEXEL opens Billing for your wallet, and Texel pays the gas of every deposit. One signature fills your balance for images, clips, and voice in the Playground.",
+    "$TEXEL is DEX paid. The official CA and links are on its DexScreener page now.",
+    "Free outputs on Texel take three steps. Keep 1,000 $TEXEL in your wallet, sign in on https://texel.run, and press Make. Every day brings 50 free images and 2 free videos.",
+    "Free outputs are live on Texel. Connect a wallet that has 1,000 $TEXEL, and the Playground makes its first 50 images and 2 videos of each day for free.",
+    "Next up: free outputs for every wallet with 1,000 $TEXEL. That wallet will make 50 images with FLUX.1 [schnell] and 2 videos with Pruna Video each day, and its Texel credits stay untouched.",
+    "Gm to every wallet that found $TEXEL before the first GPU rental.",
+    "One prompt became this 5-second video in 22.5 seconds. Pruna Video lists at 0.15 USDG a clip on Texel, and the 30% launch discount brings it to 0.105. The $TEXEL Playground is in private testing now, and Texel credits come next.",
+    "Texel is already making images, video, and voice, and payments open next. Live today: \u2192 The gateway runs FLUX.1 [schnell], Pruna Video, and MiniMax Speech in private testing. \u2192 Anyone can sign in with one wallet signature. \u2192 The first burn took 5.98% of the $TEXEL supply out for good. Coming next: \u2192",
+    "Only one $TEXEL CA is the real one, and it now lives on the Texel website. One tap in the $TEXEL section copies it, so you always paste the right address.",
+    "What happens when an agent can rent its own GPU? It will pay each request with one USDG signature over x402. You set its balance and spend cap, and one switch stops it at any time.",
+    "Texel burned 59,805,861 $TEXEL, 5.98% of the total supply. The tokens sit in the dead address now, and nobody can move them again.",
+    "Your agent needs an H100 SXM for 20 minutes. On Texel it will rent one, run the work, stop it, and pay $1.12.",
+    "Every rate is on the Marketplace page. https://texel.run/marketplace",
+    "Introducing Texel, the onchain GPU cloud on Robinhood Chain. You'll pay with any token, and Texel will route every rental and output to the cheapest GPU that fits. It works the same for you or your agent, with 30% off everything at launch.",
+    "The site is live -> https://texel.run",
+    "The first image just came out of the Texel gateway. Flux Schnell made it in about 20 seconds. The prompt was \"A graphics card on a black desk, lit by a soft holographic glow, studio photo.\""
+   ],
+   "checked": "2026-11-05T08:51:57+00:00"
   }
  },
  "ids": {
@@ -1976,6 +2203,24 @@
   ],
   "2027116346040029184": [
    "axiom_parody123"
+  ],
+  "1775136623996325889": [
+   "SBORindex"
+  ],
+  "2100211842954010625": [
+   "darkwoodslabs"
+  ],
+  "2080916983990894592": [
+   "agentwormhole"
+  ],
+  "62711678": [
+   "RF_CRUZ"
+  ],
+  "2094823717243437056": [
+   "ubik_gold"
+  ],
+  "2110328927776604160": [
+   "texelrun"
   ]
  },
  "past": {
@@ -2057,7 +2302,13 @@
   "fairround": [],
   "the_astropad": [],
   "axiom_parody123": [],
-  "sborindex": []
+  "sborindex": [],
+  "darkwoodslabs": [],
+  "agentwormhole": [],
+  "trenchersio": [],
+  "rf_cruz": [],
+  "ubik_gold": [],
+  "texelrun": []
  },
  "history": {
   "barragetrade": {
@@ -2657,6 +2908,42 @@
     324,
     1639
    ]
+  },
+  "sborindex": {
+   "2026-11-05": [
+    20,
+    72
+   ]
+  },
+  "darkwoodslabs": {
+   "2026-11-05": [
+    2517,
+    126
+   ]
+  },
+  "agentwormhole": {
+   "2026-11-05": [
+    4343,
+    368
+   ]
+  },
+  "rf_cruz": {
+   "2026-11-05": [
+    168,
+    1397
+   ]
+  },
+  "ubik_gold": {
+   "2026-11-05": [
+    4303,
+    5
+   ]
+  },
+  "texelrun": {
+   "2026-11-05": [
+    60,
+    18
+   ]
   }
  },
  "telegram": {
@@ -3045,7 +3332,27 @@
   "sborxyz": {
    "twitter": "SBORindex",
    "blog": "https://sbor.xyz",
-   "checked": "2026-11-05T08:30:28+00:00"
+   "checked": "2026-11-05T08:51:57+00:00"
+  },
+  "darkwoodsai": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T08:51:57+00:00"
+  },
+  "runningoffcode": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T08:51:57+00:00"
+  },
+  "trenchersio": {
+   "twitter": "trenchersio",
+   "blog": "",
+   "checked": "2026-11-05T08:51:57+00:00"
+  },
+  "pons-labs": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T08:51:57+00:00"
   }
  }
 }
