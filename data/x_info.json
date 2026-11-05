@@ -825,23 +825,25 @@
    "id": "2110851832830443520",
    "name": "Nymra",
    "joined": "2026-10-15T21:55:11+00:00",
-   "followers": 477,
+   "followers": 649,
    "following": 9,
-   "posts": 50,
-   "verified": "organization",
-   "last_post": "2026-11-04T13:00:02+00:00",
-   "sample": 16,
-   "sample_full_week": false,
-   "posts_7d": 15,
-   "avg_likes": 12.7,
-   "avg_views": 6057,
+   "posts": 72,
+   "verified": "individual",
+   "last_post": "2026-11-04T21:34:37+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 18.9,
+   "avg_views": 1628,
    "bio_site": "http://nymra.si",
-   "bio": "Privacy superintelligence for users, apps & security teams. See what the chain reveals and prevent it. $NYMRA soon.",
-   "cas": [],
+   "bio": "Privacy superintelligence for users, apps & security teams. See what the chain reveals and prevent it.",
+   "cas": [
+    "0x62946bd33e9967e772d410aef5cbe24c4c45ff8a"
+   ],
    "fake_posts": [
     "$NYMRA isn't live yet. Every NYMRA token you see is not ours. Same name, same logo, still fake. Only @nymrasi on X and https://t.me/nymrasi on Telegram will post the contract address at launch. (Nov 04 13:00 UTC)"
    ],
-   "checked": "2026-11-04T14:50:46+00:00"
+   "checked": "2026-11-05T03:35:37+00:00"
   },
   "winwithdares": {
    "handle": "winwithdares",
@@ -851,21 +853,21 @@
    "joined": "2026-11-01T08:23:29+00:00",
    "followers": 9,
    "following": 0,
-   "posts": 37,
+   "posts": 35,
    "verified": "individual",
-   "last_post": "2026-11-04T15:04:44+00:00",
-   "sample": 4,
+   "last_post": "2026-11-03T18:18:53+00:00",
+   "sample": 3,
    "sample_full_week": false,
-   "posts_7d": 4,
-   "avg_likes": 0.8,
-   "avg_views": 54,
+   "posts_7d": 3,
+   "avg_likes": 1.0,
+   "avg_views": 113,
    "bio_site": "http://dictatordares.fun",
-   "bio": "Absolute power, one spin at a time. \nBack a dictator, win the war chest, earn $DARE whether you win or lose\n\n0xe79f8e006df605cdb5abc6f309420ec7262fda80",
+   "bio": "Absolute power, one spin at a time. \nBack a dictator, win the war chest, earn $DARE whether you win or lose\n\nsoon",
    "cas": [
     "0xe79f8e006df605cdb5abc6f309420ec7262fda80"
    ],
    "fake_posts": [],
-   "checked": "2026-11-04T15:04:46+00:00"
+   "checked": "2026-11-05T03:35:37+00:00"
   },
   "rackshq": {
    "handle": "RacksHQ",
@@ -1198,6 +1200,50 @@
    "cas": [],
    "fake_posts": [],
    "checked": "2026-11-05T02:37:46+00:00"
+  },
+  "serverforagent": {
+   "handle": "ServerForAgent",
+   "found": true,
+   "id": "2070970261214810112",
+   "name": "Server For Agent",
+   "joined": "2026-06-27T20:40:17+00:00",
+   "followers": 108,
+   "following": 703,
+   "posts": 948,
+   "verified": "individual",
+   "last_post": "2026-11-05T03:00:26+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 0.3,
+   "avg_views": 17,
+   "bio_site": "https://server4agent.com",
+   "bio": "Your AI assistant can ship real tools. Connect the one you already use, ask for a dashboard, a bot or a daily job, and get a live link your team can open",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T03:35:37+00:00"
+  },
+  "burcs": {
+   "handle": "burcs",
+   "found": true,
+   "id": "241270968",
+   "name": "brandon",
+   "joined": "2011-01-21T21:33:42+00:00",
+   "followers": 12175,
+   "following": 746,
+   "posts": 3427,
+   "verified": "individual",
+   "last_post": "2026-11-04T21:11:11+00:00",
+   "sample": 17,
+   "sample_full_week": false,
+   "posts_7d": 10,
+   "avg_likes": 113.8,
+   "avg_views": 9315,
+   "bio_site": "http://burcs.dev",
+   "bio": "head of experience & design @cloudflare | founder @outerbase (acquired)",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T03:35:37+00:00"
   }
  },
  "ids": {
@@ -1359,6 +1405,12 @@
   ],
   "2033460672370216960": [
    "ego_agent"
+  ],
+  "2070970261214810112": [
+   "ServerForAgent"
+  ],
+  "241270968": [
+   "burcs"
   ]
  },
  "past": {
@@ -1415,7 +1467,9 @@
   "playbiscotti": [],
   "rlaope": [],
   "holabossai": [],
-  "ego_agent": []
+  "ego_agent": [],
+  "serverforagent": [],
+  "burcs": []
  },
  "history": {
   "barragetrade": {
@@ -1768,12 +1822,20 @@
    "2026-11-04": [
     477,
     50
+   ],
+   "2026-11-05": [
+    649,
+    72
    ]
   },
   "winwithdares": {
    "2026-11-04": [
     9,
     37
+   ],
+   "2026-11-05": [
+    9,
+    35
    ]
   },
   "rackshq": {
@@ -1864,6 +1926,18 @@
    "2026-11-05": [
     6069,
     735
+   ]
+  },
+  "serverforagent": {
+   "2026-11-05": [
+    108,
+    948
+   ]
+  },
+  "burcs": {
+   "2026-11-05": [
+    12175,
+    3427
    ]
   }
  },
@@ -2068,12 +2142,12 @@
   "nymrasi": {
    "twitter": "nymrasi",
    "blog": "https://nymra.si",
-   "checked": "2026-11-04T14:50:46+00:00"
+   "checked": "2026-11-05T03:35:37+00:00"
   },
   "loodev3": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-04T15:04:46+00:00"
+   "checked": "2026-11-05T03:35:37+00:00"
   },
   "rackshq": {
    "twitter": null,
@@ -2149,6 +2223,21 @@
    "twitter": "ego_agent",
    "blog": "https://citrolabs.ai",
    "checked": "2026-11-05T02:37:46+00:00"
+  },
+  "server4agent": {
+   "twitter": "serverforagent",
+   "blog": "https://www.server4agent.com",
+   "checked": "2026-11-05T03:35:37+00:00"
+  },
+  "guardis-io": {
+   "twitter": null,
+   "blog": "https://guardis.io",
+   "checked": "2026-11-05T03:35:37+00:00"
+  },
+  "ygwyg": {
+   "twitter": "burcs",
+   "blog": "",
+   "checked": "2026-11-05T03:35:37+00:00"
   }
  }
 }

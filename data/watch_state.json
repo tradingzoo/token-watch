@@ -527,7 +527,26 @@
   "0x2f0436ebb378f6831b7d66caba34f46f6d08bd7b": "2026-11-05T02:47:50+00:00",
   "0x4ed418d5e58358906d4b7e255f320521c6d14007": "2026-11-05T02:47:50+00:00",
   "0xa74d5a65dceed3522495ef5df2c8d9b3ade1a7a5": "2026-11-05T02:47:50+00:00",
-  "0x55f5315e63104069a21231c5c1cf6a1182825553": "2026-11-05T02:47:50+00:00"
+  "0x55f5315e63104069a21231c5c1cf6a1182825553": "2026-11-05T02:47:50+00:00",
+  "0x0f58e1a3754dfc352ffae8e962c729ede06a8c5e": "2026-11-05T03:35:37+00:00",
+  "0xc28f4fbe1771e0d884475a040c23e2ae358e3116": "2026-11-05T03:35:37+00:00",
+  "0x3b4c9d20678564c19dcd0db1644f5f5d2d66c647": "2026-11-05T03:35:37+00:00",
+  "0x65efbb0dc90d2be5bb0d4edead0165e6b5041d4d": "2026-11-05T03:35:37+00:00",
+  "0xb6496cffed51a45e7e305575f0ff5140f916cd98": "2026-11-05T03:35:37+00:00",
+  "0x60eddf444a205a8c25f8f9fa68eca619b445fbd2": "2026-11-05T03:35:37+00:00",
+  "0x07cdf5db9686f83629fe756955c53e0573b135f1": "2026-11-05T03:35:37+00:00",
+  "0x6a44e9bcacaddaec210be54214d74f283edd9c41": "2026-11-05T03:35:37+00:00",
+  "0x2d955895ad1a54d91f18edf1a025f0afdd09e964": "2026-11-05T03:35:37+00:00",
+  "0x4004ec3d79f5bba62bf61b5f6b8e3438f0c994c9": "2026-11-05T03:35:37+00:00",
+  "0x2fe86503878c20e9d20c7ffcbe448dc8156b2dcf": "2026-11-05T03:35:37+00:00",
+  "0x1c4a28a441f73b2cb6678be118e5988be3a141bd": "2026-11-05T03:35:37+00:00",
+  "0x1b90b6f29fb81b14157867bfad6cb9a0dd72cfe6": "2026-11-05T03:35:37+00:00",
+  "0x528110de3c7c8d67902f48bda243678f742aedfb": "2026-11-05T03:35:37+00:00",
+  "0xc23582217b4b18ad63bd5dadffad2d78605143e4": "2026-11-05T03:35:37+00:00",
+  "0x490a2c128f15ec38f9076f9e1d978dde8ebf1e54": "2026-11-05T03:35:37+00:00",
+  "0x31b724e2e325c8bef660dbd3e84545d758c45ca2": "2026-11-05T03:35:37+00:00",
+  "0x6a674e4d5259a836532e1042bf7c607070016a85": "2026-11-05T03:35:37+00:00",
+  "0x46b7085515cfcd66f442456c6aef1749f532e371": "2026-11-05T03:35:37+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -3844,9 +3863,182 @@
      "people": 11
     }
    }
+  },
+  "0xb6496cffed51a45e7e305575f0ff5140f916cd98": {
+   "address": "0xb6496cffed51a45e7e305575f0ff5140f916cd98",
+   "symbol": "SRV4A",
+   "name": "Server4Agent",
+   "description": "Server4Agent lets AI assistants build and host real tools. Someone asks in chat for a dashboard or a bot, and gets back a private live link",
+   "website": "https://server4agent.com/",
+   "twitter": "https://x.com/ServerForAgent",
+   "launched": "2026-11-05T03:27:45+00:00",
+   "mcap": 4014.6688569773924,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T03:35:37+00:00",
+   "scored_at": "2026-11-05T03:35:37+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Server4Agent/server4agent-go",
+    "score": 45,
+    "raw_score": 45,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (hook, vault) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (server4agent.com/docs), docs (server4agent.com/docs/mcp), docs (server4agent.com/llms-full.txt), docs (server4agent.com/llms.txt), website (server4agent.com/))"
+     ],
+     "Real code": [
+      "\ud83d\udfe1 4 changes over 110 days (+5)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 114 days old, 1 people, 0 stars, 0 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 4 updates shipped so far"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "sources_read": [
+     "https://server4agent.com/",
+     "https://server4agent.com/llms-full.txt",
+     "https://server4agent.com/llms.txt",
+     "https://server4agent.com/docs",
+     "https://server4agent.com/docs/mcp"
+    ],
+    "facts": {
+     "commits": 4,
+     "stars": 0,
+     "created": "2026-07-14",
+     "pushed": "2026-11-01",
+     "people": 1
+    }
+   }
+  },
+  "0x07cdf5db9686f83629fe756955c53e0573b135f1": {
+   "address": "0x07cdf5db9686f83629fe756955c53e0573b135f1",
+   "symbol": "GUARDIS",
+   "name": "Guardis",
+   "description": "Guardis is the pro memecoin and alpha ai agent that buys smart money signals for you",
+   "website": "https://guardis.io",
+   "twitter": null,
+   "launched": "2026-11-05T03:23:51+00:00",
+   "mcap": 3858.947065095002,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T03:35:37+00:00",
+   "scored_at": "2026-11-05T03:35:37+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "guardis-io/",
+    "score": 40,
+    "capped": true,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (dex, exchange, fees, launchpad) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/guardis-io has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u2705 GitHub account guardis-io is named after the project (+10)",
+      "\u2139\ufe0f Points add up to 60, capped at 40 because the code is private"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u2705 GitHub account 726 days old, 1 followers (+10)"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2024-11-09",
+     "pushed": "private",
+     "commits": "private"
+    }
+   }
+  },
+  "0x2d955895ad1a54d91f18edf1a025f0afdd09e964": {
+   "address": "0x2d955895ad1a54d91f18edf1a025f0afdd09e964",
+   "symbol": "MAHORA",
+   "name": "Mahoraga Dev",
+   "description": "Self-adapting autonomous coding and debugging harness for AI engineering.",
+   "website": "https://mahoraga.dev",
+   "twitter": "https://x.com/burcs",
+   "launched": "2026-11-05T03:20:48+00:00",
+   "mcap": 4083.8333707829897,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T03:35:37+00:00",
+   "scored_at": "2026-11-05T03:35:37+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "ygwyg/MAHORAGA",
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (hook, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: website (mahoraga.dev))"
+     ],
+     "Real code": [
+      "\u2705 94 changes over 16 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 930 days old, 6 people, 871 stars, 171 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "sources_read": [
+     "https://mahoraga.dev"
+    ],
+    "facts": {
+     "commits": 94,
+     "stars": 871,
+     "created": "2026-02-01",
+     "pushed": "2026-02-17",
+     "people": 6
+    }
+   }
   }
  },
- "checked_total": 517,
+ "checked_total": 536,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -4214,9 +4406,37 @@
    "ignored": [
     "ethers-io/ethers.js"
    ]
+  },
+  {
+   "when": "2026-11-05T03:35:37+00:00",
+   "address": "0x1c4a28a441f73b2cb6678be118e5988be3a141bd",
+   "symbol": "ORIOT",
+   "website": "https://orbitriot.com",
+   "used": null,
+   "ignored": [
+    "google/model-viewer",
+    "h5bp/html5-boilerplate"
+   ]
   }
  ],
  "symbol_counts": {
+  "VIBE": 1,
+  "DOOM": 2,
+  "SRV4A": 1,
+  "TEST": 2,
+  "GUARDIS": 1,
+  "VLDR": 1,
+  "MAHORA": 1,
+  "METRION": 1,
+  "ORIOT": 1,
+  "LEEROY": 1,
+  "PINOCOIN": 1,
+  "SNOP": 1,
+  "DUCKTRUMP": 2,
+  "LOCK": 1,
+  "VALSEQ": 1,
+  "PIRATE": 1,
+  "PIXERT": 1,
   "AHAHA": 1,
   "YOF": 1,
   "ZERO": 5,
@@ -4231,9 +4451,16 @@
   "PP": 1,
   "CI": 2,
   "JDOG": 1,
-  "DOOM": 1,
-  "DUCKTRUMP": 1,
   "CIPHERMVP": 1,
+  "PONS": 1,
+  "WIF": 1,
+  "DARWIN": 1,
+  "ORBIO": 1,
+  "CHARLIE": 1,
+  "HYDX": 1,
+  "ROBINCAT": 1,
+  "DELTA": 1,
+  "ROBINHOOD": 1,
   "66": 1,
   "BKTDSK": 1,
   "SEO": 1,
@@ -4251,15 +4478,8 @@
   "MOOVIT": 1,
   "SAFMON": 1,
   "TNESDK": 1,
-  "PONS": 1,
-  "WIF": 1,
-  "DARWIN": 1,
-  "ORBIO": 1,
   "HMM": 1,
-  "CHARLIE": 1,
-  "HYDX": 1,
   "MOTION": 1,
-  "ROBINCAT": 1,
   "RAETO": 1,
   "300": 1,
   "MERY": 1,
@@ -4316,7 +4536,6 @@
   "FECALCOIN": 1,
   "THINKN": 1,
   "INSTCK": 1,
-  "DELTA": 1,
   "microduck": 1,
   "GORGO": 1,
   "CUBE": 1,
@@ -4423,7 +4642,6 @@
   "TI": 1,
   "Autopsy": 1,
   "STONKBROKER": 1,
-  "ROBINHOOD": 1,
   "FAIRY": 1,
   "RISE": 2,
   "SLIP": 1,
@@ -4542,7 +4760,6 @@
   "SONAR": 1,
   "Forest Pixel": 1,
   "HONEY": 1,
-  "TEST": 1,
   "FLOEM": 2,
   "PAPARAZZI": 1,
   "SMOKE": 2,
