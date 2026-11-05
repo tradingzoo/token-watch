@@ -1086,7 +1086,7 @@
   "wallet_txs": 14
  },
  "0x7a312470b5a8b91718196874a0df09108ee4905c": {
-  "checked": "2026-11-05T19:22:01+00:00",
+  "checked": "2026-11-05T19:40:45+00:00",
   "pons": true,
   "wallet": "0xe968913611f49c63fdee499c242d4a5880a9755a",
   "launches": 1,
@@ -1096,7 +1096,7 @@
   "wallet_txs": 9
  },
  "0x251bd9cab995ea411b658abbea0fdbf694e63824": {
-  "checked": "2026-11-05T19:22:01+00:00",
+  "checked": "2026-11-05T19:40:45+00:00",
   "pons": true,
   "wallet": "0xbdc0ddc5f2d1c736a179a81a9ffbd555f54003a3",
   "launches": 1,
@@ -1106,7 +1106,7 @@
   "wallet_txs": 11
  },
  "0x3ad285d19eb5e1574cfdf151e996f1d0936f6268": {
-  "checked": "2026-11-05T19:22:01+00:00",
+  "checked": "2026-11-05T19:40:45+00:00",
   "pons": true,
   "wallet": "0x0ef98b0c7cfdf31f4e2e68fa480c5e2c2758db93",
   "launches": 1,
@@ -1116,7 +1116,7 @@
   "wallet_txs": 4
  },
  "0x62946bd33e9967e772d410aef5cbe24c4c45ff8a": {
-  "checked": "2026-11-05T19:22:01+00:00",
+  "checked": "2026-11-05T19:40:45+00:00",
   "pons": true,
   "wallet": "0x51213af3abda6ba442dcebbf6fd031e812b8ff15",
   "launches": 1,
@@ -3880,18 +3880,8 @@
   "others": [],
   "wallet_txs": 8
  },
- "0xe86e8331fbb72c23b83ad0f5dbd56c5735709533": {
-  "checked": "2026-11-05T18:48:28+00:00",
-  "pons": true,
-  "wallet": "0xca42692a50c95cdf786288d7585dc53173d601fc",
-  "launches": 1,
-  "before": 0,
-  "after": 0,
-  "others": [],
-  "wallet_txs": 10
- },
  "0xa2753fd0bc86b8ceb55ffd2698679c7f214785f1": {
-  "checked": "2026-11-05T19:22:01+00:00",
+  "checked": "2026-11-05T19:40:45+00:00",
   "pons": true,
   "wallet": "0xf836cf3130c0afc83355f87a8db480f720f5f4aa",
   "launches": 1,
@@ -3900,28 +3890,87 @@
   "others": [],
   "wallet_txs": 1
  },
- "0x9b62dfe4036b202c3d37214ef6da5c240a0a65c7": {
-  "checked": "2026-11-05T19:22:01+00:00",
+ "0xd7ccebb9a014a713879093979c7016db72486e62": {
+  "checked": "2026-11-05T19:40:45+00:00",
   "pons": true,
-  "wallet": "0xdba91ae9051dff260fb18e231f0ec9b47b413d7f",
+  "wallet": "0x018ba49312937708f7b1f3ae98b086b4096be410",
   "launches": 1,
   "before": 0,
   "after": 0,
   "others": [],
-  "wallet_txs": 2
- },
- "0xf2c650b0425a21eddee807b569c6819753418a4a": {
-  "checked": "2026-11-05T19:22:01+00:00",
-  "pons": true,
-  "wallet": "0xcf3e2415737a0d01d41ac569c8e6bfbfaf0ec4bd",
-  "launches": 1,
-  "before": 0,
-  "after": 0,
-  "others": [],
-  "wallet_txs": 9
+  "wallet_txs": 11
  },
  "0x87066b936462d251ab4d6aa12a581dac9064a907": {
-  "checked": "2026-11-05T19:22:01+00:00",
+  "checked": "2026-11-05T19:40:45+00:00",
   "pons": false
+ },
+ "0x58f81b84445b9e65473f8b48047819be6b933119": {
+  "checked": "2026-11-05T19:40:45+00:00",
+  "pons": true,
+  "wallet": "0x0f4dfc4c75554a87c0413459e34e9b707cd8d061",
+  "launches": 11,
+  "before": 10,
+  "after": 0,
+  "others": [
+   {
+    "address": "0xe277bfd994e1757569227a1486d33e63fde2d587",
+    "symbol": "BEEP",
+    "mcap": 2696.6534436678444,
+    "launched": "2026-11-04T01:58:49+00:00"
+   },
+   {
+    "address": "0x5b753aada9765104403b39a3b3219f77ff47aad6",
+    "symbol": "TESTING",
+    "mcap": 3482.7146053828696,
+    "launched": "2026-10-23T11:01:17+00:00"
+   },
+   {
+    "address": "0xf45bc8d6738b9a42476e0e08f1d418335dd211f2",
+    "symbol": "testing",
+    "mcap": 3705.189469721935,
+    "launched": "2026-09-12T21:20:49+00:00"
+   },
+   {
+    "address": "0x25a7ace49e53771eed270b4e9ae93b8097445064",
+    "symbol": "Testing",
+    "mcap": 3671.812698995085,
+    "launched": "2026-08-30T14:24:50+00:00"
+   },
+   {
+    "address": "0x21c2587309dba528207a04d6c7a3b91434984ccd",
+    "symbol": "BOSSCAT",
+    "mcap": 3671.873359261856,
+    "launched": "2026-08-12T13:30:35+00:00"
+   },
+   {
+    "address": "0x2ee9543e7446b5c12ae127bae840817c4d4d580c",
+    "symbol": "BOSSCAT",
+    "mcap": 3673.911521242864,
+    "launched": "2026-08-12T11:58:05+00:00"
+   },
+   {
+    "address": "0xd8107f5aaf35f7b0f46b4730a9e52e5960cceeb8",
+    "symbol": "SAITAMA IN HOOD",
+    "mcap": 3671.8974953876136,
+    "launched": "2026-08-12T04:50:44+00:00"
+   },
+   {
+    "address": "0x66328c66ddd9d2fad9dcfee4a8f5da736b56d6c6",
+    "symbol": "SAITAMA IN HOOD",
+    "mcap": 3671.8974953876136,
+    "launched": "2026-08-12T04:40:05+00:00"
+   }
+  ],
+  "wallet_txs": 276
+ },
+ "0x861a683032fb1068e8735c61b2859be5233510f8": {
+  "checked": "2026-11-05T19:40:45+00:00",
+  "pons": true,
+  "wallet": "0x6fe929a8db4888a3fafc88024fe9bf422efaf234",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 10
  }
 }

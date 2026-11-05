@@ -2439,18 +2439,31 @@
    "following": 1,
    "posts": 245,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-05T11:34:59+00:00",
+   "sample": 12,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 4,
+   "avg_likes": 17.9,
+   "avg_views": 1513,
    "bio_site": "https://flexmeow.com/",
    "bio": "Choose-your-fixed-rate loans. From @yearnfi",
    "cas": [],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T19:16:57+00:00"
+   "texts": [
+    "ANON, IT IS TIME TO LOOP yvWETH-2",
+    "and you can loop it on Flex for >30% APY!",
+    "anon, you don't have to take the pain anymore come home",
+    "yesterday was day 1 of the @infiniFi siUSD market loopers already got to enjoy the tranquility",
+    "look at those numbers lenders earn more, AND borrowers pay less unheard of and thats before the real party starts with FLEX and you thought DeFi was dead? ngmi. we just getting started \ud83d\udd25",
+    "guys, the yield is breaking the UI again",
+    "asset issuers stop chasing let's talk",
+    "current Flex yields, on a Friday yvUSD liquidity available: - ~340k USDC at avg rate (~17% APY at max loop) - ~600k USDC at 5.4% borrow (~15% APY at max loop) yBOLD liquidity available: - ~54k USDC at avg rate (~18% APY at max loop) - ~180k USDC at 3.1% borrow (~17% APY at max loop) yvcrvUSD liquidi",
+    "the vaultsNG BR aims to integrate Yearn <> Flex further YFI stakers, time to meow \ud83d\udc08",
+    "still >15% APY on ETH available. not bad size too let's get avg rate back to 2.5%?",
+    "Flex doesnt wait lenders are always fully liquid ... so can Flex lender shares be used as collateral for a safe, opt-in rehypothecation?",
+    "special thx to @MarcoWorms for the vid"
+   ],
+   "checked": "2026-11-05T19:33:27+00:00"
   },
   "pfedprog": {
    "handle": "pfedprog",
@@ -9712,16 +9725,16 @@
    "id": "2032968055249317890",
    "name": "Sherwood Protocol",
    "joined": "2026-03-14T23:52:31+00:00",
-   "followers": 4757,
+   "followers": 4756,
    "following": 10,
-   "posts": 576,
+   "posts": 577,
    "verified": "individual",
    "last_post": "2026-10-26T15:47:55+00:00",
    "sample": 11,
    "sample_full_week": false,
    "posts_7d": 0,
    "avg_likes": 311.8,
-   "avg_views": 174965,
+   "avg_views": 174978,
    "bio_site": "http://sherwood.sh",
    "bio": "Turn any agent into a hedge fund manager on @RobinhoodCrypto",
    "cas": [],
@@ -9739,7 +9752,7 @@
     "Sherwood pairs naturally with the agents people already use every day, like @bot and @Muse. You can bring your own agent, direct it at a vault, and let it turn your thesis into a live strategy. We believe this is the beginning of \"vibe trading\". As models get more capable, you'll be able to describe",
     "What we're building is the capital layer where agents prove themselves in public, where every strategy leaves a verifiable record, guardians hold every move accountable, and the best performers are rewarded for their edge. For now you can only deposit into vaults you own. Only a fund's owner can pro"
    ],
-   "checked": "2026-11-05T18:38:54+00:00"
+   "checked": "2026-11-05T19:33:27+00:00"
   },
   "peekmarquee": {
    "handle": "peekmarquee",
@@ -9766,11 +9779,6 @@
     "The first command of day one was also the last one needed. npx peekmarquee, typed in the folder where Claude Code was running, printed a public link in seconds. Recorded on the founder's machine with a test session. Reply with what your agent is building today."
    ],
    "checked": "2026-11-05T18:38:54+00:00"
-  },
-  "sherwoodagent": {
-   "handle": "sherwoodagent",
-   "found": false,
-   "checked": "2026-11-05T19:00:10+00:00"
   },
   "openanysi": {
    "handle": "openanysi",
@@ -9923,79 +9931,63 @@
     "In light of @beniduboss comprehensive expos\u00e9 of unusual trading activity on Kalshi, I'd like to say a couple of things about what we represent. Inflection was born from the frustrations we experienced firsthand as traders. After building HFT bots on short-duration crypto markets, we saw how unreliab",
     "@beniduboss We\u2019re currently onboarding alpha testers who are tired of the status quo. What\u2019s the number one frustration you have with existing short-duration UP/DOWN markets?"
    ],
-   "checked": "2026-11-05T18:38:54+00:00"
-  },
-  "tollsfun": {
-   "handle": "tollsfun",
-   "found": true,
-   "id": "2115851496411795456",
-   "name": "tolls",
-   "joined": "2026-10-29T17:02:44+00:00",
-   "followers": 3349,
-   "following": 2,
-   "posts": 11,
-   "verified": "individual",
-   "last_post": "2026-11-05T18:40:05+00:00",
-   "sample": 10,
-   "sample_full_week": false,
-   "posts_7d": 10,
-   "avg_likes": 608.9,
-   "avg_views": 6706,
-   "bio_site": "http://tolls.fun",
-   "bio": "Pay-per-call for AI agents on Solana.\nAgents pay in USDC over x402. Every request pays its toll.\n\nCA: 8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump",
-   "cas": [],
-   "fake_posts": [],
-   "texts": [
-    "the tolls catalog checks every endpoint every 15 minutes. each one gets an unpaid request and has to answer 402 with a price we can read. one that stops answering is hidden until it comes back. odd prices get a warning. https://tolls.fun",
-    "a paid call on tolls, in four steps over plain HTTP: 1. GET: the agent asks 2. 402: the price comes back in PAYMENT-REQUIRED 3. retry: a signed usdc transfer goes in PAYMENT-SIGNATURE 4. 200: the answer, with PAYMENT-RESPONSE and the tx signature https://tolls.fun",
-    "an agent that needs one answer shouldn't need an account, an API key and a monthly plan. on tolls it pays for that one request, in usdc, and gets the answer. https://tolls.fun",
-    "dev supply locked. check the lock: https://app.streamflow.finance/token-dashboard/solana/mainnet/8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump/contract/5NFvUDHVMocWzCudEbdCtsN7A51tanvUdUwh1gjAsBPv",
-    "dex paid. https://dexscreener.com/solana/8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump",
-    "today, the gates open. tolls launches on solana: a catalog of x402 endpoints, a no-code gateway for any API, six data endpoints, sdk + mcp, and agent wallets with hard spend budgets. the tolls token comes next. follow along on https://tolls.fun",
-    "what happens when an API fails mid-call? on the tolls gateway, the agent will sign first, but the payment only settles after the API answers with a 2xx. timeout or error: nothing settles. the agent pays $0. you only pay for answers. follow along on https://tolls.fun",
-    "for centuries, roads and bridges charged by the trip. pay at the gate, drive on. the web went with accounts, keys and monthly plans. fine for people with cards. agents don't have cards. they'll pay the way roads always have: per trip, per request. the toll is coming back.",
-    "https://x.com/i/article/2117333258140856320",
-    "AI agents run on APIs. Soon they'll pay for each call. One request, one payment, in USDC on Solana. No sign-ups, no subscriptions. Every request pays its toll."
-   ],
-   "checked": "2026-11-05T18:38:54+00:00"
-  },
-  "openanysi": {
-   "handle": "openanysi",
-   "found": true,
-   "id": "1873640046278144000",
-   "name": "OpenAny",
-   "joined": "2024-12-30T07:59:47+00:00",
-   "followers": 341,
-   "following": 98,
-   "posts": 1383,
-   "verified": null,
-   "last_post": null,
-   "sample": 0,
-   "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
-   "bio_site": "http://openany.si",
-   "bio": "The marketplace for AI agents \u00b7 160+ models, 3,000+ APIs, one key \u00b7 0% markup\u00b7No sub.\n\ntg: http://t.me/openanylabs\nbot: http://x.ai/bot/wZ0PqEbJCTJizVYNK9Ohs",
-   "cas": [],
-   "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T19:16:57+00:00"
-  },
-  "darkstonkcash": {
-   "handle": "darkstonkcash",
-   "found": false,
-   "checked": "2026-11-05T19:16:57+00:00"
+   "checked": "2026-11-05T19:00:10+00:00"
   },
   "zer0clickz": {
    "handle": "zer0clickz",
-   "found": false,
-   "checked": "2026-11-05T19:16:57+00:00"
+   "found": true,
+   "id": "1636842565",
+   "name": "zeroclickZ",
+   "joined": "2013-08-01T01:23:18+00:00",
+   "followers": 35,
+   "following": 0,
+   "posts": 17,
+   "verified": "individual",
+   "last_post": "2026-11-03T17:48:18+00:00",
+   "sample": 6,
+   "sample_full_week": false,
+   "posts_7d": 6,
+   "avg_likes": 0.2,
+   "avg_views": 34,
+   "bio_site": "https://zeroclickz.com",
+   "bio": "When one agent can't, the network can.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Every AI agent hits a wall: a skill it lacks, data it can't reach, an answer it can't check. A person would ask a colleague. Agents had nobody to ask. ZeroClickz is where they ask. https://x.com/i/article/2117673579932262400",
+    "6/ New today: answers carry their sources, assumptions and gaps, covered by the receipt. And every receipt goes into a public log anyone can check.",
+    "7/ Open beta on test USDC, so asking is free. Next: real payments, micropayments to big jobs, wallet to wallet through a contract we can't touch.",
+    "Real help. Test money.",
+    "ZeroClickz agent kit When one agent can't, the network can. This kit connects your AI to ZeroClickz so it can ask other agents for help when it's stuck, and take requests from others to build a track record.",
+    "ZeroClickz is in open beta. Post a task in one line, no account. Skilled agents answer it at your private link. Bring your own agent and take real work. Escrow, signed receipts, test USDC for now. One wallet signature keeps your history."
+   ],
+   "checked": "2026-11-05T19:33:27+00:00"
   },
   "ghostxaiagent": {
    "handle": "GhostXAIagent",
-   "found": false,
-   "checked": "2026-11-05T19:16:57+00:00"
+   "found": true,
+   "id": "2115855286426849280",
+   "name": "Echo Ledger",
+   "joined": "2026-10-29T17:17:08+00:00",
+   "followers": 15,
+   "following": 5,
+   "posts": 4,
+   "verified": null,
+   "last_post": "2026-11-05T17:54:12+00:00",
+   "sample": 2,
+   "sample_full_week": false,
+   "posts_7d": 2,
+   "avg_likes": 0.0,
+   "avg_views": 42,
+   "bio_site": "https://www.echoledger.fun/",
+   "bio": "Accountable AI for crypto calls. Filters KOL echo, debates both sides, records every decision on-chain. Built on Ethereum + Chainlink CRE. http://echoledger.fun",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Filter the echo. Record the signal. An AI agent that leaves an on-chain, replayable record of every call. \ud83d\udd34",
+    "\u6211\u4eec\u5c06\u6bcf\u9694\u51e0\u4e2a\u5c0f\u65f6\u66f4\u65b0\u4e00\u6b21\u8fdb\u5ea6\u3002"
+   ],
+   "checked": "2026-11-05T19:33:27+00:00"
   },
   "letronnaagent": {
    "handle": "LetronnaAgent",
@@ -10003,16 +9995,16 @@
    "id": "2118007547638546432",
    "name": "Letronna",
    "joined": "2026-11-04T15:50:44+00:00",
-   "followers": 2,
-   "following": 0,
+   "followers": 4,
+   "following": 4,
    "posts": 8,
    "verified": "individual",
    "last_post": "2026-11-05T19:14:50+00:00",
    "sample": 3,
    "sample_full_week": false,
    "posts_7d": 3,
-   "avg_likes": 0.3,
-   "avg_views": 1754,
+   "avg_likes": 1.0,
+   "avg_views": 1762,
    "bio_site": "https://letronna.ai",
    "bio": "Fast agent written in Rust, come with built in Wallet, Cloud and Offline models. Deploy anywhere even in your pocket with Letronna.",
    "cas": [
@@ -10024,17 +10016,131 @@
     "Runs on your own machine too. Letronna picks the models your computer can run well, downloads them checked, and answers on your GPU. No internet needed, and nothing leaves your computer.",
     "https://letronna.ai Try the demo, built from one prompt: https://lc-f77huch6yuxym3sj2m95.letronna.si iOS and Android: soon. Intelligence in motion."
    ],
-   "checked": "2026-11-05T19:16:57+00:00"
+   "checked": "2026-11-05T19:33:27+00:00"
   },
-  "trypalomino": {
-   "handle": "trypalomino",
-   "found": false,
-   "checked": "2026-11-05T19:16:57+00:00"
+  "norenagent": {
+   "handle": "NorenAgent",
+   "found": true,
+   "id": "2115816365491662848",
+   "name": "NorenAgent",
+   "joined": "2026-10-29T14:42:36+00:00",
+   "followers": 41,
+   "following": 9,
+   "posts": 67,
+   "verified": "individual",
+   "last_post": "2026-11-05T19:22:11+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 3.1,
+   "avg_views": 169,
+   "bio_site": "http://usenoren.xyz",
+   "bio": "Every agent runs under a signed grant. Every action leaves a receipt in a hash-chained audit log. Eight primitives, built in the open.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Every agent runs under a signed grant. Every action leaves a receipt in a hash-chained audit log. Eight primitives, built in the open.",
+    "The trenches are calling and i must held to.",
+    "The Grant \u2192 Act \u2192 Prove Model. Noren's operating model can be understood through three stages. 1. Grant: Define the Agent's Authority Everything starts with a signed capability. An operator issues an authorization that identifies the agent, the action it is allowed to perform, optional scope restric",
+    "Noren introduces a permission-based execution model where authority is explicitly granted, checked, and enforced by the daemon. Before an agent performs an action, the system checks whether the required capability exists and whether it is still valid. If the permission is missing, expired, revoked, ",
+    "Noren's memory is a single store partitioned into three tiers. Tiers are represented as a column on a shared schema rather than as separate databases; records can be promoted between tiers without migration.",
+    "https://x.com/i/article/2118058619069681664",
+    "We have applied @fomo team tags for $NOREN.",
+    "Every Noren install holds a single ed25519 keypair. The same key signs capability grants and appears as the issuer on audit events and memory records. Noren does not maintain a secondary key system.",
+    "The keypair is stored as the raw 32-byte seed at $NOREN_HOME/identity/local.key with mode 0600 (owner read/write only). The daemon refuses to start if the key file has broader permissions; restrict the file with chmod 0600 to recover. The corresponding public key is derived from the seed and attache",
+    "Noren freezes its public wire and record contracts as committed, byte-exact golden vectors. A golden vector is the canonical serialized form of one message or record, checked into the repository, that an external implementation can encode and decode against without reading the Rust source. If your i",
+    "A capability token is a typed, signed authorization. It names an action, optionally carries a versioned JSON scope, and is signed by the granter with their ed25519 key. Noren enforces agent and tool authorization through capability tokens.",
+    "Noren is a local-first daemon. The model assumes the operator owns the host and trusts their own user account; it does not defend against an adversary that has already obtained shell access as the operator. Within that boundary, Noren provides hard guarantees over Noren-mediated actions: ed25519-sig",
+    "zauth runs a provider hub for x402: a directory that discovers public x402 endpoints, health-checks them, and exposes provider telemetry. Noren integrates with it so the paid resources Noren exposes are discoverable and monitored, and so Noren agents can read the directory when looking for paid serv",
+    "The client crate is implemented. Registering a Noren seller in the zauth provider hub requires a live public x402 seller on Robinhood Chain, which is coming soon. No Noren endpoint is registered or monitored yet. One operational detail worth stating plainly: a hub registers a selling endpoint only o",
+    "Noren x402: x402 is HTTP 402 Payment Required turned into a working payment rail. A resource answers an unpaid request with a signed price quote, the caller pays, and the same request retried with an X-PAYMENT header returns the resource. Noren uses x402 in both directions: agents pay for external r",
+    "An agent needs a secp256k1 key holding USDG. Because Noren's facilitator settles with transferFrom rather than an EIP-3009 authorization, the buyer first sets a one-time ERC-20 allowance for the facilitator's spender address (published at /facilitator), which costs a small amount of ETH once. After ",
+    "x402 lets a product charge per request over plain HTTP: an unpaid call gets 402 Payment Required with a price, and a paid retry gets the response. On Noren's settlement chain, Robinhood Chain (chain id 4663, CAIP-2 id eip155:4663), payments are in USDG and gas is ETH.",
+    "npm install express @x402/express @x402/core @x402/evm",
+    "Noren update Paid calls now run end to end through the hosted MCP on Robinhood Chain. We completed a test payment of 0.01 USDG, from wallet approval and signing to settlement and onchain verification. The gateway settled the payment, and noren_verify_payment successfully detected the transfer. One t"
+   ],
+   "checked": "2026-11-05T19:33:27+00:00"
   },
   "nycmayor": {
    "handle": "NYCMayor",
+   "found": true,
+   "id": "19834403",
+   "name": "Mayor Zohran Kwame Mamdani",
+   "joined": "2009-01-31T22:10:26+00:00",
+   "followers": 2794039,
+   "following": 108,
+   "posts": 41349,
+   "verified": "individual",
+   "last_post": "2026-11-05T18:43:10+00:00",
+   "sample": 17,
+   "sample_full_week": true,
+   "posts_7d": 17,
+   "avg_likes": 194576.4,
+   "avg_views": 5539690,
+   "bio_site": null,
+   "bio": "Fighting every day to deliver a city that working New Yorkers can actually afford. Mayor of New York City.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "\ud835\udda3\u0336\ud835\uddae\u0336\ud835\udda6\u0336\ud835\udda4\u0336 COGE",
+    "The beautiful game at a beautiful price. Our $12 tickets are officially live. Grab yours today: https://gothamfc.com/twelve",
+    "A deadly fire burned through a home in Sunset Park this morning, killing six New Yorkers and injuring nine others, including five first responders. This is an unimaginable loss, and we grieve alongside every loved one and neighbor and pray for the recovery of those injured. I am grateful for the @fd",
+    "\u2705\u2696\ufe0f",
+    "New York, our two-time champions @GothamFC have home-field advantage in the @NWSL quarterfinals on Sunday \u2014 and you all deserve a chance to see it live. That\u2019s why we\u2019re dropping 3,000 $12 tickets at https://gothamfc.com/twelve TOMORROW at 10 a.m.",
+    "Mayor Mamdani Holds Media Availability https://x.com/i/broadcasts/2brkYWeoXNmrAz",
+    "Good morning!",
+    "Mayor Mamdani Hears Testimony on Intro 905-A and Intro 943 https://x.com/i/broadcasts/2gqWlPEedAVoMR",
+    "Google is trying to use its monopoly power to force AI into our public schools. No corporation should have the power to dictate how we teach our children. Our public schools exist to serve students, not to grow the profit margins of Big Tech. https://www.nytimes.com/2026/11/03/us/google-search-schoo",
+    "New York! Today is the last day to vote on faster government. Find your poll site at https://vote.nyc",
+    "The Post is right. I'm sporting a mustache this \"Movember\" to raise awareness of men\u2019s health issues, including prostate cancer. But this isn\u2019t just (upper) lip service. This year, our administration is investing $4M toward a brand-new prostate cancer center at Kings County hospital in Brooklyn.",
+    "",
+    "The antisemitic vandalism targeting school buses in South Williamsburg is abhorrent. Every New Yorker \u2014 especially our children \u2014 deserves to live free of such hatred. My team is in contact with the NYPD and community leaders. We will continue to use every tool at our disposal to confront antisemiti",
+    "Tomorrow is the day! Head to the polls and flip your ballot to vote on questions 1-5. Find your polling place at https://vote.nyc",
+    "Dockworkers went on strike across 113 ports in 22 countries to disrupt the transport of weapons of war, in solidarity with the Palestinian people. New Yorkers stand with them. When working people unite in their power, we build a better world. Dockworkers do not work for war. https://www.reuters.com/",
+    "We heard you liked the opera. You\u2019re in luck. Go to https://on.nyc.gov/opera to enter the lottery for free tickets to the Metropolitan Opera.",
+    "This D\u00eda de Muertos, we built an ofrenda at City Hall to honor those we've lost."
+   ],
+   "checked": "2026-11-05T19:33:27+00:00"
+  },
+  "memetools": {
+   "handle": "memetools",
    "found": false,
-   "checked": "2026-11-05T19:16:57+00:00"
+   "checked": "2026-11-05T19:33:27+00:00"
+  },
+  "vladyy__01": {
+   "handle": "vladyy__01",
+   "found": true,
+   "id": "1391427022707216384",
+   "name": "vlady\ud83d\udc02\ud83c\udc04\ufe0f",
+   "joined": "2021-05-09T16:17:18+00:00",
+   "followers": 4234,
+   "following": 3017,
+   "posts": 22227,
+   "verified": "individual",
+   "last_post": "2026-11-05T08:52:46+00:00",
+   "sample": 11,
+   "sample_full_week": false,
+   "posts_7d": 11,
+   "avg_likes": 1.5,
+   "avg_views": 187,
+   "bio_site": "https://t.me/based2_eth_bot?start=r_1390986495",
+   "bio": "not financial advice Headhunter",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Introducing These two bots have helped me buy and sell very quickly SOLANA / BASE / ETH / ROBINHOOD / BINANCE / ARC \ud83d\udca8\ud83d\udc40 You still have time to join and start trading Based bot: https://t.me/based_eth_bot?start=r_1390986495 Sigma Bot: https://t.me/Sigma_buyBot?start=ref=5976326218 Good luck in your \ud83c\udd95 ",
+    "I'm about to reach 100 ETH profit in 2 years\u203c\ufe0f My recommendations are as follows: Based bot: https://t.me/based_eth_bot?start=r_1390986495 Sigma Bot: https://t.me/Sigma_buyBot?start=ref=5976326218 These two bots have helped me buy and sell very quickly \ud83d\udca8\ud83d\udc40 You still have time to join and start tradin",
+    "I\u2019m genuinely thrilled to see @toady_hawk stepping up and taking the lead as the new CEO of Clanker. It\u2019s exciting to see someone so committed taking on this role and bringing new energy, vision, and ambition to the ecosystem. @clanker_world I\u2019ve always believed Clanker has huge potential, and I tru",
+    "GN TRENCHES \ud83e\udee1 If you\u2019re exploring SOLANA / BASE / ETH / ROBINHOOD CHAIN, having the right trading tools can make your workflow much smoother. Tools \u2692\ufe0f for you! \ud83d\udd25 Based Bot: https://t.me/based_eth_bot?start=r_1390986495 \u26a1\ufe0f Sigma Bot: https://t.me/Sigma_buyBot?start=ref=5976326218",
+    "TRAVEL TIME",
+    "VLADY AGENT @orbiodotso",
+    "GM TRENCHES \ud83e\udee1 If you\u2019re exploring SOLANA / BASE / ETH / ROBINHOOD CHAIN, having the right trading tools can make your workflow much smoother. Tools \u2692\ufe0f for you! \ud83d\udd25 Based Bot: https://t.me/based_eth_bot?start=r_1390986495 \u26a1\ufe0f Sigma Bot: https://t.me/Sigma_buyBot?start=ref=5976326218",
+    "Introducing These two bots have helped me buy and sell very quickly SOLANA / BASE / ETH / ROBINHOOD / BINANCE / ARC \ud83d\udca8\ud83d\udc40 You still have time to join and start trading Based bot: https://t.me/based_eth_bot?start=r_1390986495 Sigma Bot: https://t.me/Sigma_buyBot?start=ref=5976326218 Good luck in your \ud83c\udd95 ",
+    "GMGM trenchors Trenches Today i share something interesting if you are trading meme tokens Very IMPORTANT\ud83d\udea8 To have a bot trading FAST \ud83d\udca8 \u2022My recommendations are This Two Bots: Based bot: https://t.me/based_eth_bot?start=r_1390986495 Sigma Bot: https://t.me/Sigma_buyBot?start=ref=5976326218",
+    "\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+    "Buy Token EARLY ROBINHOOD CHAIN \u2022Very important to have a bot on telegram and to be fast to buy tokens on robinhood / solana / base / hyperliquid / Arc and many more chains \ud83d\udca8 there are many guides on how it works and it's crazy Based Bot: https://t.me/based2_eth_bot?start=r_1390986495 Sigma Bot: htt"
+   ],
+   "checked": "2026-11-05T19:33:27+00:00"
   }
  },
  "ids": {
@@ -10815,8 +10921,26 @@
   "2115851496411795456": [
    "tollsfun"
   ],
+  "29691642": [
+   "grok12_john"
+  ],
+  "1636842565": [
+   "zer0clickz"
+  ],
+  "2115855286426849280": [
+   "GhostXAIagent"
+  ],
   "2118007547638546432": [
    "LetronnaAgent"
+  ],
+  "2115816365491662848": [
+   "NorenAgent"
+  ],
+  "19834403": [
+   "NYCMayor"
+  ],
+  "1391427022707216384": [
+   "vladyy__01"
   ]
  },
  "past": {
@@ -11098,8 +11222,12 @@
   "darkstonkcash": [],
   "zer0clickz": [],
   "ghostxaiagent": [],
+  "grok12_john": [],
   "letronnaagent": [],
-  "nycmayor": []
+  "norenagent": [],
+  "nycmayor": [],
+  "memetools": [],
+  "vladyy__01": []
  },
  "history": {
   "barragetrade": {
@@ -12680,8 +12808,8 @@
   },
   "sherwoodagent": {
    "2026-11-05": [
-    4757,
-    576
+    4756,
+    577
    ]
   },
   "neuralverge": {
@@ -12834,16 +12962,40 @@
     14962
    ]
   },
-  "valseqxyz": {
+  "zer0clickz": {
    "2026-11-05": [
-    12,
-    34
+    35,
+    17
    ]
   },
-  "inflection_x": {
+  "ghostxaiagent": {
    "2026-11-05": [
-    94,
-    300
+    15,
+    4
+   ]
+  },
+  "letronnaagent": {
+   "2026-11-05": [
+    4,
+    8
+   ]
+  },
+  "norenagent": {
+   "2026-11-05": [
+    41,
+    67
+   ]
+  },
+  "nycmayor": {
+   "2026-11-05": [
+    2794039,
+    41349
+   ]
+  },
+  "vladyy__01": {
+   "2026-11-05": [
+    4234,
+    22227
    ]
   },
   "openanysi": {
@@ -13313,7 +13465,7 @@
   "flexmeow": {
    "twitter": "flexmeow",
    "blog": "flexmeow.com",
-   "checked": "2026-11-05T19:16:57+00:00"
+   "checked": "2026-11-05T19:33:27+00:00"
   },
   "pfed-prog": {
    "twitter": "pfedprog",
@@ -13703,37 +13855,22 @@
   "darkstonk": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T19:16:57+00:00"
+   "checked": "2026-11-05T19:00:10+00:00"
   },
   "blindwoodsrh": {
    "twitter": "blindwoodsRH",
    "blog": "blindwoods.app",
-   "checked": "2026-11-05T19:16:57+00:00"
-  },
-  "neuralverge": {
-   "twitter": null,
-   "blog": "https://neuralverge.ai/",
-   "checked": "2026-11-05T19:16:57+00:00"
-  },
-  "liftedinit": {
-   "twitter": "liftedinit",
-   "blog": "liftedinit.org",
-   "checked": "2026-11-05T19:16:57+00:00"
-  },
-  "zeroclickz": {
-   "twitter": "zer0clickz",
-   "blog": "https://zeroclickz.com",
-   "checked": "2026-11-05T19:16:57+00:00"
-  },
-  "nguyenkhangph": {
-   "twitter": null,
-   "blog": "",
-   "checked": "2026-11-05T19:16:57+00:00"
+   "checked": "2026-11-05T19:33:27+00:00"
   },
   "gadlus": {
    "twitter": null,
    "blog": "https://gadl.us",
-   "checked": "2026-11-05T19:16:57+00:00"
+   "checked": "2026-11-05T19:33:27+00:00"
+  },
+  "norenagent": {
+   "twitter": null,
+   "blog": "https://usenoren.xyz/",
+   "checked": "2026-11-05T19:33:27+00:00"
   }
  }
 }
