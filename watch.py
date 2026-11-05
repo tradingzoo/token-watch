@@ -946,18 +946,18 @@ a{{color:var(--accent)}} .new{{font-size:11px;background:var(--accent);color:var
 ul{{margin:0;padding-left:20px}} button.wrong{{font-size:12px;border:1px solid var(--line);background:none;color:var(--mute);border-radius:6px;padding:1px 8px;cursor:pointer;margin-right:6px}} li{{margin:2px 0}} code{{font-size:13px}}
 </style></head><body><main>
 <h1>GitHub Token Watch</h1>
-<p class="top">New Robinhood Chain tokens (Pons + DexScreener) with a public GitHub, plus <a href="#sites">tokens with no GitHub whose website passes the site check</a>. Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
+<p class="top">New Robinhood Chain tokens (Pons + DexScreener): first the site check, then tokens with a public GitHub. Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
+<h2 style="margin:22px 0 6px" id="sites">Site check: tokens whose website lets developers and AI agents plug in</h2>
+<p class="top">No GitHub needed. Listed when their own website has at least {sitecheck.LIST_AT} of API key, SDK, MCP and llms.txt.
+Why: on 5 Nov, 32% of tokens worth $2M+ had 3 or more of these, against 2% of random tokens that went nowhere. Rules: SCORING.md.
+Prices are tracked so we can see whether this works.</p>
+{''.join(site_cards) if site_cards else '<p>No tokens have passed the site check yet.</p>'}
 {shipping.alerts_html(ship, NOW) if ship else ''}
 {test_html}
 <h2 style="margin:22px 0 10px">New tokens with a public GitHub</h2>
 {prices.section(pdb, e)}
 <div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="60">60+</button><button data-f="flag">Red flags</button></div>
 {''.join(cards) if cards else '<p>No tokens with a public GitHub yet.</p>'}
-<h2 style="margin:28px 0 6px" id="sites">New tokens with no GitHub: site check</h2>
-<p class="top">Tokens whose website lets developers and AI agents plug in directly: at least {sitecheck.LIST_AT} of API key, SDK, MCP and llms.txt.
-Why: on 5 Nov, 32% of tokens worth $2M+ had 3 or more of these, against 2% of random tokens that went nowhere. Rules: SCORING.md.
-Prices are tracked so we can see whether this works.</p>
-{''.join(site_cards) if site_cards else '<p>No tokens have passed the site check yet.</p>'}
 {skipped_html(state)}
 </main><script>
 document.querySelectorAll('button.wrong').forEach(b=>b.onclick=()=>{{const m=b.dataset.msg;
