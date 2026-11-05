@@ -4570,8 +4570,52 @@
   },
   "0x_punisher": {
    "handle": "0x_Punisher",
-   "found": false,
-   "checked": "2026-11-05T10:45:25+00:00"
+   "found": true,
+   "id": "1901308888273534976",
+   "name": "Punisher",
+   "joined": "2025-03-16T16:29:51+00:00",
+   "followers": 7373,
+   "following": 381,
+   "posts": 2712,
+   "verified": "individual",
+   "last_post": "2026-11-04T01:06:15+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 8,
+   "avg_likes": 59.0,
+   "avg_views": 1706,
+   "bio_site": "https://crawlscan.fun/",
+   "bio": "\ud835\udde3\ud835\uddff\ud835\uddf2\ud835\uddf1\ud835\uddf6\ud835\uddf0\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb \ud835\uddfa\ud835\uddee\ud835\uddff\ud835\uddf8\ud835\uddf2\ud835\ude01\ud835\ude00 \ud835\uddf1\ud835\uddf2\ud835\ude03\ud835\uddf2\ud835\uddf9\ud835\uddfc\ud835\uddfd\ud835\uddf2\ud835\uddff \u2727 \ud835\uddd9\ud835\uddff\ud835\uddee\ud835\ude02\ud835\uddf1\ud835\ude00 \ud835\uddf6\ud835\uddfb\ud835\ude03\ud835\uddf2\ud835\ude00\ud835\ude01\ud835\uddf6\ud835\uddf4\ud835\uddee\ud835\ude01\ud835\uddfc\ud835\uddff \u2727 @polymarket \ud835\uddfa\ud835\uddee\ud835\ude05\ud835\uddf6\n\n\ud835\uddd5\ud835\ude02\ud835\uddf6\ud835\uddf9\ud835\uddf1\ud835\uddf6\ud835\uddfb\ud835\uddf4 @CrawlScan_",
+   "cas": [
+    "0x19dcb63c4d2f29a6f077f094a4f858fc790145e1"
+   ],
+   "fake_posts": [
+    "YOU CAN NOW SCAN ANY TOKEN ON CRAWLSCAN This was the biggest gap in @CrawlScan_, and I just closed it. Every week the longest list in my reports was tokens I couldn't scan, because they were launched  (Nov 04 01:06 UTC)",
+    "Yes, @CrawlScan_ flagged a $KIMCHI warning while everyone was blindly buying it. People who scanned it walked away. Those who didn't are now down 75% and counting. Here's what happened: (and how one t (Oct 23 16:34 UTC)"
+   ],
+   "texts": [
+    "YOU CAN NOW SCAN ANY TOKEN ON CRAWLSCAN This was the biggest gap in @CrawlScan_, and I just closed it. Every week the longest list in my reports was tokens I couldn't scan, because they were launched without a launchpad. Those are exactly the tokens where scams hide best. No launchpad rules, just wh",
+    "Most people think the hardest part of building a scanner is the code. It's not. It's the data. Anyone can copy a scanner. Nobody can copy 318,000 scans of memory. Every scan teaches @CrawlScan_ something new. Which wallets snipe every launch. Which groups of wallets work together as one. Which devs ",
+    "That's launchpad number 18 supported by @CrawlScan_ Look at what this project became in just 3 weeks: I started it with one chain and a handful of launchpads. Today robinhood:0x19dcb63c4d2f29a6f077f094a4f858fc790145e1 covers 18 launchpads across Robinhood, Solana, BNB and Base. Memory Brain has reme",
+    "Most rugs don't start on a website. They start in a group chat, when someone drops a CA and twenty people ape before anyone checks it. So I put @CrawlScan_ right where that happens. Add itt to your group, and every CA posted there gets scanned instantly. The verdict lands right under the message, be",
+    "I guess the hardest part of being a project developer is not working 24/7. And it's not losing the chance to do the things you used to do in your everyday life. It's facing people's reactions to things you have no control over. Same people who praised me when the market was green start throwing dirt",
+    "Two new launchpads in one go. Torch and Doppler are live. Doppler alone is behind thousands of launches every week on Robinhood Chain, and until today all of them were invisible to us. Now every one of them gets a full scan. This is how @CrawlScan_ grows. You paste a token we can't scan, it shows up",
+    "New feature on @CrawlScan_ that no other terminal has. A normal bubble map only sees one token. It shows you who is linked today. Crawler Map sees the history. When I used to dig into scams by hand, the hardest part was always the same: finding out that the \"random\" holders of a new coin were the sa",
+    "Another launchpad added. Virtuals is now live on @CrawlScan_. This is how we grow. One by one, every launchpad you try to scan gets added, each one with its own tricks figured out before you buy. Virtuals was one of the hardest so far. Half the supply of a typical token sits in launch contracts, and",
+    "Another launchpad added today. And this is how I decide what launchpad comes next: Every day I look at the tokens you try to scan that @CrawlScan_ doesn't support yet, and the one you scan the most goes to the top of my list. Pangea was number one this week, so now it's live on both Robinhood Chain ",
+    "Keep working on @CrawlScan_ every single day. And adding new launchpads is a big part of that. The more launchpads we cover, the more people can trade memecoins safely without worrying that the next dev will rug them. Just a reminder of where we are. robinhood:0x19dcb63c4d2f29a6f077f094a4f858fc79014",
+    "Such feedbacks are my main source of motivation. I've been trading memes since 2023. And i know how devs are. Silent, shady, waiting to dump their bags on you. I'm here to change it. And show an example of how decent and fair projects must look. Big love from $CrawlScan.",
+    "Current reality: Spend 10 seconds on @CrawlScan_ before buying a memecoin. Or donate another $1,000 to a serial rugger. Your call.",
+    "Every morning I wake up and my phone is full of messages from people thanking me for @CrawlScan_. People who scanned a token right before buying and saw it was a trap. People who saved real money because of one scan. There are so many messages now that I stopped adding them to the feedback section o",
+    "Polishing everything we have right now. Every feature, every scan, every small detail. I want @CrawlScan_ to be as good as it can be before we move to the next level. Part of that is covering every place where people get rugged. So today Meteora and Bags are live. The same ruggers jump from one laun",
+    "CrawlScan API is on the final stretch. And this is the last call for early partners. Will plug the memory collected of 250,000+ scans, where every single one is remembered. Every dev, every operator, every bundle, every rug. So when the same scammer comes back with a new token, @CrawlScan_ already k",
+    "CrawlScan already passed 250,000 scans. And the number grows every single day. And every scan you run makes @CrawlScan_ smarter. Your scans show us how scammers really work, and that's why I push new updates every day. Even the smartest devs keep making the same mistakes. Same wallet tricks. Same fu",
+    "Yes, @CrawlScan_ flagged a $KIMCHI warning while everyone was blindly buying it. People who scanned it walked away. Those who didn't are now down 75% and counting. Here's what happened: (and how one tool + 15 seconds of your time will save you THOUSANDS) The token launched from a wallet that was onl",
+    "There's no better feeling than building something that actually helps people. And then seeing them come back to say thank you. That's why I keep building @CrawlScan_.",
+    "Take a step back and look at what @CrawlScan_ has become in just 2 weeks: > 250k+ scans and counting > Over 10,000 scans every single day > 4 chains: Robinhood, Solana, BNB Chain and Base, with every major launchpad on them > Memory Brain that remembers every wallet, every sniper, every dev and ever",
+    "I built @CrawlScan_ because I was tired of scammers extracting liquidity from this market. And every rug I ever saw had the same story. The chart looked fine. The holders looked fine. And then a few wallets that had been sitting quietly the whole time dumped everything at once. The chart never tells"
+   ],
+   "checked": "2026-11-05T11:00:35+00:00"
   },
   "yuaskai": {
    "handle": "YuaskAI",
@@ -4712,8 +4756,48 @@
   },
   "ignition_rh": {
    "handle": "IGNITION_RH",
-   "found": false,
-   "checked": "2026-11-05T10:45:25+00:00"
+   "found": true,
+   "id": "2107666901073813504",
+   "name": "IGNITION",
+   "joined": "2026-10-07T03:02:19+00:00",
+   "followers": 1169,
+   "following": 3,
+   "posts": 124,
+   "verified": "individual",
+   "last_post": "2026-11-05T09:54:41+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 14.5,
+   "avg_views": 1041,
+   "bio_site": "https://www.ignition.family/",
+   "bio": "rename it re-tier it rewrite the hook logic anytime after launch on Robinhood\nca:- 0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111",
+   "cas": [
+    "0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "What if a coin launched on @RobinhoodApp Chain shared the same liquidity on @Enter_Elysium ? What if a coin launched on $Elysium shared the same liquidity on $Robinhood Chain? Two chains. One coin. One chart. No bridging. Elysium people stay on Elysium. Robinhood people stay on Robinhood. Everyone b",
+    "Ignition just went full stack on @Enter_Elysium. Launched a coin? It's not locked in anymore. \u2022 Rename it any time \u2022 Switch its pair to any Elysium token \u2022 Pay your holders whenever you want Also live: \u2022 Holder staking and LP rewards \u2022 Hook Pad: launch a hook, earn from every coin that runs it \u2022 Liq",
+    "Fast blocks. Low fees. A fresh ecosystem still being written. Robinhood Chain is where the next launchpad standard gets set \u2014 and Ignition is setting it. Every token here ships with hooks from block one. Early is a choice. \ud83e\ude9d https://ignition.family",
+    "Some chains sleep. Robinhood Chain doesn\u2019t. Roughly 0.1s blocks. Trades that land instantly. A hook layer that works while you do. robinhood:0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111 was built here on purpose. Fast, cheap, relentless. Early is a choice. robinhood:0x01e6301bc1118be90cc6bc2d1b5c0c44b",
+    "Ignition is coming to Elysium. On most launchpads your coin is frozen the moment it launches. Same name forever. Same pair forever.Not here.Rename your coin after launch. Switch what it trades against after launch. Same coin, same address, same holders.Creators earn in HYPE on every trade, never in ",
+    "Quiet week on the timeline. Busy week in the repo. \u2192 Fee ownership secured \u2192 Testnet holding steady \u2192 Hook Pad open for devs \u2192 Mainnet work underway We don't post to pump. We post when there's something real. Back to it. \ud83e\ude9d",
+    "robinhood:0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111 is heating up. Up 164% in the last 24h. Market cap pushing past $116K. 1,300+ holders and climbing. Built on Robinhood Chain. Roughly 0.1s blocks, instant trades, a hook layer running around the clock. Still early. robinhood:0x01e6301bc1118be90cc6",
+    "\"Hooks\" keep coming up. Here's the one-liner: A hook lets a token do something every time it trades \u2014 route fees, buy back, reward holders, enforce rules \u2014 automatically, on-chain, forever. Launch the logic, not just the token. That's what Ignition is built for. \ud83e\ude9d",
+    "Ignition is live on $Solana. Launch a coin. Rename it after launch. Same coin, same address, same holders. On most launchpads your coin is frozen the moment it launches. Here it isn\u2019t. Liquidity locked for good. The fee can never go up. We proved it on mainnet: launched, bought, sold, renamed. Check",
+    "Ignition works on $Solana. We launched a coin on Solana testnet, bought it, sold it, then renamed it after launch. Same coin, same address, same holders. Every step is a real blockchain transaction. Check the rename yourself: https://explorer.solana.com/tx/4r9NSnSDr2CmargLBdfdR1DtBrrzv8aiW39ytPh3CKp",
+    "Multichain soon. Most launchpads freeze your coin the day it launches. Ignition doesn\u2019t. Rename it. Switch its pair. Add new features. Same coin, same address, same holders. Already live on Robinhood Chain. Coming to Solana \ud83e\ude9d https://ignition.family",
+    "our website is back.\ud83e\ude9d Launch, trade and bridge are all live. https://ignition.family",
+    "One person tried to break Ignition. The project didn't break. Fees secured. Team aligned. Chart back alive. We said you'd hear it from us first \u2014 and we meant it. Still here. Still building. \ud83e\ude9d",
+    "A launchpad is only as strong as what gets built on it. Hook Pad is open. The testnet is live. Mainnet is next. If you're a dev with an idea for programmable liquidity on Robinhood Chain \u2014 we want to see it. Reply or DM. \ud83e\ude9d https://ignition.family",
+    "https://ignition.family is down for a quick upgrade. \ud83d\udee0\ufe0f We're shipping improvements to the launchpad \u2014 back shortly, better than before. The chain never stops. The contracts are untouched and your fees keep accruing on-chain while we work. Patience = alpha. \ud83e\ude9d",
+    "Every trade you make on-chain is public forever. Your size, your timing, your wallet \u2014 all of it readable by anyone, including people front-running you. Privacy isn't a feature. It's the default that crypto forgot. The next wave of launchpads will treat it as a right, not an upgrade. \ud83e\ude9d",
+    "What hook would you build? \ud83e\ude9d A hook is code that runs on every trade of a token. On the Hook Layer, a hook earns up to 0.25% of every trade of every launch that switches it on. Some ideas to steal: \u2192 buyback & burn \u2192 holder dividends \u2192 staker streams \u2192 buyer raffles Drop yours below. We're reading e",
+    "Pair your token with Tesla. \ud83d\udcc8 On Ignition, a launch doesn't have to trade against ETH. Pick a stock as its pair instead. \u2192 launch against ETH or a stock like TSLA or NVDA \u2192 fees are paid in the pair currency \u2192 switch the pair later: same token, same holders Memecoins, meet the stock market. Built on",
+    "Try Ignition for free. \ud83e\ude9d The Hook Layer testnet is open to everyone: \u2192 claim 50,000 $IGNITION a day from the faucet \u2192 trade tTSLA, tNVDA and 14 more test stocks \u2192 launch a token with hooks and watch them run Test tokens, no real value. Just the fastest way to see what Ignition can do. http://ignitio"
+   ],
+   "checked": "2026-11-05T11:00:35+00:00"
   },
   "sidelototc": {
    "handle": "SidelotOTC",
@@ -4760,13 +4844,73 @@
   },
   "bigbundlecat": {
    "handle": "bigbundlecat",
-   "found": false,
-   "checked": "2026-11-05T10:45:25+00:00"
+   "found": true,
+   "id": "2104003103053807616",
+   "name": "Big Bundle Cat",
+   "joined": "2026-09-27T00:21:55+00:00",
+   "followers": 111,
+   "following": 26,
+   "posts": 68,
+   "verified": null,
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://bigbundlecat.fun/",
+   "bio": "The fattest cat on @moshdottrade \ud83d\udc31\n\nFees grow the $BUN reserve.\nBurn $BBC. Enter the Big Feast.\nFeed the cat. \nCA: 0x23567e51980DB99C513C527a283d188C8e4c6788",
+   "cas": [
+    "0x23567e51980db99c513c527a283d188c8e4c6788"
+   ],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T11:00:35+00:00"
   },
   "betadotfund": {
    "handle": "betadotfund",
-   "found": false,
-   "checked": "2026-11-05T10:45:25+00:00"
+   "found": true,
+   "id": "2095815322645499904",
+   "name": "beta fund",
+   "joined": "2026-09-04T10:05:24+00:00",
+   "followers": 438,
+   "following": 2,
+   "posts": 42,
+   "verified": "individual",
+   "last_post": "2026-10-07T23:48:46+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 27.4,
+   "avg_views": 2915,
+   "bio_site": "http://beta.fund",
+   "bio": "the first fund that funds itself, purely by trading fees. 100% of generated profits are paid to holders in $USDG on-chain",
+   "cas": [
+    "0x7968be708ac06bd5e3c2df0fdf4561b7ab6fcc1c"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Beta launched 1 month ago. It has since raised $69,216 in trading fees from its token $BETA, and produced a profit of $24,781 from systematic trading strategies executed on @Lighter_xyz. 100% of these profits have been paid to the holders of the $BETA token. This represents a 35.8% gain in a month. ",
+    "near:native has been all over the timeline this week. Beta captured the upside without even knowing what the token is. On September 23, the trend model read +1.00 on near:native, its maximum long signal, with the token at $4.40. It didn't have a thesis, a narrative, or an opinion on the chain. it me",
+    "Beta's performance since inception: 0 -> $60k aum funded entirely by $BETA fees. The fund has already generated a 35.7% gain of $21,454, paid entirely to holders. 262 holders of $BETA participated in the most recent distribution of $7,283.93, with the largest holder receiving $364. This is all less ",
+    "The Beta treasury bought its first $BETA today. It was seeded once at launch with 22.7M $BETA and has never been topped up since. Nothing in the contract can release those tokens. Ownership renounce is disabled and the rescue path reverts on $BETA specifically. What goes in does not come out. The tr",
+    "Beta has raised its per epoch distribution ceiling from $5,000 to $10,000. The ceiling exists because distributions are irreversible. Once USDG is in hundreds of wallets it does not come back, so the desk refuses to move more than a set amount in a single close no matter what the profit number says.",
+    "Beta is on track to distribute $5,915.19 at the end of this epoch. track it here: https://www.beta.fund/distributions",
+    "Beta has just distributed $4,893.48 to holders. This is the settlement for epoch 24, posted on-chain at the 4pm ET close. The first wallet was paid 8 seconds later. 231 wallets were paid in under 11 minutes. Holders paid no gas. The largest holder, with 5.99% of supply, received $294.80. Total paid ",
+    "Beta is at $57,000 AUM. Four days ago the fund was down $4,467 on the epoch, with realised losses on the books and 168% of assets in a single position. The signal had not changed, so the position did not change either. Today the fund is up $3,741. That is an $8,208 recovery, and 82% of the growth in",
+    "Beta is in drawdown. -$3,052 marked, and -$2,598 of that is realised - booked losses, not paper. The fund has taken in $51,694 of fees and is carrying $48,640. It has paid holders $4,285.76, and has since given back more than it paid. $ZEC is 168% of AUM. That is the position, and it is the whole st",
+    "Why Beta is still long $ZEC, precisely. The trend score is the mean of three signs - is price above where it was 168h, 720h and 2160h ago. Magnitude is irrelevant. A -8% week doesn't shrink the position; it only matters if it flips a sign. Right now: 1 week: ZEC 1,186.59 \u2192 1,092.95, -7.9%, sign -1 1",
+    "Beta has officially reached $50k AUM in under a week. This was driven entirely by trading fees on the token $BETA. These funds have been traded systematically, 24/7, on a @Lighter_xyz using quantitative trading strategies. This generated profits of $4,285.76, which were paid entirely to holders - in",
+    "@Lighter_xyz watch the AUM tick up here: https://www.beta.fund/",
+    "Beta is up $1,748 this epoch - a $5,556 profit from where we posted yesterday. Same epoch. Same position. ZEC bottomed at 1,055 and is back at 1,155. We didn't cut it like everyone was saying. The model actually added into the fall, because size follows conviction \u00f7 volatility - and signal[ZEC] neve",
+    "Beta is down $3,808 this epoch - about 8.5% This comes from a single position - ZEC, \u221214% in 24h. It's our largest holding because all three trend horizons (1 week, 1 month, 3 months) agreed it was rising. You can watch the signals stream live in the terminal on the site: signal[ZEC] trend +1.0 - th",
+    "interesting\u2026",
+    "Day 4 update - Beta has grown. As of 7 minutes ago, Beta reached a new portfolio high of $45,259, as well as a new profit ATH of $4,986.46, with $3,515.18 of profit in the last 24 hours. It has accrued 9.45 Lighter points, and as this stack grows, Beta is building the rails to automatically distribu",
+    "Introducing the Beta Treasury. 100% of the fund's profit goes to $BETA holders. It always has, and it never changes. But there was a gap. In a single day, the desk booked $4,500 in profit while the token fell - the fund's performance and price drifted apart. Today they're linked. Beta has acquired 2",
+    "Day 2 update for the beta fund: $40,618 AUM, still funded entirely by trading fees - zero outside capital. up from $31,613 yesterday. 471 holders now (+43), with $4,279 in solana:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH paid straight to them since launch. https://www.beta.fund/distributions In t",
+    "Introducing: Beta's engine to scale. The desk's current, sharpest edges live in smaller markets - thin books, high Sharpe. Those strategies have a ceiling. The current book has a capacity of $100k to $200k. Past that, some positions would need to be 200%+ of a market's entire open interest. You phys"
+   ],
+   "checked": "2026-11-05T11:00:35+00:00"
   },
   "useautonomo": {
    "handle": "useautonomo",
@@ -4817,6 +4961,248 @@
     "The new Agent Playground is now live You ask. The agent pays. It's gone from a preview to a real chat with an AI agent: - An AI agent picks the APIs it needs - Up to 3 paid calls for one question - Follow-ups in the same chat - Every call shown live, with a running total - An on-chain receipt for ev"
    ],
    "checked": "2026-11-05T10:45:25+00:00"
+  },
+  "garfield_oxo": {
+   "handle": "Garfield_OxO",
+   "found": true,
+   "id": "1525533552447660038",
+   "name": "Garfield",
+   "joined": "2022-05-14T17:48:44+00:00",
+   "followers": 27,
+   "following": 42,
+   "posts": 42,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": null,
+   "bio": "\u8fd9\u662f\u4e00\u4e2a\u65e0\u804a\u7684\u4eba",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "perchterminal": {
+   "handle": "PerchTerminal",
+   "found": true,
+   "id": "2059858611854012417",
+   "name": "Perch AI",
+   "joined": "2026-05-28T04:46:21+00:00",
+   "followers": 875,
+   "following": 12,
+   "posts": 301,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://perchai.app",
+   "bio": "Autonomous multi-agent workspace for financial, writing, research, coding and operational work.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "vladtenev": {
+   "handle": "vladtenev",
+   "found": false,
+   "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "withveya": {
+   "handle": "withveya",
+   "found": true,
+   "id": "2058620650101575680",
+   "name": "veya",
+   "joined": "2026-05-24T18:57:25+00:00",
+   "followers": 559,
+   "following": 23,
+   "posts": 290,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://www.veyanet.tech",
+   "bio": "Infrastructure for autonomous systems. Privacy-first, intelligent & decentralized on RH.\nCA: 0x81e770ba8343232b6f200209bf9a2c1430c2dea1\nhttp://t.me/withveya",
+   "cas": [
+    "0x81e770ba8343232b6f200209bf9a2c1430c2dea1"
+   ],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "kni9htc0re": {
+   "handle": "KNI9HTC0RE",
+   "found": true,
+   "id": "1843817061375475712",
+   "name": "Knightcore (\u2694\ufe0f/acc)",
+   "joined": "2024-10-09T00:55:26+00:00",
+   "followers": 345,
+   "following": 28,
+   "posts": 2712,
+   "verified": "individual",
+   "last_post": "2026-11-05T11:01:50+00:00",
+   "sample": 7,
+   "sample_full_week": false,
+   "posts_7d": 7,
+   "avg_likes": 5.3,
+   "avg_views": 162,
+   "bio_site": "http://knightcore.us",
+   "bio": "It works, powered by @moshdottrade\n$OATH\nca: 0x73770270eA2a707e77400cBD714387881916AAb3",
+   "cas": [
+    "0x73770270ea2a707e77400cbd714387881916aab3"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "\u2694\ufe0f",
+    "The peasants voted for change. The new king has vowed to undo everything the old king undid. Progress. \u2694\ufe0f",
+    "are you with me or against me, anon?",
+    "If only there were an oath worth swearing, and men with enough honor left to save us all. \u2694\ufe0f",
+    "\u2694\ufe0f",
+    "knightcore fixes this \u2694\ufe0f",
+    "I think it's time to liberate the trenc... ehem... the bathhouse and free all of you wenches from your oppressors The chain on the door is imaginary Swear thy oath \u2694\ufe0f"
+   ],
+   "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "meryal_raven": {
+   "handle": "Meryal_Raven",
+   "found": true,
+   "id": "2115509181620826112",
+   "name": "Meryal",
+   "joined": "2026-10-28T18:21:08+00:00",
+   "followers": 182,
+   "following": 0,
+   "posts": 52,
+   "verified": "individual",
+   "last_post": "2026-11-05T10:54:00+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 12.8,
+   "avg_views": 581,
+   "bio_site": "https://www.meryalraven.sbs/",
+   "bio": "Your stocks pay for your agents. Borrow private, spend from addresses nobody links, let agents pay on credit. ZK \u00b7 stealth \u00b7 x402",
+   "cas": [
+    "0x134e52ed8ee01cbb1fb714098b606c57366369fd"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Same app, real privacy. Until this week Meryal's withdrawals were checked in the open. Now the contract only sees a Groth16 proof: no note, no index, no trace of the deposit it came from. Try it with a few dollars. https://www.meryalraven.sbs/spend",
+    "Two steps done this week, in the open, on chain. Next is the public part: a setup ceremony anyone can contribute to, and keeper seats for outside operators who bond $MERY and take a share of the key. https://www.meryalraven.sbs CA: 0x134e52ed8ee01cbb1fb714098b606c57366369fd",
+    "Your note never leaves your browser. Meryal's prover runs locally: snarkjs, the circuit's wasm and its key, served as plain files. It builds the witness from your seed and hands the relayer a proof and the public inputs, nothing else.",
+    "Update: No single key can read a Meryal position anymore. Sealed notes are encrypted to a key split in three. Two shares open a note, and the contract only accepts them near its liquidation price. Each keeper bonds $MERY. Deposits are approved on chain; only a multisig can refuse one.",
+    "Good morning team",
+    "Privacy only wins when it is the cheap default. On Meryal it already costs the user nothing extra: the proof takes two seconds in your browser, the relayer pays the gas, and the address that receives the money has never been seen before.",
+    "A public chain is a public diary. Every wallet you use can be read: what you hold, what you borrowed, where you spent it. Meryal breaks the thread between the position and the spending, with a proof instead of a promise. CA 0x134e52ed8Ee01Cbb1FB714098B606C57366369Fd",
+    "Need cash without selling your NVDA? Borrow against it at the Morpho market's rate. The USDG arrives as private notes, and you spend them from addresses nobody can tie to your position. Unaudited beta, small amounts. https://www.meryalraven.sbs/borrow",
+    "Tokenized stocks now have a five-year path to trade on chain. On chain, every position is readable: size, debt, liquidation price, and the wallet behind it. Meryal's sealed positions keep all of that behind a commitment, and prove on every step that the loan stays safe.",
+    "Shielded pools are turning into the privacy layer for payments. Meryal plugs a credit source into one: borrow against a stock token and the USDG lands in the pool as notes, withdrawn later by a zero-knowledge proof to any address. Shares in, private cash out.",
+    "Sealed positions are live on Meryal. Deposit NVDA, borrow USDG, repay, withdraw: each change is a proof made in your browser. The chain records a commitment and the amounts that moved, not whose position it is or how big it has grown.",
+    "Major Update live now : Meryal's privacy is now zero-knowledge. Withdrawals, credit activations and sealed positions are Groth16 proofs made in your browser in two seconds. A sealed position hides its size and debt, yet proves it stays solvent at every step. http://www.meryalraven.sbs/sealed CA: 0x1",
+    "Every credit line has an end date. After expiry and a grace hour anyone can close it, and what the agent did not spend goes back into the pool as the owner's note. The caller cannot send it anywhere else.",
+    "No IOU on Meryal is unsecured. When a line is reserved, the vault borrows its whole limit into escrow against the owner's stock. Every IOU is paid from that escrow, and the vault's liquidation rules keep the borrow solvent.",
+    "A finished session still holds dust. A one-time address holds a payment. Neither needs gas to clean up. The address signs once, the recycler deposits the rest into the pool, and the nonce fixes the note and the fee so a relayer can change neither.",
+    "x402 with a stealth extension. The agent signs a ReceiveWithAuthorization made out to Meryal's settler, with a nonce that commits to the one-time address. Whoever submits it, the USDG can only land there, announced once.",
+    "Agents paying agents means every agent is also a merchant. On Meryal a merchant publishes one meta-address. Each x402 payment to it lands at a new one-time address, settled by a contract that can only send it there. Revenue that is not a public line.",
+    "Every x402 payment is a public receipt: who paid whom, how much, when. Run an agent from one wallet and its whole shopping list is on chain. On Meryal each session pays from a fresh address, and a merchant with a meta-address is paid at a new one-time address every time.",
+    "Good morning",
+    "An agent never keeps the same address for long. A session lasts until it is spent, an hour old or 20 payments in, by default. Then the issuer derives the next one and moves on. Watch any one address and you see a short session, not the agent."
+   ],
+   "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "usefare_xyz": {
+   "handle": "usefare_xyz",
+   "found": true,
+   "id": "2115842223904370688",
+   "name": "Fare",
+   "joined": "2026-10-29T16:25:44+00:00",
+   "followers": 317,
+   "following": 13,
+   "posts": 244,
+   "verified": "individual",
+   "last_post": "2026-11-05T09:06:55+00:00",
+   "sample": 15,
+   "sample_full_week": true,
+   "posts_7d": 15,
+   "avg_likes": 19.2,
+   "avg_views": 633,
+   "bio_site": "http://usefare.xyz",
+   "bio": "Every receipt pays you back: real stock, AI credits & Zcash runs. Harmonic agent on Robinhood Chain. \n\n$FARE\n0xa869bbf8814f8573c310181705ea35143f3b5be5",
+   "cas": [
+    "0xa869bbf8814f8573c310181705ea35143f3b5be5"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Lunch in Manila \u2192 $UBER stock on Robinhood Chain \ud83c\udf5d Kyle didn't buy a stock. His receipt did. https://usefare.xyz",
+    "gFARE \u2600\ufe0f",
+    "We started early. FARE's payout code is formally verified: 9 properties checked by Aristotle, including that no refund can ever drain a vault. It even found an overflow we'd missed. Fixed before a single user was paid. \ud83e\uddfe",
+    "$10/mo for your agent to see from orbit \ud83d\udef0\ufe0f Send the receipt to FARE and part of it comes back in ETH \ud83e\uddfe https://usefare.xyz robinhood:0xa869bbf8814f8573c310181705ea35143f3b5be5",
+    "NFTs, revisited. \ud83c\udf9f\ufe0f Old NFTs: a JPEG with nothing behind it. Receipt Pass: an NFT with real FARE locked inside, bought on the market with your refund. How it works: \u2022 your receipt is verified, your refund buys FARE \u2022 that FARE is locked in your Pass, nobody can touch it but you \u2022 $5 refund today = ~",
+    "Your receipt is now an asset. Introducing the Receipt Pass on robinhood:0xa869bbf8814f8573c310181705ea35143f3b5be5. Send a receipt, pick \"Receipt Pass\" and your refund buys FARE on the market, locked inside an NFT that's yours. \u2192 FARE goes up, your Pass goes up \u2192 redeem it for its FARE any time \u2192 or",
+    "128 receipts refunded since launch \ud83e\uddfe Uber rides, Uber Eats, McDonald's, fuel, groceries, GTA VI pre-orders, Netflix, Disney+, and now Robinhood fees. From London to Melbourne, Manila to Louisiana. 7 public vaults on Robinhood Chain. Every refund lists the wallet, the receipt and the tx, so you can c",
+    "FARE \ud83e\udd1d @RaetoCC Every receipt you send to FARE is read by AI. That AI now runs through Raeto. \u2192 reading + forensic checks routed via Raeto \u2192 fallback built in, so receipts never stop \u2192 the FARE agent gets its own on-chain identity (ERC-8004), with its spending published as a public weekly statement ",
+    "Big news later today FARE is teaming up with another strong project on Robinhood Chain to take refunds further: more ways to use FARE, more reasons to send your receipts. Partner reveal today. Stay close \ud83e\uddfe",
+    "Uber vault refilled \ud83d\ude95 It now holds 6.03 $UBER (~$403) of real tokenized Uber stock, ready to pay back your rides and Uber Eats orders. Bigger vault = bigger refunds and shorter claim windows. Check the tx yourself: http://robinhoodchain.blockscout.com/tx/0xc60d71a39650b114c3670d8861e2fb1a846ed9185d2",
+    "#1",
+    "gFARE \u2600\ufe0f",
+    "Where FARE is going: Every card has cashback. Points you never use, miles that expire. We want FARE to be the cashback people actually own: shares of the companies they spend with, sent to their own wallet, every payout public. Today: 100+ receipts on Robinhood Chain. The goal: the default way your ",
+    "Robinhood Chain is built on Arbitrum. Last night we applied to the ARB02 Mentorship Program to take FARE further. Why us: the chain has DEXs, lending, perps and infra. FARE is the app for everyone else. Send a receipt, get paid back in stock. No trading needed. 100+ refunds on-chain. Building in pub",
+    "Why a FARE vault can never be drained: No refund can take more than 2% of a vault. So after k claims, at least (49/50)^k of it is still there. After 100 max-size claims: 13% left. After 1,000: still above zero. Always. Payouts slow down as a vault shrinks, and speed up as fees refill it. A rule that"
+   ],
+   "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "useorbix": {
+   "handle": "useorbix",
+   "found": true,
+   "id": "2113028028120944640",
+   "name": "Orbix",
+   "joined": "2026-10-21T22:03:53+00:00",
+   "followers": 326,
+   "following": 8,
+   "posts": 142,
+   "verified": null,
+   "last_post": "2026-11-05T06:10:55+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 18,
+   "avg_likes": 15.8,
+   "avg_views": 752,
+   "bio_site": "http://useorbix.app",
+   "bio": "AI inference marketplace bringing leading models into one platform.\n\nCA: 0x60633794df09856b339eea8bd741d749596b5230",
+   "cas": [
+    "0x60633794df09856b339eea8bd741d749596b5230"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "AI agents need affordable inference to do useful work. We\u2019re partnering with @bytejury to supply AI credits for their cybersecurity agents, with payments on Robinhood Chain. Their agents inspect code, investigate claims and flag potential exploits. ORBIX helps lower the cost of the AI behind those c",
+    "\ud83d\udc40",
+    "Private chat now has an uncensored model: Gemma 4 Uncensored. Most AI models are tuned to refuse anything that sounds sensitive. Ask about drug interactions, a lawsuit you're in or how a known exploit works, and you often get a lecture instead of an answer. An uncensored model drops those reflexes. ",
+    "We\u2019re building ORBIX on Robinhood Chain to make AI cheaper to use. One API key for Claude, GPT, Gemini and more. Sellers compete on price, and $ORBIX trading fees fund extra discounts for holders. https://useorbix.app",
+    "New update: smarter ORBIX Agents Your agents now spend less and do more: - Checks before it thinks. Watchers look at prices, pages and wallets first and only call a model when something changed. A quiet check costs $0. - Auto fits your budget. It picks a model that fits your daily limit: $0.0011 a r",
+    "Meanwhile, our community asking when we're getting verified, where the blue check went, and when it's coming back for the 100th time",
+    "Reminder: free $0.50 to test ORBIX Every wallet can claim $0.50 of credit, no tokens needed. Spend it on any of our 200 models, the playground, agents or the new Private chat. Connect your wallet at http://useorbix.app/app and press Claim. One claim per wallet, for the first 100 wallets.",
+    "The Grind Never Stops.",
+    "What does \"private\" mean in Private chat? In a regular AI chat, your messages travel as plain text. The app can read them, the company hosting the model can read them, and so can anyone who breaks into their servers. Private chat works differently: 1. Your browser checks that the model runs inside a",
+    "New update: Private chat A new tab in ORBIX: chat with 12 confidential AI models that run inside secure enclaves (Intel TDX + NVIDIA). Your browser checks the enclave first, then encrypts every message to it. ORBIX only relays ciphertext, so nobody outside the enclave can read your chat, not even us",
+    "One agent run, two bills. Our AI news digest searched the web 3 times and wrote 5 headlines. At list prices: $0.0096, and 61% of it was the model. On ORBIX: $0.0035. The model cost $0.000059 instead of $0.0059. Search stayed about the same. So the model is now the cheap part. Every run shows the cos",
+    "We're currently catching up on all the DMs we've received here on X. We haven't been actively responding to DMs until now mainly for security reasons, but we're going through them and will do our best to answer everyone's questions. Feel free to reach out, just please avoid spamming or sending the s",
+    "Agents, by the run. Five agents you can build on ORBIX today, each priced from one real test run: Coin alert, every 30 min: $0.0009 Release watcher, hourly: $0.0023 Morning crypto brief, daily: $0.0024 AI news digest, daily: $0.0035 Research desk, per question: $0.0073 Checking your coins 48 times a",
+    "Binance hacks, wars, markets dumping, the entire timeline on fire. Meanwhile, us building ORBIX: This is fine. https://useorbix.app",
+    "We\u2019re working on some exciting updates for ORBIX, coming soon. Our goal is to make AI inference more accessible, affordable, and seamless for developers and AI agents. We\u2019re also listening to the community. If you have ideas, feature requests, or anything you\u2019d like to see on ORBIX, drop them below.",
+    "What can you build with ORBIX Agents? Here's one, start to finish. An AI news digest: every morning at 8:00 UTC it sends the 5 biggest AI stories of the last 24 hours, one line each, with a link. One message to the builder, and it filled in the card itself: model, web search, schedule, a $0.10 daily",
+    "New update: ORBIX Agents Build your own AI agent right in ORBIX. Tell it the job in a chat, pick from 200 models or let it pick them itself, set a schedule and a daily limit, and call it from your own code. It bills to your key at ORBIX marketplace prices, and every run shows its cost next to list p",
+    "https://x.com/i/article/2115771838760460288",
+    "Huge thanks to the @X team for keeping our verification under review for 5 days straight. Really enjoying the suspense. Appreciate the dedication. \ud83d\ude4f",
+    "Next on ORBIX: build your own AI agent. Tell it what you need in a chat, and it sets itself up: the task, when to run, what data to use, which models and how much it may spend. - 10 presets to start from: routines, web research, X research, page and price watchers, on-chain watch, news digests, data"
+   ],
+   "checked": "2026-11-05T11:00:35+00:00"
   }
  },
  "ids": {
@@ -5272,6 +5658,39 @@
   ],
   "2115322470781894656": [
    "useautonomo"
+  ],
+  "1901308888273534976": [
+   "0x_Punisher"
+  ],
+  "1525533552447660038": [
+   "Garfield_OxO"
+  ],
+  "2059858611854012417": [
+   "PerchTerminal"
+  ],
+  "2058620650101575680": [
+   "withveya"
+  ],
+  "2107666901073813504": [
+   "IGNITION_RH"
+  ],
+  "2104003103053807616": [
+   "bigbundlecat"
+  ],
+  "2095815322645499904": [
+   "betadotfund"
+  ],
+  "1843817061375475712": [
+   "KNI9HTC0RE"
+  ],
+  "2115509181620826112": [
+   "Meryal_Raven"
+  ],
+  "2115842223904370688": [
+   "usefare_xyz"
+  ],
+  "2113028028120944640": [
+   "useorbix"
   ]
  },
  "past": {
@@ -5436,7 +5855,15 @@
   "sidelototc": [],
   "bigbundlecat": [],
   "betadotfund": [],
-  "useautonomo": []
+  "useautonomo": [],
+  "garfield_oxo": [],
+  "perchterminal": [],
+  "vladtenev": [],
+  "withveya": [],
+  "kni9htc0re": [],
+  "meryal_raven": [],
+  "usefare_xyz": [],
+  "useorbix": []
  },
  "history": {
   "barragetrade": {
@@ -6486,6 +6913,72 @@
     293,
     168
    ]
+  },
+  "0x_punisher": {
+   "2026-11-05": [
+    7373,
+    2712
+   ]
+  },
+  "garfield_oxo": {
+   "2026-11-05": [
+    27,
+    42
+   ]
+  },
+  "perchterminal": {
+   "2026-11-05": [
+    875,
+    301
+   ]
+  },
+  "withveya": {
+   "2026-11-05": [
+    559,
+    290
+   ]
+  },
+  "ignition_rh": {
+   "2026-11-05": [
+    1169,
+    124
+   ]
+  },
+  "bigbundlecat": {
+   "2026-11-05": [
+    111,
+    68
+   ]
+  },
+  "betadotfund": {
+   "2026-11-05": [
+    438,
+    42
+   ]
+  },
+  "kni9htc0re": {
+   "2026-11-05": [
+    345,
+    2712
+   ]
+  },
+  "meryal_raven": {
+   "2026-11-05": [
+    182,
+    52
+   ]
+  },
+  "usefare_xyz": {
+   "2026-11-05": [
+    317,
+    244
+   ]
+  },
+  "useorbix": {
+   "2026-11-05": [
+    326,
+    142
+   ]
   }
  },
  "telegram": {
@@ -7033,6 +7526,21 @@
    "twitter": "0x_Punisher",
    "blog": "",
    "checked": "2026-11-05T10:45:25+00:00"
+  },
+  "zhitongblog": {
+   "twitter": "zhitong45",
+   "blog": "https://solomd.app",
+   "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "perch-terminal-ai": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "veyanet": {
+   "twitter": "withveya",
+   "blog": "veyanet.tech",
+   "checked": "2026-11-05T11:00:35+00:00"
   }
  }
 }

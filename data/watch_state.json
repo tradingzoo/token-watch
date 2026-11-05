@@ -957,7 +957,42 @@
   "0x19dcb63c4d2f29a6f077f094a4f858fc790145e1": "2026-11-05T10:45:25+00:00",
   "0x192633a46d8d6b6cb9bca9f32f5621049989e39d": "2026-11-05T10:45:25+00:00",
   "0x9a95957b506185a0f678928a6be63b7d55bf198e": "2026-11-05T10:45:25+00:00",
-  "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": "2026-11-05T10:45:25+00:00"
+  "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": "2026-11-05T10:45:25+00:00",
+  "0x3cf3d822c82ee989375f508893d0113af07b9b73": "2026-11-05T11:00:35+00:00",
+  "0xace5e4c8ad53bcf565708ac06abe013e27ff1ac6": "2026-11-05T11:00:35+00:00",
+  "0xbd7afbb5655f58710bbf9a5e45c51a46311054c8": "2026-11-05T11:00:35+00:00",
+  "0xc692c0805bb15990c8cfb3114e372f9b9d6f8209": "2026-11-05T11:00:35+00:00",
+  "0x659abdad4fba1a4a991465f2a1aa0fbe8f864a5f": "2026-11-05T11:00:35+00:00",
+  "0x5371626d5f1ace6fc90c804992f02a3cf179735d": "2026-11-05T11:00:35+00:00",
+  "0x897135d8fe15d681e07252c0171418596862525b": "2026-11-05T11:00:35+00:00",
+  "0x55021291be781602b8dfa741d04cde1baffd293e": "2026-11-05T11:00:35+00:00",
+  "0xfb4d86de3c83a22a63ecb1a0c14d4d3801f478e0": "2026-11-05T11:00:35+00:00",
+  "0x5505e960ca941112b13d1142f7333a0e20d11f38": "2026-11-05T11:00:35+00:00",
+  "0x09388f335f38301c431f9d589ef243a5371cf6f2": "2026-11-05T11:00:35+00:00",
+  "0x2b805cac9840395d50dcbc6205dc2f834fc223ff": "2026-11-05T11:00:35+00:00",
+  "0xc0002373f0767c71c33dd26ba7211cce60a84607": "2026-11-05T11:00:35+00:00",
+  "0xff029fe36b8d1199bd1b1dbcb2310b9efb8a9bea": "2026-11-05T11:00:35+00:00",
+  "0x4561abbdb65f5e9236c231cbef8d1e5104b328e8": "2026-11-05T11:00:35+00:00",
+  "0x73770270ea2a707e77400cbd714387881916aab3": "2026-11-05T11:00:35+00:00",
+  "0x59cbe15eb2c034fcf6800a998225ce06b68a0229": "2026-11-05T11:00:35+00:00",
+  "0x134e52ed8ee01cbb1fb714098b606c57366369fd": "2026-11-05T11:00:35+00:00",
+  "0xcdae63d95d6dd4f89f6e508c77bd4388b4e5c8ab": "2026-11-05T11:00:35+00:00",
+  "0x1c1daef0300551adbfbe403e7d567b6c5aff566f": "2026-11-05T11:00:35+00:00",
+  "0xa869bbf8814f8573c310181705ea35143f3b5be5": "2026-11-05T11:00:35+00:00",
+  "0x81e770ba8343232b6f200209bf9a2c1430c2dea1": "2026-11-05T11:00:35+00:00",
+  "0x215e1a8c6527cf79edfaa7f2c512f5eaf0b97f3f": "2026-11-05T11:00:35+00:00",
+  "0x4da3916d3ae6feece32ec8a2c4856d4abeb41bfd": "2026-11-05T11:00:35+00:00",
+  "0x42ca9f816ed35ccc8bbe7b6018dbffcc22cdaeb1": "2026-11-05T11:00:35+00:00",
+  "0x938dd70ae70c9aaffd69af06247a74518864c213": "2026-11-05T11:00:35+00:00",
+  "0x384b028739f8b2c5d187bca0bbe20bd04d72f00d": "2026-11-05T11:00:35+00:00",
+  "0xfc483d90946ecc6ef18280b58cbbdfc77b35d56b": "2026-11-05T11:00:35+00:00",
+  "0x583b10d1912e8d3def8709a6c1cb7ac88fa27fd7": "2026-11-05T11:00:35+00:00",
+  "0x398aca5e6ae801b002d684333affadc1a25e897c": "2026-11-05T11:00:35+00:00",
+  "0xf1740d428a469bd270c5de0710a2f7d887a650fb": "2026-11-05T11:00:35+00:00",
+  "0xf2ad0505968862195ee3bfd3e8a2c430578c1aad": "2026-11-05T11:00:35+00:00",
+  "0x60633794df09856b339eea8bd741d749596b5230": "2026-11-05T11:00:35+00:00",
+  "0x4e85d59d551a7ad2e8b64726bb0a3424c9bb0a49": "2026-11-05T11:00:35+00:00",
+  "0xe1e5f00a9b0255ca4df85b3130ee0f77d15acc2d": "2026-11-05T11:00:35+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -8667,7 +8702,8 @@
      "pushed": "2026-11-01",
      "people": 1
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x19dcb63c4d2f29a6f077f094a4f858fc790145e1": {
    "address": "0x19dcb63c4d2f29a6f077f094a4f858fc790145e1",
@@ -8738,10 +8774,260 @@
      "pushed": "2026-10-18",
      "people": 1
     }
+   },
+   "launched_src": "pons"
+  },
+  "0xc692c0805bb15990c8cfb3114e372f9b9d6f8209": {
+   "address": "0xc692c0805bb15990c8cfb3114e372f9b9d6f8209",
+   "symbol": "SOLOMD",
+   "name": "Solomd",
+   "description": "Solomd",
+   "website": "https://solomd.app",
+   "twitter": "https://x.com/garfield_oxo",
+   "launched": "2026-11-05T10:51:05+00:00",
+   "mcap": 3962.40407096226,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T11:00:35+00:00",
+   "scored_at": "2026-11-05T11:00:35+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "zhitongblog/solomd",
+    "score": 25,
+    "raw_score": 60,
+    "capped": true,
+    "not_theirs": false,
+    "flags": [
+     "Dev never mentions this token: zhitongblog's GitHub is big and older than the token (1,499 stars, 21 followers), but its repo, website and X never post or mention the token. Likely launched by someone else using their project \u2014 capped at 25 until the dev claims it"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (borrow, marketplace, options, vault) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (website links no X account to check) (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (solomd.app/docs), docs (solomd.app/docs/), docs (solomd.app/docs/linux/), docs (solomd.app/llms-full.txt), docs (solomd.app/llms.txt), website (solomd.app), website code (solomd.app))"
+     ],
+     "Real code": [
+      "\u2705 1350 changes over 211 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 283 days old, 18 people, 1499 stars, 105 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "`docs/roadmap.md`: 61 items"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://solomd.app",
+     "https://solomd.app",
+     "https://solomd.app/llms-full.txt",
+     "https://solomd.app/llms.txt",
+     "https://solomd.app/docs",
+     "https://solomd.app/docs/",
+     "https://solomd.app/docs/linux/"
+    ],
+    "facts": {
+     "commits": 1350,
+     "stars": 1499,
+     "created": "2026-04-08",
+     "pushed": "2026-11-04",
+     "people": 18
+    }
+   }
+  },
+  "0x5371626d5f1ace6fc90c804992f02a3cf179735d": {
+   "address": "0x5371626d5f1ace6fc90c804992f02a3cf179735d",
+   "symbol": "PRCHAI",
+   "name": "Perch AI",
+   "description": "Perch AI is a team of AI agents that finishes a piece of work. It plans the job, runs helper agents side.",
+   "website": "https://perchai.app",
+   "twitter": "https://x.com/PerchTerminal",
+   "launched": "2026-11-05T10:47:42+00:00",
+   "mcap": 4109.9513132785805,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T11:00:35+00:00",
+   "scored_at": "2026-11-05T11:00:35+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Perch-Terminal-AI/perch-terminal",
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (lending, options, payments) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (stake) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check: not enough of their own code to sample",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (perchai.app/docs), docs (perchai.app/docs/concepts/security), docs (perchai.app/llms-full.txt), docs (perchai.app/llms.txt), website (perchai.app), website code (perchai.app))"
+     ],
+     "Real code": [
+      "\u274c 1 changes over 0 days (+0)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 170 days old, 1 people, 1 stars, 0 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://perchai.app",
+     "https://perchai.app",
+     "https://perchai.app/llms-full.txt",
+     "https://perchai.app/llms.txt",
+     "https://perchai.app/docs",
+     "https://perchai.app/docs/concepts/security"
+    ],
+    "facts": {
+     "commits": 1,
+     "stars": 1,
+     "created": "2026-10-24",
+     "pushed": "2026-10-24",
+     "people": 1
+    }
+   }
+  },
+  "0xfb4d86de3c83a22a63ecb1a0c14d4d3801f478e0": {
+   "address": "0xfb4d86de3c83a22a63ecb1a0c14d4d3801f478e0",
+   "symbol": "LABORDOR",
+   "name": "labordor",
+   "description": "-",
+   "website": "https://www.ponsfamily.com/launchpad/0x16cacfc1f3fe4cb706ebce0e791a04511b1732c6",
+   "twitter": "https://x.com/vladtenev/status/2096988610520367265",
+   "launched": "2026-09-07T15:48:59+00:00",
+   "mcap": 3000.19785,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T11:00:35+00:00",
+   "scored_at": "2026-11-05T11:00:35+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pons-labs/",
+    "score": 20,
+    "capped": false,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/pons-labs has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u274c GitHub account pons-labs isn't named after the project (+0)"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u2705 GitHub account 92 days old, 35 followers (+10)"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2026-08-05",
+     "pushed": "private",
+     "commits": "private"
+    }
+   }
+  },
+  "0x81e770ba8343232b6f200209bf9a2c1430c2dea1": {
+   "address": "0x81e770ba8343232b6f200209bf9a2c1430c2dea1",
+   "symbol": "VEYA",
+   "name": "VEYA",
+   "description": "VEYA is infrastructure for autonomous AI agents on Robinhood Chain providing scoped environments, secure coordination, protected execution, and verifiable on-chain outcomes.",
+   "website": "https://www.veyanet.tech/",
+   "twitter": "https://x.com/withveya",
+   "launched": "2026-09-08T11:51:42+00:00",
+   "mcap": 83302,
+   "where": "exchange",
+   "first_seen": "2026-11-05T11:00:35+00:00",
+   "scored_at": "2026-11-05T11:00:35+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "veyanet/veya-sdk",
+    "score": 70,
+    "raw_score": 70,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website, official X @withveya (+10)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
+      "\u2705 Their website code mentions the token: its contract address \u2014 \u201cd action leaves a receipt.\",HJ=\"/images/veya-hero-concept-bg.jpg\",e5=\"0x81E770bA8343232b6f200209bf9a2c1430C2dEa1\",$J=\"https://dexscreener.com/robinhood/0xfea845e665d37ee37b51797417\u201d (https://www.veyanet.tech/)",
+      "\u2705 Their website code mentions the token: $VEYA \u2014 \u201cll hover:opacity-90 transition-opacity shadow-elevated\",children:\"Buy $VEYA\"})]}),p.jsx(\"div\",{\"code-path\":\"src/components/Navbar.tsx:116:11\",cla\u201d (https://www.veyanet.tech/)"
+     ],
+     "Real code": [
+      "\u2705 469 changes over 225 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 979 days old, 1 people, 8 stars, 2 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 23 updates shipped so far"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": null,
+    "sources_read": [
+     "https://www.veyanet.tech/",
+     "https://www.veyanet.tech/",
+     "https://www.veyanet.tech/llms-full.txt",
+     "https://www.veyanet.tech/llms.txt",
+     "https://www.veyanet.tech/docs"
+    ],
+    "facts": {
+     "commits": 469,
+     "stars": 8,
+     "created": "2026-06-26",
+     "pushed": "2026-10-30",
+     "people": 1
+    }
    }
   }
  },
- "checked_total": 947,
+ "checked_total": 982,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -9492,9 +9778,74 @@
    "ignored": [
     "ethers-io/ethers.js"
    ]
+  },
+  {
+   "when": "2026-11-05T11:00:35+00:00",
+   "address": "0xc692c0805bb15990c8cfb3114e372f9b9d6f8209",
+   "symbol": "SOLOMD",
+   "website": "https://solomd.app",
+   "used": "zhitongblog/solomd",
+   "ignored": [
+    "zhitongblog",
+    "zhitongblog/solomd."
+   ]
+  },
+  {
+   "when": "2026-11-05T11:00:35+00:00",
+   "address": "0x659abdad4fba1a4a991465f2a1aa0fbe8f864a5f",
+   "symbol": "GLIDER",
+   "website": "https://glider.fi/",
+   "used": null,
+   "ignored": [
+    "zloirock/core-js"
+   ]
+  },
+  {
+   "when": "2026-11-05T11:00:35+00:00",
+   "address": "0x59cbe15eb2c034fcf6800a998225ce06b68a0229",
+   "symbol": "VISTA",
+   "website": "https://robinvista.app",
+   "used": null,
+   "ignored": [
+    "reown-com/appkit",
+    "ungap/url-search-params."
+   ]
+  },
+  {
+   "when": "2026-11-05T11:00:35+00:00",
+   "address": "0xa869bbf8814f8573c310181705ea35143f3b5be5",
+   "symbol": "FARE",
+   "website": "https://usefare.xyz",
+   "used": null,
+   "ignored": [
+    "KhronosGroup/glTF",
+    "mrdoob/three.js"
+   ]
+  },
+  {
+   "when": "2026-11-05T11:00:35+00:00",
+   "address": "0x81e770ba8343232b6f200209bf9a2c1430c2dea1",
+   "symbol": "VEYA",
+   "website": "https://www.veyanet.tech/",
+   "used": "veyanet/veya-sdk",
+   "ignored": [
+    "markedjs/marked.",
+    "remarkjs/react-markdown",
+    "syntax-tree/hast-util-to-jsx-runtime",
+    "veyanet",
+    "veyanet/veya-mcp",
+    "veyanet/veya-sdk."
+   ]
   }
  ],
  "symbol_counts": {
+  "HGROK": 1,
+  "HARBOR": 1,
+  "SATICO": 1,
+  "SOLOMD": 1,
+  "GLIDER": 1,
+  "PRCHAI": 1,
+  "AUREN": 1,
   "SIMEON": 1,
   "YUASK": 1,
   "WOW": 1,
@@ -9525,22 +9876,22 @@
   "RAPIDM": 1,
   "PERLA": 1,
   "Forensa": 2,
+  "PONS": 1,
+  "OAK": 2,
+  "CHARLIE": 1,
+  "HARMONIC": 1,
+  "WIF": 1,
+  "HMM": 1,
+  "ROBINCAT": 1,
+  "GAGE": 1,
+  "GF": 1,
+  "RAETO": 1,
   "Touchmark": 1,
   "VESPERALAB": 1,
   "TOUCH": 1,
   "TIGROT": 1,
   "TMARK": 1,
   "FOCUS": 1,
-  "PONS": 1,
-  "OAK": 2,
-  "CHARLIE": 1,
-  "HMM": 1,
-  "WIF": 1,
-  "GAGE": 1,
-  "ROBINCAT": 1,
-  "HARMONIC": 1,
-  "RAETO": 1,
-  "GF": 1,
   "COUNCIL": 1,
   "AGENTKEY": 1,
   "PSSGRM": 1,
@@ -10257,6 +10608,18 @@
    [
     "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
     "\u2139\ufe0f 91 of 91 files arrived in the very first change \u2014 could be copied, or moved over from a private repo"
+   ]
+  ],
+  "Perch-Terminal-AI/perch-terminal@2026-10-24": [
+   [],
+   [
+    "\u2139\ufe0f Copy check: not enough of their own code to sample"
+   ]
+  ],
+  "veyanet/veya-sdk@2026-10-30": [
+   [],
+   [
+    "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo"
    ]
   ]
  },
@@ -14350,7 +14713,8 @@
      "contract_addresses": 0,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x68f451f49cac0bddf5d0a05f46242d044aa95d2a": {
    "address": "0x68f451f49cac0bddf5d0a05f46242d044aa95d2a",
@@ -14416,7 +14780,8 @@
      "contract_addresses": 2,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xaead3b6b04882b56a2dc9abbf49af407fe1ad901": {
    "address": "0xaead3b6b04882b56a2dc9abbf49af407fe1ad901",
@@ -14484,7 +14849,8 @@
       "Priors"
      ]
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xaa40e79e987517f7462bf79315b8a118799b04e3": {
    "address": "0xaa40e79e987517f7462bf79315b8a118799b04e3",
@@ -14551,7 +14917,8 @@
      "contract_addresses": 0,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111": {
    "address": "0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111",
@@ -14620,7 +14987,8 @@
      "contract_addresses": 40,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xa3b6b325f7937f97b3df9f7ee654d7463c2382da": {
    "address": "0xa3b6b325f7937f97b3df9f7ee654d7463c2382da",
@@ -14695,7 +15063,8 @@
      "contract_addresses": 4,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x23567e51980db99c513c527a283d188c8e4c6788": {
    "address": "0x23567e51980db99c513c527a283d188c8e4c6788",
@@ -14761,7 +15130,8 @@
      "contract_addresses": 1,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x9a95957b506185a0f678928a6be63b7d55bf198e": {
    "address": "0x9a95957b506185a0f678928a6be63b7d55bf198e",
@@ -14829,7 +15199,8 @@
      "contract_addresses": 8,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": {
    "address": "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96",
@@ -14897,6 +15268,339 @@
       "https://autonomo.fun/docs"
      ],
      "contract_addresses": 2,
+     "winners_linked": []
+    }
+   },
+   "launched_src": "pons"
+  },
+  "0x659abdad4fba1a4a991465f2a1aa0fbe8f864a5f": {
+   "address": "0x659abdad4fba1a4a991465f2a1aa0fbe8f864a5f",
+   "symbol": "GLIDER",
+   "name": "Glider",
+   "description": "",
+   "website": "https://glider.fi/",
+   "twitter": "https://glider__",
+   "site_via_x": null,
+   "launched": "2026-11-05T10:48:50+00:00",
+   "mcap": 4229.0280311999995,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T11:00:35+00:00",
+   "scored_at": "2026-11-05T11:00:35+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 60,
+    "raw_score": 65,
+    "capped": true,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms-full.txt) (+10)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u2705 Lists 18 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burn) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (Tokenized equit) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\ud83d\udfe1 Mentions an audit \u2014 not checked (+5)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 3,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://glider.fi/",
+     "https://glider.fi/",
+     "https://glider.fi/llms-full.txt",
+     "https://glider.fi/llms.txt",
+     "https://docs.glider.fi/llms-full.txt",
+     "https://docs.glider.fi/llms.txt",
+     "https://glider.fi/docs"
+    ],
+    "facts": {
+     "tools": 3,
+     "dev_pages": [],
+     "contract_addresses": 18,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x73770270ea2a707e77400cbd714387881916aab3": {
+   "address": "0x73770270ea2a707e77400cbd714387881916aab3",
+   "symbol": "OATH",
+   "name": "Knightcore",
+   "description": "It works",
+   "website": "https://knightcore.us/",
+   "twitter": "https://x.com/KNI9HTC0RE",
+   "site_via_x": null,
+   "launched": "2026-10-14T05:26:09+00:00",
+   "mcap": 89392,
+   "where": "exchange",
+   "first_seen": "2026-11-05T11:00:35+00:00",
+   "scored_at": "2026-11-05T11:00:35+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms-full.txt) (+10)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u274c Lists fewer than 2 contract addresses (+0)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burn) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Trades against BUN, a Robinhood Chain stock token (+10)"
+     ],
+     "Live product": [
+      "\u274c No app or wallet connect found (+0)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\ud83d\udfe1 Mentions an audit \u2014 not checked (+5)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://knightcore.us/",
+     "https://knightcore.us/",
+     "https://knightcore.us/llms-full.txt",
+     "https://knightcore.us/llms.txt",
+     "https://knightcore.us/docs",
+     "https://knightcore.us/assets/tokens-Ck7I2iCV.css"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [],
+     "contract_addresses": 1,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x134e52ed8ee01cbb1fb714098b606c57366369fd": {
+   "address": "0x134e52ed8ee01cbb1fb714098b606c57366369fd",
+   "symbol": "MERY",
+   "name": "Meryal",
+   "description": "Your stocks pay for your agents. Borrow private, spend from addresses nobody links, let agents pay on credit. ZK \u00b7 stealth \u00b7 x402",
+   "website": "https://www.meryalraven.sbs/",
+   "twitter": "https://x.com/Meryal_Raven",
+   "site_via_x": null,
+   "launched": "2026-11-03T15:37:19+00:00",
+   "mcap": 78073,
+   "where": "exchange",
+   "first_seen": "2026-11-05T11:00:35+00:00",
+   "scored_at": "2026-11-05T11:00:35+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 75,
+    "raw_score": 75,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /developers (+5)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u2705 Lists 4 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (buyback) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (tokenized stock) (+10)"
+     ],
+     "Live product": [
+      "\u274c No app or wallet connect found (+0)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\ud83d\udfe1 Mentions an audit \u2014 not checked (+5)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://www.meryalraven.sbs/",
+     "https://www.meryalraven.sbs/",
+     "https://robinhoodchain.blockscout.com/token/0x134e52ed8Ee01Cbb1FB714098B606C57366369Fd",
+     "https://www.meryalraven.sbs/token",
+     "https://www.meryalraven.sbs/developers"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [
+      "https://www.meryalraven.sbs/developers"
+     ],
+     "contract_addresses": 4,
+     "winners_linked": []
+    }
+   }
+  },
+  "0xa869bbf8814f8573c310181705ea35143f3b5be5": {
+   "address": "0xa869bbf8814f8573c310181705ea35143f3b5be5",
+   "symbol": "FARE",
+   "name": "FARE",
+   "description": "FARE the Harmonic agent that refunds your Uber rides in real UBER stock.\\n\\n20% of every fee flows into an on-chain vault holding UBER stock tokens. Take a ride, scan your receipt , paste your wallet: the agent checks you hold \u22650.1% \\nharmonic series: share/n",
+   "website": "https://usefare.xyz",
+   "twitter": "https://x.com/usefare_xyz",
+   "site_via_x": null,
+   "launched": "2026-10-29T23:05:54+00:00",
+   "mcap": 74805,
+   "where": "exchange",
+   "first_seen": "2026-11-05T11:00:35+00:00",
+   "scored_at": "2026-11-05T11:00:35+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u274c Lists fewer than 2 contract addresses (+0)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (buybacks) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (stock tokens) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 1,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://usefare.xyz",
+     "https://usefare.xyz"
+    ],
+    "facts": {
+     "tools": 1,
+     "dev_pages": [],
+     "contract_addresses": 1,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x60633794df09856b339eea8bd741d749596b5230": {
+   "address": "0x60633794df09856b339eea8bd741d749596b5230",
+   "symbol": "ORBIX",
+   "name": "useorbix.app",
+   "description": "An AI inference marketplace bringing leading models into one platform. Compare options, choose your model, and build through a single API.",
+   "website": "https://useorbix.app/",
+   "twitter": "https://x.com/useorbix/status/2113383028063936905",
+   "site_via_x": null,
+   "launched": "2026-10-22T21:33:22+00:00",
+   "mcap": 80439,
+   "where": "exchange",
+   "first_seen": "2026-11-05T11:00:35+00:00",
+   "scored_at": "2026-11-05T11:00:35+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (buybacks) \u2014 claimed, not checked on chain (+10)",
+      "\u274c No use of stock tokens or USDG (+0)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 3,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://useorbix.app/",
+     "https://useorbix.app/",
+     "https://useorbix.app/llms.txt",
+     "https://useorbix.app/docs",
+     "https://useorbix.app/docs/project/how-it-works#money-flow",
+     "https://useorbix.app/docs"
+    ],
+    "facts": {
+     "tools": 3,
+     "dev_pages": [
+      "https://useorbix.app/docs"
+     ],
+     "contract_addresses": 1,
      "winners_linked": []
     }
    }
@@ -15197,9 +15901,39 @@
   "0x23567e51980db99c513c527a283d188c8e4c6788": "2026-11-05T10:45:25+00:00",
   "0x192633a46d8d6b6cb9bca9f32f5621049989e39d": "2026-11-05T10:45:25+00:00",
   "0x9a95957b506185a0f678928a6be63b7d55bf198e": "2026-11-05T10:45:25+00:00",
-  "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": "2026-11-05T10:45:25+00:00"
+  "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": "2026-11-05T10:45:25+00:00",
+  "0x3cf3d822c82ee989375f508893d0113af07b9b73": "2026-11-05T11:00:35+00:00",
+  "0xace5e4c8ad53bcf565708ac06abe013e27ff1ac6": "2026-11-05T11:00:35+00:00",
+  "0xbd7afbb5655f58710bbf9a5e45c51a46311054c8": "2026-11-05T11:00:35+00:00",
+  "0x659abdad4fba1a4a991465f2a1aa0fbe8f864a5f": "2026-11-05T11:00:35+00:00",
+  "0x897135d8fe15d681e07252c0171418596862525b": "2026-11-05T11:00:35+00:00",
+  "0x55021291be781602b8dfa741d04cde1baffd293e": "2026-11-05T11:00:35+00:00",
+  "0x5505e960ca941112b13d1142f7333a0e20d11f38": "2026-11-05T11:00:35+00:00",
+  "0x09388f335f38301c431f9d589ef243a5371cf6f2": "2026-11-05T11:00:35+00:00",
+  "0xc0002373f0767c71c33dd26ba7211cce60a84607": "2026-11-05T11:00:35+00:00",
+  "0xff029fe36b8d1199bd1b1dbcb2310b9efb8a9bea": "2026-11-05T11:00:35+00:00",
+  "0x67ef4460a1280fbd9d31d6312fed2ce1efd66305": "2026-11-05T11:00:35+00:00",
+  "0x4561abbdb65f5e9236c231cbef8d1e5104b328e8": "2026-11-05T11:00:35+00:00",
+  "0x73770270ea2a707e77400cbd714387881916aab3": "2026-11-05T11:00:35+00:00",
+  "0x59cbe15eb2c034fcf6800a998225ce06b68a0229": "2026-11-05T11:00:35+00:00",
+  "0x134e52ed8ee01cbb1fb714098b606c57366369fd": "2026-11-05T11:00:35+00:00",
+  "0xcdae63d95d6dd4f89f6e508c77bd4388b4e5c8ab": "2026-11-05T11:00:35+00:00",
+  "0x1c1daef0300551adbfbe403e7d567b6c5aff566f": "2026-11-05T11:00:35+00:00",
+  "0xa869bbf8814f8573c310181705ea35143f3b5be5": "2026-11-05T11:00:35+00:00",
+  "0x215e1a8c6527cf79edfaa7f2c512f5eaf0b97f3f": "2026-11-05T11:00:35+00:00",
+  "0x4da3916d3ae6feece32ec8a2c4856d4abeb41bfd": "2026-11-05T11:00:35+00:00",
+  "0x42ca9f816ed35ccc8bbe7b6018dbffcc22cdaeb1": "2026-11-05T11:00:35+00:00",
+  "0x384b028739f8b2c5d187bca0bbe20bd04d72f00d": "2026-11-05T11:00:35+00:00",
+  "0xfc483d90946ecc6ef18280b58cbbdfc77b35d56b": "2026-11-05T11:00:35+00:00",
+  "0x583b10d1912e8d3def8709a6c1cb7ac88fa27fd7": "2026-11-05T11:00:35+00:00",
+  "0x398aca5e6ae801b002d684333affadc1a25e897c": "2026-11-05T11:00:35+00:00",
+  "0xf1740d428a469bd270c5de0710a2f7d887a650fb": "2026-11-05T11:00:35+00:00",
+  "0xf2ad0505968862195ee3bfd3e8a2c430578c1aad": "2026-11-05T11:00:35+00:00",
+  "0x60633794df09856b339eea8bd741d749596b5230": "2026-11-05T11:00:35+00:00",
+  "0x4e85d59d551a7ad2e8b64726bb0a3424c9bb0a49": "2026-11-05T11:00:35+00:00",
+  "0xe1e5f00a9b0255ca4df85b3130ee0f77d15acc2d": "2026-11-05T11:00:35+00:00"
  },
  "catchup_plain": [
-  "0x448168b7c3736fb55c552dce72d5f1f5b30d77cb"
+  "0x938dd70ae70c9aaffd69af06247a74518864c213"
  ]
 }
