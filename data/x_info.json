@@ -1471,13 +1471,49 @@
   },
   "darklabchat": {
    "handle": "Darklabchat",
-   "found": false,
-   "checked": "2026-11-05T05:17:44+00:00"
+   "found": true,
+   "id": "2116881690823909376",
+   "name": "Darklab",
+   "joined": "2026-11-01T13:23:44+00:00",
+   "followers": 60,
+   "following": 108,
+   "posts": 21,
+   "verified": "individual",
+   "last_post": "2026-11-05T01:38:55+00:00",
+   "sample": 6,
+   "sample_full_week": false,
+   "posts_7d": 6,
+   "avg_likes": 34.7,
+   "avg_views": 275,
+   "bio_site": "http://darklab.chat",
+   "bio": "Private, uncensored AI on BNB Chain. Open models sealed in hardware enclaves. We don't keep your prompts.",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T05:30:27+00:00"
   },
   "motiongift": {
    "handle": "motiongift",
-   "found": false,
-   "checked": "2026-11-05T05:17:44+00:00"
+   "found": true,
+   "id": "2109307720155217920",
+   "name": "motion.gift",
+   "joined": "2026-10-11T15:38:44+00:00",
+   "followers": 1096,
+   "following": 18,
+   "posts": 161,
+   "verified": "individual",
+   "last_post": "2026-11-04T17:28:14+00:00",
+   "sample": 17,
+   "sample_full_week": false,
+   "posts_7d": 14,
+   "avg_likes": 67.6,
+   "avg_views": 3315,
+   "bio_site": "https://motion.gift/",
+   "bio": "trading terminal for robinhood / bnb / sol / near chain with 0% fees\n\n0x061732dc141e0a2d37f5fa91cf5343f24064e60f",
+   "cas": [
+    "0x061732dc141e0a2d37f5fa91cf5343f24064e60f"
+   ],
+   "fake_posts": [],
+   "checked": "2026-11-05T05:30:27+00:00"
   }
  },
  "ids": {
@@ -1672,6 +1708,12 @@
   ],
   "2118196973387796480": [
    "VesperaiLAb"
+  ],
+  "2116881690823909376": [
+   "Darklabchat"
+  ],
+  "2109307720155217920": [
+   "motiongift"
   ]
  },
  "past": {
@@ -2269,6 +2311,18 @@
    "2026-11-05": [
     1,
     13
+   ]
+  },
+  "darklabchat": {
+   "2026-11-05": [
+    60,
+    21
+   ]
+  },
+  "motiongift": {
+   "2026-11-05": [
+    1096,
+    161
    ]
   }
  },
