@@ -22,8 +22,13 @@
   "low_mcap": 3598.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 3598.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 617895.74,
+   "liq": 5474.37,
+   "trades24": 6865
+  }
  },
  "0x63b5c2b1eb93ad62ea06560370f4f317ee1b97d3": {
   "address": "0x63b5C2B1eB93Ad62EA06560370f4f317eE1b97D3",
@@ -47,9 +52,14 @@
   "score": 70,
   "low_mcap": 22603.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 25421.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 23953.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 189024.83,
+   "liq": 14605.21,
+   "trades24": 2107
+  }
  },
  "0x6511c233790ec10f7d673c64dc82c3f941d57828": {
   "address": "0x6511c233790Ec10f7d673c64DC82C3F941D57828",
@@ -73,9 +83,14 @@
   "score": 65,
   "low_mcap": 514683.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 773672.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 790912.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 237506.34,
+   "liq": 81100.19,
+   "trades24": 2232
+  }
  },
  "0xfc9eb397c4ed9321d7213484205ff3d4a27c21c0": {
   "address": "0xfc9eb397c4ed9321d7213484205ff3d4a27c21c0",
@@ -95,9 +110,10 @@
   "score": 50,
   "low_mcap": 3937.35286438032,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3947.753518817286,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3947.6340952073297,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x9022ffd87c769ec5ef5afdb2b3dbc39409a4e7e0": {
   "address": "0x9022ffd87c769ec5ef5afdb2b3dbc39409a4e7e0",
@@ -117,9 +133,10 @@
   "score": 40,
   "low_mcap": 2287.8191484534827,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 2294.460192176666,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 2292.209263721293,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xb329d90aa612a122c2ab779e521e1092f4c15d9f": {
   "address": "0xb329d90aa612a122c2ab779e521e1092f4c15d9f",
@@ -139,9 +156,10 @@
   "score": 0,
   "low_mcap": 4017.9720705600007,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4028.585683432071,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4028.4638145658832,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xcce83a030692d89d66081fa8768346a5915878b0": {
   "address": "0xcce83a030692d89d66081fa8768346a5915878b0",
@@ -161,9 +179,10 @@
   "score": 25,
   "low_mcap": 4048.7328,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4059.427668407999,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4059.3048665399997,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x2785ecda3e8b4b920dc0aab6f287e421969a0233": {
   "address": "0x2785ecda3e8b4b920dc0aab6f287e421969a0233",
@@ -183,9 +202,10 @@
   "score": 45,
   "low_mcap": 3929.1583713807604,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3939.537379779661,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3939.418204716374,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d": {
   "address": "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d",
@@ -209,9 +229,14 @@
   "score": 80,
   "low_mcap": 3804279.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3804279.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 3814346.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 29129.7,
+   "liq": 177738.04,
+   "trades24": 126
+  }
  },
  "0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2": {
   "address": "0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2",
@@ -231,9 +256,10 @@
   "score": 0,
   "low_mcap": 3981.151310886777,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3991.6676604424383,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3991.5469083844687,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x1abb9127a65047b75747c3500f6344069cfb179a": {
   "address": "0x1abb9127a65047b75747c3500f6344069cfb179a",
@@ -253,9 +279,10 @@
   "score": 0,
   "low_mcap": 2294.7922615216553,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 2301.4535466825437,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 2299.1957575543593,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x76b6cdb023ba935283547fe9c3addb305d6d48b0": {
   "address": "0x76b6cdb023ba935283547fe9c3addb305d6d48b0",
@@ -279,9 +306,10 @@
   "score": 20,
   "low_mcap": 3968.086380552,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3978.5682186401004,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3978.447862853737,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x257bd594a54f04c3a5d77f87971233b13236c091": {
   "address": "0x257bd594a54f04c3a5d77f87971233b13236c091",
@@ -301,9 +329,10 @@
   "score": 0,
   "low_mcap": 3929.22396326208,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3939.6031449242155,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3939.4839678714648,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xbf019e7f6eab2f04b374b6a98a482c50b157bd1b": {
   "address": "0xbf019e7f6eab2f04b374b6a98a482c50b157bd1b",
@@ -323,9 +352,10 @@
   "score": 60,
   "low_mcap": 4017.9720705600007,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4028.585683432071,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4028.4638145658832,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xa4018d961759d729996f4db6d8eed7538091ecaa": {
   "address": "0xa4018d961759d729996f4db6d8eed7538091ecaa",
@@ -345,9 +375,10 @@
   "score": 60,
   "low_mcap": 4003.9963738640204,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4014.573069447533,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4014.451624477349,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x6624dc7ea0d54c36ecab3956e5bac5b21b695189": {
   "address": "0x6624dc7ea0d54c36ecab3956e5bac5b21b695189",
@@ -367,9 +398,10 @@
   "score": 10,
   "low_mcap": 4006.634413739999,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4017.218077797532,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4017.0965528131223,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xa4d0d038c6998c43f672fbcd21324c4363a2371c": {
   "address": "0xa4d0d038c6998c43f672fbcd21324c4363a2371c",
@@ -389,9 +421,10 @@
   "score": 25,
   "low_mcap": 4050.6980853916375,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4053.714462591536,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4053.591833553897,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xc23b07df578dff9abd904bb71026b59dd1234977": {
   "address": "0xc23b07df578dff9abd904bb71026b59dd1234977",
@@ -411,9 +444,10 @@
   "score": 0,
   "low_mcap": 3952.213661004,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3962.653570751745,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3962.5336963998725,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xc0df3a7a1bade5741a87b2f960ed9d5abb374589": {
   "address": "0xc0df3a7a1bade5741a87b2f960ed9d5abb374589",
@@ -433,9 +467,10 @@
   "score": 55,
   "low_mcap": 3935.69572768512,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3946.09200473791,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3945.9726313904666,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x8dfd6052c1f92b295092f813bcde9ab151d9c2d6": {
   "address": "0x8dfd6052c1f92b295092f813bcde9ab151d9c2d6",
@@ -455,9 +490,10 @@
   "score": 0,
   "low_mcap": 4016.38386836064,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4026.9932859414025,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4026.8714652468784,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x5b62e88d43907f8b37c654c54ed943c0d9c61c7a": {
   "address": "0x5b62e88d43907f8b37c654c54ed943c0d9c61c7a",
@@ -481,9 +517,10 @@
   "score": 0,
   "low_mcap": 3951.78366871092,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3962.2224426190783,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3962.102581309275,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x7164b51079dbadc42bc2b8cc61aae3ccf8cfe600": {
   "address": "0x7164b51079dbadc42bc2b8cc61aae3ccf8cfe600",
@@ -503,9 +540,10 @@
   "score": 0,
   "low_mcap": 4030.2458233228804,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4040.8918577394584,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4040.7696165988223,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x36b7b1d8541e98fd6abd74a76a77591105d96bfe": {
   "address": "0x36b7b1d8541e98fd6abd74a76a77591105d96bfe",
@@ -529,9 +567,10 @@
   "score": 20,
   "low_mcap": 3931.86605783916,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3942.2522186859487,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3942.132961495988,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x2911657395c0357b082bb56a8c69ba896692df32": {
   "address": "0x2911657395c0357b082bb56a8c69ba896692df32",
@@ -551,9 +590,10 @@
   "score": 0,
   "low_mcap": 3807.938272656,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3817.9970739510227,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3817.8815756071685,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x0647c5b90fe024219e97ef4c9743d278bc0d5729": {
   "address": "0x0647c5b90fe024219e97ef4c9743d278bc0d5729",
@@ -573,9 +613,10 @@
   "score": 50,
   "low_mcap": 3930.36671327496,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3940.7489135509722,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3940.6297018375403,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xa212b74c5132079d490edfa3b34e2fadf391b3da": {
   "address": "0xa212b74c5132079d490edfa3b34e2fadf391b3da",
@@ -603,9 +644,10 @@
   "score": 0,
   "low_mcap": 4011.91058013732,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4022.508181371768,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4022.3864963562764,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x3b2573d07d916869732cb75b1efd21f030d85774": {
   "address": "0x3b2573d07d916869732cb75b1efd21f030d85774",
@@ -629,9 +671,10 @@
   "score": 0,
   "low_mcap": 3938.5639849584004,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3948.967838612466,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3948.848378268086,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xe79f8e006df605cdb5abc6f309420ec7262fda80": {
   "address": "0xe79f8e006df605cdb5abc6f309420ec7262fda80",
@@ -651,9 +694,10 @@
   "score": 40,
   "low_mcap": 4140.0137606776625,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4150.949750915832,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4150.824180410572,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xa4cb5143bf84d1876ee0cd048184e881f10c19f2": {
   "address": "0xa4cb5143bf84d1876ee0cd048184e881f10c19f2",
@@ -677,9 +721,10 @@
   "score": 0,
   "low_mcap": 4008.63134515536,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4019.2202841766307,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4019.0986986234157,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x76b81f145b6a8b991cc8d637fefcaaa33db06825": {
   "address": "0x76b81f145b6a8b991cc8d637fefcaaa33db06825",
@@ -703,9 +748,10 @@
   "score": 0,
   "low_mcap": 4088.1837095036103,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4103.297765489903,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4103.1736365062825,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x8b752dbd6c3b7d8aaca365852000f2fc90d7f8a2": {
   "address": "0x8b752dbd6c3b7d8aaca365852000f2fc90d7f8a2",
@@ -729,9 +775,10 @@
   "score": 0,
   "low_mcap": 4009.2445980367206,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4019.835156986791,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4019.71355283304,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x394b2e84879225b2695ff4e913b132068bba8e83": {
   "address": "0x394b2e84879225b2695ff4e913b132068bba8e83",
@@ -751,9 +798,10 @@
   "score": 40,
   "low_mcap": 4030.78402763988,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4041.431483741867,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4041.3092262769883,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xb06dc5c98ed82b097aee8dd784e133829c3d87a9": {
   "address": "0xb06dc5c98ed82b097aee8dd784e133829c3d87a9",
@@ -777,9 +825,10 @@
   "score": 0,
   "low_mcap": 4010.6801268601203,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4021.2744778094707,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4021.1528301147832,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x6a6dbb62ce42f62dc0ce88d863653ae52f3f368a": {
   "address": "0x6a6dbb62ce42f62dc0ce88d863653ae52f3f368a",
@@ -803,9 +852,10 @@
   "score": 0,
   "low_mcap": 4017.86180766012,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4028.475129268909,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4028.353263747097,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xc00d791e9aa8722d8f3759e294df954312333dd5": {
   "address": "0xc00d791e9aa8722d8f3759e294df954312333dd5",
@@ -829,9 +879,10 @@
   "score": 25,
   "low_mcap": 3929.48996259708,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3939.869846905704,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3939.7506617849435,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x021a2fefffba9371a2c48e5f141cb6c3209f0ef4": {
   "address": "0x021a2fefffba9371a2c48e5f141cb6c3209f0ef4",
@@ -855,9 +906,10 @@
   "score": 0,
   "low_mcap": 4010.9890644524403,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4021.584231471178,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4021.462574406123,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xbbeaa14bae9ba62782579e8642a7b435bbcfb697": {
   "address": "0xbbeaa14bae9ba62782579e8642a7b435bbcfb697",
@@ -881,9 +933,10 @@
   "score": 0,
   "low_mcap": 3953.4140620800003,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3963.8571427289085,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3963.7372319677434,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xc8792fc24537fb04fcc1751f84ec7713da5af64a": {
   "address": "0xc8792fc24537fb04fcc1751f84ec7713da5af64a",
@@ -907,9 +960,10 @@
   "score": 25,
   "low_mcap": 3953.6345854698,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3964.0782486389076,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3963.9583311890606,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xd3c2fb87aff9c2d8ecfadf729b678ca09608985d": {
   "address": "0xd3c2fb87aff9c2d8ecfadf729b678ca09608985d",
@@ -929,9 +983,10 @@
   "score": 60,
   "low_mcap": 3960.67848644664,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3971.140756324994,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3971.0206252270154,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xfda9bc015489078e6c307ea372a06eaf2212b98e": {
   "address": "0xfda9bc015489078e6c307ea372a06eaf2212b98e",
@@ -951,9 +1006,10 @@
   "score": 60,
   "low_mcap": 3952.2796336589995,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3962.7197176758064,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3962.599841322921,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x618520cc4638adc9e4d5b70aa9499f20b0f06988": {
   "address": "0x618520cc4638adc9e4d5b70aa9499f20b0f06988",
@@ -973,9 +1029,10 @@
   "score": 55,
   "low_mcap": 4033.48548194172,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4044.1400740291365,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4044.017734626612,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xfda4717fff9c4c553f8cd48d3d2e31f7d0dc19f3": {
   "address": "0xfda4717fff9c4c553f8cd48d3d2e31f7d0dc19f3",
@@ -995,9 +1052,10 @@
   "score": 60,
   "low_mcap": 4033.48548194172,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4044.1400740291365,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4044.017734626612,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xbfbcd3fc84d6b7d1c347dd3fef53804152febf19": {
   "address": "0xbfbcd3fc84d6b7d1c347dd3fef53804152febf19",
@@ -1017,9 +1075,10 @@
   "score": 30,
   "low_mcap": 3979.4240373720004,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3989.9358242746384,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3989.815124606497,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x74a2c11e3ae9fed3c9d946517416335580f8a29e": {
   "address": "0x74a2c11e3ae9fed3c9d946517416335580f8a29e",
@@ -1039,9 +1098,10 @@
   "score": 50,
   "low_mcap": 3968.5101599682,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3978.993117484356,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3978.8727488443656,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xa577af6c0861c0add0bd8e72e634cd76a8a4265e": {
   "address": "0xa577af6c0861c0add0bd8e72e634cd76a8a4265e",
@@ -1061,9 +1121,10 @@
   "score": 65,
   "low_mcap": 3955.4324469592807,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3965.8808592419978,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3965.7608872613246,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x7673a00106c99d1e00b85496f9f495076873b654": {
   "address": "0x7673a00106c99d1e00b85496f9f495076873b654",
@@ -1087,9 +1148,10 @@
   "score": 30,
   "low_mcap": 8097.60146631672,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 14281.696787768124,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 14281.264751730778,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xa3860b6c4f62b88faa4ba3c2fcb3759605e25526": {
   "address": "0xa3860b6c4f62b88faa4ba3c2fcb3759605e25526",
@@ -1113,9 +1175,10 @@
   "score": 25,
   "low_mcap": 3953.5683477191997,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3963.4516711456363,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3963.3317726504047,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x7cd7073a71eaf5f6e4febfa98460ee66cd97deb1": {
   "address": "0x7cd7073a71eaf5f6e4febfa98460ee66cd97deb1",
@@ -1139,9 +1202,14 @@
   "score": 60,
   "low_mcap": 1418460.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 1420458.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 1424594.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 1806.36,
+   "liq": 108692.02,
+   "trades24": 35
+  }
  },
  "0x736be283c9e85a9ed3fb65dfe984ca118f45c80d": {
   "address": "0x736be283c9e85a9ed3fb65dfe984ca118f45c80d",
@@ -1165,9 +1233,10 @@
   "score": 25,
   "low_mcap": 3953.89063407996,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3964.3349736103696,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3964.215048394329,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xd382e35cda672a96cc28137127c279e032783802": {
   "address": "0xd382e35cda672a96cc28137127c279e032783802",
@@ -1191,9 +1260,10 @@
   "score": 25,
   "low_mcap": 4016.3220842161195,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4026.931338591917,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4026.8095197713637,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x4ed418d5e58358906d4b7e255f320521c6d14007": {
   "address": "0x4ed418d5e58358906d4b7e255f320521c6d14007",
@@ -1217,9 +1287,10 @@
   "score": 25,
   "low_mcap": 3984.3004461470605,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4159.601007561153,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4159.47517534647,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xb6496cffed51a45e7e305575f0ff5140f916cd98": {
   "address": "0xb6496cffed51a45e7e305575f0ff5140f916cd98",
@@ -1239,9 +1310,10 @@
   "score": 45,
   "low_mcap": 3979.4240373720004,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3989.9358242746384,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3989.815124606497,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x07cdf5db9686f83629fe756955c53e0573b135f1": {
   "address": "0x07cdf5db9686f83629fe756955c53e0573b135f1",
@@ -1261,9 +1333,10 @@
   "score": 40,
   "low_mcap": 3825.0693287184,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3835.1733822934143,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3835.0573643485413,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x2d955895ad1a54d91f18edf1a025f0afdd09e964": {
   "address": "0x2d955895ad1a54d91f18edf1a025f0afdd09e964",
@@ -1287,9 +1360,10 @@
   "score": 25,
   "low_mcap": 4047.98135519232,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4058.674238632743,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4058.5514595567697,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x9741f3f047f2ccf04754caacb59e6e5f1e6d98f1": {
   "address": "0x9741f3f047f2ccf04754caacb59e6e5f1e6d98f1",
@@ -1309,9 +1383,10 @@
   "score": 40,
   "low_mcap": 4075.57011456,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4086.335874667161,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4086.2122587982076,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xdac6fbd9eeaec2e4f595a1db2385a12f2b34b3a1": {
   "address": "0xdac6fbd9eeaec2e4f595a1db2385a12f2b34b3a1",
@@ -1326,14 +1401,19 @@
    [
     "2026-11-05T04:15:57+00:00",
     50
+   ],
+   [
+    "2026-11-05T10:30:29+00:00",
+    25
    ]
   ],
-  "score": 50,
+  "score": 25,
   "low_mcap": 3975.0060986999997,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3985.506215464088,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3985.385649796175,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x9ab224366f06ab079a6f340b67c966ba5e64e3d6": {
   "address": "0x9ab224366f06ab079a6f340b67c966ba5e64e3d6",
@@ -1348,14 +1428,19 @@
    [
     "2026-11-05T04:15:57+00:00",
     60
+   ],
+   [
+    "2026-11-05T10:30:29+00:00",
+    0
    ]
   ],
-  "score": 60,
+  "score": 0,
   "low_mcap": 3968.62578020916,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3979.1090431402013,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3978.9886709933403,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x781eba55966e0cac7e412359ffa152467ded43bd": {
   "address": "0x781eba55966e0cac7e412359ffa152467ded43bd",
@@ -1370,14 +1455,19 @@
    [
     "2026-11-05T04:15:57+00:00",
     60
+   ],
+   [
+    "2026-11-05T10:30:29+00:00",
+    0
    ]
   ],
-  "score": 60,
+  "score": 0,
   "low_mcap": 3948.9456299260796,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3959.37690705615,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3959.2571318267287,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xf9a77d247ed017cddf283e09abd5ed669b53f5c0": {
   "address": "0xf9a77d247ed017cddf283e09abd5ed669b53f5c0",
@@ -1392,14 +1482,19 @@
    [
     "2026-11-05T04:15:57+00:00",
     20
+   ],
+   [
+    "2026-11-05T10:30:29+00:00",
+    0
    ]
   ],
-  "score": 20,
+  "score": 0,
   "low_mcap": 3899.7194592115197,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3910.020703700755,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3909.9024215473196,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x292ff391d6e23361d883ab4a24edb1c920a07ff5": {
   "address": "0x292ff391d6e23361d883ab4a24edb1c920a07ff5",
@@ -1414,14 +1509,19 @@
    [
     "2026-11-05T04:15:57+00:00",
     60
+   ],
+   [
+    "2026-11-05T10:30:29+00:00",
+    25
    ]
   ],
-  "score": 60,
+  "score": 25,
   "low_mcap": 3952.3117921652397,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3962.751961129858,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3962.632083801575,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xd56c8690299a80b3ec853c14b6d9772a14d3fad5": {
   "address": "0xd56c8690299a80b3ec853c14b6d9772a14d3fad5",
@@ -1436,14 +1536,19 @@
    [
     "2026-11-05T04:15:57+00:00",
     70
+   ],
+   [
+    "2026-11-05T10:30:29+00:00",
+    25
    ]
   ],
-  "score": 70,
+  "score": 25,
   "low_mcap": 4014.76527656568,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4025.3704185799606,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4025.2486469788455,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x31169de3c9b5fe7c5355465d6adecc9d30f98d21": {
   "address": "0x31169de3c9b5fe7c5355465d6adecc9d30f98d21",
@@ -1463,9 +1568,10 @@
   "score": 25,
   "low_mcap": 3902.7821978468405,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3913.0915326666277,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3912.9731576174536,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x6df763cf9c0be35c5853936c3c2681d266125c46": {
   "address": "0x6df763cf9c0be35c5853936c3c2681d266125c46",
@@ -1485,9 +1591,10 @@
   "score": 60,
   "low_mcap": 3995.29675692,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4005.850472162993,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4005.7292910603614,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xa98a60d5e1291c733dcacc1aa42b2eb5fe2fd0eb": {
   "address": "0xa98a60d5e1291c733dcacc1aa42b2eb5fe2fd0eb",
@@ -1507,9 +1614,10 @@
   "score": 40,
   "low_mcap": 3959.9021780816397,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3970.362397314466,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3970.2422897626498,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x19e813946c708b91fa2d792e222ed9c604cdda9d": {
   "address": "0x19e813946c708b91fa2d792e222ed9c604cdda9d",
@@ -1529,9 +1637,10 @@
   "score": 35,
   "low_mcap": 3952.213661004,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3962.653570751745,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3962.5336963998725,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xe27dbe394debd0eed3e71ff9cf1cbd232f108882": {
   "address": "0xe27dbe394debd0eed3e71ff9cf1cbd232f108882",
@@ -1551,9 +1660,10 @@
   "score": 35,
   "low_mcap": 3983.9591000999994,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3994.4828665284545,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3994.3620293076015,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x061732dc141e0a2d37f5fa91cf5343f24064e60f": {
   "address": "0x061732dc141e0a2d37f5fa91cf5343f24064e60f",
@@ -1573,9 +1683,14 @@
   "score": 60,
   "low_mcap": 741248.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 750768.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 755299.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 61709.35,
+   "liq": 79546.32,
+   "trades24": 467
+  }
  },
  "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3": {
   "address": "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3",
@@ -1593,11 +1708,16 @@
    ]
   ],
   "score": 60,
-  "low_mcap": 28205719.0,
+  "low_mcap": 28165116.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 28236520.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 28165116.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 606848.44,
+   "liq": 650583.16,
+   "trades24": 2250
+  }
  },
  "0xbc4ecb8262fd3287188ed8f61f1fb25bafe8d5a6": {
   "address": "0xbc4ecb8262fd3287188ed8f61f1fb25bafe8d5a6",
@@ -1617,9 +1737,10 @@
   "score": 50,
   "low_mcap": 4916.923512549519,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4918.265600853191,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4918.11681825317,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x125c203b21f88664809a7b5eea455eb755fbc0ff": {
   "address": "0x125c203b21f88664809a7b5eea455eb755fbc0ff",
@@ -1639,9 +1760,10 @@
   "score": 30,
   "low_mcap": 3995.6292555700943,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4185.783134438974,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4185.656510187986,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x40325e04bbc1a1746a8b4f71b429f728a73677c6": {
   "address": "0x40325e04bbc1a1746a8b4f71b429f728a73677c6",
@@ -1661,9 +1783,10 @@
   "score": 35,
   "low_mcap": 4075.57011456,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4086.335874667161,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4086.2122587982076,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x51751e2b5c34a67091c258041281ce6036627ca4": {
   "address": "0x51751e2b5c34a67091c258041281ce6036627ca4",
@@ -1683,9 +1806,10 @@
   "score": 55,
   "low_mcap": 4174.08634884864,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4185.112343012682,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4184.9857390538255,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x2e22c08fc49f6e28bcc0411545c1b6f170db1912": {
   "address": "0x2e22c08fc49f6e28bcc0411545c1b6f170db1912",
@@ -1705,9 +1829,10 @@
   "score": 60,
   "low_mcap": 3946.186772787001,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3956.6107623000516,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3956.4910707493573,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xbc190e16f0028a7e42b7f4b48be8bc2f23b9ad27": {
   "address": "0xbc190e16f0028a7e42b7f4b48be8bc2f23b9ad27",
@@ -1727,9 +1852,10 @@
   "score": 25,
   "low_mcap": 4037.19391152,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4047.8582995530373,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4047.7358476703607,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x7a312470b5a8b91718196874a0df09108ee4905c": {
   "address": "0x7a312470b5a8b91718196874a0df09108ee4905c",
@@ -1749,9 +1875,10 @@
   "score": 0,
   "low_mcap": 4009.40047665948,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4019.9914473683507,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4019.8698384866548,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x251bd9cab995ea411b658abbea0fdbf694e63824": {
   "address": "0x251bd9cab995ea411b658abbea0fdbf694e63824",
@@ -1771,9 +1898,10 @@
   "score": 0,
   "low_mcap": 4008.8095496475594,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4019.398959402191,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4019.2773684438653,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x3ad285d19eb5e1574cfdf151e996f1d0936f6268": {
   "address": "0x3ad285d19eb5e1574cfdf151e996f1d0936f6268",
@@ -1793,9 +1921,10 @@
   "score": 60,
   "low_mcap": 4022.5039569607206,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4033.1295409682275,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4033.0075346456692,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x62946bd33e9967e772d410aef5cbe24c4c45ff8a": {
   "address": "0x62946bd33e9967e772d410aef5cbe24c4c45ff8a",
@@ -1816,8 +1945,13 @@
   "low_mcap": 4155.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 4511.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 237757.75,
+   "liq": 6320.43,
+   "trades24": 3752
+  }
  },
  "0x01b22b48aa5111bf08603c0450ad4388dec913f0": {
   "address": "0x01b22b48aa5111bf08603c0450ad4388dec913f0",
@@ -1837,9 +1971,10 @@
   "score": 25,
   "low_mcap": 3941.57580595884,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3951.987615442757,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3951.868063747017,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x4387dd92f6aa259084adf33b8bfc2cc1e0aadfdb": {
   "address": "0x4387dd92f6aa259084adf33b8bfc2cc1e0aadfdb",
@@ -1859,9 +1994,10 @@
   "score": 0,
   "low_mcap": 4008.26909201796,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4018.8570741349777,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4018.7354995692403,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x8dd71026cd5e0b832c098995cdd72ae952e715d6": {
   "address": "0x8dd71026cd5e0b832c098995cdd72ae952e715d6",
@@ -1881,9 +2017,10 @@
   "score": 70,
   "low_mcap": 4077.5874920760007,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4088.3585811559856,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4088.2349040980766,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x906458971e78bb0367174056fd1dcd8226622bb9": {
   "address": "0x906458971e78bb0367174056fd1dcd8226622bb9",
@@ -1903,9 +2040,10 @@
   "score": 25,
   "low_mcap": 4042.3757159335205,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4053.053791883013,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4052.931182831343,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xeaeaa6d3cbfd3ec51728410057a89f699438334f": {
   "address": "0xeaeaa6d3cbfd3ec51728410057a89f699438334f",
@@ -1925,9 +2063,10 @@
   "score": 0,
   "low_mcap": 4053.9680645562,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4064.67676209748,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4064.5538014389895,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x40322a15342394188699ee9eae1254d2cb213f04": {
   "address": "0x40322a15342394188699ee9eae1254d2cb213f04",
@@ -1947,9 +2086,10 @@
   "score": 50,
   "low_mcap": 4025.2145859802804,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4035.847330208553,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4035.725241670071,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x72be1277e198d0c476869253cb4e62807e14533c": {
   "address": "0x72be1277e198d0c476869253cb4e62807e14533c",
@@ -1970,8 +2110,13 @@
   "low_mcap": 2617002.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 2824342.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 76214.96,
+   "liq": 159238.44,
+   "trades24": 212
+  }
  },
  "0x1cf953ccd0b3b9836078341baa1eb32545b46294": {
   "address": "0x1cf953ccd0b3b9836078341baa1eb32545b46294",
@@ -1991,9 +2136,10 @@
   "score": 75,
   "low_mcap": 4055.5809423360006,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4066.293900349993,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4066.170890771404,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x5deee8015d8dc568067eca19da3d489763112b4e": {
   "address": "0x5deee8015d8dc568067eca19da3d489763112b4e",
@@ -2013,9 +2159,10 @@
   "score": 60,
   "low_mcap": 4486.266609097792,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4498.117238269344,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4497.981165590026,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xf2b16c5fff1d0534fef0c93ed86366a224d3c31e": {
   "address": "0xf2b16c5fff1d0534fef0c93ed86366a224d3c31e",
@@ -2035,9 +2182,10 @@
   "score": 55,
   "low_mcap": 4043.4887824690804,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4054.1697986225117,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4054.047155810488,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xcf94ea7ba92d5b083c48c98e8487222ff7edf9e5": {
   "address": "0xcf94ea7ba92d5b083c48c98e8487222ff7edf9e5",
@@ -2057,9 +2205,10 @@
   "score": 0,
   "low_mcap": 3974.6699598891605,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3980.9355584563414,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3980.8151310555113,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xedbf91223639800bcd5756815caf908df3b890be": {
   "address": "0xedbf91223639800bcd5756815caf908df3b890be",
@@ -2080,8 +2229,13 @@
   "low_mcap": 11428301.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 11428301.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 195308.51,
+   "liq": 1227202.59,
+   "trades24": 438
+  }
  },
  "0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e": {
   "address": "0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e",
@@ -2099,11 +2253,16 @@
    ]
   ],
   "score": 40,
-  "low_mcap": 3901374.0,
+  "low_mcap": 3894732.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3901374.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 3894732.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 97842.28,
+   "liq": 163758.35,
+   "trades24": 344
+  }
  },
  "0x3ba500f1ababbcf0f0247d06d1c56fd7e6c4c09d": {
   "address": "0x3ba500f1ababbcf0f0247d06d1c56fd7e6c4c09d",
@@ -2112,8 +2271,8 @@
   "start_at": "2026-11-05T09:18:38+00:00",
   "start_mcap": 2094126.0,
   "start_score": 80,
-  "high_mcap": 2103425.0,
-  "high_at": "2026-11-05T09:36:41+00:00",
+  "high_mcap": 2131403.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
   "scores": [
    [
     "2026-11-05T09:18:38+00:00",
@@ -2123,9 +2282,14 @@
   "score": 80,
   "low_mcap": 2092276.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 2092276.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 2131403.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 186558.5,
+   "liq": 120528.49,
+   "trades24": 2896
+  }
  },
  "0xc65a7c91591a2dd4d5624e75e814b1bbe88b984a": {
   "address": "0xc65a7c91591a2dd4d5624e75e814b1bbe88b984a",
@@ -2146,8 +2310,13 @@
   "low_mcap": 894245.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 894245.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 587.47,
+   "liq": 91462.49,
+   "trades24": 13
+  }
  },
  "0xaf8fc25ea133d7a71506522da9e6a4ec0cac8ec0": {
   "address": "0xaf8fc25ea133d7a71506522da9e6a4ec0cac8ec0",
@@ -2167,9 +2336,10 @@
   "score": 0,
   "low_mcap": 13234.38787282416,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 13356.146303175397,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 13355.742265993487,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xb01e3f89c3590533aaefbfc77d0dfa9cf679af42": {
   "address": "0xb01e3f89c3590533aaefbfc77d0dfa9cf679af42",
@@ -2190,8 +2360,13 @@
   "low_mcap": 28276.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 28276.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 2.65,
+   "liq": 18.29,
+   "trades24": 6
+  }
  },
  "0xa4e331ed89db2fae193c6c4216dd99aded105471": {
   "address": "0xa4e331ed89db2fae193c6c4216dd99aded105471",
@@ -2233,9 +2408,10 @@
   "score": 70,
   "low_mcap": 4018.008192306547,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4019.1049191084157,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4018.983337045113,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xc4315b4191bd7fc290dc4906afaf110d1ded1055": {
   "address": "0xc4315b4191bd7fc290dc4906afaf110d1ded1055",
@@ -2255,9 +2431,10 @@
   "score": 60,
   "low_mcap": 4068.610632072,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4079.358008464287,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4079.234603682973,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x812486eaea648819853f8e372dc9f1516c7868bd": {
   "address": "0x812486eaea648819853f8e372dc9f1516c7868bd",
@@ -2277,9 +2454,14 @@
   "score": 65,
   "low_mcap": 6381973.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 6561647.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 6550016.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 7979.35,
+   "liq": 95767.47,
+   "trades24": 193
+  }
  },
  "0xfed6b187f6da04e2eae5d3ea89b57129da62b28a": {
   "address": "0xfed6b187f6da04e2eae5d3ea89b57129da62b28a",
@@ -2299,9 +2481,14 @@
   "score": 75,
   "low_mcap": 2811634.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 2811634.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 2812688.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 7135.15,
+   "liq": 142320.43,
+   "trades24": 103
+  }
  },
  "0xaa5751ff3fb61e613993b2eb4eab1fce017081fc": {
   "address": "0xaa5751ff3fb61e613993b2eb4eab1fce017081fc",
@@ -2319,11 +2506,16 @@
    ]
   ],
   "score": 40,
-  "low_mcap": 1252406.0,
+  "low_mcap": 1249173.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 1252406.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 1249173.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 23301.24,
+   "liq": 102659.09,
+   "trades24": 145
+  }
  },
  "0xc5d6c1d90c8a87a07e2670b99b1556e818803228": {
   "address": "0xc5d6c1d90c8a87a07e2670b99b1556e818803228",
@@ -2344,8 +2536,13 @@
   "low_mcap": 16001.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 16001.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 0.19,
+   "liq": 0.92,
+   "trades24": 2
+  }
  },
  "0x98dcc6f9b8298ae1a225b8df1519e7565d45672d": {
   "address": "0x98dcc6f9b8298ae1a225b8df1519e7565d45672d",
@@ -2366,8 +2563,13 @@
   "low_mcap": 22094.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 23547.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 9.01,
+   "liq": 52.86,
+   "trades24": 9
+  }
  },
  "0x0100f6bf62ce4c29198437cfb974b6df24460c4c": {
   "address": "0x0100f6bf62ce4c29198437cfb974b6df24460c4c",
@@ -2388,8 +2590,13 @@
   "low_mcap": 25988.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 25988.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 12.16,
+   "liq": 44.44,
+   "trades24": 8
+  }
  },
  "0xd53462ef771d86f15c930527d57412a339f9a2f2": {
   "address": "0xd53462ef771d86f15c930527d57412a339f9a2f2",
@@ -2407,11 +2614,12 @@
    ]
   ],
   "score": 55,
-  "low_mcap": 13431.807872119827,
+  "low_mcap": 11453.870760124017,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 13431.807872119827,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 11453.870760124017,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x8b1b8a5bbdc076adc0db5c1c5c4433631803b846": {
   "address": "0x8b1b8a5bbdc076adc0db5c1c5c4433631803b846",
@@ -2431,9 +2639,10 @@
   "score": 40,
   "low_mcap": 3281.297779720038,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 3288.999511084325,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3288.3530169138367,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xac0b83252c59efbba0a1acb2ae4c52bba05c230d": {
   "address": "0xac0b83252c59efbba0a1acb2ae4c52bba05c230d",
@@ -2453,9 +2662,10 @@
   "score": 60,
   "low_mcap": 3902.1585408,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 3908.1849918478847,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3908.066765226624,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x0ddcab9ae04bda0c87ecc1640636fa11e8e613e8": {
   "address": "0x0ddcab9ae04bda0c87ecc1640636fa11e8e613e8",
@@ -2475,9 +2685,10 @@
   "score": 60,
   "low_mcap": 20970.65404100202,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 22694.416366326008,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 21852.133305566163,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x08df41fd858b9b612110a31f026bacfee296d78a": {
   "address": "0x08df41fd858b9b612110a31f026bacfee296d78a",
@@ -2498,8 +2709,13 @@
   "low_mcap": 14021.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
   "now_mcap": 14021.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 18.34,
+   "liq": 57.63,
+   "trades24": 7
+  }
  },
  "0x007061380d6f5b236af26e292c9b00e681fbb7e6": {
   "address": "0x007061380d6f5b236af26e292c9b00e681fbb7e6",
@@ -2517,11 +2733,12 @@
    ]
   ],
   "score": 55,
-  "low_mcap": 7462.38436734479,
+  "low_mcap": 7462.158622531753,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 7462.38436734479,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 7462.158622531753,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d": {
   "address": "0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d",
@@ -2542,8 +2759,13 @@
   "low_mcap": 14185.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
   "now_mcap": 14185.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 2.81,
+   "liq": 6.15,
+   "trades24": 1
+  }
  },
  "0x89b76dcdda801f2e456765742c64950eb2a0c93c": {
   "address": "0x89b76dcdda801f2e456765742c64950eb2a0c93c",
@@ -2552,8 +2774,8 @@
   "start_at": "2026-11-05T09:36:41+00:00",
   "start_mcap": 593471.0,
   "start_score": 90,
-  "high_mcap": 594440.0,
-  "high_at": "2026-11-05T09:45:24+00:00",
+  "high_mcap": 594798.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
   "scores": [
    [
     "2026-11-05T09:36:41+00:00",
@@ -2563,9 +2785,14 @@
   "score": 90,
   "low_mcap": 593471.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 594440.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 594798.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 18322.76,
+   "liq": 71573.89,
+   "trades24": 120
+  }
  },
  "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b": {
   "address": "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b",
@@ -2586,8 +2813,13 @@
   "low_mcap": 549424.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
   "now_mcap": 549424.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 7765.02,
+   "liq": 68508.43,
+   "trades24": 35
+  }
  },
  "0x440e339a46eaa3be8d723c2cbed2a30af74536d5": {
   "address": "0x440e339a46eaa3be8d723c2cbed2a30af74536d5",
@@ -2608,8 +2840,13 @@
   "low_mcap": 554576.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
   "now_mcap": 554576.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 3226.2,
+   "liq": 123222.47,
+   "trades24": 58
+  }
  },
  "0x54a557dc542676f56ce2b1b5807cc76bedca308a": {
   "address": "0x54a557dc542676f56ce2b1b5807cc76bedca308a",
@@ -2618,8 +2855,8 @@
   "start_at": "2026-11-05T09:36:41+00:00",
   "start_mcap": 548196.0,
   "start_score": 55,
-  "high_mcap": 549127.0,
-  "high_at": "2026-11-05T10:15:22+00:00",
+  "high_mcap": 549831.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
   "scores": [
    [
     "2026-11-05T09:36:41+00:00",
@@ -2629,9 +2866,14 @@
   "score": 55,
   "low_mcap": 548096.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 549127.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 549831.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 684.67,
+   "liq": 68986.08,
+   "trades24": 239
+  }
  },
  "0xb0788f5f65a9f4c0d8a634c45c391234f46221ab": {
   "address": "0xb0788f5f65a9f4c0d8a634c45c391234f46221ab",
@@ -2652,8 +2894,13 @@
   "low_mcap": 493390.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
   "now_mcap": 493390.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 9150.5,
+   "liq": 69323.75,
+   "trades24": 71
+  }
  },
  "0x72b7fd267fb030d410b24c5277484a3eb7a5e897": {
   "address": "0x72b7fd267fb030d410b24c5277484a3eb7a5e897",
@@ -2671,11 +2918,12 @@
    ]
   ],
   "score": 0,
-  "low_mcap": 3997.6892545332,
-  "logged_at": "2026-11-05T09:45:24+00:00",
-  "now_mcap": 3999.8178775212714,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "low_mcap": 3974.487810407437,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 3974.487810407437,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x79a74fd91f8e1c4ab8e76253dec5c91f3094393f": {
   "address": "0x79a74fd91f8e1c4ab8e76253dec5c91f3094393f",
@@ -2694,10 +2942,15 @@
   ],
   "score": 60,
   "low_mcap": 350671.0,
-  "logged_at": "2026-11-05T09:45:24+00:00",
+  "logged_at": "2026-11-05T10:30:29+00:00",
   "now_mcap": 350671.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 13477.7,
+   "liq": 48708.67,
+   "trades24": 40
+  }
  },
  "0xebaa0ca1a9d178550fb2f9ca4099a292375a403a": {
   "address": "0xebaa0ca1a9d178550fb2f9ca4099a292375a403a",
@@ -2706,8 +2959,8 @@
   "start_at": "2026-11-05T09:45:24+00:00",
   "start_mcap": 12658.0,
   "start_score": 55,
-  "high_mcap": 13181.0,
-  "high_at": "2026-11-05T10:15:22+00:00",
+  "high_mcap": 13502.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
   "scores": [
    [
     "2026-11-05T09:45:24+00:00",
@@ -2716,10 +2969,15 @@
   ],
   "score": 55,
   "low_mcap": 12658.0,
-  "logged_at": "2026-11-05T09:45:24+00:00",
-  "now_mcap": 13181.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 13502.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 135.72,
+   "liq": 742.95,
+   "trades24": 29
+  }
  },
  "0x2205c2232914f3a962fb25eda51f2d063dc9e532": {
   "address": "0x2205c2232914f3a962fb25eda51f2d063dc9e532",
@@ -2738,10 +2996,15 @@
   ],
   "score": 40,
   "low_mcap": 474278.0,
-  "logged_at": "2026-11-05T09:45:24+00:00",
+  "logged_at": "2026-11-05T10:30:29+00:00",
   "now_mcap": 475672.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 499.81,
+   "liq": 62765.66,
+   "trades24": 19
+  }
  },
  "0xbf818efe65aac127ac8f9fec6fec203ee222c851": {
   "address": "0xbf818efe65aac127ac8f9fec6fec203ee222c851",
@@ -2760,10 +3023,15 @@
   ],
   "score": 65,
   "low_mcap": 430389.0,
-  "logged_at": "2026-11-05T09:45:24+00:00",
+  "logged_at": "2026-11-05T10:30:29+00:00",
   "now_mcap": 430389.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 461.01,
+   "liq": 87473.74,
+   "trades24": 21
+  }
  },
  "0xbf2f5b48428fc7c6fb13bd7a4848f209f482b9df": {
   "address": "0xbf2f5b48428fc7c6fb13bd7a4848f209f482b9df",
@@ -2782,10 +3050,15 @@
   ],
   "score": 65,
   "low_mcap": 327275.0,
-  "logged_at": "2026-11-05T09:45:24+00:00",
-  "now_mcap": 372189.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 364162.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 27538.19,
+   "liq": 55833.43,
+   "trades24": 250
+  }
  },
  "0x853e1a36876cc4538be636b78e7b2bd0aabc0ded": {
   "address": "0x853e1a36876cc4538be636b78e7b2bd0aabc0ded",
@@ -2804,10 +3077,15 @@
   ],
   "score": 50,
   "low_mcap": 382542.0,
-  "logged_at": "2026-11-05T09:45:24+00:00",
+  "logged_at": "2026-11-05T10:30:29+00:00",
   "now_mcap": 382919.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 40066,
+   "liq": 58064.11,
+   "trades24": 185
+  }
  },
  "0xb5df107c41d82fc4a2a646f9347daf45c7ffa79f": {
   "address": "0xb5df107c41d82fc4a2a646f9347daf45c7ffa79f",
@@ -2826,10 +3104,15 @@
   ],
   "score": 40,
   "low_mcap": 379786.0,
-  "logged_at": "2026-11-05T09:45:24+00:00",
+  "logged_at": "2026-11-05T10:30:29+00:00",
   "now_mcap": 379786.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 46219.96,
+   "liq": 531313.87,
+   "trades24": 20
+  }
  },
  "0xcd774ab5949cd2d071151d58d604e4e9459c3570": {
   "address": "0xcd774ab5949cd2d071151d58d604e4e9459c3570",
@@ -2849,9 +3132,10 @@
   "score": 0,
   "low_mcap": 4027.4608697577337,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4028.5601766948885,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4028.438308600305,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xdf5859db9d2fb6d56420fb125a7a61318901b14e": {
   "address": "0xdf5859db9d2fb6d56420fb125a7a61318901b14e",
@@ -2871,9 +3155,10 @@
   "score": 60,
   "low_mcap": 6852.220014714721,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 9165.888913017674,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 8509.845853340987,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xf512b591aa5c2685a4edbd23d96372d7faabedaa": {
   "address": "0xf512b591aa5c2685a4edbd23d96372d7faabedaa",
@@ -2893,9 +3178,10 @@
   "score": 0,
   "low_mcap": 4022.1690089800572,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4023.266871488712,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4023.145163522062,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xb211dd31d1aeb7bfc60910b83a49b41eb40a2e09": {
   "address": "0xb211dd31d1aeb7bfc60910b83a49b41eb40a2e09",
@@ -2915,9 +3201,10 @@
   "score": 0,
   "low_mcap": 3937.463520906109,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3938.5382628100783,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3938.419117971108,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xb4c34ebe4689245cac36a69a38857c021c772489": {
   "address": "0xb4c34ebe4689245cac36a69a38857c021c772489",
@@ -2935,11 +3222,12 @@
    ]
   ],
   "score": 25,
-  "low_mcap": 3967.953433834868,
+  "low_mcap": 3967.8333991566788,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3967.953433834868,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3967.8333991566788,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xaab32264f869ba74870e9f2ba39a984724071604": {
   "address": "0xaab32264f869ba74870e9f2ba39a984724071604",
@@ -2959,9 +3247,10 @@
   "score": 25,
   "low_mcap": 3978.9122729689716,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3979.998328428094,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3979.8779293794364,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xf658ddb6112dd7490203716ff0fa95f0959f34ee": {
   "address": "0xf658ddb6112dd7490203716ff0fa95f0959f34ee",
@@ -2981,9 +3270,10 @@
   "score": 60,
   "low_mcap": 3897.1448104457622,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3898.208547242657,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3898.0906224191212,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x913b3c51f148d653711c4c4d83ce8b7f999c275d": {
   "address": "0x913b3c51f148d653711c4c4d83ce8b7f999c275d",
@@ -3003,9 +3293,10 @@
   "score": 0,
   "low_mcap": 3957.528212200221,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 3958.6084308189343,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 3958.488678836711,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x3e4ba25a1ac552628dd1c121a9766e31d8d8e4e1": {
   "address": "0x3e4ba25a1ac552628dd1c121a9766e31d8d8e4e1",
@@ -3025,9 +3316,10 @@
   "score": 0,
   "low_mcap": 4158.808343835051,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4159.943502440067,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4159.8176598645605,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xad16c091c592913f0afd67506a73208d3c946e90": {
   "address": "0xad16c091c592913f0afd67506a73208d3c946e90",
@@ -3047,9 +3339,10 @@
   "score": 20,
   "low_mcap": 4000.4460936018017,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4001.5380267787145,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4001.416976131998,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x6619cb721e124e4215bd23b3b1a6a5197abc24b3": {
   "address": "0x6619cb721e124e4215bd23b3b1a6a5197abc24b3",
@@ -3069,9 +3362,10 @@
   "score": 40,
   "low_mcap": 4613.367097640665,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4614.62632935466,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4614.486732155337,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xd1286450a7ad6cc62835298a1073f5d4b5b9cee8": {
   "address": "0xd1286450a7ad6cc62835298a1073f5d4b5b9cee8",
@@ -3091,9 +3385,10 @@
   "score": 55,
   "low_mcap": 4012.002405669465,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 4013.097493174734,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4012.9760928422534,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xb796a2cc2f85ecc4772a96b7a58a0d626cc6aec8": {
   "address": "0xb796a2cc2f85ecc4772a96b7a58a0d626cc6aec8",
@@ -3114,8 +3409,13 @@
   "low_mcap": 328497.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 328497.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 852.21,
+   "liq": 42289.26,
+   "trades24": 54
+  }
  },
  "0xa92768863a55d8a0591709f7f5e594a249d36ea3": {
   "address": "0xa92768863a55d8a0591709f7f5e594a249d36ea3",
@@ -3136,8 +3436,13 @@
   "low_mcap": 314469.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 314469.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 3131.88,
+   "liq": 55822.5,
+   "trades24": 43
+  }
  },
  "0xb7eaecc89d3e2f9fd597d61726ae824900db8360": {
   "address": "0xb7eaecc89d3e2f9fd597d61726ae824900db8360",
@@ -3158,8 +3463,13 @@
   "low_mcap": 312648.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 312648.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 1377.61,
+   "liq": 47416.58,
+   "trades24": 18
+  }
  },
  "0xaeceda21a8fe3c3a8480743ab05bf906d420a3c1": {
   "address": "0xaeceda21a8fe3c3a8480743ab05bf906d420a3c1",
@@ -3180,8 +3490,13 @@
   "low_mcap": 303246.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 303246.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 8705.11,
+   "liq": 474765.74,
+   "trades24": 3
+  }
  },
  "0xcacb0e9caccee63ec4d82952e561a291c68bcb68": {
   "address": "0xcacb0e9caccee63ec4d82952e561a291c68bcb68",
@@ -3202,8 +3517,13 @@
   "low_mcap": 284730.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 284730.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 6149.54,
+   "liq": 46788.44,
+   "trades24": 81
+  }
  },
  "0x574ed43500379749ea053e14370ebc1d7bd2f147": {
   "address": "0x574ed43500379749ea053e14370ebc1d7bd2f147",
@@ -3224,8 +3544,13 @@
   "low_mcap": 277813.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 277813.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 59.93,
+   "liq": 454420.25,
+   "trades24": 4
+  }
  },
  "0xb6ff957e31286f748989cbf69183b1b5e8d921a8": {
   "address": "0xb6ff957e31286f748989cbf69183b1b5e8d921a8",
@@ -3246,8 +3571,13 @@
   "low_mcap": 253021.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
   "now_mcap": 253021.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 2011.43,
+   "liq": 61543.39,
+   "trades24": 18
+  }
  },
  "0xe1838f0dff03a9327dea87b2a2285850791297ec": {
   "address": "0xe1838f0dff03a9327dea87b2a2285850791297ec",
@@ -3256,8 +3586,8 @@
   "start_at": "2026-11-05T10:00:36+00:00",
   "start_mcap": 211221.0,
   "start_score": 85,
-  "high_mcap": 211221.0,
-  "high_at": "2026-11-05T10:00:36+00:00",
+  "high_mcap": 219669.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
   "scores": [
    [
     "2026-11-05T10:00:36+00:00",
@@ -3267,9 +3597,14 @@
   "score": 85,
   "low_mcap": 210860.0,
   "logged_at": "2026-11-05T10:00:36+00:00",
-  "now_mcap": 210860.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 219669.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 14799.91,
+   "liq": 43836.15,
+   "trades24": 112
+  }
  },
  "0x229e2524f062e891545e808b3b003ee4a5e5d187": {
   "address": "0x229e2524f062e891545e808b3b003ee4a5e5d187",
@@ -3287,11 +3622,12 @@
    ]
   ],
   "score": 25,
-  "low_mcap": 4281.246412001267,
+  "low_mcap": 4281.11689988781,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 4281.246412001267,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4281.11689988781,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x27c64b257457eb7bd8b9033a03b0dd35e94fefac": {
   "address": "0x27c64b257457eb7bd8b9033a03b0dd35e94fefac",
@@ -3309,11 +3645,12 @@
    ]
   ],
   "score": 0,
-  "low_mcap": 4020.9799421688676,
+  "low_mcap": 4020.858303384186,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 4020.9799421688676,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4020.858303384186,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x8329249c36fc43c0db6b4f4411928359979ff4b2": {
   "address": "0x8329249c36fc43c0db6b4f4411928359979ff4b2",
@@ -3331,11 +3668,12 @@
    ]
   ],
   "score": 0,
-  "low_mcap": 4020.4354199559607,
+  "low_mcap": 4020.313797643637,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 4020.4354199559607,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4020.313797643637,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xa71fe9cc47bf188542320935bfac5526f2d2c6d8": {
   "address": "0xa71fe9cc47bf188542320935bfac5526f2d2c6d8",
@@ -3344,8 +3682,8 @@
   "start_at": "2026-11-05T10:15:22+00:00",
   "start_mcap": 18873.0,
   "start_score": 50,
-  "high_mcap": 18873.0,
-  "high_at": "2026-11-05T10:15:22+00:00",
+  "high_mcap": 22141.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
   "scores": [
    [
     "2026-11-05T10:15:22+00:00",
@@ -3355,9 +3693,14 @@
   "score": 50,
   "low_mcap": 18873.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 18873.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 22141.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 6.05,
+   "liq": 49.98,
+   "trades24": 10
+  }
  },
  "0x68ff81dfff6eccefb74706fe1e0a86320cb2eb96": {
   "address": "0x68ff81dfff6eccefb74706fe1e0a86320cb2eb96",
@@ -3378,8 +3721,13 @@
   "low_mcap": 218871.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
   "now_mcap": 218871.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 33912.32,
+   "liq": 43112.35,
+   "trades24": 228
+  }
  },
  "0x47c5ea4d85c4c1a81f26124580a80b0b7a581cc0": {
   "address": "0x47c5ea4d85c4c1a81f26124580a80b0b7a581cc0",
@@ -3397,11 +3745,16 @@
    ]
   ],
   "score": 75,
-  "low_mcap": 110033.0,
+  "low_mcap": 98160.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 110033.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 98160.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 22211.66,
+   "liq": 30037.41,
+   "trades24": 158
+  }
  },
  "0x62e639267193665e9453602f3aa8033473124dc1": {
   "address": "0x62e639267193665e9453602f3aa8033473124dc1",
@@ -3419,11 +3772,12 @@
    ]
   ],
   "score": 45,
-  "low_mcap": 4175.14866144135,
+  "low_mcap": 4049.2357922298343,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 4175.14866144135,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4049.2357922298343,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xab882685a6917009c92bd9bc465157fa16826eaa": {
   "address": "0xab882685a6917009c92bd9bc465157fa16826eaa",
@@ -3441,11 +3795,12 @@
    ]
   ],
   "score": 25,
-  "low_mcap": 4259.04286201172,
+  "low_mcap": 4258.914021578518,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 4259.04286201172,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 4258.914021578518,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x0762c1708f0d23f86b29d6b857121ff7df357506": {
   "address": "0x0762c1708f0d23f86b29d6b857121ff7df357506",
@@ -3463,11 +3818,16 @@
    ]
   ],
   "score": 50,
-  "low_mcap": 803861.0,
+  "low_mcap": 802482.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 803861.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_mcap": 802482.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 10405.07,
+   "liq": 108911.68,
+   "trades24": 47
+  }
  },
  "0x4f6a163ccaa17a93088d40695754d65e583e3297": {
   "address": "0x4f6a163ccaa17a93088d40695754d65e583e3297",
@@ -3485,11 +3845,12 @@
    ]
   ],
   "score": 40,
-  "low_mcap": 21855.122876765916,
+  "low_mcap": 21854.461736789082,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 21855.122876765916,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 21854.461736789082,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xf972815cb51f70b000a24dde0b955eb7c9b5709e": {
   "address": "0xf972815cb51f70b000a24dde0b955eb7c9b5709e",
@@ -3507,11 +3868,12 @@
    ]
   ],
   "score": 70,
-  "low_mcap": 10334.004641299372,
+  "low_mcap": 10333.692027015406,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 10334.004641299372,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 10333.692027015406,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0x7eaa6d703c89036c609867bf967562baa34677df": {
   "address": "0x7eaa6d703c89036c609867bf967562baa34677df",
@@ -3529,11 +3891,12 @@
    ]
   ],
   "score": 55,
-  "low_mcap": 6801.75448830787,
+  "low_mcap": 6801.548728229093,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 6801.75448830787,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "Pons launchpad (curve)"
+  "now_mcap": 6801.548728229093,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)",
+  "market": {}
  },
  "0xb33eb16782776b4d738c0fd643577cb0284db610": {
   "address": "0xb33eb16782776b4d738c0fd643577cb0284db610",
@@ -3554,8 +3917,13 @@
   "low_mcap": 241847.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
   "now_mcap": 241847.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 18118.55,
+   "liq": 44772.96,
+   "trades24": 120
+  }
  },
  "0x5108cda97b40cebe635a2031454c1524da9350b0": {
   "address": "0x5108cda97b40cebe635a2031454c1524da9350b0",
@@ -3576,8 +3944,13 @@
   "low_mcap": 206345.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
   "now_mcap": 206345.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
-  "where": "exchange"
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 1256.04,
+   "liq": 41446.58,
+   "trades24": 31
+  }
  },
  "0x109b383a42305dc48855b9b791c202002c6b391f": {
   "address": "0x109b383a42305dc48855b9b791c202002c6b391f",
@@ -3586,8 +3959,8 @@
   "start_at": "2026-11-05T10:15:22+00:00",
   "start_mcap": 204990.0,
   "start_score": 45,
-  "high_mcap": 204990.0,
-  "high_at": "2026-11-05T10:15:22+00:00",
+  "high_mcap": 215005.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
   "scores": [
    [
     "2026-11-05T10:15:22+00:00",
@@ -3597,8 +3970,386 @@
   "score": 45,
   "low_mcap": 204990.0,
   "logged_at": "2026-11-05T10:15:22+00:00",
-  "now_mcap": 204990.0,
-  "now_at": "2026-11-05T10:15:22+00:00",
+  "now_mcap": 215005.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange",
+  "market": {
+   "vol24": 15809.56,
+   "liq": 34161.33,
+   "trades24": 163
+  }
+ },
+ "0x0f966af7a4a5b087946070cf89305a342d606694": {
+  "address": "0x0f966af7a4a5b087946070cf89305a342d606694",
+  "symbol": "BROWSER",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 4303.926169664302,
+  "start_score": 25,
+  "high_mcap": 4303.926169664302,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    25
+   ]
+  ],
+  "score": 25,
+  "market": {},
+  "low_mcap": 4303.926169664302,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 4303.926169664302,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)"
+ },
+ "0x97ed3a19fd27ef32a6bef146ecf407b9fc4bfebe": {
+  "address": "0x97ed3a19fd27ef32a6bef146ecf407b9fc4bfebe",
+  "symbol": "LETSFG",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 3973.97740356178,
+  "start_score": 25,
+  "high_mcap": 3973.97740356178,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    25
+   ]
+  ],
+  "score": 25,
+  "market": {},
+  "low_mcap": 3973.97740356178,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 3973.97740356178,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)"
+ },
+ "0x8b32d67ae11c974e533fc9a83def24ef661b3fdf": {
+  "address": "0x8b32d67ae11c974e533fc9a83def24ef661b3fdf",
+  "symbol": "ZEP",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 4017.6496089386596,
+  "start_score": 25,
+  "high_mcap": 4017.6496089386596,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    25
+   ]
+  ],
+  "score": 25,
+  "market": {},
+  "low_mcap": 4017.6496089386596,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 4017.6496089386596,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)"
+ },
+ "0x7aca87164409e076be45e04aa112a7162f059ee2": {
+  "address": "0x7aca87164409e076be45e04aa112a7162f059ee2",
+  "symbol": "INVESTOR",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 3000.19785,
+  "start_score": 20,
+  "high_mcap": 3000.19785,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    20
+   ]
+  ],
+  "score": 20,
+  "market": {},
+  "low_mcap": 3000.19785,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 3000.19785,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)"
+ },
+ "0x6bdb3b95c4180d1e0641b38f6a4dd914d1c25615": {
+  "address": "0x6bdb3b95c4180d1e0641b38f6a4dd914d1c25615",
+  "symbol": "POK\u00c9MON",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 3000.19785,
+  "start_score": 20,
+  "high_mcap": 3000.19785,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    20
+   ]
+  ],
+  "score": 20,
+  "market": {},
+  "low_mcap": 3000.19785,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 3000.19785,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)"
+ },
+ "0x9c920fdc7e616165f8aa50b1cd22cd55c36ec775": {
+  "address": "0x9c920fdc7e616165f8aa50b1cd22cd55c36ec775",
+  "symbol": "robinbunny",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 3000.19785,
+  "start_score": 20,
+  "high_mcap": 3000.19785,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    20
+   ]
+  ],
+  "score": 20,
+  "market": {},
+  "low_mcap": 3000.19785,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 3000.19785,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)"
+ },
+ "0xd5b6627c220a778e0743fb8dd37e462a3340a588": {
+  "address": "0xd5b6627c220a778e0743fb8dd37e462a3340a588",
+  "symbol": "MOCHI",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 4019.376454142656,
+  "start_score": 0,
+  "high_mcap": 4019.376454142656,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    0
+   ]
+  ],
+  "score": 0,
+  "market": {},
+  "low_mcap": 4019.376454142656,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 4019.376454142656,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)"
+ },
+ "0x9cc546a4091f184898c4155c1b9f6290075ef8fb": {
+  "address": "0x9cc546a4091f184898c4155c1b9f6290075ef8fb",
+  "symbol": "STAX",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 140143.0,
+  "start_score": 80,
+  "high_mcap": 140143.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    80
+   ]
+  ],
+  "score": 80,
+  "market": {
+   "vol24": 5138.26,
+   "liq": 34049.11,
+   "trades24": 39
+  },
+  "low_mcap": 140143.0,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 140143.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange"
+ },
+ "0xde546b9b08f9350b270d290b11c6b1c5df6412ed": {
+  "address": "0xde546b9b08f9350b270d290b11c6b1c5df6412ed",
+  "symbol": "NOCTIS",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 9261.69990049742,
+  "start_score": 55,
+  "high_mcap": 9261.69990049742,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    55
+   ]
+  ],
+  "score": 55,
+  "market": {},
+  "low_mcap": 9261.69990049742,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 9261.69990049742,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "Pons launchpad (curve)"
+ },
+ "0xdafaa1ed0b9f5746a0cfa2be80371cf06a986977": {
+  "address": "0xdafaa1ed0b9f5746a0cfa2be80371cf06a986977",
+  "symbol": "UPOCH",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 166556.0,
+  "start_score": 60,
+  "high_mcap": 166556.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    60
+   ]
+  ],
+  "score": 60,
+  "market": {
+   "vol24": 106532.55,
+   "liq": 37577.18,
+   "trades24": 1063
+  },
+  "low_mcap": 166556.0,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 166556.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange"
+ },
+ "0xd4dc6b48ad73ec51e71d9b8f65568f88609b92c1": {
+  "address": "0xd4dc6b48ad73ec51e71d9b8f65568f88609b92c1",
+  "symbol": "SHERWOOD",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 132046.0,
+  "start_score": 95,
+  "high_mcap": 132046.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    95
+   ]
+  ],
+  "score": 95,
+  "market": {
+   "vol24": 3159.46,
+   "liq": 33271.46,
+   "trades24": 40
+  },
+  "low_mcap": 132046.0,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 132046.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange"
+ },
+ "0x710a0414dc599112987515ac8d76e0cd28546bc1": {
+  "address": "0x710a0414dc599112987515ac8d76e0cd28546bc1",
+  "symbol": "MORROW",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 127638.0,
+  "start_score": 40,
+  "high_mcap": 127638.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    40
+   ]
+  ],
+  "score": 40,
+  "market": {
+   "vol24": 5599.1,
+   "liq": 33710.73,
+   "trades24": 67
+  },
+  "low_mcap": 127638.0,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 127638.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange"
+ },
+ "0x61e0deba0a6bd1d0df92af816739449c861e3cce": {
+  "address": "0x61e0deba0a6bd1d0df92af816739449c861e3cce",
+  "symbol": "SYNTHS",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 122628.0,
+  "start_score": 85,
+  "high_mcap": 122628.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    85
+   ]
+  ],
+  "score": 85,
+  "market": {
+   "vol24": 3888.41,
+   "liq": 32098.17,
+   "trades24": 48
+  },
+  "low_mcap": 122628.0,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 122628.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange"
+ },
+ "0x6742883eef788e2424ce5a1b0d4303144aaec0a5": {
+  "address": "0x6742883eef788e2424ce5a1b0d4303144aaec0a5",
+  "symbol": "MOSS",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 125311.0,
+  "start_score": 40,
+  "high_mcap": 125311.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    40
+   ]
+  ],
+  "score": 40,
+  "market": {
+   "vol24": 2275.08,
+   "liq": 35383.65,
+   "trades24": 25
+  },
+  "low_mcap": 125311.0,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 125311.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
+  "where": "exchange"
+ },
+ "0x25db3541fcb9c41b1ca05b665a260d9d094b4b9c": {
+  "address": "0x25db3541fcb9c41b1ca05b665a260d9d094b4b9c",
+  "symbol": "BEBIR",
+  "first_seen": "2026-11-05T10:30:29+00:00",
+  "start_at": "2026-11-05T10:30:29+00:00",
+  "start_mcap": 117357.0,
+  "start_score": 45,
+  "high_mcap": 117357.0,
+  "high_at": "2026-11-05T10:30:29+00:00",
+  "scores": [
+   [
+    "2026-11-05T10:30:29+00:00",
+    45
+   ]
+  ],
+  "score": 45,
+  "market": {
+   "vol24": 1455.24,
+   "liq": 46519.84,
+   "trades24": 15
+  },
+  "low_mcap": 117357.0,
+  "logged_at": "2026-11-05T10:30:29+00:00",
+  "now_mcap": 117357.0,
+  "now_at": "2026-11-05T10:30:29+00:00",
   "where": "exchange"
  }
 }
