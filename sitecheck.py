@@ -12,6 +12,8 @@ import html
 import urllib.parse
 
 LIST_AT = 2  # plug-in tools needed to be listed (study: 37% of winners, 9% of losers)
+LIST_SCORE = 40  # ...or a site score this high: a strong finished product with fewer tools (UPOCH, SIC, 5 Nov).
+                 # Test 5 Nov: listed 10 of 17 winners (was 8) and 11 of 64 losers (was 9). Wide net on purpose.
 RECHECK_HOURS = 24  # tokens not listed yet: look again once a day while they are new
 NEW_DAYS = 14  # ...for this many days after launch
 MAX_NEW_PER_RUN = 40  # keep each run short
@@ -27,7 +29,7 @@ OTHER = {
     "access": r"\b(?:holders? of|holding|hold) (?:at least |over )?\d[\d,.]*\s*(?:k|m|thousand|million)?\s*\$?[A-Za-z]{2,}"
               r"|\btoken[- ]gated\b|\bholder'?s? (?:api )?keys?\b|\bavailable (?:only )?to holders\b",
     "rh": r"stock tokens?|tokeni[sz]ed (?:stock|equit)|\bUSDG\b",
-    "app": r"launch app|open app|connect wallet|\bdashboard\b",
+    "app": r"launch (?:app|console)|open app|connect wallet|\bdashboard\b",
     "audit": r"\baudit(?:ed)?\b",
     "agents": r"\bAI agents?\b|\bagents? (?:can|pay|that)\b|\byour agents?\b|\bfor agents\b|\bagent[- ]native\b",
     "winners": r"hookr\.fun|orbio\.so|raeto\.cc|priors\.trade|harmonicagent|whatthehook|fobo\.fun|deltaliquidity",
@@ -133,12 +135,26 @@ def score(tok, review, w):
               else "No sign money goes back to the token, or that holding it unlocks anything"),
         "🟡" if (m or a) else "❌")
     m = re.search(OTHER["rh"], text, re.I)
-    add("Money and Robinhood Chain", 10 if m else 0,
-        f"Built on Robinhood Chain's own assets ({m.group(0)})" if m else "No use of stock tokens or USDG")
+    q = (tok.get("quote") or "").upper()
+    rh_pair = bool(q) and q not in ("ETH", "WETH", "USDC", "USDT", "WBTC")  # USDG or a stock token (TSLA, NVDA, SPY...)
+    add("Money and Robinhood Chain", 10 if (m or rh_pair) else 0,
+        f"Built on Robinhood Chain's own assets ({m.group(0)})" if m
+        else ((f"Trades against {q}, " + ("Robinhood Chain's own dollar" if q == "USDG" else "a Robinhood Chain stock token"))
+              if rh_pair else "No use of stock tokens or USDG"))
 
-    # --- Live product (15) ---
-    add("Live product", 5 if re.search(OTHER["app"], text, re.I) else 0,
-        "Has a working app (app, dashboard or wallet connect)" if re.search(OTHER["app"], text, re.I) else "No app or wallet connect found")
+    # --- Live product (15): a deep app (3+ sections, like SIC) counts double ---
+    own_host = urllib.parse.urlparse(site).netloc.lower().removeprefix("www.")
+    app_links = {h.split("?")[0].rstrip("/") for h in re.findall(r'href="([^"#]+)"', text)
+                 if re.match(r"(?:https?://(?:app|console|dashboard)\.[^/]*)|/(?:app|dashboard|console)(?:/|$|\?)", h, re.I)
+                 or re.match(r"https?://(?:www\.)?" + re.escape(own_host) + r"/(?:app|dashboard|console)(?:/|$|\?)", h, re.I)}
+    app_word = re.search(OTHER["app"], text, re.I)
+    if len(app_links) >= 3:
+        add("Live product", 10, f"Has a working app with {len(app_links)} sections (" +
+            ", ".join(sorted(urllib.parse.urlparse(u).path or u for u in app_links)[:5]) + ")")
+    else:
+        ok = bool(app_links or app_word)
+        add("Live product", 5 if ok else 0,
+            "Has a working app (app, dashboard, console or wallet connect)" if ok else "No app or wallet connect found")
     ag = bool(re.search(OTHER["agents"], text, re.I))
     xa = w.x_account(ox["official"]) if (not ag and ox["official"]) else None
     ag_x = bool(xa and re.search(OTHER["agents"], " ".join(xa.get("texts") or []), re.I))
@@ -163,6 +179,6 @@ def score(tok, review, w):
         reasons["Really theirs"].insert(0, "🟡 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs")
     return {"kind": "site", "repo": None, "score": final, "raw_score": total, "capped": final < total, "flags": flags,
             "reasons": reasons, "roadmap": review.get("roadmap", []), "notes": review.get("notes", []),
-            "tools": n_tools, "listed": n_tools >= LIST_AT, "copy_of": cc["real"] if cc else None,
+            "tools": n_tools, "listed": not cc and (n_tools >= LIST_AT or final >= LIST_SCORE), "copy_of": cc["real"] if cc else None,
             "token_mentioned": on_site, "sources_read": [u for where, u, t in srcs],
             "facts": {"tools": n_tools, "dev_pages": dev_pages, "contract_addresses": n_addr, "winners_linked": wins}}

@@ -189,6 +189,7 @@ def market(addr):
         best = max(pairs, key=lambda p: (p.get("liquidity") or {}).get("usd") or 0)
         return {"symbol": best["baseToken"]["symbol"], "name": best["baseToken"]["name"],
                 "mcap": best.get("marketCap") or best.get("fdv"), "where": "exchange",
+                "quote": (best.get("quoteToken") or {}).get("symbol"),
                 "launched": datetime.datetime.fromtimestamp(min(p.get("pairCreatedAt") or 9e12 for p in pairs) / 1000,
                                                             datetime.timezone.utc).isoformat(timespec="seconds")}
     s = fetch(f"https://ponsfamily.com/launchpad/{addr.lower()}")
