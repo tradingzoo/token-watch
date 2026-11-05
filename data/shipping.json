@@ -57,6 +57,14 @@
      "bio_ca": false,
      "mcap": 3640,
      "liq": 5525.46
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3640,
+     "liq": 5525.46
     }
    ],
    "since": "2026-11-05T02:42:02+00:00",
@@ -65,7 +73,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x63b5c2b1eb93ad62ea06560370f4f317ee1b97d3": {
    "runs": [
@@ -164,6 +172,22 @@
       "2026-11-01": 7,
       "2026-10-30": 8
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-05T02:18:03Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 42045,
+     "liq": 19406.84,
+     "per_day": {
+      "2026-11-05": 6,
+      "2026-11-04": 77,
+      "2026-11-02": 2,
+      "2026-11-01": 7,
+      "2026-10-30": 8
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -172,7 +196,7 @@
    "reasons": [
     "Last real GitHub release 0 hours ago (100+ changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x6511c233790ec10f7d673c64dc82c3f941d57828": {
    "runs": [
@@ -283,6 +307,24 @@
       "2026-10-30": 8,
       "2026-10-29": 4
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T20:33:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 759191,
+     "liq": 79667.57,
+     "per_day": {
+      "2026-11-04": 6,
+      "2026-11-03": 2,
+      "2026-11-02": 9,
+      "2026-11-01": 8,
+      "2026-10-31": 3,
+      "2026-10-30": 8,
+      "2026-10-29": 4
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -291,7 +333,7 @@
    "reasons": [
     "Last real GitHub change 6 hours ago (40 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xfc9eb397c4ed9321d7213484205ff3d4a27c21c0": {
    "runs": [
@@ -354,6 +396,16 @@
      "per_day": {
       "2026-11-01": 1
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-01T11:32:04Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-01": 1
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -362,7 +414,7 @@
    "reasons": [
     "No real GitHub change or release for 4 days"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x9022ffd87c769ec5ef5afdb2b3dbc39409a4e7e0": {
    "runs": [
@@ -413,6 +465,14 @@
      "x_found": true,
      "bio_ca": false,
      "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-08-07T03:35:11Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -421,7 +481,7 @@
    "reasons": [
     "No real GitHub change or release for 90 days"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xb329d90aa612a122c2ab779e521e1092f4c15d9f": {
    "runs": [
@@ -460,6 +520,12 @@
      "site_up": true,
      "x_found": true,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -468,7 +534,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xcce83a030692d89d66081fa8768346a5915878b0": {
    "runs": [
@@ -549,15 +615,28 @@
       "2026-11-02": 6,
       "2026-11-01": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T00:17:01Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 3,
+      "2026-11-03": 1,
+      "2026-11-02": 6,
+      "2026-11-01": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
    "symbol": "BURSAR",
    "status": "GREEN",
    "reasons": [
-    "Last real GitHub change 26 hours ago (12 changes in the last 7 days)"
+    "Last real GitHub change 27 hours ago (12 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x2785ecda3e8b4b920dc0aab6f287e421969a0233": {
    "runs": [
@@ -632,6 +711,18 @@
       "2026-10-29": 4,
       "2026-10-28": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-10-30T20:47:46Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 2,
+      "2026-10-29": 4,
+      "2026-10-28": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -640,7 +731,7 @@
    "reasons": [
     "No real GitHub change or release for 5 days"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d": {
    "runs": [
@@ -715,6 +806,18 @@
      "per_day": {
       "2026-11-04": 1
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T18:46:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3871526,
+     "liq": 179590.1,
+     "per_day": {
+      "2026-11-04": 1
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -723,7 +826,7 @@
    "reasons": [
     "Last real GitHub change 8 hours ago (1 change in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2": {
    "runs": [
@@ -762,6 +865,12 @@
      "site_up": true,
      "x_found": true,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -770,7 +879,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x1abb9127a65047b75747c3500f6344069cfb179a": {
    "runs": [
@@ -809,6 +918,12 @@
      "site_up": true,
      "x_found": true,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -817,7 +932,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x76b6cdb023ba935283547fe9c3addb305d6d48b0": {
    "runs": [
@@ -856,6 +971,12 @@
      "site_up": true,
      "x_found": false,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": false,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -864,7 +985,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x257bd594a54f04c3a5d77f87971233b13236c091": {
    "runs": [
@@ -903,6 +1024,12 @@
      "site_up": true,
      "x_found": true,
      "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -911,7 +1038,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xbf019e7f6eab2f04b374b6a98a482c50b157bd1b": {
    "runs": [
@@ -992,6 +1119,19 @@
       "2026-11-02": 36,
       "2026-11-01": 5
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T20:34:44Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 17,
+      "2026-11-03": 42,
+      "2026-11-02": 36,
+      "2026-11-01": 5
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1000,7 +1140,7 @@
    "reasons": [
     "Last real GitHub change 6 hours ago (100+ changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xa4018d961759d729996f4db6d8eed7538091ecaa": {
    "runs": [
@@ -1075,6 +1215,18 @@
       "2026-11-03": 24,
       "2026-11-02": 36
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T15:29:25Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 40,
+      "2026-11-03": 24,
+      "2026-11-02": 36
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1083,7 +1235,7 @@
    "reasons": [
     "Last real GitHub release 10 hours ago (100+ changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x6624dc7ea0d54c36ecab3956e5bac5b21b695189": {
    "runs": [
@@ -1146,6 +1298,16 @@
      "per_day": {
       "2026-11-03": 3
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-03T13:59:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-03": 3
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1154,7 +1316,7 @@
    "reasons": [
     "Last real GitHub change 2 days ago (3 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xa4d0d038c6998c43f672fbcd21324c4363a2371c": {
    "runs": [
@@ -1247,15 +1409,30 @@
       "2026-11-01": 6,
       "2026-10-30": 24
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-05T02:15:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-05": 2,
+      "2026-11-04": 2,
+      "2026-11-03": 60,
+      "2026-11-02": 5,
+      "2026-11-01": 6,
+      "2026-10-30": 24
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
    "symbol": "TELEPORT",
    "status": "GREEN",
    "reasons": [
-    "Last real GitHub change 0 hours ago (99+ changes in the last 7 days)"
+    "Last real GitHub change 1 hours ago (99+ changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xc23b07df578dff9abd904bb71026b59dd1234977": {
    "runs": [
@@ -1294,6 +1471,12 @@
      "site_up": true,
      "x_found": true,
      "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1302,7 +1485,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xc0df3a7a1bade5741a87b2f960ed9d5abb374589": {
    "runs": [
@@ -1341,6 +1524,12 @@
      "last_commit": "2025-05-26T16:18:00Z",
      "site_up": true,
      "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2025-05-26T16:18:00Z",
+     "site_up": true,
+     "per_day": {}
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1349,7 +1538,7 @@
    "reasons": [
     "No real GitHub change or release for 527 days"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x8dfd6052c1f92b295092f813bcde9ab151d9c2d6": {
    "runs": [
@@ -1382,6 +1571,11 @@
      "t": "2026-11-05T02:24:43+00:00",
      "x_found": true,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "x_found": true,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1390,7 +1584,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x5b62e88d43907f8b37c654c54ed943c0d9c61c7a": {
    "runs": [
@@ -1447,6 +1641,15 @@
      "per_day": {
       "2026-11-02": 3
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-02T11:36:07Z",
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 3
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1455,7 +1658,7 @@
    "reasons": [
     "Last real GitHub change 3 days ago (3 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x7164b51079dbadc42bc2b8cc61aae3ccf8cfe600": {
    "runs": [
@@ -1488,6 +1691,11 @@
      "t": "2026-11-05T02:24:43+00:00",
      "x_found": true,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "x_found": true,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1496,7 +1704,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x36b7b1d8541e98fd6abd74a76a77591105d96bfe": {
    "runs": [
@@ -1535,6 +1743,12 @@
      "site_up": true,
      "x_found": true,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1543,7 +1757,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x2911657395c0357b082bb56a8c69ba896692df32": {
    "runs": [
@@ -1582,6 +1796,12 @@
      "site_up": true,
      "x_found": true,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1590,7 +1810,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x0647c5b90fe024219e97ef4c9743d278bc0d5729": {
    "runs": [
@@ -1641,6 +1861,14 @@
      "x_found": true,
      "bio_ca": false,
      "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-09-07T20:27:18Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1649,7 +1877,7 @@
    "reasons": [
     "No real GitHub change or release for 58 days"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xa212b74c5132079d490edfa3b34e2fadf391b3da": {
    "runs": [
@@ -1712,6 +1940,16 @@
      "per_day": {
       "2026-11-02": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1720,7 +1958,7 @@
    "reasons": [
     "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x3b2573d07d916869732cb75b1efd21f030d85774": {
    "runs": [
@@ -1789,6 +2027,17 @@
       "2026-11-04": 20,
       "2026-11-03": 48
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1797,7 +2046,7 @@
    "reasons": [
     "Last real GitHub change 11 hours ago (68 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xe79f8e006df605cdb5abc6f309420ec7262fda80": {
    "runs": [
@@ -1866,6 +2115,17 @@
       "2026-11-04": 20,
       "2026-11-03": 48
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1874,7 +2134,7 @@
    "reasons": [
     "Last real GitHub change 11 hours ago (68 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xa4cb5143bf84d1876ee0cd048184e881f10c19f2": {
    "runs": [
@@ -1937,6 +2197,16 @@
      "per_day": {
       "2026-11-02": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -1945,7 +2215,7 @@
    "reasons": [
     "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x76b81f145b6a8b991cc8d637fefcaaa33db06825": {
    "runs": [
@@ -2008,6 +2278,16 @@
      "per_day": {
       "2026-11-02": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2016,7 +2296,7 @@
    "reasons": [
     "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x8b752dbd6c3b7d8aaca365852000f2fc90d7f8a2": {
    "runs": [
@@ -2079,6 +2359,16 @@
      "per_day": {
       "2026-11-02": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2087,7 +2377,7 @@
    "reasons": [
     "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x394b2e84879225b2695ff4e913b132068bba8e83": {
    "runs": [
@@ -2126,6 +2416,12 @@
      "site_up": true,
      "x_found": true,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2134,7 +2430,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xb06dc5c98ed82b097aee8dd784e133829c3d87a9": {
    "runs": [
@@ -2197,6 +2493,16 @@
      "per_day": {
       "2026-11-02": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2205,7 +2511,7 @@
    "reasons": [
     "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x6a6dbb62ce42f62dc0ce88d863653ae52f3f368a": {
    "runs": [
@@ -2268,6 +2574,16 @@
      "per_day": {
       "2026-11-02": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2276,7 +2592,7 @@
    "reasons": [
     "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xc00d791e9aa8722d8f3759e294df954312333dd5": {
    "runs": [
@@ -2327,6 +2643,14 @@
      "x_found": true,
      "bio_ca": false,
      "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2335,7 +2659,7 @@
    "reasons": [
     "No real GitHub change or release for 9 days"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x021a2fefffba9371a2c48e5f141cb6c3209f0ef4": {
    "runs": [
@@ -2398,6 +2722,16 @@
      "per_day": {
       "2026-11-02": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2406,7 +2740,7 @@
    "reasons": [
     "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xbbeaa14bae9ba62782579e8642a7b435bbcfb697": {
    "runs": [
@@ -2469,6 +2803,16 @@
      "per_day": {
       "2026-11-02": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2477,7 +2821,7 @@
    "reasons": [
     "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xc8792fc24537fb04fcc1751f84ec7713da5af64a": {
    "runs": [
@@ -2564,6 +2908,20 @@
       "2026-11-01": 5,
       "2026-10-29": 1
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T22:24:57Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 9,
+      "2026-11-03": 25,
+      "2026-11-02": 18,
+      "2026-11-01": 5,
+      "2026-10-29": 1
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2572,7 +2930,7 @@
    "reasons": [
     "Last real GitHub change 4 hours ago (58 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xd3c2fb87aff9c2d8ecfadf729b678ca09608985d": {
    "runs": [
@@ -2659,6 +3017,20 @@
       "2026-10-29": 1,
       "2026-10-28": 1
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T18:16:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 4,
+      "2026-11-03": 5,
+      "2026-10-31": 1,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2667,7 +3039,7 @@
    "reasons": [
     "Last real GitHub release 8 hours ago (12 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xfda9bc015489078e6c307ea372a06eaf2212b98e": {
    "runs": [
@@ -2718,6 +3090,14 @@
      "x_found": true,
      "bio_ca": false,
      "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-10-07T17:42:27Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2726,7 +3106,7 @@
    "reasons": [
     "No real GitHub change or release for 28 days"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x618520cc4638adc9e4d5b70aa9499f20b0f06988": {
    "runs": [
@@ -2789,6 +3169,16 @@
      "per_day": {
       "2026-10-30": 3
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-10-30T03:00:00Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 3
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -2797,7 +3187,7 @@
    "reasons": [
     "No real GitHub change or release for 6 days"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xfda4717fff9c4c553f8cd48d3d2e31f7d0dc19f3": {
    "runs": [
@@ -2890,15 +3280,29 @@
       "2026-10-28": 1,
       "2026-11-02": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-05T02:54:47Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 19,
+      "2026-11-04": 66,
+      "2026-11-03": 15,
+      "2026-11-01": 1,
+      "2026-10-28": 1
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
    "symbol": "AIDEVO",
    "status": "GREEN",
    "reasons": [
-    "Last real GitHub change -0 hours ago (108+ changes in the last 7 days)"
+    "Last real GitHub change -0 hours ago (102+ changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xbfbcd3fc84d6b7d1c347dd3fef53804152febf19": {
    "runs": [
@@ -2967,15 +3371,26 @@
       "2026-11-04": 2,
       "2026-11-03": 12
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T09:15:29Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 12
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
    "symbol": "GASRES",
    "status": "GREEN",
    "reasons": [
-    "Last real GitHub release 17 hours ago (14 changes in the last 7 days)"
+    "Last real GitHub release 18 hours ago (14 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x74a2c11e3ae9fed3c9d946517416335580f8a29e": {
    "runs": [
@@ -3038,6 +3453,16 @@
      "per_day": {
       "2026-11-04": 1
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T09:38:59Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3046,7 +3471,7 @@
    "reasons": [
     "Last real GitHub change 17 hours ago (1 change in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xa577af6c0861c0add0bd8e72e634cd76a8a4265e": {
    "runs": [
@@ -3151,6 +3576,23 @@
       "2026-10-29": 2,
       "2026-10-28": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T07:25:10Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 2,
+      "2026-11-02": 2,
+      "2026-11-01": 2,
+      "2026-10-31": 11,
+      "2026-10-30": 2,
+      "2026-10-29": 2,
+      "2026-10-28": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3159,7 +3601,7 @@
    "reasons": [
     "Last real GitHub change 19 hours ago (25 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x7673a00106c99d1e00b85496f9f495076873b654": {
    "runs": [
@@ -3222,15 +3664,25 @@
      "per_day": {
       "2026-11-04": 1
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T22:14:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
    "symbol": "SAIBOT92",
    "status": "GREEN",
    "reasons": [
-    "Last real GitHub change 4 hours ago (1 change in the last 7 days)"
+    "Last real GitHub change 5 hours ago (1 change in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xa3860b6c4f62b88faa4ba3c2fcb3759605e25526": {
    "runs": [
@@ -3305,6 +3757,18 @@
       "2026-11-03": 11,
       "2026-10-28": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T22:40:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 27,
+      "2026-11-03": 11,
+      "2026-10-28": 2
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3313,7 +3777,7 @@
    "reasons": [
     "Last real GitHub release 4 hours ago (40 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x7cd7073a71eaf5f6e4febfa98460ee66cd97deb1": {
    "runs": [
@@ -3376,6 +3840,16 @@
      "mcap": 1436929,
      "liq": 109377.51,
      "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-10-20T05:32:48Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1436929,
+     "liq": 109377.51,
+     "per_day": {}
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3384,7 +3858,7 @@
    "reasons": [
     "No real GitHub change or release for 16 days"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x736be283c9e85a9ed3fb65dfe984ca118f45c80d": {
    "runs": [
@@ -3459,6 +3933,18 @@
       "2026-11-04": 81,
       "2026-11-03": 54
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-05T02:57:06Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 16,
+      "2026-11-04": 81,
+      "2026-11-03": 47
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3467,7 +3953,7 @@
    "reasons": [
     "Last real GitHub change -0 hours ago (144+ changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x2e4edef92d5cf2b2e08b18f240e896c71bfcac8c": {
    "runs": [
@@ -3506,6 +3992,12 @@
      "site_up": true,
      "x_found": true,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3514,7 +4006,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x837ccf4a9f150458b624ccde0caad4b67e8bdd75": {
    "runs": [
@@ -3553,6 +4045,12 @@
      "site_up": false,
      "x_found": false,
      "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": false,
+     "x_found": false,
+     "bio_ca": false
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3561,7 +4059,7 @@
    "reasons": [
     "Website didn't load on the latest check (https://rulerspad.fun)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x18e674231a58c239dc7daedcffe15ec3a24cff5c": {
    "runs": [
@@ -3612,6 +4110,14 @@
      "bio_ca": false,
      "mcap": 20990774,
      "liq": 1124966.43
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 21015515,
+     "liq": 1125379.04
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3620,7 +4126,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xb8fa8010833463aac5595b55b9045479239eff79": {
    "runs": [
@@ -3671,6 +4177,14 @@
      "bio_ca": false,
      "mcap": 6611268,
      "liq": 826387.96
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6607327,
+     "liq": 825840.66
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3679,7 +4193,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xedbf91223639800bcd5756815caf908df3b890be": {
    "runs": [
@@ -3802,6 +4316,26 @@
       "2026-10-29": 12,
       "2026-10-28": 8
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-05T01:37:24Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 12235240,
+     "liq": 1303986.51,
+     "per_day": {
+      "2026-11-05": 1,
+      "2026-11-04": 9,
+      "2026-11-03": 8,
+      "2026-11-02": 5,
+      "2026-11-01": 4,
+      "2026-10-31": 4,
+      "2026-10-30": 10,
+      "2026-10-29": 12,
+      "2026-10-28": 8
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3810,7 +4344,7 @@
    "reasons": [
     "Last real GitHub change 1 hours ago (61 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x000de658153f47f23e92973c8eb1e89762703676": {
    "runs": [
@@ -3897,6 +4431,20 @@
       "2026-10-29": 1,
       "2026-10-28": 1
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-10-31T17:04:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 2544976,
+     "liq": 1787140.67,
+     "per_day": {
+      "2026-10-31": 7,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3905,7 +4453,7 @@
    "reasons": [
     "No real GitHub change or release for 4 days"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x72be1277e198d0c476869253cb4e62807e14533c": {
    "runs": [
@@ -3956,6 +4504,14 @@
      "bio_ca": false,
      "mcap": 2673631,
      "liq": 155361.62
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2680348,
+     "liq": 155679.27
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -3964,7 +4520,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xfed6b187f6da04e2eae5d3ea89b57129da62b28a": {
    "runs": [
@@ -4015,6 +4571,14 @@
      "bio_ca": true,
      "mcap": 3011510,
      "liq": 147268.32
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 3011510,
+     "liq": 147268.32
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -4023,7 +4587,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725": {
    "runs": [
@@ -4074,6 +4638,14 @@
      "bio_ca": false,
      "mcap": 6298230,
      "liq": 206766.25
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6298230,
+     "liq": 206766.25
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -4082,7 +4654,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3": {
    "runs": [
@@ -4133,6 +4705,14 @@
      "bio_ca": false,
      "mcap": 30484804,
      "liq": 703865.71
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 30170567,
+     "liq": 697836.52
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -4141,7 +4721,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xdee52f2ab639b6942b0d0f0565400b93b7a0fbe5": {
    "runs": [
@@ -4192,6 +4772,14 @@
      "bio_ca": false,
      "mcap": 2193912,
      "liq": 142566.05
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2192193,
+     "liq": 142552.82
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -4200,7 +4788,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x451b42a15100c340ca12f7c66de06fac5ea2d751": {
    "runs": [
@@ -4251,6 +4839,14 @@
      "bio_ca": false,
      "mcap": 4131540,
      "liq": 168008.5
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 4137750,
+     "liq": 168134.73
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -4259,7 +4855,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x5173b8ea6923c2d40267890d45c46a3480954773": {
    "runs": [
@@ -4310,6 +4906,14 @@
      "bio_ca": false,
      "mcap": 1602002,
      "liq": 115482.35
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1599431,
+     "liq": 115363.26
     }
    ],
    "since": "2026-11-05T02:16:34+00:00",
@@ -4318,7 +4922,7 @@
    "reasons": [
     "No public code of their own to watch"
    ],
-   "checked": "2026-11-05T02:24:43+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0xd382e35cda672a96cc28137127c279e032783802": {
    "runs": [
@@ -4337,6 +4941,14 @@
      "x_found": true,
      "bio_ca": false,
      "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-08-21T12:32:29Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
     }
    ],
    "since": "2026-11-05T02:37:46+00:00",
@@ -4345,7 +4957,7 @@
    "reasons": [
     "No real GitHub change or release for 74 days"
    ],
-   "checked": "2026-11-05T02:42:02+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   },
   "0x4ed418d5e58358906d4b7e255f320521c6d14007": {
    "runs": [
@@ -4374,15 +4986,28 @@
       "2026-10-29": 17,
       "2026-10-28": 2
      }
+    },
+    {
+     "t": "2026-11-05T02:47:50+00:00",
+     "last_commit": "2026-11-04T09:11:51Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-10-30": 3,
+      "2026-10-29": 17,
+      "2026-10-28": 2
+     }
     }
    ],
    "since": "2026-11-05T02:37:46+00:00",
    "symbol": "EGOLIT",
    "status": "GREEN",
    "reasons": [
-    "Last real GitHub change 18 hours ago (24 changes in the last 7 days)"
+    "Last real GitHub release 0 hours ago (24 changes in the last 7 days)"
    ],
-   "checked": "2026-11-05T02:42:02+00:00"
+   "checked": "2026-11-05T02:47:50+00:00"
   }
  },
  "repo_cache": {
@@ -7257,8 +7882,16 @@
    "last_release": "2026-10-30T03:03:26Z"
   },
   "marcusquinn/aidevops": {
-   "pushed_at": "2026-11-05T02:42:45Z",
+   "pushed_at": "2026-11-05T02:59:25Z",
    "commits": [
+    [
+     "2026-11-05T02:54:47Z",
+     false
+    ],
+    [
+     "2026-11-05T02:52:44Z",
+     false
+    ],
     [
      "2026-11-05T02:41:17Z",
      false
@@ -7650,18 +8283,10 @@
     [
      "2026-11-03T11:49:16Z",
      false
-    ],
-    [
-     "2026-11-03T11:48:02Z",
-     false
-    ],
-    [
-     "2026-11-03T11:47:51Z",
-     false
     ]
    ],
    "full_page": true,
-   "last_release": "2026-11-05T00:57:01Z"
+   "last_release": "2026-11-05T02:49:54Z"
   },
   "marcusquinn/aidevops.sh": {
    "pushed_at": "2026-11-05T02:25:19Z",
@@ -8402,8 +9027,12 @@
    "last_human": "2026-08-05T00:42:10Z"
   },
   "rlaope/oh-my-hermes": {
-   "pushed_at": "2026-11-05T02:44:51Z",
+   "pushed_at": "2026-11-05T02:58:03Z",
    "commits": [
+    [
+     "2026-11-05T02:57:06Z",
+     false
+    ],
     [
      "2026-11-05T02:39:04Z",
      false
@@ -8413,7 +9042,23 @@
      false
     ],
     [
+     "2026-11-05T02:04:17Z",
+     false
+    ],
+    [
+     "2026-11-05T02:01:10Z",
+     false
+    ],
+    [
      "2026-11-05T01:57:38Z",
+     false
+    ],
+    [
+     "2026-11-05T01:47:08Z",
+     false
+    ],
+    [
+     "2026-11-05T01:36:30Z",
      false
     ],
     [
@@ -8422,6 +9067,14 @@
     ],
     [
      "2026-11-05T01:34:00Z",
+     false
+    ],
+    [
+     "2026-11-05T01:27:06Z",
+     false
+    ],
+    [
+     "2026-11-05T01:27:06Z",
      false
     ],
     [
@@ -8774,34 +9427,6 @@
     ],
     [
      "2026-11-03T17:38:50Z",
-     false
-    ],
-    [
-     "2026-11-03T17:30:36Z",
-     false
-    ],
-    [
-     "2026-11-03T17:26:15Z",
-     false
-    ],
-    [
-     "2026-11-03T17:25:16Z",
-     false
-    ],
-    [
-     "2026-11-03T17:20:58Z",
-     false
-    ],
-    [
-     "2026-11-03T17:16:33Z",
-     false
-    ],
-    [
-     "2026-11-03T17:15:37Z",
-     false
-    ],
-    [
-     "2026-11-03T17:08:36Z",
      false
     ]
    ],
@@ -9334,7 +9959,7 @@
    "last_human": "2026-05-07T10:18:37Z"
   },
   "citrolabs/ego-lite": {
-   "pushed_at": "2026-11-04T09:11:55Z",
+   "pushed_at": "2026-11-05T02:45:52Z",
    "commits": [
     [
      "2026-11-04T09:11:51Z",
@@ -9434,7 +10059,7 @@
     ]
    ],
    "full_page": false,
-   "last_release": "2026-10-16T03:22:42Z"
+   "last_release": "2026-11-05T02:45:52Z"
   },
   "citrolabs/safari-browser-use": {
    "pushed_at": "2026-09-24T20:14:32Z",
@@ -9447,6 +10072,188 @@
    "commits": [],
    "full_page": false,
    "last_human": "2026-09-01T08:48:43Z"
+  },
+  "marcusquinn/homebrew-tap": {
+   "pushed_at": "2026-11-05T02:54:01Z",
+   "commits": [
+    [
+     "2026-11-05T02:54:00Z",
+     true
+    ],
+    [
+     "2026-11-05T01:02:00Z",
+     true
+    ],
+    [
+     "2026-11-04T22:52:50Z",
+     true
+    ],
+    [
+     "2026-11-04T17:04:41Z",
+     true
+    ],
+    [
+     "2026-11-04T04:35:29Z",
+     true
+    ],
+    [
+     "2026-11-04T02:01:52Z",
+     true
+    ],
+    [
+     "2026-11-03T17:36:53Z",
+     true
+    ],
+    [
+     "2026-11-03T02:16:14Z",
+     true
+    ],
+    [
+     "2026-11-02T23:30:20Z",
+     true
+    ],
+    [
+     "2026-11-02T23:05:16Z",
+     true
+    ],
+    [
+     "2026-11-02T15:13:43Z",
+     true
+    ],
+    [
+     "2026-11-02T00:47:16Z",
+     true
+    ],
+    [
+     "2026-11-01T23:05:07Z",
+     true
+    ],
+    [
+     "2026-11-01T20:53:03Z",
+     true
+    ],
+    [
+     "2026-11-01T03:42:08Z",
+     true
+    ],
+    [
+     "2026-10-31T23:52:01Z",
+     true
+    ],
+    [
+     "2026-10-31T21:58:04Z",
+     true
+    ],
+    [
+     "2026-10-31T19:52:51Z",
+     true
+    ],
+    [
+     "2026-10-31T17:55:39Z",
+     true
+    ],
+    [
+     "2026-10-31T08:19:08Z",
+     true
+    ],
+    [
+     "2026-10-31T07:14:18Z",
+     true
+    ],
+    [
+     "2026-10-31T06:14:40Z",
+     true
+    ],
+    [
+     "2026-10-31T05:13:17Z",
+     true
+    ],
+    [
+     "2026-10-31T03:55:43Z",
+     true
+    ],
+    [
+     "2026-10-30T22:35:31Z",
+     true
+    ],
+    [
+     "2026-10-30T21:02:21Z",
+     true
+    ],
+    [
+     "2026-10-30T19:40:42Z",
+     true
+    ],
+    [
+     "2026-10-30T18:36:00Z",
+     true
+    ],
+    [
+     "2026-10-30T16:03:25Z",
+     true
+    ],
+    [
+     "2026-10-30T09:14:47Z",
+     true
+    ],
+    [
+     "2026-10-30T07:16:23Z",
+     true
+    ],
+    [
+     "2026-10-30T06:54:15Z",
+     true
+    ],
+    [
+     "2026-10-30T05:03:27Z",
+     true
+    ],
+    [
+     "2026-10-30T03:11:23Z",
+     true
+    ],
+    [
+     "2026-10-30T02:48:19Z",
+     true
+    ],
+    [
+     "2026-10-30T01:10:54Z",
+     true
+    ],
+    [
+     "2026-10-30T00:19:25Z",
+     true
+    ],
+    [
+     "2026-10-29T18:51:25Z",
+     true
+    ],
+    [
+     "2026-10-29T03:46:22Z",
+     true
+    ],
+    [
+     "2026-10-29T03:11:16Z",
+     true
+    ],
+    [
+     "2026-10-29T01:59:04Z",
+     true
+    ],
+    [
+     "2026-10-29T01:20:33Z",
+     true
+    ],
+    [
+     "2026-10-28T03:16:35Z",
+     true
+    ],
+    [
+     "2026-10-28T02:51:53Z",
+     true
+    ]
+   ],
+   "full_page": false
   }
  },
  "alerts": [

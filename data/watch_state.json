@@ -516,7 +516,18 @@
   "0x7928799e45f0ad2d344cc031b26e9286605016c5": "2026-11-05T02:16:34+00:00",
   "0x520df9617cfe832ab14fd21f7e4bd20e34b9fb7a": "2026-11-05T02:16:34+00:00",
   "0xe3d91161d7bf80491ce11a01a68e0ee34703d2b2": "2026-11-05T02:16:34+00:00",
-  "0x714ed1898110925e84df5623b59bf57f9237b9e5": "2026-11-05T02:23:46+00:00"
+  "0x714ed1898110925e84df5623b59bf57f9237b9e5": "2026-11-05T02:23:46+00:00",
+  "0x6d9d6ffe81bc67bc27bfe6b95c25c91aa410245d": "2026-11-05T02:47:50+00:00",
+  "0xcdff97ccce27917ba90f1e44aceaea94e520ae33": "2026-11-05T02:47:50+00:00",
+  "0xf13b9906cf808ae53c245a0cf2fcab13453ff2ad": "2026-11-05T02:47:50+00:00",
+  "0x4b00a026447825da3f0eecdbf2802c6b071ff283": "2026-11-05T02:47:50+00:00",
+  "0x7e60a408ffd11010a9aac50c0c5711e11d2d4dc1": "2026-11-05T02:47:50+00:00",
+  "0xd382e35cda672a96cc28137127c279e032783802": "2026-11-05T02:47:50+00:00",
+  "0xaea4da81658a6cea3b399ca5a61523da83d26b68": "2026-11-05T02:47:50+00:00",
+  "0x2f0436ebb378f6831b7d66caba34f46f6d08bd7b": "2026-11-05T02:47:50+00:00",
+  "0x4ed418d5e58358906d4b7e255f320521c6d14007": "2026-11-05T02:47:50+00:00",
+  "0xa74d5a65dceed3522495ef5df2c8d9b3ade1a7a5": "2026-11-05T02:47:50+00:00",
+  "0x55f5315e63104069a21231c5c1cf6a1182825553": "2026-11-05T02:47:50+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -3706,9 +3717,136 @@
      "people": 18
     }
    }
+  },
+  "0xd382e35cda672a96cc28137127c279e032783802": {
+   "address": "0xd382e35cda672a96cc28137127c279e032783802",
+   "symbol": "HOLAOS",
+   "name": "HolaOS Agent",
+   "description": "Autonomous operating system and workspace environment for AI agents.",
+   "website": "https://holaos.ai",
+   "twitter": "https://x.com/holabossai",
+   "launched": "2026-11-05T02:33:08+00:00",
+   "mcap": 4050.094317959448,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T02:47:50+00:00",
+   "scored_at": "2026-11-05T02:47:50+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "holaboss-ai/holaOS",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (hook, marketplace, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (holaos.ai/docs), docs (holaos.ai/llms-full.txt), docs (holaos.ai/llms.txt), website (holaos.ai))"
+     ],
+     "Real code": [
+      "\u2705 157 changes over 26 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 791 days old, 6 people, 11445 stars, 720 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "`docs/plans/2026-04-07-module-improvement-roadmap.md`: 17 items"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "sources_read": [
+     "https://holaos.ai",
+     "https://holaos.ai/llms-full.txt",
+     "https://holaos.ai/llms.txt",
+     "https://holaos.ai/docs"
+    ],
+    "facts": {
+     "commits": 157,
+     "stars": 11445,
+     "created": "2026-03-22",
+     "pushed": "2026-10-28",
+     "people": 6
+    }
+   }
+  },
+  "0x4ed418d5e58358906d4b7e255f320521c6d14007": {
+   "address": "0x4ed418d5e58358906d4b7e255f320521c6d14007",
+   "symbol": "EGOLIT",
+   "name": "Ego Lite",
+   "description": "Lightweight autonomous personal AI agent with persistent memory and tool execution.",
+   "website": "https://lite.ego.app",
+   "twitter": "https://x.com/ego_agent",
+   "launched": "2026-11-05T02:31:23+00:00",
+   "mcap": 4007.709144912084,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T02:47:50+00:00",
+   "scored_at": "2026-11-05T02:47:50+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "citrolabs/ego-lite",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (marketplace, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f 1 of 3 sample lines also appears in older repo nextain/naia-shell \u2014 could be shared library code",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (lite.ego.app/docs), docs (lite.ego.app/document/en/docs/quick-start), docs (lite.ego.app/llms-full.txt), docs (lite.ego.app/llms.txt), website (lite.ego.app))"
+     ],
+     "Real code": [
+      "\u2705 560 changes over 159 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 406 days old, 11 people, 21680 stars, 1225 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://lite.ego.app/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "sources_read": [
+     "https://lite.ego.app",
+     "https://lite.ego.app/llms-full.txt",
+     "https://lite.ego.app/llms.txt",
+     "https://lite.ego.app/docs",
+     "https://lite.ego.app/document/en/docs/quick-start"
+    ],
+    "facts": {
+     "commits": 560,
+     "stars": 21680,
+     "created": "2026-04-16",
+     "pushed": "2026-11-05",
+     "people": 11
+    }
+   }
   }
  },
- "checked_total": 506,
+ "checked_total": 517,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -4056,11 +4194,38 @@
     "repos/rlaope",
     "sionic-khope"
    ]
+  },
+  {
+   "when": "2026-11-05T02:47:50+00:00",
+   "address": "0xf13b9906cf808ae53c245a0cf2fcab13453ff2ad",
+   "symbol": "YOF",
+   "website": "https://yieldsofforesthood.xyz/",
+   "used": null,
+   "ignored": [
+    "supabase/supabase-js"
+   ]
+  },
+  {
+   "when": "2026-11-05T02:47:50+00:00",
+   "address": "0xa74d5a65dceed3522495ef5df2c8d9b3ade1a7a5",
+   "symbol": "VARVE",
+   "website": "https://varve.finance",
+   "used": null,
+   "ignored": [
+    "ethers-io/ethers.js"
+   ]
   }
  ],
  "symbol_counts": {
+  "AHAHA": 1,
+  "YOF": 1,
+  "ZERO": 5,
+  "HOLAOS": 1,
+  "KITZY": 2,
+  "EGOLIT": 1,
+  "VARVE": 1,
+  "GRANT": 1,
   "HOODHAVEN": 1,
-  "ZERO": 2,
   "JOE": 1,
   "OMHER": 1,
   "PP": 1,
@@ -4078,7 +4243,6 @@
   "TICKVA": 1,
   "DEADROADS": 1,
   "ABCC12": 1,
-  "KITZY": 1,
   "CBROWS": 1,
   "DESICT": 1,
   "SNKAPI": 1,
@@ -4087,6 +4251,16 @@
   "MOOVIT": 1,
   "SAFMON": 1,
   "TNESDK": 1,
+  "PONS": 1,
+  "WIF": 1,
+  "DARWIN": 1,
+  "ORBIO": 1,
+  "HMM": 1,
+  "CHARLIE": 1,
+  "HYDX": 1,
+  "MOTION": 1,
+  "ROBINCAT": 1,
+  "RAETO": 1,
   "300": 1,
   "MERY": 1,
   "Frogend": 1,
@@ -4097,16 +4271,8 @@
   "PHYSCL": 1,
   "RBX": 1,
   "FILDLT": 1,
-  "PONS": 1,
-  "WIF": 1,
-  "ORBIO": 1,
   "UBIK": 1,
-  "DARWIN": 1,
-  "ROBINCAT": 1,
-  "CHARLIE": 1,
-  "MOTION": 1,
   "BISCOTTI": 1,
-  "HYDX": 1,
   "SAIBOT92": 1,
   "HARMONIC": 1,
   "ASD": 1,
@@ -4124,7 +4290,6 @@
   "Grant": 1,
   "NYMRA": 4,
   "LOONA": 2,
-  "GRANT": 1,
   "GTA6": 1,
   "Zatvoon": 1,
   "FUND": 1,
@@ -4151,10 +4316,8 @@
   "FECALCOIN": 1,
   "THINKN": 1,
   "INSTCK": 1,
-  "RAETO": 1,
   "DELTA": 1,
   "microduck": 1,
-  "HMM": 1,
   "GORGO": 1,
   "CUBE": 1,
   "RURU": 1,
@@ -4546,6 +4709,12 @@
    [],
    [
     "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo"
+   ]
+  ],
+  "citrolabs/ego-lite@2026-11-05": [
+   [],
+   [
+    "\u2139\ufe0f 1 of 3 sample lines also appears in older repo nextain/naia-shell \u2014 could be shared library code"
    ]
   ]
  }
