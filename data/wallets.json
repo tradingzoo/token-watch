@@ -1126,7 +1126,7 @@
   "wallet_txs": 398
  },
  "0x01b22b48aa5111bf08603c0450ad4388dec913f0": {
-  "checked": "2026-11-05T20:00:07+00:00",
+  "checked": "2026-11-05T20:21:48+00:00",
   "pons": true,
   "wallet": "0x8097c3c354652cb1eeed3e5b65fba2576470678a",
   "launches": 2,
@@ -1136,14 +1136,14 @@
    {
     "address": "0xb260a8b9245a784ce0c75d6346467fe9f305bcad",
     "symbol": "DSPYT",
-    "mcap": 3684.6403388066997,
+    "mcap": 3662.5483164694283,
     "launched": "2026-10-01T17:03:50+00:00"
    }
   ],
   "wallet_txs": 40
  },
  "0x4387dd92f6aa259084adf33b8bfc2cc1e0aadfdb": {
-  "checked": "2026-11-05T20:00:07+00:00",
+  "checked": "2026-11-05T20:21:48+00:00",
   "pons": true,
   "wallet": "0x18b54241c078c2da4f638c09d72d2553c5cf45ae",
   "launches": 1,
@@ -1153,34 +1153,41 @@
   "wallet_txs": 8
  },
  "0x8dd71026cd5e0b832c098995cdd72ae952e715d6": {
-  "checked": "2026-11-05T08:01:26+00:00",
+  "checked": "2026-11-05T20:21:48+00:00",
   "pons": true,
   "wallet": "0x971e71b0ec150a282a47d8dc031814c236d6c087",
   "launches": 1,
   "before": 0,
   "after": 0,
   "others": [],
-  "wallet_txs": 5
+  "wallet_txs": 6
  },
  "0x906458971e78bb0367174056fd1dcd8226622bb9": {
-  "checked": "2026-11-05T08:16:23+00:00",
+  "checked": "2026-11-05T20:21:48+00:00",
   "pons": true,
   "wallet": "0x437bb23d5aa935d2a47910faaf876e73c6092ede",
   "launches": 1,
   "before": 0,
   "after": 0,
   "others": [],
-  "wallet_txs": 4
+  "wallet_txs": 7
  },
  "0xeaeaa6d3cbfd3ec51728410057a89f699438334f": {
-  "checked": "2026-11-05T08:16:23+00:00",
+  "checked": "2026-11-05T20:21:48+00:00",
   "pons": true,
   "wallet": "0xa0fe0943318a9dbe037a18f126195a37b60c3a70",
-  "launches": 1,
+  "launches": 2,
   "before": 0,
-  "after": 0,
-  "others": [],
-  "wallet_txs": 5
+  "after": 1,
+  "others": [
+   {
+    "address": "0xcf94ea7ba92d5b083c48c98e8487222ff7edf9e5",
+    "symbol": "APT",
+    "mcap": 3702.6174211063517,
+    "launched": "2026-11-05T09:02:10+00:00"
+   }
+  ],
+  "wallet_txs": 9
  },
  "0x40322a15342394188699ee9eae1254d2cb213f04": {
   "checked": "2026-11-05T08:16:23+00:00",
@@ -3912,36 +3919,56 @@
   "before": 0,
   "after": 0,
   "others": [],
-  "wallet_txs": 6
+  "wallet_txs": 10
  },
- "0xc0ad76451b9beb3a5d80ed5a02d325a168ba82e6": {
-  "checked": "2026-11-05T20:00:07+00:00",
+ "0x355d0aced29246a0290018d9b4dd289aed7d98e4": {
+  "checked": "2026-11-05T20:21:48+00:00",
+  "pons": true,
+  "wallet": "0xbd12019c094edeca1b6d8da7a2408e9f91c8795e",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
+ },
+ "0xfe8f4e40828cdac6852df7a58a33e5c7f63db018": {
+  "checked": "2026-11-05T20:21:48+00:00",
+  "pons": true,
+  "wallet": "0xdf2237114d595e0bf4d35cbcdebcdf43c55c4669",
+  "launches": 1511,
+  "before": 1507,
+  "after": 3,
+  "others": [],
+  "wallet_txs": 22144
+ },
+ "0x626f7ebe6d1f5e127d3070bbb5fcb6d9a29906a9": {
+  "checked": "2026-11-05T20:21:48+00:00",
   "pons": true,
   "wallet": "0xdf1ead76d2d0f8fe7494ce72def15ad0e953cb97",
-  "launches": 92,
-  "before": 90,
-  "after": 1,
+  "launches": 103,
+  "before": 97,
+  "after": 5,
   "others": [],
-  "wallet_txs": 1442
+  "wallet_txs": 1612
  },
- "0x562d41107880176502bf05c715287fd53d3ee511": {
-  "checked": "2026-11-05T20:00:07+00:00",
+ "0x502c1e5c2cf8eb3db4410abd59259c32e069c7f2": {
+  "checked": "2026-11-05T20:21:48+00:00",
   "pons": true,
-  "wallet": "0x9938ee2c028dddb73c45b3fc249a46b00f54a896",
-  "launches": 977,
-  "before": 561,
-  "after": 415,
+  "wallet": "0xdf1ead76d2d0f8fe7494ce72def15ad0e953cb97",
+  "launches": 103,
+  "before": 98,
+  "after": 4,
   "others": [],
-  "wallet_txs": 20271
+  "wallet_txs": 1612
  },
- "0x1003bfc109cb51465253f2198f3c60364fa6a2f7": {
-  "checked": "2026-11-05T20:00:07+00:00",
+ "0x2b7dfb00795514f8ad117aab86b9ac7096e6f1ce": {
+  "checked": "2026-11-05T20:21:48+00:00",
   "pons": true,
-  "wallet": "0x9938ee2c028dddb73c45b3fc249a46b00f54a896",
-  "launches": 977,
-  "before": 624,
-  "after": 352,
+  "wallet": "0xf49415641f32e9ebb3842c860524b80beb2b00e4",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
   "others": [],
-  "wallet_txs": 20271
+  "wallet_txs": 1
  }
 }

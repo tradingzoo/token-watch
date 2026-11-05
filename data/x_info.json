@@ -2509,7 +2509,7 @@
     "Studying langchain tutorial by @NeuralNine https://m.youtube.com/watch?v=J7j5tCB_y4w&pp=ygUQbGFuZ2NoYWluIGFnZW50cw%3D%3D",
     "@NeuralNine To display the message correctly"
    ],
-   "checked": "2026-11-05T19:51:57+00:00"
+   "checked": "2026-11-05T20:10:38+00:00"
   },
   "fairround": {
    "handle": "fairround",
@@ -2517,21 +2517,39 @@
    "id": "2114190575922819072",
    "name": "FairRound",
    "joined": "2026-10-25T03:02:15+00:00",
-   "followers": 7,
-   "following": 27,
+   "followers": 12,
+   "following": 30,
    "posts": 35,
    "verified": null,
    "last_post": "2026-11-05T04:00:04+00:00",
    "sample": 16,
    "sample_full_week": true,
    "posts_7d": 16,
-   "avg_likes": 0.5,
-   "avg_views": 8,
+   "avg_likes": 0.9,
+   "avg_views": 14,
    "bio_site": "http://fairround.xyz",
    "bio": "Own the price discovery. The on-chain IPO exchange for crypto projects: one clearing price, small buyers filled, the raise held by holders. Live on @arbitrum",
    "cas": [],
    "fake_posts": [],
-   "checked": "2026-11-05T08:00:41+00:00"
+   "texts": [
+    "Launching a token on Arbitrum? Raise with one clearing price, a wide holder base and a treasury your holders control, so nobody can call it a rug. We're looking for our first launch partner. DMs are open.",
+    "Try FairRound in 10 minutes: 1. Connect MetaMask on Arbitrum One 2. Verify (hold 0.0083 ETH; nothing is taken) 3. Claim 1,000 free UNRIG commitment credits 4. Bid in an open round Demo credits have no value. We'll never ask for your secret phrase. https://fairround.xyz",
+    "I started my career answering phones in a travel call centre. No CS degree. No crypto fund. Just thousands of calls with people who felt the system wasn\u2019t fair to them. So I built a launch where it has to be fair. \ud83e\uddf5",
+    "So here\u2019s my ask, and I\u2019m certain about it: On 7 Nov the first holder vote opens. Watch it, or better, try to break it. Verify a wallet, claim free test credits, bid in the next listing. Every bug, every bot, reported publicly.",
+    "Either it holds, or we learn exactly where it breaks. Both move launches forward. Join the test: https://fairround.xyz Hypotheses (DOI): https://doi.org/10.5281/zenodo.23844124",
+    "Ten demo listings, from The Chosen One (1 unit) to Xerxes' Host (300,000). 150 units a round, one price per round. Even the founder can't take The Thousand in one go. The few against the whale.",
+    "\u201cThe Fellowship\u201d in large bold type, with a tilted \u201cSOLD OUT IN ONE ROUND\u201d stamp.",
+    "\u201cFree test credits, no value. No promise of price.\u201d and https://fairround.xyz.",
+    "The timeline: 7 Nov vote opens, 10 Nov count and propose, 13 Nov treasury vote ends, 18 Nov first vUNRIG.",
+    "The honest line: \u201cOne founder, three wallets, in public. No outside bids in the 40 minutes after the announcement.\u201d",
+    "Nine blocks in three colours, one row per wallet: Wallet 1 lead candidate, Wallet 2 voter, Wallet 3 recipient.",
+    "The numbers: 9/9 units, 333 UNRIG each, same price, 2,967 UNRIG capital.",
+    "We came to Arbitrum Open House Singapore with a different product: a simulation of privatizing a country on-chain. One mentor conversation later, we rebuilt the story, the contracts and the brand around one question: why do token launches keep failing the people who fund them?",
+    "FairRound is a public test. Our launch system on Arbitrum One runs in the open: free entry, real rules, every step on-chain. Everyone, bots included, is invited to break it. Round 2 of The Fellowship is open until 13:16 UTC. Outbid us if you want in: https://fairround.xyz/company/2 \ud83e\uddf5",
+    "How it works: \u2022 Verify a wallet, claim 1,000 UNRIG (a free test credit, no value) \u2022 Bid in hourly rounds: everyone filled pays the same price \u2022 Holders elect a project lead and vote on every treasury payment \u2022 Max 5% of a treasury leaves per 30-day term",
+    "UNRIG is a free test credit with no value. vUNRIG is not backed, not redeemable and not an investment. Any price comes only from what people choose to pay. We make no promise about its price."
+   ],
+   "checked": "2026-11-05T20:10:38+00:00"
   },
   "the_astropad": {
    "handle": "the_astropad",
@@ -10108,8 +10126,15 @@
    ],
    "checked": "2026-11-05T19:51:57+00:00"
   },
-  "ollama": {
-   "handle": "ollama",
+  "memetools": {
+   "handle": "memetools",
+   "found": false,
+   "checked": "2026-11-05T20:10:38+00:00",
+   "cas": [],
+   "fake_posts": []
+  },
+  "vladyy__01": {
+   "handle": "vladyy__01",
    "found": true,
    "id": "1688410127378829312",
    "name": "ollama",
@@ -11861,7 +11886,7 @@
   },
   "fairround": {
    "2026-11-05": [
-    7,
+    12,
     35
    ]
   },
@@ -13025,14 +13050,32 @@
   },
   "criaofrj": {
    "2026-11-05": [
-    124,
-    164
+    15,
+    4
+   ]
+  },
+  "letronnaagent": {
+   "2026-11-05": [
+    2,
+    8
+   ]
+  },
+  "norenagent": {
+   "2026-11-05": [
+    41,
+    67
    ]
   },
   "nycmayor": {
    "2026-11-05": [
     2794261,
     41349
+   ]
+  },
+  "vladyy__01": {
+   "2026-11-05": [
+    4234,
+    22227
    ]
   }
  },
@@ -13495,12 +13538,12 @@
   "pfed-prog": {
    "twitter": "pfedprog",
    "blog": "https://dspyt.com/profile/pavel-fedotov/",
-   "checked": "2026-11-05T19:51:57+00:00"
+   "checked": "2026-11-05T20:10:38+00:00"
   },
   "amiran11": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T08:00:41+00:00"
+   "checked": "2026-11-05T20:10:38+00:00"
   },
   "s4viour1": {
    "twitter": null,
@@ -13896,6 +13939,26 @@
    "twitter": null,
    "blog": "https://usenoren.xyz/",
    "checked": "2026-11-05T19:33:27+00:00"
+  },
+  "neuralverge": {
+   "twitter": null,
+   "blog": "https://neuralverge.ai/",
+   "checked": "2026-11-05T20:10:38+00:00"
+  },
+  "liftedinit": {
+   "twitter": "liftedinit",
+   "blog": "liftedinit.org",
+   "checked": "2026-11-05T20:10:38+00:00"
+  },
+  "zeroclickz": {
+   "twitter": "zer0clickz",
+   "blog": "https://zeroclickz.com",
+   "checked": "2026-11-05T20:10:38+00:00"
+  },
+  "nguyenkhangph": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T20:10:38+00:00"
   }
  }
 }
