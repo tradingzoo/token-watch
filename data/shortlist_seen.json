@@ -17,10 +17,10 @@
   },
   "0x3ba500f1ababbcf0f0247d06d1c56fd7e6c4c09d": {
    "symbol": "WORM",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-05T21:45:05+00:00"
   },
   "0x81e770ba8343232b6f200209bf9a2c1430c2dea1": {
    "symbol": "VEYA",
@@ -122,10 +122,10 @@
   },
   "0x89b76dcdda801f2e456765742c64950eb2a0c93c": {
    "symbol": "BORRO",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-05T21:45:05+00:00"
   },
   "0xe1838f0dff03a9327dea87b2a2285850791297ec": {
    "symbol": "SURPLUS",
@@ -188,13 +188,27 @@
    "in": false,
    "joined": "2026-11-05T19:33:27+00:00",
    "first": "2026-11-05T19:33:27+00:00",
-   "left": "2026-11-05T21:23:30+00:00"
+   "left": "2026-11-05T21:45:05+00:00"
+  },
+  "0x2142d4816e259fd7c119f61c772e39ae0cdaafde": {
+   "symbol": "BROW",
+   "in": true,
+   "joined": "2026-11-05T21:45:05+00:00",
+   "first": "2026-11-05T21:45:05+00:00",
+   "left": null
+  },
+  "0xb63d07cef74be747231d601bb2faa6b252c68106": {
+   "symbol": "FABLES",
+   "in": true,
+   "joined": "2026-11-05T21:45:05+00:00",
+   "first": "2026-11-05T21:45:05+00:00",
+   "left": null
   },
   "0xfce34d21a92069100e3226638140706cf03a266e": {
    "symbol": "GLDSTN",
    "in": true,
-   "joined": "2026-11-05T21:23:30+00:00",
-   "first": "2026-11-05T21:23:30+00:00",
+   "joined": "2026-11-05T21:45:05+00:00",
+   "first": "2026-11-05T21:45:05+00:00",
    "left": null
   }
  }
