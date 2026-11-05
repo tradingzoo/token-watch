@@ -89,7 +89,7 @@ Both scores give a **+5 bonus** when the project works with a token that already
 
 ## Card layout (5 Nov)
 
-Each card shows a short **Why {score}** block (points per part, the main pluses and misses, and any cap) above the folded **All reasons**. Tokens with the same name (copies, relaunches) are folded under the best-scoring one: "+15 more tokens named NYMRA (copies)". Nothing is hidden for good, and no score changes.
+Closed, each card is four lines: score, name, a **click-to-copy contract address**, badges; value · launched how long ago · where it trades; one ✅ main plus and one ⚠️ main warning (+N more); links. **Details** opens, always in this order: Quick facts (market, X, GitHub or website, launch wallet, status), Warnings (each once, ×N for repeats), Score (points per part, cap, top pluses and misses), About, and Full evidence (every reason line). NEW means launched in the last 24 hours. Same-name tokens are folded under the best-scoring one.
 
 ## Ghost market warning (added 5 Nov, warning only)
 

@@ -950,28 +950,86 @@ if(top)top.append(' Times are in your time zone ('+Intl.DateTimeFormat().resolve
 }catch(e){}})();"""
 
 
-def why_short(sc, e):
-    """'Why this score' in a few lines (5 Nov): points per part, the main pluses and minuses, and any cap."""
+def score_bits(sc):
+    """(parts, pluses, misses, cap) for a card: points per part, the main pluses and misses, any cap."""
     parts, plus, minus = [], [], []
+    clean = lambda x: re.sub(r"\s+—.*$", "", re.sub(r"\s*\(\+\d+\)$", "", x)).lstrip("✅🟡❌ℹ️ ").strip()[:95]
     for g, items in sc.get("reasons", {}).items():
-        pts = sum(int(re.search(r"\(\+(\d+)\)$", x).group(1)) for x in items if re.search(r"\(\+(\d+)\)$", x))
-        name = re.sub(r"\s*\(.*\)$", "", g)
-        parts.append(f"<span class='chip{' zero' if not pts else ''}'>{e(name)} +{pts}</span>")
+        pts = sum(int(m.group(1)) for x in items if (m := re.search(r"\(\+(\d+)\)$", x)))
+        parts.append((re.sub(r"\s*\(.*\)$", "", g), pts))
         for x in items:
             m = re.search(r"\(\+(\d+)\)$", x)
-            short = re.sub(r"\s*\(\+\d+\)$", "", x)
-            short = re.sub(r"\s+—.*$", "", short)[:90]
             if m and int(m.group(1)) >= 10 and x.startswith(("✅", "🟡")):
-                plus.append((int(m.group(1)), short))
-            elif m and int(m.group(1)) == 0 and x.startswith("❌"):
-                minus.append(short)
-    cap = next((x for x in sum(sc.get("reasons", {}).values(), []) if re.match(r"(?:⛔|🟡 Capped|ℹ️ Points add up|ℹ️ The GitHub code is private)", x)), "")
-    if not cap and sc.get("flags"):
-        cap = f"⚠️ Capped at 25 by a warning: {sc['flags'][0][:110]}"
-    plus = [p for _, p in sorted(plus, key=lambda p: -p[0])[:3]]
-    lines = "".join(f"<li>{e(x)}</li>" for x in plus + minus[:2])
-    return (f"<div class='why'><div class='chips'><b>Why {sc['score']}:</b> {' '.join(parts)}</div>"
-            + (f"<p class='cap'>{e(cap[:200])}</p>" if cap else "") + (f"<ul>{lines}</ul>" if lines else "") + "</div>")
+                plus.append((int(m.group(1)), clean(x)))
+            elif m and int(m.group(1)) == 0 and x.startswith("❌") and "past winners" not in x:
+                minus.append(clean(x))
+    cap = next((x for x in sum(sc.get("reasons", {}).values(), [])
+                if re.match(r"(?:⛔|🟡 Capped|ℹ️ Points add up|ℹ️ The GitHub code is private)", x)), "")
+    if not cap and sc.get("flags") and sc["score"] <= 25:
+        cap = "Capped at 25 by the warning above"
+    return parts, [p for _, p in sorted(plus, key=lambda p: -p[0])[:3]], minus[:2], clean(cap) if cap else ""
+
+
+def ago(ts):
+    """'40 min ago', '5 h ago', '3 days ago'."""
+    if not ts:
+        return ""
+    m = days_between(NOW, iso(ts)) * 24 * 60
+    return f"{m:.0f} min ago" if m < 90 else (f"{m / 60:.0f} h ago" if m < 48 * 60 else f"{m / 1440:.0f} days ago")
+
+
+def short_n(n):
+    n = n or 0
+    return f"{n / 1e6:.1f}M" if n >= 1e6 else (f"{n / 1e3:.1f}k" if n >= 1e3 else f"{n:.0f}")
+
+
+def quick_facts(r, sc, xdb, wallets, pdb, ship, e):
+    """The Quick facts rows for a card (5 Nov layout): one short line each."""
+    a = r["address"].lower()
+    rows = []
+    pt = pdb.get(a) or {}
+    mk = pt.get("market") or {}
+    val = [f"Value {money(pt.get('now_mcap') or r.get('mcap'))}"]
+    if mk.get("liq"):
+        val.append(f"Liquidity {money(mk['liq'])}")
+    if "trades24" in mk:
+        val.append(f"Trades 24h {mk['trades24']}")
+    if pt.get("start_mcap") and pt.get("now_mcap"):
+        val.append(f"Since found {(pt['now_mcap'] / pt['start_mcap'] - 1) * 100:+.0f}%")
+    rows.append(("Market", " · ".join(val)))
+    h, is_post = x_info.parse(r.get("twitter"))
+    if h:
+        acct = (xdb.get("accounts") or {}).get(h.lower()) or {}
+        if acct.get("found") is False:
+            rows.append(("X", f"@{h} · not found now"))
+        elif acct:
+            j = acct.get("joined")
+            rows.append(("X", f"@{acct.get('handle') or h} · {short_n(acct.get('followers'))} followers"
+                         + (f" · made {iso(j):%b %Y}" if j else "")))
+        else:
+            rows.append(("X", f"@{h}"))
+    else:
+        rows.append(("X", "none listed"))
+    f = sc.get("facts") or {}
+    if sc.get("kind") == "site":
+        rows.append(("Website", f"{sc.get('tools', 0)} of 4 plug-in tools · {f.get('contract_addresses', 0)} contract addresses"))
+    elif sc.get("private"):
+        rows.append(("GitHub", f"{sc.get('repo')} · private code"))
+    else:
+        rows.append(("GitHub", f"{f.get('stars', 0)} stars · {f.get('commits', '?')} commits · {f.get('people', '?')} {'person' if f.get('people') == 1 else 'people'}"
+                     + f" · since {f.get('created', '?')} · last change {f.get('pushed', '?')}"))
+    w = (wallets or {}).get(a)
+    if w:
+        others = w.get("others") or []
+        if w.get("launches", 1) <= 1:
+            txt = "first launch"
+        else:
+            txt = f"{w['launches'] - 1} other launches" + (": " + ", ".join(o.get("symbol") or "?" for o in others[:3]) if others else "")
+        rows.append(("Launch wallet", f"{txt} · {w.get('wallet_txs', '?')} transactions"))
+    rec = ((ship or {}).get("tokens") or {}).get(a)
+    if rec:
+        rows.append(("Status", f"{shipping.DOT[rec['status']]} {rec['status']} · " + " · ".join(rec.get("reasons") or [])[:90]))
+    return "<dl class='facts'>" + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in rows) + "</dl>"
 
 
 def fold_copies(cards, e):
@@ -1012,7 +1070,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
     for r in rows + site_rows:
         sc = r["scoring"]
         is_site = sc.get("kind") == "site"
-        new = days_between(NOW, iso(r["first_seen"])) < 1
+        new = days_between(NOW, iso(r.get("launched") or r["first_seen"])) < 1  # launched in the last day
         links = [(f"https://ponsfamily.com/launchpad/{r['address'].lower()}", "Pons"),
                  (f"https://dexscreener.com/robinhood/{r['address']}", "DexScreener")]
         if not is_site:
@@ -1024,17 +1082,14 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         groups = []
         for g, items in sc.get("reasons", {}).items():
             if items:
+                items = [i for i in items if "past winners we know of" not in i and "Doesn't link any past winners" not in i]
                 groups.append(f"<h4>{e(g)}</h4><ul>" + "".join(f"<li>{md(i)}</li>" for i in items) + "</ul>")
         xline, xwarn = x_info.facts(r, all_rows, xdb, NOW)
         wline, wwarn = deployers.facts(r, wallets)
-        xline = shipping.line(r, ship) + xline + wline + prices.card_line(r["address"].lower(), pdb)
+        xline = xline + wline  # status and price are in Quick facts
         allw = sc.get("flags", []) + xwarn + wwarn
         seen_w = Counter(allw)  # the same warning twice is shown once with ×2 (user, 5 Nov)
-        flags = "".join(f"<div class='flag'>⚠️ {e(f)}{f' <b>×{n}</b>' if n > 1 else ''}</div>" for f, n in seen_w.items())
         ghost_w = prices.ghost(pdb.get(r["address"].lower()))
-        titles = list(dict.fromkeys(re.split(r"[:(—]", f)[0].strip()[:55] for f in allw)) + (["👻 Ghost market"] if ghost_w else [])
-        oneline = (f"<p class='oneline'>⚠️ {len(titles)} warning{'s' if len(titles) > 1 else ''}: {e(' · '.join(titles))}</p>"
-                   if titles else "<p class='oneline ok'>No warnings</p>")
         notes = ("<h4>Checked by hand</h4><ul>" + "".join(f"<li>{md(n)}</li>" for n in sc.get("notes", [])) + "</ul>") if sc.get("notes") else ""
         road = "<h4>Roadmap</h4><ul>" + "".join(f"<li>{md(x)}</li>" for x in sc.get("roadmap", [])) + "</ul>"
         band = "hi" if sc["score"] >= 60 else ("mid" if sc["score"] >= 40 else "lo")
@@ -1048,23 +1103,49 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
             meta_html = f"<p class=\"meta\">{e(meta)}</p>"
         else:
             meta_html = (f"""<p class="meta"><button class="wrong" data-msg="{e('Wrong repo? ' + (r.get('symbol') or '') + ' ' + r['address'] + ' was matched to github.com/' + sc['repo'] + '. The right one is: ')}">Wrong repo?</button> Repo {e(sc['repo'])} · {sc['facts'].get('commits','?')} changes · created {e(sc['facts'].get('created','?'))} · last update {e(sc['facts'].get('pushed','?'))} · scored {e(r['scored_at'][:16].replace('T',' '))} UTC</p>""")
+        # --- 5 Nov layout: closed card = 4 lines; Details = Quick facts, Warnings, Score, About, Full evidence ---
+        a_ = r["address"]
+        warn_items = list(seen_w.items()) + ([(ghost_w, 1)] if ghost_w else [])
+        has_unclaimed_flag = any(f.startswith(UNCLAIMED) for f in allw)
+        badges = (("<span class='new'>NEW</span>" if new else "")
+                  + (" <span class='grp'>🔒 private code</span>" if sc.get("private") else "")
+                  + (" <span class='grp' title='Their repo, website and X never post the token address or mention the token.'>🤐 unclaimed</span>"
+                     if unclaimed and not has_unclaimed_flag else ""))
+        parts, plus, minus, cap = score_bits(sc)
+        top_plus = re.sub(r"\s*\(.*$", "", plus[0]) if plus else ""
+        top_warn = re.split(r"[:(—]", warn_items[0][0])[0].strip()[:60] if warn_items else ""
+        verdict = " ".join(x for x in (
+            f"<span class='good'>✅ {e(top_plus)}</span>" if top_plus else "",
+            (f"<span class='bad'>⚠️ {e(top_warn)}" + (f" (+{len(warn_items) - 1} more)" if len(warn_items) > 1 else "") + "</span>")
+            if top_warn else "<span class='muted'>No warnings</span>") if x)
+        warn_html = ("<h4>Warnings</h4>" + "".join(
+            f"<div class='flag'>⚠️ {e(f if len(f) <= 170 else f[:167] + '…')}{f' <b>×{n}</b>' if n > 1 else ''}</div>" for f, n in warn_items)
+                     ) if warn_items else ""
+        score_html = (f"<h4>Score {sc['score']}</h4><div class='chips'>"
+                      + " ".join(f"<span class='chip{' zero' if not pts else ''}'>{e(n)} +{pts}</span>" for n, pts in parts) + "</div>"
+                      + (f"<p class='cap'>{e(cap)}</p>" if cap else "")
+                      + "<ul class='pm'>" + "".join(f"<li class='p'>{e(x)}</li>" for x in plus)
+                      + "".join(f"<li class='m'>{e(x)}</li>" for x in minus) + "</ul>")
+        about = (r.get("description") or "").strip()
+        about = about if len(about) <= 220 else about[:217].rsplit(" ", 1)[0] + "…"
         (site_cards if is_site else cards).append((r.get("symbol") or "?", sc["score"], f"""
 <article class="card" data-score="{sc['score']}" data-new="{int(new)}">
   <header>
     <div class="score {band}">{sc['score']}<small>/100</small></div>
     <div class="title">
-      <h2>{e(r.get('symbol') or '?')} {"<span class='new'>NEW</span>" if new else ""}{" <span class='grp'>🔒 private GitHub</span>" if sc.get('private') else ""}{" <span class='grp' title='Their repo, website and X never post the token address or mention the token. It may have been launched by someone else.'>🤐 dev hasn't mentioned this token</span>" if unclaimed else ""}</h2>
-      <p class="sub">{e(r.get('name') or '')} · {('launched ' + e(r['launched'][:16].replace('T',' ')) + ' UTC · ') if r.get('launched') else ''}found {e(r['first_seen'][:16].replace('T',' '))} UTC · {e(money(r.get('mcap')))} · {e(r.get('where') or '')}</p>
+      <h2>{e(r.get('symbol') or '?')} <span class="nm">· {e(r.get('name') or '')}</span>
+        <button class="ca" data-ca="{e(a_)}" title="Copy the contract address">{e(a_[:6] + '…' + a_[-4:])} ⧉</button> {badges}</h2>
+      <p class="sub">{e(money(r.get('mcap')))} · launched {e(ago(r.get('launched')) or '?')} · {e(r.get('where') or '')}</p>
+      <p class="verdict">{verdict}</p>
       <p class="links">{" · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(t)}</a>' for u, t in links)}</p>
     </div>
   </header>
-  {oneline}
-  <details class="more"><summary>Details and why this score</summary>
-  {xline}
-  {flags}
-  <p class="desc">{e((r.get('description') or '')[:260])}</p>
-  {why_short(sc, e)}
-  <details><summary>All reasons</summary>{''.join(groups)}{notes}{road}
+  <details class="more"><summary>Details</summary>
+  <h4>Quick facts</h4>{quick_facts(r, sc, xdb, wallets, pdb, ship, e)}
+  {warn_html}
+  {score_html}
+  {f"<h4>About</h4><p class='desc'>{e(about)}</p>" if about else ""}
+  <details><summary>Full evidence</summary>{xline}{''.join(groups)}{notes}{road}
   {meta_html}</details>
   </details>
 </article>"""))
@@ -1090,7 +1171,11 @@ a{{color:var(--accent)}} .new{{font-size:11px;background:var(--accent);color:var
 .chips{{display:flex;flex-wrap:wrap;gap:5px;align-items:center;font-size:13px}} .chip{{border:1px solid var(--line);border-radius:6px;padding:0 6px}}
 .chip.zero{{color:var(--mute)}} .why .cap{{margin:4px 0 0;font-size:13px;color:var(--mid)}}
 .dups{{margin:-8px 0 14px 12px}} .dups summary{{font-size:14px}} .dups .card{{opacity:.85}}
-.oneline{{margin:8px 0 0;font-size:14px;color:var(--lo)}} .oneline.ok{{color:var(--mute)}} .more>summary{{margin-top:6px}}
+.verdict{{margin:4px 0;font-size:14px}} .verdict .good{{color:var(--hi);margin-right:10px}} .verdict .bad{{color:var(--lo)}} .verdict .muted,.nm{{color:var(--mute)}}
+.nm{{font-weight:400;font-size:16px}} button.ca{{font:12px ui-monospace,Consolas,monospace;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:1px 6px;cursor:pointer;vertical-align:middle}}
+.facts{{display:grid;grid-template-columns:max-content 1fr;gap:2px 12px;margin:4px 0;font-size:14px}} .facts dt{{color:var(--mute)}} .facts dd{{margin:0}}
+ul.pm{{list-style:none;padding-left:0;margin:6px 0;font-size:14px}} ul.pm li.p::before{{content:"+ ";color:var(--hi);font-weight:700}} ul.pm li.m::before{{content:"– ";color:var(--lo);font-weight:700}}
+.more>summary{{margin-top:6px}} .more h4{{margin:14px 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)}}
 .desc{{margin:10px 0 6px}} summary{{cursor:pointer;color:var(--accent)}} h4{{margin:12px 0 2px;font-size:14px}}
 .xline{{margin:8px 0 0;font-size:13px;color:var(--mute)}} .ship{{color:var(--ink)}}
 .test h2{{margin:0 0 4px}} table.sum{{border-collapse:collapse;width:100%;font-size:13px;margin:10px 0;display:block;overflow-x:auto}}
@@ -1136,6 +1221,9 @@ window.addEventListener('hashchange',()=>{{show();window.scrollTo(0,0);}});show(
 document.querySelectorAll('button.wrong').forEach(b=>b.onclick=()=>{{const m=b.dataset.msg;
 const done=()=>{{b.textContent='Copied: paste it to Claude and add the right repo';}};
 if(navigator.clipboard)navigator.clipboard.writeText(m).then(done,()=>prompt('Copy this and paste it to Claude:',m));else prompt('Copy this and paste it to Claude:',m);}});
+document.querySelectorAll('button.ca').forEach(b=>b.onclick=()=>{{const t=b.textContent,c=b.dataset.ca;
+const ok=()=>{{b.textContent='Copied ✓';setTimeout(()=>b.textContent=t,1500);}};
+if(navigator.clipboard)navigator.clipboard.writeText(c).then(ok,()=>prompt('Copy:',c));else prompt('Copy:',c);}});
 document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{{document.querySelectorAll('.bar button').forEach(x=>x.classList.toggle('on',x===b));
 const f=b.dataset.f;document.querySelectorAll('#github article.card').forEach(c=>{{const s=+c.dataset.score,n=c.dataset.new==='1',fl=!!c.querySelector('.flag');
 c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))?'':'none'}})}});
