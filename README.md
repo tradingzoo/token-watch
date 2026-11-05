@@ -9,6 +9,8 @@ Two things live here:
 
 **Running it on GitHub (since 5 Nov 2026):** each run checks out this repo, runs the scan, and commits the results and the page (`index.html`). The full list of Pons launches (`data/pons_launches.csv`, 67MB+) is kept in GitHub's run cache, not the repo; if the cache is lost it is rebuilt from the chain. To change the code on the PC: `git pull` first, edit, then `git push`.
 
+**What starts each scan:** GitHub's own timer didn't fire reliably, so a free cron-job.org job (set up 5 Nov 2026) calls GitHub's "run workflow" address every 15 minutes, using a key limited to running scans on this repo (fine-grained token "cron-job scan trigger", expires **4 Nov 2027**: make a new one before then and paste it into the job's Authorization header). GitHub's timer is left on as a backup.
+
 **Extra facts on the site** (free, no login or key, never change a score or the test):
 - `x_info.py`: each token's X account via fxtwitter (joined date, followers, posts, likes per post, follower growth saved daily), past names via memory.lol (patchy), whether the X posted this token's address (official) or warned about fakes, whether X bio / GitHub profile / website point at each other, and Telegram group size from the public t.me page. Saved in `data/x_info.json`.
 - `deployers.py`: the wallet that launched each Pons token, read from Robinhood Chain's public RPC; how many other tokens that wallet launched and where they are now. All Pons launches are kept in `data/pons_launches.json` (only new blocks fetched each run).
