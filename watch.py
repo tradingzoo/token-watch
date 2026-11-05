@@ -970,6 +970,42 @@ def score_bits(sc):
     return parts, [p for _, p in sorted(plus, key=lambda p: -p[0])[:3]], minus[:2], clean(cap) if cap else ""
 
 
+# Narrative tags (5 Nov): display only, never scored. First matches win, at most 3.
+NARRATIVES = [
+    ("AI agents", r"\bagents?\b|\bagentic\b|\bMCP\b|\bautonomous\b|ERC-?8004"),
+    ("AI", r"\bAI\b|\bLLMs?\b|\binference\b|\bmodels?\b|\bGPT\b|machine learning|\bneural\b"),
+    ("Privacy", r"\bprivacy\b|\bprivate\b|\bzk\b|zero[- ]knowledge|\bshielded\b|\bstealth\b|\bconfidential\b"),
+    ("Stocks / RWA", r"stocks?|stock tokens?|tokeni[sz]ed (?:stocks?|equit)|\bequit(?:y|ies)\b|\bRWA\b|\$?\b(?:NVDA|TSLA|AAPL|MSFT)\b"),
+    ("DeFi", r"\blend(?:ing)?\b|\bborrow|\byield\b|\bvaults?\b|\bperps?\b|\bdex\b|\bliquidity\b|\boptions\b|\bcredit\b|\bstak(?:e|ing)\b|\bswap\b"),
+    ("Launchpad", r"\blaunchpad\b|\blaunch(?:es)? (?:tokens|coins)\b|\bcoin launcher\b|\bbonding curve\b"),
+    ("Payments", r"\bpayments?\b|\bx402\b|\bpay (?:per|with|by)\b|\bcheckout\b"),
+    ("Prediction", r"\bpredictions?\b|\bforecasts?\b|\bbetting\b|\bodds\b"),
+    ("Gaming / NFT", r"\bgames?\b|\bgaming\b|\bNFTs?\b|\barena\b"),
+    ("Dev tools", r"\bSDK\b|\bAPI\b|\bdevelopers?\b|\binfrastructure\b|\bRPC\b|\bCLI\b|\bopen[- ]source\b"),
+]
+MEME = r"\bmeme\b|\bdog\b|\bcat\b|\bpepe\b|\bfrog\b|\binu\b|\bwojak\b|\bmoon\b|\bape\b|\bcommunity token\b"
+
+
+def narratives(r, sc, xdb):
+    """Up to 3 narrative tags, plus 'Public dev' when a 6-month+ GitHub account names the project's X."""
+    h0, _ = x_info.parse(r.get("twitter"))
+    bio = ((((xdb or {}).get("accounts") or {}).get((h0 or "").lower()) or {}).get("bio") or "")
+    text = " ".join([r.get("name") or "", r.get("description") or "", bio])  # the project's own words only
+    tags = [n for n, rx in NARRATIVES if re.search(rx, text, re.I)]
+    if "AI agents" in tags and "AI" in tags:
+        tags.remove("AI")
+    tags = tags[:3]
+    if not tags and re.search(MEME, " ".join([r.get("name") or "", r.get("description") or ""]), re.I):
+        tags = ["Meme"]
+    owner = (sc.get("repo") or "").split("/")[0].lower()
+    h, _ = x_info.parse(r.get("twitter"))
+    gh_x = (((xdb or {}).get("gh") or {}).get(owner) or {}).get("twitter") or ""
+    m = re.search(r"account (\d+) days old", " ".join(sum(sc.get("reasons", {}).values(), [])))
+    if owner and h and gh_x.lower() == h.lower() and m and int(m.group(1)) >= 180:
+        tags.append("Public dev")
+    return tags
+
+
 def ago(ts):
     """'40 min ago', '5 h ago', '3 days ago'."""
     if not ts:
@@ -1112,6 +1148,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
                   + (" <span class='grp' title='Their repo, website and X never post the token address or mention the token.'>🤐 unclaimed</span>"
                      if unclaimed and not has_unclaimed_flag else ""))
         parts, plus, minus, cap = score_bits(sc)
+        tags = narratives(r, sc, xdb)
         top_plus = re.sub(r"\s*\(.*$", "", plus[0]) if plus else ""
         top_warn = re.split(r"[:(—]", warn_items[0][0])[0].strip()[:60] if warn_items else ""
         verdict = " ".join(x for x in (
@@ -1137,6 +1174,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         <button class="ca" data-ca="{e(a_)}" title="Copy the contract address">{e(a_[:6] + '…' + a_[-4:])} ⧉</button> {badges}</h2>
       <p class="sub">{e(money(r.get('mcap')))} · launched {e(ago(r.get('launched')) or '?')} · {e(r.get('where') or '')}</p>
       <p class="verdict">{verdict}</p>
+      {('<p class="tags">' + ''.join(f'<span class="tag">{e(t)}</span>' for t in tags) + '</p>') if tags else ''}
       <p class="links">{" · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(t)}</a>' for u, t in links)}</p>
     </div>
   </header>
@@ -1173,6 +1211,7 @@ a{{color:var(--accent)}} .new{{font-size:11px;background:var(--accent);color:var
 .dups{{margin:-8px 0 14px 12px}} .dups summary{{font-size:14px}} .dups .card{{opacity:.85}}
 .verdict{{margin:4px 0;font-size:14px}} .verdict .good{{color:var(--hi);margin-right:10px}} .verdict .bad{{color:var(--lo)}} .verdict .muted,.nm{{color:var(--mute)}}
 .nm{{font-weight:400;font-size:16px}} button.ca{{font:12px ui-monospace,Consolas,monospace;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:1px 6px;cursor:pointer;vertical-align:middle}}
+.tags{{margin:4px 0;display:flex;gap:5px;flex-wrap:wrap}} .tag{{font-size:12px;border-radius:10px;padding:0 8px;background:var(--bg);border:1px solid var(--line);color:var(--mute)}}
 .facts{{display:grid;grid-template-columns:max-content 1fr;gap:2px 12px;margin:4px 0;font-size:14px}} .facts dt{{color:var(--mute)}} .facts dd{{margin:0}}
 ul.pm{{list-style:none;padding-left:0;margin:6px 0;font-size:14px}} ul.pm li.p::before{{content:"+ ";color:var(--hi);font-weight:700}} ul.pm li.m::before{{content:"– ";color:var(--lo);font-weight:700}}
 .more>summary{{margin-top:6px}} .more h4{{margin:14px 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)}}

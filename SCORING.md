@@ -89,7 +89,7 @@ Both scores give a **+5 bonus** when the project works with a token that already
 
 ## Card layout (5 Nov)
 
-Closed, each card is four lines: score, name, a **click-to-copy contract address**, badges; value · launched how long ago · where it trades; one ✅ main plus and one ⚠️ main warning (+N more); links. **Details** opens, always in this order: Quick facts (market, X, GitHub or website, launch wallet, status), Warnings (each once, ×N for repeats), Score (points per part, cap, top pluses and misses), About, and Full evidence (every reason line). NEW means launched in the last 24 hours. Same-name tokens are folded under the best-scoring one.
+Closed, each card is four lines: score, name, a **click-to-copy contract address**, badges; value · launched how long ago · where it trades; one ✅ main plus and one ⚠️ main warning (+N more); links. **Details** opens, always in this order: Quick facts (market, X, GitHub or website, launch wallet, status), Warnings (each once, ×N for repeats), Score (points per part, cap, top pluses and misses), About, and Full evidence (every reason line). NEW means launched in the last 24 hours. **Narrative tags** under the warnings line (display only, never scored): up to 3 of AI agents, AI, Privacy, Stocks / RWA, DeFi, Launchpad, Payments, Prediction, Gaming / NFT, Dev tools, Meme — from the project's own words (name, description, X bio) — plus **Public dev** when a GitHub account at least 6 months old names the project's X. Same-name tokens are folded under the best-scoring one.
 
 ## Ghost market warning (added 5 Nov, warning only)
 
