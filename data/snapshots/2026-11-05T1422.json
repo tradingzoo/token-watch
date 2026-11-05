@@ -1,0 +1,120 @@
+{
+ "taken_utc": "2026-11-05T14:22:14+00:00",
+ "tokens": {
+  "LMNI": {
+   "source": "dexscreener",
+   "mcap": 14932,
+   "price": 1.605e-05,
+   "liquidity": 11445.11,
+   "vol24": 144743.87
+  },
+  "OAK": {
+   "source": "dexscreener",
+   "mcap": 661050,
+   "price": 0.0006637,
+   "liquidity": 73586.12,
+   "vol24": 231886.04
+  },
+  "BARRAGE": {
+   "source": "pons",
+   "mcap": 3881.68723451914,
+   "price": 3.88168723451914e-06,
+   "stage": "curve",
+   "trades_total": 65,
+   "vol_total": 2881.9958320258706
+  },
+  "FLOEM": {
+   "source": "pons",
+   "mcap": 3876.43127295584,
+   "price": 3.87643127295584e-06,
+   "stage": "curve",
+   "trades_total": 4,
+   "vol_total": 50.171404509953746
+  },
+  "RULERS": {
+   "source": "pons",
+   "mcap": 3961.1623063592197,
+   "price": 3.96116230635922e-06,
+   "stage": "curve",
+   "trades_total": 88,
+   "vol_total": 18347.946604723937
+  },
+  "HOOKR": {
+   "source": "dexscreener",
+   "mcap": 19596022,
+   "price": 0.01973,
+   "liquidity": 1075890.07,
+   "vol24": 286106.96
+  },
+  "WTH": {
+   "source": "dexscreener",
+   "mcap": 6270267,
+   "price": 30.33,
+   "liquidity": 788728.95,
+   "vol24": 283627.03
+  },
+  "PRIORS": {
+   "source": "dexscreener",
+   "mcap": 11558076,
+   "price": 0.01155,
+   "liquidity": 1239573.42,
+   "vol24": 166898.46
+  },
+  "FOBO": {
+   "source": "dexscreener",
+   "mcap": 2401622,
+   "price": 0.002409,
+   "liquidity": 1689948.63,
+   "vol24": 128493.34
+  },
+  "RAETO": {
+   "source": "dexscreener",
+   "mcap": 2708018,
+   "price": 0.002708,
+   "liquidity": 154959.07,
+   "vol24": 53942.62
+  },
+  "GF": {
+   "source": "dexscreener",
+   "mcap": 2745954,
+   "price": 0.00299,
+   "liquidity": 140620.76,
+   "vol24": 7881.25
+  },
+  "microduck": {
+   "source": "dexscreener",
+   "mcap": 5615277,
+   "price": 0.005615,
+   "liquidity": 193777.68,
+   "vol24": 29572.19
+  },
+  "ORBIO": {
+   "source": "dexscreener",
+   "mcap": 27884356,
+   "price": 0.02935,
+   "liquidity": 645235.97,
+   "vol24": 503563.76
+  },
+  "HARMONIC": {
+   "source": "dexscreener",
+   "mcap": 1881500,
+   "price": 0.002093,
+   "liquidity": 130821.2,
+   "vol24": 101481.83
+  },
+  "BOW": {
+   "source": "dexscreener",
+   "mcap": 4095309,
+   "price": 0.004095,
+   "liquidity": 167266.14,
+   "vol24": 13485.24
+  },
+  "WIF": {
+   "source": "dexscreener",
+   "mcap": 1478925,
+   "price": 0.001479,
+   "liquidity": 109850.17,
+   "vol24": 105587.23
+  }
+ }
+}
