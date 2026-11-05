@@ -1298,7 +1298,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         (site_cards if is_site else cards).append((r.get("symbol") or "?", sc["score"], f"""
 <article class="card" data-score="{sc['score']}" data-new="{int(new)}">
   <header>
-    <div class="score {band}">{sc['score']}<small>/100</small></div>
+    <div class="score {band}" style="--p:{sc['score']}">{sc['score']}<small>/ 100</small></div>
     <div class="title">
       <h2>{e(r.get('symbol') or '?')} <span class="nm">· {e(r.get('name') or '')}</span>
         <button class="ca" data-ca="{e(a_)}" title="Copy the contract address">{e(a_[:6] + '…' + a_[-4:])} ⧉</button> {badges}</h2>
@@ -1327,42 +1327,88 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="refresh" content="420"><title>Token Watch</title>
 <style>
-:root{{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1b;--mute:#6b6b66;--line:#e4e4df;--hi:#1f7a4d;--mid:#a86b00;--lo:#b3372f;--flag:#fdecea;--accent:#2f5bd3}}
-@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#151614;--card:#1e1f1c;--ink:#ecebe6;--mute:#9c9b94;--line:#33342f;--hi:#4cc38a;--mid:#e0a63a;--lo:#ef7a6f;--flag:#3a2220;--accent:#8aa8ff}}}}
-body{{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}}
-main{{max-width:860px;margin:0 auto;padding:20px 16px 60px}}
-h1{{font-size:22px;margin:0 0 4px}} .top{{color:var(--mute);margin:0 0 16px}}
-.bar{{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}} .bar button{{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:6px 12px;cursor:pointer}}
-.bar button.on{{border-color:var(--accent);color:var(--accent)}}
-.card{{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}}
-.card header{{display:flex;gap:14px;align-items:flex-start}}
-.score{{font-size:30px;font-weight:700;min-width:78px;text-align:center;border-radius:10px;padding:6px 4px;border:2px solid}}
-.score small{{font-size:13px;font-weight:400;color:var(--mute)}} .hi{{color:var(--hi)}} .mid{{color:var(--mid)}} .lo{{color:var(--lo)}}
-h2{{margin:0;font-size:19px}} .sub,.meta{{color:var(--mute);margin:2px 0;font-size:13px}} .links{{margin:4px 0 0;font-size:13px}}
-a{{color:var(--accent)}} .new{{font-size:11px;background:var(--accent);color:var(--card);border-radius:5px;padding:1px 6px;vertical-align:middle}}
-.flag{{background:var(--flag);border-radius:8px;padding:6px 10px;margin:10px 0 0;font-size:14px}}
-.why{{border-left:3px solid var(--line);padding:4px 0 4px 10px;margin:8px 0}} .why ul{{margin:4px 0 0;font-size:14px}}
-.chips{{display:flex;flex-wrap:wrap;gap:5px;align-items:center;font-size:13px}} .chip{{border:1px solid var(--line);border-radius:6px;padding:0 6px}}
-.chip.zero{{color:var(--mute)}} .why .cap{{margin:4px 0 0;font-size:13px;color:var(--mid)}}
-.dups{{margin:-8px 0 14px 12px}} .dups summary{{font-size:14px}} .dups .card{{opacity:.85}}
-.verdict{{margin:4px 0;font-size:14px}} .verdict .good{{color:var(--hi);margin-right:10px}} .verdict .bad{{color:var(--lo)}} .verdict .muted,.nm{{color:var(--mute)}}
-.nm{{font-weight:400;font-size:16px}} button.ca{{font:12px ui-monospace,Consolas,monospace;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:1px 6px;cursor:pointer;vertical-align:middle}}
-table.sc{{border-collapse:collapse;margin:4px 0 8px;font-size:14px}} table.sc td,table.sc th{{border-bottom:1px solid var(--line);padding:3px 12px 3px 0;text-align:left}} .muted{{color:var(--mute);font-size:13px}}
-.signs{{margin:4px 0;font-size:13px;color:var(--hi);font-weight:600}} .tags{{margin:4px 0;display:flex;gap:5px;flex-wrap:wrap}} .tag{{font-size:12px;border-radius:10px;padding:0 8px;background:var(--bg);border:1px solid var(--line);color:var(--mute)}}
-.facts{{display:grid;grid-template-columns:max-content 1fr;gap:2px 12px;margin:4px 0;font-size:14px}} .facts dt{{color:var(--mute)}} .facts dd{{margin:0}}
-ul.pm{{list-style:none;padding-left:0;margin:6px 0;font-size:14px}} ul.pm li.p::before{{content:"+ ";color:var(--hi);font-weight:700}} ul.pm li.m::before{{content:"– ";color:var(--lo);font-weight:700}}
-.more>summary{{margin-top:6px}} .more h4{{margin:14px 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)}}
-.desc{{margin:10px 0 6px}} summary{{cursor:pointer;color:var(--accent)}} h4{{margin:12px 0 2px;font-size:14px}}
-.xline{{margin:8px 0 0;font-size:13px;color:var(--mute)}} .ship{{color:var(--ink)}}
-.test h2{{margin:0 0 4px}} table.sum{{border-collapse:collapse;width:100%;font-size:13px;margin:10px 0;display:block;overflow-x:auto}}
-.sum th,.sum td{{border-bottom:1px solid var(--line);padding:5px 8px;text-align:left;vertical-align:top}} .sum th{{color:var(--mute);font-weight:500}}
-.trow{{border-top:1px solid var(--line);padding:8px 0}} .trow summary{{color:var(--ink);font-size:14px}} .trow summary b{{margin-right:4px}}
-.kv{{color:var(--mute);font-size:13px;margin-left:8px;white-space:nowrap}} .kv.warn{{color:var(--lo)}}
-.grp{{font-size:11px;border:1px solid var(--line);border-radius:5px;padding:0 5px;color:var(--mute)}} .grp.watch{{color:var(--accent);border-color:var(--accent)}} .grp.benchmark{{color:var(--hi);border-color:var(--hi)}}
-.tabs{{position:sticky;top:0;z-index:5;display:flex;gap:6px;overflow-x:auto;background:var(--bg);padding:8px 0;margin:6px 0 4px;border-bottom:1px solid var(--line)}}
-.tabs a{{flex:none;text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--card);border-radius:8px;padding:6px 12px;font-size:14px;white-space:nowrap}}
-.tabs a.on{{border-color:var(--accent);color:var(--accent);font-weight:600}} .cnt{{font-size:12px;color:var(--mute)}}
-ul{{margin:0;padding-left:20px}} button.wrong{{font-size:12px;border:1px solid var(--line);background:none;color:var(--mute);border-radius:6px;padding:1px 8px;cursor:pointer;margin-right:6px}} li{{margin:2px 0}} code{{font-size:13px}}
+/* Design system, 5 Nov 2026. Built on:
+   - Type: modular scale, ratio 1.25 (major third) from 15px: 12 / 15 / 18.75 / 23.4 / 29.3 (Bringhurst, Elements of Typographic Style)
+   - Space: 4px base grid, steps 4 / 8 / 12 / 16 / 24 / 32 / 48 (8-point grid; Mueller-Brockmann, Grid Systems)
+   - Measure: body text capped at about 68 characters (Bringhurst: 45-75)
+   - Colour: OKLCH, so equal lightness looks equal; one cool neutral hue for greys; every text colour passes WCAG AA 4.5:1
+   - Hierarchy by weight and colour before size; fewer borders, more space (Refactoring UI)
+   - Numbers in tabular figures so columns line up; ink only where it carries data (Tufte)
+   - Score ring: the arc is the score, so the shape carries the number
+   - Nested corners: inner radius = outer radius minus padding */
+:root{{--bg:#f5f7f9;--card:#fff;--ink:#171b20;--mute:#5f646a;--line:#dfe1e5;--soft:#edf0f4;--accent:#3263c3;--hi:#007e46;--mid:#9a6100;--lo:#ba3630;--flag:#ffece9;--goodbg:#e3f8e9;
+--t-1:12px;--t0:15px;--t1:18.75px;--t2:23.4px;--t3:29.3px;
+--s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--r:12px;
+--shadow:0 1px 2px rgb(16 24 40/.05),0 1px 3px rgb(16 24 40/.06)}}
+@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#0d1013;--card:#15191d;--ink:#e8ebef;--mute:#a0a5ac;--line:#2a2e34;--soft:#1e2226;--accent:#7daafd;--hi:#5ccb89;--mid:#eeb154;--lo:#f47c70;--flag:#381f1c;--goodbg:#132a1b;--shadow:none}}}}
+:root[data-theme="dark"]{{--bg:#0d1013;--card:#15191d;--ink:#e8ebef;--mute:#a0a5ac;--line:#2a2e34;--soft:#1e2226;--accent:#7daafd;--hi:#5ccb89;--mid:#eeb154;--lo:#f47c70;--flag:#381f1c;--goodbg:#132a1b;--shadow:none}}
+*{{box-sizing:border-box}}
+body{{margin:0;background:var(--bg);color:var(--ink);font:var(--t0)/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}}
+main{{max-width:880px;margin:0 auto;padding:var(--s6) var(--s4) var(--s7)}}
+h1{{font-size:var(--t3);line-height:1.2;letter-spacing:-.02em;margin:0 0 var(--s2);font-weight:750}}
+h2{{font-size:var(--t1);line-height:1.3;letter-spacing:-.01em;margin:0;font-weight:650}}
+h3{{font-size:var(--t0);margin:var(--s5) 0 var(--s2);font-weight:650}}
+h4{{margin:var(--s4) 0 var(--s1);font-size:var(--t0)}}
+section.tab>h2{{font-size:var(--t2);letter-spacing:-.015em;margin:var(--s5) 0 var(--s2)!important}}
+.top{{color:var(--mute);margin:0 0 var(--s5);max-width:68ch;font-size:14px}}
+a{{color:var(--accent);text-decoration:none}} a:hover{{text-decoration:underline;text-underline-offset:2px}}
+code{{font:13px ui-monospace,"SF Mono",Consolas,monospace;background:var(--soft);border-radius:4px;padding:0 4px}}
+ul{{margin:0;padding-left:20px}} li{{margin:2px 0}}
+.tabs{{position:sticky;top:0;z-index:5;display:flex;gap:var(--s1);overflow-x:auto;scrollbar-width:none;background:color-mix(in oklab,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:var(--s3) 0;margin:var(--s3) 0 var(--s2);border-bottom:1px solid var(--line)}}
+.tabs a{{flex:none;color:var(--mute);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:550;white-space:nowrap}}
+.tabs a:hover{{background:var(--soft);color:var(--ink);text-decoration:none}}
+.tabs a.on{{background:var(--ink);color:var(--card)}} .tabs a.on .cnt{{color:inherit;opacity:.7}}
+.cnt{{font-size:var(--t-1);color:var(--mute);font-variant-numeric:tabular-nums;margin-left:2px}}
+.bar{{display:flex;gap:var(--s1);flex-wrap:wrap;margin:0 0 var(--s4);padding:var(--s1);background:var(--soft);border-radius:10px;width:fit-content}}
+.bar button{{border:0;background:none;color:var(--mute);border-radius:6px;padding:6px 12px;cursor:pointer;font:inherit;font-size:14px;font-weight:550}}
+.bar button.on{{background:var(--card);color:var(--ink);box-shadow:var(--shadow)}}
+.card{{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:var(--s4) var(--s5);margin-bottom:var(--s3);box-shadow:var(--shadow);transition:border-color .15s}}
+.card:hover{{border-color:color-mix(in oklab,var(--line) 50%,var(--mute))}}
+.card header{{display:flex;gap:var(--s4);align-items:flex-start}}
+.title{{min-width:0;flex:1}}
+.score{{--p:0;flex:none;width:64px;height:64px;border-radius:50%;display:grid;place-content:center;text-align:center;font-size:var(--t1);font-weight:750;line-height:1;font-variant-numeric:tabular-nums;
+ background:radial-gradient(closest-side,var(--card) 84%,transparent 85%),conic-gradient(currentColor calc(var(--p)*1%),var(--soft) 0)}}
+.score small{{display:block;font-size:10px;font-weight:500;color:var(--mute);margin-top:3px;letter-spacing:.02em}}
+.hi{{color:var(--hi)}} .mid{{color:var(--mid)}} .lo{{color:var(--lo)}}
+.card h2{{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s1) var(--s2)}}
+.nm{{font-weight:450;font-size:var(--t0);color:var(--mute)}}
+.sub,.meta{{color:var(--mute);margin:2px 0;font-size:13px;font-variant-numeric:tabular-nums}}
+.links{{margin:var(--s2) 0 0;font-size:13px;font-weight:550}}
+.verdict{{margin:var(--s2) 0 0;font-size:14px;display:flex;flex-wrap:wrap;gap:var(--s1) var(--s3)}}
+.verdict .good{{color:var(--hi)}} .verdict .bad{{color:var(--lo)}} .verdict .muted{{color:var(--mute)}}
+.signs{{margin:var(--s2) 0 0;font-size:13px;color:var(--hi);font-weight:600;background:var(--goodbg);border-radius:6px;padding:2px var(--s2);width:fit-content;max-width:100%}}
+.tags{{margin:var(--s2) 0 0;display:flex;gap:var(--s1);flex-wrap:wrap}}
+.tag{{font-size:var(--t-1);font-weight:550;border-radius:999px;padding:1px 10px;background:var(--soft);color:var(--mute)}}
+.new{{font-size:11px;font-weight:700;letter-spacing:.04em;background:var(--accent);color:var(--card);border-radius:999px;padding:1px 8px}}
+.grp{{font-size:var(--t-1);font-weight:550;border:1px solid var(--line);border-radius:999px;padding:0 8px;color:var(--mute)}}
+.grp.watch{{color:var(--accent);border-color:var(--accent)}} .grp.benchmark{{color:var(--hi);border-color:var(--hi)}}
+button.ca{{font:12px ui-monospace,"SF Mono",Consolas,monospace;border:1px solid var(--line);background:var(--soft);color:var(--mute);border-radius:6px;padding:1px 8px;cursor:pointer}}
+button.ca:hover{{color:var(--ink);border-color:var(--mute)}}
+summary{{cursor:pointer;color:var(--accent);font-weight:550;font-size:14px;list-style:none}} summary::-webkit-details-marker{{display:none}}
+summary::before{{content:"\\203A";display:inline-block;width:1em;transition:transform .15s}} details[open]>summary::before{{transform:rotate(90deg)}}
+.more{{margin-top:var(--s3);border-top:1px solid var(--line);padding-top:var(--s2)}}
+.more h4{{margin:var(--s5) 0 var(--s2);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--mute)}}
+.facts{{display:grid;grid-template-columns:max-content 1fr;gap:var(--s1) var(--s4);margin:0;font-size:14px;font-variant-numeric:tabular-nums}} .facts dt{{color:var(--mute)}} .facts dd{{margin:0}}
+.flag{{background:var(--flag);border-radius:8px;padding:var(--s2) var(--s3);margin:var(--s2) 0 0;font-size:14px}}
+.chips{{display:flex;flex-wrap:wrap;gap:var(--s1);font-size:13px;font-variant-numeric:tabular-nums}}
+.chip{{background:var(--soft);border-radius:6px;padding:1px 8px;font-weight:550}} .chip.zero{{color:var(--mute);font-weight:450}}
+.cap,.why .cap{{margin:var(--s2) 0 0;font-size:13px;color:var(--mid)}}
+ul.pm{{list-style:none;padding-left:0;margin:var(--s2) 0;font-size:14px}} ul.pm li{{padding-left:18px;text-indent:-18px}}
+ul.pm li.p::before{{content:"+";display:inline-block;width:18px;text-indent:0;color:var(--hi);font-weight:700}} ul.pm li.m::before{{content:"\\2013";display:inline-block;width:18px;text-indent:0;color:var(--lo);font-weight:700}}
+.desc{{margin:0;max-width:68ch}}
+.why{{border-left:2px solid var(--line);padding:var(--s1) 0 var(--s1) var(--s3);margin:var(--s2) 0}} .why ul{{margin:var(--s1) 0 0;font-size:14px}}
+.dups{{margin:calc(-1*var(--s1)) 0 var(--s4) var(--s4)}} .dups>summary{{margin-bottom:var(--s2)}} .dups .card{{opacity:.88}}
+.xline{{margin:var(--s2) 0 0;font-size:13px;color:var(--mute)}} .ship{{color:var(--ink)}}
+.muted{{color:var(--mute);font-size:13px}}
+table.sc{{border-collapse:collapse;margin:var(--s2) 0 var(--s3);font-size:14px;font-variant-numeric:tabular-nums}}
+table.sc td,table.sc th{{border-bottom:1px solid var(--line);padding:6px var(--s4) 6px 0;text-align:left}} table.sc th{{color:var(--mute);font-weight:550;font-size:13px}}
+.test h2{{margin:0 0 var(--s1)}}
+table.sum{{border-collapse:collapse;width:100%;font-size:13px;margin:var(--s3) 0;display:block;overflow-x:auto;font-variant-numeric:tabular-nums}}
+.sum th,.sum td{{border-bottom:1px solid var(--line);padding:6px var(--s2);text-align:left;vertical-align:top}} .sum th{{color:var(--mute);font-weight:550}}
+.trow{{border-top:1px solid var(--line);padding:var(--s2) 0}} .trow summary{{color:var(--ink);font-size:14px;font-weight:450}} .trow summary b{{margin-right:var(--s1)}}
+.kv{{color:var(--mute);font-size:13px;margin-left:var(--s2);white-space:nowrap;font-variant-numeric:tabular-nums}} .kv.warn{{color:var(--lo)}}
+button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);background:none;color:var(--mute);border-radius:6px;padding:1px 8px;cursor:pointer;margin-right:6px}}
+@media (max-width:600px){{main{{padding:var(--s5) var(--s4) var(--s7)}} h1{{font-size:var(--t2)}} .card{{padding:var(--s4)}} .card header{{gap:var(--s3)}} .score{{width:52px;height:52px;font-size:var(--t0)}} .score small{{display:none}} .dups{{margin-left:0}}}}
 </style></head><body><main>
 <h1>Token Watch</h1>
 <nav class="tabs" id="tabs">
