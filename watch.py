@@ -12,11 +12,12 @@ Hand-checked findings go in reviews.json and replace the script's guesses.
 import json, os, re, subprocess, shutil, sys, time, datetime, html, urllib.request, urllib.parse
 from collections import Counter
 import statistics
-import x_info, deployers, test_tokens, prices, shipping, sitecheck, dexpools
+import x_info, deployers, test_tokens, prices, shipping, sitecheck, dexpools, notify
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "data", "watch_state.json")
 SITE = os.path.join(HERE, "site", "index.html")
+SITE_URL = "https://tradingzoo.github.io/token-watch/"
 REVIEWS = os.path.join(HERE, "reviews.json")
 LOG = os.path.join(HERE, "last_watch.txt")
 UA = "Mozilla/5.0 (robinhood-scan research script)"
@@ -1078,14 +1079,24 @@ def winner_signs(r, sc):
     ) if ok]
 
 
-def shortlist_html(picks, e):
-    """picks: (row, sc, warnings, market, signs, card_html). Gates: real and theirs, no warnings, trading for real."""
+def shortlist_live(picks):
+    """(live, early): the Shortlist proper and the riskier 'passes everything but trading' list."""
     good = [p for p in picks if len(p[4]) >= SHORT_SIGNS]
     live = [p for p in good if (p[3].get("trades24") or 0) >= SHORT_TRADES and (p[3].get("liq") or 0) >= SHORT_LIQ]
-    early = [p for p in good if p not in live]
+    return live, [p for p in good if p not in live]
+
+
+def shortlist_html(picks, e, joined=None):
+    """picks: (row, sc, warnings, market, signs, card_html). Gates: real and theirs, no warnings, trading for real.
+    joined: {address: when it joined}, for the 'joined the list' tag (first 24h)."""
+    live, early = shortlist_live(picks)
+    joined = joined or {}
     order = lambda ps: sorted(ps, key=lambda p: (-len(p[4]), -p[1]["score"]))
+    def tag(p):
+        j = joined.get(p[0]["address"].lower())
+        return f"<span class='joined'>🆕 joined the list {e(ago(j))}</span> " if j and days_between(NOW, iso(j)) < 1 else ""
     def block(ps):
-        return "".join(p[5].replace('<p class="verdict">', '<p class="signs">✅ ' + e(" · ".join(p[4])) + '</p><p class="verdict">', 1)
+        return "".join(p[5].replace('<p class="verdict">', '<p class="signs">' + tag(p) + '✅ ' + e(" · ".join(p[4])) + '</p><p class="verdict">', 1)
                        for p in order(ps))
     return (f"<h2 style='margin:22px 0 6px'>Shortlist: where to look first</h2>"
             f"<p class='top'>Every token here passes all of these: it's the team's own token (they post its address or mention it), "
@@ -1323,6 +1334,13 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         if sc["score"] > 0 and not unclaimed and not warn_items and r["address"].lower() not in {p[0]["address"].lower() for p in picks}:
             picks.append((r, sc, warn_items, (pdb.get(a_.lower()) or {}).get("market") or {}, winner_signs(r, sc),
                           (site_cards if is_site else cards)[-1][2]))
+    try:  # phone alert for tokens joining the Shortlist (notify.py); never stops the page
+        joined = notify.update([{"address": p[0]["address"], "symbol": p[0].get("symbol") or "?", "name": p[0].get("name") or "",
+                                 "score": p[1]["score"], "mcap": (pdb.get(p[0]["address"].lower()) or {}).get("now_mcap") or p[0].get("mcap"),
+                                 "signs": p[4]} for p in shortlist_live(picks)[0]], NOW, money, SITE_URL, print)
+    except Exception as ex:
+        print(f"Alert: skipped ({ex})")
+        joined = {}
     cards, site_cards = fold_copies(cards, e), fold_copies(site_cards, e)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="refresh" content="420"><title>Token Watch</title>
@@ -1377,6 +1395,7 @@ ul{{margin:0;padding-left:20px}} li{{margin:2px 0}}
 .verdict{{margin:var(--s2) 0 0;font-size:14px;display:flex;flex-wrap:wrap;gap:var(--s1) var(--s3)}}
 .verdict .good{{color:var(--hi)}} .verdict .bad{{color:var(--lo)}} .verdict .muted{{color:var(--mute)}}
 .signs{{margin:var(--s2) 0 0;font-size:13px;color:var(--hi);font-weight:600;background:var(--goodbg);border-radius:6px;padding:2px var(--s2);width:fit-content;max-width:100%}}
+.joined{{background:var(--accent);color:var(--card);border-radius:4px;padding:0 6px;margin-right:6px;font-weight:700}}
 .tags{{margin:var(--s2) 0 0;display:flex;gap:var(--s1);flex-wrap:wrap}}
 .tag{{font-size:var(--t-1);font-weight:550;border-radius:999px;padding:1px 10px;background:var(--soft);color:var(--mute)}}
 .new{{font-size:11px;font-weight:700;letter-spacing:.04em;background:var(--accent);color:var(--card);border-radius:999px;padding:1px 8px}}
@@ -1421,7 +1440,7 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <a href="#scores" data-tab="scores">Was the score right?</a>
 </nav>
 <p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
-<section class="tab" id="short">{shortlist_html(picks, e)}</section>
+<section class="tab" id="short">{shortlist_html(picks, e, joined)}</section>
 <section class="tab" id="building">{building_html(builders, e)}</section>
 <section class="tab" id="sites">
 <h2 style="margin:22px 0 6px">Site check: tokens whose website lets developers and AI agents plug in</h2>

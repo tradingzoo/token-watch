@@ -38,6 +38,10 @@ jobs:
       - name: GitHub watch (watch.py)
         env:
           GH_TOKEN: ${{ github.token }}
+          # Shortlist phone alerts (notify.py). Empty = off. Set in Settings > Secrets and variables > Actions.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python -X utf8 watch.py
 
       # 30-day test check, once an hour (more runs = better record of each token's highest point)

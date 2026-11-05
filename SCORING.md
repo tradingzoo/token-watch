@@ -159,3 +159,6 @@ Teams that keep working, whatever the price does. A token is listed when all of 
 - Its GitHub has real changes (bots don't count) on at least 3 different days out of the last 8, the latest within 3 days.
 
 Data comes from the still-shipping check (shipping.py). Teams with no public code can't show up yet.
+
+## Shortlist alerts (5 Nov)
+notify.py sends a phone alert (Telegram and/or ntfy, set as GitHub secrets) when a token joins the Shortlist, with its score, value, signs, contract address and DexScreener link. A token that drops off and returns after 24h+ away is announced again as "back"; shorter dips stay quiet. Tokens already on the list when alerts started don't alert. On the page, a token that joined in the last 24h shows "🆕 joined the list".
