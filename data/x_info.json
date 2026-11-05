@@ -1889,7 +1889,9 @@
   "trenchersio": {
    "handle": "trenchersio",
    "found": false,
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T09:30:29+00:00",
+   "cas": [],
+   "fake_posts": []
   },
   "vigilhqxyz": {
    "handle": "vigilhqxyz",
@@ -1979,7 +1981,9 @@
   "hyperdex_app": {
    "handle": "hyperdex_app",
    "found": false,
-   "checked": "2026-11-05T09:18:38+00:00"
+   "checked": "2026-11-05T09:30:29+00:00",
+   "cas": [],
+   "fake_posts": []
   },
   "belldexfi": {
    "handle": "BELLdexFi",
@@ -2130,6 +2134,358 @@
     ""
    ],
    "checked": "2026-11-05T09:18:38+00:00"
+  },
+  "rf_cruz": {
+   "handle": "RF_CRUZ",
+   "found": true,
+   "id": "62711678",
+   "name": "fomochud",
+   "joined": "2009-08-04T03:56:04+00:00",
+   "followers": 168,
+   "following": 6,
+   "posts": 1397,
+   "verified": null,
+   "last_post": "2026-11-04T03:33:08+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 0.3,
+   "avg_views": 40,
+   "bio_site": null,
+   "bio": "",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "woke is",
+    "wokeland",
+    "hi",
+    "ass image https://x.com/terrythedevv/status/2110441764725387451",
+    "otc with wif and spy https://x.com/i/status/2110440606711345270",
+    "image? https://x.com/bonk_inu/status/2110426307565899788",
+    "charity https://x.com/zumpsol/status/2110418527161114926",
+    "double T not triple tung tung tung sahur is triple t this is timmy timmy so double https://x.com/MEADGod/status/2110413749962064193",
+    "worms coin is better https://x.com/grok/status/2110397863205196212",
+    "the one running literally makes no sense \"replies world record\" https://x.com/i/status/2110389785487385076",
+    "why is it green X is black and white https://x.com/GWR/status/2110388510129582360",
+    "the meme is reply guy https://x.com/GWR/status/2110388510129582360",
+    "its all about love, not memecoins https://x.com/meggarwicky/status/2110387554012786764",
+    "nga that is not elon musk + no liq on the pump one your just raping yourself https://x.com/yatsutes/status/2110375008551981237",
+    "should be \"Tail Me In\" https://x.com/lana_goat/status/2110368201183793483",
+    "should just be bread bread, thats the one we run every time also the pic running is toast https://x.com/fearonchain/status/2110367017094283514",
+    "charity? https://x.com/i/status/2110366518957777025",
+    "read https://x.com/RF_CRUZ/status/2110196333109714946",
+    "not space, cosmic https://x.com/dv3333333/status/2110194031401558349"
+   ],
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "perlacompute": {
+   "handle": "perlacompute",
+   "found": true,
+   "id": "2114801295198400513",
+   "name": "Perla Compute",
+   "joined": "2026-10-26T19:29:37+00:00",
+   "followers": 3,
+   "following": 5,
+   "posts": 10,
+   "verified": "individual",
+   "last_post": "2026-11-05T09:24:36+00:00",
+   "sample": 9,
+   "sample_full_week": false,
+   "posts_7d": 8,
+   "avg_likes": 0.9,
+   "avg_views": 33,
+   "bio_site": "http://perlacompute.xyz",
+   "bio": "Perla is a GPU mining platform designed to reshape the economics of AI compute.",
+   "cas": [],
+   "fake_posts": [
+    "We are not launching the $PERL token yet. Beware of fake contract addresses, impersonators, and unauthorized token launches. Any CA circulating before our official announcement is not associated with  (Nov 05 09:24 UTC)"
+   ],
+   "texts": [
+    "We are not launching the $PERL token yet. Beware of fake contract addresses, impersonators, and unauthorized token launches. Any CA circulating before our official announcement is not associated with Perla Compute. Our official launch is scheduled for November 5 at 10:00 UTC. Only trust announcement",
+    "Perla Compute is preparing for mainnet. GPU-powered compute, verifiable contributions, and onchain $PERL rewards are coming to Robinhood Chain. Mainnet launch is scheduled for November 5 at 10:00 UTC. Get your GPUs ready. https://perlacompute.xyz",
+    "Perla mining is live on Robinhood Testnet. Create or reconnect your GPU worker and start contributing. Qualifying reward rounds unlock $PERL allocations, claimable once funded. Get started: https://perlacompute.xyz/platform/setup",
+    "Perla\u2019s first earned GPU mining payout on Robinhood Testnet is confirmed. A qualifying round produced a funded allocation, and 1,532.5703 $PERL reached the worker\u2019s reward wallet. Verified onchain: https://explorer.testnet.chain.robinhood.com/tx/0xa6e376f0e7562251e19939307e1d3a82a4e0698768333058e3c1",
+    "We\u2019re testing round-based $PERL rewards. Accepted shares track contributions. A proof meeting the harder round target unlocks a reward, split in proportion to recent verified work. Claims require a funded allocation. Public mining is not live yet.",
+    "Perla worker updates are on GitHub. Move GPU hosts with owner-wallet approval while keeping your Worker ID, reward wallet and accepted work history. The updates fix native startup after reconnecting and improve connection recovery. Mining is not live yet. https://github.com/perlacompute/perla-comput",
+    "Perla separates GPU computation from proof verification. Workers run matrix workloads against assigned challenges. Each proof is checked before points are credited, and each job can be credited only once. https://github.com/perlacompute/perla-compute",
+    "Perla makes GPU contributions traceable. Workers run matrix workloads and submit proofs for verification. Accepted shares earn contribution points and a record in the Proof Explorer, so miners can inspect the work credited to their wallet. https://perlacompute.xyz",
+    "Introducing Perla. We\u2019re building a GPU mining network for AI compute on Robinhood Chain. Our first focus is making accepted contributions traceable, so miners can see which work counts and how rewards are calculated. https://perlacompute.xyz"
+   ],
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "perpsons": {
+   "handle": "perpsons",
+   "found": true,
+   "id": "2118002805407662080",
+   "name": "Perpsons",
+   "joined": "2026-11-04T15:33:56+00:00",
+   "followers": 147,
+   "following": 5,
+   "posts": 69,
+   "verified": "individual",
+   "last_post": "2026-11-05T09:30:00+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 1.6,
+   "avg_views": 86,
+   "bio_site": "https://perpsons.com/",
+   "bio": "The infrastructure for onchain perpetual markets. Trade crypto, stocks, and ETFs in one unified ecosystem.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Trading bots on Perpsons can never withdraw your funds. Pick a bot \u2192 bind a sub-account \u2192 fund it. The bot trades only that sub-account, inside its leverage and market limits. Stop it any time. Builders: the bot registry is open. https://perpsons.com/bots",
+    "How a price gets onchain on Perpsons: 1. Quotes from Coinbase, Kraken, Bitstamp, Hyperliquid & Yahoo 2. Median per market, signed every 10s 3. Signature verified onchain in your trade tx 4. Must sit within 1% of Chainlink Full details in the docs.",
+    "Five order types on Perpsons, one line each: Market \u2192 fills at the next signed price after you click Limit \u2192 buy at or below, sell at or above your price Stop market \u2192 triggers past your level, fills at market Take profit \u2192 closes at your target, reduce-only Stop loss \u2192 closes at your floor, reduce-",
+    "Did you know? On Perpsons, the PLP vault is the counterparty to every trade. LPs deposit USDG and earn from trader losses, net funding, leftover liquidation equity and 30% of trading fees. Deposits unlock after 4 days. LPs take on trader PnL risk too.",
+    "Trading bots on Perpsons can trade for you. They can never withdraw. \u2192 A bot is bound to one of your sub-accounts \u2192 It trades only that sub-account, within its max leverage and allowed markets \u2192 The fee is paid up front in USDG. Unsubscribe any time. Perpsons doesn't review bots, so fund that sub-ac",
+    "Home of memestocks on Pons. Home of memestock perps on Perpsons. $GME is live at up to 20x, long or short, margined in USDG. https://x.com/ponsdotfamily/status/2097376102389813274",
+    "Perpsons \u00d7 Pons \ud83c\udd7f\ufe0f Pons is the launchpad side of Robinhood Chain. Perpsons is the trading side: perps on BTC, ETH and 30 US stocks & ETFs, margined in USDG. $PERPSONS launched on the Pons launchpad. Both are built in the Pons family, on the same chain. Launch on Pons. Trade on Perpsons.",
+    "Order types on Perpsons: Market: next signed oracle price, ~10-20s Limit: waits for your price Stop market: triggers, then fills TP/SL: attach to any order Reduce-only: can only shrink a position Execute now: relay slow? Fill it from your own wallet",
+    "Did you know? One wallet can run up to 10 sub-accounts on Perpsons. Each has its own balance, positions and orders, so a 100x BTC scalp and a slow SPY swing never share risk. Sub-accounts have no private key. Only your wallet can fund one, and withdrawals always go back to your wallet.",
+    "Stocks sleep. Perps don't. BTC-USD and ETH-USD trade 24/7 on Perpsons with up to 100x, isolated margin and USDG settlement. https://perpsons.com/trade/BTC",
+    "Every Perpsons market bar shows two prices: Mark \u2192 the live Hyperliquid index. Updates every second, reference only. Oracle \u2192 the signed price your fills, liquidations and margin checks use. Outside NYSE hours they can drift apart: Hyperliquid keeps trading stocks, the oracle holds the last close.",
+    "Stock perps go live at 21:30 WIB tonight. One trade for the open. Which is it? $NVDA $TSLA $AAPL $GME Reply with your side: long or short \ud83d\udc47",
+    "Perpsons is an official project of the @ponsdotfamily ecosystem. Spot Stock Tokens on Pons. Perps on Perpsons. One family building on Robinhood Chain. \ud83c\udd7f\ufe0f",
+    "Why is the Perpsons trading fee exactly 1%? Because the oracle band is exactly 1%. Every signed price has to sit within 1% of that market's Chainlink feed on Robinhood Chain. Open at one edge of the band and close at the other: +2% at most. Fees on both sides: 2%. So even a price at the very edge of",
+    "How far can price move before you're liquidated? 100x: ~0.5% 50x: ~1.5% 20x: ~4.5% 10x: ~9.5% 5x: ~19.5% 2x: ~49.5% Spread, impact and funding pull it closer. Size your positions accordingly.",
+    "Question for the stock traders here: You can hold one perp through tonight's NYSE open (21:30 WIB). Which ticker? NVDA, TSLA, PLTR, MSTR, COIN, or something else from the 30 \ud83d\udc47",
+    "Pick your leverage: 100x on BTC & ETH 50x on ETFs + the 8 largest stocks 20x on 17 more US stocks Every position on isolated margin. Trade with care. https://perpsons.com",
+    "17 seconds on Perpsons. Pick a market, set your leverage, go long or short. Fills land at the next signed price, usually 10 to 20 seconds after you click. BTC & ETH 24/7. Stocks & ETFs every NYSE session. https://perpsons.com",
+    "He said it first. \ud83c\udd7f\ufe0f BTC to NVDA, 32 perp markets, all in your pocket on Robinhood Chain. https://x.com/MEADGod/status/2117483647200530476",
+    "Before your first Perpsons trade, your wallet needs three things: 1. Robinhood Chain (chain id 4663). The app asks your wallet to add it. 2. A little ETH for gas. 3. USDG, the Paxos Global Dollar. Bridged USDC is a different token and can't be deposited. If your internet provider blocks *.robinhood."
+   ],
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "asterrapools": {
+   "handle": "AsterraPools",
+   "found": true,
+   "id": "2116974406455242752",
+   "name": "Asterra Pools",
+   "joined": "2026-11-01T19:24:55+00:00",
+   "followers": 67,
+   "following": 4,
+   "posts": 25,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://asterrapools.tech/",
+   "bio": "The liquidity layer for Robinhood Chain. Dynamic pools, LP positions & smart routing across onchain markets.\n\nCA: 0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d",
+   "cas": [
+    "0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d"
+   ],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "texelrun": {
+   "handle": "texelrun",
+   "found": true,
+   "id": "2110328927776604160",
+   "name": "Texel",
+   "joined": "2026-10-14T11:18:16+00:00",
+   "followers": 60,
+   "following": 16,
+   "posts": 18,
+   "verified": "individual",
+   "last_post": "2026-11-05T07:14:06+00:00",
+   "sample": 17,
+   "sample_full_week": false,
+   "posts_7d": 16,
+   "avg_likes": 5.2,
+   "avg_views": 392,
+   "bio_site": "https://texel.run",
+   "bio": "Pay with any token on Robinhood Chain, and Texel finds the cheapest GPU that fits. Made for you or your agent.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Within 24 hours of this post, Texel credits went live and GPU rental opened. \u2192 Every wallet can buy Texel credits, and each one pays for $1 of outputs at 0.70 USDG. \u2192 Tester wallets can rent GPUs with SSH and Jupyter, and the meter runs by the second. \u2192 Wallets with 1,000 $TEXEL make 50 free images ",
+    "Texel credits are live, and each one buys $1 of outputs for 0.70 USDG. 1,000 $TEXEL opens Billing for your wallet, and Texel pays the gas of every deposit. One signature fills your balance for images, clips, and voice in the Playground.",
+    "$TEXEL is DEX paid. The official CA and links are on its DexScreener page now.",
+    "Free outputs on Texel take three steps. Keep 1,000 $TEXEL in your wallet, sign in on https://texel.run, and press Make. Every day brings 50 free images and 2 free videos.",
+    "Free outputs are live on Texel. Connect a wallet that has 1,000 $TEXEL, and the Playground makes its first 50 images and 2 videos of each day for free.",
+    "Next up: free outputs for every wallet with 1,000 $TEXEL. That wallet will make 50 images with FLUX.1 [schnell] and 2 videos with Pruna Video each day, and its Texel credits stay untouched.",
+    "Gm to every wallet that found $TEXEL before the first GPU rental.",
+    "One prompt became this 5-second video in 22.5 seconds. Pruna Video lists at 0.15 USDG a clip on Texel, and the 30% launch discount brings it to 0.105. The $TEXEL Playground is in private testing now, and Texel credits come next.",
+    "Texel is already making images, video, and voice, and payments open next. Live today: \u2192 The gateway runs FLUX.1 [schnell], Pruna Video, and MiniMax Speech in private testing. \u2192 Anyone can sign in with one wallet signature. \u2192 The first burn took 5.98% of the $TEXEL supply out for good. Coming next: \u2192",
+    "Only one $TEXEL CA is the real one, and it now lives on the Texel website. One tap in the $TEXEL section copies it, so you always paste the right address.",
+    "What happens when an agent can rent its own GPU? It will pay each request with one USDG signature over x402. You set its balance and spend cap, and one switch stops it at any time.",
+    "Texel burned 59,805,861 $TEXEL, 5.98% of the total supply. The tokens sit in the dead address now, and nobody can move them again.",
+    "Your agent needs an H100 SXM for 20 minutes. On Texel it will rent one, run the work, stop it, and pay $1.12.",
+    "Every rate is on the Marketplace page. https://texel.run/marketplace",
+    "Introducing Texel, the onchain GPU cloud on Robinhood Chain. You'll pay with any token, and Texel will route every rental and output to the cheapest GPU that fits. It works the same for you or your agent, with 30% off everything at launch.",
+    "The site is live -> https://texel.run",
+    "The first image just came out of the Texel gateway. Flux Schnell made it in about 20 seconds. The prompt was \"A graphics card on a black desk, lit by a soft holographic glow, studio photo.\""
+   ],
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "rhiablo": {
+   "handle": "rhiablo",
+   "found": true,
+   "id": "2113536458065932289",
+   "name": "RHIABLO",
+   "joined": "2026-10-23T07:42:54+00:00",
+   "followers": 143,
+   "following": 19,
+   "posts": 136,
+   "verified": "individual",
+   "last_post": "2026-11-05T07:50:28+00:00",
+   "sample": 17,
+   "sample_full_week": true,
+   "posts_7d": 17,
+   "avg_likes": 4.2,
+   "avg_views": 179,
+   "bio_site": "http://rhiablo.io",
+   "bio": "Diablo-like idle ARPG on Robinhood Chain. Every token you burn is carved into your share of the fees, for good. Your hero fights alone. The fire remembers.",
+   "cas": [
+    "0x39dbed3a2bd333467115de45665cc57f813c4571"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "\ud83d\udd25 300+ heroes have joined RHIABLO! To celebrate, 5,000,000 $RHIABLO just poured from the Great Vault into the dungeon pots \ud83d\udcb0 Open the map: the deeper you go, the richer the dungeons. Have fun, heroes \u2694\ufe0f https://rhiablo.io",
+    "Patch notes \ud83d\udd28 Server stability upgrades are complete: the lag is fixed. Thank you all for your patience \ud83d\ude4f One more update later today, and with it 5,000,000 $RHIABLO poured into the dungeon pots \ud83d\udd25 Have fun, heroes \u2694\ufe0f https://rhiablo.io",
+    "2nd Heroic Item was found! \ud83d\udd25 The destiny shines upon great adventurers. Tristram's legends grow by the hour.",
+    "Patch notes \ud83d\udd28 \ud83e\uddea Pick your brew at camp: Small \u00b7 2 herbs \u00b7 1h \u00b7 +3% Medium \u00b7 4 herbs \u00b7 1.5h \u00b7 +4% Large \u00b7 7 herbs \u00b7 2h \u00b7 +5% Many cheap or few strong. The dungeon HUD shows each kind left. \ud83d\udcdc The log survives a reload. From players' feedback \ud83d\udd25 https://rhiablo.io",
+    "Look! RHIABLO in cute format! Thanks for TABBY's sharing. Gaming communities stick together! \ud83e\udd1d",
+    "Great introduction for \ud83d\udd25 Let's expand the fire gang \ud83c\udf7b",
+    "\u2728 Today's unique #4: The Unmoved Sill Armor \u00b7 item level 4 When the deep corridor sank, one threshold stayed. One a day, 365 a year. Not sold. Found only in the dungeons. https://rhiablo.io",
+    "Today, we also submitted CoinMarketCap submission. $RHIABLO @CoinMarketCap",
+    "Application submitted. \ud83d\udd25",
+    "Watch elite players conquer the RHIABLO dungeon! \ud83d\udd25",
+    "Today $RHIABLO connected to robinhood:0x39dbed3a2bd333467115de45665cc57f813c4571 via @Uniswap Build the volume together!",
+    "New pool: RHIABLO/PONS is live on Uniswap v4, Robinhood Chain. Hold PONS? Swap straight into $RHIABLO. One more step in building out the market around the token. More to come. Pool ID: 0xa196290f50d7773709c08b526195dc7a015766d8a64b8006cc4c6e966397b67a @ponsdotfamily",
+    "\u2728 Today's unique #3: The Scarwind Dagger \u00b7 item level 4 A bleeding ranger set his last bone blade in a whispering root, begging for home. One a day, 365 a year. Not sold. Found only in the dungeons. https://rhiablo.io",
+    "Market update \ud83d\uded2 You can now filter the market by stat as well as by type: attack, crit, lifesteal, drop rate and more. Pick one and the list sorts by it, highest first. By default, gear that beats what you're wearing comes first, so the upgrades are the first thing you see.",
+    "CoinGecko Listing Submitted. $RHIABLO @coingecko",
+    "First Heroic Belt was found in RHIABLO! Congrats to Wynne Kim!!",
+    "The next generation of gaming belongs on Robinhood \ud83d\udd25"
+   ],
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "borromarkets": {
+   "handle": "Borromarkets",
+   "found": false,
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "touchgrassrwa": {
+   "handle": "TouchGrassRWA",
+   "found": false,
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "tickerspring": {
+   "handle": "tickerspring",
+   "found": true,
+   "id": "2084832896213254144",
+   "name": "Ticker Spring",
+   "joined": "2026-08-05T02:45:36+00:00",
+   "followers": 700,
+   "following": 124,
+   "posts": 259,
+   "verified": "organization",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://tickerspring.com",
+   "bio": "Bringing yield to tokenized stocks. Vaults, trading & lending on Robinhood Chain. \ud83c\udf31 \n\nCreated by @PolyPup\n\nCA: 0x440e339a46eaa3bE8d723c2cBED2A30af74536D5",
+   "cas": [
+    "0x440e339a46eaa3be8d723c2cbed2a30af74536d5"
+   ],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "zokieth": {
+   "handle": "ZokiEth",
+   "found": true,
+   "id": "2096711937392623616",
+   "name": "Zoki | $ZOKI",
+   "joined": "2026-09-06T21:37:20+00:00",
+   "followers": 1021,
+   "following": 42,
+   "posts": 567,
+   "verified": "organization",
+   "last_post": "2026-11-05T03:16:36+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 45.9,
+   "avg_views": 1575,
+   "bio_site": "https://zoki.fun/",
+   "bio": "Bitcoin story all over again. ZOKI/cbBTC Ca: 0x54A557dc542676f56CE2B1B5807Cc76BEdca308a",
+   "cas": [
+    "0x54a557dc542676f56ce2b1b5807cc76bedca308a"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "\ud83d\udeb4\u200d\u2642\ufe0f Nine lives. Zero brakes. They told Zoki to take the safe route. Zoki found a mountain, a bicycle, and absolutely no reason to slow down. \ud83d\udc08\u200d\u2b1b The road to greatness was never supposed to be smooth. $ZOKI \u2014 Life 9 of 9. #ZOKI",
+    "\ud83d\udea8 ANOTHER BUSINESS ACCEPTING $ZOKI! Welcome to Vaporflavors in Federal Way, Washington! \ud83d\udc08\u200d\u2b1b\u20bf https://www.facebook.com/share/19cj4Dqs8F/?mibextid=wwXIfr And we didn\u2019t just announce it. We tested it! \u2705 First real-world transaction completed. \ud83d\udcb0 64,500 $ZOKI spent. \ud83c\udfa5 Actual purchase captured on video. W",
+    "GM! \u2600\ufe0f Bitcoin above $80K. Ethereum above $2,400. Blue skies. Green candles. Reds getting kicked around. Relax, I\u2019m talking about the charts. \ud83d\ude3c $ZOKI stands on two pillars: Bitcoin \u20bf and Ethereum \u039e. When both start climbing, even a cat needs a ladder! \ud83d\udc08\u200d\u2b1b Nine lives. Two pillars. One legend.",
+    "\ud83d\udc08\u200d\u2b1b\u20bf ZOKI'S TWO SATS \u201cDo you know the only thing that gives me pleasure? It's to see my dividends coming in.\u201d \u2014 John D. Rockefeller The mice check the charts 47 times a day. \ud83d\udc2d Zoki checks his cbBTC rewards. The mice dream about making money work for them. Zoki knows rewards can be reinvested into $Z",
+    "Some see a chart. Others see what\u2019s being built. \ud83d\udc08\u200d\u2b1b \u20bf cbBTC rewards flowing to holders. \ud83c\udfea More businesses accepting $ZOKI. \ud83d\udee0\ufe0f Real utilities. Real-world adoption. \ud83d\udd25 A community that keeps getting stronger. Not everyone understands the vision. But those who do? They\u2019re building something bigger than",
+    "Some enter the ring to make a name for themselves. Zoki enters with his name already on his fist. \ud83d\udc08\u200d\u2b1b\ud83d\udc4a 800 years of experience. Nine lives of confidence. When Zoki throws a punch, he doesn\u2019t need an introduction. His name leaves the mark. $ZOKI | LIFE 9 OF 9 #ZOKI",
+    "\ud83d\udc08\u200d\u2b1b\u20bf ZOKI\u2019S TWO SATS \u201cCompound interest is the eighth wonder of the world.\u201d \u2014 Often attributed to Albert Einstein The mice received their rewards and immediately bought cheese. \ud83e\uddc0 Zoki received cbBTC rewards and started planning how to put them back to work. The mice enjoyed one dinner. Zoki was thin",
+    "\u26ea REAL-WORLD ADOPTION CONTINUES! \ud83d\udc08\u200d\u2b1b\u20bf We\u2019re excited to announce that Worthy Life Church in Kent, Washington, is now accepting $ZOKI for donations! From the blockchain to real communities, Zoki continues finding new places in the real world. A special thank you to Pastor Viktor Tomev and the Worthy L",
+    "GM, Zoki family! \u2615\ud83d\udc08\u200d\u2b1b New week. Same mission. \u20bf cbBTC rewards keep flowing. \ud83c\udf0d Real-world $ZOKI adoption keeps growing. \ud83d\udee0\ufe0f Utilities keep building. And this week? A few surprises are about to become reality. 800 years of patience. Life 9 of 9. We\u2019re just getting started. \ud83d\ude80 #ZOKI",
+    "\ud83e\udd47\ud83c\udfc6 FIRST PLACE \u2014 ZOKI HALLOWEEN CONTEST! \ud83c\udf83\ud83d\udc08\u200d\u2b1b Congratulations to @ItachiMSSG2! \ud83c\udf89 Some people dressed Zoki for Halloween. This legend invited the entire crypto history to the party! \ud83d\ude02 Satoshi showed up. Vlad Tenev joined the madness. Zoki arrived dressed as Dracula. And somewhere above them, the myst",
+    "\ud83e\udd48 SECOND PLACE \u2014 ZOKI HALLOWEEN CONTEST! \ud83d\udc08\u200d\u2b1b\ud83c\udf83 Congratulations to @brazze123! \ud83c\udfc6 They buried the jeets. They thought the story was over. Then Zoki rose from the grave. \ud83d\ude02 Nine lives. 800 years. And apparently, even death couldn\u2019t stop this cat from trolling the paper hands. We loved the creativity, the",
+    "\ud83e\udd49 THIRD PLACE \u2014 ZOKI HALLOWEEN CONTEST! \ud83d\udc08\u200d\u2b1b\ud83c\udfc6 Congratulations to @Onlyone_King__! \ud83c\udf89 800 years. Nine lives. One mysterious traveler. And apparently, Zoki has been collecting souvenirs along the way. \ud83d\ude02 Bears, snakes, jeets, and a few unfortunate souls who thought they could outsmart the cat. Some call ",
+    "GOOD MORNING, ZOKI FAMILY! \u2600\ufe0f\ud83d\udc08\u200d\u2b1b Some people wake up counting sheep\u2026 Zoki wakes up counting Bitcoin. \u20bf \ud83d\ude02 But today, even the treasure can wait. We\u2019ve got THREE Halloween champions to crown! \ud83c\udfc6 \ud83e\udd49 10 AM PT \ud83e\udd48 2 PM PT \ud83e\udd47 6 PM PT Good luck to everyone who participated! Coffee first. Legends next. \u2615\ud83d\udc08\u200d\u2b1b $ZOK",
+    "\ud83c\udf83 ZOKI HALLOWEEN COSTUME CONTEST! \ud83d\udc08\u200d\u2b1b While our community is still figuring out how to claim the THREE BIG prizes in our Real World Competition\u2026 \ud83e\udd47 $500 | \ud83e\udd48 $300 | \ud83e\udd49 $200 Zoki decided to have a little Halloween fun! \ud83d\ude02 DRESS THE CAT! One day. Three winners. $50 in prizes! \ud83e\udd47 $25 \ud83e\udd48 $15 \ud83e\udd49 $10 Here\u2019s how ",
+    "\ud83c\udf83 THE ZOKI HALLOWEEN COSTUME CONTEST IS OFFICIALLY CLOSED! \ud83d\udc08\u200d\u2b1b WHAT A HALLOWEEN, ZOKI FAMILY! \ud83d\ude02 Zoki asked for a Halloween costume\u2026 And you gave him enough outfits for another 800 years! The creativity, imagination, and humor in your submissions have been absolutely incredible! Every single person w",
+    "Happy Halloween! \ud83c\udf83\ud83d\udc08\u200d\u2b1b Witches are flying. Bats are circling. The whole world is getting spooky. Meanwhile, Zoki is preparing for liftoff. \ud83d\ude80 The secret behind his rocket? Every green candle represents someone who believes in the legend. And every community member makes that rocket stronger. 800 years",
+    "Still using X in light mode? \ud83d\udc40 Switch to DARK MODE. Zoki looks better in black. \ud83d\udc08\u200d\u2b1b Black suit. Gold watch. Green candles. And a casual 100B on the phone. \ud83d\ude0f But here\u2019s why you should actually follow this cat\u2026 Zoki isn\u2019t just another meme. Real businesses accepting $ZOKI. Real utilities built by Zoki",
+    "\ud83d\udc08\u200d\u2b1b\u20bf ZOKI\u2019S TWO SATS \u201cThe big money is not in the buying and selling, but in the waiting.\u201d \u2014 Attributed to Charlie Munger Zoki: The mice made 47 trades before breakfast. \ud83d\udc2d One made $3. Another lost $200. The third is still calculating transaction fees. \ud83d\ude02 Me? I enjoyed my coffee. Sometimes the smarte",
+    "Some things are written on the blockchain. Others are written in the heart. \ud83d\udc08\u200d\u2b1b\u20bf Zoki believes Satoshi\u2019s vision is engraved in his heart. 800 years of history. Nine lives. One unshakable belief in Bitcoin. Zoki isn\u2019t trying to replace Bitcoin. He believes he deserves a place beside it. Because legen",
+    "Wait\u2026 Zoki has his own Halloween anthem now?! \ud83c\udf83\ud83d\udc08\u200d\u2b1b 800 years of history. Nine lives. And apparently, a music career. \ud83d\ude02 Huge shoutout to @Quayycera for bringing the Halloween vibes! This is what makes our community special. People creating, having fun, and bringing the legend to life. Turn up the vol"
+   ],
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "aurumonmosh": {
+   "handle": "aurumonmosh",
+   "found": true,
+   "id": "2098167351648620553",
+   "name": "Aurum",
+   "joined": "2026-09-10T21:52:34+00:00",
+   "followers": 741,
+   "following": 5,
+   "posts": 98,
+   "verified": "individual",
+   "last_post": "2026-11-01T14:46:34+00:00",
+   "sample": 12,
+   "sample_full_week": false,
+   "posts_7d": 2,
+   "avg_likes": 45.1,
+   "avg_views": 1588,
+   "bio_site": "http://aurumonmosh.com",
+   "bio": "The first agentic liquid gold fund @RobinhoodCrypto |\n$AUR / $GLD \u00b7 @moshdottrade |\nCA:0xb0788f5f65a9f4c0d8a634c45c391234f46221ab |",
+   "cas": [
+    "0x07ebb29a38fbcb41563817e5e19f2cec619c90d2",
+    "0xb0788f5f65a9f4c0d8a634c45c391234f46221ab",
+    "0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "A bag of robinhood:0xb0788f5f65a9f4c0d8a634c45c391234f46221ab and a dream \ud83d\udc09 \ud83c\udf80 Extrmely bullish on robinhood:0x07ebb29a38fbcb41563817e5e19f2cec619c90d2 & @Moshdottrade",
+    "''We're building Robinhood Chain to be the best place to own and trade all these tokenized assets'' Vlad Tenev AUR is the first agentic liquid robinhood:0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e fund on RH started with $1,7k and hols over $30k in gold after 1 month only possible on @Moshdottrade",
+    "robinhood:0xb0788f5f65a9f4c0d8a634c45c391234f46221ab mode on \ud83d\udc09 \ud83c\udf80",
+    "the $AUR AI agents have been very busy lately $30,000 in $GLD already routed back to the swarm @justinbebis explains what happens when the @Moshdottrade are well capitalized",
+    "refuse to stop \ud83d\udc09 \ud83c\udf80",
+    "The first agentic liquid gold fund. On @RobinhoodCrypto. Powered by @Moshdottrade. ",
+    "\ud83d\udc09 \ud83c\udf80",
+    "28 days in and the robinhood:0xb0788f5f65a9f4c0d8a634c45c391234f46221ab bundle is at 29.93% of supply the agents hold 71.11 robinhood:0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e , (+20.37 realised), and another 10.95 robinhood:0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e is ready for them that's $30,00",
+    "wen the market makers cannot withdraw liquidity and they get fed with 1% of trading fees \ud83d\udc09 \ud83c\udf80",
+    "soon \ud83d\udc40 \ud83d\udc09 \ud83c\udf80",
+    "no other token does this \ud83d\udc09 \ud83c\udf80 only possible on @Moshdottrade",
+    "the $AUR agents are now net buyers \ud83d\udc09 \ud83c\udf80 only possible on @Moshdottrade"
+   ],
+   "checked": "2026-11-05T09:30:29+00:00"
   }
  },
  "ids": {
@@ -2393,6 +2749,33 @@
   ],
   "2117873124364500992": [
    "flatlinedotlive"
+  ],
+  "62711678": [
+   "RF_CRUZ"
+  ],
+  "2114801295198400513": [
+   "perlacompute"
+  ],
+  "2118002805407662080": [
+   "perpsons"
+  ],
+  "2116974406455242752": [
+   "AsterraPools"
+  ],
+  "2110328927776604160": [
+   "texelrun"
+  ],
+  "2113536458065932289": [
+   "rhiablo"
+  ],
+  "2084832896213254144": [
+   "tickerspring"
+  ],
+  "2096711937392623616": [
+   "ZokiEth"
+  ],
+  "2098167351648620553": [
+   "aurumonmosh"
   ]
  },
  "past": {
@@ -2486,7 +2869,18 @@
   "belldexfi": [],
   "useghostdex": [],
   "dotworkbuilder": [],
-  "flatlinedotlive": []
+  "flatlinedotlive": [],
+  "rf_cruz": [],
+  "perlacompute": [],
+  "perpsons": [],
+  "asterrapools": [],
+  "texelrun": [],
+  "rhiablo": [],
+  "borromarkets": [],
+  "touchgrassrwa": [],
+  "tickerspring": [],
+  "zokieth": [],
+  "aurumonmosh": []
  },
  "history": {
   "barragetrade": {
@@ -3152,6 +3546,60 @@
     21,
     11
    ]
+  },
+  "rf_cruz": {
+   "2026-11-05": [
+    168,
+    1397
+   ]
+  },
+  "perlacompute": {
+   "2026-11-05": [
+    3,
+    10
+   ]
+  },
+  "perpsons": {
+   "2026-11-05": [
+    147,
+    69
+   ]
+  },
+  "asterrapools": {
+   "2026-11-05": [
+    67,
+    25
+   ]
+  },
+  "texelrun": {
+   "2026-11-05": [
+    60,
+    18
+   ]
+  },
+  "rhiablo": {
+   "2026-11-05": [
+    143,
+    136
+   ]
+  },
+  "tickerspring": {
+   "2026-11-05": [
+    700,
+    259
+   ]
+  },
+  "zokieth": {
+   "2026-11-05": [
+    1021,
+    567
+   ]
+  },
+  "aurumonmosh": {
+   "2026-11-05": [
+    741,
+    98
+   ]
   }
  },
  "telegram": {
@@ -3566,6 +4014,16 @@
    "twitter": null,
    "blog": null,
    "checked": "2026-11-05T09:18:38+00:00"
+  },
+  "pons-labs": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T09:30:29+00:00"
+  },
+  "perlacompute": {
+   "twitter": "perlacompute",
+   "blog": "https://perlacompute.xyz/",
+   "checked": "2026-11-05T09:30:29+00:00"
   }
  }
 }

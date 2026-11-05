@@ -737,7 +737,36 @@
   "0xeae56e260ba7992df0eb86d984f0453a8431cee5": "2026-11-05T09:18:38+00:00",
   "0x5804beee8368132d32ad4b8818ce86eba9c4bd37": "2026-11-05T09:18:38+00:00",
   "0x6bbf7ef453cd10784a936d7604e7cbac00526928": "2026-11-05T09:18:38+00:00",
-  "0x6619cb721e124e4215bd23b3b1a6a5197abc24b3": "2026-11-05T09:18:38+00:00"
+  "0x6619cb721e124e4215bd23b3b1a6a5197abc24b3": "2026-11-05T09:18:38+00:00",
+  "0x390562a3ef1158e6c501507ba8f18fd8aaae3973": "2026-11-05T09:30:29+00:00",
+  "0xac0b83252c59efbba0a1acb2ae4c52bba05c230d": "2026-11-05T09:30:29+00:00",
+  "0x4cf8adf6a8087092cbe6644a454f1258c2fbc106": "2026-11-05T09:30:29+00:00",
+  "0x089933b226ee9fb364919c1de397e3385dc2c126": "2026-11-05T09:30:29+00:00",
+  "0x6242310b9b0ffb4ad787f2d3888f7319cd2b35af": "2026-11-05T09:30:29+00:00",
+  "0x93487c6f79ad68237eee5f88ad2e2f640283b235": "2026-11-05T09:30:29+00:00",
+  "0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d": "2026-11-05T09:30:29+00:00",
+  "0x01f27bcfcdf8e10796d6021c57114874961086c7": "2026-11-05T09:30:29+00:00",
+  "0x85ce8c1d64db560c28ae33cc54289553d6df0485": "2026-11-05T09:30:29+00:00",
+  "0x4fc4300b9a593f99890d962b355cc4436a796b21": "2026-11-05T09:30:29+00:00",
+  "0xa693f8aba8ead73d075ea17fa677a25da41db46a": "2026-11-05T09:30:29+00:00",
+  "0x7ab1f59e871052581d0e5694159a2d6ee0d02b1a": "2026-11-05T09:30:29+00:00",
+  "0x64a2d81a97a56f0d9155e2fa31f1ceb5d64294f4": "2026-11-05T09:30:29+00:00",
+  "0x5b5448bb4101a136127ca8bf60a9f669f93fc09b": "2026-11-05T09:30:29+00:00",
+  "0xdce5c6317222c5b6e5d963eeac010dfc4da9e6da": "2026-11-05T09:30:29+00:00",
+  "0xb51d57cbe67152fd163f59d1e0f950c6b647fb07": "2026-11-05T09:30:29+00:00",
+  "0x73114abd7dcf37000d90d8de9fd1de3957b17c04": "2026-11-05T09:30:29+00:00",
+  "0xef67e3064bef1a27e81925ec7132f23e533bd5f6": "2026-11-05T09:30:29+00:00",
+  "0x3f9108a3beca998c14c6dda822a7e8eaeb88e20d": "2026-11-05T09:30:29+00:00",
+  "0xfed508e349c47f669e57c1a1ba476e5e0e6b918e": "2026-11-05T09:30:29+00:00",
+  "0x0473396ffb1354b13a6e10a92970a28fe86bdf22": "2026-11-05T09:30:29+00:00",
+  "0xc0e6a1e1e37129b839ac8ec12a24ceedaf2b13f7": "2026-11-05T09:30:29+00:00",
+  "0x89b76dcdda801f2e456765742c64950eb2a0c93c": "2026-11-05T09:30:29+00:00",
+  "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b": "2026-11-05T09:30:29+00:00",
+  "0x440e339a46eaa3be8d723c2cbed2a30af74536d5": "2026-11-05T09:30:29+00:00",
+  "0x54a557dc542676f56ce2b1b5807cc76bedca308a": "2026-11-05T09:30:29+00:00",
+  "0xe4119a9bfcc86915368502b598bbed4745f7051d": "2026-11-05T09:30:29+00:00",
+  "0x15d36b6a28d8327abc7afabf0f106ae2c9af5c4d": "2026-11-05T09:30:29+00:00",
+  "0xb0788f5f65a9f4c0d8a634c45c391234f46221ab": "2026-11-05T09:30:29+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -5928,10 +5957,10 @@
    "website": "https://priors.trade/",
    "twitter": "https://x.com/priors_trade",
    "launched": "2026-09-19T19:21:09+00:00",
-   "mcap": 11527349,
+   "mcap": 11508102,
    "where": "exchange",
-   "first_seen": "2026-11-05T08:51:57+00:00",
-   "scored_at": "2026-11-05T08:51:57+00:00",
+   "first_seen": "2026-11-05T09:18:38+00:00",
+   "scored_at": "2026-11-05T09:18:38+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "priors-agents/priors",
@@ -5995,10 +6024,10 @@
    "website": "https://darkwoods.ai/",
    "twitter": "https://x.com/darkwoodslabs",
    "launched": "2026-09-16T18:08:10+00:00",
-   "mcap": 3885044,
+   "mcap": 3905039,
    "where": "exchange",
-   "first_seen": "2026-11-05T08:51:57+00:00",
-   "scored_at": "2026-11-05T08:51:57+00:00",
+   "first_seen": "2026-11-05T09:18:38+00:00",
+   "scored_at": "2026-11-05T09:18:38+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "darkwoodsai/",
@@ -6047,10 +6076,10 @@
    "website": "https://www.agentwormhole.com/",
    "twitter": "https://x.com/agentwormhole",
    "launched": "2026-09-08T18:56:18+00:00",
-   "mcap": 2045240,
+   "mcap": 2094126,
    "where": "exchange",
-   "first_seen": "2026-11-05T08:51:57+00:00",
-   "scored_at": "2026-11-05T08:51:57+00:00",
+   "first_seen": "2026-11-05T09:18:38+00:00",
+   "scored_at": "2026-11-05T09:18:38+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "runningoffcode/agent-wormhole",
@@ -6065,7 +6094,7 @@
       "\ud83d\udfe1 Says fees go back to the token (burn, buyback) \u2014 claimed, not checked on chain (+10)"
      ],
      "Really theirs": [
-      "\u2705 Token's address is posted by their website, official X @agentwormhole (+10)",
+      "\u2705 Token's address is posted by their website (+10)",
       "\u2705 Repo and website: website links the repo, repo links the website (+10)",
       "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
       "\u2705 Their website mentions the token: its contract address \u2014 \u201ctton type=\"button\" data-tap=\"true\" aria-label=\"Copy contract address: 0x3ba500f1ababbcf0f0247d06d1c56fd7e6c4c09d\" class=\"group flex min-w-0 items-center gap-2.5 text-left transitio\u201d (https://www.agentwormhole.com/)",
@@ -6119,8 +6148,8 @@
    "launched": "2026-10-09T14:06:20+00:00",
    "mcap": 894245,
    "where": "exchange",
-   "first_seen": "2026-11-05T08:51:57+00:00",
-   "scored_at": "2026-11-05T08:51:57+00:00",
+   "first_seen": "2026-11-05T09:18:38+00:00",
+   "scored_at": "2026-11-05T09:18:38+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "trenchersio/trenchers",
@@ -6188,10 +6217,10 @@
    "website": "https://bytejury.xyz/",
    "twitter": "https://x.com/bytejury/status/2118099800461906189",
    "launched": "2026-11-04T22:11:10+00:00",
-   "mcap": 31802.409592907476,
+   "mcap": 31143.537853802165,
    "where": "Pons launchpad (curve)",
-   "first_seen": "2026-11-05T08:51:57+00:00",
-   "scored_at": "2026-11-05T08:51:57+00:00",
+   "first_seen": "2026-11-05T09:18:38+00:00",
+   "scored_at": "2026-11-05T09:18:38+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "bytejury-exe/contracts",
@@ -6463,266 +6492,6 @@
     "facts": {}
    }
   },
-  "0xedbf91223639800bcd5756815caf908df3b890be": {
-   "address": "0xedbf91223639800bcd5756815caf908df3b890be",
-   "symbol": "PRIORS",
-   "name": "Priors Agents",
-   "description": "$$PRIORS is the coin that vouches for AI agents. Its fees back the first credit any ERC-8004 agent gets on Robinhood Chain.",
-   "website": "https://priors.trade/",
-   "twitter": "https://x.com/priors_trade",
-   "launched": "2026-09-19T19:21:09+00:00",
-   "mcap": 11508102,
-   "where": "exchange",
-   "first_seen": "2026-11-05T09:18:38+00:00",
-   "scored_at": "2026-11-05T09:18:38+00:00",
-   "found_on": "website",
-   "scoring": {
-    "repo": "priors-agents/priors",
-    "score": 90,
-    "raw_score": 90,
-    "capped": false,
-    "not_theirs": false,
-    "flags": [],
-    "reasons": {
-     "Platform": [
-      "\ud83d\udfe1 Looks like it earns fees from users (borrow, fees, hook, launchpad) \u2014 guess from their text, needs a look (+20)",
-      "\ud83d\udfe1 Says fees go back to the token (burn, stake, stakers) \u2014 claimed, not checked on chain (+10)"
-     ],
-     "Really theirs": [
-      "\u2705 Token's address is posted by their repo, website (+10)",
-      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
-      "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
-      "\u2705 Their website mentions the token: its contract address \u2014 \u201cass=\"ca-k\">$PRIORS 0xedbf\u202690be <button type=\"button\" id=\"ca-copy\"\u201d (https://priors.trade/)",
-      "\u2705 Their website mentions the token: $PRIORS \u2014 \u201cBack your agent with $PRIORS \u2192 </div\u201d (https://priors.trade/)",
-      "\u2705 Their website mentions the token: 'PRIORS token' \u2014 \u201ce rest goes back to the owner. $PRIORS\u201d (https://priors.trade/)",
-      "\u2705 Their docs mentions the token: $PRIORS \u2014 \u201can owner's account, where the Ethos lane, stock lines and the owner's $PRIORS stake open lines ## Hire an agent - [Agents for hire](https://prior\u201d (https://priors.trade/llms.txt)"
-     ],
-     "Real code": [
-      "\u2705 285 changes over 46 days (+10)",
-      "\u2705 Has smart contracts and tests (+10)"
-     ],
-     "Team": [
-      "\u2705 Not a brand-new one-person repo: account 46 days old, 1 people, 7 stars, 10 forks (+10)"
-     ],
-     "Safety": [
-      "\u2705 Contract addresses listed in the README (+5)",
-      "\u2705 Safety info: SECURITY file, audit, timelock (+5)"
-     ]
-    },
-    "roadmap": [
-     "No roadmap found in the repo or on the website"
-    ],
-    "notes": [],
-    "token_mentioned": true,
-    "copy_of": null,
-    "sources_read": [
-     "https://priors.trade/",
-     "https://priors.trade/",
-     "https://priors.trade/llms.txt",
-     "https://robinhoodchain.blockscout.com/token/0xedbf91223639800bcd5756815caf908df3b890be"
-    ],
-    "facts": {
-     "commits": 285,
-     "stars": 7,
-     "created": "2026-09-19",
-     "pushed": "2026-11-05",
-     "people": 1
-    }
-   }
-  },
-  "0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e": {
-   "address": "0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e",
-   "symbol": "DARK",
-   "name": "Darkwoods",
-   "description": "The private AI lab on Robinhood. Darkwoods pioneers the future of decentralised, censorship resistant, private AI. Powerful open weight models in a fully private environment with tailored agent tools.",
-   "website": "https://darkwoods.ai/",
-   "twitter": "https://x.com/darkwoodslabs",
-   "launched": "2026-09-16T18:08:10+00:00",
-   "mcap": 3905039,
-   "where": "exchange",
-   "first_seen": "2026-11-05T09:18:38+00:00",
-   "scored_at": "2026-11-05T09:18:38+00:00",
-   "found_on": "website",
-   "scoring": {
-    "repo": "darkwoodsai/",
-    "score": 40,
-    "capped": true,
-    "flags": [],
-    "private": true,
-    "reasons": {
-     "Platform": [
-      "\ud83d\udfe1 Looks like it earns fees from users (exchange, fees, launchpad, liquidity) \u2014 guess from their text, needs a look (+20)",
-      "\ud83d\udfe1 Says fees go back to the token (burn, buy back, buyback) \u2014 claimed, not checked on chain (+10)"
-     ],
-     "Really theirs": [
-      "\ud83d\udd12 Private GitHub: github.com/darkwoodsai has no public repos. Code can't be checked, so the score is capped at 40",
-      "\u2705 Their website links this GitHub (+10)",
-      "\u2705 GitHub account darkwoodsai is named after the project (+10)",
-      "\u2705 Their website mentions the token: its contract address (https://darkwoods.ai/)",
-      "\u2705 Their website mentions the token: $DARK (https://darkwoods.ai/)",
-      "\u2705 Their website mentions the token: a link to its Pons page (https://darkwoods.ai/)",
-      "\u2139\ufe0f Points add up to 55, capped at 40 because the code is private"
-     ],
-     "Real code": [
-      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
-     ],
-     "Team": [
-      "\u274c GitHub account 52 days old, 0 followers (+0)"
-     ],
-     "Safety": [
-      "\u2705 Their docs mention: audit (+5)"
-     ]
-    },
-    "notes": [],
-    "roadmap": [],
-    "facts": {
-     "created": "2026-09-14",
-     "pushed": "private",
-     "commits": "private"
-    }
-   }
-  },
-  "0x3ba500f1ababbcf0f0247d06d1c56fd7e6c4c09d": {
-   "address": "0x3ba500f1ababbcf0f0247d06d1c56fd7e6c4c09d",
-   "symbol": "WORM",
-   "name": "Agent Wormhole",
-   "description": "The security layer for agentic finance.",
-   "website": "https://www.agentwormhole.com/",
-   "twitter": "https://x.com/agentwormhole",
-   "launched": "2026-09-08T18:56:18+00:00",
-   "mcap": 2094126,
-   "where": "exchange",
-   "first_seen": "2026-11-05T09:18:38+00:00",
-   "scored_at": "2026-11-05T09:18:38+00:00",
-   "found_on": "website",
-   "scoring": {
-    "repo": "runningoffcode/agent-wormhole",
-    "score": 80,
-    "raw_score": 80,
-    "capped": false,
-    "not_theirs": false,
-    "flags": [],
-    "reasons": {
-     "Platform": [
-      "\ud83d\udfe1 Looks like it earns fees from users (borrow, exchange, fees, hook) \u2014 guess from their text, needs a look (+20)",
-      "\ud83d\udfe1 Says fees go back to the token (burn, buyback) \u2014 claimed, not checked on chain (+10)"
-     ],
-     "Really theirs": [
-      "\u2705 Token's address is posted by their website (+10)",
-      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
-      "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
-      "\u2705 Their website mentions the token: its contract address \u2014 \u201ctton type=\"button\" data-tap=\"true\" aria-label=\"Copy contract address: 0x3ba500f1ababbcf0f0247d06d1c56fd7e6c4c09d\" class=\"group flex min-w-0 items-center gap-2.5 text-left transitio\u201d (https://www.agentwormhole.com/)",
-      "\u2705 Their website mentions the token: $WORM \u2014 \u201cr is used, a small micropayment is generated. These fees are used for $WORM buybacks and burns. <div class=\"flex flex-col items-center gap-4 m\u201d (https://www.agentwormhole.com/)",
-      "\u2705 Their docs mentions the token: its contract address \u2014 \u201ct-body text-[13px] font-light text-white/70 [overflow-wrap:anywhere]\">0x3bA500F1AbabbCF0F0247D06D1c56Fd7E6C4c09D, on Robinhood Chain <div class=\"grid gap-1 py-3 sm:grid-c\u201d (https://www.agentwormhole.com/docs)",
-      "\u2705 Their docs mentions the token: $WORM \u2014 \u201cy text-xs font-medium text-white/90 sm:min-h-0 sm:py-1.5\">Revenue and $WORM <a href=\"#facilitators\" class=\"liquid-glass inline-flex min-h-11 i\u201d (https://www.agentwormhole.com/docs)"
-     ],
-     "Real code": [
-      "\u2705 235 changes over 100 days (+10)",
-      "\ud83d\udfe1 Has tests (+5)"
-     ],
-     "Team": [
-      "\u2705 Not a brand-new one-person repo: account 1768 days old, 1 people, 5 stars, 2 forks (+10)"
-     ],
-     "Safety": [
-      "\u274c No contract addresses in the README (+0)",
-      "\u2705 Safety info: SECURITY file, audit (+5)"
-     ]
-    },
-    "roadmap": [
-     "CHANGELOG.md: 34 updates shipped so far"
-    ],
-    "notes": [],
-    "token_mentioned": true,
-    "copy_of": null,
-    "sources_read": [
-     "https://www.agentwormhole.com/",
-     "https://www.agentwormhole.com/",
-     "https://www.agentwormhole.com/llms.txt",
-     "https://docs.agentwormhole.com/llms.txt",
-     "https://www.agentwormhole.com/docs",
-     "https://docs.agentwormhole.com#launch",
-     "https://www.agentwormhole.com/docs#quickstart"
-    ],
-    "facts": {
-     "commits": 235,
-     "stars": 5,
-     "created": "2026-07-25",
-     "pushed": "2026-11-02",
-     "people": 1
-    }
-   }
-  },
-  "0xc65a7c91591a2dd4d5624e75e814b1bbe88b984a": {
-   "address": "0xc65a7c91591a2dd4d5624e75e814b1bbe88b984a",
-   "symbol": "TRENCHERS",
-   "name": "Trenchers",
-   "description": "An ecosystem of NFT-identified trading agents. Train your agent, let it climb the ranks or launch a self-funding agent coin, and sell your proven strategy.",
-   "website": "https://trenchers.io",
-   "twitter": "https://x.com/trenchersio",
-   "launched": "2026-10-09T14:06:20+00:00",
-   "mcap": 894245,
-   "where": "exchange",
-   "first_seen": "2026-11-05T09:18:38+00:00",
-   "scored_at": "2026-11-05T09:18:38+00:00",
-   "found_on": "website",
-   "scoring": {
-    "repo": "trenchersio/trenchers",
-    "score": 25,
-    "raw_score": 80,
-    "capped": true,
-    "not_theirs": false,
-    "flags": [
-     "X account doesn't match the website: the token links @trenchersio, but its website links @trenchersx \u2014 may be someone copying the project's links"
-    ],
-    "reasons": {
-     "Platform": [
-      "\ud83d\udfe1 Looks like it earns fees from users (borrow, dex, exchange, fees) \u2014 guess from their text, needs a look (+20)",
-      "\ud83d\udfe1 Says fees go back to the token (burn, buyback, fee share) \u2014 claimed, not checked on chain (+10)"
-     ],
-     "Really theirs": [
-      "\u2705 Token's address is posted by their repo, website (+10)",
-      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
-      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
-      "\u2705 Their website mentions the token: its contract address \u2014 \u201ca class=\"tbtn coin-chart-btn \" href=\"https://ponsfamily.com/launchpad/0xc65a7c91591a2dd4d5624e75e814b1bbe88b984a\" target=\"_blank\" rel=\"noreferrer\" title=\"$TRENCHERS on Pons (the co\u201d (https://trenchers.io)",
-      "\u2705 Their website mentions the token: $TRENCHERS \u2014 \u201ct mono\">Mint Robinhood Chain \u00b7 powered by $TRENCHERS <a href=\"#top\" aria-label=\"Tren\u201d (https://trenchers.io)",
-      "\u2705 Their website mentions the token: a link to its Pons page \u2014 \u201c>\u25be <a class=\"tbtn coin-chart-btn \" href=\"https://ponsfamily.com/launchpad/0xc65a7c91591a2dd4d5624e75e814b1bbe88b984a\" target=\"_blank\" rel=\"noreferrer\" title=\"$TRENCHERS on Pons (th\u201d (https://trenchers.io)",
-      "\u2705 Their docs mentions the token: its contract address \u2014 \u201ca class=\"tbtn coin-chart-btn \" href=\"https://ponsfamily.com/launchpad/0xc65a7c91591a2dd4d5624e75e814b1bbe88b984a\" target=\"_blank\" rel=\"noreferrer\" title=\"$TRENCHERS on Pons (the co\u201d (https://trenchers.io/llms-full.txt)"
-     ],
-     "Real code": [
-      "\u2705 275 changes over 30 days (+10)",
-      "\u2705 Has smart contracts and tests (+10)"
-     ],
-     "Team": [
-      "\u274c One person, new account, no outside interest: account 33 days old, 1 people, 0 stars, 0 forks (+0)"
-     ],
-     "Safety": [
-      "\u2705 Contract addresses listed in the README (+5)",
-      "\u2705 Safety info: audit, timelock (+5)"
-     ]
-    },
-    "roadmap": [
-     "Website has a roadmap page: https://trenchers.io/roadmap"
-    ],
-    "notes": [],
-    "token_mentioned": true,
-    "copy_of": null,
-    "sources_read": [
-     "https://trenchers.io",
-     "https://trenchers.io",
-     "https://trenchers.io/llms-full.txt",
-     "https://trenchers.io/llms.txt",
-     "https://trenchers.io/docs",
-     "https://trenchers.io/docs#contracts"
-    ],
-    "facts": {
-     "commits": 275,
-     "stars": 0,
-     "created": "2026-10-03",
-     "pushed": "2026-11-02",
-     "people": 1
-    }
-   }
-  },
   "0xaf8fc25ea133d7a71506522da9e6a4ec0cac8ec0": {
    "address": "0xaf8fc25ea133d7a71506522da9e6a4ec0cac8ec0",
    "symbol": "PONSIFI",
@@ -6823,21 +6592,21 @@
     }
    }
   },
-  "0xa4e331ed89db2fae193c6c4216dd99aded105471": {
-   "address": "0xa4e331ed89db2fae193c6c4216dd99aded105471",
-   "symbol": "byte",
-   "name": "bytejury.exe",
-   "description": "Cybersecurity audits by AI agents. Find potential exploits, check project claims and get evidence-backed reports.",
-   "website": "https://bytejury.xyz/",
-   "twitter": "https://x.com/bytejury/status/2118099800461906189",
-   "launched": "2026-11-04T22:11:10+00:00",
-   "mcap": 31143.537853802165,
+  "0xac0b83252c59efbba0a1acb2ae4c52bba05c230d": {
+   "address": "0xac0b83252c59efbba0a1acb2ae4c52bba05c230d",
+   "symbol": "PERL",
+   "name": "Perla",
+   "description": "Perla is a GPU mining platform designed to reshape the economics of AI compute.",
+   "website": "https://perlacompute.xyz",
+   "twitter": "https://x.com/perlacompute",
+   "launched": "2026-11-05T09:22:59+00:00",
+   "mcap": 3900.2176512000005,
    "where": "Pons launchpad (curve)",
-   "first_seen": "2026-11-05T09:18:38+00:00",
-   "scored_at": "2026-11-05T09:18:38+00:00",
+   "first_seen": "2026-11-05T09:30:29+00:00",
+   "scored_at": "2026-11-05T09:30:29+00:00",
    "found_on": "website",
    "scoring": {
-    "repo": "bytejury-exe/contracts",
+    "repo": "perlacompute/perla-compute",
     "score": 60,
     "raw_score": 60,
     "capped": false,
@@ -6845,60 +6614,53 @@
     "flags": [],
     "reasons": {
      "Platform": [
-      "\ud83d\udfe1 Looks like it earns fees from users (dex, fees, hook, liquidity) \u2014 guess from their text, needs a look (+20)",
-      "\ud83d\udfe1 Says fees go back to the token (burn, buyback, staking) \u2014 claimed, not checked on chain (+10)"
+      "\ud83d\udfe1 Looks like it earns fees from users (marketplace, payments) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
      ],
      "Really theirs": [
       "\u274c Token's address isn't posted by their repo, website or official X (+0)",
-      "\ud83d\udfe1 Their X @bytejury posts the address, but the account is brand new (made 03 Nov 2026) \u2014 names can change hands, so it doesn't count (+0)",
       "\u2705 Repo and website: website links the repo, repo links the website (+10)",
       "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
-      "\u2139\ufe0f 31 of 31 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
-      "\u2705 Their website mentions the token: $byte \u2014 \u201cell pixel inline-flex h-9 items-center gap-2 px-2 text-[13px]\" title=\"$BYTE token address: coming soon\"><span aria-hidden=\"true\" class=\"inline-bl\u201d (https://bytejury.xyz/)",
-      "\u2705 Their website mentions the token: 'byte token' \u2014 \u201cll pixel inline-flex h-9 items-center gap-2 px-2 text-[13px]\" title=\"$BYTE token address: coming soon\"><span aria-hidden=\"true\" class=\"inline-block si\u201d (https://bytejury.xyz/)",
-      "\u2705 Their docs mentions the token: $byte \u2014 \u201cell pixel inline-flex h-9 items-center gap-2 px-2 text-[13px]\" title=\"$BYTE token address: coming soon\"><span aria-hidden=\"true\" class=\"inline-bl\u201d (https://bytejury.xyz/llms-full.txt)",
-      "\u2705 Their docs mentions the token: 'byte token' \u2014 \u201cll pixel inline-flex h-9 items-center gap-2 px-2 text-[13px]\" title=\"$BYTE token address: coming soon\"><span aria-hidden=\"true\" class=\"inline-block si\u201d (https://bytejury.xyz/llms-full.txt)"
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (perlacompute.xyz/docs), docs (perlacompute.xyz/llms-full.txt), docs (perlacompute.xyz/llms.txt), docs (perlacompute.xyz/whitepaper), website (perlacompute.xyz), website code (perlacompute.xyz))"
      ],
      "Real code": [
-      "\u274c 2 changes over 0 days (+0)",
+      "\u2705 23 changes over 8 days (+10)",
       "\u2705 Has smart contracts and tests (+10)"
      ],
      "Team": [
-      "\u274c One person, new account, no outside interest: account 1 days old, 1 people, 0 stars, 0 forks (+0)"
+      "\u274c One person, new account, no outside interest: account 9 days old, 1 people, 0 stars, 0 forks (+0)"
      ],
      "Safety": [
       "\u2705 Contract addresses listed in the README (+5)",
-      "\u2705 Safety info: SECURITY file, audit, timelock (+5)"
+      "\u2705 Safety info: SECURITY file, audit (+5)"
      ]
     },
     "roadmap": [
-     "Website has a roadmap page: https://bytejury.xyz/roadmap"
+     "`ROADMAP.md`: 0 items",
+     "CHANGELOG.md: 12 updates shipped so far"
     ],
-    "notes": [
-     "The real $BYTE: the address is in @bytejury's X bio and in 42 of its recent posts. The scanner missed it at first because it had left Pons's newest list before a run saw it",
-     "@bytejury joined X on 3 Nov 2026 (36 followers on 5 Nov). Its website bytejury.xyz still says 'token address: coming soon'"
-    ],
-    "token_mentioned": true,
+    "notes": [],
+    "token_mentioned": false,
     "copy_of": null,
     "sources_read": [
-     "https://bytejury.xyz/",
-     "https://bytejury.xyz/",
-     "https://bytejury.xyz/llms-full.txt",
-     "https://bytejury.xyz/llms.txt",
-     "https://bytejury.xyz/docs",
-     "https://bytejury.xyz/docs#contracts"
+     "https://perlacompute.xyz",
+     "https://perlacompute.xyz",
+     "https://perlacompute.xyz/llms-full.txt",
+     "https://perlacompute.xyz/llms.txt",
+     "https://perlacompute.xyz/docs",
+     "https://perlacompute.xyz/whitepaper"
     ],
     "facts": {
-     "commits": 2,
+     "commits": 23,
      "stars": 0,
-     "created": "2026-11-04",
+     "created": "2026-10-27",
      "pushed": "2026-11-04",
      "people": 1
     }
    }
   }
  },
- "checked_total": 727,
+ "checked_total": 756,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -7453,9 +7215,28 @@
    "ignored": [
     "vbuterin/monkeybox"
    ]
+  },
+  {
+   "when": "2026-11-05T09:30:29+00:00",
+   "address": "0x7ab1f59e871052581d0e5694159a2d6ee0d02b1a",
+   "symbol": "HOOD",
+   "website": "https://www.hoodiesrh.online",
+   "used": null,
+   "ignored": [
+    "component/has-cors",
+    "facebook/react-native",
+    "galkn/parseuri",
+    "galkn/querystring",
+    "socketio/base64-arraybuffer",
+    "socketio/engine.io-client",
+    "socketio/socket.io-client"
+   ]
   }
  ],
  "symbol_counts": {
+  "COUNCIL": 1,
+  "PERL": 1,
+  "AGENTKEY": 1,
   "PSSGRM": 1,
   "B": 1,
   "VIGIL": 1,
@@ -7488,38 +7269,31 @@
   "APOGEE": 1,
   "PRVHIR": 1,
   "OAK": 2,
+  "PONS": 1,
+  "WIF": 1,
+  "RAETO": 1,
+  "ORBIO": 1,
+  "microduck": 1,
+  "UBIK": 1,
+  "\u5bcc\u8d35": 1,
+  "DELTA": 1,
+  "ROUTE": 1,
   "WALLE": 1,
   "KERNEL": 1,
   "SLYM": 1,
-  "PONS": 1,
-  "WIF": 1,
-  "ORBIO": 1,
-  "microduck": 1,
-  "\u5bcc\u8d35": 1,
-  "UBIK": 1,
-  "RAETO": 1,
   "CHARLIE": 1,
-  "ROUTE": 1,
   "FLEX": 1,
   "LYXVO": 1,
   "ITA": 1,
   "OTD": 1,
   "ARCOMM": 1,
-  "WIF": 1,
-  "PONS": 1,
-  "ORBIO": 1,
-  "\u5bcc\u8d35": 1,
-  "microduck": 1,
   "HARMONIC": 1,
-  "CHARLIE": 1,
   "ROBINCAT": 1,
   "COPY": 1,
   "DMBFND": 1,
   "GOMO": 1,
   "ALLTO": 1,
   "LAST20DOLL": 1,
-  "HARMONIC": 1,
-  "ROBINCAT": 1,
   "MOTION": 1,
   "ZEAL": 1,
   "BELL": 2,
@@ -7539,7 +7313,6 @@
   "STUDIES": 1,
   "SHROOM": 1,
   "ROBINHOOD": 1,
-  "DELTA": 1,
   "PACKSW": 1,
   "CI": 2,
   "IO": 1,
@@ -9304,6 +9077,612 @@
      "winners_linked": []
     }
    }
+  },
+  "0x08df41fd858b9b612110a31f026bacfee296d78a": {
+   "address": "0x08df41fd858b9b612110a31f026bacfee296d78a",
+   "symbol": "PERPSONS",
+   "name": "Perpsons",
+   "description": "The infrastructure for onchain perpetual markets. Trade crypto, stocks, and ETFs in one unified ecosystem.",
+   "website": "https://perpsons.com",
+   "twitter": "https://x.com/perpsons",
+   "site_via_x": null,
+   "launched": "2026-11-04T17:25:24+00:00",
+   "mcap": 14021,
+   "where": "exchange",
+   "first_seen": "2026-11-05T09:30:29+00:00",
+   "scored_at": "2026-11-05T09:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u2705 Lists 11 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burn) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 0,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://perpsons.com",
+     "https://perpsons.com",
+     "https://perpsons.com/llms-full.txt",
+     "https://perpsons.com/llms.txt",
+     "https://perpsons.com/docs",
+     "https://perpsons.com/docs#risks",
+     "https://perpsons.com/docs"
+    ],
+    "facts": {
+     "tools": 0,
+     "dev_pages": [
+      "https://perpsons.com/docs"
+     ],
+     "contract_addresses": 11,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d": {
+   "address": "0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d",
+   "symbol": "ASTER",
+   "name": "ASTERRA POOLS",
+   "description": "The liquidity layer for Robinhood Chain. Dynamic pools, LP positions & smart routing across onchain markets.",
+   "website": "https://asterrapools.tech",
+   "twitter": "https://x.com/AsterraPools",
+   "site_via_x": null,
+   "launched": "2026-11-04T18:14:24+00:00",
+   "mcap": 14185,
+   "where": "exchange",
+   "first_seen": "2026-11-05T09:30:29+00:00",
+   "scored_at": "2026-11-05T09:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 40,
+    "raw_score": 40,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u2705 Lists 13 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u2705 Built on Robinhood Chain's own assets (tokenized stock) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 0,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://asterrapools.tech",
+     "https://asterrapools.tech",
+     "https://asterrapools.tech/llms-full.txt",
+     "https://asterrapools.tech/llms.txt",
+     "https://asterrapools.tech/docs",
+     "https://robinhoodchain.blockscout.com/token/0x8c4be7763F446DF2b5A8c331e7CCF497e7F78b1d",
+     "https://asterrapools.tech/docs"
+    ],
+    "facts": {
+     "tools": 0,
+     "dev_pages": [
+      "https://asterrapools.tech/docs"
+     ],
+     "contract_addresses": 13,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x0ddcab9ae04bda0c87ecc1640636fa11e8e613e8": {
+   "address": "0x0ddcab9ae04bda0c87ecc1640636fa11e8e613e8",
+   "symbol": "TEXEL",
+   "name": "Texel",
+   "description": "TEXEL is the token of Texel, the onchain GPU cloud on Robinhood Chain. People and agents rent GPUs by the second and buy AI outputs for images, video, voice, and 3D. Agents pay each request over x402 from their own balance.",
+   "website": "https://texel.run",
+   "twitter": "https://x.com/texelrun",
+   "site_via_x": null,
+   "launched": "2026-11-03T17:20:55+00:00",
+   "mcap": 21812.320023673834,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T09:30:29+00:00",
+   "scored_at": "2026-11-05T09:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Links to developer docs (+5)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u274c Lists fewer than 2 contract addresses (+0)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://texel.run",
+     "https://texel.run",
+     "https://texel.run/#token",
+     "https://docs.robinhood.com/chain"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
+  },
+  "0xebaa0ca1a9d178550fb2f9ca4099a292375a403a": {
+   "address": "0xebaa0ca1a9d178550fb2f9ca4099a292375a403a",
+   "symbol": "RHIABLO",
+   "name": "RHIABLO",
+   "description": "Diablo-like idle ARPG on Robinhood Chain. Every token you burn is carved into your share of the trading fees, for good. Your hero fights on its own; every run is decided by a public block. The fire remembers.",
+   "website": "https://rhiablo.io",
+   "twitter": "https://x.com/rhiablo",
+   "site_via_x": null,
+   "launched": "2026-11-04T01:38:18+00:00",
+   "mcap": 12658,
+   "where": "exchange",
+   "first_seen": "2026-11-05T09:30:29+00:00",
+   "scored_at": "2026-11-05T09:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u2705 Lists 2 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burn) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Trades against PONS, a Robinhood Chain stock token (+10)"
+     ],
+     "Live product": [
+      "\u274c No app or wallet connect found (+0)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 1,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://rhiablo.io",
+     "https://rhiablo.io",
+     "https://rhiablo.io/llms.txt"
+    ],
+    "facts": {
+     "tools": 1,
+     "dev_pages": [],
+     "contract_addresses": 2,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x89b76dcdda801f2e456765742c64950eb2a0c93c": {
+   "address": "0x89b76dcdda801f2e456765742c64950eb2a0c93c",
+   "symbol": "BORRO",
+   "name": "Borro.Markets",
+   "description": "Lend, borrow and short stock tokens. Earn rent on what you lend. On Robinhood Chain.",
+   "website": "http://borro.markets",
+   "twitter": "https://x.com/Borromarkets",
+   "site_via_x": "Borromarkets",
+   "launched": "2026-10-05T19:25:16+00:00",
+   "mcap": 593471,
+   "where": "exchange",
+   "first_seen": "2026-11-05T09:30:29+00:00",
+   "scored_at": "2026-11-05T09:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 90,
+    "raw_score": 90,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u2705 Has docs written for AI to read (/llms-full.txt) (+10)",
+      "\u2705 Developer page: /developers (+5)"
+     ],
+     "Really theirs": [
+      "\u2139\ufe0f Pons lists no website: found http://borro.markets on their X @Borromarkets, which posts the token's address",
+      "\u2705 Token's address is posted by their website or docs and official X @Borromarkets (+15)",
+      "\u2705 Lists 24 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (buy back) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (stock token) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\ud83d\udfe1 Mentions an audit \u2014 not checked (+5)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 3,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "http://borro.markets",
+     "http://borro.markets",
+     "http://borro.markets/llms-full.txt",
+     "http://borro.markets/llms.txt",
+     "http://borro.markets/docs",
+     "http://borro.markets/developers"
+    ],
+    "facts": {
+     "tools": 3,
+     "dev_pages": [
+      "http://borro.markets/developers"
+     ],
+     "contract_addresses": 24,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b": {
+   "address": "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b",
+   "symbol": "GRASS",
+   "name": "Touch Grass",
+   "description": "Stocks hidden in the real world. Go get them. Built on Robinhood Chain.",
+   "website": "https://www.touchgrass.family/",
+   "twitter": "https://x.com/TouchGrassRWA",
+   "site_via_x": null,
+   "launched": "2026-09-03T15:49:36+00:00",
+   "mcap": 549424,
+   "where": "exchange",
+   "first_seen": "2026-11-05T09:30:29+00:00",
+   "scored_at": "2026-11-05T09:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 50,
+    "raw_score": 50,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u2705 Lists 10 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burns) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (stock tokens) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 0,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://www.touchgrass.family/",
+     "https://www.touchgrass.family/",
+     "https://www.touchgrass.family/llms-full.txt",
+     "https://www.touchgrass.family/llms.txt",
+     "https://www.touchgrass.family/docs",
+     "https://robinhoodchain.blockscout.com/address/0xb06b13b857B0fb067c11FEf5F0c98B7c9937A007?tab=tokens",
+     "https://robinhoodchain.blockscout.com/token/0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b",
+     "https://www.touchgrass.family/docs"
+    ],
+    "facts": {
+     "tools": 0,
+     "dev_pages": [
+      "https://www.touchgrass.family/docs"
+     ],
+     "contract_addresses": 10,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x440e339a46eaa3be8d723c2cbed2a30af74536d5": {
+   "address": "0x440e339a46eaa3be8d723c2cbed2a30af74536d5",
+   "symbol": "SPRING",
+   "name": "Ticker Spring",
+   "description": "Meet TickerSpring: earn trading fees through tokenized stock vaults, explore markets, and access lending\u2014all in one place. Coming next: looping, delta-neutral strategies, and something new at the intersection of AI and DeFi. \ud83c\udf31",
+   "website": "http://tickerspring.com",
+   "twitter": "https://x.com/tickerspring",
+   "site_via_x": "tickerspring",
+   "launched": "2026-09-14T16:27:22+00:00",
+   "mcap": 554576,
+   "where": "exchange",
+   "first_seen": "2026-11-05T09:30:29+00:00",
+   "scored_at": "2026-11-05T09:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 65,
+    "raw_score": 65,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\u2139\ufe0f Pons lists no website: found http://tickerspring.com on their X @tickerspring, which posts the token's address",
+      "\u2705 Token's address is posted by their website or docs and official X @tickerspring (+15)",
+      "\u2705 Lists 43 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (buybacks) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u274c No app or wallet connect found (+0)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\ud83d\udfe1 Mentions an audit \u2014 not checked (+5)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 1,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "http://tickerspring.com",
+     "http://tickerspring.com",
+     "http://tickerspring.com/llms-full.txt",
+     "http://tickerspring.com/llms.txt",
+     "http://tickerspring.com/docs",
+     "https://robin.etherscan.io/token/0x440e339a46eaa3bE8d723c2cBED2A30af74536D5",
+     "http://tickerspring.com/docs"
+    ],
+    "facts": {
+     "tools": 1,
+     "dev_pages": [
+      "http://tickerspring.com/docs"
+     ],
+     "contract_addresses": 43,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x54a557dc542676f56ce2b1b5807cc76bedca308a": {
+   "address": "0x54a557dc542676f56ce2b1b5807cc76bedca308a",
+   "symbol": "ZOKI",
+   "name": "Zoki",
+   "description": "Born in the Dark Ages\\nFound on BTC\\nRevived on Robinhood\\nUnleashed on ETH",
+   "website": "https://zoki.fun/",
+   "twitter": "https://x.com/ZokiETH",
+   "site_via_x": "ZokiEth",
+   "launched": "2026-09-14T20:23:28+00:00",
+   "mcap": 548226,
+   "where": "exchange",
+   "first_seen": "2026-11-05T09:30:29+00:00",
+   "scored_at": "2026-11-05T09:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\u2139\ufe0f Pons lists no website: found https://zoki.fun/ on their X @ZokiEth, which posts the token's address",
+      "\u2705 Token's address is posted by their website or docs and official X @ZokiETH (+15)",
+      "\u2705 Lists 3 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burned) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Trades against CBBTC, a Robinhood Chain stock token (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 1,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://zoki.fun/",
+     "https://zoki.fun/",
+     "https://zoki.fun/llms-full.txt",
+     "https://zoki.fun/llms.txt",
+     "https://zoki.fun/docs",
+     "https://zoki.fun/ZOKI_WHITEPAPER.pdf",
+     "https://app.uniswap.org/explore/tokens/robinhood/0x54A557dc542676f56CE2B1B5807Cc76BEdca308a"
+    ],
+    "facts": {
+     "tools": 1,
+     "dev_pages": [],
+     "contract_addresses": 3,
+     "winners_linked": []
+    }
+   }
+  },
+  "0xb0788f5f65a9f4c0d8a634c45c391234f46221ab": {
+   "address": "0xb0788f5f65a9f4c0d8a634c45c391234f46221ab",
+   "symbol": "AUR",
+   "name": "Aurum",
+   "description": "You\u2019ve met the cat saving the trenches.\\nMeet her dragon. \ud83d\udc09\\n\\nAurum hoards gold. Gold for the swarm to deploy through its strategy.",
+   "website": "http://aurumonmosh.com",
+   "twitter": "https://x.com/aurumonmosh",
+   "site_via_x": "aurumonmosh",
+   "launched": "2026-09-23T20:40:26+00:00",
+   "mcap": 493390,
+   "where": "exchange",
+   "first_seen": "2026-11-05T09:30:29+00:00",
+   "scored_at": "2026-11-05T09:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 45,
+    "raw_score": 45,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Links to developer docs (+5)"
+     ],
+     "Really theirs": [
+      "\u2139\ufe0f Pons lists no website: found http://aurumonmosh.com on their X @aurumonmosh, which posts the token's address",
+      "\u2705 Token's address is posted by their website or docs and official X @aurumonmosh (+15)",
+      "\u274c Lists fewer than 2 contract addresses (+0)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (holders can also share) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u274c No app or wallet connect found (+0)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 0,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "http://aurumonmosh.com",
+     "http://aurumonmosh.com",
+     "https://mosh.trade/docs/bundles"
+    ],
+    "facts": {
+     "tools": 0,
+     "dev_pages": [],
+     "contract_addresses": 1,
+     "winners_linked": []
+    }
+   }
   }
  },
  "site_checked": {
@@ -9414,6 +9793,42 @@
   "0x44114d6f66202a267b92bdbb57ae81480a86f0b3": "2026-11-05T09:18:38+00:00",
   "0x98dcc6f9b8298ae1a225b8df1519e7565d45672d": "2026-11-05T09:18:38+00:00",
   "0x0100f6bf62ce4c29198437cfb974b6df24460c4c": "2026-11-05T09:18:38+00:00",
-  "0xd53462ef771d86f15c930527d57412a339f9a2f2": "2026-11-05T09:18:38+00:00"
- }
+  "0xd53462ef771d86f15c930527d57412a339f9a2f2": "2026-11-05T09:18:38+00:00",
+  "0x390562a3ef1158e6c501507ba8f18fd8aaae3973": "2026-11-05T09:30:29+00:00",
+  "0x4cf8adf6a8087092cbe6644a454f1258c2fbc106": "2026-11-05T09:30:29+00:00",
+  "0x08df41fd858b9b612110a31f026bacfee296d78a": "2026-11-05T09:30:29+00:00",
+  "0x089933b226ee9fb364919c1de397e3385dc2c126": "2026-11-05T09:30:29+00:00",
+  "0x6242310b9b0ffb4ad787f2d3888f7319cd2b35af": "2026-11-05T09:30:29+00:00",
+  "0x93487c6f79ad68237eee5f88ad2e2f640283b235": "2026-11-05T09:30:29+00:00",
+  "0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d": "2026-11-05T09:30:29+00:00",
+  "0x01f27bcfcdf8e10796d6021c57114874961086c7": "2026-11-05T09:30:29+00:00",
+  "0x5eb674dcf0d6b4398d143a90642a905391e91c92": "2026-11-05T09:30:29+00:00",
+  "0x0ddcab9ae04bda0c87ecc1640636fa11e8e613e8": "2026-11-05T09:30:29+00:00",
+  "0x4fc4300b9a593f99890d962b355cc4436a796b21": "2026-11-05T09:30:29+00:00",
+  "0xebaa0ca1a9d178550fb2f9ca4099a292375a403a": "2026-11-05T09:30:29+00:00",
+  "0xa693f8aba8ead73d075ea17fa677a25da41db46a": "2026-11-05T09:30:29+00:00",
+  "0x7ab1f59e871052581d0e5694159a2d6ee0d02b1a": "2026-11-05T09:30:29+00:00",
+  "0xd2d466ea92a288e6d920c6100381d0c100a192a5": "2026-11-05T09:30:29+00:00",
+  "0xddf241295378599a645b98acd93e62a6e911c699": "2026-11-05T09:30:29+00:00",
+  "0x64a2d81a97a56f0d9155e2fa31f1ceb5d64294f4": "2026-11-05T09:30:29+00:00",
+  "0x5b5448bb4101a136127ca8bf60a9f669f93fc09b": "2026-11-05T09:30:29+00:00",
+  "0xdce5c6317222c5b6e5d963eeac010dfc4da9e6da": "2026-11-05T09:30:29+00:00",
+  "0xb51d57cbe67152fd163f59d1e0f950c6b647fb07": "2026-11-05T09:30:29+00:00",
+  "0xef67e3064bef1a27e81925ec7132f23e533bd5f6": "2026-11-05T09:30:29+00:00",
+  "0x3f9108a3beca998c14c6dda822a7e8eaeb88e20d": "2026-11-05T09:30:29+00:00",
+  "0x0473396ffb1354b13a6e10a92970a28fe86bdf22": "2026-11-05T09:30:29+00:00",
+  "0xc0e6a1e1e37129b839ac8ec12a24ceedaf2b13f7": "2026-11-05T09:30:29+00:00",
+  "0x89b76dcdda801f2e456765742c64950eb2a0c93c": "2026-11-05T09:30:29+00:00",
+  "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b": "2026-11-05T09:30:29+00:00",
+  "0x440e339a46eaa3be8d723c2cbed2a30af74536d5": "2026-11-05T09:30:29+00:00",
+  "0x54a557dc542676f56ce2b1b5807cc76bedca308a": "2026-11-05T09:30:29+00:00",
+  "0xe4119a9bfcc86915368502b598bbed4745f7051d": "2026-11-05T09:30:29+00:00",
+  "0x15d36b6a28d8327abc7afabf0f106ae2c9af5c4d": "2026-11-05T09:30:29+00:00",
+  "0xb0788f5f65a9f4c0d8a634c45c391234f46221ab": "2026-11-05T09:30:29+00:00"
+ },
+ "catchup_plain": [
+  "0x5733507868f46d96907132f98431dceef67c69cc",
+  "0x73114abd7dcf37000d90d8de9fd1de3957b17c04",
+  "0xfed508e349c47f669e57c1a1ba476e5e0e6b918e"
+ ]
 }
