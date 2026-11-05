@@ -1,15 +1,16 @@
-Pons: 50 tokens on the newest page
-DexScreener: 11 Robinhood Chain tokens in profiles/boosts
+Pons: 48 tokens on the newest page
+DexScreener: 10 Robinhood Chain tokens in profiles/boosts
 Pons: 79 tokens on the market-cap and volume pages
-Catch-up: 20 older tokens added this run, 1286 left
-Wallets: 16 new Pons launches (total 724,541)
-Pool feed: 180 new non-Pons tokens, 241 value checks (0 wait), 179 worth a look, 1073 being followed
-Launch dates: set for 12 listed tokens
+Catch-up: 20 older tokens added this run, 231 left
+Wallets: 11 new Pons launches (total 724,578)
+Pool feed: 273 new non-Pons tokens, 244 value checks (0 wait), 185 worth a look, 1243 being followed
+Launch dates: set for 13 listed tokens
   RESCORED: OAK -> OakAgentKit/oak score 65
+  NEW GITHUB: OMAR -> omar-os/omar score 25 RED FLAG
+  NEW GITHUB: BLACKPOOL -> blackpooldev/blackpool score 65
+  NEW GITHUB: OMAR -> omar-os/omar score 25 RED FLAG
   NEW GITHUB: TEST -> EtchydotFun/etchy-zero score 45
-  NEW GITHUB: FWIT -> frostwit/frostwit score 60
-  NEW GITHUB: PERL -> perlacompute/perla-compute score 60
-  NEW GITHUB: EGO -> citrolabs/ego-lite score 50
+  RESCORED: GAGE -> DebenLabs/gage-audit score 75
   RESCORED: CUBE -> collabs-inc/cube-releases score 0 RED FLAG
   RESCORED: LMNI -> lemniscatedev/lemniscate score 40
   RESCORED: AGAV -> prapaa-ai/agav score 40
@@ -17,7 +18,6 @@ Launch dates: set for 12 listed tokens
   RESCORED: FLOEM -> floemdotfun/ score 0 RED FLAG
   RESCORED: BURSAR -> bursar-world/landing score 25
   RESCORED: ATLASC -> nathanliow/atlas-of-physics score 35
-  RESCORED: GAGE -> DebenLabs/gage-audit score 75
   RESCORED: HETAIROI -> HetairoiAgent/hetairoi score 0 RED FLAG
   RESCORED: BUCKS -> priors-agents/priors score 0 RED FLAG
   RESCORED: Perpets -> perpetsdev/ score 20
@@ -35,7 +35,7 @@ Launch dates: set for 12 listed tokens
   RESCORED: PKL -> PMDCollab/SpriteCollab score 0 RED FLAG
   RESCORED: CHARITY -> ponscharity/ponscharity score 50
   RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
-  RESCORED: DARE -> loodev3/dictator-dares score 0 RED FLAG
+  RESCORED: DARE -> loodev3/dictator-dares score 40
   RESCORED: DARE -> loodev3/dictator-dares score 40
   RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
   RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
@@ -58,17 +58,58 @@ Launch dates: set for 12 listed tokens
   RESCORED: CRW -> fastcrw/crw score 25 RED FLAG
   RESCORED: BISCOTTI -> psql/biscotti score 50
   RESCORED: OMHER -> rlaope/oh-my-hermes score 25 RED FLAG
+  RESCORED: HOLAOS -> holaboss-ai/holaOS score 25 RED FLAG
+  RESCORED: EGOLIT -> citrolabs/ego-lite score 25 RED FLAG
+  RESCORED: SRV4A -> Server4Agent/server4agent-go score 35
+  RESCORED: GUARDIS -> guardis-io/ score 40
+  RESCORED: MAHORA -> ygwyg/MAHORAGA score 25 RED FLAG
+  RESCORED: WORG -> worghq/ score 40
   RESCORED: SBOR -> sborxyz/sbor score 65
+  RESCORED: PRIORS -> priors-agents/priors score 80
+  RESCORED: DARK -> darkwoodsai/ score 80
+  RESCORED: WORM -> runningoffcode/agent-wormhole score 75
+  RESCORED: TRENCHERS -> trenchersio/trenchers score 85
+  RESCORED: PERL -> perlacompute/perla-compute score 60
   RESCORED: DI -> pons-labs/ score 10
   RESCORED: KROMT -> kromtxyz/kromt-rpcsh score 50
-  NEW GITHUB: NYMRA -> Nymrasi/plugin score 0 RED FLAG
-Site check: 4 tokens didn't fit this run, queued for catch-up
-  NEW SITE: ORYLIA https://orylia.ai score 30 (2 plug-in tools)
-  NEW SITE: Orylia https://orylia.ai/ score 30 (2 plug-in tools)
-Site check: 41 sites checked, 2 newly listed, 123 listed in all
+  RESCORED: PSSGRM -> DabosHub/PassGram score 45
+  RESCORED: APT -> S4viour1/astropad score 0 RED FLAG
+  RESCORED: PONSIFI -> ponsdotdev/pons-labs score 0 RED FLAG
+  RESCORED: EXPO -> expogacha/contracts score 70
+  RESCORED: VESPERALAB -> vesperai-ai-developer/vesperai score 0 RED FLAG
+  RESCORED: STBL -> superstables/superstables score 50
+  NEW GITHUB: RAXOL -> DROOdotFOO/raxol score 65
+  NEW GITHUB: FRONG -> pondkeeper/frong-ledger score 50
+Site check: 22 tokens didn't fit this run, queued for catch-up
+  SITE RESCORED: UBIK https://ubik.gold score 65 (3 plug-in tools)
+  SITE RESCORED: GF http://gongfu.finance score 60 (2 plug-in tools)
+  SITE RESCORED: HYDX https://hyperdex.app score 40 (0 plug-in tools)
+  SITE RESCORED: SPRING http://tickerspring.com score 60 (1 plug-in tools)
+  SITE RESCORED: TEXEL https://texel.run score 50 (2 plug-in tools)
+  SITE RESCORED: FLATLINE https://www.flatline.live score 45 (1 plug-in tools)
+  SITE RESCORED: SKILRY https://skillry.dev score 55 (4 plug-in tools)
+  SITE RESCORED: BELL https://www.bellstocks.tech score 30 (0 plug-in tools)
+  SITE RESCORED: GHOSTDEX https://ghosdex.app/ score 40 (0 plug-in tools)
+  SITE RESCORED: DWRK https://dotworkbuild.dev score 60 (2 plug-in tools)
+  SITE RESCORED: PERPSONS https://perpsons.com score 45 (0 plug-in tools)
+  SITE RESCORED: PV4 https://www.protocolv4.xyz/ score 45 (1 plug-in tools)
+  SITE RESCORED: ASTER https://asterrapools.tech score 35 (0 plug-in tools)
+  SITE RESCORED: BORRO http://borro.markets score 80 (3 plug-in tools)
+  SITE RESCORED: GRASS https://www.touchgrass.family/ score 50 (0 plug-in tools)
+  SITE RESCORED: ZOKI https://zoki.fun/ score 50 (1 plug-in tools)
+  SITE RESCORED: AUR http://aurumonmosh.com score 40 (0 plug-in tools)
+  SITE RESCORED: RHIABLO https://rhiablo.io score 50 (1 plug-in tools)
+  SITE RESCORED: GG https://looping.gg score 35 (3 plug-in tools)
+  SITE RESCORED: BPEPE http://bundlepepe.lol score 60 (1 plug-in tools)
+  SITE RESCORED: ONAGI https://onagi.si score 55 (1 plug-in tools)
+  SITE RESCORED: PACKD https://packd.cc score 40 (1 plug-in tools)
+  SITE REMOVED: DIVIDEND https://otcdesks.cash/coin/72BDB9uj6DbsyXHkiX4zAike2xW1rmpxZqy3yDTUpump is not the project's own website
+  NEW SITE: VESP https://vespora.xyz score 30 (2 plug-in tools)
+  NEW SITE: XORA https://neuxora.me score 60 (3 plug-in tools)
+Site check: 65 sites checked, 2 newly listed, 124 listed in all
 X: refreshed 12 accounts
-Wallets: 26 new Pons launches (total 724,567)
-Shipping: 52 green, 20 amber, 41 red, 186 grey, 9 changes
-Prices: 292 of 293 tokens priced, 292 rows logged
-Done 2026-11-05 15:12 UTC: 170 tokens with GitHub on the page
+Wallets: 52 new Pons launches (total 724,630)
+Shipping: 49 green, 17 amber, 67 red, 170 grey, 32 changes
+Prices: 296 of 297 tokens priced, 296 rows logged
+Done 2026-11-05 15:46 UTC: 173 tokens with GitHub on the page
 Live site: page copied, the workflow pushes it

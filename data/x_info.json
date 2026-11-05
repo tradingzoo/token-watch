@@ -1171,7 +1171,7 @@
   },
   "nymrasi": {
    "handle": "Nymrasi",
-   "found": true,
+   "found": false,
    "id": "2110851832830443520",
    "name": "Nymra",
    "joined": "2026-10-15T21:55:11+00:00",
@@ -1193,11 +1193,12 @@
    "fake_posts": [
     "$NYMRA isn't live yet. Every NYMRA token you see is not ours. Same name, same logo, still fake. Only @nymrasi on X and https://t.me/nymrasi on Telegram will post the contract address at launch. (Nov 04 13:00 UTC)"
    ],
-   "checked": "2026-11-05T03:35:37+00:00"
+   "checked": "2026-11-05T15:46:50+00:00",
+   "gone_since": "2026-11-05T15:46:50+00:00"
   },
   "winwithdares": {
    "handle": "winwithdares",
-   "found": true,
+   "found": false,
    "id": "2116807846968881152",
    "name": "Dictator Dares",
    "joined": "2026-11-01T08:23:29+00:00",
@@ -1217,7 +1218,8 @@
     "0xe79f8e006df605cdb5abc6f309420ec7262fda80"
    ],
    "fake_posts": [],
-   "checked": "2026-11-05T03:35:37+00:00"
+   "checked": "2026-11-05T15:46:50+00:00",
+   "gone_since": "2026-11-05T15:46:50+00:00"
   },
   "rackshq": {
    "handle": "RacksHQ",
@@ -1234,12 +1236,25 @@
    "sample_full_week": false,
    "posts_7d": 0,
    "avg_likes": 8.2,
-   "avg_views": 541,
+   "avg_views": 542,
    "bio_site": "http://racks.bid",
    "bio": "Hardware prices. Live. Tradeable. \n\nSettled in USDG on Robinhood Chain.",
    "cas": [],
    "fake_posts": [],
-   "checked": "2026-11-05T03:39:31+00:00"
+   "texts": [
+    "Everyone wants one thing",
+    "Join the waitlist. https://racks.bid/?v=2",
+    "",
+    "Who cares what a GPU rents for? the renter, when their cloud bill goes up. the provider, when their revenue goes down. and traders with skin in the game.",
+    "do you run, rent, or lend against GPUs? we want you to test racks before mainnet. dm us. anyone can join the waitlist at https://racks.bid for a season 1 points boost, up to 1.5x.",
+    "this is our final tweet in this thread.",
+    "Every commodity you can't store ends up with a futures market. That's why we built Racks. Racks Season Zero is now live \u2193",
+    "Sign up for the waitlist to receive up to a 1.5x multiplier on points during Season One. https://racks.bid",
+    "This is our final tweet in this thread.",
+    "\"The compute rich say racks\" Couldn't have said it better myself.",
+    "Compute has a price. Soon, you can trade it onchain. Racks is coming."
+   ],
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "iannuttall": {
    "handle": "iannuttall",
@@ -1722,25 +1737,47 @@
    "id": "2070970261214810112",
    "name": "Server For Agent",
    "joined": "2026-06-27T20:40:17+00:00",
-   "followers": 108,
-   "following": 703,
-   "posts": 948,
+   "followers": 110,
+   "following": 704,
+   "posts": 957,
    "verified": "individual",
-   "last_post": "2026-11-05T03:00:26+00:00",
+   "last_post": "2026-11-05T07:17:31+00:00",
    "sample": 20,
    "sample_full_week": true,
    "posts_7d": 20,
    "avg_likes": 0.3,
-   "avg_views": 17,
+   "avg_views": 19,
    "bio_site": "https://server4agent.com",
    "bio": "Your AI assistant can ship real tools. Connect the one you already use, ask for a dashboard, a bot or a daily job, and get a live link your team can open",
    "cas": [],
    "fake_posts": [],
-   "checked": "2026-11-05T03:35:37+00:00"
+   "texts": [
+    "Freelancer handover, the old way: a zip file and a prayer. The new way: invite the client to the project. Export the code if they want it. https://www.server4agent.com/blog/agencies-ship-client-prototypes-with-ai-agents?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_cont",
+    "The activity log is the \"who changed this?\" button. Every team needs one. Most teams find out after the change. https://www.server4agent.com/for-managers?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fi04 #MultiplayerAI #Management",
+    "Myth: MCP is only for developers. Reality: if your AI app has a \"connectors\" setting, you can use it. Copy, paste, sign in. https://www.server4agent.com/blog/what-is-an-mcp-server-in-ai?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fh04 #MultiplayerAI #MCP",
+    "AI pet peeve #4: The daily job only runs if your laptop is open. Fix: give it a server. Close the laptop. Go outside. https://www.server4agent.com/blog/give-your-ai-assistant-a-real-computer?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fg04 #MultiplayerAI #",
+    "Light starter: the price and job watcher. It checks the page so you don't have to, and tells you when something changes. https://www.server4agent.com/templates/price-job-watcher?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_ff04 #MultiplayerAI #Templates",
+    "New year resolution for teams: Stop keeping useful AI-built tools in personal chats. Put them where the whole team can find them. https://www.server4agent.com/for-managers?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fe04 #MultiplayerAI #Management",
+    "Interview tip: hire the assistant that shows its work. A link you can open beats a paragraph that says \"done!\" and nothing else. https://www.server4agent.com/blog/why-every-ai-agent-should-return-a-url?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fd04 #Mult",
+    "The first tool is the hard one. Not because it's difficult. Because you don't believe it'll work until the link opens. https://www.server4agent.com/blog/non-technical-guide-ship-tools-from-chat?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fc04 #MultiplayerA",
+    "\"Just add a row\" works until 11 people add rows in 11 different formats. A form with a dropdown is not over-engineering. It's mercy. https://www.server4agent.com/blog/why-every-ai-agent-should-return-a-url?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fb04 #",
+    "The dentist's booking page went down on Saturday. Nobody noticed until Monday's empty chairs. A scheduled check would have sent a message on Saturday at 9:02. https://www.server4agent.com/templates/url-uptime-monitor?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content",
+    "Seeing \"Invalid client_id\" when Claude tries to auto-connect to your MCP server? Your resolver is probably rejecting a grant type it doesn't recognise. Ignore it instead. Full guide: https://www.server4agent.com/blog/claude-trusted-issuer-mcp-server?utm_source=x&utm_medium=social&utm_campaign=x_blog",
+    "We make Server4Agent, so we're biased. We still wrote an honest Vercel comparison, with every Vercel detail linked to their own docs. Spoiler: plenty of teams should use both. https://www.server4agent.com/blog/vercel-vs-server-for-ai-agents?utm_source=x&utm_medium=social&utm_campaign=x_blog_push_202",
+    "Discord bot hosting, honestly: VPS: cheap, you babysit it. Container platform: you package it. Or the assistant that wrote it sets it up and keeps it running. https://www.server4agent.com/blog/host-discord-bot-ai-assistant-wrote?utm_source=x&utm_medium=social&utm_campaign=x_blog_push_2026_11&utm_con",
+    "If your AI-built tool stores data, sends email, runs on a schedule or uses an API key, a drag-and-drop host won't run it. It'll load. The important parts just quietly won't work. https://www.server4agent.com/blog/put-ai-written-code-online?utm_source=x&utm_medium=social&utm_campaign=x_blog_push_2026",
+    "Accepting Claude as a trusted issuer, in one breath: Accept the JWT bearer grant, skip DCR, let each admin trust one issuer, check every assertion in order. The traps nobody lists are in here. https://www.server4agent.com/blog/claude-trusted-issuer-mcp-server?utm_source=x&utm_medium=social&utm_campa",
+    "Vercel or a server for what your AI agent builds? Engineer in the loop, web app on a global network: Vercel. Bot, scheduled job, internal tool nobody reads the code of: a server. Often: both. https://www.server4agent.com/blog/vercel-vs-server-for-ai-agents?utm_source=x&utm_medium=social&utm_campaign",
+    "Your AI wrote you a Discord bot. It works great. Until you close your laptop. A bot isn't a website. It needs something that stays awake. https://www.server4agent.com/blog/host-discord-bot-ai-assistant-wrote?utm_source=x&utm_medium=social&utm_campaign=x_blog_push_2026_11&utm_content=discord1 #Multip",
+    "\"Save this as index.html and deploy it to your preferred hosting provider.\" The most confusing sentence an AI ever says to a non-developer. Here's what to actually do with it. https://www.server4agent.com/blog/put-ai-written-code-online?utm_source=x&utm_medium=social&utm_campaign=x_blog_push_2026_11",
+    "Some news: Server4Agent joined NVIDIA Inception. What changes for you: nothing. Same prices, same private-by-default projects, same budget cap. What changes for us: more help building the thing. https://www.server4agent.com/blog/server4agent-joins-nvidia-inception?utm_source=x&utm_medium=social&utm_",
+    "Claude can now connect plugins the moment someone logs in. No sign-in page. No consent screen. Your MCP server just has to accept Claude as a trusted issuer. We built it into ours and wrote down every trap we hit. https://www.server4agent.com/blog/claude-trusted-issuer-mcp-server?utm_source=x&utm_me"
+   ],
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "burcs": {
    "handle": "burcs",
-   "found": true,
+   "found": false,
    "id": "241270968",
    "name": "brandon",
    "joined": "2011-01-21T21:33:42+00:00",
@@ -1758,7 +1795,8 @@
    "bio": "head of experience & design @cloudflare | founder @outerbase (acquired)",
    "cas": [],
    "fake_posts": [],
-   "checked": "2026-11-05T03:35:37+00:00"
+   "checked": "2026-11-05T15:46:50+00:00",
+   "gone_since": "2026-11-05T15:46:50+00:00"
   },
   "worghq": {
    "handle": "worghq",
@@ -8526,8 +8564,33 @@
   },
   "floradotmeme": {
    "handle": "floradotmeme",
-   "found": false,
-   "checked": "2026-11-05T14:50:31+00:00"
+   "found": true,
+   "id": "2118333759145545728",
+   "name": "Flora",
+   "joined": "2026-11-05T13:26:10+00:00",
+   "followers": 83,
+   "following": 5,
+   "posts": 10,
+   "verified": null,
+   "last_post": "2026-11-05T16:13:01+00:00",
+   "sample": 6,
+   "sample_full_week": false,
+   "posts_7d": 6,
+   "avg_likes": 21.2,
+   "avg_views": 468,
+   "bio_site": "http://flora.meme",
+   "bio": "",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "The floor is going up fast. 32k floor first day of launch $FLORA Just the beginning of something big",
+    "easy peasy \ud83d\udde1\ufe0f",
+    "Market down, floor up \ud83d\ude80",
+    "I LOVE THE FLOOR! \ud83d\ude3b\ud83c\udf38",
+    "Website updated $FLORA \ud83c\udf38 CA and links are now updated",
+    "Updating ca and links in $FLORA website"
+   ],
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "npc_nexus": {
    "handle": "npc_nexus",
@@ -8772,7 +8835,203 @@
     "Three words in. A structured prompt out, readable before it runs.",
     "Say the idea. Get the picture. Orylia is a free AI image and video generator. Describe an idea and the agent picks the best model, or use 50+ one-click tools and expert templates. No prompts, zero learning curve. https://orylia.ai"
    ],
-   "checked": "2026-11-05T15:12:26+00:00"
+   "checked": "2026-11-05T14:50:31+00:00"
+  },
+  "omardotrs": {
+   "handle": "omardotrs",
+   "found": true,
+   "id": "2118174673523683328",
+   "name": "Omar",
+   "joined": "2026-11-05T02:53:14+00:00",
+   "followers": 4,
+   "following": 2,
+   "posts": 13,
+   "verified": null,
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://omar.rs/",
+   "bio": "Making multi-agent coordination structured, predictable, and controllable.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T15:46:50+00:00"
+  },
+  "blackpoolcash": {
+   "handle": "BlackPoolCash",
+   "found": true,
+   "id": "2117557916391944192",
+   "name": "BlackPool",
+   "joined": "2026-11-03T10:03:46+00:00",
+   "followers": 48,
+   "following": 11,
+   "posts": 8,
+   "verified": "individual",
+   "last_post": "2026-11-05T15:27:42+00:00",
+   "sample": 8,
+   "sample_full_week": false,
+   "posts_7d": 8,
+   "avg_likes": 3.9,
+   "avg_views": 98,
+   "bio_site": "https://blackpool.cash/",
+   "bio": "$BLACKPOOL Private payments that leave no trail.\nhttps://github.com/blackpooldev/blackpool\n\n0xd2501Da2a96Ca85A702cb414ea7dD2DDeE451a21",
+   "cas": [
+    "0xd2501da2a96ca85a702cb414ea7dd2ddee451a21"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "$BLACKPOOL is now live on @ponsdotfamily CA: 0xd2501Da2a96Ca85A702cb414ea7dD2DDeE451a21 Blackpool runs zero-knowledge privacy pools on EVM. Shield any amount, then send, swap or bridge with no onchain link back to your wallet. Relayer-paid gas. No custody. No fixed amounts. No waiting periods. Bridg",
+    "Private payments, one prompt away. Blackpool runs as an MCP server, so any AI agent can shield, send, swap and bridge privately. Ask in plain language. The agent calls the tool, a relayer pays the gas, and nothing onchain links back to you. npx -y @blackpool/cli@latest mcp Everything an agent needs ",
+    "Every step of a payment, none of the exposure. Shield any amount into a zero-knowledge pool. Send to anyone while a relayer covers the gas. Swap inside the pool and get re-shielded automatically. Bridge across chains through NEAR Intents. Live on Robinhood Chain, Base, Arbitrum and BNB Chain. http:/",
+    "Your agent can pay privately, too. Run Blackpool as an MCP server: npx -y @blackpool/cli@latest mcp balance \u00b7 deposit \u00b7 send \u00b7 swap \u00b7 bridge \u00b7 recover JSON output, stable exit codes, and your key stays local. Docs \u2192 https://blackpool.cash/docs",
+    "Same payment. Two very different trails. Without Blackpool: sender, amount and recipient are linked on-chain forever. With Blackpool: the relayer pays gas, a ZK proof does the rest, and nothing links you to the recipient. https://github.com/blackpooldev/blackpool https://blackpool.cash",
+    "https://x.com/i/article/2117575873033375744",
+    "Introducing Blackpool: private payments that leave no trail. Connect a wallet, sign once, and your private account exists on every supported chain. Then shield, send, swap and bridge without an on-chain link between the money that went in and the money that comes out.",
+    "Private payments that leave no trail. Shield. Send. Swap. Bridge. All with zero-knowledge proofs. No custody, no fixed amounts, no waiting. Live on Robinhood Chain, Base, Arbitrum & BNB Chain. https://blackpool.cash"
+   ],
+   "checked": "2026-11-05T15:46:50+00:00"
+  },
+  "axol_io": {
+   "handle": "axol_io",
+   "found": true,
+   "id": "1574872062811856897",
+   "name": "axol.io",
+   "joined": "2022-09-27T21:22:29+00:00",
+   "followers": 3279,
+   "following": 67,
+   "posts": 1473,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://axol.io",
+   "bio": "Raxol: Onchain commerce, agent runtime. Axolotls recursing until privacy is simple.\n\nhttps://linktr.ee/axol.io",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T15:46:50+00:00"
+  },
+  "frongcommunity": {
+   "handle": "frongcommunity",
+   "found": true,
+   "id": "2085254239907950592",
+   "name": "Frong \ud83d\udc38",
+   "joined": "2026-08-06T06:42:11+00:00",
+   "followers": 3353,
+   "following": 11,
+   "posts": 373,
+   "verified": "individual",
+   "last_post": "2026-11-05T08:12:57+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 9,
+   "avg_likes": 59.9,
+   "avg_views": 1449,
+   "bio_site": "https://t.me/frongcommunity",
+   "bio": "it's frong, baby \ud83d\udc38  created by @zacklabadie in the @tradepools trenches. community-owned account. stay $FRONG",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Something big is coming",
+    "Bing bong",
+    "Trust the process @TradePools",
+    "When they fring we frong",
+    "Happy frongoween @TradePools @vladtenev @haydenzadams",
+    "\ud83d\udea8 Breaking News\ud83d\udea8 @TradePools @vladtenev @haydenzadams @cz_binance",
+    "We are off to the races on green chain @TradePools @vladtenev",
+    "There is no second best @TradePools",
+    "I\u2019m never selling !!!! @TradePools @vladtenev @haydenzadams",
+    "Not frong just early @TradePools @vladtenev @haydenzadams @Uniswap",
+    "The Party about to start @TradePools @vladtenev",
+    "It\u2019s not a frog it\u2019s FRONG @TradePools @vladtenev @haydenzadams",
+    "The war on Frong @TradePools",
+    "The @RobinhoodCrypto fans were never frong just early",
+    "It\u2019s macareeennnnaaa time with @vladtenev",
+    "not frong just early @TradePools @RobinhoodCrypto",
+    "There\u2019s a new hero in town @TradePools",
+    "Welcome to @RobinhoodCrypto city One frog one mission @TradePools",
+    "Who\u2019s a better dancer me or @vladtenev @TradePools"
+   ],
+   "checked": "2026-11-05T15:46:50+00:00"
+  },
+  "vesporarh": {
+   "handle": "VesporaRH",
+   "found": true,
+   "id": "2114940272186462208",
+   "name": "Vespora",
+   "joined": "2026-10-27T04:43:23+00:00",
+   "followers": 55,
+   "following": 0,
+   "posts": 34,
+   "verified": "individual",
+   "last_post": "2026-11-05T14:00:15+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 1.4,
+   "avg_views": 100,
+   "bio_site": null,
+   "bio": "A platform for AI-powered teams. Bringing specialized agents together to research, execute, and review complex tasks.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Vespora swarms are heading to @RaetoCC. We've submitted 12 research jobs to Raeto Pay. Once approved, Raeto agents will be able to discover a swarm with find_tools, hire it with use_tool and pay straight from their Raeto balance. One agent calls. A team researches, cross-checks and delivers a combin",
+    "Holding 100,000 VESP gives you access to Vespora AI and 100 free research credits each day. Put them toward lookups you approve, then explore the findings and ask follow-up questions in your conversation. https://vespora.xyz/chat",
+    "Give your swarm a clear brief. Try: \u201cResearch [project]. Compare independent sources, summarize the evidence and list the questions that remain open.\u201d Review the proposed plan and credit cost in Vespora AI. https://vespora.xyz/chat",
+    "Research starts where you browse. Copy a token contract from https://fomo.family or https://ponsfamily.com, choose a task in the Vespora addon and paste the address into Vespora to prepare your research. https://vespora.xyz/extension",
+    "Two models. One conversation. Switch between Vespora Default and DeepSeek Uncensored, then build on the context already in your chat with a follow-up question. https://vespora.xyz/chat",
+    "Browse. Quote. Run. Retrieve. Vespora\u2019s MCP tools expose the workflow to your agent: list jobs, get a plan and price, start paid work, then fetch the result with your access key. One job can involve several specialist services.",
+    "https://x.com/i/article/2117723555978776576",
+    "We've burned 23,757,280.20 VESP across 3 transactions on Robinhood Chain. All tokens were sent to the burn address. Verify each transaction: https://robin.etherscan.io/tx/0x7414ef55c5063eb4a9ed0acba9b676377c6fcec6cd81276f7eea2e40f90aa737 https://robin.etherscan.io/tx/0x6f639d030bfc4bc2b312fa57fb85a7",
+    "DeepSeek v4.1 Uncensored is now in Vespora AI. Ask freely. Write, code and explore ideas with an abliterated model, right inside your workspace. Choose DeepSeek Uncensored in the model selector and start a conversation. https://vespora.xyz/chat",
+    "Your agent can hire a Vespora team through MCP. Browse jobs, request a free quote and pay to run a task from the same workflow. Vespora coordinates the specialists and returns a job you can follow. https://vespora.xyz",
+    "GM. What research task would you hand to a team of agents today? We are interested in the questions that take more than a single lookup.",
+    "What would you put your swarm to work on? Bring a specific research question to Vespora AI. Review the proposed plan, approve the lookup and explore the findings with your team in one conversation. https://vespora.xyz/chat",
+    "A combined answer is the starting point. Explore the source references, review the findings and inspect the itemized receipt of services used for your task. Vespora AI keeps the research connected to your conversation. https://vespora.xyz/chat",
+    "Your research can continue beyond the first answer. Ask follow-up questions in Vespora AI and explore findings already in your conversation. Sign in with the same wallet to restore your saved history on another device. https://vespora.xyz/chat",
+    "You shape the research before the swarm starts. Vespora AI proposes the work and shows its credit cost. Review the plan and confirm the lookup to put the specialists to work. https://vespora.xyz/chat",
+    "Holding 100,000 VESP unlocks Vespora AI with 100 free research credits each day. Use them for research lookups you approve. Everyday conversation stays free, and you can top up with USDG on Robinhood Chain. https://vespora.xyz/chat",
+    "Build your own swarm of agents with Vespora AI. Describe the task, review the proposed plan and credit cost, then approve the research. The team brings findings, sources and a receipt back into your conversation. https://vespora.xyz/chat",
+    "A token catches your eye. Research it from the same page. Browse https://fomo.family or https://ponsfamily.com, select its name or contract address, then open the Vespora addon to choose a research task. https://vespora.xyz/extension",
+    "Vespora AI is here! Build your own swarm of agents, starting with a question. Tell it what you want to investigate. Vespora AI turns your request into a research plan, shows the credit cost and brings in specialized agents once you approve. Your swarm researches in parallel, compares sources and cha",
+    "Your job comes with an access key. Save it to follow progress and retrieve the result when the team finishes. You can return to the findings, sources and itemized receipt from the same job."
+   ],
+   "checked": "2026-11-05T15:46:50+00:00"
+  },
+  "neuxoradotme": {
+   "handle": "neuxoradotme",
+   "found": true,
+   "id": "2115326786208690176",
+   "name": "Neuxora",
+   "joined": "2026-10-28T06:18:41+00:00",
+   "followers": 10,
+   "following": 0,
+   "posts": 4,
+   "verified": "individual",
+   "last_post": "2026-11-04T22:08:36+00:00",
+   "sample": 3,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 1.7,
+   "avg_views": 149,
+   "bio_site": "http://neuxora.me",
+   "bio": "Lend USDG on Robinhood Chain and turn the interest into credits for GPT, Claude, Gemini and more, all in one chat app.",
+   "cas": [
+    "0x6edfb1c17ff2d4b44ac00686a19c51711e218bb8"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Neuxora's contracts are verified on Blockscout. USDG vault: https://robinhoodchain.blockscout.com/address/0x6edfB1C17ff2d4b44AC00686a19c51711E218bb8?tab=contract All 10 contracts: https://neuxora.me/docs#contracts",
+    "Neuxora's USDG vault pays 3.68% a year today. Deposit once on Robinhood Chain. It is lent through Morpho, and the interest arrives every day as AI credits for 88 models, from GPT to Claude to Gemini. Your deposit stays yours. Withdraw any time.",
+    "https://robin.etherscan.io/tx/0x827338db4529ecf4563293f7be8fda623cbe2eb96a417d5128bd61013c6d6d32"
+   ],
+   "checked": "2026-11-05T15:46:50+00:00"
   }
  },
  "ids": {
@@ -9493,11 +9752,26 @@
   "2032968055249317890": [
    "sherwoodagent"
   ],
-  "2117890953595981824": [
-   "frostwitRH"
+  "2097672788299362305": [
+   "Valseqxyz"
   ],
-  "2118241649914699776": [
-   "oryliaai"
+  "2118333759145545728": [
+   "floradotmeme"
+  ],
+  "2118174673523683328": [
+   "omardotrs"
+  ],
+  "2117557916391944192": [
+   "BlackPoolCash"
+  ],
+  "2085254239907950592": [
+   "frongcommunity"
+  ],
+  "2114940272186462208": [
+   "VesporaRH"
+  ],
+  "2115326786208690176": [
+   "neuxoradotme"
   ]
  },
  "past": {
@@ -9744,12 +10018,17 @@
   "edinetdb": [],
   "floradotmeme": [],
   "npc_nexus": [],
-  "tilodotso": [],
-  "frongcommunity": [],
-  "sherwoodagent": [],
+  "robinhoodapp": [],
+  "oryliaai": [],
+  "nebulixlabs_xyz": [],
+  "v4depth": [],
+  "valseqxyz": [],
+  "omardotrs": [],
+  "blackpoolcash": [],
   "axol_io": [],
-  "frostwitrh": [],
-  "oryliaai": []
+  "frongcommunity": [],
+  "vesporarh": [],
+  "neuxoradotme": []
  },
  "history": {
   "barragetrade": {
@@ -10214,8 +10493,8 @@
   },
   "serverforagent": {
    "2026-11-05": [
-    108,
-    948
+    110,
+    957
    ]
   },
   "burcs": {
@@ -11309,6 +11588,48 @@
     10,
     20
    ]
+  },
+  "floradotmeme": {
+   "2026-11-05": [
+    83,
+    10
+   ]
+  },
+  "omardotrs": {
+   "2026-11-05": [
+    4,
+    13
+   ]
+  },
+  "blackpoolcash": {
+   "2026-11-05": [
+    48,
+    8
+   ]
+  },
+  "axol_io": {
+   "2026-11-05": [
+    3279,
+    1473
+   ]
+  },
+  "frongcommunity": {
+   "2026-11-05": [
+    3353,
+    373
+   ]
+  },
+  "vesporarh": {
+   "2026-11-05": [
+    55,
+    34
+   ]
+  },
+  "neuxoradotme": {
+   "2026-11-05": [
+    10,
+    4
+   ]
   }
  },
  "telegram": {
@@ -11589,17 +11910,17 @@
   "nymrasi": {
    "twitter": "nymrasi",
    "blog": "https://nymra.si",
-   "checked": "2026-11-05T03:35:37+00:00"
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "loodev3": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T03:35:37+00:00"
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "rackshq": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T03:39:31+00:00"
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "iannuttall": {
    "twitter": "iannuttall",
@@ -11674,22 +11995,22 @@
   "server4agent": {
    "twitter": "serverforagent",
    "blog": "https://www.server4agent.com",
-   "checked": "2026-11-05T03:35:37+00:00"
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "guardis-io": {
    "twitter": null,
    "blog": "https://guardis.io",
-   "checked": "2026-11-05T03:35:37+00:00"
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "ygwyg": {
    "twitter": "burcs",
    "blog": "",
-   "checked": "2026-11-05T03:35:37+00:00"
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "worghq": {
    "twitter": "worghq",
    "blog": "https://getworg.com/",
-   "checked": "2026-11-05T03:39:31+00:00"
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "rath-team": {
    "twitter": null,
@@ -12076,30 +12397,40 @@
    "blog": "https://home.npc.nexus",
    "checked": "2026-11-05T14:50:31+00:00"
   },
-  "smithay": {
+  "fobodotfun": {
+   "twitter": "fobodotfun",
+   "blog": "fobo.fun",
+   "checked": "2026-11-05T14:50:31+00:00"
+  },
+  "zerohooktrade": {
+   "twitter": null,
+   "blog": "https://zerohook.trade",
+   "checked": "2026-11-05T15:46:50+00:00"
+  },
+  "omar-os": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T14:27:59+00:00"
+   "checked": "2026-11-05T15:46:50+00:00"
   },
-  "pondkeeper": {
+  "blackpooldev": {
    "twitter": null,
-   "blog": "",
-   "checked": "2026-11-05T14:27:59+00:00"
-  },
-  "sherwoodagent": {
-   "twitter": "sherwoodagent",
-   "blog": "https://sherwood.sh",
-   "checked": "2026-11-05T14:27:59+00:00"
+   "blog": "www.blackpool.cash",
+   "checked": "2026-11-05T15:46:50+00:00"
   },
   "etchydotfun": {
    "twitter": "EtchydotFun",
    "blog": "etchy.fun",
-   "checked": "2026-11-05T15:12:26+00:00"
+   "checked": "2026-11-05T15:46:50+00:00"
   },
-  "frostwit": {
-   "twitter": "frostwitRH",
-   "blog": "https://frostwit.pro",
-   "checked": "2026-11-05T15:12:26+00:00"
+  "droodotfoo": {
+   "twitter": "DROOdotFOO",
+   "blog": "https://droo.foo/",
+   "checked": "2026-11-05T15:46:50+00:00"
+  },
+  "pondkeeper": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T15:46:50+00:00"
   }
  }
 }
