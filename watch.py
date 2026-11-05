@@ -975,7 +975,7 @@ NARRATIVES = [
     ("AI agents", r"\bagents?\b|\bagentic\b|\bMCP\b|\bautonomous\b|ERC-?8004"),
     ("AI", r"\bAI\b|\bLLMs?\b|\binference\b|\bmodels?\b|\bGPT\b|machine learning|\bneural\b"),
     ("Privacy", r"\bprivacy\b|\bprivate\b|\bzk\b|zero[- ]knowledge|\bshielded\b|\bstealth\b|\bconfidential\b"),
-    ("Stocks / RWA", r"stocks?|stock tokens?|tokeni[sz]ed (?:stocks?|equit)|\bequit(?:y|ies)\b|\bRWA\b|\$?\b(?:NVDA|TSLA|AAPL|MSFT)\b"),
+    ("Stocks / RWA", r"\bstocks?\b|stock tokens?|tokeni[sz]ed (?:stocks?|equit)|\bequit(?:y|ies)\b|\bRWA\b|\$?\b(?:NVDA|TSLA|AAPL|MSFT)\b"),
     ("DeFi", r"\blend(?:ing)?\b|\bborrow|\byield\b|\bvaults?\b|\bperps?\b|\bdex\b|\bliquidity\b|\boptions\b|\bcredit\b|\bstak(?:e|ing)\b|\bswap\b"),
     ("Launchpad", r"\blaunchpad\b|\blaunch(?:es)? (?:tokens|coins)\b|\bcoin launcher\b|\bbonding curve\b"),
     ("Payments", r"\bpayments?\b|\bx402\b|\bpay (?:per|with|by)\b|\bcheckout\b"),
