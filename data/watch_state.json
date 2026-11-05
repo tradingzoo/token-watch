@@ -628,7 +628,9 @@
   "0x40325e04bbc1a1746a8b4f71b429f728a73677c6": "2026-11-05T06:08:44+00:00",
   "0xd31e178d7e33694a7f538b5c2698a644556699ee": "2026-11-05T06:08:44+00:00",
   "0x4baac3432c1f4e4c12a6250a7497dac0e73d2029": "2026-11-05T06:08:44+00:00",
-  "0x504a9b15e1f18a47f5035c5366201d9c1709f5eb": "2026-11-05T06:08:44+00:00"
+  "0x504a9b15e1f18a47f5035c5366201d9c1709f5eb": "2026-11-05T06:08:44+00:00",
+  "0x3495c13c36a50ba6d05e94790864dabb37ee57ef": "2026-11-05T06:15:34+00:00",
+  "0x51751e2b5c34a67091c258041281ce6036627ca4": "2026-11-05T06:15:34+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -4890,9 +4892,76 @@
      "people": 1
     }
    }
+  },
+  "0x51751e2b5c34a67091c258041281ce6036627ca4": {
+   "address": "0x51751e2b5c34a67091c258041281ce6036627ca4",
+   "symbol": "Human",
+   "name": "Human Protocol",
+   "description": "Helping businesses and workers collaborate at a global scale, and build global technologies.",
+   "website": "https://www.humanprotocol.org/",
+   "twitter": "https://x.com/human_protocol",
+   "launched": "2026-11-05T06:13:23+00:00",
+   "mcap": 5474.8156212479425,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T06:15:34+00:00",
+   "scored_at": "2026-11-05T06:15:34+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "humanprotocol/human-protocol-btc",
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, vault) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn, staking) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (website links no X account to check) (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)",
+      "\u2139\ufe0f Copy check: not enough of their own code to sample",
+      "\u2139\ufe0f 135 of 135 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u2705 Their docs mentions the token: 'Human token' \u2014 \u201civ class=\"div-block-3\"> HUMAN Token -HMT Your effort. Tokenized. <div\u201d (https://www.humanprotocol.org/hmt-token)"
+     ],
+     "Real code": [
+      "\u274c 1 changes over 0 days (+0)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 2156 days old, 1 people, 0 stars, 0 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit, timelock (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": null,
+    "sources_read": [
+     "https://www.humanprotocol.org/",
+     "https://www.humanprotocol.org/",
+     "https://www.humanprotocol.org/llms-full.txt",
+     "https://www.humanprotocol.org/llms.txt",
+     "https://www.humanprotocol.org/docs",
+     "https://www.humanprotocol.org/hmt-token"
+    ],
+    "facts": {
+     "commits": 1,
+     "stars": 0,
+     "created": "2026-08-30",
+     "pushed": "2026-08-30",
+     "people": 1
+    }
+   }
   }
  },
- "checked_total": 618,
+ "checked_total": 620,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -5356,6 +5425,8 @@
   }
  ],
  "symbol_counts": {
+  "MNYBST": 1,
+  "Human": 1,
   "TATTER": 1,
   "ARCOM": 1,
   "STACK": 1,
@@ -5393,7 +5464,6 @@
   "SLING": 1,
   "SLOP": 1,
   "VESPERAI": 1,
-  "\u062d\u0644\u0627\u0644": 5,
   "OAK": 1,
   "PONS": 1,
   "WIF": 1,
@@ -5401,8 +5471,9 @@
   "ROBINCAT": 1,
   "DARWIN": 1,
   "MOTION": 1,
-  "CHARLIE": 1,
   "HARMONIC": 1,
+  "CHARLIE": 1,
+  "\u062d\u0644\u0627\u0644": 5,
   "ORBITALS": 1,
   "NWSBT": 1,
   "FBTC": 1,
@@ -5956,6 +6027,13 @@
    [
     "\u2139\ufe0f Copy check: not enough of their own code to sample"
    ]
+  ],
+  "humanprotocol/human-protocol-btc@2026-08-30": [
+   [],
+   [
+    "\u2139\ufe0f Copy check: not enough of their own code to sample",
+    "\u2139\ufe0f 135 of 135 files arrived in the very first change \u2014 could be copied, or moved over from a private repo"
+   ]
   ]
  },
  "sites": {
@@ -6344,6 +6422,7 @@
   "0xa69b3c82821e7081d91ca80a36bcdd1a89cc8fcf": "2026-11-05T06:00:34+00:00",
   "0x3cf44ff3aaa07281f006f1368473d3251648fbad": "2026-11-05T06:05:16+00:00",
   "0xd31e178d7e33694a7f538b5c2698a644556699ee": "2026-11-05T06:08:44+00:00",
-  "0x4baac3432c1f4e4c12a6250a7497dac0e73d2029": "2026-11-05T06:08:44+00:00"
+  "0x4baac3432c1f4e4c12a6250a7497dac0e73d2029": "2026-11-05T06:08:44+00:00",
+  "0x3495c13c36a50ba6d05e94790864dabb37ee57ef": "2026-11-05T06:15:34+00:00"
  }
 }

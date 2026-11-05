@@ -1539,8 +1539,49 @@
   },
   "tatter_xyz": {
    "handle": "tatter_xyz",
-   "found": false,
-   "checked": "2026-11-05T06:08:44+00:00"
+   "found": true,
+   "id": "2114062235345498112",
+   "name": "Tatter",
+   "joined": "2026-10-24T18:38:13+00:00",
+   "followers": 4,
+   "following": 0,
+   "posts": 283,
+   "verified": "individual",
+   "last_post": "2026-10-29T12:52:41+00:00",
+   "sample": 15,
+   "sample_full_week": false,
+   "posts_7d": 5,
+   "avg_likes": 0.0,
+   "avg_views": 6,
+   "bio_site": "https://tatter.xyz",
+   "bio": "please don't laminate me",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T06:15:34+00:00"
+  },
+  "human_protocol": {
+   "handle": "human_protocol",
+   "found": true,
+   "id": "1334655364038422529",
+   "name": "HUMAN Protocol \ud83e\uddec",
+   "joined": "2020-12-04T00:27:36+00:00",
+   "followers": 51179,
+   "following": 209,
+   "posts": 1546,
+   "verified": "individual",
+   "last_post": "2026-06-04T18:23:28+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 24.8,
+   "avg_views": 3421,
+   "bio_site": "https://linktr.ee/human_protocol",
+   "bio": "Helping businesses and workers collaborate at a global scale, and build global technologies.",
+   "cas": [
+    "0xe9eedbb654a6fae96fbb0c9819c5e040c31dcd70"
+   ],
+   "fake_posts": [],
+   "checked": "2026-11-05T06:15:34+00:00"
   }
  },
  "ids": {
@@ -1744,6 +1785,12 @@
   ],
   "1801894543261851648": [
    "Varselio1980"
+  ],
+  "2114062235345498112": [
+   "tatter_xyz"
+  ],
+  "1334655364038422529": [
+   "human_protocol"
   ]
  },
  "past": {
@@ -1816,7 +1863,8 @@
   "darklabchat": [],
   "motiongift": [],
   "varselio1980": [],
-  "tatter_xyz": []
+  "tatter_xyz": [],
+  "human_protocol": []
  },
  "history": {
   "barragetrade": {
@@ -2362,6 +2410,18 @@
     32,
     901
    ]
+  },
+  "tatter_xyz": {
+   "2026-11-05": [
+    4,
+    283
+   ]
+  },
+  "human_protocol": {
+   "2026-11-05": [
+    51179,
+    1546
+   ]
   }
  },
  "telegram": {
@@ -2716,6 +2776,11 @@
    "twitter": null,
    "blog": "https://tatter.xyz",
    "checked": "2026-11-05T06:08:44+00:00"
+  },
+  "humanprotocol": {
+   "twitter": null,
+   "blog": "https://humanprotocol.org",
+   "checked": "2026-11-05T06:15:34+00:00"
   }
  }
 }
