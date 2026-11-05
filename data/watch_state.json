@@ -624,7 +624,11 @@
   "0xec6037445f518c018caff8c6871ff647bac484f6": "2026-11-05T06:00:34+00:00",
   "0xa69b3c82821e7081d91ca80a36bcdd1a89cc8fcf": "2026-11-05T06:00:34+00:00",
   "0xc23babb3416e8962ce9dc9738f6256117f0600f8": "2026-11-05T06:05:16+00:00",
-  "0x3cf44ff3aaa07281f006f1368473d3251648fbad": "2026-11-05T06:05:16+00:00"
+  "0x3cf44ff3aaa07281f006f1368473d3251648fbad": "2026-11-05T06:05:16+00:00",
+  "0x40325e04bbc1a1746a8b4f71b429f728a73677c6": "2026-11-05T06:08:44+00:00",
+  "0xd31e178d7e33694a7f538b5c2698a644556699ee": "2026-11-05T06:08:44+00:00",
+  "0x4baac3432c1f4e4c12a6250a7497dac0e73d2029": "2026-11-05T06:08:44+00:00",
+  "0x504a9b15e1f18a47f5035c5366201d9c1709f5eb": "2026-11-05T06:08:44+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -4823,9 +4827,72 @@
      "people": 12
     }
    }
+  },
+  "0x40325e04bbc1a1746a8b4f71b429f728a73677c6": {
+   "address": "0x40325e04bbc1a1746a8b4f71b429f728a73677c6",
+   "symbol": "TATTER",
+   "name": "Tatter",
+   "description": "Tatter runs an open cybersecurity benchmark for AI models and agents, called the Manual. The goal is a reference that shows what these systems can really do",
+   "website": "https://tatter.xyz",
+   "twitter": "https://x.com/tatter_xyz",
+   "launched": "2026-11-05T06:08:30+00:00",
+   "mcap": 4666.505330739643,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T06:08:44+00:00",
+   "scored_at": "2026-11-05T06:08:44+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "tatter-xyz/manual",
+    "score": 35,
+    "raw_score": 35,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check: not enough of their own code to sample",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (curl.se/docs/manpage.html), website (tatter.xyz), website code (tatter.xyz))"
+     ],
+     "Real code": [
+      "\u274c 6 changes over 2 days (+0)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 11 days old, 1 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://tatter.xyz",
+     "https://tatter.xyz",
+     "https://curl.se/docs/manpage.html#-V"
+    ],
+    "facts": {
+     "commits": 6,
+     "stars": 0,
+     "created": "2026-10-25",
+     "pushed": "2026-10-27",
+     "people": 1
+    }
+   }
   }
  },
- "checked_total": 614,
+ "checked_total": 618,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -5274,9 +5341,25 @@
    "ignored": [
     "emn178/js-sha3"
    ]
+  },
+  {
+   "when": "2026-11-05T06:08:44+00:00",
+   "address": "0x40325e04bbc1a1746a8b4f71b429f728a73677c6",
+   "symbol": "TATTER",
+   "website": "https://tatter.xyz",
+   "used": "tatter-xyz/manual",
+   "ignored": [
+    "SmurfTurfPawpaw/bcabeb21249ed80970a8050b3f90327e",
+    "curl/curl",
+    "tatter-xyz/curl-reader"
+   ]
   }
  ],
  "symbol_counts": {
+  "TATTER": 1,
+  "ARCOM": 1,
+  "STACK": 1,
+  "ROME": 1,
   "STUDIES": 1,
   "PACKSW": 1,
   "CI": 2,
@@ -5311,17 +5394,17 @@
   "SLOP": 1,
   "VESPERAI": 1,
   "\u062d\u0644\u0627\u0644": 5,
-  "ORBITALS": 1,
-  "NWSBT": 1,
   "OAK": 1,
   "PONS": 1,
   "WIF": 1,
   "HMM": 1,
   "ROBINCAT": 1,
   "DARWIN": 1,
-  "HARMONIC": 1,
   "MOTION": 1,
   "CHARLIE": 1,
+  "HARMONIC": 1,
+  "ORBITALS": 1,
+  "NWSBT": 1,
   "FBTC": 1,
   "ANY": 1,
   "OPSMAX": 1,
@@ -5867,6 +5950,12 @@
    [
     "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo"
    ]
+  ],
+  "tatter-xyz/manual@2026-10-27": [
+   [],
+   [
+    "\u2139\ufe0f Copy check: not enough of their own code to sample"
+   ]
   ]
  },
  "sites": {
@@ -6253,6 +6342,8 @@
   "0x2ceb0b93f739f94d3becb332d0aada30b33ae456": "2026-11-05T06:00:34+00:00",
   "0xec6037445f518c018caff8c6871ff647bac484f6": "2026-11-05T06:00:34+00:00",
   "0xa69b3c82821e7081d91ca80a36bcdd1a89cc8fcf": "2026-11-05T06:00:34+00:00",
-  "0x3cf44ff3aaa07281f006f1368473d3251648fbad": "2026-11-05T06:05:16+00:00"
+  "0x3cf44ff3aaa07281f006f1368473d3251648fbad": "2026-11-05T06:05:16+00:00",
+  "0xd31e178d7e33694a7f538b5c2698a644556699ee": "2026-11-05T06:08:44+00:00",
+  "0x4baac3432c1f4e4c12a6250a7497dac0e73d2029": "2026-11-05T06:08:44+00:00"
  }
 }

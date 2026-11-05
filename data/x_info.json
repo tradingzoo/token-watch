@@ -1536,6 +1536,11 @@
    "cas": [],
    "fake_posts": [],
    "checked": "2026-11-05T05:45:23+00:00"
+  },
+  "tatter_xyz": {
+   "handle": "tatter_xyz",
+   "found": false,
+   "checked": "2026-11-05T06:08:44+00:00"
   }
  },
  "ids": {
@@ -1810,7 +1815,8 @@
   "vesperailab": [],
   "darklabchat": [],
   "motiongift": [],
-  "varselio1980": []
+  "varselio1980": [],
+  "tatter_xyz": []
  },
  "history": {
   "barragetrade": {
@@ -2705,6 +2711,11 @@
    "twitter": null,
    "blog": "http://parity.io",
    "checked": "2026-11-05T05:45:23+00:00"
+  },
+  "tatter-xyz": {
+   "twitter": null,
+   "blog": "https://tatter.xyz",
+   "checked": "2026-11-05T06:08:44+00:00"
   }
  }
 }

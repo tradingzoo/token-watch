@@ -1018,5 +1018,15 @@
   "after": 0,
   "others": [],
   "wallet_txs": 5
+ },
+ "0x40325e04bbc1a1746a8b4f71b429f728a73677c6": {
+  "checked": "2026-11-05T06:09:11+00:00",
+  "pons": true,
+  "wallet": "0x80a4599dfb72b079345a25f2201c629038dbbc19",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
  }
 }
