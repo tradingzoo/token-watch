@@ -139,3 +139,15 @@ Adds up to 110, so a few points can be missed and still score 100 (shown capped 
 - **Not their website** (5 Nov): a link to the token's page on another platform (Pons, pump.fun, otcdesks, an audit site; the link holds a token address or a /coin/ /token/ path) or a news/reference page (Wikipedia, BBC, SEC…) doesn't count as the project's website. Tested on 921 links: 86 flagged, no winner.
 - **Address not shown anywhere** (site, docs, recent X posts) caps at 60. Copies paste a real site's links, so an unclaimed token can't score top marks; not lower than 60 because real winners like ORBIO and HARMONIC don't post their address either.
 
+
+## Shortlist tab (5 Nov)
+A place to look first, not advice and not proven yet. A token is on it only if **all** of these hold:
+- It's the team's own token: score above 0, and their site, repo or X posts its address or mentions it.
+- No warnings of any kind (including 👻 ghost market and ❓ maybe not official).
+- At least 50 trades in the last 24h and $20k+ liquidity.
+- At least 2 of the signs winners shared: 2+ plug-in tools, takes payments, works with a past winner, uses Robinhood Chain assets (stock tokens / USDG), real code, a GitHub score of 60+ (that split winners 5 of 6 vs dead 0 of 9).
+
+Most signs first, then score. Tokens that pass everything except trading go under "Early" (riskier).
+
+## Maybe not official (hand note)
+`"unofficial": "why"` in reviews.json puts a ❓ badge and a warning on the card. The score doesn't change, but it keeps the token off the Shortlist. First used on CAPAFY (5 Nov): Capafy never mentions a token and a brand-new wallet made it.

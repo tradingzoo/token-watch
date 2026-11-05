@@ -499,6 +499,7 @@ def x_mismatch_note(ox, where):
 
 COPYCAT = "Copycat token"
 UNCLAIMED = "Dev never mentions this token"
+UNOFFICIAL = "Probably not the team's token (checked by hand)"
 
 
 def copycat(tok, ox):
@@ -1054,6 +1055,49 @@ def score_check_html(state, pdb, e):
             f"took-off group clearly more points. Updates every run.</p>" + "".join(blocks))
 
 
+# --- Shortlist (5 Nov): strict gates + 2 or more signs that winners shared. A place to look first, not advice. ---
+SHORT_TRADES = 50          # trades in the last 24h
+SHORT_LIQ = 20_000         # dollars of liquidity
+SHORT_SIGNS = 2            # winner signs needed
+RH_QUOTES = re.compile(r"^(?:USDG|[A-Z]{1,5}x?)$")
+
+
+def winner_signs(r, sc):
+    """Signs that separated winners from losers in our tests (all from data the scanner already has)."""
+    txt = " ".join(sum(sc.get("reasons", {}).values(), []))
+    q = (r.get("quote") or "").upper()
+    return [n for n, ok in (
+        ("2+ plug-in tools", sc.get("tools", 0) >= 2),
+        ("takes payments", "Takes real payments" in txt),
+        ("works with a past winner", "Works with past winners" in txt),
+        ("Robinhood Chain assets", bool(re.search(r"✅ (?:Built on Robinhood Chain|Trades against)", txt))
+         or (q and q not in ("ETH", "WETH", "USDC", "USDT", "WBTC") and bool(RH_QUOTES.match(q)))),
+        ("real code", bool(re.search(r"✅ \d+ changes over", txt))),
+        # GitHub route: a GitHub score of 60+ split winners 5 of 6 vs dead 0 of 9 (5 Nov test)
+        ("strong GitHub score", sc.get("kind") != "site" and sc["score"] >= 60),
+    ) if ok]
+
+
+def shortlist_html(picks, e):
+    """picks: (row, sc, warnings, market, signs, card_html). Gates: real and theirs, no warnings, trading for real."""
+    good = [p for p in picks if len(p[4]) >= SHORT_SIGNS]
+    live = [p for p in good if (p[3].get("trades24") or 0) >= SHORT_TRADES and (p[3].get("liq") or 0) >= SHORT_LIQ]
+    early = [p for p in good if p not in live]
+    order = lambda ps: sorted(ps, key=lambda p: (-len(p[4]), -p[1]["score"]))
+    def block(ps):
+        return "".join(p[5].replace('<p class="verdict">', '<p class="signs">✅ ' + e(" · ".join(p[4])) + '</p><p class="verdict">', 1)
+                       for p in order(ps))
+    return (f"<h2 style='margin:22px 0 6px'>Shortlist: where to look first</h2>"
+            f"<p class='top'>Every token here passes all of these: it's the team's own token (they post its address or mention it), "
+            f"no warnings of any kind, at least {SHORT_TRADES} trades in the last day and {money(SHORT_LIQ)}+ liquidity, and "
+            f"at least {SHORT_SIGNS} of the signs winners shared: 2+ plug-in tools, takes payments, works with a past winner, "
+            f"uses Robinhood Chain assets, real code, strong GitHub score. Most signs first. "
+            f"<b>Not proven to predict price yet, and not advice</b>: the price tracking will show if this list beats the rest.</p>"
+            + (block(live) or "<p class='muted'>Nothing passes every gate right now.</p>")
+            + (f"<details class='dups'><summary>Early: passes everything except trading ({len(early)}), riskier</summary>{block(early)}</details>"
+               if early else ""))
+
+
 def ago(ts):
     """'40 min ago', '5 h ago', '3 days ago'."""
     if not ts:
@@ -1150,7 +1194,8 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
     e = html.escape
     def md(s):  # `code` only
         return re.sub(r"`([^`]+)`", r"<code>\1</code>", e(s))
-    cards, site_cards = [], []
+    cards, site_cards, picks = [], [], []
+    reviews = json.load(open(REVIEWS, encoding="utf-8")) if os.path.exists(REVIEWS) else {}
     for r in rows + site_rows:
         sc = r["scoring"]
         is_site = sc.get("kind") == "site"
@@ -1189,12 +1234,14 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
             meta_html = (f"""<p class="meta"><button class="wrong" data-msg="{e('Wrong repo? ' + (r.get('symbol') or '') + ' ' + r['address'] + ' was matched to github.com/' + sc['repo'] + '. The right one is: ')}">Wrong repo?</button> Repo {e(sc['repo'])} · {sc['facts'].get('commits','?')} changes · created {e(sc['facts'].get('created','?'))} · last update {e(sc['facts'].get('pushed','?'))} · scored {e(r['scored_at'][:16].replace('T',' '))} UTC</p>""")
         # --- 5 Nov layout: closed card = 4 lines; Details = Quick facts, Warnings, Score, About, Full evidence ---
         a_ = r["address"]
-        warn_items = list(seen_w.items()) + ([(ghost_w, 1)] if ghost_w else [])
+        unoff = reviews.get(a_.lower(), {}).get("unofficial")  # hand note: probably not the team's token (no score change)
+        warn_items = ([(UNOFFICIAL + ": " + unoff, 1)] if unoff else []) + list(seen_w.items()) + ([(ghost_w, 1)] if ghost_w else [])
         has_unclaimed_flag = any(f.startswith(UNCLAIMED) for f in allw)
         badges = (("<span class='new'>NEW</span>" if new else "")
                   + (" <span class='grp'>🔒 private code</span>" if sc.get("private") else "")
                   + (" <span class='grp' title='Their repo, website and X never post the token address or mention the token.'>🤐 unclaimed</span>"
-                     if unclaimed and not has_unclaimed_flag else ""))
+                     if unclaimed and not has_unclaimed_flag else "")
+                  + (f" <span class='grp' title='{e(unoff)}'>❓ maybe not official</span>" if unoff else ""))
         parts, plus, minus, cap = score_bits(sc)
         tags = narratives(r, sc, xdb)
         top_plus = re.sub(r"\s*\(.*$", "", plus[0]) if plus else ""
@@ -1235,6 +1282,9 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
   {meta_html}</details>
   </details>
 </article>"""))
+        if sc["score"] > 0 and not unclaimed and not warn_items and r["address"].lower() not in {p[0]["address"].lower() for p in picks}:
+            picks.append((r, sc, warn_items, (pdb.get(a_.lower()) or {}).get("market") or {}, winner_signs(r, sc),
+                          (site_cards if is_site else cards)[-1][2]))
     cards, site_cards = fold_copies(cards, e), fold_copies(site_cards, e)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="refresh" content="420"><title>Token Watch</title>
@@ -1260,7 +1310,7 @@ a{{color:var(--accent)}} .new{{font-size:11px;background:var(--accent);color:var
 .verdict{{margin:4px 0;font-size:14px}} .verdict .good{{color:var(--hi);margin-right:10px}} .verdict .bad{{color:var(--lo)}} .verdict .muted,.nm{{color:var(--mute)}}
 .nm{{font-weight:400;font-size:16px}} button.ca{{font:12px ui-monospace,Consolas,monospace;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:1px 6px;cursor:pointer;vertical-align:middle}}
 table.sc{{border-collapse:collapse;margin:4px 0 8px;font-size:14px}} table.sc td,table.sc th{{border-bottom:1px solid var(--line);padding:3px 12px 3px 0;text-align:left}} .muted{{color:var(--mute);font-size:13px}}
-.tags{{margin:4px 0;display:flex;gap:5px;flex-wrap:wrap}} .tag{{font-size:12px;border-radius:10px;padding:0 8px;background:var(--bg);border:1px solid var(--line);color:var(--mute)}}
+.signs{{margin:4px 0;font-size:13px;color:var(--hi);font-weight:600}} .tags{{margin:4px 0;display:flex;gap:5px;flex-wrap:wrap}} .tag{{font-size:12px;border-radius:10px;padding:0 8px;background:var(--bg);border:1px solid var(--line);color:var(--mute)}}
 .facts{{display:grid;grid-template-columns:max-content 1fr;gap:2px 12px;margin:4px 0;font-size:14px}} .facts dt{{color:var(--mute)}} .facts dd{{margin:0}}
 ul.pm{{list-style:none;padding-left:0;margin:6px 0;font-size:14px}} ul.pm li.p::before{{content:"+ ";color:var(--hi);font-weight:700}} ul.pm li.m::before{{content:"– ";color:var(--lo);font-weight:700}}
 .more>summary{{margin-top:6px}} .more h4{{margin:14px 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)}}
@@ -1278,6 +1328,7 @@ ul{{margin:0;padding-left:20px}} button.wrong{{font-size:12px;border:1px solid v
 </style></head><body><main>
 <h1>Token Watch</h1>
 <nav class="tabs" id="tabs">
+<a href="#short" data-tab="short">Shortlist <span class="cnt">{sum(1 for p in picks if len(p[4]) >= SHORT_SIGNS and (p[3].get('trades24') or 0) >= SHORT_TRADES and (p[3].get('liq') or 0) >= SHORT_LIQ)}</span></a>
 <a href="#github" data-tab="github">GitHub <span class="cnt">{len(rows)}</span></a>
 <a href="#sites" data-tab="sites">Site check <span class="cnt">{len(site_rows)}</span></a>
 <a href="#test" data-tab="test">30-day test</a>
@@ -1285,6 +1336,7 @@ ul{{margin:0;padding-left:20px}} button.wrong{{font-size:12px;border:1px solid v
 <a href="#scores" data-tab="scores">Was the score right?</a>
 </nav>
 <p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
+<section class="tab" id="short">{shortlist_html(picks, e)}</section>
 <section class="tab" id="sites">
 <h2 style="margin:22px 0 6px">Site check: tokens whose website lets developers and AI agents plug in</h2>
 <p class="top">No GitHub needed. Listed when their own website has at least {sitecheck.LIST_AT} of API key, SDK, MCP and llms.txt.

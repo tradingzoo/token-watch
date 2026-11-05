@@ -1,95 +1,103 @@
 {
-  "0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2": {
-    "symbol": "HETAIROI",
-    "checked": "2026-11-04",
-    "repo": "HetairoiAgent/hetairoi",
-    "flags": [
-      "2,519 of its 2,540 files are byte-for-byte identical to openscout-app/scout: a renamed copy of OpenScout, made in 1 change on 3 Nov"
-    ],
-    "notes": [
-      "Their real GitHub is in the website's settings file (config.js): github.com/HetairoiAgent/hetairoi. The visible 'GitHub' button only gets its link when the page loads",
-      "The website's live settings (/api/site) give the official token address 0x74739ed2...0cd2, which matches this token, and X handle HetairoiAgent: the token and repo are the same team",
-      "The copy is allowed (OpenScout is Apache-2.0) and credited openly ('a distribution of OpenScout'); OpenScout itself never mentions Hetairoi",
-      "The GitHub account was created 3 Nov, the day before the token"
-    ]
+ "0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2": {
+  "symbol": "HETAIROI",
+  "checked": "2026-11-04",
+  "repo": "HetairoiAgent/hetairoi",
+  "flags": [
+   "2,519 of its 2,540 files are byte-for-byte identical to openscout-app/scout: a renamed copy of OpenScout, made in 1 change on 3 Nov"
+  ],
+  "notes": [
+   "Their real GitHub is in the website's settings file (config.js): github.com/HetairoiAgent/hetairoi. The visible 'GitHub' button only gets its link when the page loads",
+   "The website's live settings (/api/site) give the official token address 0x74739ed2...0cd2, which matches this token, and X handle HetairoiAgent: the token and repo are the same team",
+   "The copy is allowed (OpenScout is Apache-2.0) and credited openly ('a distribution of OpenScout'); OpenScout itself never mentions Hetairoi",
+   "The GitHub account was created 3 Nov, the day before the token"
+  ]
+ },
+ "0x938d767f1cd789850867a881fdf09631f2e43714": {
+  "symbol": "CUBE",
+  "checked": "2026-11-05",
+  "flags": [
+   "Scam, not the team's token: Cube's co-founder (@yiliush) posted 4 Nov 14:28 UTC that the company renamed its X to @collabs_inc, the old name @cubecomputer_ was taken over, and '$cube is a scamcoin and has nothing to do with us' (https://x.com/yiliush/status/2117987449603326410). The @cubecomputer_ account that showed the address is a new account made 3 Nov under the freed-up name"
+  ],
+  "notes": [
+   "How it fooled us on 4 Nov: the company renamed its X from @cubecomputer_ to @collabs_inc, someone took the free name (new account, made 3 Nov) and put this token's address in its bio. That address is gone from the bio now",
+   "cube.computer now links only x.com/collabs_inc (on 4 Nov it still linked x.com/cubecomputer_). The token still lists @cubecomputer_",
+   "Read all of docs.cube.computer (54k characters incl. FAQ and billing): it never mentions a token, $CUBE, crypto, a wallet or Robinhood Chain",
+   "Real paid product: cloud computers for coding agents, $6 per vCPU a month, $25 free credit; paid by card through Stripe, not with the token",
+   "The GitHub (collabs-inc/cube-releases) is only a feed of app downloads, no source code; the company (COLLAB, 47 repos) keeps its code elsewhere",
+   "5 Nov: the launch wallet 0xbe3c1c76... burned its whole first buy (7.2M CUBE) at 11:46 UTC on 4 Nov, 6 minutes after launch, and sold nothing. The selling came from other wallets",
+   "Wrong on 4 Nov: we called it 'team launched it' from the @cubecomputer_ bio. The tell was already in our notes: the X account was 1 day old while the product and GitHub were much older, a sign of a name taken over, not a new product account",
+   "First 'scam coin' posts from @yiliush at 13:35 UTC on 4 Nov, about 2 hours after launch; @Paul_Rony posted 'Someone took the @cubecomputer_ handle' at 13:51"
+  ]
+ },
+ "0x63b5c2b1eb93ad62ea06560370f4f317ee1b97d3": {
+  "symbol": "LMNI",
+  "checked": "2026-11-04",
+  "checks": {
+   "earns": [
+    20,
+    "Charges a fee on every options trade (FeeRouter, protocol fee 10%)"
+   ],
+   "fees_back": [
+    10,
+    "Built but switched off: 5% of fees to LMNI stakers and 5% to buy and burn LMNI; both slots are empty in the live fee contract"
+   ]
   },
-  "0x938d767f1cd789850867a881fdf09631f2e43714": {
-    "symbol": "CUBE",
-    "checked": "2026-11-05",
-    "flags": [
-      "Scam, not the team's token: Cube's co-founder (@yiliush) posted 4 Nov 14:28 UTC that the company renamed its X to @collabs_inc, the old name @cubecomputer_ was taken over, and '$cube is a scamcoin and has nothing to do with us' (https://x.com/yiliush/status/2117987449603326410). The @cubecomputer_ account that showed the address is a new account made 3 Nov under the freed-up name"
-    ],
-    "notes": [
-      "How it fooled us on 4 Nov: the company renamed its X from @cubecomputer_ to @collabs_inc, someone took the free name (new account, made 3 Nov) and put this token's address in its bio. That address is gone from the bio now",
-      "cube.computer now links only x.com/collabs_inc (on 4 Nov it still linked x.com/cubecomputer_). The token still lists @cubecomputer_",
-      "Read all of docs.cube.computer (54k characters incl. FAQ and billing): it never mentions a token, $CUBE, crypto, a wallet or Robinhood Chain",
-      "Real paid product: cloud computers for coding agents, $6 per vCPU a month, $25 free credit; paid by card through Stripe, not with the token",
-      "The GitHub (collabs-inc/cube-releases) is only a feed of app downloads, no source code; the company (COLLAB, 47 repos) keeps its code elsewhere",
-      "5 Nov: the launch wallet 0xbe3c1c76... burned its whole first buy (7.2M CUBE) at 11:46 UTC on 4 Nov, 6 minutes after launch, and sold nothing. The selling came from other wallets",
-      "Wrong on 4 Nov: we called it 'team launched it' from the @cubecomputer_ bio. The tell was already in our notes: the X account was 1 day old while the product and GitHub were much older, a sign of a name taken over, not a new product account",
-      "First 'scam coin' posts from @yiliush at 13:35 UTC on 4 Nov, about 2 hours after launch; @Paul_Rony posted 'Someone took the @cubecomputer_ handle' at 13:51"
-    ]
-  },
-  "0x63b5c2b1eb93ad62ea06560370f4f317ee1b97d3": {
-    "symbol": "LMNI",
-    "checked": "2026-11-04",
-    "checks": {
-      "earns": [
-        20,
-        "Charges a fee on every options trade (FeeRouter, protocol fee 10%)"
-      ],
-      "fees_back": [
-        10,
-        "Built but switched off: 5% of fees to LMNI stakers and 5% to buy and burn LMNI; both slots are empty in the live fee contract"
-      ]
-    },
-    "notes": [
-      "Holder perks are live: hold 100,000 LMNI (about $13 on 4 Nov) for analytics, alerts and history; 1,000,000 (about $127) for automation tools and data export. Their server already checks wallets",
-      "Only 10% of the protocol's fee goes to the token side (5% stakers, 5% burn); 90% goes to the pool, keepers, hedger and team",
-      "Writer rewards (1,000,000 LMNI a week for 8 weeks to depositors of $1,000+) are not started: start date and token address still blank. This adds new supply",
-      "Admin is a single wallet, but upgrades wait 48 hours (timelock)"
-    ],
-    "roadmap": [
-      "Roadmap is 72 product updates, one an hour over 3 days; the changelog marks each one live as it ships",
-      "Staking and buy-and-burn are NOT on the roadmap; the code says they wait for the admin to switch them on"
-    ]
-  },
-  "0x257bd594a54f04c3a5d77f87971233b13236c091": {
-    "symbol": "FLOEM",
-    "checked": "2026-11-04",
-    "flags": [
-      "Fake: the real Floem X (@floemdotfun, linked from floem.fun) posted 4 Nov 04:50 UTC that $FLOEM has not launched and every contract using the name is fake. This token was made 10:36 UTC, six hours later"
-    ],
-    "notes": [
-      "Its X (@floemdotfun_, with an underscore) was made 4 Nov and reposts the real account's posts word for word",
-      "floem.fun links only to x.com/floemdotfun (no underscore) and lists no token address",
-      "This is the FLOEM in the 30-day test (tokens.csv, watch group). The test stays as written on day 0; read its FLOEM result with this in mind"
-    ]
-  },
-  "0xb329d90aa612a122c2ab779e521e1092f4c15d9f": {
-    "symbol": "FLOEM",
-    "checked": "2026-11-04",
-    "flags": [
-      "Fake: the real Floem X (@floemdotfun) posted 4 Nov 04:50 UTC that $FLOEM has not launched and every contract using the name is fake. This token just lists the real X and website"
-    ],
-    "notes": [
-      "Listing a project's real X and website on a token you launched costs nothing: it doesn't make the token theirs. Only an address posted by the project counts"
-    ]
-  },
-  "0x781eba55966e0cac7e412359ffa152467ded43bd": {
-    "symbol": "byte",
-    "checked": "2026-11-05",
-    "notes": [
-      "Copy of the real $BYTE. @bytejury's X bio gives 0xa4e331ed89db2fae193c6c4216dd99aded105471 (launched 4 Nov 22:11 UTC, wallet 0x984d8b...). This one launched 5 Nov 03:56 UTC, about 6 hours later, from wallet 0x2e70e8... (which also launched Hunch and Conductor), with the same name, links and GitHub",
-      "Found by hand 5 Nov; the new copycat check now flags it automatically"
-    ]
-  },
-  "0xa4e331ed89db2fae193c6c4216dd99aded105471": {
-    "symbol": "byte",
-    "checked": "2026-11-05",
-    "notes": [
-      "The real $BYTE: the address is in @bytejury's X bio and in 42 of its recent posts. The scanner missed it at first because it had left Pons's newest list before a run saw it",
-      "@bytejury joined X on 3 Nov 2026 (36 followers on 5 Nov). Its website bytejury.xyz still says 'token address: coming soon'"
-    ]
-  }
+  "notes": [
+   "Holder perks are live: hold 100,000 LMNI (about $13 on 4 Nov) for analytics, alerts and history; 1,000,000 (about $127) for automation tools and data export. Their server already checks wallets",
+   "Only 10% of the protocol's fee goes to the token side (5% stakers, 5% burn); 90% goes to the pool, keepers, hedger and team",
+   "Writer rewards (1,000,000 LMNI a week for 8 weeks to depositors of $1,000+) are not started: start date and token address still blank. This adds new supply",
+   "Admin is a single wallet, but upgrades wait 48 hours (timelock)"
+  ],
+  "roadmap": [
+   "Roadmap is 72 product updates, one an hour over 3 days; the changelog marks each one live as it ships",
+   "Staking and buy-and-burn are NOT on the roadmap; the code says they wait for the admin to switch them on"
+  ]
+ },
+ "0x257bd594a54f04c3a5d77f87971233b13236c091": {
+  "symbol": "FLOEM",
+  "checked": "2026-11-04",
+  "flags": [
+   "Fake: the real Floem X (@floemdotfun, linked from floem.fun) posted 4 Nov 04:50 UTC that $FLOEM has not launched and every contract using the name is fake. This token was made 10:36 UTC, six hours later"
+  ],
+  "notes": [
+   "Its X (@floemdotfun_, with an underscore) was made 4 Nov and reposts the real account's posts word for word",
+   "floem.fun links only to x.com/floemdotfun (no underscore) and lists no token address",
+   "This is the FLOEM in the 30-day test (tokens.csv, watch group). The test stays as written on day 0; read its FLOEM result with this in mind"
+  ]
+ },
+ "0xb329d90aa612a122c2ab779e521e1092f4c15d9f": {
+  "symbol": "FLOEM",
+  "checked": "2026-11-04",
+  "flags": [
+   "Fake: the real Floem X (@floemdotfun) posted 4 Nov 04:50 UTC that $FLOEM has not launched and every contract using the name is fake. This token just lists the real X and website"
+  ],
+  "notes": [
+   "Listing a project's real X and website on a token you launched costs nothing: it doesn't make the token theirs. Only an address posted by the project counts"
+  ]
+ },
+ "0x781eba55966e0cac7e412359ffa152467ded43bd": {
+  "symbol": "byte",
+  "checked": "2026-11-05",
+  "notes": [
+   "Copy of the real $BYTE. @bytejury's X bio gives 0xa4e331ed89db2fae193c6c4216dd99aded105471 (launched 4 Nov 22:11 UTC, wallet 0x984d8b...). This one launched 5 Nov 03:56 UTC, about 6 hours later, from wallet 0x2e70e8... (which also launched Hunch and Conductor), with the same name, links and GitHub",
+   "Found by hand 5 Nov; the new copycat check now flags it automatically"
+  ]
+ },
+ "0xa4e331ed89db2fae193c6c4216dd99aded105471": {
+  "symbol": "byte",
+  "checked": "2026-11-05",
+  "notes": [
+   "The real $BYTE: the address is in @bytejury's X bio and in 42 of its recent posts. The scanner missed it at first because it had left Pons's newest list before a run saw it",
+   "@bytejury joined X on 3 Nov 2026 (36 followers on 5 Nov). Its website bytejury.xyz still says 'token address: coming soon'"
+  ]
+ },
+ "0xff288b711bf087d6bddac7dbbb2ba1852ff6de0b": {
+  "symbol": "CAPAFY",
+  "checked": "2026-11-05",
+  "unofficial": "Capafy's website, docs, GitHub (Capafy/Capafy-skills) and X never post this address or mention a token, the company doesn't talk about crypto at all, and the token was made by a brand-new wallet. Likely someone else launched it under their name",
+  "notes": [
+   "Searched github.com/Capafy/Capafy-skills on 5 Nov: no contract address anywhere"
+  ]
+ }
 }
