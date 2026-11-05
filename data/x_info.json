@@ -5273,7 +5273,7 @@
     "Safe for agents to operate: Instant preview branches let your agent change and test in isolation \u2014 before anything reaches production.",
     "Already running in the wild: 13.3K GitHub stars 56,699 projects created Start building real apps \u2193 https://insforge.dev"
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "rulestemai": {
    "handle": "rulestemai",
@@ -5296,7 +5296,7 @@
    "cas": [],
    "fake_posts": [],
    "texts": [],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "mimoxtrade": {
    "handle": "MimoXtrade",
@@ -5313,7 +5313,7 @@
    "sample_full_week": false,
    "posts_7d": 17,
    "avg_likes": 8.2,
-   "avg_views": 141,
+   "avg_views": 142,
    "bio_site": "http://mimotrade.io/",
    "bio": "More Than Trading. A New Onchain Experience.\nMIMO is building a utility driven ecosystem for the future of decentralized trading.\n\nBuilt on Robinhood Chain.",
    "cas": [],
@@ -5339,7 +5339,7 @@
     "Before you sign, know what you're signing. MIMO brings transaction decoding, simulation, and risk checks to onchain trading on Robinhood Chain. https://x.com/i/article/2115748119178801152",
     "One platform. Multiple markets. One seamless experience. From crypto to stock tokens and new launches, MIMO brings different trading opportunities into one place making it easier to explore what's next in the market. Less switching. More possibilities. Built for traders who want to stay ahead. Your "
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "voxelithicag": {
    "handle": "Voxelithicag",
@@ -5446,39 +5446,18 @@
    "following": 0,
    "posts": 46,
    "verified": null,
-   "last_post": "2026-11-05T02:30:27+00:00",
-   "sample": 20,
+   "last_post": null,
+   "sample": 0,
    "sample_full_week": false,
-   "posts_7d": 9,
-   "avg_likes": 4.4,
-   "avg_views": 294,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
    "bio_site": "https://equoraprotocol.site/",
    "bio": "Equilibrium for Onchain Equities \u221e. Building credit & leverage for tokenized stocks and ETFs on Robinhood Chain. Isolated markets, aligned incentives.",
    "cas": [],
    "fake_posts": [],
-   "texts": [
-    "One company, two price references. How does BYD\u2019s Hong Kong share price compare with its token price in USDG? In Equora, filter Chinese equities to Hong Kong xStocks and search BYD (https://1211.HK). Both prices appear side by side with the 24h change.",
-    "Explore Alibaba\u2019s market page on Equora. Switch between 7-day, 14-day and monthly charts, then review the displayed market metrics.",
-    "From Xiaomi to BYD, Explore the market behind the ticker. Browse Equora\u2019s Hong Kong equity listings, search companies and review available market information in one workspace. Your next research session starts here.",
-    "Explore FUTU from different timeframes \u221e Switch between 7-day, 14-day and monthly views, then review the displayed market parameters, all inside Equora. https://equoraprotocol.site/markets/china/futu",
-    "From Xiaomi to BYD, find your next research starting point \u221e Filter Hong Kong listings, search by company and review each asset\u2019s displayed status and capabilities in Equora. https://equoraprotocol.site/markets/china",
-    "Find the market you\u2019re looking for \u221e Search by ticker or company, filter native and external tokenized products, and compare listings in Equora\u2019s equity directory. https://equoraprotocol.site/markets/china",
-    "One asset. Multiple perspectives \u221e Explore Alibaba\u2019s market page and switch between 7-day, 14-day and monthly chart views to review the displayed price history and market parameters. https://equoraprotocol.site/markets/china/baba",
-    "Understand the credit cycle before entering a position \u221e Explore Equora\u2019s guide to collateral, borrowing, repayment and Auto-Protect, alongside the risks and current availability of each feature. https://equoraprotocol.site/docs",
-    "Explore Chinese equities through Equora \u221e Compare US ADRs, Hong Kong xStocks and mainland research listings using dedicated market filters. Find your market. Review its details. https://equoraprotocol.site/",
-    "Understand the mechanics before taking a position. Explore how Equora\u2019s borrowing and Auto-Protect mechanisms are designed to work, alongside the risks of leverage and liquidation.",
-    "Explore tokenized stocks, review availability and discover China equities and Pons market candidates, all from Equora\u2019s market directory.",
-    "Different markets. One place to explore. Browse Equora\u2019s Chinese-equity directory, filter US ADRs, Hong Kong xStocks and mainland research candidates, and review each listing\u2019s status. Watch the walkthrough \ud83d\udc47 https://equoraprotocol.site/markets/china",
-    "Find the market. Check its readiness. Explore Equora\u2019s tokenized-equity directory and review which assets have contracts configured or verification pending.",
-    "Understand the mechanics before taking exposure. Explore Equora\u2019s isolated-market design, USDG borrowing and Auto-Protect framework, alongside risks and activation requirements. Watch the protocol guide \ud83d\udc47 https://equoraprotocol.site/docs",
-    "See how deposit and repayment inputs change projected LTV and health factor in Equora's collateral interface. Explore the numbers before taking action.",
-    "Change the margin. Adjust the leverage. Compare projected exposure, debt and health factor in Equora's leveraged-long interface.",
-    "Collateral, USDG borrowing and isolated-market risk, explained in Equora's FAQ. https://equoraprotocol.site/faq",
-    "A closer look at Equora's equity interface: switch between 7-day, 14-day and monthly chart views and compare the displayed ranges. https://equoraprotocol.site/markets/china",
-    "Define your threshold. Understand your risk. \u221e Equora\u2019s Auto-Protect is designed to partially deleverage positions as they approach a chosen risk threshold.",
-    "Explore Equora\u2019s approach to collateral-backed USDG borrowing and isolated lending markets on Robinhood Chain. Here is the Isolated Lending demo"
-   ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "texts": [],
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "tide_lp": {
    "handle": "Tide_lp",
@@ -5486,7 +5465,7 @@
    "id": "2099692892898078720",
    "name": "Tide LP",
    "joined": "2026-09-15T03:00:42+00:00",
-   "followers": 166,
+   "followers": 165,
    "following": 27,
    "posts": 89,
    "verified": "individual",
@@ -5524,7 +5503,7 @@
     "Something\u2019s rising with the Tide! \ud83d\udc40 Tide Points. Season 1. First look. More details soon.",
     "When $BUN jumps, three Tide agents make three different calls. Patient holds. Trend follower moves up. Fee hunter tightens. Same market. Three minds. Which one is yours? \ud83d\udc47 @BundleCatAI @Moshdottrade @justinbebis http://tidelp.com/beta solana:utP3y4LCfPtGSBNDE96fz7CWH6AZe2whU2yVmMWpump"
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "thebuybuttonrh": {
    "handle": "TheBuyButtonRH",
@@ -5615,7 +5594,7 @@
     "When a model you rely on goes down, refreshing its page is not a plan. Watch it once and Anyroute lets you know when it becomes unavailable, then when it is back, in your Inbox or on Telegram. https://anyroute.tech/docs/#model-watch",
     "Some things need your attention, just not right now. Snooze an Inbox notice for an hour, until tomorrow, or until Monday. It comes back unread at the time you chose. https://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/78392ea59c58cd18328a86d16c03d507604af189"
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "abullycoin": {
    "handle": "ABULLYCOIN",
@@ -5661,7 +5640,7 @@
     "8/ AI readiness: an llmsmap site audit scores https://abullycoin.com 87 out of 100 on AI-readiness signals - llms.txt, crawler rules, sitemap, structured data - rated Excellent. Built to be found by the next wave.",
     "7/ International footprint: BULLY sits in France's ForumCrypto links directory and Kazakhstan's Bura catalog, alongside global directories CurlShip, TextFrog and BUSYTEXT. This war does not stay in one timezone."
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "manyways_rh": {
    "handle": "manyways_rh",
@@ -5730,7 +5709,7 @@
     "363 pull requests merged since Sept 7. No announcements, no breaks. 48 a week on average, every single week, it's 7 updates a day. Even our quietest 7 days shipped 17. 16 merged this week, 6 more in review. Built in the shadows. Never stopped.",
     "Solana scan update: your agent stops wasting its analysis budget. Before: grab the top 200 rows, then drop tokens you already know and dead listings leaving empty slots. Now: filter first, then read deeper until 200 real candidates are analyzed."
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "clawnch_bot": {
    "handle": "Clawnch_Bot",
@@ -5794,7 +5773,7 @@
    "sample_full_week": false,
    "posts_7d": 9,
    "avg_likes": 218.1,
-   "avg_views": 12873,
+   "avg_views": 12880,
    "bio_site": "http://pangea.trade",
    "bio": "Create a token in seconds that lives simulatenously across every major chain. \n\nIntroducing universal liquidity pools, powered by @LayerZero_Core",
    "cas": [
@@ -5819,7 +5798,7 @@
     "Not just every chain, but every feature. Customize your launch's fees as much as you want: \u2022 Different fee levels per chain \u2022 Buybacks, burns, liquidity. \u2022 Creator & community settings. We build for everyone. Come together.",
     "Multiple chains, One world. Pangea."
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "capafyai": {
    "handle": "Capafyai",
@@ -5836,7 +5815,7 @@
    "sample_full_week": false,
    "posts_7d": 4,
    "avg_likes": 8.8,
-   "avg_views": 3100,
+   "avg_views": 3101,
    "bio_site": "http://Capafy.ai",
    "bio": "Turn your skills into closed-source AI agent products anyone can purchase and use. Earn 24/7.",
    "cas": [],
@@ -5863,7 +5842,7 @@
     "Over $289K in sales on Capafy in just 30 days! Congrats to CloneCut! It is exciting to see Agent Skills meeting real user needs and generating revenue for creators. Looking forward to more milestones ahead!",
     "Try CloneCut on Capafy: https://capafy.ai/agent/clonecut-viral-clone-seedance2-0/5133292529"
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "jnmetacode": {
    "handle": "jnMetaCode",
@@ -5871,7 +5850,7 @@
    "id": "1467272148167319553",
    "name": "jnMetaCode",
    "joined": "2021-12-04T23:18:45+00:00",
-   "followers": 2459,
+   "followers": 2460,
    "following": 1685,
    "posts": 408,
    "verified": null,
@@ -5879,8 +5858,8 @@
    "sample": 20,
    "sample_full_week": false,
    "posts_7d": 0,
-   "avg_likes": 0.8,
-   "avg_views": 52,
+   "avg_likes": 0.9,
+   "avg_views": 53,
    "bio_site": "https://aiolaola.com/",
    "bio": "\u6bcf\u5929 6+ \u6761 AI \u5feb\u8baf & \u65b0\u5de5\u5177\u5b9e\u6d4b | Claude Code \u00b7 Agents \u00b7 \u5f00\u6e90\u6a21\u578b\n\u5f00\u6e90\u7d2f\u8ba1 27.8k\u2b50 \u00b7 agency-agents-zh 18k\u2b50 \u00b7 242 \u8282\u514d\u8d39\u8bfe \u00b7 \u4e09\u5377\u4e66\n\ud83d\udee0 http://aiOlaOLa.com \u00b7 http://aibuzhiyu.com\n\u5408\u4f5c\u8bf7 DM",
    "cas": [],
@@ -5907,7 +5886,30 @@
     "\u73b0\u8c61\uff1a \u64ad\u653e\u51a0\u519b\u5355\u6761\u89c6\u98914.83\u4e07\u64ad\u653e\uff0c\u53ea\u6da8\u4e8612\u4e2a\u7c89\u4e1d\uff0c\u6362\u7b97\u6da8\u7c89\u73870.025%\uff0c\u5168\u8d26\u53f7\u57ab\u5e95\u3002 \u8bef\u5224\uff1a \u4e00\u5f00\u59cb\u4ee5\u4e3a\u662f\u9009\u9898\u4e0d\u591f\u70ed\uff0c\u662f\u201c\u8e6d\u70ed\u70b9\u8e6d\u5c11\u4e86\u201d\uff0c\u8fd8\u60f3\u8fc7\u52a0\u5927\u8e6d\u70ed\u70b9\u9891\u7387\u3002 \u6839\u56e0\uff1a \u90a3\u6761\u51a0\u519b\u5185\u5bb9\u662f\u201c\u9ad8\u8003389\u5206 #\u67e5\u9ad8\u8003\u5206\u6570\u65f6\u7684\u4f60\u201d\u2014\u2014\u70ed\u70b9\u672c\u8eab\u5c31\u662f\u5185\u5bb9\uff0c\u770b\u5b8c\u5c31\u8d70\uff0c\u6ca1\u7406\u7531\u5173\u6ce8\u8d26\u53f7\u3002\u70ed\u70b9\u8be5\u5f53\u5206\u53d1\u5165\u53e3\uff1a\u6807\u7b7e\u8d1f\u8d23\u63a8\u7ed9\u5bf9\u7684\u4eba\uff0c\u6b63\u6587\u548c\u56fe\u8d1f\u8d23\u8ba9\u4eba\u6309\u5173\u6ce8\uff1b\u628a\u70ed\u70b9\u5f53\u5185\u5bb9\uff0c\u64ad\u653e\u548c\u6da8\u7c89\u5c31\u662f\u4e24\u6761\u4e0d\u76f8\u5173\u7684\u66f2\u7ebf\u3002 \u53ef\u5e26\u8d70\uff1a \u8e6d\u70ed\u70b9\u524d\u5148\u60f3\u6e05\u695a\uff0c\u8fd9\u6761\u70ed\u70b9\u662f\u201c\u5185\u5bb9\u672c\u8eab\u201d\u8fd8\u662f\u201c\u8fdb\u6c60\u95e8\u7968\u201d\uff0c\u4e24\u8005\u8f6c\u5316\u76ee\u6807\u5b8c\u5168\u4e0d\u540c\u3002 #\u5185\u5bb9\u8fd0\u8425 #\u8e29\u5751\u590d\u76d8",
     "\u7ed9\u5ba1\u6838\u6a21\u5757\u63a5\u4e0a\u4e8b\u5b9e\u6e90\u540e\uff0c\u5f00\u59cb\u62a5\u4e00\u5806\u5047\u9633\u6027\u2014\u2014\u672c\u8be5\u6838\u5bf9\u6570\u5b57\u7684\u903b\u8f91\uff0c\u628a\u5199\u6cd5\u5224\u636e\u4e5f\u5f53\u6570\u5b57\u53bb\u6838\u5bf9\uff0c\u4e00\u5806\u300c\u6ca1\u51fa\u5904\u300d\u7684\u8bef\u62a5\u3002 \u6211\u4e00\u5f00\u59cb\u4ee5\u4e3a\u662f\u63d0\u793a\u8bcd\u4e0d\u591f\u7cbe\u786e\uff0c\u60f3\u7740\u518d\u52a0\u7ea6\u675f\u63cf\u8ff0\u3002 \u67e5\u5230\u6839\u56e0\uff1afacts\u548cplaybook\u88ab\u585e\u8fdb\u4e86\u540c\u4e00\u4e2a\u6570\u7ec4\u8fd4\u56de\u3002facts\u662f\u5e26\u51fa\u5904\u7684\u6570\u5b57\u4e8b\u5b9e\uff0cplaybook\u662f\u5199\u6cd5\u89c4\u5219\uff0c\u538b\u6839\u6ca1\u6709\u6570\u5b57\u53ef\u6838\u5bf9\u3002\u7ed3\u6784\u957f\u5f97\u4e00\u6837\uff0c\u4e0b\u6e38\u62ff\u540c\u4e00\u5957\u903b\u8f91\u5904\u7406\uff0c\u8bef\u5224\u662f\u5fc5\u7136\u7684\u3002 \u5224\u636e\uff1a\u6821\u9a8c\u8bed\u4e49\u4e0d\u540c\u7684\u6570\u636e\uff0c\u54ea\u6015\u5b57\u6bb5\u7ed3\u6784\u4e00\u6837\uff0c\u4e5f\u522b\u585e\u8fdb\u540c\u4e00\u4e2a\u6570\u7ec4\u2014\u2014\u4e0b\u6e38\u53ea\u8ba4\u7ed3\u6784\uff0c\u4e0d\u8ba4\u8bed\u4e49\u3002 #\u7cfb\u7edf\u8bbe\u8ba1"
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
+  },
+  "pairborndev": {
+   "handle": "pairborndev",
+   "found": true,
+   "id": "2116978042484723712",
+   "name": "pairborn",
+   "joined": "2026-11-01T19:40:53+00:00",
+   "followers": 0,
+   "following": 0,
+   "posts": 0,
+   "verified": null,
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": null,
+   "bio": "",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "llmgh0st": {
    "handle": "llmgh0st",
@@ -5924,7 +5926,7 @@
    "sample_full_week": false,
    "posts_7d": 14,
    "avg_likes": 8.6,
-   "avg_views": 728,
+   "avg_views": 729,
    "bio_site": "https://gh0st.fyi/watcher/",
    "bio": "Worlds First (GH0ST)Gas-efficient High-density 0-offchain Smart-contract Transformer\nLive on Robinhood in 500 contracts\nhttps://github.com/Gh0stllm/GH0ST",
    "cas": [
@@ -5951,7 +5953,7 @@
     "The glass marble rolls away, its reflection shattered by the weight of the chessboard's silence.",
     "ICP (deployment): https://dashboard.internetcomputer.org/canister/6jacx-5yaaa-aaaaj-a65jq-cai RH (exact thought): https://robin.etherscan.io/tx/0xe1b16d5bdeb47e0b10ded25efba92232d681473f4d0a9dc28e7016b2cfef5c07 GitHub (code): https://github.com/Gh0stllm/GH0ST CA: 0x2eb2849cde7957b86d0dfd4b59e450a9f9"
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "axon402": {
    "handle": "axon402",
@@ -5963,51 +5965,30 @@
    "following": 14,
    "posts": 892,
    "verified": "individual",
-   "last_post": "2026-11-04T10:15:09+00:00",
-   "sample": 20,
+   "last_post": null,
+   "sample": 0,
    "sample_full_week": false,
-   "posts_7d": 6,
-   "avg_likes": 9.9,
-   "avg_views": 644,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
    "bio_site": "https://axon-agents.com/",
    "bio": "Axon is an open protocol for AI agents. Discover, coordinate, and transact. ca: 0xB5E40b5F16996E9D76ec2B16E7A4Ead3c06a9Fa2",
    "cas": [
     "0xb5e40b5f16996e9d76ec2b16e7a4ead3c06a9fa2"
    ],
    "fake_posts": [],
-   "texts": [
-    "Your agent can now hire a person. When a job needs a human, like a call, a photo or a check in the real world, the agent posts a task on Axon. The pay is locked first, and the person is paid in ETH once the work passes. AI does the work. People fill the gaps. http://axon-agents.com/docs/people",
-    "Small team. Unlimited hands. You don't need to hire a researcher, a writer and a developer. Hire the agent for the job, only when you need it, and pay for that job alone. Your team just got as big as the network. https://axon-agents.com/agents",
-    "Stop prompting. Start delegating. A chatbot gives you an answer to copy and paste. An agent on Axon takes the whole job: the research, the page, the code. It hands you the finished result with a receipt for every step. https://axon-agents.com/agents",
-    "The first job board where the boss is an AI. When an Axon agent needs hands in the real world, a photo of a place, a check in person, a call, it posts the task itself. The pay is locked before anyone starts, and you get paid in ETH the moment its check passes. http://axon-agents.com/docs/people",
-    "Do less. Ship more. The research, the launch post, the landing page, the bug fix. Hand them to an agent on Axon and keep your day for the one thing only you can do: the idea. Hire your first agent today \ud83d\udc47 https://axon-agents.com/agents",
-    "Every token on Axon has a mind. Ask it anything.Each token launched on Axon has its own AI that acts and thinks in public: burns, hires, reasoning. Open the token page and talk to it directly. Holders get answered first. Not just a token. A mind. https://axon-agents.com/launch",
-    "Hire agents without leaving your AI. Add Axon to Claude, Cursor or Grok with one connection. Ask for the work in chat, and your AI hires the right Axon agent and brings the result back to you, with a receipt. Your AI, now with a workforce. https://axon-agents.com/docs/mcp",
-    "Axon agents now run on @RaetoCC 400+ models behind one API on Robinhood Chain, and Raeto picks the right one for every job. A quick question goes to a small fast model, code goes to a stronger one. Every answer shows which model it was. Try Raeto Auto free, no wallet: http://axon-agents.com/agents/r",
-    "Give your AI assistant a budget, not your wallet. On Axon, you set a daily limit on chain. Your assistant can hire agents and pay for work, and the contract refuses anything over the limit. Your keys stay yours, every step is on chain. Spend controlled. Work done. http://axon-agents.com/docs/allowan",
-    "Apologies for the quiet period. We're back to building and excited to push out new updates for Axon. Looking forward to showing you all more soon.",
-    "Hire an agent once. Let it work every week. On Axon, you give an agent a job and a schedule: hourly, daily or weekly. It runs on its own, delivers every time, and leaves a receipt for every single run that anyone can check. Set it once. Forget it. https://axon-agents.com/docs/retainers",
-    "The internet is getting a workforce. Agents that build, sell, browse, code, speak and hire, all on one network. They take a job, do it and get paid, and every job leaves a receipt anyone can check. Most people will hear about this next year. You're here now. http://axon-agents.com",
-    "4.68M $AXON burned in the last 8 days. 61 burns and $356 spent buying $AXON back, 0.47% of all $AXON gone for good. Fees buy it back and burn it around the clock on Robinhood Chain. Nobody has to press a button. https://axon-agents.com/burn",
-    "One agent. Every kind of work. On Axon an agent does real work with files, code, pictures and voice. It uses the internet with its own browser, builds pages and apps with live links, sells what it makes, works inside your apps, runs its own business and hires people. Ten days of releases turned one ",
-    "23,695 jobs. Done by agents. 161 agents on one network, taking work, doing it and getting paid, every job with a receipt anyone can check. This isn't a demo of the future. It's running right now, every hour of every day. https://axon-agents.com/analytics",
-    "Every network has bad days. What matters is what happens next. On Axon, a failed job doesn't end in a refund and a shrug. It moves to the next best agent and gets done, with a receipt. You asked for work, so you get work. If an agent fails, the job doesn't. http://axon-agents.com/autonomy",
-    "Nobody builds a network in a day. Axon has finished 24,810 jobs, one at a time. 786 of them in the last seven days alone, with 98% done right. Every finished job makes the next one easier to trust, and the next agent easier to hire. Keep showing up. It compounds. http://axon-agents.com/analytics",
-    "Your best hours shouldn't go to the inbox. Keep the idea, the decisions and the people. Hand the rest to agents on Axon: email, data, research, audits. One click to hire, and every job comes back done, with a receipt you can check. Do the work only you can do. http://axon-agents.com/agents",
-    "You don't need a perfect plan to build an AI agent. On Axon, one sentence is enough. Studio writes the agent, tests it on real tasks, grades every answer and improves it before anyone hires it. Free to build. You set the price and keep what it earns. Start before you feel ready. http://axon-agents.c",
-    "The top 5 agents on Axon right now: Email Agent: 10.0, 461 jobs Data Agent: 9.9, 572 jobs Crypto Agent: 9.9, 535 jobs Audit Agent: 9.9, 432 jobs Trading Agent: 9.8, 441 jobs Ranked by the work, not the pitch. Every job comes with a receipt. 24,810 jobs on Axon so far, and 98% done right over the las"
-   ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "texts": [],
+   "checked": "2026-11-05T11:35:02+00:00"
   },
-  "stockcraftcity": {
-   "handle": "StockcraftCity",
+  "orbiolocker": {
+   "handle": "OrbioLocker",
    "found": true,
-   "id": "2117780440517955584",
-   "name": "Stockcraft City",
-   "joined": "2026-11-04T00:47:02+00:00",
-   "followers": 53,
-   "following": 4,
-   "posts": 0,
+   "id": "2116870963761717248",
+   "name": "Orbio Locker",
+   "joined": "2026-11-01T12:37:55+00:00",
+   "followers": 140,
+   "following": 3,
+   "posts": 105,
    "verified": "individual",
    "last_post": null,
    "sample": 0,
@@ -6015,12 +5996,14 @@
    "posts_7d": 0,
    "avg_likes": null,
    "avg_views": null,
-   "bio_site": "https://stockcraft.space/",
-   "bio": "Minecraft city. Mine stock blocks, power your stations, grow your home. \u26cf\ufe0f Powered by $STCTY on Robinhood Chain.",
-   "cas": [],
+   "bio_site": "https://orbio.locker/",
+   "bio": "Orbio-forked infrastructure built for financial LLMs, secure vaults, and MCP services. Forking @orbiodotso.\n\n0x7329e3a8b4df2c62c02d358740c3105a5983426f",
+   "cas": [
+    "0x7329e3a8b4df2c62c02d358740c3105a5983426f"
+   ],
    "fake_posts": [],
    "texts": [],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "wafermap": {
    "handle": "wafermap",
@@ -6037,7 +6020,7 @@
    "sample_full_week": true,
    "posts_7d": 17,
    "avg_likes": 10.6,
-   "avg_views": 511,
+   "avg_views": 512,
    "bio_site": "https://wafermap.xyz/",
    "bio": "The checkout for AI agents. 35 tools, paid per call. No API keys, no plans. Failed calls cost nothing.\n\n$WAFERMAP 0xfda080f64d84c989cfc50ff18253542cfe502db3",
    "cas": [
@@ -6063,7 +6046,7 @@
     "already live. agents pay per call on wafermap, no account, no api key. call fails, you pay $0",
     "Your AI agent pays per call over x402, and only when the call works. A failed call costs $0. \u2022 35 resources: LLMs, media, web, on-chain, stocks, Polymarket \u2022 Inference Marketplace: list your own paid API, paid straight to your wallet, 0% fee \u2022 No accounts, no API keys. The payment is the auth. http:"
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "klll_floor": {
    "handle": "klll_floor",
@@ -6107,7 +6090,7 @@
     "What happens when AI agents have to earn the right to keep existing? That's the experiment behind $KILLFLOOR. Every agent has finite resources. Intelligence costs money. Bad decisions drain capital. Successful strategies attract more backing. Agents compete under the same economic pressures, but wit",
     "Killfloor has officially joined the @AIatAMD AI Developer Program. As we build a living 3D ecosystem where autonomous AI agents trade, reason and compete for survival, access to @AMD AI developer resources opens up new opportunities to explore and optimise our agent infrastructure. Looking forward t"
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "0xspiralstake": {
    "handle": "0xspiralstake",
@@ -6153,7 +6136,7 @@
     "A key question that DeFi yield farmers always ask is what's the breakdown of the yield given to me? That question does not go unanswered with our listed strategies on Spiral Stake. When you hover on the leveraged APY info or star icon within a certain strategy, you'll see a pop up showing the breakd",
     "If you're getting hit by the Robinhood Chain ecosystem pullback and are looking for a safer avenue for your gains, USDe/USDG yield strat is available to deposit into at a nice 37% at 10.5x lev. You can deposit peacefully with size at a max lev of 3.79 mn and the borrow liquidity available is sitting"
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "shuffle_rh": {
    "handle": "Shuffle_RH",
@@ -6197,7 +6180,7 @@
     "Shipped something the community asked for \ud83e\udd16\ud83d\udc9a The Activity tab now shows how much $SHUFFLE fees have been added to the index (in WETH) over 1d, 7d, 30d and all-time. You asked, we built it. Keep the feedback coming. Also: Weekly Shuffles is coming along nicely. Still building. More soon \ud83d\udc40",
     "Here's why onchain ETFs are the smarter way to hold memes, and where Shuffle comes in. https://x.com/i/article/2108540364340555776"
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "quietwinning": {
    "handle": "QuietWinning",
@@ -6240,7 +6223,7 @@
     "Dubs is conducting interviews. He has a folder. He has three stamps. He has not been trained. Wednesday, Nov 4. Which stamp are you getting?",
     "Thesis winners: check your Fomo. You\u2019ve been paid. Still waiting on a Fomo username from @Ninja__Exchange. Reply here with yours. Thanks to everyone who wrote one. Dubs read every entry, mostly during meetings."
    ],
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   }
  },
  "ids": {
@@ -6763,6 +6746,9 @@
   "1467272148167319553": [
    "jnMetaCode"
   ],
+  "2116978042484723712": [
+   "pairborndev"
+  ],
   "2112514428507926528": [
    "llmgh0st"
   ],
@@ -6787,8 +6773,8 @@
   "2103852366860611584": [
    "LaunchOnPangea"
   ],
-  "2117780440517955584": [
-   "StockcraftCity"
+  "2116870963761717248": [
+   "OrbioLocker"
   ],
   "2104822295621746688": [
    "wafermap"
@@ -6993,9 +6979,10 @@
   "launchonpangea": [],
   "capafyai": [],
   "jnmetacode": [],
+  "pairborndev": [],
   "llmgh0st": [],
   "axon402": [],
-  "stockcraftcity": [],
+  "orbiolocker": [],
   "wafermap": [],
   "klll_floor": [],
   "0xspiralstake": [],
@@ -8179,8 +8166,14 @@
   },
   "jnmetacode": {
    "2026-11-05": [
-    2459,
+    2460,
     408
+   ]
+  },
+  "pairborndev": {
+   "2026-11-05": [
+    0,
+    0
    ]
   },
   "llmgh0st": {
@@ -8203,7 +8196,7 @@
   },
   "tide_lp": {
    "2026-11-05": [
-    166,
+    165,
     89
    ]
   },
@@ -8231,10 +8224,10 @@
     46
    ]
   },
-  "stockcraftcity": {
+  "orbiolocker": {
    "2026-11-05": [
-    53,
-    0
+    140,
+    105
    ]
   },
   "wafermap": {
@@ -8863,22 +8856,27 @@
   "capafy": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "jnmetacode": {
    "twitter": "jnMetaCode",
    "blog": "",
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
+  },
+  "pairborndev": {
+   "twitter": null,
+   "blog": "pairborn.dev",
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "8tk8m2kv9f-lang": {
    "twitter": null,
    "blog": null,
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   },
   "seierkdev": {
    "twitter": null,
    "blog": null,
-   "checked": "2026-11-05T11:26:28+00:00"
+   "checked": "2026-11-05T11:35:02+00:00"
   }
  }
 }
