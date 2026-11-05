@@ -1424,6 +1424,28 @@
    "cas": [],
    "fake_posts": [],
    "checked": "2026-11-05T04:45:23+00:00"
+  },
+  "skyflo_ai": {
+   "handle": "skyflo_ai",
+   "found": true,
+   "id": "1886355883929866241",
+   "name": "Skyflo",
+   "joined": "2025-02-03T10:07:57+00:00",
+   "followers": 55,
+   "following": 7,
+   "posts": 43,
+   "verified": "individual",
+   "last_post": "2026-10-16T16:02:46+00:00",
+   "sample": 17,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 0.6,
+   "avg_views": 74,
+   "bio_site": "https://skyflo.ai",
+   "bio": "The agentic operating system for your company. Give your AI agents a mission. Skyflo coordinates their work, retains context, and keeps you in control.",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T05:15:23+00:00"
   }
  },
  "ids": {
@@ -1612,6 +1634,9 @@
   ],
   "1500160220735197188": [
    "newsbeat_"
+  ],
+  "1886355883929866241": [
+   "skyflo_ai"
   ]
  },
  "past": {
@@ -1678,7 +1703,8 @@
   "felixlu1018": [],
   "trycaliber": [],
   "aporixa_": [],
-  "newsbeat_": []
+  "newsbeat_": [],
+  "skyflo_ai": []
  },
  "history": {
   "barragetrade": {
@@ -2194,6 +2220,12 @@
     88,
     8
    ]
+  },
+  "skyflo_ai": {
+   "2026-11-05": [
+    55,
+    43
+   ]
   }
  },
  "telegram": {
@@ -2533,6 +2565,11 @@
    "twitter": "thepeternemec",
    "blog": "https://peternemec.me",
    "checked": "2026-11-05T04:45:23+00:00"
+  },
+  "skyflo-ai": {
+   "twitter": "skyflo_ai",
+   "blog": "https://skyflo.ai",
+   "checked": "2026-11-05T05:15:23+00:00"
   }
  }
 }

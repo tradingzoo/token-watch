@@ -595,7 +595,15 @@
   "0x19e813946c708b91fa2d792e222ed9c604cdda9d": "2026-11-05T05:00:33+00:00",
   "0x692f9d8c0a6758514188f323848eb3a32d6dae19": "2026-11-05T05:00:33+00:00",
   "0x2344531af049e69359b1d1f86325910a3be7c87c": "2026-11-05T05:00:33+00:00",
-  "0x559c0e2998daef802c15d48690670a5a8e7dd90e": "2026-11-05T05:00:33+00:00"
+  "0x559c0e2998daef802c15d48690670a5a8e7dd90e": "2026-11-05T05:00:33+00:00",
+  "0x70b66f507341d25ac76e20e8b7c65e1efd02ee12": "2026-11-05T05:15:23+00:00",
+  "0x5a96941ebc98715691565f59e0601a86042fcbf2": "2026-11-05T05:15:23+00:00",
+  "0x1dc1c01af1cabb189ce3ade48838adc5547d79e0": "2026-11-05T05:15:23+00:00",
+  "0xa98a60d5e1291c733dcacc1aa42b2eb5fe2fd0eb": "2026-11-05T05:15:23+00:00",
+  "0xbfcd3707d488d720821d17cf3b543a78cb7f1dc0": "2026-11-05T05:15:23+00:00",
+  "0x27c685b88d318fd2cbb2f36c40462a21b29fbe56": "2026-11-05T05:15:23+00:00",
+  "0x1e8740066fd1a615c2019a71b4ce2fcb5ca4e3e4": "2026-11-05T05:15:23+00:00",
+  "0xc31470ee219a22ae5a722f265e778631e38a79d1": "2026-11-05T05:15:23+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -4658,9 +4666,75 @@
      "people": 2
     }
    }
+  },
+  "0xa98a60d5e1291c733dcacc1aa42b2eb5fe2fd0eb": {
+   "address": "0xa98a60d5e1291c733dcacc1aa42b2eb5fe2fd0eb",
+   "symbol": "SKYFLO",
+   "name": "Skyflo",
+   "description": "Skyflo is a Mac app that runs a company's team of AI agents. It hands launches and research to the agents.",
+   "website": "https://skyflo.ai",
+   "twitter": "https://x.com/skyflo_ai",
+   "launched": "2026-11-05T05:10:47+00:00",
+   "mcap": 4306.812419500025,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T05:15:23+00:00",
+   "scored_at": "2026-11-05T05:15:23+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "skyflo-ai/skyflo",
+    "score": 40,
+    "raw_score": 40,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (skyflo.ai/docs), docs (skyflo.ai/docs/model-keys), docs (skyflo.ai/docs/skyflo-cloud), docs (skyflo.ai/llms-full.txt), docs (skyflo.ai/llms.txt), website (skyflo.ai))"
+     ],
+     "Real code": [
+      "\u2705 61 changes over 581 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 631 days old, 13 people, 121 stars, 42 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://skyflo.ai/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://skyflo.ai",
+     "https://skyflo.ai/llms-full.txt",
+     "https://skyflo.ai/llms.txt",
+     "https://skyflo.ai/docs",
+     "https://skyflo.ai/docs/model-keys",
+     "https://skyflo.ai/docs/skyflo-cloud"
+    ],
+    "facts": {
+     "commits": 61,
+     "stars": 121,
+     "created": "2025-02-28",
+     "pushed": "2026-10-02",
+     "people": 13
+    }
+   }
   }
  },
- "checked_total": 585,
+ "checked_total": 593,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -5079,9 +5153,26 @@
    "ignored": [
     "Aporixa"
    ]
+  },
+  {
+   "when": "2026-11-05T05:15:23+00:00",
+   "address": "0xa98a60d5e1291c733dcacc1aa42b2eb5fe2fd0eb",
+   "symbol": "SKYFLO",
+   "website": "https://skyflo.ai",
+   "used": "skyflo-ai/skyflo",
+   "ignored": [
+    "skyflo-ai"
+   ]
   }
  ],
  "symbol_counts": {
+  "SWEEPER": 1,
+  "MICROSOFT": 1,
+  "SKYFLO": 1,
+  "RWACAT": 1,
+  "OURO": 1,
+  "GTA8": 1,
+  "AEGISOS": 1,
   "APLOMB": 1,
   "ISLLAMA": 1,
   "TAPDRP": 1,
@@ -5106,21 +5197,22 @@
   "BELL": 2,
   "hookscan": 2,
   "XENTH": 1,
+  "OAK": 1,
+  "PONS": 1,
+  "HARMONIC": 1,
+  "WIF": 1,
+  "UBIK": 1,
+  "CHARLIE": 1,
+  "ROBINCAT": 1,
+  "ORBIO": 1,
+  "ROBINHOOD": 1,
+  "MOTION": 1,
   "ASTER": 2,
   "VOTC": 1,
   "PERPSONS": 1,
   "MOKO": 1,
   "byte": 1,
   "SAIBOT92": 1,
-  "PONS": 1,
-  "OAK": 1,
-  "WIF": 1,
-  "UBIK": 1,
-  "HARMONIC": 1,
-  "CHARLIE": 1,
-  "ROBINCAT": 1,
-  "ROBINHOOD": 1,
-  "ORBIO": 1,
   "BOW": 1,
   "OPENME": 1,
   "MOSQUE": 1,
@@ -5138,7 +5230,6 @@
   "VLDR": 1,
   "MAHORA": 1,
   "METRION": 1,
-  "MOTION": 1,
   "DARWIN": 1,
   "HMM": 1,
   "ORIOT": 1,
@@ -5636,6 +5727,12 @@
    ]
   ],
   "caliber-ai-org/ai-setup@2026-09-24": [
+   [],
+   [
+    "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo"
+   ]
+  ],
+  "skyflo-ai/skyflo@2026-10-02": [
    [],
    [
     "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo"
