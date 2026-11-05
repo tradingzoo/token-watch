@@ -1052,6 +1052,36 @@ c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))
     open(SITE, "w", encoding="utf-8").write(page)
 
 
+def launch_date(addr):
+    """(launched, source): the Pons launch time for Pons tokens, else the token's first trade on DexScreener."""
+    p = pons_one(addr)
+    if p and p.get("launched"):
+        return p["launched"], "pons"
+    m = market(addr) or {}
+    return (m.get("launched"), "first trade") if m.get("launched") else (None, None)
+
+
+def keep_launch(r, g):
+    """A rescore keeps the checked launch date from the earlier record."""
+    if g and g.get("launched_src"):
+        r["launched"], r["launched_src"] = g["launched"], g["launched_src"]
+
+
+def fix_launch_dates(state):
+    """Once per listed token: store its true launch date (5 Nov: some had none, Pons ones had the pool date)."""
+    n = 0
+    for sec in ("github", "sites"):
+        for a, r in state.get(sec, {}).items():
+            if r.get("launched_src"):
+                continue
+            when, src = launch_date(r["address"])
+            if when:
+                r["launched"], r["launched_src"] = when, src
+                n += 1
+    if n:
+        log(f"Launch dates: set for {n} listed tokens")
+
+
 def site_from_x(tok):
     """Pons lists no website (UBIK, 5 Nov): use the website on the token's own X profile, but only if that X
     posts this token's address. A copy, or a token linking someone else's famous X, never passes."""
@@ -1096,7 +1126,7 @@ def site_pass(toks, state, reviews):
     for key, t in todo:
         looked[key] = NOW.isoformat(timespec="seconds")
         mk = market(t["address"])
-        t2 = {**t, **{k: v for k, v in mk.items() if v and (k != "symbol" or not t.get("symbol"))}}
+        t2 = {**t, **{k: v for k, v in mk.items() if v and (k not in ("symbol", "launched") or not t.get(k))}}
         if not sitecheck.has_site(t2):
             t2 = site_from_x(t2)
             if not t2:
@@ -1115,6 +1145,7 @@ def site_pass(toks, state, reviews):
                       "launched": t2.get("launched"), "mcap": mk.get("mcap") or t.get("mcap"), "where": mk.get("where") or t.get("stage"),
                       "first_seen": (g or {}).get("first_seen", NOW.isoformat(timespec="seconds")),
                       "scored_at": NOW.isoformat(timespec="seconds"), "found_on": "website", "scoring": sc}
+        keep_launch(sites[key], g)
         n_listed += not g
         log(f"  {'SITE RESCORED' if g else 'NEW SITE'}: {t2.get('symbol')} {t2.get('website')} score {sc['score']} ({sc['tools']} plug-in tools)")
     cutoff = (NOW - datetime.timedelta(days=sitecheck.NEW_DAYS + 2)).isoformat()
@@ -1147,6 +1178,7 @@ def main():
         toks.setdefault(t["address"].lower(), t)
     for t in catchup(state):  # older launches from the one-time sweep, a few a run
         toks.setdefault(t["address"].lower(), t)
+    fix_launch_dates(state)
 
     queue = list(toks.items())
     while queue:
@@ -1185,7 +1217,7 @@ def main():
             owner, repo = pick
         full = pick_repos(owner, repo or None)[0]
         mk = market(t["address"])
-        t2 = {**t, **{k: v for k, v in mk.items() if v and (k != "symbol" or not t.get("symbol"))}}
+        t2 = {**t, **{k: v for k, v in mk.items() if v and (k not in ("symbol", "launched") or not t.get(k))}}
         rv = reviews.get(key, {})
         try:
             sc = score(t2, full, found_on, symbol_counts, rv)
@@ -1197,6 +1229,7 @@ def main():
                                 "launched": t2.get("launched"), "mcap": mk.get("mcap") or t.get("mcap"), "where": mk.get("where") or t.get("stage"),
                                 "first_seen": (g or {}).get("first_seen", NOW.isoformat(timespec="seconds")),
                                 "scored_at": NOW.isoformat(timespec="seconds"), "found_on": found_on, "scoring": sc}
+        keep_launch(state["github"][key], g)
         log(f"  {'RESCORED' if g else 'NEW GITHUB'}: {t2.get('symbol')} -> {full} score {sc['score']}" + (" RED FLAG" if sc["flags"] else ""))
         real = sc.get("copy_of")
         if real and real not in toks:  # the project's real token: check it too
