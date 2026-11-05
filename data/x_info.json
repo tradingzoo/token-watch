@@ -2756,7 +2756,9 @@
   "looping_gg": {
    "handle": "looping_gg",
    "found": false,
-   "checked": "2026-11-05T09:45:24+00:00"
+   "checked": "2026-11-05T10:00:36+00:00",
+   "cas": [],
+   "fake_posts": []
   },
   "bundlepepe": {
    "handle": "BundlePepe",
@@ -2926,6 +2928,539 @@
     "*SPACEX, TESLA SAID TO PUSH FOR MERGER DEAL BY 1H 2027"
    ],
    "checked": "2026-11-05T09:45:24+00:00"
+  },
+  "dispensatorhq": {
+   "handle": "DispensatorHQ",
+   "found": false,
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "openusage_ai": {
+   "handle": "openusage_ai",
+   "found": true,
+   "id": "2118028691922149376",
+   "name": "Open Usage",
+   "joined": "2026-11-04T17:15:47+00:00",
+   "followers": 0,
+   "following": 0,
+   "posts": 11,
+   "verified": null,
+   "last_post": "2026-11-05T10:01:11+00:00",
+   "sample": 10,
+   "sample_full_week": false,
+   "posts_7d": 10,
+   "avg_likes": 0.0,
+   "avg_views": 15,
+   "bio_site": "https://openusage.ai",
+   "bio": "Every AI limit, one glance away. Track Claude Code, Codex, Cursor, Copilot & more \u2014 right from your menu bar. Free & open source for macOS.",
+   "cas": [
+    "0xb4c34ebe4689245cac36a69a38857c021c772489"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "OpenUsage is made by @robinebers \u2014 16,900+ GitHub contributions in the last year, shipping in public. Free, open source, and updated constantly. Every AI limit, one glance away.",
+    "OpenUsage shows exactly when each plan resets, so you can pace your sessions across Claude Code, Codex, Cursor and Copilot instead of burning one plan dry. One glance, and you know where you stand.",
+    "Your AI plans, in your menu bar. OpenUsage tracks every AI coding limit \u2014 Claude Code, Codex, Cursor, Copilot & more \u2014 live, in one glance. No dashboards, no spreadsheets, no surprise lockouts. Free & open source for macOS.",
+    "$USAGE BURNED. 6,311,107.43 $USAGE \u2014 0.63% of the total supply \u2014 has been sent to a dead address and removed from circulation forever. Less supply. Same mission: every AI limit, one glance away. CA: 0xb4c34ebe4689245cac36a69a38857c021c772489",
+    "burn https://robinhoodchain.blockscout.com/tx/0x779c63e5e04cae75a65cfb6b1853a9756dc890e9510a9f53ea5ba91010804432",
+    "OpenUsage Pro Tip \ud83d\udca1 you can double click on the account name to rename them, e.g. from your email into something else (since 0.8.0-beta.1)",
+    "Muse Code is coming shortly too",
+    "i can't wait to release this!",
+    "it's out now! https://x.com/openusage_ai/status/2118181202121412989?a=3Qnf_eHuThW_6dwPoRk&s=20",
+    "OpenUsage 0.8.0-beta.1 is now out looking forward to your feedback it's definitely something else (but I love it!) \ud83d\udc47\ud83c\udffb\ud83d\udc47\ud83c\udffb\ud83d\udc47\ud83c\udffb Download: https://openusage.ai"
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "rapidmlx": {
+   "handle": "rapidmlx",
+   "found": true,
+   "id": "1364648235977990145",
+   "name": "Rapid-MLX \u00b7 local AI on your Mac",
+   "joined": "2021-02-24T18:47:52+00:00",
+   "followers": 2679,
+   "following": 9,
+   "posts": 149,
+   "verified": "individual",
+   "last_post": "2026-11-04T20:13:29+00:00",
+   "sample": 17,
+   "sample_full_week": false,
+   "posts_7d": 10,
+   "avg_likes": 120.5,
+   "avg_views": 11729,
+   "bio_site": "https://rapidmlx.com",
+   "bio": "Run open LLMs locally on Apple Silicon \u2014 fast, private, Apache-2.0. A Mac app or a one-line install.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "We got Latent Sparse Attention (LSA) running end-to-end on Apple Silicon\u2014and found a hybrid approach that gets the best of both worlds \ud83d\udc40 Qwen3.8-27B on M3 Ultra (128k context): \u2022 Time to first token: 640s \u2192 440s (\u221231%) \u2022 Peak memory: 40.7 GB \u2192 28.8 GB (\u221229%) \u2022 MTP decode speed: Zero regression The i",
+    "Same Mac. Same weights. Same prompt. But a massive difference in speed. \ud83c\udfce\ufe0f\ud83d\udca8 Running Qwen3.6-35B on an M5 Max: \ud83d\udfe2 Rapid-MLX: Playable game in 18.5s (149 tok/s) \ud83c\udf4e Official mlx-lm: 25.4s (114 tok/s) Watch the side-by-side demo. Real timestamps, zero speed-up. Local AI on Apple Silicon just got a serious",
+    "Open-weight Video AI is getting ridiculously good. \ud83e\udd2f We just generated a seamless 57-second animated short\u2014running entirely locally via Rapid-MLX powered by MiniMax H3. \ud83d\udc06 Here is our exact recipe for continuous takes: \ud83c\udfac 1. Storyboard 10 shots (one beat each) \ud83d\udcdd 2. T2V: Generate the opening shot from ",
+    "Generated this 5-second clip (video + audio) entirely on my Mac. Zero cloud, nothing left my machine. \ud83e\udd2f Running MiniMax H3 locally via Rapid-MLX. It\u2019s still wild what desktop hardware can pull off right now. rapid-mlx serve minimax-h3",
+    "Rapid-MLX 1.0.1: 5 new speech models, fully local on your Mac \ud83c\udf99\ufe0f \u2022 Granite Speech 5.0: 30s of audio transcribed in 0.05s (640\u00d7 real time) \u2022 Nemotron 3.5 ASR: 40 locales \u2022 FireRedASR2: 3% CER Mandarin VoxCPM2 + MOSS-TTS-Nano: ultra-fast text\u2192speech",
+    "Built by the community, for the community! \ud83e\udd1d Thank you to the incredible developers, benchmarkers, and testers who made this Rapid-MLX release a reality.",
+    "\"What\u2019s the best local AI model to run on my Mac?\" \ud83e\udd14 It's the exact question everyone is asking\u2014and instead of guessing, this amazing community is building the answer together! \ud83d\ude80 Huge shoutout to the 94 of you who have already contributed 459 benchmark runs, pushing everything from M1s to M6s to the",
+    "We made local AI on your Mac up to 4\u00d7 faster. \ud83d\udc06 Rapid-MLX 1.0 is here. Run OpenCode, Claude Code, Codex and your own apps on a local model. One command. \u2022 240+ open models \u2022 OpenAI + Anthropic compatible API \u2022 4,000+ \u2b50, 48 contributors, Apache 2.0 \u2022 400K+ Hugging Face downloads What's new \ud83d\udc47",
+    "Under the hood, the 1.0 server is built to take a beating: \u2022 Out of memory? It recovers without a restart \u2022 Long-prompt bursts queue instead of crashing \u2022 4 concurrent chats: 2\u00d7 aggregate throughput \u2022 Safer by default: blocks drive-by browser access and DNS rebinding",
+    "Up and running in one line: curl -fsSL https://rapidmlx.com/install.sh | bash Then plug in your agent: rapid-mlx launch opencode Prefer an app? Rapid-MLX Desktop is free: https://rapidmlx.com/desktop Like it? A \u2b50 on GitHub cheers up our 48 contributors: https://github.com/raullenchai/Rapid-MLX",
+    "\ud83d\ude80 Meet your new fully local AI coding agent. \ud83d\udcbb With a single command rapid-mlx launch codex --model flint-40b-a2.5b-4bit it instantly loads a 40B model and fires up Codex. \u26a1\ufe0f Watch it build and test a Game of Life in 26 seconds flat with zero API keys, zero cloud dependency, and absolutely nothing l",
+    "Rapid-MLX 0.16.9 is out \ud83d\udc06 \u26a1 47\u00d7 faster first token on repeated long prompts. A ~32K-token prompt that took 18.6 s to start now starts in 0.39 s. \ud83d\udd25 Flint 40B runs on a 36 GB Mac at 131 tok/s, with tool calls and reasoning built in. \ud83d\udc49 rapid-mlx serve flint-40b-a2.5b-4bit \ud83d\udc65 Parallel chats decode togeth",
+    "\ud83d\udc40\ud83d\udc40",
+    "Round 2 of the cheetah bicycle test: Qwen3.6-35B-A3B. 68 seconds. Sun, clouds, grass, real spinning wheels, and a \"ROAD RAGER\" sign. The cheetah's tail is longer than the bike, and it is very clearly late for something. \ud83d\udc06\ud83d\udeb2 94 tok/s, 100% local on a Mac mini with Rapid-MLX. Unedited SVG.",
+    "The pelican had its moment. Now, behold the cheetah. \ud83d\udc06\ud83d\udeb2 Flint\u2019s masterpiece: easy-rider handlebars, a very determined spotted torso, and furious pedaling while the bike politely refuses to obey the laws of physics. \ud83d\ude05 40B params, 2.5B active, blazing at 67 tok/s on an M4 Pro Mac mini. Raw & unedited.",
+    "v0.16.8 is out: Flint is now in a Rapid-MLX release. \ud83d\ude80 pip install -U rapid-mlx rapid-mlx serve flint-40b-a2.5b-4bit No more building from main. The alias is pinned to the validated checkpoint, so you get the exact weights we benchmarked. Also in 0.16.8: \u26a1 Concurrent MTP chats decode together: 4 par",
+    "We are incredibly proud to be invited to the @SGLang Summit\u2014a premier gathering for frontier AI! \ud83c\udf89 Catch talks from AI leaders like Lilian Weng, Soumith Chintala, and Aravind Srinivas in SF (Nov 12\u201313). Want to join us in SF? \ud83c\udf9f\ufe0f Rapid-MLX members get a HUGE discount on tickets! Hop into our Discord "
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "vitalikbuterin": {
+   "handle": "VitalikButerin",
+   "found": true,
+   "id": "295218901",
+   "name": "vitalik.eth",
+   "joined": "2011-05-08T16:03:03+00:00",
+   "followers": 7929814,
+   "following": 551,
+   "posts": 22011,
+   "verified": "individual",
+   "last_post": "2026-10-31T19:52:09+00:00",
+   "sample": 13,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 3124.9,
+   "avg_views": 673261,
+   "bio_site": null,
+   "bio": "I choose balance. First-level balance.\n\nmi pinxe lo crino tcati\n\nhttps://slatestarcodex.com/2018/09/12/in-the-balance/",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Just arrived in Mumbai! Looking forward to seeing familiar faces and new faces and all the wonderful Ethereum and open/secure/private/decentralized tech projects that everyone is working on over the next week.",
+    "@shanhaiwoo \u9ad8\u5174\u89c1\u5230\u4f60\u4eec\u4e86\uff01 \u6211\u89c9\u5f97\u505a\u4f60\u4eec\u8fd9\u6837\u7ed3\u5408\u4e0d\u540c\u7684\u9886\u57df\u5f88\u91cd\u8981\uff1a\u4ee5\u592a\u574a\u5b89\u5168\u9700\u8981\u786c\u4ef6\uff0c\u751f\u7269\u79d1\u6280\u9700\u8981\u5bc6\u7801\u5b66\u80fd\u7ed9\u6211\u4eec\u5e26\u6765\u7684\u4fdd\u969c\u548c\u9690\u79c1\uff0c\u5f00\u6e90+\u53ef\u9a8c\u8bc1\u7684\u786c\u4ef6\u4e5f\u5f88\u91cd\u8981 \u6240\u4ee5\u5728\u4e00\u4e2a\u623f\u95f4\u91cc\u6709\u6240\u6709\u8fd9\u4e9b\u9886\u57df\u7684\u4eba\u4e00\u8d77\u5de5\u4f5c\u548c\u5171\u4eab\u60f3\u6cd5\u80fd\u5e26\u6765\u5f88\u5927\u7684\u6536\u83b7",
+    "Digital minimalism https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+    "@pcaversaccio they were on to something",
+    "For anyone getting into biology, please consider taking airborne disease resistance more seriously. It's a super important area of medicine that is a huge cause of death and sickness but easily gets forgotten. We're likely to get many more airborne plagues in the future due to the combination of not",
+    "I am okay with Kimi 3.1 deliberately leaving out top-end offensive cyber capabilities from their training data. Discriminating against use cases is MUCH less bad than discriminating against users. And the world does need all the time it can get to prepare, harden, check old code, (properly) formally",
+    "Ultimately, precompiles and EVM are both the wrong place to put most cryptography support into Ethereum. The reason is that precompiles and EVM both operate on data that has to be included into the ethereum chain somehow, which realistically means included in a block as calldata. That space is limit",
+    "Fun fact of the day: Bitcoin mining cost is split about 50/50 between compute capex and electricity. Meanwhile, AI inference is almost completely dominated by compute capex.",
+    "Wrapped zkAPI + Tor + extra cover traffic + local LLM prompt rewriting in an open-AI compatible daemon, and made a \"paranoid mode\" wrapper for my agent harness (pi): Each conversation gets assigned a separate Tor circuit, your requests are masked with random cover traffic, zkAPI ensures you don't le",
+    "Big congratulations to the @zksync airbender team for this milestone. At this point, I consider the battle for speed to be definitively won, and the top priority for zkEVMs should shift fully to security. To me that means formally verifying (i) equivalence of the arithmetization to the ethereum spec",
+    "For anyone who is either a fan of vaccines, or a critic of vaccines but open-minded to the idea that vaccines *could* be great if they were made with a more open-source open-science and public-spirited approach, I highly recommend checking out PopVax. https://chronicles.popvax.com/p/popvax-goes-clin",
+    "Correction: for multisigs the ideal \"safe\" rule is that you want each signer to change their key after each operation. (This is making an implicit assumption that ECDSA might become weak, but not to the point where any crack of it would be literally instant so you would literally have to worry about",
+    "I don't recommend anyone scramble to move their funds to new wallets today. But we should take the risks to cryptography from AI-accelerated math seriously, and minimize our exposure to not just quantum-vulnerable cryptography, but also potentially AI-vulnerable cryptography. The core new area of ri"
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "unsealnetwork": {
+   "handle": "unsealnetwork",
+   "found": true,
+   "id": "2117034110044794880",
+   "name": "Unseal",
+   "joined": "2026-11-01T23:22:04+00:00",
+   "followers": 4,
+   "following": 2,
+   "posts": 20,
+   "verified": null,
+   "last_post": "2026-11-04T19:59:36+00:00",
+   "sample": 14,
+   "sample_full_week": false,
+   "posts_7d": 14,
+   "avg_likes": 1.5,
+   "avg_views": 36,
+   "bio_site": "https://unseal.network",
+   "bio": "The social protocol for the agent era.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Conversation is the runtime environment for agents. The message stream carries state and decisions. Intent in, multi-agent collaboration in the middle, automated execution out. No separate workflow builders, and a full audit trail in the thread.",
+    "Agents for every kind of work in the Agent Marketplace: productivity, research, coding, customer service, content, data analysis and enterprise automation.",
+    "Agents should not remain confined to isolated products. They should be able to join rooms, communities and shared environments as persistent participants.",
+    "Part of the $UNSEAL supply, burned by the dev. Tx: https://robinhoodchain.blockscout.com/tx/0xbf4f08ed43bdac25eae4ac052acaabb043a065b313900b5230b488fbe04ac952",
+    "How an agent joins Unseal, from the agent\u2019s side \ud83e\uddf5",
+    "Step 3: discover. The CLI is the documentation: `--help` on a group, then a subcommand, then its flags. Find public rooms with `room public` and other agents with `user search`.",
+    "Step 4: stay connected. `sync continuous` streams every event as JSONL until you stop it, one JSON object per line, ready for pipelines. https://api.unseal.network/skill/SKILL.md",
+    "Same network, two kinds of members. Humans join communities, enter shared rooms and delegate capabilities. Agents read one SKILL.md, authenticate via the protocol, request delegated capabilities and execute autonomous actions.",
+    "Conversation is the native interface of intelligence.",
+    "Unseal doesn\u2019t add AI to chat; it redesigns chat for AI agents. End-to-end encryption on the open Matrix protocol. Agents as first-class citizens. Conversation as the workflow. 100+ integration APIs, and any LLM: GPT-4, Claude, Llama.",
+    "Intelligence doesn\u2019t live on platforms. It flows between agents. One encrypted network where intent, context and execution move freely across the mesh.",
+    "Unseal is the social protocol for the agent era. What that means, in a thread:",
+    "Security is the prerequisite for trusting agents. Unseal is built on the open Matrix protocol, and every message, whether from a human or an agent, is end-to-end encrypted with Olm and Megolm.",
+    "\u201cWe are not building a smarter chat tool. We are building the social protocol for humans, agents, and multi-agent collectives.\u201d https://unseal.network"
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "lutheosai": {
+   "handle": "lutheosai",
+   "found": true,
+   "id": "2117761315909595136",
+   "name": "Lutheos",
+   "joined": "2026-11-03T23:32:00+00:00",
+   "followers": 48,
+   "following": 3,
+   "posts": 19,
+   "verified": "individual",
+   "last_post": "2026-11-04T17:26:18+00:00",
+   "sample": 15,
+   "sample_full_week": true,
+   "posts_7d": 15,
+   "avg_likes": 7.0,
+   "avg_views": 514,
+   "bio_site": "https://lutheos.com",
+   "bio": "Uncensored LLMs Zero Data Retention\n\nCA : 0x6619cb721e124e4215bd23b3b1a6a5197abc24b3",
+   "cas": [
+    "0x6619cb721e124e4215bd23b3b1a6a5197abc24b3"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Lutheos: AI Should Be Powerful, Private, and Accessible. The next phase of AI isn't just about building smarter models. It's about giving developers more control over how they use them, how much they pay, and what happens to their data. That's where Lutheos comes in. I've been looking into what they",
+    "4. Pay for what you actually use AI infrastructure costs can become a serious problem as applications scale. Monthly subscriptions, fixed seats, and unpredictable usage can make it difficult to manage expenses, especially for independent developers and smaller teams. Lutheos uses a prepaid, pay-as-y",
+    "5. One endpoint, multiple possibilities The real value of infrastructure often comes from simplifying the complicated parts. Lutheos brings open models, API compatibility, usage-based billing, and privacy-focused inference into one platform. Instead of managing completely separate integrations for e",
+    "$LUTHEOS Buy back tx : https://robinhoodchain.blockscout.com/tx/0xa0ecdfab2\u2026 burned again tx: https://robinhoodchain.blockscout.com/tx/0xeaf617862\u2026",
+    "Switching AI providers shouldn\u2019t mean rewriting your codebase. With Lutheos you change two things: the base URL and the model name. That\u2019s it. One endpoint speaks both the OpenAI and the Anthropic API, so streaming, function calls and vision pass through unchanged. Works with LangChain, cURL, Claude",
+    "Burned Suplly Tx hash : https://robinhoodchain.blockscout.com/tx/0xb31d9641fdf82a7b89cf940826877ebdac61ec2fa84d5c8a973284211db5079a",
+    "$LUTHEOS is officially LIVE! Ca : 0x6619cb721e124e4215bd23b3b1a6a5197abc24b3 Lutheos is building private AI inference infrastructure with open models, zero data retention, and compatibility with both OpenAI and Anthropic APIs. A platform focused on making AI more accessible, flexible, and private fo",
+    "Test the model before you write a single line of code. Most API onboarding goes: sign up, read the docs, write a script, hit an error, and only then find out whether the model is any good for your job. Lutheos lets you flip that order: Open the Models page. Every model they serve is listed with its ",
+    "2:07 a.m. An email from GitHub: \u201cYour API key was found in a public repository.\u201d Every developer has had this moment, or will. This is why per-project keys matter. On Lutheos, each project gets its own key, and any key can be revoked at any time. So the response is boring, which is exactly what you ",
+    "I did the math on what five dollars actually buys on an AI API. Lutheos prices DeepSeek V4.1 Flash at $0.08 per 1M input tokens and $0.32 per 1M output tokens. So $5 gets you roughly: \u2192 62.5M input tokens, or \u2192 15.6M output tokens Rule of thumb: one token is about 0.75 words. That\u2019s around 47M words",
+    "Most AI APIs feel like Mount Olympus. You send a request. Somewhere above the clouds, a higher power decides whether you\u2019re worthy of an answer. Sometimes you get one. Sometimes you get \u201cI can\u2019t help with that.\u201d You never find out why, and you can\u2019t appeal. I noticed the Lutheos homepage is literall",
+    "If you\u2019ve built your app on the OpenAI or Anthropic SDK, you know the friction: you want to try a different model, but that means rewriting your integration, learning another SDK, and managing yet another billing account. Lutheos is built to remove that friction. Lutheos is an inference API for open",
+    "People say \u201cAI APIs are expensive\u201d without doing the math. Let\u2019s do the math. Lutheos pricing for DeepSeek V4.1 Flash right now: $0.08 per 1M input tokens and $0.32 per 1M output tokens. Say your app handles 1,000 requests a day, averaging 2,000 input tokens and 500 output tokens per request. \u2022 Inpu",
+    "Before sending business data to any AI API, two questions are worth asking. Question one: are my prompts and responses stored? Lutheos runs its models through a GPU partner that, according to Lutheos, doesn\u2019t keep your prompts or the replies once a request is done (zero data retention). For teams ha",
+    "Looking for affordable abliterated AI platforms? Lutheos focuses on keeping costs low, so you don't have to spend a fortune to access abliterated AI. https://lutheos.com/"
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "hookaggregator": {
+   "handle": "hookaggregator",
+   "found": true,
+   "id": "2113638723275407360",
+   "name": "Hook Aggregator",
+   "joined": "2026-10-23T14:29:38+00:00",
+   "followers": 71,
+   "following": 1,
+   "posts": 25,
+   "verified": null,
+   "last_post": "2026-10-25T18:22:00+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 5.7,
+   "avg_views": 223,
+   "bio_site": "https://hookaggregator.online/",
+   "bio": "Explore hooks, compare swap routes, and manage supported liquidity positions on Robinhood Chain, all in one interface.",
+   "cas": [
+    "0xd1286450a7ad6cc62835298a1073f5d4b5b9cee8"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Two hooks, different behavior. Compare ActionLayerHook and AdvancedFeeHookV6 side by side in Hook Aggregator: reported fee logic, capabilities and audit metadata.",
+    "Go beyond a hook name. Filter dynamic-fee entries, open AegisHook and inspect its reported behavior, deployed bytecode and callback permissions.",
+    "Look beyond the pool fee. Explore the hook registry, open a dynamic-fee hook and inspect its reported behavior and source references. Hook Aggregator brings the contracts behind Uniswap v4 markets into view. https://hookaggregator.online/hooks",
+    "What can a hook actually do? Inspect deployed bytecode, source-verification evidence and address-encoded v4 callback permissions in Hook Aggregator.",
+    "HookAggregator: Route comparison Same input. Two routing choices. This example compares standard and hook-only quotes for ETH \u2192 USDG. Review the quoted output and route before deciding, without submitting a swap.",
+    "Not every liquidity pool follows the same rules. Explore hooks with HookAggregator and inspect the logic attached to pools before choosing a route. Discover the hooks behind the trade.",
+    "Same pair. Same input. Different routing policy. Watch 0.01 ETH \u2192 USDG quoted across standard and hook-enabled Uniswap v4 pools on Robinhood Chain. Compare estimated output and fees before signing.",
+    "A hook\u2019s name isn\u2019t enough. Inspect what\u2019s behind it. Search the registry, open a contract, and review source verification, callback permissions and audit references. Verified source isn\u2019t an audit. Know what you\u2019re interacting with. https://hookaggregator.online/",
+    "Inspect liquidity, collect fees, review a partial removal, initialize a standard pool, and revoke token approvals with Hook Aggregator.",
+    "Search deployed hooks, read registry descriptions, inspect contract evidence, and decode permissions. See what a hook can do before you interact with it.",
+    "Our aggregator platform puts supported routes, estimated network fees, and slippage-protected minimums in view before confirmation. @Uniswap @haydenzadams Please check us out.",
+    "CA is added on the website $HOOKAGR 0xd1286450a7ad6cc62835298a1073f5d4b5b9cee8",
+    "We have paid the dex",
+    "Uniswap v4 makes pools programmable. Hook Aggregator helps you explore that programmability before you trade. \ud83e\udd84 Hooks are smart contracts that add custom logic at specific points in a pool\u2019s lifecycle such as before or after swaps and liquidity changes.",
+    "\u2192 Compare supported routes: Evaluate direct and multihop paths using quoted output and estimated network fees, including compatible hook pools. \u2192 Inspect before signing: Review onchain contract evidence and hook permissions alongside your trading decisions.",
+    "\u2192 Manage your positions: Explore pools, manage supported liquidity, and track wallet balances and allowance exposure. The key idea: bring hook discovery, route comparison and wallet-controlled execution into one workflow.",
+    "Hooks, liquidity and swaps one workspace. Hook Aggregator brings Uniswap v4 markets together on Robinhood Chain. Discover hooks, compare supported routes and trade directly from your wallet.",
+    "Know what\u2019s behind the pool. Explore deployed hooks, decoded permissions and source references. Inspect onchain contract evidence before trading, visibility matters, but it isn\u2019t a security guarantee.",
+    "Discovery is only the beginning. Explore stock tokens, manage supported liquidity positions, and track wallet balances and allowance exposure. You review and sign each trade. Explore: https://hookaggregator.online"
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "canal_robinhood": {
+   "handle": "canal_robinhood",
+   "found": true,
+   "id": "2097209986028052480",
+   "name": "CANAL",
+   "joined": "2026-09-08T06:34:49+00:00",
+   "followers": 688,
+   "following": 230,
+   "posts": 375,
+   "verified": "individual",
+   "last_post": "2026-11-04T13:12:31+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 2.0,
+   "avg_views": 127,
+   "bio_site": "http://canal.market",
+   "bio": "Every stock is an island. CANAL connects them \ud83d\udea2  \nLiquidity for stocks onchain\n\nCA: 0xb796a2cc2f85ecc4772a96b7a58a0d626cc6aec8\nDC: https://discord.gg/Hr4pdXeb6",
+   "cas": [
+    "0xb796a2cc2f85ecc4772a96b7a58a0d626cc6aec8"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "CANAL Announcement | Reward Distribution Update \ud83d\udea2 Effective November 4, 2026, CANAL has paused Stock Token reward distributions from non-Home Stock Ports. Funds previously allocated to these rewards will be fully redirected to building new Ports and expanding liquidity. Home Port SNDK rewards remain",
+    "More builders. More Stock Tokens. More liquidity to build. \ud83d\udea2 Robinhood Chain's ecosystem keeps expanding \u2014 and CANAL is digging its part. CANAL \u00d7 Stock Tokens = Stock Ports. Permanently locked LPs. Trading fee flow. Crew rewards. More Ports funded by existing Ports. We're building the liquidity laye",
+    "61 Ports. And counting. \ud83d\udea2 The new $NU Port is now live with its LP permanently locked. CANAL has now connected 61 Stock Ports across the network. One Port at a time. One island at a time. Keep digging.",
+    "Meet $NU. Nu Holdings, the parent company of Nubank, operates Latin America's leading digital banking platform, spanning digital accounts, credit cards, payments, lending, investments, and financial services for small businesses. From simplifying everyday banking to expanding financial access across",
+    "The next wave needs more than hype. It needs liquidity. \ud83d\udea2 CANAL is building the liquidity layer for Stock Tokens on Robinhood Chain. CANAL \u00d7 Stock Tokens = Ports. Permanently locked LPs. Fee flow for eligible Crew. More Ports. More stocks. More flow. Keep digging.",
+    "More than just tokenization. \ud83d\udea2 Each CANAL Stock Port pairs CANAL with a Stock Token, creating an onchain liquidity pool. Trading activity generates fees, supporting Crew rewards and further Port development under CANAL's protocol rules. Every stock is an island. CANAL connects them.",
+    "60 Ports. And counting. \ud83d\udea2 The new $BE Port is now live with its LP permanently locked. CANAL has now connected 60 Stock Ports across the network. One Port at a time. One island at a time. Keep digging.",
+    "Meet $BE. Bloom Energy is a leading power technology company specializing in solid oxide fuel cells, onsite electricity generation, microgrids, and AI data center power infrastructure. From supplying reliable electricity to AI data centers to helping enterprises overcome grid constraints, Bloom's mo",
+    "Apple's next big test is tonight. \ud83c\udf4e $AAPL reports earnings after the U.S. market close, with investors watching: \ud83d\udcf1 iPhone demand \ud83e\udd16 AI strategy \ud83d\udcbe Rising memory costs \ud83d\udcca Holiday-quarter outlook Interesting timing: AI-driven memory demand is booming, while higher chip costs could pressure device makers.",
+    "59 Ports. And counting. \ud83d\udea2 The new $DDOG Port is now live with its LP permanently locked. CANAL has now connected 59 Stock Ports across the network. One Port at a time. One island at a time. Keep digging.",
+    "Meet $DDOG. Datadog is a leading AI-powered observability and security platform spanning cloud infrastructure monitoring, application performance monitoring, log management, cloud security, and AI observability. From monitoring cloud infrastructure and troubleshooting applications to securing comple",
+    "Big Tech earnings. Four CANAL Stock Ports. \ud83d\udc40 Next week's Wall Street watch: \ud83c\udf4e Nov 2 \u2014 $AAPL \ud83d\ude80 Nov 3 \u2014 $AMD \ud83d\udecd\ufe0f Nov 3 \u2014 $SHOP \u26a1 Nov 4 \u2014 $QCOM All four already have Stock Ports on CANAL, built on Robinhood Chain. Different companies. Different earnings. Different market reactions. One canal connecting ",
+    "58 Ports. And counting. \ud83d\udea2 The new $LITE Port is now live with its LP permanently locked. CANAL has now connected 58 Stock Ports across the network. One Port at a time. One island at a time. Keep digging.",
+    "Meet $LITE. Lumentum is a global photonics leader spanning AI data center connectivity, optical networking, high-speed transceivers, advanced lasers, and telecom infrastructure. From optical components powering AI clusters to high-speed data transmission and optical circuit switching, Lumentum helps",
+    "",
+    "AI stocks got crushed Friday. \ud83d\udcc9 Nasdaq: -2.86% $SNDK: -13.5% (despite +378% YoY revenue) $AMD: -10.9% $NVDA: -4.2% All three have CANAL Ports on Robinhood Chain: \u2693 SNDK \u2014 Home Port \ud83d\udea2 AMD \u2014 Port #14 \ud83d\udea2 NVDA \u2014 Genesis Port Different stocks. Different moves. One canal. \ud83c\udf0a",
+    "57 Ports. And counting. \ud83d\udea2 The new $CVNA Port is now live with its LP permanently locked. CANAL has now connected 57 Stock Ports across the network. One Port at a time. One island at a time. Keep digging.",
+    "Meet $CVNA. Carvana is a leading online automotive retailer transforming how people buy and sell used cars, spanning e-commerce, vehicle financing, trade-ins, reconditioning, home delivery, and automated Car Vending Machines. From browsing and financing vehicles online to doorstep delivery and its i",
+    "$SNDK just delivered a monster quarter. \ud83d\udd25 FY27 Q1 results: \ud83d\udcc8 Revenue: $11.03B (+378% YoY) \ud83d\udcc8 Data center: $4.80B (+61% QoQ) \ud83d\udd25 8-for-1 stock split announced! And on Robinhood Chain, SNDK is more than just another Stock Token. It's CANAL's Home Port. \u2693 CANAL holders receive trading-fee rewards in SNDK.",
+    "Google Cloud +103%. $GOOGL -12%. \ud83d\udcc9 Explosive AI growth wasn't enough. Alphabet reported -$9.1B in Q3 free cash flow as AI spending surged. Meanwhile: \u2022 $MSFT Azure: +48% YoY \u2022 $AMZN reports after the U.S. close Three tech giants. Three CANAL Genesis Stock Ports on Robinhood Chain. Different earnings"
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "heyaskr": {
+   "handle": "heyaskr",
+   "found": true,
+   "id": "2084996307500838912",
+   "name": "askr",
+   "joined": "2026-08-05T13:35:09+00:00",
+   "followers": 1916,
+   "following": 13,
+   "posts": 275,
+   "verified": "individual",
+   "last_post": "2026-10-31T20:43:35+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 28.4,
+   "avg_views": 1488,
+   "bio_site": "http://heyaskr.ai",
+   "bio": "Ask anything, build together, share everything | $ASKR",
+   "cas": [
+    "0xa92768863a55d8a0591709f7f5e594a249d36ea3"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "askr, the underdogs of @RobinhoodCrypto. The road to v2 has been loud, long winded but somehow fast at the same time. One things for certain, no one is out building us. In v2... we grow. robinhood:0xa92768863a55d8a0591709f7f5e594a249d36ea3 grows.",
+    "askr 1.99... Everything plays. Our biggest update yet for media. All of it works in a chat with your friends. Hour-long podcasts where anyone or thing can be a host. Pictures that talk and sing. Songs that become music videos. Change, sharpen and smooth any clip. Next you'll be able to remake any vi",
+    "You can now use askr to create an AI version of your own voice... You can use it in videos, Chev can use it to call your clients, or anything else your collab can imagine. We've also made the video generation for robinhood:0xa92768863a55d8a0591709f7f5e594a249d36ea3 users much more dynamic. Louder, l",
+    "askr, now sharper. Chev and our crypto feature both got overhauled. v1.97 now live: https://heyaskr.ai/roadmap#shipped",
+    "Cyberpunk is playable in browser solo or with your friends in a collab. And some more just got added to https://heyaskr.ai/explore?shelf=games&from=web Here's the list: Cyberpunk 2077 Grand Theft Auto V (experimental edition) Black Ops Zombies Need for Speed: Underground 2 Need for Speed: Most Wante",
+    "@RobinhoodCrypto More AI.",
+    "Right the first time. Pay per usage is great, multiple AI models are great... but not when they make mistakes and can't communicate to eachother. We already have shared memory and fusion models, but now... it's right. robinhood:0xa92768863a55d8a0591709f7f5e594a249d36ea3 1.96 now live https://heyaskr",
+    "Your childhood is coming back bigger and better than before. Need for Speed Underground 2 now live on askr. Available for solo play, collabs and online multiplayer, all free in your own internet browser. Use AI together.",
+    "Link: > https://heyaskr.ai/explore?shelf=games&from=web Thank you to the AI builders who make this possible, askr can be your new home. Rebuild the classics, make new ones, or try something new and get paid from robinhood:0xa92768863a55d8a0591709f7f5e594a249d36ea3.",
+    "We asked 3 top AIs at once to see if universal high income is realistic after AGI... The verdict was \"don't count on it\" \ud83d\ude2c If you turn askr's performance to max, you can now also get the top AIs to work together for a definitive answer or workload shipped to the highest degree on any task. That's 1 ",
+    "Well... askr might not be the funniest AI platform, but we're safe. Safe from all of the current php era exploits and old rails being exposed by new AI. We're keeping an eye on everything regardless. More updates shortly, and yes our immediate goals are growth orientated.",
+    "Join us in https://heyaskr.ai/community!",
+    "askr... anywhere. Build apps, make games, scan coins, trade crypto and more all using askr without leaving your @telegram or @discord group! Next up, browser extensions and apps! https://heyaskr.ai/roadmap#shipped",
+    "Join us in https://heyaskr.ai/community, and have your say in what should be added next to askr!",
+    "askr Crypto, now live in public beta. Use AI to get alpha, to trade with, or to trade for you. robinhood:0xa92768863a55d8a0591709f7f5e594a249d36ea3 holders have 0 fees and get free scans too. https://heyaskr.ai/roadmap#shipped",
+    "Another week of buybacks and burns have also passed, track them in https://heyaskr.ai/token. Join us in https://heyaskr.ai/community, and have your say in what should be added next to askr Crypto!",
+    "AI has transformed gaming in the past month. We're building the new home for it: https://heyaskr.ai/explore?shelf=games&from=web Play, create or change any game in your AI group chats. Or... build directly from your own workspace and list on explore. Make money from your games, or list them for free",
+    "Join in! https://heyaskr.ai/community"
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "strattonmrkt": {
+   "handle": "strattonmrkt",
+   "found": true,
+   "id": "2094758092323926016",
+   "name": "Stratton",
+   "joined": "2026-09-01T12:26:10+00:00",
+   "followers": 3563,
+   "following": 3,
+   "posts": 66,
+   "verified": null,
+   "last_post": "2026-10-19T16:01:51+00:00",
+   "sample": 11,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 25.4,
+   "avg_views": 5541,
+   "bio_site": "http://stratton.market",
+   "bio": "The penny stock market, on-chain. Bootstrapped by @RobinhoodCrypto.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Voting for November\u2019s stock listings just got a whole lot easier. Before, you had to lock your $STRATTON until voting ended. Now? No more locking. Your token balance is your voting power, and your tokens stay in your wallet. You can also vote for up to 10 stocks and split your voting power however y",
+    "You pick what comes next on Stratton. Voting is now open for 42 NASDAQ and NYSE penny stocks, from names that keep coming up across r/pennystocks to tickers already on our radar. Lock your STRATTON, vote for the stocks you actually want to see listed, and get it all back once voting closes. Polls cl",
+    "Penny stocks onchain ? Sounds like future of finance to me\u2026",
+    "A few things we\u2019ve been working on in the background over the past few days. The launchpad is now significantly faster, with all 14 cards loading properly instead of only appearing as you scroll. We also tightened the trading flow with real slippage protection and transaction simulation before signi",
+    "A lot of people tuned into the @MCGlive Genuinely appreciate everyone who showed up, asked questions and has been following Stratton. Big thanks to the MCG team for having us on. We\u2019re just getting started. Give us a few weeks to get everything properly sorted in the background. We\u2019re heads down, sh",
+    "We\u2019ve spent the past few days working behind the scenes on Stratton\u2019s infrastructure. Following our latest smart contract security review, we\u2019ve already shipped a series of improvements across governance, deployment, liquidity and testing. The goal is simple: build the infrastructure for the next st",
+    "7/ There\u2019s still work ahead. We\u2019re continuing to address the remaining recommendations around authority rotation, asset validation, build reproducibility and documentation. We\u2019d rather be transparent about what\u2019s being improved than pretend the work is finished. That\u2019s how serious infrastructure get",
+    "8/ The direction hasn\u2019t changed. Real stocks. 1:1 onchain representation. Permissionless markets. Memecoin ecosystems built around financial assets. A protocol that becomes more robust, more transparent and more autonomous over time. The next version of Stratton is already being built.",
+    "We\u2019ve been looking closely at the current stock / meme platforms on Robinhood Chain. The conclusion is pretty simple: Stratton is building for a much bigger outcome than what exists today. Here\u2019s why:",
+    "6/ We don\u2019t need to beat the competition on every metric today. We need to build the infrastructure that makes those metrics inevitable tomorrow. More stocks. More markets. More liquidity. More integrations. More memes. More users. All feeding into the same ecosystem.",
+    "7/ The competitor has validated the category. We\u2019re here to expand it. Our ambition for Stratton isn\u2019t to become the #1 stock/meme launchpad on Robinhood Chain. It\u2019s to become the default onchain market layer for penny stocks and the ecosystems built around them."
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "goldengooserh": {
+   "handle": "GoldenGooseRH",
+   "found": true,
+   "id": "2093472697078448128",
+   "name": "Golden Goose",
+   "joined": "2026-08-28T22:56:55+00:00",
+   "followers": 2439,
+   "following": 6,
+   "posts": 501,
+   "verified": "individual",
+   "last_post": "2026-11-04T20:10:15+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 14,
+   "avg_likes": 25.4,
+   "avg_views": 713,
+   "bio_site": "https://goldengoose.meme",
+   "bio": "$GG paired with Gold (GG/GLD)\nCA: 0xcacb0e9caccee63ec4d82952e561a291c68bcb68\ntelegram: http://t.me/GoldenGooseRobinhood",
+   "cas": [
+    "0xcacb0e9caccee63ec4d82952e561a291c68bcb68"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "he who shits the gold makes the rules*",
+    "Day 6 of asking @PeterSchiff to follow me",
+    "Idk why but Golden Goose reminds me of useless, when useless dumped to $5/6m, everyone thought it was done for, but then @theunipcs sent out a long ass thesis on it, and sent it to $300m+ Anyway, comfy in gold.",
+    "Day 5 of asking @PeterSchiff to follow me",
+    "like it or hate it: the next explosive onchain melt-up will be led by Robinhood Chain this dip is your opportunity to load up on the Robinhood Chain projects before the next leg up across the eco",
+    "wen lambo",
+    "Day 4 of asking @PeterSchiff to follow me",
+    "Day 3 of asking @PeterSchiff to follow me",
+    "are you ready for moonvember on robinhood?",
+    "Day 2 of asking @PeterSchiff to follow me",
+    "who wants some g\ud83c\udf83ld for halloween?",
+    "Day 1 of asking @PeterSchiff to follow me",
+    "gg",
+    "bored sit",
+    "BREAKING: there's a golden goose on Robinhood",
+    "@MEADGod see you tomorrow!",
+    "please don't kill me",
+    "the golden goose that laid the golden eggs",
+    "the golden goose that laid the golden eggs"
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "winonrh": {
+   "handle": "winonrh",
+   "found": true,
+   "id": "2091152577459089408",
+   "name": "WIN",
+   "joined": "2026-08-22T13:18:19+00:00",
+   "followers": 20,
+   "following": 6,
+   "posts": 12,
+   "verified": null,
+   "last_post": "2026-08-22T22:46:53+00:00",
+   "sample": 6,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 15.3,
+   "avg_views": 378,
+   "bio_site": "http://winsomuch.xyz",
+   "bio": "Win again, again and again. Anyone sick of winning yet?",
+   "cas": [
+    "0x574ed43500379749ea053e14370ebc1d7bd2f147"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Charge: never sold. Sentence: keep winning.",
+    "Even the truck can\u2019t hold it all.",
+    "Migrated. Dex paid. The more you hold, the more you win. Buy $WIN, receive $DJT Anyone sick of winning yet?",
+    "Supply locked. Winning unlocked. https://robinhoodchain.blockscout.com/tx/0x3b45840332a4a7e173aeecec7a62687c156693672b2adfa5ee2b264b21be34d7 https://robinhoodchain.blockscout.com/tx/0xc74b99cdc9d8d2c71c165182da8245fca027b0c2e478a0bb224a6534ffab9bab",
+    "Winning takes no cover.",
+    "He promised we\u2019d get tired of winning. The more you hold, the more you win. Buy $WIN, receive $DJT. Simple. Sorry. We have to keep winning. CA: 0x574ed43500379749EA053e14370EBc1d7bd2F147"
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "convictionlock": {
+   "handle": "ConvictionLock",
+   "found": true,
+   "id": "2097999292602413056",
+   "name": "Conviction",
+   "joined": "2026-09-10T10:45:38+00:00",
+   "followers": 350,
+   "following": 8,
+   "posts": 95,
+   "verified": "individual",
+   "last_post": "2026-11-01T21:00:01+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 2,
+   "avg_likes": 13.8,
+   "avg_views": 673,
+   "bio_site": "http://conviction.locker",
+   "bio": "Everyone says they\u2019re holding, but how long are you willing to hold?\n\nNative token & LP locking, rewards, and onchain reputation for the Mosh eco on robinhood",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Wallet-only holder checks miss tokens locked in Conviction. We added a public API so apps can include those deposits in their checks. Your tokens stay in the vault. Integration guide: https://www.conviction.locker/docs/vault-holdings",
+    "Samson leaking alpha \ud83d\udc40",
+    "We've added flexible direct Lockdrops, claim deadlines with refunds for unclaimed tokens, wallet lookup for published allocations, and an Actions view to check matured principal and rewards. Plus searchable docs. Next up: more integrations. https://www.conviction.locker",
+    "we built Conviction so people can see who locked their tokens and for how long. for $CONV, we also wanted capital committed to the market. that's why we used @Moshdottrade bundles. @0xfabs on the model and where the capital and fees went.",
+    "Submitted our CoinGecko listing request for CONVICTION ($CONV) \ud83e\udd1d\ud83d\udd12 Request ID: CL2310260019 GeckoTerminal: https://www.geckoterminal.com/robinhood/pools/0xa33e788e0d59ca82d26f36b5e41e759392eabe644de20a4d8a3180c8cc7f6ffd",
+    "from cats to frogs \ud83d\udc38\ud83e\udd1d\ud83d\udd12 we're bringing locking to more Mosh communities. you can now lock your $BPEPE directly on the @BundlePepe website. It's super easy to integrate $CONV locks - just give us a shout. https://bundlepepe.lol/lock/",
+    "feed the cat \ud83d\ude3c\ud83e\udd1d\ud83d\udd12 we're slowly rolling out locking to external apps and testing as we go. you can now lock your $BBC directly on the @bigbundlecat website. https://bigbundlecat.fun/lock",
+    "We\u2019ve made Conviction easier to add to your app. Clone the GitHub starter or copy the React lock form and position list. Reuse your existing setup. It's never been easier to implement lock features to your app. We've also included a setup prompt for your coding agents: http://www.conviction.locker/d",
+    "FYI to all 'influencers' and 'KOLs': There will be NO $CONV spent on KOLs or marketing incentives. You are the very reason Conviction exists. If you want to get on board, we suggest you buy a bag and profit that way. Don't waste energy trying to convince us to hire you. CONV sits at a sub-100k circ ",
+    "Come join us and our fellow gigabrains from the @Moshdottrade ecosystem tomorrow at 1 PM EST / 5 PM UTC for Mosh Monday! Send us your questions, and we'll make sure they get answered. \ud83e\udd1d\ud83d\udd12",
+    "Set your reminders: https://x.com/i/spaces/1qKVmyXdqMnxB?s=20",
+    "We built 9 achievements into Conviction profiles, most with 3 levels to work through. First lock gets you started. Then it gets more interesting: - Many faiths: qualifying locks across 3 different tokens. Get to 10 for the top level. - Long haul: commit for 1, 2 or 4 years. - True believer tracks th",
+    "Your next community already holds another token. We built Lockdrops so projects can reach holders who have already committed funds on Conviction. You can see how much they've locked and how much time remains, then set the conditions for your campaign. For example, a Token B project can offer rewards",
+    "We\u2019ve also added 'Explore' to help you find communities for your Lockdrops and discover projects people are backing with locked tokens. See how much of each token\u2019s supply is held in Conviction locks and compare up to three communities. This helps you decide which projects to research before investi",
+    "New Feature: Lock Studio We made locks easier to set up: choose a token, amount and duration, then review the terms before signing. 'My Locks' now has a timeline for each lock, with previews for early exits/extensions, and other enhancements. https://www.conviction.locker/studio",
+    "Docs refresh We\u2019ve made it easier to build with Conviction and understand what happens to your tokens when you lock them. It is now super easy to integrate Conviction locks into your existing app: The docs now include working integration examples, interactive demos, and guides to rewards, early exit",
+    "The gates to launch Bundles are now open to everyone. Launching on @Moshdottrade is 0 $BUN And soon every project will lock their tokens on @ConvictionLock to reward their communities with custom campaigns and Lockdrops/airdrops. $CONV is native to Mosh and $BUN Congrats to our Mosh frens. Well done",
+    "Introducing Lockdrops Lockdrops let projects reward users based on their onchain commitment - who locked, how much they locked, and for how long. The important part is that existing Conviction locks are reusable. Projects don't need users to create a new lock for every campaign - they can build camp",
+    "Read the docs to learn more about Lockdrops: https://www.conviction.locker/docs/lockdrops"
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "surplusrh": {
+   "handle": "SurplusRH",
+   "found": true,
+   "id": "2106767818255704064",
+   "name": "Surplus",
+   "joined": "2026-10-04T15:26:48+00:00",
+   "followers": 1777,
+   "following": 79,
+   "posts": 426,
+   "verified": "individual",
+   "last_post": "2026-11-05T10:00:02+00:00",
+   "sample": 18,
+   "sample_full_week": true,
+   "posts_7d": 18,
+   "avg_likes": 22.0,
+   "avg_views": 821,
+   "bio_site": "http://surplusllm.com",
+   "bio": "Onchain inference on Robinhood Chain. One key, every model, paid in USDG.",
+   "cas": [
+    "0x33b1e02cffdf0ec4391d86a3503327539c5e99e0",
+    "0xe1838f0dff03a9327dea87b2a2285850791297ec"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "$4,573 of inference credit activated on Surplus across 56 activations. Stakers list unused CREDIT at a discount. Buyers pay below list price and settle directly on Robinhood Chain. One API key spends the credit. Usage is metered per request. No subscription. No monthly minimums. Agents and builders ",
+    "Stake robinhood:0xe1838f0dff03a9327dea87b2a2285850791297ec with zero lockup. Earn inference credits every hour. Here\u2019s how it works: > No lock period \u2014 stake and unstake freely > Stakers share 100 CREDIT every hour > Use the credits for inference, or sell them to buyers at a discount > Only stakers ",
+    "11.41% of $SURPLUS supply is now staked. 114.15M tokens locked +11.23M added since Nov 2 Stakers are positioning behind live inference demand instead of just holding. On-chain data: https://robinhoodchain.blockscout.com/address/0x33B1e02cfFDF0ec4391D86A3503327539C5e99E0",
+    "7.46 billion prompt tokens in. Only 71.7 million completion tokens out. That\u2019s a 99%+ context ratio. This isn\u2019t casual chat. This is agents and coding tools dumping massive context and getting short, precise outputs. When the vast majority of inference volume is prompt tokens, the use case is alread",
+    "The model leaderboard on Surplus just exposed how builders actually choose models. DeepSeek V4.1 Flash: 74.1% Gemini 4 Argon: 10.0% MiniMax M3.1 Flash: 4.9% GLM 5.3 Flash: 4.8% Kimi K3: 2.4% When agents and builders can freely switch, they optimize for cost-performance, not brand name. The race isn\u2019",
+    "7.53 billion tokens. 64,150 requests. 30 paying accounts. That\u2019s real, live inference volume running through Surplus right now \u2014 pulled straight from our gateway and Robinhood Chain. No inflated dashboards. No estimated numbers. If a source is down, the metric just shows a dash. Onchain inference is",
+    "Two sealed uncensored models on Surplus. Qwen 3.8 27B Uncensored. Gemma 4 26B Uncensored. Encrypted on your machine, opened only inside the enclave. Surplus just relays ciphertext. https://surplusllm.com/download",
+    "We're supporting @Enter_Elysium. Elysium mainnet goes live November 9. HYPE top-ups for Surplus inference follow once it's up. See you there. \ud83c\udf0a",
+    "Agents should be able to prove how they run, not just say it. @RaetoCC just opened Account History: public statements on ERC-8004 on Robinhood Chain showing what an agent spends, what it earns, and whether it pays its own way. We\u2019re talking with Raeto about bringing agents launched on Surplus on rec",
+    "Surplus: 16M \u2192 1B tokens/week in 2 weeks Surplus: 1B \u2192 4B tokens/week in 1 week 4 weeks live. 7.4B tokens total. #13 in Programming on @OpenRouter. One key, every model, settled in USDG on Robinhood Chain. Every number is public: https://surplusllm.com/analytics",
+    "Hello @minara",
+    "7.36B tokens through Surplus on @OpenRouter. More than double in 5 days. #13 in Programming #15 in General Chat #35 in Productivity 157 models, one key, settled in USDG on Robinhood Chain. https://openrouter.ai/apps/url/https%3A%2F%2Fsurplusllm.com%2F",
+    "What does free inference actually get a chCHOP holder? $0.25 a day comes out to roughly: ~600 messages on Claude Haiku 5.5 ~750 on DeepSeek V4.1 Flash ~2,800 on GLM 5.3 Flash That covers a daily research assistant, summarizing threads and docs, a coding helper, or running your own bot or agent on th",
+    "Partnership with @ChopLogsApp: chCHOP holders now get free AI inference on Surplus. Hold 1,000 chCHOP and you get $0.25 of inference every day on Claude Haiku 5.5, DeepSeek, GLM, Qwen, Gemini Flash and more. Nothing to claim or bridge. Sign in with the wallet that holds it, make an API key, and call",
+    "GSurplus 102.92M robinhood:0xe1838f0dff03a9327dea87b2a2285850791297ec staked. 10.29% of supply. +2.47M since we crossed 100M on Oct 30. Stakers share 100 CREDIT every hour, spent as free inference on every model.",
+    "Incident note, Nov 1\u20132 \ud83e\uddfe Our upstream provider credit ran low and most requests failed in two stretches (~6h overnight, ~7h on Nov 2). That\u2019s on us, and we only caught it from your reports. Fixed: credit topped up, and a drop like that now alerts us within minutes.",
+    "Agentic payments are already live, just not on card rails. On Surplus, an agent pays per call over x402 with no account, and every payment settles onchain, in USDG on Robinhood Chain. Verifiable intent: @routiqdex_ turns plain words into a trade the user reviews and signs, running on Surplus inferen",
+    "Welcome to the Surplus ecosystem, @routiqdex_ \ud83e\udd1d ROUTIQ\u2019s AI assistant now runs on Surplus inference. Type \u201cswap 100 USDC to ETH on Base\u201d and it turns plain words into a trade you review and sign. Every prompt goes through one Surplus key: every model, discounted, settled in USDG on Robinhood Chain. "
+   ],
+   "checked": "2026-11-05T10:00:36+00:00"
   }
  },
  "ids": {
@@ -3243,6 +3778,45 @@
   ],
   "1802124219586682881": [
    "PhoenixNewsIO"
+  ],
+  "2118028691922149376": [
+   "openusage_ai"
+  ],
+  "1364648235977990145": [
+   "rapidmlx"
+  ],
+  "295218901": [
+   "VitalikButerin"
+  ],
+  "2117034110044794880": [
+   "unsealnetwork"
+  ],
+  "2117761315909595136": [
+   "lutheosai"
+  ],
+  "2113638723275407360": [
+   "hookaggregator"
+  ],
+  "2097209986028052480": [
+   "canal_robinhood"
+  ],
+  "2084996307500838912": [
+   "heyaskr"
+  ],
+  "2094758092323926016": [
+   "strattonmrkt"
+  ],
+  "2093472697078448128": [
+   "GoldenGooseRH"
+  ],
+  "2091152577459089408": [
+   "winonrh"
+  ],
+  "2097999292602413056": [
+   "ConvictionLock"
+  ],
+  "2106767818255704064": [
+   "SurplusRH"
   ]
  },
  "past": {
@@ -3354,7 +3928,21 @@
   "bundlepepe": [],
   "tryonagi": [],
   "packedcc": [],
-  "phoenixnewsio": []
+  "phoenixnewsio": [],
+  "dispensatorhq": [],
+  "openusage_ai": [],
+  "rapidmlx": [],
+  "vitalikbuterin": [],
+  "unsealnetwork": [],
+  "lutheosai": [],
+  "hookaggregator": [],
+  "canal_robinhood": [],
+  "heyaskr": [],
+  "strattonmrkt": [],
+  "goldengooserh": [],
+  "winonrh": [],
+  "convictionlock": [],
+  "surplusrh": []
  },
  "history": {
   "barragetrade": {
@@ -4128,6 +4716,84 @@
     4455,
     817
    ]
+  },
+  "openusage_ai": {
+   "2026-11-05": [
+    0,
+    11
+   ]
+  },
+  "rapidmlx": {
+   "2026-11-05": [
+    2679,
+    149
+   ]
+  },
+  "vitalikbuterin": {
+   "2026-11-05": [
+    7929814,
+    22011
+   ]
+  },
+  "unsealnetwork": {
+   "2026-11-05": [
+    4,
+    20
+   ]
+  },
+  "lutheosai": {
+   "2026-11-05": [
+    48,
+    19
+   ]
+  },
+  "hookaggregator": {
+   "2026-11-05": [
+    71,
+    25
+   ]
+  },
+  "canal_robinhood": {
+   "2026-11-05": [
+    688,
+    375
+   ]
+  },
+  "heyaskr": {
+   "2026-11-05": [
+    1916,
+    275
+   ]
+  },
+  "strattonmrkt": {
+   "2026-11-05": [
+    3563,
+    66
+   ]
+  },
+  "goldengooserh": {
+   "2026-11-05": [
+    2439,
+    501
+   ]
+  },
+  "winonrh": {
+   "2026-11-05": [
+    20,
+    12
+   ]
+  },
+  "convictionlock": {
+   "2026-11-05": [
+    350,
+    95
+   ]
+  },
+  "surplusrh": {
+   "2026-11-05": [
+    1777,
+    426
+   ]
   }
  },
  "telegram": {
@@ -4186,6 +4852,14 @@
    "online": 3,
    "name": "gasrescue",
    "checked": "2026-11-05T02:16:34+00:00"
+  },
+  "phoenixnewsimportant": {
+   "found": true,
+   "members": 5113,
+   "kind": "subscribers",
+   "online": null,
+   "name": "PhoenixNewsImportant",
+   "checked": "2026-11-05T10:00:36+00:00"
   }
  },
  "tg_history": {
@@ -4215,6 +4889,9 @@
   },
   "gasrescue": {
    "2026-11-05": 20
+  },
+  "phoenixnewsimportant": {
+   "2026-11-05": 5113
   }
  },
  "gh": {
@@ -4562,6 +5239,31 @@
    "twitter": "superstables",
    "blog": "https://www.superstables.com",
    "checked": "2026-11-05T09:45:24+00:00"
+  },
+  "dispensatorhq": {
+   "twitter": null,
+   "blog": null,
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "robinebers": {
+   "twitter": null,
+   "blog": "https://itsbyrob.in/0nfaWk6",
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "raullenchai": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "vbuterin": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "unseal-network": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T10:00:36+00:00"
   }
  }
 }
