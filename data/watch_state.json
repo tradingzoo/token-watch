@@ -572,7 +572,13 @@
   "0xaaf5086f30523283adcab653da9442d5a6b4f47d": "2026-11-05T04:15:57+00:00",
   "0xc4362d6327b8c5fbb948b918ad29dac64008cb9e": "2026-11-05T04:15:57+00:00",
   "0x4e30413c04b41f672ae294e4adc93431e91d7886": "2026-11-05T04:15:57+00:00",
-  "0xd56c8690299a80b3ec853c14b6d9772a14d3fad5": "2026-11-05T04:15:57+00:00"
+  "0xd56c8690299a80b3ec853c14b6d9772a14d3fad5": "2026-11-05T04:15:57+00:00",
+  "0x5553c613404fd37bd6b1996ca0924632af58ad2d": "2026-11-05T04:30:28+00:00",
+  "0x31169de3c9b5fe7c5355465d6adecc9d30f98d21": "2026-11-05T04:30:28+00:00",
+  "0xbb1182e00b17d631186a487847707e450a6a8812": "2026-11-05T04:30:28+00:00",
+  "0x5fcb7dfe5760e05813fa7ccc685ed30042dd9885": "2026-11-05T04:30:28+00:00",
+  "0xe2141cc928b5fbf82f8ebb4307733e05928bd046": "2026-11-05T04:30:28+00:00",
+  "0xe27dbe394debd0eed3e71ff9cf1cbd232f108882": "2026-11-05T04:30:28+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -4507,9 +4513,73 @@
      "people": 19
     }
    }
+  },
+  "0x31169de3c9b5fe7c5355465d6adecc9d30f98d21": {
+   "address": "0x31169de3c9b5fe7c5355465d6adecc9d30f98d21",
+   "symbol": "APORIX",
+   "name": "Aporixa",
+   "description": "Aporixa studies how AI systems behave beyond their design. Its team tests models and agents in real use",
+   "website": "https://aporixa.org",
+   "twitter": "https://x.com/aporixa_",
+   "launched": "2026-11-05T04:30:10+00:00",
+   "mcap": 4414.7007088195,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T04:30:28+00:00",
+   "scored_at": "2026-11-05T04:30:28+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Aporixa/warden-bench",
+    "score": 25,
+    "raw_score": 25,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Maybe earns fees (hook) \u2014 guess from their text, needs a look (+10)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 94 of 144 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (aporixa.org/docs), docs (aporixa.org/llms-full.txt), docs (aporixa.org/llms.txt), website (aporixa.org))"
+     ],
+     "Real code": [
+      "\u274c 3 changes over 2 days (+0)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 4 days old, 1 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://aporixa.org/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "sources_read": [
+     "https://aporixa.org",
+     "https://aporixa.org/llms-full.txt",
+     "https://aporixa.org/llms.txt",
+     "https://aporixa.org/docs"
+    ],
+    "facts": {
+     "commits": 3,
+     "stars": 0,
+     "created": "2026-11-02",
+     "pushed": "2026-11-04",
+     "people": 1
+    }
+   }
   }
  },
- "checked_total": 562,
+ "checked_total": 568,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -4918,9 +4988,23 @@
    "ignored": [
     "ungap/url-search-params."
    ]
+  },
+  {
+   "when": "2026-11-05T04:30:28+00:00",
+   "address": "0x31169de3c9b5fe7c5355465d6adecc9d30f98d21",
+   "symbol": "APORIX",
+   "website": "https://aporixa.org",
+   "used": "Aporixa/warden-bench",
+   "ignored": [
+    "Aporixa"
+   ]
   }
  ],
  "symbol_counts": {
+  "APORIX": 1,
+  "inshallah": 2,
+  "MTRL": 1,
+  "DRKLAB": 1,
   "OPENRA": 1,
   "SNOP": 4,
   "EXPO": 1,
@@ -4949,30 +5033,24 @@
   "VLDR": 1,
   "MAHORA": 1,
   "METRION": 1,
+  "PONS": 1,
+  "WIF": 1,
+  "HARMONIC": 1,
+  "ORBIO": 1,
+  "CHARLIE": 1,
+  "MOTION": 1,
+  "ROBINCAT": 1,
+  "DARWIN": 1,
+  "HMM": 1,
+  "RAETO": 1,
   "ORIOT": 1,
   "PINOCOIN": 1,
   "DUCKTRUMP": 2,
-  "PONS": 1,
   "OAK": 1,
-  "WIF": 1,
-  "HARMONIC": 1,
-  "ORBIO": 1,
-  "CHARLIE": 1,
   "DELTA": 1,
   "ROBINHOOD": 1,
-  "DARWIN": 1,
-  "HMM": 1,
   "LOCK": 1,
-  "PONS": 1,
-  "OAK": 1,
-  "WIF": 1,
-  "ORBIO": 1,
-  "HARMONIC": 1,
-  "ROBINCAT": 1,
-  "CHARLIE": 1,
-  "DELTA": 1,
   "HYDX": 1,
-  "ROBINHOOD": 1,
   "VALSEQ": 1,
   "PIRATE": 1,
   "PIXERT": 1,
@@ -4989,8 +5067,6 @@
   "PP": 1,
   "CI": 2,
   "JDOG": 1,
-  "ROBINCAT": 1,
-  "HYDX": 1,
   "CIPHERMVP": 1,
   "66": 1,
   "BKTDSK": 1,
@@ -5009,8 +5085,6 @@
   "MOOVIT": 1,
   "SAFMON": 1,
   "TNESDK": 1,
-  "MOTION": 1,
-  "RAETO": 1,
   "300": 1,
   "MERY": 1,
   "Frogend": 1,
