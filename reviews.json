@@ -75,5 +75,21 @@
     "notes": [
       "Listing a project's real X and website on a token you launched costs nothing: it doesn't make the token theirs. Only an address posted by the project counts"
     ]
+  },
+  "0x781eba55966e0cac7e412359ffa152467ded43bd": {
+    "symbol": "byte",
+    "checked": "2026-11-05",
+    "notes": [
+      "Copy of the real $BYTE. @bytejury's X bio gives 0xa4e331ed89db2fae193c6c4216dd99aded105471 (launched 4 Nov 22:11 UTC, wallet 0x984d8b...). This one launched 5 Nov 03:56 UTC, about 6 hours later, from wallet 0x2e70e8... (which also launched Hunch and Conductor), with the same name, links and GitHub",
+      "Found by hand 5 Nov; the new copycat check now flags it automatically"
+    ]
+  },
+  "0xa4e331ed89db2fae193c6c4216dd99aded105471": {
+    "symbol": "byte",
+    "checked": "2026-11-05",
+    "notes": [
+      "The real $BYTE: the address is in @bytejury's X bio and in 42 of its recent posts. The scanner missed it at first because it had left Pons's newest list before a run saw it",
+      "@bytejury joined X on 3 Nov 2026 (36 followers on 5 Nov). Its website bytejury.xyz still says 'token address: coming soon'"
+    ]
   }
 }

@@ -40,6 +40,8 @@ The score answers **"is the code real, is it theirs, and does the token get anyt
 
 **Official X** (added 5 Nov): the official X is the one the project's **website** links, never just the one the token page lists (anyone can list a real project's X on a token, see FLOEM). It counts for the address check only if it posts this token's address in its bio or recent posts **and** the account is 30+ days old. A brand-new account posting it shows 🟡 and gets no points: when a company renames its X, anyone can take the old name (CUBE, 4 Nov: the dev then said the token was a scam).
 
+**Copycat token = score 0** (added 5 Nov, after $BYTE). Scammers relaunch a token under the same name and paste in the real project's website, GitHub and X, so everything looks right. The check: if the project's X (the one its website links, or the one the token links) posts a **different** address for a token with the same name or symbol on Pons, and never posts this one, the token is flagged "Copycat token" and scored 0. The scanner then checks the real one too, even if it has already left Pons's newest list. An address the X account itself calls fake is never treated as the real one. Tested 5 Nov on the 60 listed tokens: 13 copies found (8 NYMRA, plus KROMT, DARE, EXPO, SAIBOT92, BYTE), all checked against launch times and the X accounts.
+
 **Copy check, how it works:** it takes 3 distinctive lines from their biggest code files (skipping libraries, tests and auto-generated files) and searches all of GitHub for them.
 - ✅ = it found the repo itself and nobody else's older copy
 - ℹ️ "couldn't run yet" = GitHub's search hasn't indexed the repo (normal for repos under about a week old). It retries every 6 hours. This is **not** a pass.

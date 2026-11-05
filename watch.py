@@ -87,6 +87,24 @@ def pons_tokens(saved_file=None):
     if not s:
         log("Pons: could not load")
         return []
+    found = _pons_parse(s)
+    log(f"Pons: {len(found)} tokens on the newest page")
+    return list(found.values())
+
+
+PONS_ONE = {}  # address -> token facts from its own Pons page, this run only
+
+
+def pons_one(addr):
+    """One token's facts from its own Pons page (for tokens that are no longer on the newest page)."""
+    a = addr.lower()
+    if a not in PONS_ONE:
+        s = fetch(f"https://ponsfamily.com/launchpad/{a}")
+        PONS_ONE[a] = _pons_parse(s).get(a) if s else None
+    return PONS_ONE[a]
+
+
+def _pons_parse(s):
     s = s.replace('\\"', '"')
     dec = json.JSONDecoder()
     found = {}
@@ -105,8 +123,7 @@ def pons_tokens(saved_file=None):
             "twitter": soc.get("twitter"), "mcap": o.get("marketCapUsd"), "stage": o.get("stage"),
             "deployer": o.get("deployer"),
         }
-    log(f"Pons: {len(found)} tokens on the newest page")
-    return list(found.values())
+    return found
 
 
 def dex_tokens():
@@ -421,6 +438,33 @@ def official_x(tok, srcs):
             "young": young, "joined": joined, "mismatch": mismatch}
 
 
+COPYCAT = "Copycat token"
+
+
+def copycat(tok, ox):
+    """Same-name copy check (bytejury, 5 Nov): someone relaunches a token under the same name and links the
+    real project's website and X. If the project's X posts a DIFFERENT address for a token with the same
+    name or symbol, and doesn't post this one, this token is very likely the copy. Returns the real one or None."""
+    addr = tok["address"].lower()
+    handles = [h for h in (ox.get("official"), x_info.parse(tok.get("twitter"))[0]) if h]
+    for h in dict.fromkeys(x.lower() for x in handles):
+        acct = x_account(h)
+        cas = (acct or {}).get("cas") or []
+        if not acct or not acct.get("found") or addr in cas:
+            continue
+        warned = " ".join(acct.get("fake_posts") or []).lower()
+        for ca in [c for c in cas if c != addr and c not in warned][:4]:  # never call an address they warned about "real"
+            other = pons_one(ca)
+            if not other:
+                continue
+            same = [w for w, a, b in (("symbol", other.get("symbol"), tok.get("symbol")), ("name", other.get("name"), tok.get("name")))
+                    if a and b and a.strip().lower() == b.strip().lower()]
+            if same:
+                return {"real": ca, "handle": acct.get("handle") or h, "same": same, "launched": other.get("launched"),
+                        "mcap": other.get("mcap")}
+    return None
+
+
 # ---------- scoring (rules in SCORING.md) ----------
 EARN_WORDS = ["protocol fee", "swap fee", "trading fee", "fees", "launchpad", "lending", "borrow", "exchange", " dex",
               "perps", "perpetual", "options", "liquidity", "vault", "marketplace", "hook", "pay per", "payments"]
@@ -660,6 +704,12 @@ def score(tok, full, found_on, symbol_counts, review):
             f"🟡 Their X @{ox['official']} posts the address, but the account is brand new"
             + (f" (made {ox['joined']:%d %b %Y})" if ox["joined"] else "")
             + " — names can change hands, so it doesn't count (+0)")
+    cc = copycat(tok, ox)
+    if cc:
+        when = f", launched {iso(cc['launched']):%d %b %H:%M} UTC" if cc.get("launched") else ""
+        flags.append(f"{COPYCAT}: the project's X @{cc['handle']} posts a different address with the same "
+                     f"{' and '.join(cc['same'])}: {cc['real']}{when}. It never posts this one, so this is very likely "
+                     f"someone copying the name and links")
     if ox["mismatch"]:
         flags.append(f"{X_MISMATCH}: the token links @{ox['token']}, but its website links "
                      + ", ".join("@" + h for h in ox["site"]) + " — may be someone copying the project's links")
@@ -752,11 +802,13 @@ def score(tok, full, found_on, symbol_counts, review):
     not_theirs = [f for f in flags if " times on Pons" not in f and not f.startswith(X_MISMATCH)]
     capped = bool(flags)
     final = 0 if not_theirs else (min(total, 25) if capped else total)
-    if not_theirs:
+    if cc:
+        reasons.setdefault("Really theirs", []).insert(0, "⛔ Score set to 0: this token is a copy, the project's X posts a different address (see the warning above)")
+    elif not_theirs:
         reasons.setdefault("Really theirs", []).insert(0, "⛔ Score set to 0: this GitHub is not their own work (see the warning above)")
     return {"repo": full, "score": final, "raw_score": total, "capped": capped, "not_theirs": bool(not_theirs), "flags": flags,
             "reasons": reasons, "roadmap": roadmap_of(full, tree, tok.get("website")) + review.get("roadmap", []),
-            "notes": review.get("notes", []), "token_mentioned": token_mentioned,
+            "notes": review.get("notes", []), "token_mentioned": token_mentioned, "copy_of": cc["real"] if cc else None,
             "sources_read": [u for w, u, _ in srcs],
             "facts": {"commits": n_commits, "stars": repo.get("stargazers_count", 0), "created": repo["created_at"][:10],
                       "pushed": repo["pushed_at"][:10], "people": len(contribs)}}
@@ -926,7 +978,9 @@ def main():
             toks[key] = {k: g.get(k) for k in ("address", "symbol", "name", "description", "website", "twitter", "launched")}
             toks[key].update({"links": [], "source": "earlier"})
 
-    for key, t in toks.items():
+    queue = list(toks.items())
+    while queue:
+        key, t = queue.pop(0)
         g = state["github"].get(key)
         if key in state["seen"] and not g:
             continue  # already checked, no GitHub
@@ -974,6 +1028,13 @@ def main():
                                 "first_seen": (g or {}).get("first_seen", NOW.isoformat(timespec="seconds")),
                                 "scored_at": NOW.isoformat(timespec="seconds"), "found_on": found_on, "scoring": sc}
         log(f"  {'RESCORED' if g else 'NEW GITHUB'}: {t2.get('symbol')} -> {full} score {sc['score']}" + (" RED FLAG" if sc["flags"] else ""))
+        real = sc.get("copy_of")
+        if real and real not in toks:  # the project's real token: check it too
+            rt = pons_one(real)
+            if rt:
+                toks[real] = rt
+                queue.append((real, rt))
+                log(f"  COPYCAT: {t2.get('symbol')} {key} copies {real}, checking the real one too")
 
     os.makedirs(os.path.dirname(STATE), exist_ok=True)
     cutoff = (NOW - datetime.timedelta(days=30)).isoformat()
