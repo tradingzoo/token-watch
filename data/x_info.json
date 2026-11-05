@@ -1514,6 +1514,28 @@
    ],
    "fake_posts": [],
    "checked": "2026-11-05T05:30:27+00:00"
+  },
+  "varselio1980": {
+   "handle": "Varselio1980",
+   "found": true,
+   "id": "1801894543261851648",
+   "name": "Varselio",
+   "joined": "2024-06-15T08:28:42+00:00",
+   "followers": 32,
+   "following": 16,
+   "posts": 901,
+   "verified": "individual",
+   "last_post": "2026-11-05T05:21:16+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 1.6,
+   "avg_views": 77,
+   "bio_site": "https://varselio.se",
+   "bio": "Stop your AI chatbot from leaking customer data, issuing rogue refunds or getting tricked. Real-time protection for website bots and AI agents. Free to start \ud83d\udc47",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T05:45:23+00:00"
   }
  },
  "ids": {
@@ -1714,6 +1736,9 @@
   ],
   "2109307720155217920": [
    "motiongift"
+  ],
+  "1801894543261851648": [
+   "Varselio1980"
   ]
  },
  "past": {
@@ -1784,7 +1809,8 @@
   "skyflo_ai": [],
   "vesperailab": [],
   "darklabchat": [],
-  "motiongift": []
+  "motiongift": [],
+  "varselio1980": []
  },
  "history": {
   "barragetrade": {
@@ -2324,6 +2350,12 @@
     1096,
     161
    ]
+  },
+  "varselio1980": {
+   "2026-11-05": [
+    32,
+    901
+   ]
   }
  },
  "telegram": {
@@ -2668,6 +2700,11 @@
    "twitter": "skyflo_ai",
    "blog": "https://skyflo.ai",
    "checked": "2026-11-05T05:15:23+00:00"
+  },
+  "paritytech": {
+   "twitter": null,
+   "blog": "http://parity.io",
+   "checked": "2026-11-05T05:45:23+00:00"
   }
  }
 }

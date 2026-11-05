@@ -609,7 +609,16 @@
   "0xec80100469087d5036eafe2e6a67705251226006": "2026-11-05T05:30:27+00:00",
   "0x17255570e7fc2ec9a19746339224072f6829eddf": "2026-11-05T05:30:27+00:00",
   "0x60d8f015cbabe006cdfe6aa339a63a260963b764": "2026-11-05T05:30:27+00:00",
-  "0xabc48cf27c58127c6f845f634a66d3cebd4b4f12": "2026-11-05T05:30:27+00:00"
+  "0xabc48cf27c58127c6f845f634a66d3cebd4b4f12": "2026-11-05T05:30:27+00:00",
+  "0xe24c217ef5ea7721050a88864f4086ffb71f2cf8": "2026-11-05T05:45:23+00:00",
+  "0x55f9f963b348fdca9ba7c33f7148a91ccefd745c": "2026-11-05T05:45:23+00:00",
+  "0x068d4114c8f4def44cd324d41054f2eeffddc399": "2026-11-05T05:45:23+00:00",
+  "0xa90094cdc3a6ff13ac691a0fba09753219cf7ce6": "2026-11-05T05:45:23+00:00",
+  "0xbc4ecb8262fd3287188ed8f61f1fb25bafe8d5a6": "2026-11-05T05:45:23+00:00",
+  "0xa344fe55ed4f299f2beb29b8abd08f0211a6326b": "2026-11-05T05:45:23+00:00",
+  "0xbbecf4cb1206144e9f74c7d4df5339b7f126b2dd": "2026-11-05T05:45:23+00:00",
+  "0x125c203b21f88664809a7b5eea455eb755fbc0ff": "2026-11-05T05:45:23+00:00",
+  "0x9fa1c5e90a11294f83a9f135b81ad1b537a5ffdc": "2026-11-05T05:45:23+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -4738,9 +4747,79 @@
      "people": 13
     }
    }
+  },
+  "0xbc4ecb8262fd3287188ed8f61f1fb25bafe8d5a6": {
+   "address": "0xbc4ecb8262fd3287188ed8f61f1fb25bafe8d5a6",
+   "symbol": "PARITY",
+   "name": "Parity Technologies",
+   "description": "We're the Web3 innovators",
+   "website": "https://github.com/paritytech",
+   "twitter": null,
+   "launched": "2026-11-05T05:40:47+00:00",
+   "mcap": 5164.588835086597,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T05:45:23+00:00",
+   "scored_at": "2026-11-05T05:45:23+00:00",
+   "found_on": "token page",
+   "scoring": {
+    "repo": "paritytech/matrix-admin-bot",
+    "score": 50,
+    "raw_score": 50,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (fees, hook, marketplace, options) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (stake, staking) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (website links no X account to check) (+0)",
+      "\u274c Repo and website don't link to each other (+0)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (docs.github.com/llms.txt), docs (docs.polkadot.com/), docs (docs.polkadot.com/apps/), docs (docs.polkadot.com/reference/parachains/), docs (docs.polkadot.com/smart-contracts/get-started/), docs (github.com/docs), docs (github.com/llms-full.txt), docs (github.com/llms.txt), website (github.com/paritytech), website code (github.com/paritytech))"
+     ],
+     "Real code": [
+      "\u2705 226 changes over 1635 days (+10)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 4076 days old, 12 people, 5 stars, 2 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://github.com/paritytech",
+     "https://github.com/paritytech",
+     "https://github.com/llms-full.txt",
+     "https://github.com/llms.txt",
+     "https://docs.github.com/llms.txt",
+     "https://github.com/docs",
+     "https://docs.polkadot.com/",
+     "https://docs.polkadot.com/apps/",
+     "https://docs.polkadot.com/smart-contracts/get-started/",
+     "https://docs.polkadot.com/reference/parachains/"
+    ],
+    "facts": {
+     "commits": 226,
+     "stars": 5,
+     "created": "2022-05-07",
+     "pushed": "2026-11-05",
+     "people": 12
+    }
+   }
   }
  },
- "checked_total": 599,
+ "checked_total": 608,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -5169,9 +5248,27 @@
    "ignored": [
     "skyflo-ai"
    ]
+  },
+  {
+   "when": "2026-11-05T05:45:23+00:00",
+   "address": "0x068d4114c8f4def44cd324d41054f2eeffddc399",
+   "symbol": "CRDPAY",
+   "website": "https://cardipays.xyz",
+   "used": null,
+   "ignored": [
+    "aztomoon/crypto-cards-dataset"
+   ]
   }
  ],
  "symbol_counts": {
+  "ORI": 1,
+  "TH": 1,
+  "CRDPAY": 1,
+  "FTT": 1,
+  "PARITY": 1,
+  "CHAMPS": 1,
+  "TRIVVO": 2,
+  "VARSEL": 1,
   "AEQU": 1,
   "TEST2": 1,
   "SAFWTR": 1,
@@ -5190,7 +5287,6 @@
   "TAPDRP": 1,
   "SLING": 1,
   "SLOP": 1,
-  "TRIVVO": 1,
   "VESPERAI": 1,
   "\u062d\u0644\u0627\u0644": 5,
   "ORBITALS": 1,
@@ -5200,6 +5296,15 @@
   "OPSMAX": 1,
   "APORIX": 1,
   "inshallah": 2,
+  "OAK": 1,
+  "ROBINCAT": 1,
+  "PONS": 1,
+  "HARMONIC": 1,
+  "MOTION": 1,
+  "CHARLIE": 1,
+  "ROBINHOOD": 1,
+  "ZEAL": 1,
+  "ORBIO": 1,
   "MTRL": 1,
   "DRKLAB": 1,
   "OPENRA": 1,
@@ -5209,16 +5314,8 @@
   "BELL": 2,
   "hookscan": 2,
   "XENTH": 1,
-  "OAK": 1,
-  "PONS": 1,
   "UBIK": 1,
   "WIF": 1,
-  "HARMONIC": 1,
-  "CHARLIE": 1,
-  "ROBINCAT": 1,
-  "MOTION": 1,
-  "ORBIO": 1,
-  "ROBINHOOD": 1,
   "ASTER": 2,
   "VOTC": 1,
   "PERPSONS": 1,
@@ -6029,6 +6126,69 @@
      "winners_linked": []
     }
    }
+  },
+  "0x125c203b21f88664809a7b5eea455eb755fbc0ff": {
+   "address": "0x125c203b21f88664809a7b5eea455eb755fbc0ff",
+   "symbol": "VARSEL",
+   "name": "Varselio",
+   "description": "Varselio is a security layer for AI chatbots and agents. It checks each reply and action first so dangerous ones stop and risky ones wait.",
+   "website": "https://varselio.se",
+   "twitter": "https://x.com/Varselio1980",
+   "launched": "2026-11-05T05:35:25+00:00",
+   "mcap": 4003.3341834711377,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T05:45:23+00:00",
+   "scored_at": "2026-11-05T05:45:23+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 30,
+    "raw_score": 30,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token (+0)",
+      "\u274c No use of stock tokens or USDG (+0)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://varselio.se",
+     "https://varselio.se",
+     "https://varselio.se/llms.txt"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
   }
  },
  "site_checked": {
@@ -6063,6 +6223,11 @@
   "0x061732dc141e0a2d37f5fa91cf5343f24064e60f": "2026-11-05T05:17:44+00:00",
   "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3": "2026-11-05T05:17:44+00:00",
   "0x36738aa58a8ed2c1d606a0b98e66bdf489709bcd": "2026-11-05T05:30:27+00:00",
-  "0xec80100469087d5036eafe2e6a67705251226006": "2026-11-05T05:30:27+00:00"
+  "0xec80100469087d5036eafe2e6a67705251226006": "2026-11-05T05:30:27+00:00",
+  "0xe24c217ef5ea7721050a88864f4086ffb71f2cf8": "2026-11-05T05:45:23+00:00",
+  "0x55f9f963b348fdca9ba7c33f7148a91ccefd745c": "2026-11-05T05:45:23+00:00",
+  "0x068d4114c8f4def44cd324d41054f2eeffddc399": "2026-11-05T05:45:23+00:00",
+  "0xbbecf4cb1206144e9f74c7d4df5339b7f126b2dd": "2026-11-05T05:45:23+00:00",
+  "0x125c203b21f88664809a7b5eea455eb755fbc0ff": "2026-11-05T05:45:23+00:00"
  }
 }
