@@ -35,7 +35,7 @@ def _dex_batch(addrs, fetch_json):
 
 
 def update(state, fetch_json, market, now, log=print):
-    rows = state.get("github", {})
+    rows = {**state.get("github", {}), **state.get("sites", {})}  # GitHub tokens and site-check tokens
     db = json.load(open(FILE, encoding="utf-8")) if os.path.exists(FILE) else {}
     stamp = now.isoformat(timespec="seconds")
     got = _dex_batch(list(rows), fetch_json)

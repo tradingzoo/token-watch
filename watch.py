@@ -11,7 +11,7 @@ Hand-checked findings go in reviews.json and replace the script's guesses.
 """
 import json, os, re, subprocess, shutil, sys, time, datetime, html, urllib.request, urllib.parse
 from collections import Counter
-import x_info, deployers, test_tokens, prices, shipping
+import x_info, deployers, test_tokens, prices, shipping, sitecheck
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "data", "watch_state.json")
@@ -353,7 +353,8 @@ def project_sources(tok):
     if not site.startswith("http") or any(x in site for x in ("x.com/", "twitter.com/", "t.me/")):
         return out
     page, code = website_text(site)
-    out.append(("website", site, page + "\n" + code))
+    out.append(("website", site, page))
+    out.append(("website code", site, code))  # its script files: links and addresses often live here
     base = "{0.scheme}://{0.netloc}".format(urllib.parse.urlparse(site))
     host = domain(site)
     tries = [base + "/llms-full.txt", base + "/llms.txt", f"https://docs.{host}/llms-full.txt",
@@ -418,7 +419,7 @@ def x_account(handle):
 def official_x(tok, srcs):
     """The project's official X = the one their WEBSITE links (a token page can list anyone's X for free).
     Returns site handles, token's handle, official handle, whether it posted this token's address, and mismatch."""
-    site_text = " ".join(t for w, u, t in srcs if w == "website")
+    site_text = " ".join(t for w, u, t in srcs if w in ("website", "website code"))
     site = []
     for m in re.finditer(r"(?:x|twitter)\.com/([A-Za-z0-9_]{1,15})(?![A-Za-z0-9_/]*/status)", site_text):
         h = m.group(1)
@@ -865,18 +866,21 @@ if(top)top.append(' Times are in your time zone ('+Intl.DateTimeFormat().resolve
 def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=None, ship=None):
     pdb = pdb or {}
     rows = sorted(state["github"].values(), key=lambda r: r["first_seen"], reverse=True)
+    site_rows = sorted(state.get("sites", {}).values(), key=lambda r: (-r["scoring"]["score"], r["first_seen"]))
     xdb, wallets = xdb or {}, wallets or {}
     all_rows = all_rows or rows  # every token on the page, for the same-X checks
     e = html.escape
     def md(s):  # `code` only
         return re.sub(r"`([^`]+)`", r"<code>\1</code>", e(s))
-    cards = []
-    for r in rows:
+    cards, site_cards = [], []
+    for r in rows + site_rows:
         sc = r["scoring"]
+        is_site = sc.get("kind") == "site"
         new = days_between(NOW, iso(r["first_seen"])) < 1
         links = [(f"https://ponsfamily.com/launchpad/{r['address'].lower()}", "Pons"),
-                 (f"https://dexscreener.com/robinhood/{r['address']}", "DexScreener"),
-                 (f"https://github.com/{sc['repo']}", "GitHub")]
+                 (f"https://dexscreener.com/robinhood/{r['address']}", "DexScreener")]
+        if not is_site:
+            links.append((f"https://github.com/{sc['repo']}", "GitHub"))
         if r.get("website"):
             links.append((r["website"], "Website"))
         if r.get("twitter"):
@@ -892,7 +896,14 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         notes = ("<h4>Checked by hand</h4><ul>" + "".join(f"<li>{md(n)}</li>" for n in sc.get("notes", [])) + "</ul>") if sc.get("notes") else ""
         road = "<h4>Roadmap</h4><ul>" + "".join(f"<li>{md(x)}</li>" for x in sc.get("roadmap", [])) + "</ul>"
         band = "hi" if sc["score"] >= 60 else ("mid" if sc["score"] >= 40 else "lo")
-        cards.append(f"""
+        if is_site:
+            f = sc.get("facts", {})
+            meta = (f"Site check · {sc.get('tools', 0)} of 4 plug-in tools · {f.get('contract_addresses', 0)} contract addresses"
+                    f" · scored {r['scored_at'][:16].replace('T', ' ')} UTC")
+            meta_html = f"<p class=\"meta\">{e(meta)}</p>"
+        else:
+            meta_html = (f"""<p class="meta"><button class="wrong" data-msg="{e('Wrong repo? ' + (r.get('symbol') or '') + ' ' + r['address'] + ' was matched to github.com/' + sc['repo'] + '. The right one is: ')}">Wrong repo?</button> Repo {e(sc['repo'])} · {sc['facts'].get('commits','?')} changes · created {e(sc['facts'].get('created','?'))} · last update {e(sc['facts'].get('pushed','?'))} · scored {e(r['scored_at'][:16].replace('T',' '))} UTC</p>""")
+        (site_cards if is_site else cards).append(f"""
 <article class="card" data-score="{sc['score']}" data-new="{int(new)}">
   <header>
     <div class="score {band}">{sc['score']}<small>/100</small></div>
@@ -906,7 +917,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
   {flags}
   <p class="desc">{e((r.get('description') or '')[:260])}</p>
   <details{" open" if new else ""}><summary>Why this score</summary>{''.join(groups)}{notes}{road}
-  <p class="meta"><button class="wrong" data-msg="{e('Wrong repo? ' + (r.get('symbol') or '') + ' ' + r['address'] + ' was matched to github.com/' + sc['repo'] + '. The right one is: ')}">Wrong repo?</button> Repo {e(sc['repo'])} · {sc['facts'].get('commits','?')} changes · created {e(sc['facts'].get('created','?'))} · last update {e(sc['facts'].get('pushed','?'))} · scored {e(r['scored_at'][:16].replace('T',' '))} UTC</p></details>
+  {meta_html}</details>
 </article>""")
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="refresh" content="420"><title>GitHub Token Watch</title>
@@ -935,13 +946,18 @@ a{{color:var(--accent)}} .new{{font-size:11px;background:var(--accent);color:var
 ul{{margin:0;padding-left:20px}} button.wrong{{font-size:12px;border:1px solid var(--line);background:none;color:var(--mute);border-radius:6px;padding:1px 8px;cursor:pointer;margin-right:6px}} li{{margin:2px 0}} code{{font-size:13px}}
 </style></head><body><main>
 <h1>GitHub Token Watch</h1>
-<p class="top">New Robinhood Chain tokens (Pons + DexScreener) with a public GitHub. Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
+<p class="top">New Robinhood Chain tokens (Pons + DexScreener) with a public GitHub, plus <a href="#sites">tokens with no GitHub whose website passes the site check</a>. Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
 {shipping.alerts_html(ship, NOW) if ship else ''}
 {test_html}
 <h2 style="margin:22px 0 10px">New tokens with a public GitHub</h2>
 {prices.section(pdb, e)}
 <div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="60">60+</button><button data-f="flag">Red flags</button></div>
 {''.join(cards) if cards else '<p>No tokens with a public GitHub yet.</p>'}
+<h2 style="margin:28px 0 6px" id="sites">New tokens with no GitHub: site check</h2>
+<p class="top">Tokens whose website lets developers and AI agents plug in directly: at least {sitecheck.LIST_AT} of API key, SDK, MCP and llms.txt.
+Why: on 5 Nov, 32% of tokens worth $2M+ had 3 or more of these, against 2% of random tokens that went nowhere. Rules: SCORING.md.
+Prices are tracked so we can see whether this works.</p>
+{''.join(site_cards) if site_cards else '<p>No tokens have passed the site check yet.</p>'}
 {skipped_html(state)}
 </main><script>
 document.querySelectorAll('button.wrong').forEach(b=>b.onclick=()=>{{const m=b.dataset.msg;
@@ -954,6 +970,58 @@ c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))
 </script></body></html>"""
     os.makedirs(os.path.dirname(SITE), exist_ok=True)
     open(SITE, "w", encoding="utf-8").write(page)
+
+
+def site_pass(toks, state, reviews):
+    """Site check for tokens with no public GitHub (rules in SCORING.md, code in sitecheck.py)."""
+    sites = state.setdefault("sites", {})
+    looked = state.setdefault("site_checked", {})
+    for key, g in sites.items():  # keep re-scoring listed ones that have left the newest lists
+        if key not in toks:
+            toks[key] = {k: g.get(k) for k in ("address", "symbol", "name", "description", "website", "twitter", "launched")}
+            toks[key].update({"links": [], "source": "earlier"})
+    todo = []
+    for key, t in toks.items():
+        if key in state["github"] or reviews.get(key, {}).get("skip") or not sitecheck.has_site(t):
+            continue
+        g = sites.get(key)
+        if g:
+            if days_between(NOW, iso(g["scored_at"])) * 24 >= RESCORE_HOURS:
+                todo.append((key, t))
+            continue
+        last = looked.get(key)
+        if last:
+            launched = iso(t.get("launched"))
+            if days_between(NOW, iso(last)) * 24 < sitecheck.RECHECK_HOURS:
+                continue
+            if launched and days_between(NOW, launched) > sitecheck.NEW_DAYS:
+                continue
+        todo.append((key, t))
+    new = [x for x in todo if x[0] not in sites][:sitecheck.MAX_NEW_PER_RUN]
+    todo = [x for x in todo if x[0] in sites] + new
+    n_listed = 0
+    for key, t in todo:
+        looked[key] = NOW.isoformat(timespec="seconds")
+        mk = market(t["address"])
+        t2 = {**t, **{k: v for k, v in mk.items() if v and (k != "symbol" or not t.get("symbol"))}}
+        try:
+            sc = sitecheck.score(t2, reviews.get(key, {}), sys.modules[__name__])
+        except Exception as ex:
+            log(f"  {t2.get('symbol')}: site check failed ({ex})")
+            continue
+        g = sites.get(key)
+        if not sc or (not sc["listed"] and not g):
+            continue
+        sites[key] = {"address": t["address"], "symbol": t2.get("symbol"), "name": t2.get("name"),
+                      "description": t2.get("description"), "website": t2.get("website"), "twitter": t2.get("twitter"),
+                      "launched": t2.get("launched"), "mcap": mk.get("mcap") or t.get("mcap"), "where": mk.get("where") or t.get("stage"),
+                      "first_seen": (g or {}).get("first_seen", NOW.isoformat(timespec="seconds")),
+                      "scored_at": NOW.isoformat(timespec="seconds"), "found_on": "website", "scoring": sc}
+        n_listed += not g
+        log(f"  {'SITE RESCORED' if g else 'NEW SITE'}: {t2.get('symbol')} {t2.get('website')} score {sc['score']} ({sc['tools']} plug-in tools)")
+    cutoff = (NOW - datetime.timedelta(days=sitecheck.NEW_DAYS + 2)).isoformat()
+    state["site_checked"] = {k: v for k, v in looked.items() if v >= cutoff or k in sites}
+    log(f"Site check: {len(todo)} sites checked, {n_listed} newly listed, {len(sites)} listed in all")
 
 
 # ---------- main ----------
@@ -1036,11 +1104,14 @@ def main():
                 queue.append((real, rt))
                 log(f"  COPYCAT: {t2.get('symbol')} {key} copies {real}, checking the real one too")
 
+    site_pass(toks, state, reviews)
+
     os.makedirs(os.path.dirname(STATE), exist_ok=True)
     cutoff = (NOW - datetime.timedelta(days=30)).isoformat()
     state["skipped"] = [x for x in state["skipped"] if x["when"] >= cutoff]
     for key in [k for k, v in reviews.items() if v.get("skip")]:
         state["github"].pop(key, None)
+        state.get("sites", {}).pop(key, None)
     state["copy_cache"] = {k: list(v) for k, v in COPY_CACHE.items()}
     json.dump(state, open(STATE, "w", encoding="utf-8"), indent=1)
     # extras: X, Telegram, launch wallet, 30-day test section. Never stop the watch over these.
@@ -1049,7 +1120,7 @@ def main():
     except Exception as ex:
         log(f"Test tokens: skipped ({ex})")
         trows = []
-    allrows = list(state["github"].values()) + trows
+    allrows = list(state["github"].values()) + list(state.get("sites", {}).values()) + trows
     try:
         xdb = x_info.update(allrows, fetch_json, NOW, log, fetch=fetch, gh_user=lambda o: gh(f"users/{o}"))
     except Exception as ex:

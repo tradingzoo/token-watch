@@ -73,3 +73,35 @@ Each run checks every token on the site plus the 16 test tokens: the project's o
 | ⚪ GREY | No public code of their own to watch (no GitHub, a private one, or someone else's). Can still go AMBER/RED on website, X and market |
 
 The page's "Still shipping?" box lists a token only when its status changes. The first run (5 Nov) only saved starting points.
+
+## Site check: tokens with no GitHub (added 5 Nov)
+
+**Why.** The GitHub score skips every token without a public GitHub, so it missed winners like HOOKR and HARMONIC. On 5 Nov we compared 19 tokens worth $2M+ (with a website) against 65 random Pons tokens that went nowhere (under $20k, a week or more old). Winners' websites let developers and AI agents plug in directly:
+
+| On the site | Winners | Losers |
+|---|---|---|
+| 3+ of API key, SDK, MCP, llms.txt | 32% | 2% |
+| MCP for AI agents | 37% | 3% |
+| llms.txt | 37% | 5% |
+| Links other winners | 42% | 5% |
+| Says money goes back to the token | 79% | 28% |
+
+Caveat: these are today's websites, so a winner may have built its developer page after it ran. The price tracking on each card is there to test whether these signs show up early.
+
+**Who is listed.** A token with no GitHub whose own website (not an X, Telegram or news page) has **2 or more** of: API keys, an SDK or install line, MCP, llms.txt. New tokens are looked at when found and again once a day for 14 days; up to 40 new sites a run. Only what a visitor or agent can read counts (pages and docs, not script code: news sites' ad scripts mention "SDK" too).
+
+**Score /100.**
+
+| Part | What counts | Points |
+|---|---|---|
+| **Plug-in tools (45)** | API keys 10 · SDK or install line 10 · MCP 10 · llms.txt 10 · developer page (/developers, /docs, /build) or docs link 5 | 45 |
+| **Really theirs (25)** | Token's address on their website/docs, or posted by their official X (30+ days old) 15 · 2+ contract addresses listed 5 · works with past winners (Hookr, Orbio, Raeto, Priors, Harmonic, WTH, Fobo, Delta; not itself) 5 | 25 |
+| **Money and Robinhood Chain (20)** | Says money goes back to the token (buyback, burn, staking, revenue share), 🟡 claimed, not checked on chain 10 · uses stock tokens or USDG 10 | 20 |
+| **Live product (15)** | App, dashboard or wallet connect 5 · made for AI agents 5 · mentions an audit, 🟡 not checked 5 | 15 |
+
+Adds up to 105, so a few points can be missed and still score 100 (shown capped at 100).
+
+- **Copycat token = 0** (same rule as above).
+- **Other red flags** (X doesn't match the website, hand-check flags) cap at 25.
+- **Address not shown anywhere** (site, docs, recent X posts) caps at 60. Copies paste a real site's links, so an unclaimed token can't score top marks; not lower than 60 because real winners like ORBIO and HARMONIC don't post their address either.
+
