@@ -1,0 +1,17 @@
+symbol,group,address,why
+LMNI,watch,0x63b5C2B1eB93Ad62EA06560370f4f317eE1b97D3,Options exchange for stock tokens; earns fees when people trade; real code (lemniscatedev/lemniscate)
+OAK,watch,0x6511c233790Ec10f7d673c64DC82C3F941D57828,Connects AI agents to 26 Robinhood Chain projects; real code (OakAgentKit/oak); unclear if it earns fees
+BARRAGE,watch,0x2e4edef92d5cf2b2e08b18f240e896c71bfcac8c,Says it is a trading layer for Robinhood Chain; no code to check; on Pons launchpad
+FLOEM,watch,0x257bd594a54f04c3a5d77f87971233b13236c091,Launchpad + perps; says built in the open but GitHub (floemdotfun) has no public code; on Pons launchpad
+RULERS,watch,0x837ccf4a9f150458b624ccde0caad4b67e8bdd75,Launchpad (rulerspad.fun); the busier of two RULERS launches made by different wallets (other one 0x6f17ed4aafd7fde423873525726b0678aa8876d9); on Pons launchpad
+HOOKR,benchmark,0x18E674231A58c239Dc7DaeDcffE15Ec3A24cff5c,Platform for Uniswap v4 hooks that other tokens launch on; no GitHub but docs list contracts
+WTH,benchmark,0xb8Fa8010833463Aac5595b55B9045479239EfF79,Swap hook that captures arbitrage; GitHub is one README
+PRIORS,benchmark,0xeDBf91223639800BCd5756815CAf908Df3b890bE,Credit pool for AI agents; token used as collateral; real code (priors-agents/priors)
+FOBO,benchmark,0x000DE658153f47f23e92973C8EB1e89762703676,Launchpad where each token's floor price only rises; buyback and burn; real code (fobodotfun/contracts)
+RAETO,benchmark,0x72bE1277E198D0C476869253Cb4E62807e14533c,Tokenized stocks pay for AI usage; GitHub is a small plugin added after launch
+GF,faded,0xfed6b187f6da04e2eae5d3ea89b57129da62b28a,Peaked day 5 then fell 77%
+microduck,faded,0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725,Peaked day 6 then fell 87%
+ORBIO,faded,0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3,Peaked about day 14 (of our data) then fell 73%
+HARMONIC,faded,0xdee52f2ab639b6942b0d0f0565400b93b7a0fbe5,Peaked day 34 then fell 73%
+BOW,faded,0x451b42a15100c340ca12f7c66de06fac5ea2d751,Peaked day 29 then fell 68%
+WIF,faded,0x5173b8ea6923c2d40267890d45c46a3480954773,Peaked day 24 then fell 66%

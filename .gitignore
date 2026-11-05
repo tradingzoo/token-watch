@@ -1,0 +1,9 @@
+# kept in GitHub's run cache instead (67MB and growing; rebuilt from the chain if lost)
+data/pons_launches.csv
+data/pons_launches_meta.json
+# only for one run
+data/watch.lock
+data/*.tmp
+__pycache__/
+# the old local copy of the website repo (no longer needed once this folder is the repo)
+publish/

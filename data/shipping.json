@@ -1,0 +1,9463 @@
+{
+ "tokens": {
+  "0x938d767f1cd789850867a881fdf09631f2e43714": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3734,
+     "liq": 5592.07,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3734,
+     "liq": 5592.07,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3640,
+     "liq": 5525.46,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3640,
+     "liq": 5525.46,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3640,
+     "liq": 5525.46
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3640,
+     "liq": 5525.46
+    }
+   ],
+   "since": "2026-11-05T02:42:02+00:00",
+   "symbol": "CUBE",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x63b5c2b1eb93ad62ea06560370f4f317ee1b97d3": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-05T02:18:03Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 46112,
+     "liq": 20325.39,
+     "per_day": {
+      "2026-11-05": 6,
+      "2026-11-04": 77,
+      "2026-11-02": 2,
+      "2026-11-01": 7,
+      "2026-10-30": 8
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-05T02:18:03Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 45620,
+     "liq": 20216.62,
+     "per_day": {
+      "2026-11-05": 6,
+      "2026-11-04": 77,
+      "2026-11-02": 2,
+      "2026-11-01": 7,
+      "2026-10-30": 8
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-05T02:18:03Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 42791,
+     "liq": 19574.57,
+     "per_day": {
+      "2026-11-05": 6,
+      "2026-11-04": 77,
+      "2026-11-02": 2,
+      "2026-11-01": 7,
+      "2026-10-30": 8
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-05T02:18:03Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 42815,
+     "liq": 19578.02,
+     "per_day": {
+      "2026-11-05": 6,
+      "2026-11-04": 77,
+      "2026-11-02": 2,
+      "2026-11-01": 7,
+      "2026-10-30": 8
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-05T02:18:03Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 42868,
+     "liq": 19580.27,
+     "per_day": {
+      "2026-11-05": 6,
+      "2026-11-04": 77,
+      "2026-11-02": 2,
+      "2026-11-01": 7,
+      "2026-10-30": 8
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-05T02:18:03Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 42868,
+     "liq": 19580.27,
+     "per_day": {
+      "2026-11-05": 6,
+      "2026-11-04": 77,
+      "2026-11-02": 2,
+      "2026-11-01": 7,
+      "2026-10-30": 8
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "LMNI",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub release 0 hours ago (100+ changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x6511c233790ec10f7d673c64dc82c3f941d57828": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T20:33:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 765283,
+     "liq": 80044.51,
+     "per_day": {
+      "2026-11-04": 6,
+      "2026-11-03": 2,
+      "2026-11-02": 9,
+      "2026-11-01": 8,
+      "2026-10-31": 3,
+      "2026-10-30": 8,
+      "2026-10-29": 4
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T20:33:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 765283,
+     "liq": 80044.51,
+     "per_day": {
+      "2026-11-04": 6,
+      "2026-11-03": 2,
+      "2026-11-02": 9,
+      "2026-11-01": 8,
+      "2026-10-31": 3,
+      "2026-10-30": 8,
+      "2026-10-29": 4
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T20:33:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 788091,
+     "liq": 81207.81,
+     "per_day": {
+      "2026-11-04": 6,
+      "2026-11-03": 2,
+      "2026-11-02": 9,
+      "2026-11-01": 8,
+      "2026-10-31": 3,
+      "2026-10-30": 8,
+      "2026-10-29": 4
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T20:33:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 676579,
+     "liq": 75146.76,
+     "per_day": {
+      "2026-11-04": 6,
+      "2026-11-03": 2,
+      "2026-11-02": 9,
+      "2026-11-01": 8,
+      "2026-10-31": 3,
+      "2026-10-30": 8,
+      "2026-10-29": 4
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T20:33:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 728598,
+     "liq": 78033.55,
+     "per_day": {
+      "2026-11-04": 6,
+      "2026-11-03": 2,
+      "2026-11-02": 9,
+      "2026-11-01": 8,
+      "2026-10-31": 3,
+      "2026-10-30": 8,
+      "2026-10-29": 4
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T20:33:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 728598,
+     "liq": 78033.55,
+     "per_day": {
+      "2026-11-04": 6,
+      "2026-11-03": 2,
+      "2026-11-02": 9,
+      "2026-11-01": 8,
+      "2026-10-31": 3,
+      "2026-10-30": 8,
+      "2026-10-29": 4
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "OAK",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 6 hours ago (40 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xfc9eb397c4ed9321d7213484205ff3d4a27c21c0": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-01T11:32:04Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-01": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-01T11:32:04Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-01": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-01T11:32:04Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-01": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-01T11:32:04Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-01": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-01T11:32:04Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-01": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-01T11:32:04Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-01": 1
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "AGAV",
+   "status": "AMBER",
+   "reasons": [
+    "No real GitHub change or release for 4 days"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x9022ffd87c769ec5ef5afdb2b3dbc39409a4e7e0": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-08-07T03:35:11Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-08-07T03:35:11Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-08-07T03:35:11Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-08-07T03:35:11Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-08-07T03:35:11Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-08-07T03:35:11Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "TOKENHOT",
+   "status": "RED",
+   "reasons": [
+    "No real GitHub change or release for 90 days"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xb329d90aa612a122c2ab779e521e1092f4c15d9f": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "FLOEM",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xcce83a030692d89d66081fa8768346a5915878b0": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T00:17:01Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 3,
+      "2026-11-03": 1,
+      "2026-11-02": 6,
+      "2026-11-01": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T00:17:01Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 3,
+      "2026-11-03": 1,
+      "2026-11-02": 6,
+      "2026-11-01": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T00:17:01Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 3,
+      "2026-11-03": 1,
+      "2026-11-02": 6,
+      "2026-11-01": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T00:17:01Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 3,
+      "2026-11-03": 1,
+      "2026-11-02": 6,
+      "2026-11-01": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T00:17:01Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 3,
+      "2026-11-03": 1,
+      "2026-11-02": 6,
+      "2026-11-01": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T00:17:01Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 3,
+      "2026-11-03": 1,
+      "2026-11-02": 6,
+      "2026-11-01": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "BURSAR",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 26 hours ago (12 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x2785ecda3e8b4b920dc0aab6f287e421969a0233": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-10-30T20:47:46Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 2,
+      "2026-10-29": 4,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-10-30T20:47:46Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 2,
+      "2026-10-29": 4,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-10-30T20:47:46Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 2,
+      "2026-10-29": 4,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-10-30T20:47:46Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 2,
+      "2026-10-29": 4,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-10-30T20:47:46Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 2,
+      "2026-10-29": 4,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-10-30T20:47:46Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 2,
+      "2026-10-29": 4,
+      "2026-10-28": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "ATLASC",
+   "status": "AMBER",
+   "reasons": [
+    "No real GitHub change or release for 5 days"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T18:46:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3830220,
+     "liq": 178597.5,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T18:46:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3830220,
+     "liq": 178597.5,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T18:46:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3830220,
+     "liq": 178597.5,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T18:46:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3830220,
+     "liq": 178597.5,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T18:46:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3830220,
+     "liq": 178597.5,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T18:46:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 3830220,
+     "liq": 178597.5,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "GAGE",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 8 hours ago (1 change in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "HETAIROI",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x1abb9127a65047b75747c3500f6344069cfb179a": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "BUCKS",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x76b6cdb023ba935283547fe9c3addb305d6d48b0": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": false,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": false,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": false,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": false,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": false,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": false,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "Perpets",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x257bd594a54f04c3a5d77f87971233b13236c091": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "FLOEM",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xbf019e7f6eab2f04b374b6a98a482c50b157bd1b": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T20:34:44Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 17,
+      "2026-11-03": 42,
+      "2026-11-02": 36,
+      "2026-11-01": 5
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T20:34:44Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 17,
+      "2026-11-03": 42,
+      "2026-11-02": 36,
+      "2026-11-01": 5
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T20:34:44Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 17,
+      "2026-11-03": 42,
+      "2026-11-02": 36,
+      "2026-11-01": 5
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T20:34:44Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 17,
+      "2026-11-03": 42,
+      "2026-11-02": 36,
+      "2026-11-01": 5
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T20:34:44Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 17,
+      "2026-11-03": 42,
+      "2026-11-02": 36,
+      "2026-11-01": 5
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T20:34:44Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 17,
+      "2026-11-03": 42,
+      "2026-11-02": 36,
+      "2026-11-01": 5
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "XMTRX",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 6 hours ago (100+ changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xa4018d961759d729996f4db6d8eed7538091ecaa": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T15:29:25Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 40,
+      "2026-11-03": 24,
+      "2026-11-02": 36
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T15:29:25Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 40,
+      "2026-11-03": 24,
+      "2026-11-02": 36
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T15:29:25Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 40,
+      "2026-11-03": 24,
+      "2026-11-02": 36
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T15:29:25Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 40,
+      "2026-11-03": 24,
+      "2026-11-02": 36
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T15:29:25Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 40,
+      "2026-11-03": 24,
+      "2026-11-02": 36
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T15:29:25Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 40,
+      "2026-11-03": 24,
+      "2026-11-02": 36
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "ORDE",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub release 10 hours ago (100+ changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x6624dc7ea0d54c36ecab3956e5bac5b21b695189": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-03T13:59:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-03": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-03T13:59:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-03": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-03T13:59:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-03": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-03T13:59:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-03": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-03T13:59:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-03": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-03T13:59:49Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-03": 3
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "AVERL",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 2 days ago (3 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xa4d0d038c6998c43f672fbcd21324c4363a2371c": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-05T02:15:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-05": 2,
+      "2026-11-04": 2,
+      "2026-11-03": 60,
+      "2026-11-02": 5,
+      "2026-11-01": 6,
+      "2026-10-30": 24
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-05T02:15:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-05": 2,
+      "2026-11-04": 2,
+      "2026-11-03": 60,
+      "2026-11-02": 5,
+      "2026-11-01": 6,
+      "2026-10-30": 24
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-05T02:15:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-05": 2,
+      "2026-11-04": 2,
+      "2026-11-03": 60,
+      "2026-11-02": 5,
+      "2026-11-01": 6,
+      "2026-10-30": 24
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-05T02:15:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-05": 2,
+      "2026-11-04": 2,
+      "2026-11-03": 60,
+      "2026-11-02": 5,
+      "2026-11-01": 6,
+      "2026-10-30": 24
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-05T02:15:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-05": 2,
+      "2026-11-04": 2,
+      "2026-11-03": 60,
+      "2026-11-02": 5,
+      "2026-11-01": 6,
+      "2026-10-30": 24
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-05T02:15:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-05": 2,
+      "2026-11-04": 2,
+      "2026-11-03": 60,
+      "2026-11-02": 5,
+      "2026-11-01": 6,
+      "2026-10-30": 24
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "TELEPORT",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 0 hours ago (99+ changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xc23b07df578dff9abd904bb71026b59dd1234977": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "EDIT",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xc0df3a7a1bade5741a87b2f960ed9d5abb374589": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2025-05-26T16:18:00Z",
+     "site_up": true,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2025-05-26T16:18:00Z",
+     "site_up": true,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2025-05-26T16:18:00Z",
+     "site_up": true,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2025-05-26T16:18:00Z",
+     "site_up": true,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2025-05-26T16:18:00Z",
+     "site_up": true,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2025-05-26T16:18:00Z",
+     "site_up": true,
+     "per_day": {}
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "MAHA",
+   "status": "RED",
+   "reasons": [
+    "No real GitHub change or release for 527 days"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x8dfd6052c1f92b295092f813bcde9ab151d9c2d6": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "x_found": true,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "Kronos",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x5b62e88d43907f8b37c654c54ed943c0d9c61c7a": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-02T11:36:07Z",
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-02T11:36:07Z",
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-02T11:36:07Z",
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-02T11:36:07Z",
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-02T11:36:07Z",
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-02T11:36:07Z",
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 3
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "KROMT",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 3 days ago (3 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x7164b51079dbadc42bc2b8cc61aae3ccf8cfe600": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "x_found": true,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "Kronos",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x36b7b1d8541e98fd6abd74a76a77591105d96bfe": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "Perpets",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x2911657395c0357b082bb56a8c69ba896692df32": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "PKL",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x0647c5b90fe024219e97ef4c9743d278bc0d5729": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-09-07T20:27:18Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-09-07T20:27:18Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-09-07T20:27:18Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-09-07T20:27:18Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-09-07T20:27:18Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-09-07T20:27:18Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "CHARITY",
+   "status": "RED",
+   "reasons": [
+    "No real GitHub change or release for 58 days"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xa212b74c5132079d490edfa3b34e2fadf391b3da": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "NYMRA",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x3b2573d07d916869732cb75b1efd21f030d85774": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "DARE",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 11 hours ago (68 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xe79f8e006df605cdb5abc6f309420ec7262fda80": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T15:46:34Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "per_day": {
+      "2026-11-04": 20,
+      "2026-11-03": 48
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "DARE",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 11 hours ago (68 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xa4cb5143bf84d1876ee0cd048184e881f10c19f2": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "NYMRA",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x76b81f145b6a8b991cc8d637fefcaaa33db06825": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "NYMRA",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x8b752dbd6c3b7d8aaca365852000f2fc90d7f8a2": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "NYMRA",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x394b2e84879225b2695ff4e913b132068bba8e83": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "RACKS",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xb06dc5c98ed82b097aee8dd784e133829c3d87a9": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "NYMRA",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x6a6dbb62ce42f62dc0ce88d863653ae52f3f368a": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "NYMRA",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xc00d791e9aa8722d8f3759e294df954312333dd5": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-10-23T18:44:41Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "CUBE",
+   "status": "RED",
+   "reasons": [
+    "No real GitHub change or release for 9 days"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x021a2fefffba9371a2c48e5f141cb6c3209f0ef4": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "NYMRA",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xbbeaa14bae9ba62782579e8642a7b435bbcfb697": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-02T20:45:43Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-02": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "NYMRA",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 2 days ago (2 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xc8792fc24537fb04fcc1751f84ec7713da5af64a": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T22:24:57Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 9,
+      "2026-11-03": 25,
+      "2026-11-02": 18,
+      "2026-11-01": 5,
+      "2026-10-29": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T22:24:57Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 9,
+      "2026-11-03": 25,
+      "2026-11-02": 18,
+      "2026-11-01": 5,
+      "2026-10-29": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T22:24:57Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 9,
+      "2026-11-03": 25,
+      "2026-11-02": 18,
+      "2026-11-01": 5,
+      "2026-10-29": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T22:24:57Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 9,
+      "2026-11-03": 25,
+      "2026-11-02": 18,
+      "2026-11-01": 5,
+      "2026-10-29": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T22:24:57Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 9,
+      "2026-11-03": 25,
+      "2026-11-02": 18,
+      "2026-11-01": 5,
+      "2026-10-29": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T22:24:57Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 9,
+      "2026-11-03": 25,
+      "2026-11-02": 18,
+      "2026-11-01": 5,
+      "2026-10-29": 1
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "SEO",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 4 hours ago (58 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xd3c2fb87aff9c2d8ecfadf729b678ca09608985d": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T18:16:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 4,
+      "2026-11-03": 5,
+      "2026-10-31": 1,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T18:16:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 4,
+      "2026-11-03": 5,
+      "2026-10-31": 1,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T18:16:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 4,
+      "2026-11-03": 5,
+      "2026-10-31": 1,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T18:16:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 4,
+      "2026-11-03": 5,
+      "2026-10-31": 1,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T18:16:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 4,
+      "2026-11-03": 5,
+      "2026-10-31": 1,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T18:16:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 4,
+      "2026-11-03": 5,
+      "2026-10-31": 1,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "CBROWS",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub release 8 hours ago (12 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xfda9bc015489078e6c307ea372a06eaf2212b98e": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-10-07T17:42:27Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-10-07T17:42:27Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-10-07T17:42:27Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-10-07T17:42:27Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-10-07T17:42:27Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-10-07T17:42:27Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "DESICT",
+   "status": "RED",
+   "reasons": [
+    "No real GitHub change or release for 28 days"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x618520cc4638adc9e4d5b70aa9499f20b0f06988": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-10-30T03:00:00Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-10-30T03:00:00Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-10-30T03:00:00Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-10-30T03:00:00Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-10-30T03:00:00Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 3
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-10-30T03:00:00Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-10-30": 3
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "TNESDK",
+   "status": "AMBER",
+   "reasons": [
+    "No real GitHub change or release for 6 days"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xfda4717fff9c4c553f8cd48d3d2e31f7d0dc19f3": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-05T02:15:30Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 15,
+      "2026-11-04": 66,
+      "2026-11-03": 21,
+      "2026-11-01": 3,
+      "2026-10-28": 1,
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-05T02:15:30Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 15,
+      "2026-11-04": 66,
+      "2026-11-03": 21,
+      "2026-11-01": 3,
+      "2026-10-28": 1,
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-05T02:24:58Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 17,
+      "2026-11-04": 66,
+      "2026-11-03": 19,
+      "2026-11-01": 3,
+      "2026-10-28": 1,
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-05T02:24:58Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 17,
+      "2026-11-04": 66,
+      "2026-11-03": 19,
+      "2026-11-01": 3,
+      "2026-10-28": 1,
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-05T02:41:17Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 18,
+      "2026-11-04": 66,
+      "2026-11-03": 18,
+      "2026-11-01": 3,
+      "2026-10-28": 1,
+      "2026-11-02": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-05T02:41:17Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 18,
+      "2026-11-04": 66,
+      "2026-11-03": 18,
+      "2026-11-01": 3,
+      "2026-10-28": 1,
+      "2026-11-02": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "AIDEVO",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change -0 hours ago (108+ changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xbfbcd3fc84d6b7d1c347dd3fef53804152febf19": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T09:15:29Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 12
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T09:15:29Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 12
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T09:15:29Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 12
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T09:15:29Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 12
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T09:15:29Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 12
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T09:15:29Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 12
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "GASRES",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub release 17 hours ago (14 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x74a2c11e3ae9fed3c9d946517416335580f8a29e": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T09:38:59Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T09:38:59Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T09:38:59Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T09:38:59Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T09:38:59Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T09:38:59Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "windowlit",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 17 hours ago (1 change in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xa577af6c0861c0add0bd8e72e634cd76a8a4265e": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T07:25:10Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 2,
+      "2026-11-02": 2,
+      "2026-11-01": 2,
+      "2026-10-31": 11,
+      "2026-10-30": 2,
+      "2026-10-29": 2,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T07:25:10Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 2,
+      "2026-11-02": 2,
+      "2026-11-01": 2,
+      "2026-10-31": 11,
+      "2026-10-30": 2,
+      "2026-10-29": 2,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T07:25:10Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 2,
+      "2026-11-02": 2,
+      "2026-11-01": 2,
+      "2026-10-31": 11,
+      "2026-10-30": 2,
+      "2026-10-29": 2,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T07:25:10Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 2,
+      "2026-11-02": 2,
+      "2026-11-01": 2,
+      "2026-10-31": 11,
+      "2026-10-30": 2,
+      "2026-10-29": 2,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T07:25:10Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 2,
+      "2026-11-02": 2,
+      "2026-11-01": 2,
+      "2026-10-31": 11,
+      "2026-10-30": 2,
+      "2026-10-29": 2,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T07:25:10Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-11-03": 2,
+      "2026-11-02": 2,
+      "2026-11-01": 2,
+      "2026-10-31": 11,
+      "2026-10-30": 2,
+      "2026-10-29": 2,
+      "2026-10-28": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "OPENRO",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 19 hours ago (25 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x7673a00106c99d1e00b85496f9f495076873b654": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T22:14:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T22:14:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T22:14:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T22:14:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T22:14:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T22:14:55Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 1
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "SAIBOT92",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 4 hours ago (1 change in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xa3860b6c4f62b88faa4ba3c2fcb3759605e25526": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-04T22:40:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 27,
+      "2026-11-03": 11,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-04T22:40:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 27,
+      "2026-11-03": 11,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-04T22:40:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 27,
+      "2026-11-03": 11,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T22:40:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 27,
+      "2026-11-03": 11,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T22:40:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 27,
+      "2026-11-03": 11,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-04T22:40:56Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 27,
+      "2026-11-03": 11,
+      "2026-10-28": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "CRW",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub release 4 hours ago (40 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x7cd7073a71eaf5f6e4febfa98460ee66cd97deb1": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-10-20T05:32:48Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1438811,
+     "liq": 109490.12,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-10-20T05:32:48Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1438811,
+     "liq": 109490.12,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-10-20T05:32:48Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1438811,
+     "liq": 109490.12,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-10-20T05:32:48Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1436929,
+     "liq": 109377.51,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-10-20T05:32:48Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1436929,
+     "liq": 109377.51,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-10-20T05:32:48Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1436929,
+     "liq": 109377.51,
+     "per_day": {}
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "BISCOTTI",
+   "status": "RED",
+   "reasons": [
+    "No real GitHub change or release for 16 days"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x736be283c9e85a9ed3fb65dfe984ca118f45c80d": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-05T02:21:14Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 6,
+      "2026-11-04": 81,
+      "2026-11-03": 57
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-05T02:21:14Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 6,
+      "2026-11-04": 81,
+      "2026-11-03": 57
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-05T02:21:14Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 6,
+      "2026-11-04": 81,
+      "2026-11-03": 57
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-05T02:39:04Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 9,
+      "2026-11-04": 81,
+      "2026-11-03": 54
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-05T02:39:04Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 9,
+      "2026-11-04": 81,
+      "2026-11-03": 54
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-05T02:39:04Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-05": 9,
+      "2026-11-04": 81,
+      "2026-11-03": 54
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "OMHER",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change -0 hours ago (144+ changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x2e4edef92d5cf2b2e08b18f240e896c71bfcac8c": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "BARRAGE",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x837ccf4a9f150458b624ccde0caad4b67e8bdd75": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": false,
+     "x_found": false,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": false,
+     "x_found": false,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": false,
+     "x_found": false,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": false,
+     "x_found": false,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": false,
+     "x_found": false,
+     "bio_ca": false
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": false,
+     "x_found": false,
+     "bio_ca": false
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "RULERS",
+   "status": "AMBER",
+   "reasons": [
+    "Website didn't load on the latest check (https://rulerspad.fun)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x18e674231a58c239dc7daedcffe15ec3a24cff5c": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 20884260,
+     "liq": 1122054.13
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 20881970,
+     "liq": 1121992.12
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 20961262,
+     "liq": 1124302.37
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 20913758,
+     "liq": 1121743.66
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 20913758,
+     "liq": 1121743.66
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 20990774,
+     "liq": 1124966.43
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "HOOKR",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xb8fa8010833463aac5595b55b9045479239eff79": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6611268,
+     "liq": 826387.96
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6611268,
+     "liq": 826387.96
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6611268,
+     "liq": 826387.96
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6611268,
+     "liq": 826387.96
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6611268,
+     "liq": 826387.96
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6611268,
+     "liq": 826387.96
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "WTH",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xedbf91223639800bcd5756815caf908df3b890be": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-11-05T01:37:24Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 12440747,
+     "liq": 1323490.76,
+     "per_day": {
+      "2026-11-05": 1,
+      "2026-11-04": 9,
+      "2026-11-03": 8,
+      "2026-11-02": 5,
+      "2026-11-01": 4,
+      "2026-10-31": 4,
+      "2026-10-30": 10,
+      "2026-10-29": 12,
+      "2026-10-28": 8
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-11-05T01:37:24Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 12440747,
+     "liq": 1323490.76,
+     "per_day": {
+      "2026-11-05": 1,
+      "2026-11-04": 9,
+      "2026-11-03": 8,
+      "2026-11-02": 5,
+      "2026-11-01": 4,
+      "2026-10-31": 4,
+      "2026-10-30": 10,
+      "2026-10-29": 12,
+      "2026-10-28": 8
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-11-05T01:37:24Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 12318468,
+     "liq": 1311887.92,
+     "per_day": {
+      "2026-11-05": 1,
+      "2026-11-04": 9,
+      "2026-11-03": 8,
+      "2026-11-02": 5,
+      "2026-11-01": 4,
+      "2026-10-31": 4,
+      "2026-10-30": 10,
+      "2026-10-29": 12,
+      "2026-10-28": 8
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-05T01:37:24Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 12242856,
+     "liq": 1304709.68,
+     "per_day": {
+      "2026-11-05": 1,
+      "2026-11-04": 9,
+      "2026-11-03": 8,
+      "2026-11-02": 5,
+      "2026-11-01": 4,
+      "2026-10-31": 4,
+      "2026-10-30": 10,
+      "2026-10-29": 12,
+      "2026-10-28": 8
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-05T01:37:24Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 12236505,
+     "liq": 1304106.56,
+     "per_day": {
+      "2026-11-05": 1,
+      "2026-11-04": 9,
+      "2026-11-03": 8,
+      "2026-11-02": 5,
+      "2026-11-01": 4,
+      "2026-10-31": 4,
+      "2026-10-30": 10,
+      "2026-10-29": 12,
+      "2026-10-28": 8
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-11-05T01:37:24Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 12236505,
+     "liq": 1304106.56,
+     "per_day": {
+      "2026-11-05": 1,
+      "2026-11-04": 9,
+      "2026-11-03": 8,
+      "2026-11-02": 5,
+      "2026-11-01": 4,
+      "2026-10-31": 4,
+      "2026-10-30": 10,
+      "2026-10-29": 12,
+      "2026-10-28": 8
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "PRIORS",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 1 hours ago (61 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x000de658153f47f23e92973c8eb1e89762703676": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "last_commit": "2026-10-31T17:04:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 2953298,
+     "liq": 2062104.57,
+     "per_day": {
+      "2026-10-31": 7,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "last_commit": "2026-10-31T17:04:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 2846223,
+     "liq": 1990029.83,
+     "per_day": {
+      "2026-10-31": 7,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "last_commit": "2026-10-31T17:04:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 2846223,
+     "liq": 1990029.83,
+     "per_day": {
+      "2026-10-31": 7,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-10-31T17:04:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 2803804,
+     "liq": 1961319.09,
+     "per_day": {
+      "2026-10-31": 7,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-10-31T17:04:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 2803804,
+     "liq": 1961319.09,
+     "per_day": {
+      "2026-10-31": 7,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "last_commit": "2026-10-31T17:04:37Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 2803804,
+     "liq": 1961319.09,
+     "per_day": {
+      "2026-10-31": 7,
+      "2026-10-29": 1,
+      "2026-10-28": 1
+     }
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "FOBO",
+   "status": "AMBER",
+   "reasons": [
+    "No real GitHub change or release for 4 days"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x72be1277e198d0c476869253cb4e62807e14533c": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2674278,
+     "liq": 155563.85
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2674278,
+     "liq": 155563.85
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2674278,
+     "liq": 155563.85
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2674278,
+     "liq": 155563.85
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2673631,
+     "liq": 155361.62
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2673631,
+     "liq": 155361.62
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "RAETO",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xfed6b187f6da04e2eae5d3ea89b57129da62b28a": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 3011510,
+     "liq": 147268.32
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 3011510,
+     "liq": 147268.32
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 3011510,
+     "liq": 147268.32
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 3011510,
+     "liq": 147268.32
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 3011510,
+     "liq": 147268.32
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": true,
+     "mcap": 3011510,
+     "liq": 147268.32
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "GF",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6286713,
+     "liq": 206386.15
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6298230,
+     "liq": 206766.25
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6298230,
+     "liq": 206766.25
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6298230,
+     "liq": 206766.25
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6298230,
+     "liq": 206766.25
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 6298230,
+     "liq": 206766.25
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "microduck",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 30669568,
+     "liq": 707286.69
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 30669568,
+     "liq": 707286.69
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 30494135,
+     "liq": 703943.95
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 30726522,
+     "liq": 708468.49
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 30726317,
+     "liq": 708464.61
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 30484804,
+     "liq": 703865.71
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "ORBIO",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xdee52f2ab639b6942b0d0f0565400b93b7a0fbe5": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2196957,
+     "liq": 142759.04
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2196957,
+     "liq": 142759.04
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2194225,
+     "liq": 142576.04
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2193912,
+     "liq": 142566.05
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2193912,
+     "liq": 142566.05
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 2193912,
+     "liq": 142566.05
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "HARMONIC",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x451b42a15100c340ca12f7c66de06fac5ea2d751": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 4145222,
+     "liq": 168287.16
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 4145222,
+     "liq": 168287.16
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 4145222,
+     "liq": 168287.16
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 4131540,
+     "liq": 168008.5
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 4131540,
+     "liq": 168008.5
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 4131540,
+     "liq": 168008.5
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "BOW",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0x5173b8ea6923c2d40267890d45c46a3480954773": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:16:34+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1604916,
+     "liq": 115583.98
+    },
+    {
+     "t": "2026-11-05T02:23:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1603153,
+     "liq": 115520.5
+    },
+    {
+     "t": "2026-11-05T02:30:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1605288,
+     "liq": 115614.52
+    },
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1601893,
+     "liq": 115434.65
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1600861,
+     "liq": 115397.45
+    },
+    {
+     "t": "2026-11-05T02:24:43+00:00",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "mcap": 1602002,
+     "liq": 115482.35
+    }
+   ],
+   "since": "2026-11-05T02:16:34+00:00",
+   "symbol": "WIF",
+   "status": "GREY",
+   "reasons": [
+    "No public code of their own to watch"
+   ],
+   "checked": "2026-11-05T02:24:43+00:00"
+  },
+  "0xd382e35cda672a96cc28137127c279e032783802": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-08-21T12:32:29Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-08-21T12:32:29Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {}
+    }
+   ],
+   "since": "2026-11-05T02:37:46+00:00",
+   "symbol": "HOLAOS",
+   "status": "RED",
+   "reasons": [
+    "No real GitHub change or release for 74 days"
+   ],
+   "checked": "2026-11-05T02:42:02+00:00"
+  },
+  "0x4ed418d5e58358906d4b7e255f320521c6d14007": {
+   "runs": [
+    {
+     "t": "2026-11-05T02:37:46+00:00",
+     "last_commit": "2026-11-04T09:11:51Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-10-30": 3,
+      "2026-10-29": 17,
+      "2026-10-28": 2
+     }
+    },
+    {
+     "t": "2026-11-05T02:42:02+00:00",
+     "last_commit": "2026-11-04T09:11:51Z",
+     "site_up": true,
+     "x_found": true,
+     "bio_ca": false,
+     "per_day": {
+      "2026-11-04": 2,
+      "2026-10-30": 3,
+      "2026-10-29": 17,
+      "2026-10-28": 2
+     }
+    }
+   ],
+   "since": "2026-11-05T02:37:46+00:00",
+   "symbol": "EGOLIT",
+   "status": "GREEN",
+   "reasons": [
+    "Last real GitHub change 18 hours ago (24 changes in the last 7 days)"
+   ],
+   "checked": "2026-11-05T02:42:02+00:00"
+  }
+ },
+ "repo_cache": {
+  "collabs-inc/cube-releases": {
+   "pushed_at": "2026-11-04T19:45:48Z",
+   "commits": [
+    [
+     "2026-11-04T19:45:47Z",
+     true
+    ],
+    [
+     "2026-11-04T06:24:01Z",
+     true
+    ],
+    [
+     "2026-11-03T23:23:50Z",
+     true
+    ],
+    [
+     "2026-11-03T14:15:49Z",
+     true
+    ],
+    [
+     "2026-11-03T00:58:35Z",
+     true
+    ],
+    [
+     "2026-11-02T15:54:21Z",
+     true
+    ],
+    [
+     "2026-11-02T06:04:44Z",
+     true
+    ],
+    [
+     "2026-11-01T22:02:44Z",
+     true
+    ],
+    [
+     "2026-11-01T13:25:38Z",
+     true
+    ],
+    [
+     "2026-11-01T06:06:24Z",
+     true
+    ],
+    [
+     "2026-10-31T21:35:55Z",
+     true
+    ],
+    [
+     "2026-10-31T12:30:43Z",
+     true
+    ],
+    [
+     "2026-10-31T05:42:21Z",
+     true
+    ],
+    [
+     "2026-10-30T22:21:20Z",
+     true
+    ],
+    [
+     "2026-10-30T12:56:56Z",
+     true
+    ],
+    [
+     "2026-10-30T05:50:14Z",
+     true
+    ],
+    [
+     "2026-10-29T22:45:32Z",
+     true
+    ],
+    [
+     "2026-10-29T13:02:18Z",
+     true
+    ],
+    [
+     "2026-10-29T05:49:36Z",
+     true
+    ],
+    [
+     "2026-10-28T22:36:02Z",
+     true
+    ],
+    [
+     "2026-10-28T12:55:57Z",
+     true
+    ],
+    [
+     "2026-10-28T05:43:11Z",
+     true
+    ]
+   ],
+   "full_page": false,
+   "last_release": "2026-10-27T01:39:19Z"
+  },
+  "collabs-inc/control-panel": {
+   "pushed_at": "2026-10-23T18:44:43Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-10-23T18:44:41Z"
+  },
+  "collabs-inc/cube-t3-nightly": {
+   "pushed_at": "2026-10-15T16:27:50Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-10-15T16:27:44Z"
+  },
+  "lemniscatedev/lemniscate": {
+   "pushed_at": "2026-11-05T02:18:07Z",
+   "commits": [
+    [
+     "2026-11-05T02:18:03Z",
+     false
+    ],
+    [
+     "2026-11-05T02:18:03Z",
+     false
+    ],
+    [
+     "2026-11-05T01:19:42Z",
+     false
+    ],
+    [
+     "2026-11-05T01:19:41Z",
+     false
+    ],
+    [
+     "2026-11-05T00:19:23Z",
+     false
+    ],
+    [
+     "2026-11-05T00:19:23Z",
+     false
+    ],
+    [
+     "2026-11-04T23:17:20Z",
+     false
+    ],
+    [
+     "2026-11-04T23:17:20Z",
+     false
+    ],
+    [
+     "2026-11-04T22:19:10Z",
+     false
+    ],
+    [
+     "2026-11-04T22:19:10Z",
+     false
+    ],
+    [
+     "2026-11-04T21:17:51Z",
+     false
+    ],
+    [
+     "2026-11-04T21:17:51Z",
+     false
+    ],
+    [
+     "2026-11-04T20:18:01Z",
+     false
+    ],
+    [
+     "2026-11-04T20:18:01Z",
+     false
+    ],
+    [
+     "2026-11-04T19:33:03Z",
+     false
+    ],
+    [
+     "2026-11-04T19:33:03Z",
+     false
+    ],
+    [
+     "2026-11-04T19:20:23Z",
+     false
+    ],
+    [
+     "2026-11-04T19:20:23Z",
+     false
+    ],
+    [
+     "2026-11-04T19:19:13Z",
+     false
+    ],
+    [
+     "2026-11-04T19:19:13Z",
+     false
+    ],
+    [
+     "2026-11-04T18:39:17Z",
+     false
+    ],
+    [
+     "2026-11-04T18:32:20Z",
+     false
+    ],
+    [
+     "2026-11-04T18:32:20Z",
+     false
+    ],
+    [
+     "2026-11-04T18:20:05Z",
+     false
+    ],
+    [
+     "2026-11-04T18:20:05Z",
+     false
+    ],
+    [
+     "2026-11-04T17:24:41Z",
+     false
+    ],
+    [
+     "2026-11-04T17:24:41Z",
+     false
+    ],
+    [
+     "2026-11-04T17:24:41Z",
+     false
+    ],
+    [
+     "2026-11-04T17:24:41Z",
+     false
+    ],
+    [
+     "2026-11-04T16:53:16Z",
+     false
+    ],
+    [
+     "2026-11-04T16:53:16Z",
+     false
+    ],
+    [
+     "2026-11-04T16:28:11Z",
+     false
+    ],
+    [
+     "2026-11-04T16:28:11Z",
+     false
+    ],
+    [
+     "2026-11-04T16:19:00Z",
+     false
+    ],
+    [
+     "2026-11-04T16:19:00Z",
+     false
+    ],
+    [
+     "2026-11-04T16:09:11Z",
+     false
+    ],
+    [
+     "2026-11-04T15:19:26Z",
+     false
+    ],
+    [
+     "2026-11-04T15:19:26Z",
+     false
+    ],
+    [
+     "2026-11-04T14:18:20Z",
+     false
+    ],
+    [
+     "2026-11-04T14:18:20Z",
+     false
+    ],
+    [
+     "2026-11-04T13:19:25Z",
+     false
+    ],
+    [
+     "2026-11-04T13:19:25Z",
+     false
+    ],
+    [
+     "2026-11-04T12:19:36Z",
+     false
+    ],
+    [
+     "2026-11-04T12:19:36Z",
+     false
+    ],
+    [
+     "2026-11-04T11:26:01Z",
+     false
+    ],
+    [
+     "2026-11-04T11:26:00Z",
+     false
+    ],
+    [
+     "2026-11-04T10:58:22Z",
+     false
+    ],
+    [
+     "2026-11-04T10:58:22Z",
+     false
+    ],
+    [
+     "2026-11-04T09:19:39Z",
+     false
+    ],
+    [
+     "2026-11-04T09:19:39Z",
+     false
+    ],
+    [
+     "2026-11-04T08:18:50Z",
+     false
+    ],
+    [
+     "2026-11-04T08:18:50Z",
+     false
+    ],
+    [
+     "2026-11-04T07:20:10Z",
+     false
+    ],
+    [
+     "2026-11-04T07:20:10Z",
+     false
+    ],
+    [
+     "2026-11-04T06:18:06Z",
+     false
+    ],
+    [
+     "2026-11-04T06:18:06Z",
+     false
+    ],
+    [
+     "2026-11-04T05:17:36Z",
+     false
+    ],
+    [
+     "2026-11-04T05:17:36Z",
+     false
+    ],
+    [
+     "2026-11-04T04:44:00Z",
+     false
+    ],
+    [
+     "2026-11-04T04:18:48Z",
+     false
+    ],
+    [
+     "2026-11-04T04:18:48Z",
+     false
+    ],
+    [
+     "2026-11-04T03:57:24Z",
+     false
+    ],
+    [
+     "2026-11-04T03:57:24Z",
+     false
+    ],
+    [
+     "2026-11-04T03:57:24Z",
+     false
+    ],
+    [
+     "2026-11-04T03:23:03Z",
+     false
+    ],
+    [
+     "2026-11-04T03:19:56Z",
+     false
+    ],
+    [
+     "2026-11-04T03:19:56Z",
+     false
+    ],
+    [
+     "2026-11-04T03:08:34Z",
+     false
+    ],
+    [
+     "2026-11-04T03:03:15Z",
+     false
+    ],
+    [
+     "2026-11-04T03:03:15Z",
+     false
+    ],
+    [
+     "2026-11-04T03:03:15Z",
+     false
+    ],
+    [
+     "2026-11-04T02:46:02Z",
+     false
+    ],
+    [
+     "2026-11-04T02:26:32Z",
+     false
+    ],
+    [
+     "2026-11-04T02:26:32Z",
+     false
+    ],
+    [
+     "2026-11-04T02:26:31Z",
+     false
+    ],
+    [
+     "2026-11-04T01:52:16Z",
+     false
+    ],
+    [
+     "2026-11-04T01:52:16Z",
+     false
+    ],
+    [
+     "2026-11-04T01:52:16Z",
+     false
+    ],
+    [
+     "2026-11-04T01:52:16Z",
+     false
+    ],
+    [
+     "2026-11-04T01:52:16Z",
+     false
+    ],
+    [
+     "2026-11-04T01:52:15Z",
+     false
+    ],
+    [
+     "2026-11-04T01:52:15Z",
+     false
+    ],
+    [
+     "2026-11-04T01:52:15Z",
+     false
+    ],
+    [
+     "2026-11-02T04:01:11Z",
+     false
+    ],
+    [
+     "2026-11-02T04:01:11Z",
+     false
+    ],
+    [
+     "2026-11-01T22:46:10Z",
+     false
+    ],
+    [
+     "2026-11-01T22:46:10Z",
+     false
+    ],
+    [
+     "2026-11-01T22:46:09Z",
+     false
+    ],
+    [
+     "2026-11-01T22:46:09Z",
+     false
+    ],
+    [
+     "2026-11-01T22:46:08Z",
+     false
+    ],
+    [
+     "2026-11-01T22:46:08Z",
+     false
+    ],
+    [
+     "2026-11-01T22:46:08Z",
+     false
+    ],
+    [
+     "2026-10-30T01:41:08Z",
+     false
+    ],
+    [
+     "2026-10-30T01:41:07Z",
+     false
+    ],
+    [
+     "2026-10-30T01:41:07Z",
+     false
+    ],
+    [
+     "2026-10-30T00:21:33Z",
+     false
+    ],
+    [
+     "2026-10-30T00:21:32Z",
+     false
+    ],
+    [
+     "2026-10-30T00:21:32Z",
+     false
+    ],
+    [
+     "2026-10-30T00:21:31Z",
+     false
+    ],
+    [
+     "2026-10-30T00:21:31Z",
+     false
+    ]
+   ],
+   "full_page": true,
+   "last_release": "2026-11-05T02:18:08Z"
+  },
+  "oakagentkit/oak": {
+   "pushed_at": "2026-11-04T20:33:44Z",
+   "commits": [
+    [
+     "2026-11-04T20:33:41Z",
+     false
+    ],
+    [
+     "2026-11-04T19:43:46Z",
+     false
+    ],
+    [
+     "2026-11-04T02:31:07Z",
+     false
+    ],
+    [
+     "2026-11-03T07:08:43Z",
+     false
+    ],
+    [
+     "2026-11-02T16:29:18Z",
+     false
+    ],
+    [
+     "2026-11-02T07:23:15Z",
+     false
+    ],
+    [
+     "2026-11-02T03:21:18Z",
+     false
+    ],
+    [
+     "2026-11-02T01:43:38Z",
+     false
+    ],
+    [
+     "2026-11-02T01:29:46Z",
+     false
+    ],
+    [
+     "2026-11-01T19:24:36Z",
+     false
+    ],
+    [
+     "2026-11-01T18:56:22Z",
+     false
+    ],
+    [
+     "2026-11-01T18:55:58Z",
+     false
+    ],
+    [
+     "2026-11-01T18:06:50Z",
+     false
+    ],
+    [
+     "2026-11-01T17:16:32Z",
+     false
+    ],
+    [
+     "2026-10-31T00:11:06Z",
+     false
+    ],
+    [
+     "2026-10-31T00:10:20Z",
+     false
+    ],
+    [
+     "2026-10-30T16:48:25Z",
+     true
+    ],
+    [
+     "2026-10-30T16:44:45Z",
+     false
+    ],
+    [
+     "2026-10-30T03:39:44Z",
+     false
+    ],
+    [
+     "2026-10-30T00:45:15Z",
+     false
+    ],
+    [
+     "2026-10-30T00:44:58Z",
+     false
+    ],
+    [
+     "2026-10-30T00:35:33Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "oakagentkit/website": {
+   "pushed_at": "2026-11-04T20:33:51Z",
+   "commits": [
+    [
+     "2026-11-04T20:33:49Z",
+     false
+    ],
+    [
+     "2026-11-04T19:46:21Z",
+     false
+    ],
+    [
+     "2026-11-04T02:31:07Z",
+     false
+    ],
+    [
+     "2026-11-03T07:08:43Z",
+     false
+    ],
+    [
+     "2026-11-02T16:29:18Z",
+     false
+    ],
+    [
+     "2026-11-02T08:13:12Z",
+     false
+    ],
+    [
+     "2026-11-02T03:23:23Z",
+     false
+    ],
+    [
+     "2026-11-02T01:29:40Z",
+     false
+    ],
+    [
+     "2026-11-01T22:12:44Z",
+     false
+    ],
+    [
+     "2026-11-01T21:44:00Z",
+     false
+    ],
+    [
+     "2026-11-01T17:16:32Z",
+     false
+    ],
+    [
+     "2026-10-31T02:19:48Z",
+     false
+    ],
+    [
+     "2026-10-30T22:28:38Z",
+     false
+    ],
+    [
+     "2026-10-30T16:44:45Z",
+     false
+    ],
+    [
+     "2026-10-30T00:32:17Z",
+     false
+    ],
+    [
+     "2026-10-29T16:59:20Z",
+     false
+    ],
+    [
+     "2026-10-29T16:59:04Z",
+     false
+    ],
+    [
+     "2026-10-29T10:34:03Z",
+     false
+    ],
+    [
+     "2026-10-29T08:17:08Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "prapaa-ai/agav": {
+   "pushed_at": "2026-11-04T13:53:44Z",
+   "commits": [
+    [
+     "2026-11-01T11:32:04Z",
+     false
+    ]
+   ],
+   "full_page": false,
+   "last_release": "2026-11-01T11:40:15Z"
+  },
+  "prapaa-ai/agav-marketplace": {
+   "pushed_at": "2026-09-24T10:48:53Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-09-24T10:48:53Z"
+  },
+  "prapaa-ai/evalix": {
+   "pushed_at": "2026-09-23T07:45:36Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-09-23T07:22:19Z"
+  },
+  "tokenhot-ai/tokenhot-ai": {
+   "pushed_at": "2026-08-07T03:35:11Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-08-07T03:35:11Z"
+  },
+  "bursar-world/landing": {
+   "pushed_at": "2026-11-04T00:17:03Z",
+   "commits": [
+    [
+     "2026-11-04T00:17:01Z",
+     false
+    ],
+    [
+     "2026-11-03T22:22:22Z",
+     false
+    ],
+    [
+     "2026-11-02T20:50:54Z",
+     false
+    ],
+    [
+     "2026-11-02T20:49:27Z",
+     false
+    ],
+    [
+     "2026-11-02T20:11:28Z",
+     false
+    ],
+    [
+     "2026-11-02T19:45:10Z",
+     false
+    ],
+    [
+     "2026-11-02T19:11:57Z",
+     false
+    ],
+    [
+     "2026-11-02T01:17:08Z",
+     false
+    ],
+    [
+     "2026-11-01T22:31:20Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "bursar-world/plugins": {
+   "pushed_at": "2026-11-04T00:15:11Z",
+   "commits": [
+    [
+     "2026-11-04T00:15:05Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "bursar-world/.github": {
+   "pushed_at": "2026-11-04T00:11:44Z",
+   "commits": [
+    [
+     "2026-11-04T00:11:43Z",
+     false
+    ],
+    [
+     "2026-11-01T22:44:23Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "nathanliow/atlas-of-physics": {
+   "pushed_at": "2026-10-30T20:47:47Z",
+   "commits": [
+    [
+     "2026-10-30T20:47:46Z",
+     false
+    ],
+    [
+     "2026-10-30T20:44:18Z",
+     false
+    ],
+    [
+     "2026-10-29T22:53:16Z",
+     false
+    ],
+    [
+     "2026-10-29T20:32:39Z",
+     false
+    ],
+    [
+     "2026-10-29T08:08:40Z",
+     false
+    ],
+    [
+     "2026-10-29T00:46:00Z",
+     false
+    ],
+    [
+     "2026-10-28T23:00:21Z",
+     false
+    ],
+    [
+     "2026-10-28T22:54:21Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "nathanliow/ninefold-site": {
+   "pushed_at": "2026-10-26T02:55:22Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-10-26T02:55:15Z"
+  },
+  "nathanliow/nine-card-reach": {
+   "pushed_at": "2026-10-23T05:36:35Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-10-23T05:36:33Z"
+  },
+  "debenlabs/gage-audit": {
+   "pushed_at": "2026-10-21T20:05:14Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-10-21T18:32:56Z"
+  },
+  "debenlabs/gage-contracts": {
+   "pushed_at": "2026-11-04T18:47:16Z",
+   "commits": [
+    [
+     "2026-11-04T18:46:37Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "debenlabs/gage-sdk": {
+   "pushed_at": "2026-10-19T08:49:25Z",
+   "commits": [],
+   "full_page": false,
+   "last_release": "2026-10-19T07:30:13Z",
+   "last_human": "2026-10-19T08:49:24Z"
+  },
+  "lambdalabshq/xmatrix": {
+   "pushed_at": "2026-11-04T20:55:56Z",
+   "commits": [
+    [
+     "2026-11-04T20:34:44Z",
+     false
+    ],
+    [
+     "2026-11-04T20:29:37Z",
+     false
+    ],
+    [
+     "2026-11-04T20:28:10Z",
+     false
+    ],
+    [
+     "2026-11-04T17:51:58Z",
+     false
+    ],
+    [
+     "2026-11-04T15:07:16Z",
+     false
+    ],
+    [
+     "2026-11-04T14:51:08Z",
+     false
+    ],
+    [
+     "2026-11-04T13:39:31Z",
+     false
+    ],
+    [
+     "2026-11-04T11:01:12Z",
+     false
+    ],
+    [
+     "2026-11-04T10:52:38Z",
+     false
+    ],
+    [
+     "2026-11-04T09:15:18Z",
+     false
+    ],
+    [
+     "2026-11-04T05:26:16Z",
+     false
+    ],
+    [
+     "2026-11-04T05:02:14Z",
+     false
+    ],
+    [
+     "2026-11-04T04:32:47Z",
+     false
+    ],
+    [
+     "2026-11-04T04:05:43Z",
+     false
+    ],
+    [
+     "2026-11-04T02:51:57Z",
+     false
+    ],
+    [
+     "2026-11-04T02:39:48Z",
+     false
+    ],
+    [
+     "2026-11-04T01:13:45Z",
+     false
+    ],
+    [
+     "2026-11-03T22:36:53Z",
+     false
+    ],
+    [
+     "2026-11-03T21:40:36Z",
+     false
+    ],
+    [
+     "2026-11-03T20:57:08Z",
+     false
+    ],
+    [
+     "2026-11-03T20:47:29Z",
+     false
+    ],
+    [
+     "2026-11-03T20:32:16Z",
+     false
+    ],
+    [
+     "2026-11-03T20:29:39Z",
+     false
+    ],
+    [
+     "2026-11-03T20:23:11Z",
+     false
+    ],
+    [
+     "2026-11-03T20:13:41Z",
+     false
+    ],
+    [
+     "2026-11-03T19:58:28Z",
+     false
+    ],
+    [
+     "2026-11-03T19:48:34Z",
+     false
+    ],
+    [
+     "2026-11-03T19:26:26Z",
+     false
+    ],
+    [
+     "2026-11-03T19:23:30Z",
+     false
+    ],
+    [
+     "2026-11-03T19:10:17Z",
+     false
+    ],
+    [
+     "2026-11-03T18:58:50Z",
+     false
+    ],
+    [
+     "2026-11-03T18:36:48Z",
+     false
+    ],
+    [
+     "2026-11-03T18:27:19Z",
+     false
+    ],
+    [
+     "2026-11-03T18:15:48Z",
+     false
+    ],
+    [
+     "2026-11-03T17:40:30Z",
+     false
+    ],
+    [
+     "2026-11-03T16:27:34Z",
+     false
+    ],
+    [
+     "2026-11-03T16:16:20Z",
+     false
+    ],
+    [
+     "2026-11-03T16:10:09Z",
+     false
+    ],
+    [
+     "2026-11-03T14:42:59Z",
+     false
+    ],
+    [
+     "2026-11-03T14:40:04Z",
+     false
+    ],
+    [
+     "2026-11-03T14:32:59Z",
+     false
+    ],
+    [
+     "2026-11-03T14:30:21Z",
+     false
+    ],
+    [
+     "2026-11-03T14:24:19Z",
+     false
+    ],
+    [
+     "2026-11-03T14:16:02Z",
+     false
+    ],
+    [
+     "2026-11-03T14:06:10Z",
+     false
+    ],
+    [
+     "2026-11-03T14:05:01Z",
+     false
+    ],
+    [
+     "2026-11-03T14:04:40Z",
+     false
+    ],
+    [
+     "2026-11-03T14:02:08Z",
+     false
+    ],
+    [
+     "2026-11-03T13:47:41Z",
+     false
+    ],
+    [
+     "2026-11-03T13:39:24Z",
+     false
+    ],
+    [
+     "2026-11-03T13:35:57Z",
+     false
+    ],
+    [
+     "2026-11-03T13:24:32Z",
+     false
+    ],
+    [
+     "2026-11-03T13:12:48Z",
+     false
+    ],
+    [
+     "2026-11-03T13:00:21Z",
+     false
+    ],
+    [
+     "2026-11-03T12:55:03Z",
+     false
+    ],
+    [
+     "2026-11-03T12:38:12Z",
+     false
+    ],
+    [
+     "2026-11-03T08:53:55Z",
+     false
+    ],
+    [
+     "2026-11-03T08:09:08Z",
+     false
+    ],
+    [
+     "2026-11-03T06:29:57Z",
+     false
+    ],
+    [
+     "2026-11-02T22:40:55Z",
+     false
+    ],
+    [
+     "2026-11-02T21:20:57Z",
+     false
+    ],
+    [
+     "2026-11-02T20:59:34Z",
+     false
+    ],
+    [
+     "2026-11-02T20:53:51Z",
+     false
+    ],
+    [
+     "2026-11-02T20:38:56Z",
+     false
+    ],
+    [
+     "2026-11-02T20:33:57Z",
+     false
+    ],
+    [
+     "2026-11-02T20:26:55Z",
+     false
+    ],
+    [
+     "2026-11-02T20:21:18Z",
+     false
+    ],
+    [
+     "2026-11-02T19:56:23Z",
+     false
+    ],
+    [
+     "2026-11-02T19:31:09Z",
+     false
+    ],
+    [
+     "2026-11-02T19:01:30Z",
+     false
+    ],
+    [
+     "2026-11-02T18:34:45Z",
+     false
+    ],
+    [
+     "2026-11-02T18:20:14Z",
+     false
+    ],
+    [
+     "2026-11-02T16:29:22Z",
+     false
+    ],
+    [
+     "2026-11-02T16:07:30Z",
+     false
+    ],
+    [
+     "2026-11-02T16:07:01Z",
+     false
+    ],
+    [
+     "2026-11-02T15:47:02Z",
+     false
+    ],
+    [
+     "2026-11-02T14:32:43Z",
+     false
+    ],
+    [
+     "2026-11-02T13:44:17Z",
+     false
+    ],
+    [
+     "2026-11-02T13:15:17Z",
+     false
+    ],
+    [
+     "2026-11-02T11:50:10Z",
+     false
+    ],
+    [
+     "2026-11-02T11:00:13Z",
+     false
+    ],
+    [
+     "2026-11-02T10:39:05Z",
+     false
+    ],
+    [
+     "2026-11-02T10:16:47Z",
+     false
+    ],
+    [
+     "2026-11-02T10:01:41Z",
+     false
+    ],
+    [
+     "2026-11-02T10:01:04Z",
+     false
+    ],
+    [
+     "2026-11-02T09:48:51Z",
+     false
+    ],
+    [
+     "2026-11-02T09:45:12Z",
+     false
+    ],
+    [
+     "2026-11-02T09:34:48Z",
+     false
+    ],
+    [
+     "2026-11-02T09:30:09Z",
+     false
+    ],
+    [
+     "2026-11-02T08:47:53Z",
+     false
+    ],
+    [
+     "2026-11-02T08:43:39Z",
+     false
+    ],
+    [
+     "2026-11-02T08:38:31Z",
+     false
+    ],
+    [
+     "2026-11-02T08:15:04Z",
+     false
+    ],
+    [
+     "2026-11-02T08:10:16Z",
+     false
+    ],
+    [
+     "2026-11-02T06:06:31Z",
+     false
+    ],
+    [
+     "2026-11-01T23:52:08Z",
+     false
+    ],
+    [
+     "2026-11-01T23:27:37Z",
+     false
+    ],
+    [
+     "2026-11-01T22:34:23Z",
+     false
+    ],
+    [
+     "2026-11-01T21:49:27Z",
+     false
+    ],
+    [
+     "2026-11-01T21:41:21Z",
+     false
+    ]
+   ],
+   "full_page": true,
+   "last_release": "2026-11-04T12:31:38Z"
+  },
+  "lambdalabshq/searchwire-skill": {
+   "pushed_at": "2026-10-11T15:37:55Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-10-11T15:37:54Z"
+  },
+  "lambdalabshq/accelerator-unity-level-template": {
+   "pushed_at": "2026-06-03T12:14:52Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-06-03T12:14:38Z"
+  },
+  "ordewell/ordewell": {
+   "pushed_at": "2026-11-05T02:06:29Z",
+   "commits": [
+    [
+     "2026-11-04T15:29:25Z",
+     false
+    ],
+    [
+     "2026-11-04T15:28:57Z",
+     false
+    ],
+    [
+     "2026-11-04T14:59:21Z",
+     false
+    ],
+    [
+     "2026-11-04T14:59:21Z",
+     false
+    ],
+    [
+     "2026-11-04T14:59:20Z",
+     false
+    ],
+    [
+     "2026-11-04T12:42:34Z",
+     false
+    ],
+    [
+     "2026-11-04T12:29:59Z",
+     false
+    ],
+    [
+     "2026-11-04T12:29:59Z",
+     false
+    ],
+    [
+     "2026-11-04T12:29:56Z",
+     false
+    ],
+    [
+     "2026-11-04T12:29:55Z",
+     false
+    ],
+    [
+     "2026-11-04T12:29:55Z",
+     false
+    ],
+    [
+     "2026-11-04T11:02:38Z",
+     false
+    ],
+    [
+     "2026-11-04T11:02:37Z",
+     false
+    ],
+    [
+     "2026-11-04T10:00:00Z",
+     false
+    ],
+    [
+     "2026-11-04T09:54:23Z",
+     false
+    ],
+    [
+     "2026-11-04T09:36:23Z",
+     false
+    ],
+    [
+     "2026-11-04T03:25:43Z",
+     false
+    ],
+    [
+     "2026-11-04T03:03:15Z",
+     false
+    ],
+    [
+     "2026-11-04T02:43:39Z",
+     false
+    ],
+    [
+     "2026-11-04T02:04:08Z",
+     false
+    ],
+    [
+     "2026-11-04T02:04:07Z",
+     false
+    ],
+    [
+     "2026-11-04T02:04:06Z",
+     false
+    ],
+    [
+     "2026-11-04T01:56:45Z",
+     false
+    ],
+    [
+     "2026-11-04T01:47:49Z",
+     false
+    ],
+    [
+     "2026-11-04T01:47:48Z",
+     false
+    ],
+    [
+     "2026-11-04T01:21:51Z",
+     false
+    ],
+    [
+     "2026-11-04T01:21:50Z",
+     false
+    ],
+    [
+     "2026-11-04T01:21:49Z",
+     false
+    ],
+    [
+     "2026-11-04T01:21:48Z",
+     false
+    ],
+    [
+     "2026-11-04T01:21:47Z",
+     false
+    ],
+    [
+     "2026-11-04T01:21:47Z",
+     false
+    ],
+    [
+     "2026-11-04T01:21:46Z",
+     false
+    ],
+    [
+     "2026-11-04T01:21:46Z",
+     false
+    ],
+    [
+     "2026-11-04T00:35:48Z",
+     false
+    ],
+    [
+     "2026-11-04T00:15:24Z",
+     false
+    ],
+    [
+     "2026-11-04T00:14:57Z",
+     false
+    ],
+    [
+     "2026-11-04T00:14:55Z",
+     false
+    ],
+    [
+     "2026-11-04T00:14:54Z",
+     false
+    ],
+    [
+     "2026-11-04T00:14:54Z",
+     false
+    ],
+    [
+     "2026-11-04T00:14:53Z",
+     false
+    ],
+    [
+     "2026-11-03T23:20:38Z",
+     false
+    ],
+    [
+     "2026-11-03T23:20:30Z",
+     false
+    ],
+    [
+     "2026-11-03T23:20:29Z",
+     false
+    ],
+    [
+     "2026-11-03T23:20:29Z",
+     false
+    ],
+    [
+     "2026-11-03T23:20:28Z",
+     false
+    ],
+    [
+     "2026-11-03T23:20:14Z",
+     false
+    ],
+    [
+     "2026-11-03T22:50:36Z",
+     false
+    ],
+    [
+     "2026-11-03T22:44:25Z",
+     false
+    ],
+    [
+     "2026-11-03T22:43:21Z",
+     false
+    ],
+    [
+     "2026-11-03T22:43:20Z",
+     false
+    ],
+    [
+     "2026-11-03T22:43:20Z",
+     false
+    ],
+    [
+     "2026-11-03T22:43:19Z",
+     false
+    ],
+    [
+     "2026-11-03T22:43:19Z",
+     false
+    ],
+    [
+     "2026-11-03T22:43:19Z",
+     false
+    ],
+    [
+     "2026-11-03T19:16:53Z",
+     false
+    ],
+    [
+     "2026-11-03T19:15:10Z",
+     false
+    ],
+    [
+     "2026-11-03T18:46:23Z",
+     false
+    ],
+    [
+     "2026-11-03T18:46:23Z",
+     false
+    ],
+    [
+     "2026-11-03T01:35:31Z",
+     false
+    ],
+    [
+     "2026-11-03T01:17:58Z",
+     false
+    ],
+    [
+     "2026-11-03T01:16:58Z",
+     false
+    ],
+    [
+     "2026-11-03T01:16:58Z",
+     false
+    ],
+    [
+     "2026-11-03T00:49:38Z",
+     false
+    ],
+    [
+     "2026-11-03T00:49:38Z",
+     false
+    ],
+    [
+     "2026-11-02T23:55:29Z",
+     false
+    ],
+    [
+     "2026-11-02T23:55:29Z",
+     false
+    ],
+    [
+     "2026-11-02T23:45:00Z",
+     false
+    ],
+    [
+     "2026-11-02T23:45:00Z",
+     false
+    ],
+    [
+     "2026-11-02T23:14:49Z",
+     false
+    ],
+    [
+     "2026-11-02T23:14:49Z",
+     false
+    ],
+    [
+     "2026-11-02T22:55:45Z",
+     false
+    ],
+    [
+     "2026-11-02T22:55:45Z",
+     false
+    ],
+    [
+     "2026-11-02T22:15:25Z",
+     false
+    ],
+    [
+     "2026-11-02T22:15:25Z",
+     false
+    ],
+    [
+     "2026-11-02T22:10:52Z",
+     false
+    ],
+    [
+     "2026-11-02T22:10:52Z",
+     false
+    ],
+    [
+     "2026-11-02T21:47:37Z",
+     false
+    ],
+    [
+     "2026-11-02T21:47:37Z",
+     false
+    ],
+    [
+     "2026-11-02T20:21:55Z",
+     false
+    ],
+    [
+     "2026-11-02T20:21:55Z",
+     false
+    ],
+    [
+     "2026-11-02T19:30:14Z",
+     false
+    ],
+    [
+     "2026-11-02T19:29:29Z",
+     false
+    ],
+    [
+     "2026-11-02T19:06:12Z",
+     false
+    ],
+    [
+     "2026-11-02T18:57:15Z",
+     false
+    ],
+    [
+     "2026-11-02T18:56:46Z",
+     false
+    ],
+    [
+     "2026-11-02T18:42:24Z",
+     false
+    ],
+    [
+     "2026-11-02T18:39:20Z",
+     false
+    ],
+    [
+     "2026-11-02T18:25:49Z",
+     false
+    ],
+    [
+     "2026-11-02T18:25:49Z",
+     false
+    ],
+    [
+     "2026-11-02T18:24:50Z",
+     false
+    ],
+    [
+     "2026-11-02T18:24:28Z",
+     false
+    ],
+    [
+     "2026-11-02T18:00:13Z",
+     false
+    ],
+    [
+     "2026-11-02T17:25:10Z",
+     false
+    ],
+    [
+     "2026-11-02T17:24:41Z",
+     false
+    ],
+    [
+     "2026-11-02T17:13:34Z",
+     false
+    ],
+    [
+     "2026-11-02T17:12:04Z",
+     false
+    ],
+    [
+     "2026-11-02T17:11:29Z",
+     false
+    ],
+    [
+     "2026-11-02T17:10:38Z",
+     false
+    ],
+    [
+     "2026-11-02T17:10:38Z",
+     false
+    ],
+    [
+     "2026-11-02T17:08:42Z",
+     false
+    ]
+   ],
+   "full_page": true,
+   "last_release": "2026-11-04T16:26:28Z"
+  },
+  "averlet/averlet.github.io": {
+   "pushed_at": "2026-11-03T14:00:21Z",
+   "commits": [
+    [
+     "2026-11-03T13:59:49Z",
+     false
+    ],
+    [
+     "2026-11-03T13:53:43Z",
+     false
+    ],
+    [
+     "2026-11-03T12:19:58Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "open-teleport/openteleport": {
+   "pushed_at": "2026-11-05T02:15:59Z",
+   "commits": [
+    [
+     "2026-11-05T02:15:55Z",
+     false
+    ],
+    [
+     "2026-11-05T02:00:09Z",
+     false
+    ],
+    [
+     "2026-11-04T01:39:21Z",
+     false
+    ],
+    [
+     "2026-11-04T01:33:28Z",
+     false
+    ],
+    [
+     "2026-11-03T23:51:38Z",
+     false
+    ],
+    [
+     "2026-11-03T23:17:23Z",
+     false
+    ],
+    [
+     "2026-11-03T23:13:45Z",
+     false
+    ],
+    [
+     "2026-11-03T23:13:25Z",
+     false
+    ],
+    [
+     "2026-11-03T23:11:57Z",
+     false
+    ],
+    [
+     "2026-11-03T22:02:50Z",
+     false
+    ],
+    [
+     "2026-11-03T22:00:02Z",
+     false
+    ],
+    [
+     "2026-11-03T21:18:10Z",
+     false
+    ],
+    [
+     "2026-11-03T21:10:09Z",
+     false
+    ],
+    [
+     "2026-11-03T21:07:57Z",
+     false
+    ],
+    [
+     "2026-11-03T21:07:27Z",
+     false
+    ],
+    [
+     "2026-11-03T21:04:09Z",
+     false
+    ],
+    [
+     "2026-11-03T20:20:14Z",
+     false
+    ],
+    [
+     "2026-11-03T20:13:25Z",
+     false
+    ],
+    [
+     "2026-11-03T20:11:42Z",
+     false
+    ],
+    [
+     "2026-11-03T20:11:42Z",
+     false
+    ],
+    [
+     "2026-11-03T20:11:42Z",
+     false
+    ],
+    [
+     "2026-11-03T20:11:42Z",
+     false
+    ],
+    [
+     "2026-11-03T20:11:42Z",
+     false
+    ],
+    [
+     "2026-11-03T20:08:16Z",
+     false
+    ],
+    [
+     "2026-11-03T20:07:59Z",
+     false
+    ],
+    [
+     "2026-11-03T20:07:59Z",
+     false
+    ],
+    [
+     "2026-11-03T20:07:59Z",
+     false
+    ],
+    [
+     "2026-11-03T20:07:59Z",
+     false
+    ],
+    [
+     "2026-11-03T20:03:23Z",
+     true
+    ],
+    [
+     "2026-11-03T19:49:43Z",
+     false
+    ],
+    [
+     "2026-11-03T19:47:29Z",
+     false
+    ],
+    [
+     "2026-11-03T14:04:26Z",
+     false
+    ],
+    [
+     "2026-11-03T14:00:31Z",
+     false
+    ],
+    [
+     "2026-11-03T13:54:14Z",
+     false
+    ],
+    [
+     "2026-11-03T13:50:50Z",
+     false
+    ],
+    [
+     "2026-11-03T13:47:48Z",
+     false
+    ],
+    [
+     "2026-11-03T13:47:45Z",
+     false
+    ],
+    [
+     "2026-11-03T13:47:21Z",
+     false
+    ],
+    [
+     "2026-11-03T13:42:58Z",
+     false
+    ],
+    [
+     "2026-11-03T13:42:04Z",
+     false
+    ],
+    [
+     "2026-11-03T13:41:12Z",
+     false
+    ],
+    [
+     "2026-11-03T13:30:43Z",
+     false
+    ],
+    [
+     "2026-11-03T02:22:56Z",
+     false
+    ],
+    [
+     "2026-11-03T02:19:38Z",
+     false
+    ],
+    [
+     "2026-11-03T02:12:46Z",
+     false
+    ],
+    [
+     "2026-11-03T02:08:46Z",
+     false
+    ],
+    [
+     "2026-11-03T02:04:21Z",
+     false
+    ],
+    [
+     "2026-11-03T01:56:55Z",
+     false
+    ],
+    [
+     "2026-11-03T01:47:02Z",
+     false
+    ],
+    [
+     "2026-11-03T01:17:15Z",
+     false
+    ],
+    [
+     "2026-11-03T01:13:46Z",
+     false
+    ],
+    [
+     "2026-11-03T01:09:26Z",
+     false
+    ],
+    [
+     "2026-11-03T01:06:40Z",
+     false
+    ],
+    [
+     "2026-11-03T01:06:37Z",
+     false
+    ],
+    [
+     "2026-11-03T01:05:47Z",
+     false
+    ],
+    [
+     "2026-11-03T01:02:53Z",
+     false
+    ],
+    [
+     "2026-11-03T01:02:00Z",
+     false
+    ],
+    [
+     "2026-11-03T00:54:26Z",
+     false
+    ],
+    [
+     "2026-11-03T00:53:25Z",
+     false
+    ],
+    [
+     "2026-11-03T00:51:47Z",
+     false
+    ],
+    [
+     "2026-11-03T00:48:35Z",
+     false
+    ],
+    [
+     "2026-11-03T00:32:42Z",
+     false
+    ],
+    [
+     "2026-11-03T00:29:40Z",
+     false
+    ],
+    [
+     "2026-11-03T00:03:15Z",
+     false
+    ],
+    [
+     "2026-11-03T00:00:20Z",
+     false
+    ],
+    [
+     "2026-11-02T23:56:08Z",
+     false
+    ],
+    [
+     "2026-11-02T23:52:21Z",
+     false
+    ],
+    [
+     "2026-11-02T23:49:28Z",
+     false
+    ],
+    [
+     "2026-11-02T23:49:27Z",
+     false
+    ],
+    [
+     "2026-11-02T13:25:09Z",
+     false
+    ],
+    [
+     "2026-11-01T16:45:49Z",
+     false
+    ],
+    [
+     "2026-11-01T03:35:54Z",
+     false
+    ],
+    [
+     "2026-11-01T03:33:02Z",
+     false
+    ],
+    [
+     "2026-11-01T03:32:43Z",
+     false
+    ],
+    [
+     "2026-11-01T03:06:00Z",
+     false
+    ],
+    [
+     "2026-11-01T02:49:16Z",
+     false
+    ],
+    [
+     "2026-10-30T17:08:59Z",
+     false
+    ],
+    [
+     "2026-10-30T16:47:11Z",
+     false
+    ],
+    [
+     "2026-10-30T16:26:40Z",
+     false
+    ],
+    [
+     "2026-10-30T16:22:18Z",
+     false
+    ],
+    [
+     "2026-10-30T16:08:08Z",
+     false
+    ],
+    [
+     "2026-10-30T15:56:40Z",
+     false
+    ],
+    [
+     "2026-10-30T15:56:37Z",
+     false
+    ],
+    [
+     "2026-10-30T15:56:32Z",
+     false
+    ],
+    [
+     "2026-10-30T15:55:28Z",
+     false
+    ],
+    [
+     "2026-10-30T15:52:50Z",
+     false
+    ],
+    [
+     "2026-10-30T15:51:13Z",
+     false
+    ],
+    [
+     "2026-10-30T15:48:12Z",
+     false
+    ],
+    [
+     "2026-10-30T15:48:07Z",
+     false
+    ],
+    [
+     "2026-10-30T15:44:33Z",
+     false
+    ],
+    [
+     "2026-10-30T15:44:29Z",
+     false
+    ],
+    [
+     "2026-10-30T15:44:25Z",
+     false
+    ],
+    [
+     "2026-10-30T15:42:27Z",
+     false
+    ],
+    [
+     "2026-10-30T15:41:08Z",
+     false
+    ],
+    [
+     "2026-10-30T15:41:04Z",
+     false
+    ],
+    [
+     "2026-10-30T15:40:35Z",
+     false
+    ],
+    [
+     "2026-10-30T15:40:30Z",
+     false
+    ],
+    [
+     "2026-10-30T15:40:19Z",
+     false
+    ],
+    [
+     "2026-10-30T15:39:25Z",
+     false
+    ],
+    [
+     "2026-10-30T15:38:31Z",
+     false
+    ]
+   ],
+   "full_page": true,
+   "last_release": "2026-11-03T23:12:35Z"
+  },
+  "mahaxyz/maha.xyz": {
+   "pushed_at": "2025-05-28T10:29:23Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2024-05-30T14:49:33Z"
+  },
+  "mahaxyz/contracts": {
+   "pushed_at": "2025-05-26T16:18:30Z",
+   "commits": [],
+   "full_page": false,
+   "last_release": "2024-12-14T23:05:37Z",
+   "last_human": "2025-05-26T16:18:00Z"
+  },
+  "mahaxyz/solana-contracts": {
+   "pushed_at": "2025-04-08T08:03:43Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2025-04-08T08:03:43Z"
+  },
+  "kromtxyz/kromt-rpcsh": {
+   "pushed_at": "2026-11-02T11:36:09Z",
+   "commits": [
+    [
+     "2026-11-02T11:36:07Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "kromtxyz/kromt-rpccheck": {
+   "pushed_at": "2026-11-02T11:35:20Z",
+   "commits": [
+    [
+     "2026-11-02T11:35:18Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "kromtxyz/kromt-txdecode": {
+   "pushed_at": "2026-11-02T11:34:34Z",
+   "commits": [
+    [
+     "2026-11-02T11:34:32Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "ponscharity/ponscharity": {
+   "pushed_at": "2026-09-07T20:27:20Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-09-07T20:27:18Z"
+  },
+  "nymrasi/plugin": {
+   "pushed_at": "2026-11-02T20:45:48Z",
+   "commits": [
+    [
+     "2026-11-02T20:45:43Z",
+     false
+    ],
+    [
+     "2026-11-02T20:36:06Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "nymrasi/.github": {
+   "pushed_at": "2026-10-25T01:32:54Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-10-25T00:00:00Z"
+  },
+  "nymrasi/privacy-scan": {
+   "pushed_at": "2026-10-25T01:28:10Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-10-25T00:00:00Z"
+  },
+  "loodev3/dictator-dares": {
+   "pushed_at": "2026-11-04T15:46:35Z",
+   "commits": [
+    [
+     "2026-11-04T15:46:34Z",
+     false
+    ],
+    [
+     "2026-11-04T15:32:31Z",
+     false
+    ],
+    [
+     "2026-11-04T15:12:08Z",
+     false
+    ],
+    [
+     "2026-11-04T14:48:54Z",
+     false
+    ],
+    [
+     "2026-11-04T12:56:55Z",
+     false
+    ],
+    [
+     "2026-11-04T12:53:06Z",
+     false
+    ],
+    [
+     "2026-11-04T12:51:21Z",
+     false
+    ],
+    [
+     "2026-11-04T12:22:53Z",
+     false
+    ],
+    [
+     "2026-11-04T12:19:46Z",
+     false
+    ],
+    [
+     "2026-11-04T11:58:48Z",
+     false
+    ],
+    [
+     "2026-11-04T11:53:42Z",
+     false
+    ],
+    [
+     "2026-11-04T11:47:36Z",
+     false
+    ],
+    [
+     "2026-11-04T11:39:45Z",
+     false
+    ],
+    [
+     "2026-11-04T10:49:10Z",
+     false
+    ],
+    [
+     "2026-11-04T10:10:22Z",
+     false
+    ],
+    [
+     "2026-11-04T10:05:44Z",
+     false
+    ],
+    [
+     "2026-11-04T09:49:54Z",
+     false
+    ],
+    [
+     "2026-11-04T09:42:31Z",
+     false
+    ],
+    [
+     "2026-11-04T09:28:41Z",
+     false
+    ],
+    [
+     "2026-11-04T08:55:58Z",
+     false
+    ],
+    [
+     "2026-11-03T20:29:59Z",
+     false
+    ],
+    [
+     "2026-11-03T20:28:27Z",
+     false
+    ],
+    [
+     "2026-11-03T20:26:37Z",
+     false
+    ],
+    [
+     "2026-11-03T19:58:16Z",
+     false
+    ],
+    [
+     "2026-11-03T18:24:24Z",
+     false
+    ],
+    [
+     "2026-11-03T18:15:17Z",
+     false
+    ],
+    [
+     "2026-11-03T18:10:09Z",
+     false
+    ],
+    [
+     "2026-11-03T17:21:48Z",
+     false
+    ],
+    [
+     "2026-11-03T17:09:58Z",
+     false
+    ],
+    [
+     "2026-11-03T17:03:17Z",
+     false
+    ],
+    [
+     "2026-11-03T16:58:18Z",
+     false
+    ],
+    [
+     "2026-11-03T16:52:13Z",
+     false
+    ],
+    [
+     "2026-11-03T16:38:55Z",
+     false
+    ],
+    [
+     "2026-11-03T16:32:40Z",
+     false
+    ],
+    [
+     "2026-11-03T16:26:25Z",
+     false
+    ],
+    [
+     "2026-11-03T16:25:43Z",
+     false
+    ],
+    [
+     "2026-11-03T16:22:19Z",
+     false
+    ],
+    [
+     "2026-11-03T16:20:45Z",
+     false
+    ],
+    [
+     "2026-11-03T16:20:10Z",
+     false
+    ],
+    [
+     "2026-11-03T16:19:32Z",
+     false
+    ],
+    [
+     "2026-11-03T16:09:44Z",
+     false
+    ],
+    [
+     "2026-11-03T16:08:08Z",
+     false
+    ],
+    [
+     "2026-11-03T14:30:36Z",
+     false
+    ],
+    [
+     "2026-11-03T14:27:30Z",
+     false
+    ],
+    [
+     "2026-11-03T13:52:45Z",
+     false
+    ],
+    [
+     "2026-11-03T13:36:15Z",
+     false
+    ],
+    [
+     "2026-11-03T13:34:48Z",
+     false
+    ],
+    [
+     "2026-11-03T13:07:19Z",
+     false
+    ],
+    [
+     "2026-11-03T12:41:33Z",
+     false
+    ],
+    [
+     "2026-11-03T12:37:22Z",
+     false
+    ],
+    [
+     "2026-11-03T12:35:42Z",
+     false
+    ],
+    [
+     "2026-11-03T12:34:34Z",
+     false
+    ],
+    [
+     "2026-11-03T12:29:02Z",
+     false
+    ],
+    [
+     "2026-11-03T12:25:44Z",
+     false
+    ],
+    [
+     "2026-11-03T12:20:54Z",
+     false
+    ],
+    [
+     "2026-11-03T12:17:16Z",
+     false
+    ],
+    [
+     "2026-11-03T12:12:24Z",
+     false
+    ],
+    [
+     "2026-11-03T12:10:54Z",
+     false
+    ],
+    [
+     "2026-11-03T12:07:51Z",
+     false
+    ],
+    [
+     "2026-11-03T12:05:54Z",
+     false
+    ],
+    [
+     "2026-11-03T11:59:27Z",
+     false
+    ],
+    [
+     "2026-11-03T11:48:19Z",
+     false
+    ],
+    [
+     "2026-11-03T11:35:59Z",
+     false
+    ],
+    [
+     "2026-11-03T11:34:11Z",
+     false
+    ],
+    [
+     "2026-11-03T11:17:51Z",
+     false
+    ],
+    [
+     "2026-11-03T10:23:51Z",
+     false
+    ],
+    [
+     "2026-11-03T09:18:09Z",
+     false
+    ],
+    [
+     "2026-11-03T09:16:06Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "iannuttall/seo": {
+   "pushed_at": "2026-11-04T22:26:24Z",
+   "commits": [
+    [
+     "2026-11-04T22:24:57Z",
+     false
+    ],
+    [
+     "2026-11-04T22:05:47Z",
+     false
+    ],
+    [
+     "2026-11-04T19:02:02Z",
+     false
+    ],
+    [
+     "2026-11-04T18:41:47Z",
+     false
+    ],
+    [
+     "2026-11-04T18:29:09Z",
+     false
+    ],
+    [
+     "2026-11-04T17:54:43Z",
+     false
+    ],
+    [
+     "2026-11-04T17:16:54Z",
+     false
+    ],
+    [
+     "2026-11-04T10:36:14Z",
+     false
+    ],
+    [
+     "2026-11-04T09:41:19Z",
+     false
+    ],
+    [
+     "2026-11-03T18:12:39Z",
+     false
+    ],
+    [
+     "2026-11-03T18:06:21Z",
+     false
+    ],
+    [
+     "2026-11-03T17:47:46Z",
+     false
+    ],
+    [
+     "2026-11-03T15:24:45Z",
+     false
+    ],
+    [
+     "2026-11-03T14:36:28Z",
+     false
+    ],
+    [
+     "2026-11-03T12:36:08Z",
+     false
+    ],
+    [
+     "2026-11-03T12:20:46Z",
+     false
+    ],
+    [
+     "2026-11-03T12:12:58Z",
+     false
+    ],
+    [
+     "2026-11-03T12:00:19Z",
+     false
+    ],
+    [
+     "2026-11-03T10:53:20Z",
+     false
+    ],
+    [
+     "2026-11-03T10:40:11Z",
+     false
+    ],
+    [
+     "2026-11-03T10:40:11Z",
+     false
+    ],
+    [
+     "2026-11-03T10:40:11Z",
+     false
+    ],
+    [
+     "2026-11-03T10:40:11Z",
+     false
+    ],
+    [
+     "2026-11-03T10:29:18Z",
+     false
+    ],
+    [
+     "2026-11-03T10:20:45Z",
+     false
+    ],
+    [
+     "2026-11-03T10:20:45Z",
+     false
+    ],
+    [
+     "2026-11-03T10:13:10Z",
+     false
+    ],
+    [
+     "2026-11-03T10:01:43Z",
+     false
+    ],
+    [
+     "2026-11-03T10:01:43Z",
+     false
+    ],
+    [
+     "2026-11-03T10:01:43Z",
+     false
+    ],
+    [
+     "2026-11-03T09:31:31Z",
+     false
+    ],
+    [
+     "2026-11-03T09:11:22Z",
+     false
+    ],
+    [
+     "2026-11-03T08:49:31Z",
+     false
+    ],
+    [
+     "2026-11-03T08:29:41Z",
+     false
+    ],
+    [
+     "2026-11-02T16:19:11Z",
+     false
+    ],
+    [
+     "2026-11-02T15:31:46Z",
+     false
+    ],
+    [
+     "2026-11-02T15:05:55Z",
+     false
+    ],
+    [
+     "2026-11-02T14:04:43Z",
+     false
+    ],
+    [
+     "2026-11-02T13:59:28Z",
+     false
+    ],
+    [
+     "2026-11-02T11:57:05Z",
+     false
+    ],
+    [
+     "2026-11-02T11:42:23Z",
+     false
+    ],
+    [
+     "2026-11-02T11:42:23Z",
+     false
+    ],
+    [
+     "2026-11-02T11:42:23Z",
+     false
+    ],
+    [
+     "2026-11-02T11:42:23Z",
+     false
+    ],
+    [
+     "2026-11-02T11:42:23Z",
+     false
+    ],
+    [
+     "2026-11-02T11:42:23Z",
+     false
+    ],
+    [
+     "2026-11-02T11:35:31Z",
+     false
+    ],
+    [
+     "2026-11-02T11:35:31Z",
+     false
+    ],
+    [
+     "2026-11-02T11:35:31Z",
+     false
+    ],
+    [
+     "2026-11-02T11:35:24Z",
+     false
+    ],
+    [
+     "2026-11-02T11:35:17Z",
+     false
+    ],
+    [
+     "2026-11-02T08:28:14Z",
+     false
+    ],
+    [
+     "2026-11-01T13:43:12Z",
+     false
+    ],
+    [
+     "2026-11-01T11:46:45Z",
+     false
+    ],
+    [
+     "2026-11-01T11:38:20Z",
+     false
+    ],
+    [
+     "2026-11-01T11:02:00Z",
+     false
+    ],
+    [
+     "2026-11-01T11:02:00Z",
+     false
+    ],
+    [
+     "2026-10-29T09:25:28Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "iannuttall/mailroom": {
+   "pushed_at": "2026-11-03T09:14:21Z",
+   "commits": [
+    [
+     "2026-11-03T09:14:12Z",
+     true
+    ]
+   ],
+   "full_page": false,
+   "last_human": "2026-10-27T09:33:38Z"
+  },
+  "iannuttall/og": {
+   "pushed_at": "2026-11-03T09:13:12Z",
+   "commits": [
+    [
+     "2026-11-03T09:13:09Z",
+     true
+    ]
+   ],
+   "full_page": false,
+   "last_human": "2026-10-27T09:22:20Z"
+  },
+  "alexandriashai/cbrowser": {
+   "pushed_at": "2026-11-04T18:25:47Z",
+   "commits": [
+    [
+     "2026-11-04T18:25:36Z",
+     true
+    ],
+    [
+     "2026-11-04T18:16:56Z",
+     false
+    ],
+    [
+     "2026-11-04T18:15:48Z",
+     true
+    ],
+    [
+     "2026-11-04T18:03:45Z",
+     false
+    ],
+    [
+     "2026-11-04T18:03:01Z",
+     true
+    ],
+    [
+     "2026-11-04T17:49:51Z",
+     false
+    ],
+    [
+     "2026-11-04T17:39:48Z",
+     true
+    ],
+    [
+     "2026-11-04T17:11:28Z",
+     false
+    ],
+    [
+     "2026-11-03T09:27:10Z",
+     true
+    ],
+    [
+     "2026-11-03T09:18:20Z",
+     false
+    ],
+    [
+     "2026-11-03T09:12:43Z",
+     true
+    ],
+    [
+     "2026-11-03T09:01:37Z",
+     false
+    ],
+    [
+     "2026-11-03T08:55:59Z",
+     true
+    ],
+    [
+     "2026-11-03T08:43:57Z",
+     false
+    ],
+    [
+     "2026-11-03T07:48:30Z",
+     false
+    ],
+    [
+     "2026-11-03T07:46:30Z",
+     true
+    ],
+    [
+     "2026-11-03T07:40:28Z",
+     false
+    ],
+    [
+     "2026-10-31T19:26:17Z",
+     false
+    ],
+    [
+     "2026-10-29T19:16:12Z",
+     false
+    ],
+    [
+     "2026-10-28T21:50:31Z",
+     true
+    ],
+    [
+     "2026-10-28T21:43:00Z",
+     false
+    ]
+   ],
+   "full_page": false,
+   "last_release": "2026-11-04T18:25:48Z"
+  },
+  "alexandriashai/mcp-negotiated-rates": {
+   "pushed_at": "2026-08-14T06:58:50Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-08-14T06:58:34Z"
+  },
+  "alexandriashai/mcp-case-law": {
+   "pushed_at": "2026-08-14T06:39:57Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-08-14T06:39:56Z"
+  },
+  "xiazhi88/desic-terminal": {
+   "pushed_at": "2026-10-07T17:44:51Z",
+   "commits": [],
+   "full_page": false,
+   "last_release": "2026-10-07T18:00:16Z",
+   "last_human": "2026-10-07T17:42:27Z"
+  },
+  "xiazhi88/dsh-onecompany": {
+   "pushed_at": "2026-09-20T07:37:01Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-09-20T07:36:59Z"
+  },
+  "xiazhi88/dshgo": {
+   "pushed_at": "2026-09-18T16:15:45Z",
+   "commits": [],
+   "full_page": false,
+   "last_release": "2026-09-18T15:53:50Z",
+   "last_human": "2026-09-18T16:15:43Z"
+  },
+  "firespawn-studios/tne-sdk": {
+   "pushed_at": "2026-10-30T03:03:26Z",
+   "commits": [
+    [
+     "2026-10-30T03:00:00Z",
+     false
+    ],
+    [
+     "2026-10-30T02:59:27Z",
+     false
+    ],
+    [
+     "2026-10-30T02:56:52Z",
+     false
+    ]
+   ],
+   "full_page": false,
+   "last_release": "2026-10-30T03:03:26Z"
+  },
+  "marcusquinn/aidevops": {
+   "pushed_at": "2026-11-05T02:42:45Z",
+   "commits": [
+    [
+     "2026-11-05T02:41:17Z",
+     false
+    ],
+    [
+     "2026-11-05T02:24:58Z",
+     false
+    ],
+    [
+     "2026-11-05T02:15:30Z",
+     false
+    ],
+    [
+     "2026-11-05T02:11:51Z",
+     false
+    ],
+    [
+     "2026-11-05T01:59:59Z",
+     false
+    ],
+    [
+     "2026-11-05T01:57:26Z",
+     false
+    ],
+    [
+     "2026-11-05T01:16:56Z",
+     false
+    ],
+    [
+     "2026-11-05T01:06:37Z",
+     false
+    ],
+    [
+     "2026-11-05T00:57:22Z",
+     false
+    ],
+    [
+     "2026-11-05T00:52:06Z",
+     false
+    ],
+    [
+     "2026-11-05T00:50:54Z",
+     false
+    ],
+    [
+     "2026-11-05T00:34:35Z",
+     false
+    ],
+    [
+     "2026-11-05T00:31:35Z",
+     false
+    ],
+    [
+     "2026-11-05T00:30:14Z",
+     false
+    ],
+    [
+     "2026-11-05T00:13:53Z",
+     false
+    ],
+    [
+     "2026-11-05T00:12:00Z",
+     false
+    ],
+    [
+     "2026-11-04T23:49:19Z",
+     false
+    ],
+    [
+     "2026-11-04T23:44:58Z",
+     false
+    ],
+    [
+     "2026-11-04T23:33:27Z",
+     false
+    ],
+    [
+     "2026-11-04T23:24:05Z",
+     false
+    ],
+    [
+     "2026-11-04T23:17:13Z",
+     false
+    ],
+    [
+     "2026-11-04T23:09:35Z",
+     false
+    ],
+    [
+     "2026-11-04T23:05:15Z",
+     false
+    ],
+    [
+     "2026-11-04T22:45:34Z",
+     false
+    ],
+    [
+     "2026-11-04T22:33:37Z",
+     false
+    ],
+    [
+     "2026-11-04T22:31:04Z",
+     false
+    ],
+    [
+     "2026-11-04T22:19:05Z",
+     false
+    ],
+    [
+     "2026-11-04T22:13:36Z",
+     false
+    ],
+    [
+     "2026-11-04T22:01:23Z",
+     false
+    ],
+    [
+     "2026-11-04T19:59:06Z",
+     false
+    ],
+    [
+     "2026-11-04T19:09:49Z",
+     false
+    ],
+    [
+     "2026-11-04T17:24:30Z",
+     false
+    ],
+    [
+     "2026-11-04T17:22:48Z",
+     false
+    ],
+    [
+     "2026-11-04T17:11:43Z",
+     false
+    ],
+    [
+     "2026-11-04T17:04:19Z",
+     false
+    ],
+    [
+     "2026-11-04T16:55:49Z",
+     false
+    ],
+    [
+     "2026-11-04T16:42:07Z",
+     false
+    ],
+    [
+     "2026-11-04T16:33:32Z",
+     false
+    ],
+    [
+     "2026-11-04T16:16:22Z",
+     false
+    ],
+    [
+     "2026-11-04T16:12:59Z",
+     false
+    ],
+    [
+     "2026-11-04T16:09:22Z",
+     false
+    ],
+    [
+     "2026-11-04T14:51:34Z",
+     false
+    ],
+    [
+     "2026-11-04T14:46:28Z",
+     false
+    ],
+    [
+     "2026-11-04T14:44:52Z",
+     false
+    ],
+    [
+     "2026-11-04T14:43:15Z",
+     false
+    ],
+    [
+     "2026-11-04T14:41:38Z",
+     false
+    ],
+    [
+     "2026-11-04T14:39:30Z",
+     false
+    ],
+    [
+     "2026-11-04T14:29:46Z",
+     false
+    ],
+    [
+     "2026-11-04T14:29:33Z",
+     false
+    ],
+    [
+     "2026-11-04T14:07:54Z",
+     false
+    ],
+    [
+     "2026-11-04T13:25:53Z",
+     false
+    ],
+    [
+     "2026-11-04T12:04:35Z",
+     false
+    ],
+    [
+     "2026-11-04T12:04:20Z",
+     false
+    ],
+    [
+     "2026-11-04T10:00:41Z",
+     false
+    ],
+    [
+     "2026-11-04T08:45:38Z",
+     false
+    ],
+    [
+     "2026-11-04T07:46:32Z",
+     false
+    ],
+    [
+     "2026-11-04T07:20:18Z",
+     false
+    ],
+    [
+     "2026-11-04T06:56:17Z",
+     false
+    ],
+    [
+     "2026-11-04T06:48:01Z",
+     false
+    ],
+    [
+     "2026-11-04T06:37:56Z",
+     true
+    ],
+    [
+     "2026-11-04T06:00:43Z",
+     false
+    ],
+    [
+     "2026-11-04T05:58:43Z",
+     false
+    ],
+    [
+     "2026-11-04T05:36:17Z",
+     false
+    ],
+    [
+     "2026-11-04T05:35:44Z",
+     false
+    ],
+    [
+     "2026-11-04T05:29:48Z",
+     false
+    ],
+    [
+     "2026-11-04T05:27:15Z",
+     false
+    ],
+    [
+     "2026-11-04T04:52:46Z",
+     false
+    ],
+    [
+     "2026-11-04T04:47:20Z",
+     false
+    ],
+    [
+     "2026-11-04T04:35:51Z",
+     false
+    ],
+    [
+     "2026-11-04T04:29:41Z",
+     false
+    ],
+    [
+     "2026-11-04T04:21:07Z",
+     false
+    ],
+    [
+     "2026-11-04T04:17:07Z",
+     false
+    ],
+    [
+     "2026-11-04T04:14:13Z",
+     false
+    ],
+    [
+     "2026-11-04T04:05:43Z",
+     false
+    ],
+    [
+     "2026-11-04T03:47:24Z",
+     false
+    ],
+    [
+     "2026-11-04T03:21:20Z",
+     false
+    ],
+    [
+     "2026-11-04T02:56:27Z",
+     false
+    ],
+    [
+     "2026-11-04T02:28:24Z",
+     false
+    ],
+    [
+     "2026-11-04T01:56:20Z",
+     false
+    ],
+    [
+     "2026-11-04T01:45:01Z",
+     false
+    ],
+    [
+     "2026-11-04T01:42:37Z",
+     false
+    ],
+    [
+     "2026-11-04T00:58:03Z",
+     false
+    ],
+    [
+     "2026-11-04T00:50:00Z",
+     false
+    ],
+    [
+     "2026-11-03T23:18:07Z",
+     false
+    ],
+    [
+     "2026-11-03T21:11:45Z",
+     false
+    ],
+    [
+     "2026-11-03T18:13:19Z",
+     false
+    ],
+    [
+     "2026-11-03T17:18:05Z",
+     false
+    ],
+    [
+     "2026-11-03T16:39:28Z",
+     false
+    ],
+    [
+     "2026-11-03T16:34:58Z",
+     false
+    ],
+    [
+     "2026-11-03T15:50:00Z",
+     false
+    ],
+    [
+     "2026-11-03T15:36:17Z",
+     false
+    ],
+    [
+     "2026-11-03T15:29:43Z",
+     false
+    ],
+    [
+     "2026-11-03T15:27:12Z",
+     false
+    ],
+    [
+     "2026-11-03T14:58:52Z",
+     false
+    ],
+    [
+     "2026-11-03T13:44:29Z",
+     false
+    ],
+    [
+     "2026-11-03T12:05:01Z",
+     false
+    ],
+    [
+     "2026-11-03T12:01:47Z",
+     false
+    ],
+    [
+     "2026-11-03T11:49:16Z",
+     false
+    ],
+    [
+     "2026-11-03T11:48:02Z",
+     false
+    ],
+    [
+     "2026-11-03T11:47:51Z",
+     false
+    ]
+   ],
+   "full_page": true,
+   "last_release": "2026-11-05T00:57:01Z"
+  },
+  "marcusquinn/aidevops.sh": {
+   "pushed_at": "2026-11-05T02:25:19Z",
+   "commits": [
+    [
+     "2026-11-05T02:25:18Z",
+     true
+    ],
+    [
+     "2026-11-05T01:07:14Z",
+     false
+    ],
+    [
+     "2026-11-05T00:52:57Z",
+     true
+    ],
+    [
+     "2026-11-04T22:45:56Z",
+     true
+    ],
+    [
+     "2026-11-04T16:56:08Z",
+     true
+    ],
+    [
+     "2026-11-04T04:30:34Z",
+     true
+    ],
+    [
+     "2026-11-04T01:56:39Z",
+     true
+    ],
+    [
+     "2026-11-03T17:19:22Z",
+     true
+    ],
+    [
+     "2026-11-03T02:10:54Z",
+     true
+    ],
+    [
+     "2026-11-02T23:23:46Z",
+     true
+    ],
+    [
+     "2026-11-02T22:58:11Z",
+     true
+    ],
+    [
+     "2026-11-02T15:06:57Z",
+     true
+    ],
+    [
+     "2026-11-02T00:41:34Z",
+     true
+    ],
+    [
+     "2026-11-01T23:00:28Z",
+     true
+    ],
+    [
+     "2026-11-01T21:13:28Z",
+     false
+    ],
+    [
+     "2026-11-01T20:47:47Z",
+     true
+    ],
+    [
+     "2026-11-01T03:36:01Z",
+     true
+    ],
+    [
+     "2026-10-31T23:12:45Z",
+     true
+    ],
+    [
+     "2026-10-31T21:52:59Z",
+     true
+    ],
+    [
+     "2026-10-31T19:18:04Z",
+     true
+    ],
+    [
+     "2026-10-31T17:16:41Z",
+     true
+    ],
+    [
+     "2026-10-31T08:12:57Z",
+     true
+    ],
+    [
+     "2026-10-31T07:10:32Z",
+     true
+    ],
+    [
+     "2026-10-31T06:10:07Z",
+     true
+    ],
+    [
+     "2026-10-31T05:06:18Z",
+     true
+    ],
+    [
+     "2026-10-31T03:50:54Z",
+     true
+    ],
+    [
+     "2026-10-30T22:30:18Z",
+     true
+    ],
+    [
+     "2026-10-30T20:58:10Z",
+     true
+    ],
+    [
+     "2026-10-30T19:34:38Z",
+     true
+    ],
+    [
+     "2026-10-30T18:28:21Z",
+     true
+    ],
+    [
+     "2026-10-30T15:55:27Z",
+     true
+    ],
+    [
+     "2026-10-30T09:07:27Z",
+     true
+    ],
+    [
+     "2026-10-30T07:11:48Z",
+     true
+    ],
+    [
+     "2026-10-30T06:48:41Z",
+     true
+    ],
+    [
+     "2026-10-30T04:58:46Z",
+     true
+    ],
+    [
+     "2026-10-30T03:05:11Z",
+     true
+    ],
+    [
+     "2026-10-30T02:30:23Z",
+     true
+    ],
+    [
+     "2026-10-30T01:06:25Z",
+     true
+    ],
+    [
+     "2026-10-30T00:07:48Z",
+     true
+    ],
+    [
+     "2026-10-29T18:38:48Z",
+     true
+    ],
+    [
+     "2026-10-29T03:40:01Z",
+     true
+    ],
+    [
+     "2026-10-29T03:06:47Z",
+     true
+    ],
+    [
+     "2026-10-29T02:04:24Z",
+     true
+    ],
+    [
+     "2026-10-29T01:51:55Z",
+     true
+    ],
+    [
+     "2026-10-29T01:14:48Z",
+     true
+    ],
+    [
+     "2026-10-28T21:18:37Z",
+     false
+    ],
+    [
+     "2026-10-28T03:12:03Z",
+     true
+    ]
+   ],
+   "full_page": false
+  },
+  "marcusquinn/cloudron-nostr-relay-app": {
+   "pushed_at": "2026-11-05T01:06:25Z",
+   "commits": [
+    [
+     "2026-11-05T01:06:24Z",
+     false
+    ],
+    [
+     "2026-11-03T17:28:50Z",
+     false
+    ],
+    [
+     "2026-11-02T15:34:06Z",
+     true
+    ],
+    [
+     "2026-11-02T15:24:30Z",
+     false
+    ],
+    [
+     "2026-11-02T00:47:06Z",
+     false
+    ],
+    [
+     "2026-11-01T22:39:17Z",
+     true
+    ],
+    [
+     "2026-11-01T22:30:01Z",
+     false
+    ],
+    [
+     "2026-11-01T21:20:17Z",
+     false
+    ],
+    [
+     "2026-10-29T00:22:42Z",
+     true
+    ]
+   ],
+   "full_page": false,
+   "last_release": "2026-11-02T15:34:29Z"
+  },
+  "gasrescue/gasrescue-mcp": {
+   "pushed_at": "2026-11-04T09:15:54Z",
+   "commits": [
+    [
+     "2026-11-04T09:15:29Z",
+     false
+    ],
+    [
+     "2026-11-04T07:03:01Z",
+     false
+    ],
+    [
+     "2026-11-03T15:03:27Z",
+     false
+    ],
+    [
+     "2026-11-03T12:52:28Z",
+     false
+    ],
+    [
+     "2026-11-03T12:39:45Z",
+     false
+    ],
+    [
+     "2026-11-03T12:38:55Z",
+     false
+    ],
+    [
+     "2026-11-03T10:29:25Z",
+     false
+    ],
+    [
+     "2026-11-03T10:22:22Z",
+     false
+    ],
+    [
+     "2026-11-03T10:17:40Z",
+     false
+    ],
+    [
+     "2026-11-03T06:32:12Z",
+     false
+    ],
+    [
+     "2026-11-03T06:28:48Z",
+     false
+    ],
+    [
+     "2026-11-03T06:18:23Z",
+     false
+    ]
+   ],
+   "full_page": false,
+   "last_release": "2026-11-04T09:15:54Z"
+  },
+  "gasrescue/gasrescue-contracts": {
+   "pushed_at": "2026-11-03T15:00:18Z",
+   "commits": [
+    [
+     "2026-11-03T15:00:14Z",
+     false
+    ],
+    [
+     "2026-11-03T08:09:49Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "windowlit/window": {
+   "pushed_at": "2026-11-04T09:39:32Z",
+   "commits": [
+    [
+     "2026-11-04T09:38:59Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "th3nolo/aave-v3-data": {
+   "pushed_at": "2026-11-04T07:25:11Z",
+   "commits": [
+    [
+     "2026-11-04T07:25:10Z",
+     false
+    ],
+    [
+     "2026-11-04T04:38:26Z",
+     false
+    ],
+    [
+     "2026-11-03T07:46:32Z",
+     false
+    ],
+    [
+     "2026-11-03T05:05:43Z",
+     false
+    ],
+    [
+     "2026-11-02T07:32:41Z",
+     false
+    ],
+    [
+     "2026-11-02T04:05:12Z",
+     false
+    ],
+    [
+     "2026-11-01T07:19:32Z",
+     false
+    ],
+    [
+     "2026-11-01T04:00:52Z",
+     false
+    ],
+    [
+     "2026-10-31T06:52:30Z",
+     false
+    ],
+    [
+     "2026-10-31T03:50:58Z",
+     false
+    ],
+    [
+     "2026-10-30T06:58:21Z",
+     false
+    ],
+    [
+     "2026-10-30T04:07:59Z",
+     false
+    ],
+    [
+     "2026-10-29T06:55:35Z",
+     false
+    ],
+    [
+     "2026-10-29T04:06:51Z",
+     false
+    ],
+    [
+     "2026-10-28T06:46:12Z",
+     false
+    ],
+    [
+     "2026-10-28T03:45:32Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "th3nolo/verifiable-exchange-demo": {
+   "pushed_at": "2026-11-03T20:56:53Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-10-04T01:03:02Z"
+  },
+  "th3nolo/openrouter-mcp": {
+   "pushed_at": "2026-10-31T05:36:01Z",
+   "commits": [
+    [
+     "2026-10-31T05:26:20Z",
+     false
+    ],
+    [
+     "2026-10-31T05:13:21Z",
+     false
+    ],
+    [
+     "2026-10-31T05:13:10Z",
+     false
+    ],
+    [
+     "2026-10-31T04:45:38Z",
+     false
+    ],
+    [
+     "2026-10-31T04:34:13Z",
+     false
+    ],
+    [
+     "2026-10-31T04:32:37Z",
+     false
+    ],
+    [
+     "2026-10-31T04:30:06Z",
+     false
+    ],
+    [
+     "2026-10-31T04:11:22Z",
+     false
+    ],
+    [
+     "2026-10-31T03:56:03Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "tobiasguerrero9-debug/saibot92": {
+   "pushed_at": "2026-11-04T22:59:30Z",
+   "commits": [
+    [
+     "2026-11-04T22:14:55Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "tobiasguerrero9-debug/0xwork-dashboard": {
+   "pushed_at": "2026-02-24T19:35:07Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-02-24T19:25:07Z"
+  },
+  "fastcrw/crw": {
+   "pushed_at": "2026-11-05T01:08:34Z",
+   "commits": [
+    [
+     "2026-11-04T22:41:46Z",
+     true
+    ],
+    [
+     "2026-11-04T22:41:33Z",
+     true
+    ],
+    [
+     "2026-11-04T22:40:56Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:31Z",
+     true
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T22:26:18Z",
+     false
+    ],
+    [
+     "2026-11-04T14:17:59Z",
+     false
+    ],
+    [
+     "2026-11-04T14:17:59Z",
+     false
+    ],
+    [
+     "2026-11-04T14:17:59Z",
+     false
+    ],
+    [
+     "2026-11-03T22:13:35Z",
+     false
+    ],
+    [
+     "2026-11-03T22:13:25Z",
+     false
+    ],
+    [
+     "2026-11-03T20:02:51Z",
+     true
+    ],
+    [
+     "2026-11-03T20:02:06Z",
+     false
+    ],
+    [
+     "2026-11-03T19:23:47Z",
+     true
+    ],
+    [
+     "2026-11-03T19:23:23Z",
+     true
+    ],
+    [
+     "2026-11-03T19:22:44Z",
+     false
+    ],
+    [
+     "2026-11-03T16:51:55Z",
+     false
+    ],
+    [
+     "2026-11-03T16:05:52Z",
+     false
+    ],
+    [
+     "2026-11-03T14:35:47Z",
+     true
+    ],
+    [
+     "2026-11-03T14:35:24Z",
+     false
+    ],
+    [
+     "2026-11-03T14:35:24Z",
+     false
+    ],
+    [
+     "2026-11-03T14:35:24Z",
+     false
+    ],
+    [
+     "2026-11-03T14:35:24Z",
+     false
+    ],
+    [
+     "2026-11-03T14:35:24Z",
+     false
+    ],
+    [
+     "2026-10-28T22:16:38Z",
+     true
+    ],
+    [
+     "2026-10-28T22:16:26Z",
+     true
+    ],
+    [
+     "2026-10-28T22:16:09Z",
+     true
+    ],
+    [
+     "2026-10-28T22:15:56Z",
+     false
+    ],
+    [
+     "2026-10-28T22:03:27Z",
+     false
+    ],
+    [
+     "2026-10-28T22:03:27Z",
+     true
+    ],
+    [
+     "2026-10-28T22:03:27Z",
+     true
+    ],
+    [
+     "2026-10-28T22:03:27Z",
+     true
+    ],
+    [
+     "2026-10-28T22:03:27Z",
+     true
+    ],
+    [
+     "2026-10-28T22:03:27Z",
+     true
+    ],
+    [
+     "2026-10-28T22:03:27Z",
+     true
+    ]
+   ],
+   "full_page": false,
+   "last_release": "2026-11-04T22:41:15Z"
+  },
+  "fastcrw/apt-crw": {
+   "pushed_at": "2026-11-04T23:10:43Z",
+   "commits": [
+    [
+     "2026-11-04T23:10:36Z",
+     true
+    ],
+    [
+     "2026-11-03T20:07:41Z",
+     true
+    ],
+    [
+     "2026-10-28T22:46:14Z",
+     true
+    ]
+   ],
+   "full_page": false,
+   "last_human": "2026-09-24T10:22:46Z"
+  },
+  "fastcrw/homebrew-crw": {
+   "pushed_at": "2026-11-04T23:06:39Z",
+   "commits": [
+    [
+     "2026-11-04T23:06:38Z",
+     true
+    ],
+    [
+     "2026-11-03T19:48:32Z",
+     true
+    ],
+    [
+     "2026-10-28T22:42:31Z",
+     true
+    ]
+   ],
+   "full_page": false,
+   "last_human": "2026-09-24T10:22:39Z"
+  },
+  "psql/biscotti": {
+   "pushed_at": "2026-10-20T05:32:51Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-10-20T05:32:48Z"
+  },
+  "psql/voicehole": {
+   "pushed_at": "2026-10-14T05:59:59Z",
+   "commits": [],
+   "full_page": false,
+   "last_release": "2026-10-14T05:57:20Z",
+   "last_human": "2026-10-14T05:58:25Z"
+  },
+  "psql/characters": {
+   "pushed_at": "2026-08-05T00:42:18Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-08-05T00:42:10Z"
+  },
+  "rlaope/oh-my-hermes": {
+   "pushed_at": "2026-11-05T02:44:51Z",
+   "commits": [
+    [
+     "2026-11-05T02:39:04Z",
+     false
+    ],
+    [
+     "2026-11-05T02:21:14Z",
+     false
+    ],
+    [
+     "2026-11-05T01:57:38Z",
+     false
+    ],
+    [
+     "2026-11-05T01:35:28Z",
+     false
+    ],
+    [
+     "2026-11-05T01:34:00Z",
+     false
+    ],
+    [
+     "2026-11-05T01:20:52Z",
+     false
+    ],
+    [
+     "2026-11-05T01:16:21Z",
+     false
+    ],
+    [
+     "2026-11-05T01:09:34Z",
+     false
+    ],
+    [
+     "2026-11-05T00:53:44Z",
+     false
+    ],
+    [
+     "2026-11-04T17:53:51Z",
+     false
+    ],
+    [
+     "2026-11-04T17:21:36Z",
+     false
+    ],
+    [
+     "2026-11-04T17:21:36Z",
+     false
+    ],
+    [
+     "2026-11-04T17:21:36Z",
+     false
+    ],
+    [
+     "2026-11-04T17:20:40Z",
+     false
+    ],
+    [
+     "2026-11-04T17:20:40Z",
+     false
+    ],
+    [
+     "2026-11-04T16:51:09Z",
+     false
+    ],
+    [
+     "2026-11-04T16:49:11Z",
+     false
+    ],
+    [
+     "2026-11-04T16:24:29Z",
+     false
+    ],
+    [
+     "2026-11-04T16:13:36Z",
+     false
+    ],
+    [
+     "2026-11-04T15:23:19Z",
+     false
+    ],
+    [
+     "2026-11-04T15:16:49Z",
+     false
+    ],
+    [
+     "2026-11-04T15:09:17Z",
+     false
+    ],
+    [
+     "2026-11-04T15:07:55Z",
+     false
+    ],
+    [
+     "2026-11-04T15:07:26Z",
+     false
+    ],
+    [
+     "2026-11-04T14:44:52Z",
+     false
+    ],
+    [
+     "2026-11-04T14:42:23Z",
+     false
+    ],
+    [
+     "2026-11-04T14:42:08Z",
+     false
+    ],
+    [
+     "2026-11-04T14:33:14Z",
+     false
+    ],
+    [
+     "2026-11-04T14:30:32Z",
+     false
+    ],
+    [
+     "2026-11-04T14:15:41Z",
+     false
+    ],
+    [
+     "2026-11-04T12:35:56Z",
+     false
+    ],
+    [
+     "2026-11-04T12:23:42Z",
+     false
+    ],
+    [
+     "2026-11-04T12:18:12Z",
+     false
+    ],
+    [
+     "2026-11-04T12:00:04Z",
+     false
+    ],
+    [
+     "2026-11-04T11:56:53Z",
+     false
+    ],
+    [
+     "2026-11-04T11:16:29Z",
+     false
+    ],
+    [
+     "2026-11-04T11:15:33Z",
+     false
+    ],
+    [
+     "2026-11-04T11:11:05Z",
+     false
+    ],
+    [
+     "2026-11-04T11:09:18Z",
+     false
+    ],
+    [
+     "2026-11-04T11:07:41Z",
+     false
+    ],
+    [
+     "2026-11-04T11:03:34Z",
+     false
+    ],
+    [
+     "2026-11-04T10:44:00Z",
+     false
+    ],
+    [
+     "2026-11-04T10:30:17Z",
+     false
+    ],
+    [
+     "2026-11-04T10:27:33Z",
+     false
+    ],
+    [
+     "2026-11-04T10:23:44Z",
+     false
+    ],
+    [
+     "2026-11-04T10:14:17Z",
+     false
+    ],
+    [
+     "2026-11-04T10:02:35Z",
+     false
+    ],
+    [
+     "2026-11-04T09:52:11Z",
+     false
+    ],
+    [
+     "2026-11-04T09:45:23Z",
+     false
+    ],
+    [
+     "2026-11-04T09:18:07Z",
+     false
+    ],
+    [
+     "2026-11-04T09:17:26Z",
+     false
+    ],
+    [
+     "2026-11-04T09:10:45Z",
+     false
+    ],
+    [
+     "2026-11-04T08:32:53Z",
+     false
+    ],
+    [
+     "2026-11-04T08:22:08Z",
+     false
+    ],
+    [
+     "2026-11-04T08:18:45Z",
+     false
+    ],
+    [
+     "2026-11-04T08:11:27Z",
+     false
+    ],
+    [
+     "2026-11-04T08:02:05Z",
+     false
+    ],
+    [
+     "2026-11-04T07:58:55Z",
+     false
+    ],
+    [
+     "2026-11-04T07:45:20Z",
+     false
+    ],
+    [
+     "2026-11-04T07:42:32Z",
+     false
+    ],
+    [
+     "2026-11-04T07:40:36Z",
+     false
+    ],
+    [
+     "2026-11-04T07:32:49Z",
+     false
+    ],
+    [
+     "2026-11-04T07:23:53Z",
+     false
+    ],
+    [
+     "2026-11-04T07:22:59Z",
+     false
+    ],
+    [
+     "2026-11-04T07:10:18Z",
+     false
+    ],
+    [
+     "2026-11-04T06:29:07Z",
+     false
+    ],
+    [
+     "2026-11-04T06:15:13Z",
+     false
+    ],
+    [
+     "2026-11-04T05:56:30Z",
+     false
+    ],
+    [
+     "2026-11-04T05:38:50Z",
+     false
+    ],
+    [
+     "2026-11-04T05:38:19Z",
+     false
+    ],
+    [
+     "2026-11-04T05:36:03Z",
+     false
+    ],
+    [
+     "2026-11-04T05:31:37Z",
+     false
+    ],
+    [
+     "2026-11-04T05:29:32Z",
+     false
+    ],
+    [
+     "2026-11-04T05:05:30Z",
+     false
+    ],
+    [
+     "2026-11-04T05:05:10Z",
+     false
+    ],
+    [
+     "2026-11-04T03:41:23Z",
+     false
+    ],
+    [
+     "2026-11-04T03:39:12Z",
+     false
+    ],
+    [
+     "2026-11-04T03:25:28Z",
+     false
+    ],
+    [
+     "2026-11-04T03:01:23Z",
+     false
+    ],
+    [
+     "2026-11-04T02:54:56Z",
+     false
+    ],
+    [
+     "2026-11-04T02:39:46Z",
+     false
+    ],
+    [
+     "2026-11-04T02:24:25Z",
+     false
+    ],
+    [
+     "2026-11-04T02:24:12Z",
+     false
+    ],
+    [
+     "2026-11-04T02:20:03Z",
+     false
+    ],
+    [
+     "2026-11-03T19:49:27Z",
+     false
+    ],
+    [
+     "2026-11-03T19:19:56Z",
+     false
+    ],
+    [
+     "2026-11-03T19:12:07Z",
+     false
+    ],
+    [
+     "2026-11-03T19:12:04Z",
+     false
+    ],
+    [
+     "2026-11-03T18:39:04Z",
+     false
+    ],
+    [
+     "2026-11-03T18:10:43Z",
+     false
+    ],
+    [
+     "2026-11-03T18:08:58Z",
+     false
+    ],
+    [
+     "2026-11-03T17:43:05Z",
+     false
+    ],
+    [
+     "2026-11-03T17:38:50Z",
+     false
+    ],
+    [
+     "2026-11-03T17:30:36Z",
+     false
+    ],
+    [
+     "2026-11-03T17:26:15Z",
+     false
+    ],
+    [
+     "2026-11-03T17:25:16Z",
+     false
+    ],
+    [
+     "2026-11-03T17:20:58Z",
+     false
+    ],
+    [
+     "2026-11-03T17:16:33Z",
+     false
+    ],
+    [
+     "2026-11-03T17:15:37Z",
+     false
+    ],
+    [
+     "2026-11-03T17:08:36Z",
+     false
+    ]
+   ],
+   "full_page": true,
+   "last_release": "2026-11-03T16:03:59Z"
+  },
+  "rlaope/deepseek-bot": {
+   "pushed_at": "2026-11-04T03:00:54Z",
+   "commits": [
+    [
+     "2026-11-04T03:00:54Z",
+     false
+    ],
+    [
+     "2026-11-04T03:00:54Z",
+     false
+    ],
+    [
+     "2026-11-04T02:55:58Z",
+     false
+    ],
+    [
+     "2026-11-04T02:55:58Z",
+     false
+    ],
+    [
+     "2026-11-04T02:55:58Z",
+     false
+    ],
+    [
+     "2026-11-04T02:20:43Z",
+     false
+    ],
+    [
+     "2026-11-03T17:45:30Z",
+     false
+    ],
+    [
+     "2026-11-03T17:45:30Z",
+     false
+    ],
+    [
+     "2026-11-03T16:44:19Z",
+     false
+    ],
+    [
+     "2026-11-03T16:44:19Z",
+     false
+    ],
+    [
+     "2026-11-03T16:29:47Z",
+     false
+    ],
+    [
+     "2026-11-03T16:29:47Z",
+     false
+    ],
+    [
+     "2026-11-03T16:29:47Z",
+     false
+    ],
+    [
+     "2026-11-03T16:29:47Z",
+     false
+    ],
+    [
+     "2026-11-03T16:29:47Z",
+     false
+    ],
+    [
+     "2026-11-03T14:26:01Z",
+     false
+    ],
+    [
+     "2026-11-03T11:03:17Z",
+     false
+    ],
+    [
+     "2026-11-03T11:03:17Z",
+     false
+    ],
+    [
+     "2026-11-03T11:03:17Z",
+     false
+    ],
+    [
+     "2026-11-03T09:51:23Z",
+     false
+    ],
+    [
+     "2026-11-03T09:01:26Z",
+     false
+    ],
+    [
+     "2026-11-03T09:01:26Z",
+     false
+    ],
+    [
+     "2026-11-03T09:01:26Z",
+     false
+    ],
+    [
+     "2026-11-03T09:01:26Z",
+     false
+    ],
+    [
+     "2026-11-03T07:58:24Z",
+     false
+    ],
+    [
+     "2026-11-03T07:58:24Z",
+     false
+    ],
+    [
+     "2026-11-03T07:37:57Z",
+     false
+    ],
+    [
+     "2026-11-03T07:37:57Z",
+     false
+    ],
+    [
+     "2026-11-03T07:08:39Z",
+     false
+    ],
+    [
+     "2026-11-03T07:08:39Z",
+     false
+    ],
+    [
+     "2026-11-03T07:08:39Z",
+     false
+    ],
+    [
+     "2026-11-03T06:37:08Z",
+     false
+    ],
+    [
+     "2026-11-03T06:37:08Z",
+     false
+    ],
+    [
+     "2026-11-03T05:45:46Z",
+     false
+    ],
+    [
+     "2026-11-03T05:29:43Z",
+     false
+    ],
+    [
+     "2026-11-03T05:29:43Z",
+     false
+    ],
+    [
+     "2026-11-03T05:29:07Z",
+     false
+    ],
+    [
+     "2026-11-03T04:37:26Z",
+     false
+    ],
+    [
+     "2026-11-03T04:37:26Z",
+     false
+    ],
+    [
+     "2026-11-03T04:03:55Z",
+     false
+    ],
+    [
+     "2026-11-03T04:03:55Z",
+     false
+    ],
+    [
+     "2026-11-03T04:03:55Z",
+     false
+    ],
+    [
+     "2026-11-03T03:21:14Z",
+     false
+    ],
+    [
+     "2026-11-03T03:21:14Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "rlaope/homebrew-tap": {
+   "pushed_at": "2026-11-03T16:05:04Z",
+   "commits": [
+    [
+     "2026-11-03T16:05:02Z",
+     true
+    ],
+    [
+     "2026-11-01T14:34:48Z",
+     true
+    ]
+   ],
+   "full_page": false
+  },
+  "priors-agents/priors": {
+   "pushed_at": "2026-11-05T01:37:32Z",
+   "commits": [
+    [
+     "2026-11-05T01:37:24Z",
+     false
+    ],
+    [
+     "2026-11-04T21:33:54Z",
+     false
+    ],
+    [
+     "2026-11-04T21:15:38Z",
+     false
+    ],
+    [
+     "2026-11-04T18:45:15Z",
+     false
+    ],
+    [
+     "2026-11-04T17:32:05Z",
+     false
+    ],
+    [
+     "2026-11-04T17:05:52Z",
+     false
+    ],
+    [
+     "2026-11-04T16:18:17Z",
+     false
+    ],
+    [
+     "2026-11-04T08:04:24Z",
+     false
+    ],
+    [
+     "2026-11-03T21:28:38Z",
+     false
+    ],
+    [
+     "2026-11-03T20:00:42Z",
+     false
+    ],
+    [
+     "2026-11-03T12:38:47Z",
+     false
+    ],
+    [
+     "2026-11-03T10:07:52Z",
+     false
+    ],
+    [
+     "2026-11-03T09:53:46Z",
+     false
+    ],
+    [
+     "2026-11-03T09:07:48Z",
+     false
+    ],
+    [
+     "2026-11-03T08:36:06Z",
+     false
+    ],
+    [
+     "2026-11-02T22:35:29Z",
+     false
+    ],
+    [
+     "2026-11-02T15:35:58Z",
+     false
+    ],
+    [
+     "2026-11-02T12:59:59Z",
+     false
+    ],
+    [
+     "2026-11-02T09:40:50Z",
+     false
+    ],
+    [
+     "2026-11-02T09:00:02Z",
+     false
+    ],
+    [
+     "2026-11-01T23:44:45Z",
+     false
+    ],
+    [
+     "2026-11-01T14:40:39Z",
+     false
+    ],
+    [
+     "2026-11-01T13:14:43Z",
+     false
+    ],
+    [
+     "2026-11-01T07:55:25Z",
+     false
+    ],
+    [
+     "2026-10-31T14:14:26Z",
+     false
+    ],
+    [
+     "2026-10-31T06:08:57Z",
+     false
+    ],
+    [
+     "2026-10-31T06:00:59Z",
+     false
+    ],
+    [
+     "2026-10-30T22:20:30Z",
+     false
+    ],
+    [
+     "2026-10-30T19:40:15Z",
+     false
+    ],
+    [
+     "2026-10-30T15:35:45Z",
+     false
+    ],
+    [
+     "2026-10-30T10:47:59Z",
+     false
+    ],
+    [
+     "2026-10-30T08:42:30Z",
+     false
+    ],
+    [
+     "2026-10-30T07:49:26Z",
+     false
+    ],
+    [
+     "2026-10-29T18:11:27Z",
+     false
+    ],
+    [
+     "2026-10-29T16:47:03Z",
+     false
+    ],
+    [
+     "2026-10-29T16:25:33Z",
+     false
+    ],
+    [
+     "2026-10-29T14:16:58Z",
+     false
+    ],
+    [
+     "2026-10-29T14:15:40Z",
+     true
+    ],
+    [
+     "2026-10-29T13:43:18Z",
+     false
+    ],
+    [
+     "2026-10-29T13:33:42Z",
+     false
+    ],
+    [
+     "2026-10-29T10:30:58Z",
+     false
+    ],
+    [
+     "2026-10-28T19:19:19Z",
+     false
+    ],
+    [
+     "2026-10-28T19:19:19Z",
+     false
+    ],
+    [
+     "2026-10-28T19:16:39Z",
+     false
+    ],
+    [
+     "2026-10-28T18:43:06Z",
+     false
+    ],
+    [
+     "2026-10-28T11:31:34Z",
+     false
+    ],
+    [
+     "2026-10-28T11:12:11Z",
+     false
+    ],
+    [
+     "2026-10-28T09:15:36Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "priors-agents/agent002": {
+   "pushed_at": "2026-11-04T20:29:25Z",
+   "commits": [
+    [
+     "2026-11-04T20:29:23Z",
+     false
+    ],
+    [
+     "2026-11-03T11:57:50Z",
+     false
+    ],
+    [
+     "2026-10-30T10:59:14Z",
+     false
+    ],
+    [
+     "2026-10-30T10:57:11Z",
+     false
+    ],
+    [
+     "2026-10-29T19:30:59Z",
+     false
+    ],
+    [
+     "2026-10-29T17:54:59Z",
+     false
+    ],
+    [
+     "2026-10-29T17:02:07Z",
+     false
+    ],
+    [
+     "2026-10-29T16:53:56Z",
+     false
+    ],
+    [
+     "2026-10-28T16:35:59Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "priors-agents/agent001": {
+   "pushed_at": "2026-11-04T20:26:54Z",
+   "commits": [
+    [
+     "2026-11-04T20:26:46Z",
+     false
+    ],
+    [
+     "2026-10-31T06:47:42Z",
+     false
+    ],
+    [
+     "2026-10-30T21:57:59Z",
+     false
+    ],
+    [
+     "2026-10-30T11:01:33Z",
+     false
+    ],
+    [
+     "2026-10-29T19:30:54Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "fobodotfun/contracts": {
+   "pushed_at": "2026-10-31T17:04:37Z",
+   "commits": [
+    [
+     "2026-10-31T17:04:37Z",
+     false
+    ],
+    [
+     "2026-10-31T12:53:55Z",
+     false
+    ],
+    [
+     "2026-10-31T12:16:24Z",
+     false
+    ],
+    [
+     "2026-10-31T12:10:24Z",
+     false
+    ],
+    [
+     "2026-10-31T12:04:19Z",
+     false
+    ],
+    [
+     "2026-10-31T10:06:45Z",
+     false
+    ],
+    [
+     "2026-10-31T09:58:15Z",
+     false
+    ],
+    [
+     "2026-10-29T17:40:10Z",
+     false
+    ],
+    [
+     "2026-10-28T16:45:16Z",
+     false
+    ]
+   ],
+   "full_page": false
+  },
+  "holaboss-ai/holaos": {
+   "pushed_at": "2026-10-28T05:05:03Z",
+   "commits": [],
+   "full_page": false,
+   "last_release": "2026-08-06T16:22:28Z",
+   "last_human": "2026-08-21T12:32:29Z"
+  },
+  "holaboss-ai/holaos-releases": {
+   "pushed_at": "2026-08-22T16:05:47Z",
+   "commits": [],
+   "full_page": false,
+   "last_release": "2026-08-22T16:05:48Z",
+   "last_human": "2026-05-11T07:44:42Z"
+  },
+  "holaboss-ai/holaboss-apps": {
+   "pushed_at": "2026-05-07T10:18:39Z",
+   "commits": [],
+   "full_page": false,
+   "last_release": "2026-05-07T01:01:10Z",
+   "last_human": "2026-05-07T10:18:37Z"
+  },
+  "citrolabs/ego-lite": {
+   "pushed_at": "2026-11-04T09:11:55Z",
+   "commits": [
+    [
+     "2026-11-04T09:11:51Z",
+     false
+    ],
+    [
+     "2026-11-04T09:08:59Z",
+     false
+    ],
+    [
+     "2026-10-30T09:17:36Z",
+     false
+    ],
+    [
+     "2026-10-30T09:11:33Z",
+     false
+    ],
+    [
+     "2026-10-30T09:06:48Z",
+     false
+    ],
+    [
+     "2026-10-29T12:26:49Z",
+     false
+    ],
+    [
+     "2026-10-29T12:21:32Z",
+     false
+    ],
+    [
+     "2026-10-29T09:10:14Z",
+     false
+    ],
+    [
+     "2026-10-29T08:54:18Z",
+     false
+    ],
+    [
+     "2026-10-29T08:28:15Z",
+     false
+    ],
+    [
+     "2026-10-29T08:24:59Z",
+     false
+    ],
+    [
+     "2026-10-29T08:01:01Z",
+     false
+    ],
+    [
+     "2026-10-29T07:58:16Z",
+     false
+    ],
+    [
+     "2026-10-29T07:58:11Z",
+     false
+    ],
+    [
+     "2026-10-29T07:56:54Z",
+     false
+    ],
+    [
+     "2026-10-29T07:53:27Z",
+     false
+    ],
+    [
+     "2026-10-29T07:49:29Z",
+     false
+    ],
+    [
+     "2026-10-29T07:29:00Z",
+     false
+    ],
+    [
+     "2026-10-29T07:26:12Z",
+     false
+    ],
+    [
+     "2026-10-29T07:04:57Z",
+     false
+    ],
+    [
+     "2026-10-29T06:44:32Z",
+     false
+    ],
+    [
+     "2026-10-29T06:32:03Z",
+     false
+    ],
+    [
+     "2026-10-28T05:05:05Z",
+     false
+    ],
+    [
+     "2026-10-28T05:03:11Z",
+     false
+    ]
+   ],
+   "full_page": false,
+   "last_release": "2026-10-16T03:22:42Z"
+  },
+  "citrolabs/safari-browser-use": {
+   "pushed_at": "2026-09-24T20:14:32Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-09-05T07:36:27Z"
+  },
+  "citrolabs/.github": {
+   "pushed_at": "2026-09-01T08:48:43Z",
+   "commits": [],
+   "full_page": false,
+   "last_human": "2026-09-01T08:48:43Z"
+  }
+ },
+ "alerts": [
+  {
+   "t": "2026-11-05T02:42:02+00:00",
+   "address": "0x938d767f1cd789850867a881fdf09631f2e43714",
+   "symbol": "CUBE",
+   "from": "RED",
+   "to": "GREY",
+   "why": "No public code of their own to watch",
+   "better": true
+  }
+ ]
+}

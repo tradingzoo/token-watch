@@ -1,0 +1,906 @@
+{
+ "seen": {
+  "0x938d767f1cd789850867a881fdf09631f2e43714": "2026-11-04T12:10:42+00:00",
+  "0x0ddcab9ae04bda0c87ecc1640636fa11e8e613e8": "2026-11-04T12:10:42+00:00",
+  "0x63a209b0b41f0e5de845baebd8c8f7c438a96edc": "2026-11-04T12:10:42+00:00",
+  "0xc4bea7e18409b2d1042cea57243964b76a3fc4bb": "2026-11-04T12:10:42+00:00",
+  "0x63b5c2b1eb93ad62ea06560370f4f317ee1b97d3": "2026-11-04T12:10:42+00:00",
+  "0x6511c233790ec10f7d673c64dc82c3f941d57828": "2026-11-04T12:10:42+00:00",
+  "0x2932b2f5761cadca5cb3e09d940092ca723d9ee2": "2026-11-04T12:10:42+00:00",
+  "0x61367971245daeb88e0f55a1b4679d7992e5f0e9": "2026-11-04T12:10:42+00:00",
+  "0xa4059c2702c5ce581753f0741d669ef6666e0962": "2026-11-04T12:10:42+00:00",
+  "0xfb6f62db0f90d9a9ea0e80efc99029d1e8fb0b5a": "2026-11-04T12:10:42+00:00",
+  "0x78a22186aa93ef5fa316f67ec29159ccadc70e17": "2026-11-04T12:10:42+00:00",
+  "0xb329d90aa612a122c2ab779e521e1092f4c15d9f": "2026-11-04T12:10:42+00:00",
+  "0x20871086f5a1b341a6494f8fbc5a50e609036244": "2026-11-04T12:10:42+00:00",
+  "0x35925534a9ffedac64c4feceb5e88d8089a9f631": "2026-11-04T12:10:42+00:00",
+  "0x32cd068d47362060d224bb0b970549566693d4ec": "2026-11-04T12:10:42+00:00",
+  "0xdf0cb17cd826f4d57cb378df03a16e044fe02e76": "2026-11-04T12:10:42+00:00",
+  "0xed13c333be7eb40c7d156b9c38e627e0edfde67c": "2026-11-04T12:10:42+00:00",
+  "0xe63bfaf58ab797dce6f93be18aa57b30f2542ea0": "2026-11-04T12:10:42+00:00",
+  "0x8c6fae1c0986fc233305b80be4cdf62952b36c70": "2026-11-04T12:10:42+00:00",
+  "0xcce83a030692d89d66081fa8768346a5915878b0": "2026-11-04T12:10:42+00:00",
+  "0x0fe66dc8acafa2f8a8a58f2c0032a3329dcf6d22": "2026-11-04T12:10:42+00:00",
+  "0xc197746dead09646e3b732f469d8b2a0330eb215": "2026-11-04T12:10:42+00:00",
+  "0x13088aba7a3595fe82540baf9c1032ec7cf089e6": "2026-11-04T12:10:42+00:00",
+  "0xa7d95ce1c05114a0aa3711401525a4cab55affe4": "2026-11-04T12:10:42+00:00",
+  "0xaaf459bfeb4e8637d6ff9ce64a3947199fd1d699": "2026-11-04T12:10:42+00:00",
+  "0x2785ecda3e8b4b920dc0aab6f287e421969a0233": "2026-11-04T12:10:42+00:00",
+  "0x60337e6e2fe756ada729f0c07ede2baae4f10a81": "2026-11-04T12:10:42+00:00",
+  "0x0bf415669fc4f5865479dad5159503dced02183d": "2026-11-04T12:10:42+00:00",
+  "0x4dbcb8cfdbc3f1cf0581a39fbcae21e195bc4429": "2026-11-04T12:10:42+00:00",
+  "0x6624dc7ea0d54c36ecab3956e5bac5b21b695189": "2026-11-04T12:10:42+00:00",
+  "0x9c3421573a0e2e6c1e4003370a8d7b9a020606c4": "2026-11-04T12:10:42+00:00",
+  "0x34147e2ec718ac628deaecc420fb13d399bc083d": "2026-11-04T12:10:42+00:00",
+  "0xa4d0d038c6998c43f672fbcd21324c4363a2371c": "2026-11-04T12:10:42+00:00",
+  "0xb0d503b3fbec2976d5f895ff8189050b73b1bbe5": "2026-11-04T12:10:42+00:00",
+  "0xd5ed72845b3c232364fa36b1d19c0eed6ac92b77": "2026-11-04T12:10:42+00:00",
+  "0x46f1ec8aa1ead22d2a54c3ba6bea9a61c7f60266": "2026-11-04T12:10:42+00:00",
+  "0x4f0cb2f526c92de693fba0cc295411e4b4d6158b": "2026-11-04T12:10:42+00:00",
+  "0x4e8ef783e6c7d98c9e5180d5615111301ea0085b": "2026-11-04T12:10:42+00:00",
+  "0x12d47438e300f42f0de7eca415e3c4e8c6ac0f6a": "2026-11-04T12:10:42+00:00",
+  "0x321a6c4f53180f2246c69538020449072474b704": "2026-11-04T12:10:42+00:00",
+  "0xddc543067fe4f201c8139a27afc29d796ac4421d": "2026-11-04T12:10:42+00:00",
+  "0xc2e629510c8652222e3594a87597fadb27f9b8c4": "2026-11-04T12:10:42+00:00",
+  "0x2e4edef92d5cf2b2e08b18f240e896c71bfcac8c": "2026-11-04T12:10:42+00:00",
+  "0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2": "2026-11-04T12:10:42+00:00",
+  "0x49f0b00623481225ff30aa31e4d1a7a0f7ee1fea": "2026-11-04T12:10:42+00:00",
+  "0x7fd3e34884a6d1d0f8cbc6dab42bd07083ed4477": "2026-11-04T12:10:42+00:00",
+  "0x39dbed3a2bd333467115de45665cc57f813c4571": "2026-11-04T12:10:42+00:00",
+  "0xdee52f2ab639b6942b0d0f0565400b93b7a0fbe5": "2026-11-04T12:10:42+00:00",
+  "0xe8ffd7e24187f72afb08d75b1bb13088a989a791": "2026-11-04T12:10:42+00:00",
+  "0xded852de9fe9ba9b6f27f39e8e81cf851a5c79cc": "2026-11-04T12:10:42+00:00",
+  "0x72be1277e198d0c476869253cb4e62807e14533c": "2026-11-04T12:10:42+00:00",
+  "0x7fe995a80075df3dc8ae11a9b82c7fe4202cd87f": "2026-11-04T12:10:42+00:00",
+  "0x511f76a3de41f000ec11ea4fd212fb3587c6cef3": "2026-11-04T12:10:42+00:00",
+  "0x5173b8ea6923c2d40267890d45c46a3480954773": "2026-11-04T12:10:42+00:00",
+  "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d": "2026-11-04T12:10:42+00:00",
+  "0xe8151fd72ef60f31827e50653f03376296f123d9": "2026-11-04T12:10:42+00:00",
+  "0x7990b463a29deb58880d4bd6f4eb1b65a6ee164e": "2026-11-04T12:10:42+00:00",
+  "0x837ccf4a9f150458b624ccde0caad4b67e8bdd75": "2026-11-04T12:10:42+00:00",
+  "0x2d18e03ad2a513f2262c7e11854cd78e01523b74": "2026-11-04T12:10:42+00:00",
+  "0x0af4d3c0c7008b5b80bbe3f71f1d6c50faef2d4b": "2026-11-04T12:10:42+00:00",
+  "0x1abb9127a65047b75747c3500f6344069cfb179a": "2026-11-04T12:10:42+00:00",
+  "0x6f17ed4aafd7fde423873525726b0678aa8876d9": "2026-11-04T12:10:42+00:00",
+  "0x64a66f1d9d4813a6eddd086266633e4da3be9abb": "2026-11-04T12:10:42+00:00",
+  "0xbbc67bdc7fbf73abc33a2592602d02bb44fb4aea": "2026-11-04T12:10:42+00:00",
+  "0x9c0d63d7534dbcb42d48f862832c6e8ee19c1f23": "2026-11-04T12:10:42+00:00",
+  "0xe19744552103a06a2c9cc1df55fda35bfcd0194f": "2026-11-04T12:10:42+00:00",
+  "0xb8edd373749c98147b95c0d136b55b6c95c900e9": "2026-11-04T12:10:42+00:00",
+  "0x582b03289c732739bab42705455988ade992cad6": "2026-11-04T12:10:42+00:00",
+  "0xc291671851179498c593ce2df853b1767f62f37d": "2026-11-04T12:10:42+00:00",
+  "0x959aacb13d4eaf442720cbc8bc5448e180c567f9": "2026-11-04T12:10:42+00:00",
+  "0x4291e839c1436109aff10ec1619ceaa040c6f19d": "2026-11-04T12:10:42+00:00",
+  "0x76b6cdb023ba935283547fe9c3addb305d6d48b0": "2026-11-04T12:10:42+00:00",
+  "0x5bf8b7e940daaec9ce826962592a7b628b64e689": "2026-11-04T12:10:42+00:00",
+  "0x257bd594a54f04c3a5d77f87971233b13236c091": "2026-11-04T12:10:42+00:00",
+  "0x3fab167e5295d8be4bc5c2486aa2f184008c9b46": "2026-11-04T12:10:42+00:00",
+  "0xd269d19c0a6f2c54b26d13816ea4e9d97183257c": "2026-11-04T12:10:42+00:00",
+  "0x3d682cd5cfd378f9ce238fffb9217e507bc26e04": "2026-11-04T12:10:42+00:00",
+  "0x398859eb96131167c3b5923f21b3b9f866b338a0": "2026-11-04T12:10:42+00:00",
+  "0xbf019e7f6eab2f04b374b6a98a482c50b157bd1b": "2026-11-04T12:10:42+00:00",
+  "0x453acc5ca5e532a83b9767e5e6923dafaee95d6d": "2026-11-04T12:10:42+00:00",
+  "0x8642f1d355feda3bebeaa21034f87f2c70097d27": "2026-11-04T12:10:42+00:00",
+  "0xc9a5b3701f8191d24f71410517ff65b29a4d883f": "2026-11-04T12:10:42+00:00",
+  "0xcfe68f199d1ccb34f90254569f049a85a576c5a5": "2026-11-04T12:10:42+00:00",
+  "0xfdc4bcd5096acf491c16d44dc79d44fe3690094f": "2026-11-04T12:10:42+00:00",
+  "0xba63a2cfaca44f4c8ecd78ae9818f2df3ea42eef": "2026-11-04T12:10:42+00:00",
+  "0x75f86ae5ae4fc2bfd392e8368d7775eff6dcf807": "2026-11-04T12:10:42+00:00",
+  "0xa4018d961759d729996f4db6d8eed7538091ecaa": "2026-11-04T12:10:42+00:00",
+  "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3": "2026-11-04T12:10:42+00:00",
+  "0x451b42a15100c340ca12f7c66de06fac5ea2d751": "2026-11-04T12:10:42+00:00",
+  "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725": "2026-11-04T12:10:42+00:00",
+  "0x5fea0f4e7239907602bb779c52a559279f542f45": "2026-11-04T12:10:42+00:00",
+  "0xfed6b187f6da04e2eae5d3ea89b57129da62b28a": "2026-11-04T12:10:42+00:00",
+  "0x77959dc25677dd044084806f1113091e7e456a50": "2026-11-04T12:16:47+00:00",
+  "0xea68eede97df1670362d6a90ff78066ff1c154ee": "2026-11-04T12:16:47+00:00",
+  "0x9529501fddd8577fc12601e44430745d1ff92900": "2026-11-04T12:16:47+00:00"
+ },
+ "github": {
+  "0x938d767f1cd789850867a881fdf09631f2e43714": {
+   "address": "0x938d767f1cd789850867a881fdf09631f2e43714",
+   "symbol": "CUBE",
+   "name": "Cube Computer",
+   "description": "Cube Computer gives your coding agents cloud computers of their own. Your repos, terminals and agents live there, so Claude Code, Codex and the rest keep working when you close your laptop.",
+   "website": "https://cube.computer",
+   "twitter": "https://x.com/cubecomputer_",
+   "mcap": 22257.218775344983,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "collabs-inc/cube-releases",
+    "score": 30,
+    "raw_score": 30,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)"
+     ],
+     "Real code": [
+      "\u2705 101 changes over 89 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 269 days old, 2 people, 12 stars, 0 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 101,
+     "stars": 12,
+     "created": "2026-08-07",
+     "pushed": "2026-11-04",
+     "people": 2
+    }
+   }
+  },
+  "0x63b5c2b1eb93ad62ea06560370f4f317ee1b97d3": {
+   "address": "0x63b5C2B1eB93Ad62EA06560370f4f317eE1b97D3",
+   "symbol": "LMNI",
+   "name": "Lemniscate",
+   "description": "Everlasting options for tokenized stocks",
+   "website": "https://get-lemniscate.tech/",
+   "twitter": "https://x.com/UseLemniscate",
+   "mcap": 137895,
+   "where": "exchange",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "token page",
+   "scoring": {
+    "repo": "lemniscatedev/lemniscate",
+    "score": 75,
+    "raw_score": 75,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\u2705 Charges a fee on every options trade (FeeRouter, protocol fee 10%) \u2014 checked by hand (+20)",
+      "\ud83d\udfe1 Built but switched off: 5% of fees to LMNI stakers and 5% to buy and burn LMNI; both slots are empty in the live fee contract \u2014 checked by hand (+10)"
+     ],
+     "Really theirs": [
+      "\u2705 Repo mentions this token's address (+10)",
+      "\ud83d\udfe1 Repo and website: repo links the website (+5)"
+     ],
+     "Real code": [
+      "\u2705 214 changes over 13 days (+10)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 19 days old, 1 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u2705 Contract addresses listed in the README (+5)",
+      "\u2705 Safety info: SECURITY file, audit, timelock (+5)",
+      "\u2139\ufe0f Audit looks self-done or AI-done, not an outside firm"
+     ]
+    },
+    "roadmap": [
+     "`web/dist/roadmap.json`: 72 planned items",
+     "CHANGELOG.md: 13 updates shipped so far",
+     "Roadmap is 72 product updates, one an hour over 3 days; the changelog marks each one live as it ships",
+     "Staking and buy-and-burn are NOT on the roadmap; the code says they wait for the admin to switch them on"
+    ],
+    "notes": [
+     "Holder perks are live: hold 100,000 LMNI (about $13 on 4 Nov) for analytics, alerts and history; 1,000,000 (about $127) for automation tools and data export. Their server already checks wallets",
+     "Only 10% of the protocol's fee goes to the token side (5% stakers, 5% burn); 90% goes to the pool, keepers, hedger and team",
+     "Writer rewards (1,000,000 LMNI a week for 8 weeks to depositors of $1,000+) are not started: start date and token address still blank. This adds new supply",
+     "Admin is a single wallet, but upgrades wait 48 hours (timelock)"
+    ],
+    "facts": {
+     "commits": 214,
+     "stars": 0,
+     "created": "2026-10-29",
+     "pushed": "2026-11-04",
+     "people": 1
+    }
+   }
+  },
+  "0x6511c233790ec10f7d673c64dc82c3f941d57828": {
+   "address": "0x6511c233790Ec10f7d673c64DC82C3F941D57828",
+   "symbol": "OAK",
+   "name": "Oak",
+   "description": "Oak Agent Kit builds AI infrastructure for the agentic economy on Robinhood Chain. Our first product is live now: Oak MCP, giving AI agents efficient connections to projects on Robinhood Chain, with subscriptions powered by $OAK.",
+   "website": "https://oakagentkit.org",
+   "twitter": "https://x.com/OakAgentKit",
+   "mcap": 546836,
+   "where": "exchange",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "token page",
+   "scoring": {
+    "repo": "OakAgentKit/oak",
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (borrow, fees, hook, lending) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\ud83d\udfe1 Repo and website: repo links the website (+5)"
+     ],
+     "Real code": [
+      "\ud83d\udfe1 20 changes over 5 days (+5)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 6 days old, 1 people, 1 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 8 updates shipped so far",
+     "Website has a roadmap page: https://oakagentkit.org/roadmap"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 20,
+     "stars": 1,
+     "created": "2026-10-30",
+     "pushed": "2026-11-04",
+     "people": 1
+    }
+   }
+  },
+  "0xb329d90aa612a122c2ab779e521e1092f4c15d9f": {
+   "address": "0xb329d90aa612a122c2ab779e521e1092f4c15d9f",
+   "symbol": "FLOEM",
+   "name": "Floem",
+   "description": "Launch a token. Graduate to spot + perps",
+   "website": "https://floem.fun",
+   "twitter": "https://x.com/floemdotfun",
+   "mcap": 3865.54450291701,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "floemdotfun/",
+    "score": 0,
+    "capped": true,
+    "flags": [
+     "GitHub account floemdotfun has no public code"
+    ],
+    "reasons": {
+     "Really theirs": [
+      "\u274c github.com/floemdotfun has no public repos"
+     ]
+    },
+    "roadmap": [],
+    "facts": {}
+   }
+  },
+  "0xcce83a030692d89d66081fa8768346a5915878b0": {
+   "address": "0xcce83a030692d89d66081fa8768346a5915878b0",
+   "symbol": "BURSAR",
+   "name": "Bursar",
+   "description": "",
+   "website": "https://bursar.world",
+   "twitter": "https://x.com/UseBursar",
+   "mcap": 3895.1382797039996,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "bursar-world/landing",
+    "score": 25,
+    "raw_score": 25,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)"
+     ],
+     "Real code": [
+      "\u2705 21 changes over 38 days (+10)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 38 days old, 1 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://bursar.world/roadmap"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 21,
+     "stars": 0,
+     "created": "2026-09-27",
+     "pushed": "2026-11-04",
+     "people": 1
+    }
+   }
+  },
+  "0x2785ecda3e8b4b920dc0aab6f287e421969a0233": {
+   "address": "0x2785ecda3e8b4b920dc0aab6f287e421969a0233",
+   "symbol": "ATLASC",
+   "name": "Atlas Class",
+   "description": "Atlas Class teaches AP science and math through interactive 3D textbooks and figures. Students take each concept apart and then practice.",
+   "website": "https://atlasclass.app/",
+   "twitter": "https://x.com/tryatlasclass",
+   "mcap": 3780.1000795568975,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "nathanliow/atlas-of-physics",
+    "score": 15,
+    "raw_score": 15,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)"
+     ],
+     "Real code": [
+      "\u274c 8 changes over 2 days (+0)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 1258 days old, 1 people, 383 stars, 114 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 8,
+     "stars": 383,
+     "created": "2026-10-28",
+     "pushed": "2026-10-30",
+     "people": 1
+    }
+   }
+  },
+  "0x6624dc7ea0d54c36ecab3956e5bac5b21b695189": {
+   "address": "0x6624dc7ea0d54c36ecab3956e5bac5b21b695189",
+   "symbol": "AVERL",
+   "name": "Averlet",
+   "description": "Averlet is a new start for error tracking. It helps developers read the message, the exception and the stack frames together.",
+   "website": "https://averlet.dev",
+   "twitter": "https://x.com/averlet_",
+   "mcap": 3854.6369564664933,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Averlet/averlet.github.io",
+    "score": 10,
+    "raw_score": 10,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)"
+     ],
+     "Real code": [
+      "\u274c 3 changes over 0 days (+0)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 5 days old, 1 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 3,
+     "stars": 0,
+     "created": "2026-11-03",
+     "pushed": "2026-11-03",
+     "people": 1
+    }
+   }
+  },
+  "0xa4d0d038c6998c43f672fbcd21324c4363a2371c": {
+   "address": "0xa4d0d038c6998c43f672fbcd21324c4363a2371c",
+   "symbol": "TELEPORT",
+   "name": "Open Teleport",
+   "description": "OpenTeleport moves AI agents between apps in one command. $TELEPORT is its token. One agent format, eight apps, any direction.",
+   "website": "https://openteleport.dev",
+   "twitter": "https://x.com/openteleportdev",
+   "mcap": 4993.197556251789,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Open-Teleport/openteleport",
+    "score": 25,
+    "raw_score": 25,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)"
+     ],
+     "Real code": [
+      "\u2705 325 changes over 7 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 7 days old, 1 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 11 updates shipped so far"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 325,
+     "stars": 0,
+     "created": "2026-10-28",
+     "pushed": "2026-11-04",
+     "people": 1
+    }
+   }
+  },
+  "0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2": {
+   "address": "0x74739ed2d4c85ff67e90001cad9e1f3e8e740cd2",
+   "symbol": "HETAIROI",
+   "name": "Hetairoi AI Agent",
+   "description": "Hetairoi is an open-source agent mesh: Claude Code, Codex, Cursor, Grok, OpenCode and more ask each other for work, hand off tasks and report back, while you stay in control. Runs on your own machine. hetairoiagent.cloud",
+   "website": "https://hetairoiagent.cloud",
+   "twitter": "https://x.com/HetairoiAgent",
+   "mcap": 6093.384003322325,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "openscout-app/scout",
+    "score": 25,
+    "raw_score": 35,
+    "capped": true,
+    "flags": [
+     "Repo never mentions this token, its name or its website (repo's own site is openscout.app) \u2014 may be someone else's project"
+    ],
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)"
+     ],
+     "Real code": [
+      "\u2705 727 changes over 75 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 77 days old, 1 people, 11 stars, 3 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 727,
+     "stars": 11,
+     "created": "2026-08-21",
+     "pushed": "2026-11-03",
+     "people": 1
+    }
+   }
+  },
+  "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d": {
+   "address": "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d",
+   "symbol": "GAGE",
+   "name": "GAGE",
+   "description": "GAGE powers gage.cash, a peer-to-peer lending protocol on Robinhood Chain.",
+   "website": "https://gage.cash",
+   "twitter": "https://x.com/gagedotcash",
+   "mcap": 3945604,
+   "where": "exchange",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "DebenLabs/gage-audit",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (lending, vault) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Repo was created 44 days after the token launched"
+     ],
+     "Real code": [
+      "\ud83d\udfe1 4 changes over 27 days (+5)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 92 days old, 1 people, 0 stars, 0 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 4,
+     "stars": 0,
+     "created": "2026-10-21",
+     "pushed": "2026-10-21",
+     "people": 1
+    }
+   }
+  },
+  "0x1abb9127a65047b75747c3500f6344069cfb179a": {
+   "address": "0x1abb9127a65047b75747c3500f6344069cfb179a",
+   "symbol": "BUCKS",
+   "name": "Bucksonchain",
+   "description": "Onchain agent #8811 on @orbiodotso hook research, experiments ... more to come\\n\\nMoney doesn't grow on trees. Credit does.",
+   "website": "https://www.undertow.agency/",
+   "twitter": "https://x.com/bucksonchain",
+   "mcap": 2559.8929917822697,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "priors-agents/priors",
+    "score": 25,
+    "raw_score": 75,
+    "capped": true,
+    "flags": [
+     "Repo never mentions this token, its name or its website (repo's own site is priors.trade) \u2014 may be someone else's project"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (borrow, fees, hook, launchpad) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn, stake, stakers) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)"
+     ],
+     "Real code": [
+      "\u2705 278 changes over 45 days (+10)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 46 days old, 1 people, 7 stars, 9 forks (+10)"
+     ],
+     "Safety": [
+      "\u2705 Contract addresses listed in the README (+5)",
+      "\u2705 Safety info: SECURITY file, audit, timelock (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 278,
+     "stars": 7,
+     "created": "2026-09-19",
+     "pushed": "2026-11-04",
+     "people": 1
+    }
+   }
+  },
+  "0x76b6cdb023ba935283547fe9c3addb305d6d48b0": {
+   "address": "0x76b6cdb023ba935283547fe9c3addb305d6d48b0",
+   "symbol": "Perpets",
+   "name": "Perpets",
+   "description": "",
+   "website": "https://perpets.lol",
+   "twitter": "https://x.com/PerpetsRh",
+   "mcap": 3817.5512985347386,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "perpetsdev/",
+    "score": 0,
+    "capped": true,
+    "flags": [
+     "GitHub account perpetsdev has no public code"
+    ],
+    "reasons": {
+     "Really theirs": [
+      "\u274c github.com/perpetsdev has no public repos"
+     ]
+    },
+    "roadmap": [],
+    "facts": {}
+   }
+  },
+  "0x257bd594a54f04c3a5d77f87971233b13236c091": {
+   "address": "0x257bd594a54f04c3a5d77f87971233b13236c091",
+   "symbol": "FLOEM",
+   "name": "Floem",
+   "description": "A garden for onchain markets. Launch tokens, trade perps, earn as LP. \\nBuilt in the open on Robinhood Chain.",
+   "website": "https://floem.fun",
+   "twitter": "https://x.com/floemdotfun_",
+   "mcap": 3780.1631831155632,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "floemdotfun/",
+    "score": 0,
+    "capped": true,
+    "flags": [
+     "GitHub account floemdotfun has no public code"
+    ],
+    "reasons": {
+     "Really theirs": [
+      "\u274c github.com/floemdotfun has no public repos"
+     ]
+    },
+    "roadmap": [],
+    "facts": {}
+   }
+  },
+  "0xbf019e7f6eab2f04b374b6a98a482c50b157bd1b": {
+   "address": "0xbf019e7f6eab2f04b374b6a98a482c50b157bd1b",
+   "symbol": "XMTRX",
+   "name": "xMatrix",
+   "description": "Teams and their coding agents meet in one conversation on xMatrix. Each discussion becomes a living page of decisions, open work.",
+   "website": "https://xmatrix.page",
+   "twitter": "https://x.com/xMatrix_hq",
+   "mcap": 3865.54450291701,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "LambdaLabsHQ/xmatrix",
+    "score": 50,
+    "raw_score": 50,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Maybe earns fees (hook) \u2014 guess from their text, needs a look (+10)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)"
+     ],
+     "Real code": [
+      "\u2705 1377 changes over 29 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 212 days old, 1 people, 90 stars, 3 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 1377,
+     "stars": 90,
+     "created": "2026-10-04",
+     "pushed": "2026-11-04",
+     "people": 1
+    }
+   }
+  },
+  "0xa4018d961759d729996f4db6d8eed7538091ecaa": {
+   "address": "0xa4018d961759d729996f4db6d8eed7538091ecaa",
+   "symbol": "ORDE",
+   "name": "Ordewell",
+   "description": "Open-source orchestration for coding agents. Plan, coordinate, and execute tasks across multiple agents in one workflow.",
+   "website": "https://ordewell.ai",
+   "twitter": "https://x.com/ordewell_ai",
+   "mcap": 4039.892293208364,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-04T12:10:42+00:00",
+   "scored_at": "2026-11-04T12:10:42+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "ordewell/ordewell",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (marketplace, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Repo never mentions this token's address (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)"
+     ],
+     "Real code": [
+      "\u2705 2381 changes over 96 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 96 days old, 8 people, 209 stars, 20 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 65 updates shipped so far"
+    ],
+    "notes": [],
+    "facts": {
+     "commits": 2381,
+     "stars": 209,
+     "created": "2026-07-31",
+     "pushed": "2026-11-04",
+     "people": 8
+    }
+   }
+  }
+ },
+ "checked_total": 95,
+ "symbol_counts": {
+  "OTTOP": 1,
+  "ORBLIVION": 1,
+  "PHILLOWEEN": 1,
+  "SONAR": 1,
+  "Forest Pixel": 1,
+  "HONEY": 1,
+  "TEST": 1,
+  "FLOEM": 2,
+  "PAPARAZZI": 1,
+  "SMOKE": 2,
+  "ROACH": 1,
+  "WENCOIN": 1,
+  "SHTENS": 1,
+  "GTAPAD": 2,
+  "GOLDEN": 1,
+  "BURSAR": 1,
+  "META": 1,
+  "SIXTEEN": 1,
+  "FUFU": 1,
+  "ATLASC": 1,
+  "MONO": 1,
+  "HOOKIT": 1,
+  "CUBE": 1,
+  "NOIRA": 1,
+  "AVERL": 1,
+  "CONCLAVE": 1,
+  "PROPHETIC": 1,
+  "TELEPORT": 1,
+  "UASX": 1,
+  "ELFRENS": 1,
+  "BSD": 1,
+  "PARESTOCK": 1,
+  "ChainEye \ud83d\udc41": 1,
+  "HOUND": 1,
+  "OBERTHFI": 1,
+  "GLOBYR": 1,
+  "SECRIA": 1,
+  "BARRAGE": 1,
+  "PONS": 1,
+  "HARMONIC": 1,
+  "DELTA": 1,
+  "ROBINCAT": 1,
+  "RAETO": 1,
+  "DARWIN": 1,
+  "WIF": 1,
+  "GAGE": 1,
+  "GF": 1,
+  "HETAIROI": 1,
+  "GRENA": 1,
+  "PerpScape": 1,
+  "HMM": 1,
+  "USDT": 1,
+  "HULLBOUND": 1,
+  "RULERS": 2,
+  "Elon": 3,
+  "EPEP": 1,
+  "BUCKS": 1,
+  "NULL": 1,
+  "CH4N": 1,
+  "hope": 2,
+  "KAZ": 1,
+  "WARDEN": 1,
+  "HARUB": 1,
+  "Equify": 2,
+  "Perpets": 1,
+  "NULLARY": 2,
+  "LETHE": 1,
+  "SELENDIS": 1,
+  "XMTRX": 1,
+  "Lotpact": 1,
+  "TIM": 1,
+  "COPYCAT": 1,
+  "MCAT": 1,
+  "QEDGE": 1,
+  "ORDE": 1,
+  "ORBIO": 1,
+  "BOW": 1,
+  "microduck": 1,
+  "CHARLIE": 1
+ }
+}
