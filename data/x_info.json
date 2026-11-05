@@ -1741,6 +1741,11 @@
    "cas": [],
    "fake_posts": [],
    "checked": "2026-11-05T08:15:24+00:00"
+  },
+  "sborindex": {
+   "handle": "SBORindex",
+   "found": false,
+   "checked": "2026-11-05T08:30:28+00:00"
   }
  },
  "ids": {
@@ -2051,7 +2056,8 @@
   "pfedprog": [],
   "fairround": [],
   "the_astropad": [],
-  "axiom_parody123": []
+  "axiom_parody123": [],
+  "sborindex": []
  },
  "history": {
   "barragetrade": {
@@ -3035,6 +3041,11 @@
    "twitter": null,
    "blog": null,
    "checked": "2026-11-05T08:15:24+00:00"
+  },
+  "sborxyz": {
+   "twitter": "SBORindex",
+   "blog": "https://sbor.xyz",
+   "checked": "2026-11-05T08:30:28+00:00"
   }
  }
 }
