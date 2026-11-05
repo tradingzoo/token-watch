@@ -34,14 +34,14 @@
    "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-05T16:30:25+00:00"
+   "left": "2026-11-05T17:04:37+00:00"
   },
   "0x9cc546a4091f184898c4155c1b9f6290075ef8fb": {
    "symbol": "STAX",
    "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-05T16:30:25+00:00"
+   "left": "2026-11-05T17:04:37+00:00"
   },
   "0xb8fa8010833463aac5595b55b9045479239eff79": {
    "symbol": "WTH",
@@ -59,10 +59,10 @@
   },
   "0xf44702b17d9abd53815f703e772f35e9c71a53af": {
    "symbol": "RAXOL",
-   "in": false,
-   "joined": null,
-   "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-05T16:30:25+00:00"
+   "in": true,
+   "joined": "2026-11-05T15:46:50+00:00",
+   "first": "2026-11-05T15:46:50+00:00",
+   "left": null
   },
   "0xaf2d6cc1586539997840d4635480c2f8494dac2e": {
    "symbol": "KILLFLOOR",
@@ -111,14 +111,14 @@
    "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-05T16:30:25+00:00"
+   "left": "2026-11-05T17:04:37+00:00"
   },
   "0x61e0deba0a6bd1d0df92af816739449c861e3cce": {
    "symbol": "SYNTHS",
    "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-05T16:30:25+00:00"
+   "left": "2026-11-05T17:04:37+00:00"
   },
   "0x89b76dcdda801f2e456765742c64950eb2a0c93c": {
    "symbol": "BORRO",
@@ -143,10 +143,10 @@
   },
   "0xa4ddf89a40a35264e9d7f896a1ef01c59b1e977a": {
    "symbol": "ANYR",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T14:50:31+00:00",
-   "left": "2026-11-05T15:46:50+00:00"
+   "left": null
   },
   "0xb33eb16782776b4d738c0fd643577cb0284db610": {
    "symbol": "HEY",
@@ -169,11 +169,11 @@
    "first": "2026-11-05T16:30:25+00:00",
    "left": null
   },
-  "0x440e339a46eaa3be8d723c2cbed2a30af74536d5": {
-   "symbol": "SPRING",
+  "0xa869bbf8814f8573c310181705ea35143f3b5be5": {
+   "symbol": "FARE",
    "in": true,
-   "joined": "2026-11-05T16:30:25+00:00",
-   "first": "2026-11-05T16:30:25+00:00",
+   "joined": "2026-11-05T17:04:37+00:00",
+   "first": "2026-11-05T17:04:37+00:00",
    "left": null
   }
  }
