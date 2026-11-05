@@ -1673,6 +1673,28 @@
    ],
    "fake_posts": [],
    "checked": "2026-11-05T07:45:22+00:00"
+  },
+  "fairround": {
+   "handle": "fairround",
+   "found": true,
+   "id": "2114190575922819072",
+   "name": "FairRound",
+   "joined": "2026-10-25T03:02:15+00:00",
+   "followers": 7,
+   "following": 27,
+   "posts": 35,
+   "verified": null,
+   "last_post": "2026-11-05T04:00:04+00:00",
+   "sample": 16,
+   "sample_full_week": true,
+   "posts_7d": 16,
+   "avg_likes": 0.5,
+   "avg_views": 8,
+   "bio_site": "http://fairround.xyz",
+   "bio": "Own the price discovery. The on-chain IPO exchange for crypto projects: one clearing price, small buyers filled, the raise held by holders. Live on @arbitrum",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T08:00:41+00:00"
   }
  },
  "ids": {
@@ -1894,6 +1916,9 @@
   ],
   "1188005806484217856": [
    "pfedprog"
+  ],
+  "2114190575922819072": [
+   "fairround"
   ]
  },
  "past": {
@@ -1971,7 +1996,8 @@
   "pilotprotocol_": [],
   "0xoffshift": [],
   "flexmeow": [],
-  "pfedprog": []
+  "pfedprog": [],
+  "fairround": []
  },
  "history": {
   "barragetrade": {
@@ -2553,6 +2579,12 @@
     3500,
     11543
    ]
+  },
+  "fairround": {
+   "2026-11-05": [
+    7,
+    35
+   ]
   }
  },
  "telegram": {
@@ -2927,6 +2959,11 @@
    "twitter": "pfedprog",
    "blog": "https://dspyt.com/profile/pavel-fedotov/",
    "checked": "2026-11-05T07:45:22+00:00"
+  },
+  "amiran11": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T08:00:41+00:00"
   }
  }
 }

@@ -669,7 +669,11 @@
   "0xda201daeb934aab6d87c6c9f38368fb498a25a19": "2026-11-05T07:45:22+00:00",
   "0x01b22b48aa5111bf08603c0450ad4388dec913f0": "2026-11-05T07:45:22+00:00",
   "0x09a969fa304ec0a8d6707d23698c1d0ea455c008": "2026-11-05T07:45:22+00:00",
-  "0x4387dd92f6aa259084adf33b8bfc2cc1e0aadfdb": "2026-11-05T07:45:22+00:00"
+  "0x4387dd92f6aa259084adf33b8bfc2cc1e0aadfdb": "2026-11-05T07:45:22+00:00",
+  "0x1df5916e0df4abeed63585f74aaccc9335dafe50": "2026-11-05T08:00:41+00:00",
+  "0x4c45dacdb284b13df65435270cc6d8b5b0654222": "2026-11-05T08:00:41+00:00",
+  "0x8dd71026cd5e0b832c098995cdd72ae952e715d6": "2026-11-05T08:00:41+00:00",
+  "0xeb7e610a85c4daa77ad2229b330789ae4e7265cb": "2026-11-05T08:00:41+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -5492,9 +5496,73 @@
      "people": 0
     }
    }
+  },
+  "0x8dd71026cd5e0b832c098995cdd72ae952e715d6": {
+   "address": "0x8dd71026cd5e0b832c098995cdd72ae952e715d6",
+   "symbol": "FAIRND",
+   "name": "FairRound",
+   "description": "FairRound is an on-chain IPO exchange for crypto projects on Arbitrum. Every listing round clears at one price.",
+   "website": "https://fairround.xyz",
+   "twitter": "https://x.com/fairround",
+   "launched": "2026-11-05T07:45:47+00:00",
+   "mcap": 4086.2946844510493,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T08:00:41+00:00",
+   "scored_at": "2026-11-05T08:00:41+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "amiran11/fairround",
+    "score": 70,
+    "raw_score": 70,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Maybe earns fees (exchange) \u2014 guess from their text, needs a look (+10)",
+      "\ud83d\udfe1 Says fees go back to the token (burn) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (fairround.xyz/docs), docs (fairround.xyz/llms.txt), website (fairround.xyz), website code (fairround.xyz))"
+     ],
+     "Real code": [
+      "\u2705 218 changes over 108 days (+10)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 3225 days old, 2 people, 0 stars, 0 forks (+10)"
+     ],
+     "Safety": [
+      "\u2705 Contract addresses listed in the README (+5)",
+      "\u2705 Safety info: audit, timelock (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://fairround.xyz",
+     "https://fairround.xyz",
+     "https://fairround.xyz/llms.txt",
+     "https://fairround.xyz/docs"
+    ],
+    "facts": {
+     "commits": 218,
+     "stars": 0,
+     "created": "2026-07-17",
+     "pushed": "2026-11-02",
+     "people": 2
+    }
+   }
   }
  },
- "checked_total": 659,
+ "checked_total": 663,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -5999,6 +6067,10 @@
   }
  ],
  "symbol_counts": {
+  "ASI": 1,
+  "BNW": 1,
+  "FAIRND": 1,
+  "LAYER": 1,
   "PILOT": 3,
   "Stockless": 1,
   "NYMRA": 4,
@@ -6031,16 +6103,19 @@
   "MNYBST": 1,
   "Human": 1,
   "TATTER": 1,
+  "WIF": 1,
+  "PONS": 1,
+  "HARMONIC": 1,
+  "CHARLIE": 1,
+  "ROBINCAT": 1,
+  "MOTION": 1,
+  "GAGE": 1,
+  "ZEAL": 1,
   "ARCOM": 1,
   "STACK": 1,
   "ROME": 1,
   "STUDIES": 1,
-  "WIF": 1,
-  "PONS": 1,
-  "ROBINCAT": 1,
-  "CHARLIE": 1,
   "SHROOM": 1,
-  "HARMONIC": 1,
   "ROBINHOOD": 1,
   "DELTA": 1,
   "PACKSW": 1,
@@ -6056,7 +6131,6 @@
   "FTT": 1,
   "PARITY": 1,
   "CHAMPS": 1,
-  "MOTION": 1,
   "UBIK": 1,
   "TRIVVO": 2,
   "VARSEL": 1,
@@ -6090,7 +6164,6 @@
   "OPSMAX": 1,
   "APORIX": 1,
   "inshallah": 2,
-  "ZEAL": 1,
   "MTRL": 1,
   "DRKLAB": 1,
   "OPENRA": 1,
@@ -6319,7 +6392,6 @@
   "UNHACK": 1,
   "MEOW": 5,
   "MADAPE": 1,
-  "GAGE": 1,
   "NOTCHD": 1,
   "PSU": 1,
   "LURK": 1,
@@ -7105,6 +7177,8 @@
   "0xa27e07503d23d7c658753d1917468005a768fe38": "2026-11-05T07:30:27+00:00",
   "0x46835c309fab2b1a086b73ac83cba1843219a876": "2026-11-05T07:30:27+00:00",
   "0x36a080c57c749e57eaf859ce082a368d96264481": "2026-11-05T07:30:27+00:00",
-  "0xda201daeb934aab6d87c6c9f38368fb498a25a19": "2026-11-05T07:45:22+00:00"
+  "0xda201daeb934aab6d87c6c9f38368fb498a25a19": "2026-11-05T07:45:22+00:00",
+  "0x1df5916e0df4abeed63585f74aaccc9335dafe50": "2026-11-05T08:00:41+00:00",
+  "0xeb7e610a85c4daa77ad2229b330789ae4e7265cb": "2026-11-05T08:00:41+00:00"
  }
 }
