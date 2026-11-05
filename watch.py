@@ -921,7 +921,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
   {meta_html}</details>
 </article>""")
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="refresh" content="420"><title>GitHub Token Watch</title>
+<meta http-equiv="refresh" content="420"><title>Token Watch</title>
 <style>
 :root{{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1b;--mute:#6b6b66;--line:#e4e4df;--hi:#1f7a4d;--mid:#a86b00;--lo:#b3372f;--flag:#fdecea;--accent:#2f5bd3}}
 @media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#151614;--card:#1e1f1c;--ink:#ecebe6;--mute:#9c9b94;--line:#33342f;--hi:#4cc38a;--mid:#e0a63a;--lo:#ef7a6f;--flag:#3a2220;--accent:#8aa8ff}}}}
@@ -944,28 +944,46 @@ a{{color:var(--accent)}} .new{{font-size:11px;background:var(--accent);color:var
 .trow{{border-top:1px solid var(--line);padding:8px 0}} .trow summary{{color:var(--ink);font-size:14px}} .trow summary b{{margin-right:4px}}
 .kv{{color:var(--mute);font-size:13px;margin-left:8px;white-space:nowrap}} .kv.warn{{color:var(--lo)}}
 .grp{{font-size:11px;border:1px solid var(--line);border-radius:5px;padding:0 5px;color:var(--mute)}} .grp.watch{{color:var(--accent);border-color:var(--accent)}} .grp.benchmark{{color:var(--hi);border-color:var(--hi)}}
+.tabs{{position:sticky;top:0;z-index:5;display:flex;gap:6px;overflow-x:auto;background:var(--bg);padding:8px 0;margin:6px 0 4px;border-bottom:1px solid var(--line)}}
+.tabs a{{flex:none;text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--card);border-radius:8px;padding:6px 12px;font-size:14px;white-space:nowrap}}
+.tabs a.on{{border-color:var(--accent);color:var(--accent);font-weight:600}} .cnt{{font-size:12px;color:var(--mute)}}
 ul{{margin:0;padding-left:20px}} button.wrong{{font-size:12px;border:1px solid var(--line);background:none;color:var(--mute);border-radius:6px;padding:1px 8px;cursor:pointer;margin-right:6px}} li{{margin:2px 0}} code{{font-size:13px}}
 </style></head><body><main>
-<h1>GitHub Token Watch</h1>
-<p class="top">New Robinhood Chain tokens (Pons + DexScreener): first the site check, then tokens with a public GitHub. Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
-<h2 style="margin:22px 0 6px" id="sites">Site check: tokens whose website lets developers and AI agents plug in</h2>
+<h1>Token Watch</h1>
+<nav class="tabs" id="tabs">
+<a href="#sites" data-tab="sites">Site check <span class="cnt">{len(site_rows)}</span></a>
+<a href="#github" data-tab="github">GitHub <span class="cnt">{len(rows)}</span></a>
+<a href="#test" data-tab="test">30-day test</a>
+<a href="#status" data-tab="status">Status changes</a>
+<a href="#scores" data-tab="scores">Was the score right?</a>
+</nav>
+<p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
+<section class="tab" id="sites">
+<h2 style="margin:22px 0 6px">Site check: tokens whose website lets developers and AI agents plug in</h2>
 <p class="top">No GitHub needed. Listed when their own website has at least {sitecheck.LIST_AT} of API key, SDK, MCP and llms.txt.
 Why: on 5 Nov, 32% of tokens worth $2M+ had 3 or more of these, against 2% of random tokens that went nowhere. Rules: SCORING.md.
 Prices are tracked so we can see whether this works.</p>
 {''.join(site_cards) if site_cards else '<p>No tokens have passed the site check yet.</p>'}
-{shipping.alerts_html(ship, NOW) if ship else ''}
-{test_html}
+</section>
+<section class="tab" id="status">{shipping.alerts_html(ship, NOW) if ship else '<p>No status data yet.</p>'}</section>
+<section class="tab" id="test">{test_html or '<p>The 30-day test section is refreshed about twice a day.</p>'}</section>
+<section class="tab" id="scores">{prices.section(pdb, e)}</section>
+<section class="tab" id="github">
 <h2 style="margin:22px 0 10px">New tokens with a public GitHub</h2>
-{prices.section(pdb, e)}
 <div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="60">60+</button><button data-f="flag">Red flags</button></div>
 {''.join(cards) if cards else '<p>No tokens with a public GitHub yet.</p>'}
 {skipped_html(state)}
+</section>
 </main><script>
+(()=>{{const tabs=[...document.querySelectorAll('section.tab')],links=[...document.querySelectorAll('#tabs a')];
+const show=()=>{{let id=(location.hash||'#sites').slice(1);if(!tabs.some(t=>t.id===id))id='sites';
+tabs.forEach(t=>t.hidden=t.id!==id);links.forEach(a=>a.classList.toggle('on',a.dataset.tab===id));}};
+window.addEventListener('hashchange',()=>{{show();window.scrollTo(0,0);}});show();}})();
 document.querySelectorAll('button.wrong').forEach(b=>b.onclick=()=>{{const m=b.dataset.msg;
 const done=()=>{{b.textContent='Copied: paste it to Claude and add the right repo';}};
 if(navigator.clipboard)navigator.clipboard.writeText(m).then(done,()=>prompt('Copy this and paste it to Claude:',m));else prompt('Copy this and paste it to Claude:',m);}});
 document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{{document.querySelectorAll('.bar button').forEach(x=>x.classList.toggle('on',x===b));
-const f=b.dataset.f;document.querySelectorAll('article.card').forEach(c=>{{const s=+c.dataset.score,n=c.dataset.new==='1',fl=!!c.querySelector('.flag');
+const f=b.dataset.f;document.querySelectorAll('#github article.card').forEach(c=>{{const s=+c.dataset.score,n=c.dataset.new==='1',fl=!!c.querySelector('.flag');
 c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))?'':'none'}})}});
 {LOCAL_TIME_JS}
 </script></body></html>"""
