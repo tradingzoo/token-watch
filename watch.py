@@ -1622,7 +1622,14 @@ def site_pass(toks, state, reviews):
             if launched and days_between(NOW, launched) > sitecheck.NEW_DAYS:
                 continue
         todo.append((key, t))
-    new = [x for x in todo if x[0] not in sites][:sitecheck.MAX_NEW_PER_RUN]
+    new = [x for x in todo if x[0] not in sites]
+    over = [k for k, _ in new[sitecheck.MAX_NEW_PER_RUN:] if k not in looked]
+    if over:  # didn't fit this run: queue them for catch-up so a token seen only once isn't lost (5 Nov: HMM)
+        q = json.load(open(CATCHUP, encoding="utf-8")) if os.path.exists(CATCHUP) else []
+        q += [k for k in over if k not in set(q)]
+        json.dump(q, open(CATCHUP, "w", encoding="utf-8"))
+        log(f"Site check: {len(over)} tokens didn't fit this run, queued for catch-up")
+    new = new[:sitecheck.MAX_NEW_PER_RUN]
     todo = [x for x in todo if x[0] in sites] + new
     n_listed = 0
     for key, t in todo:
