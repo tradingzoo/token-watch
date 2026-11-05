@@ -634,7 +634,14 @@
   "0xfdbe4ba7060d85b71a1eca33011e0cfd0723e103": "2026-11-05T06:30:27+00:00",
   "0xfad17d7cc41d9c9ca4a459da798a4446dd217974": "2026-11-05T06:30:27+00:00",
   "0xcedb9836efe8e802e70002930d30e5fbfd846914": "2026-11-05T06:30:27+00:00",
-  "0x0f798b0315c064b190bbc5680f66aab2f0d6d579": "2026-11-05T06:30:27+00:00"
+  "0x0f798b0315c064b190bbc5680f66aab2f0d6d579": "2026-11-05T06:30:27+00:00",
+  "0xb9504ffcde44816eed48736c71f156c82025ab42": "2026-11-05T06:45:23+00:00",
+  "0x958b7b32384f7d75904c909bbf1e5aef06f3d015": "2026-11-05T06:45:23+00:00",
+  "0x07d577c99cb72be75009da3c43e4f2a045079c0e": "2026-11-05T06:45:23+00:00",
+  "0xbc190e16f0028a7e42b7f4b48be8bc2f23b9ad27": "2026-11-05T06:45:23+00:00",
+  "0x7b6c500a53106276d2bd46e2efa65736e0f608fc": "2026-11-05T06:45:23+00:00",
+  "0x9055a55bd621bfebd4e741b5db61f9dbe8838ad6": "2026-11-05T06:45:23+00:00",
+  "0x2e22c08fc49f6e28bcc0411545c1b6f170db1912": "2026-11-05T06:45:23+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -4963,9 +4970,78 @@
      "people": 1
     }
    }
+  },
+  "0x2e22c08fc49f6e28bcc0411545c1b6f170db1912": {
+   "address": "0x2e22c08fc49f6e28bcc0411545c1b6f170db1912",
+   "symbol": "PILOT",
+   "name": "Pilot",
+   "description": "Pilot. Where agents go.",
+   "website": "https://pilotprotocol.network",
+   "twitter": "https://x.com/pilotprotocol_",
+   "launched": "2026-11-05T06:30:57+00:00",
+   "mcap": 3968.0210062216397,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T06:45:23+00:00",
+   "scored_at": "2026-11-05T06:45:23+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pilot-protocol/pilotprotocol",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, hook) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (pilotprotocol.network/docs), docs (pilotprotocol.network/docs/concepts), docs (pilotprotocol.network/docs/getting-started), docs (pilotprotocol.network/docs/integration), docs (pilotprotocol.network/docs/research), docs (pilotprotocol.network/llms.txt), website (pilotprotocol.network), website code (pilotprotocol.network))"
+     ],
+     "Real code": [
+      "\u2705 938 changes over 243 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 167 days old, 6 people, 148 stars, 20 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 22 updates shipped so far",
+     "Website has a roadmap page: https://pilotprotocol.network/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://pilotprotocol.network",
+     "https://pilotprotocol.network",
+     "https://pilotprotocol.network/llms.txt",
+     "https://pilotprotocol.network/docs",
+     "https://pilotprotocol.network/docs/concepts",
+     "https://pilotprotocol.network/docs/getting-started",
+     "https://pilotprotocol.network/docs/integration",
+     "https://pilotprotocol.network/docs/research"
+    ],
+    "facts": {
+     "commits": 938,
+     "stars": 148,
+     "created": "2026-02-07",
+     "pushed": "2026-10-14",
+     "people": 6
+    }
+   }
   }
  },
- "checked_total": 624,
+ "checked_total": 631,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -5426,9 +5502,36 @@
     "curl/curl",
     "tatter-xyz/curl-reader"
    ]
+  },
+  {
+   "when": "2026-11-05T06:45:23+00:00",
+   "address": "0x7b6c500a53106276d2bd46e2efa65736e0f608fc",
+   "symbol": "GLOBYR",
+   "website": "https://globyr.xyz",
+   "used": null,
+   "ignored": [
+    "ethers-io/ethers.js"
+   ]
+  },
+  {
+   "when": "2026-11-05T06:45:23+00:00",
+   "address": "0x2e22c08fc49f6e28bcc0411545c1b6f170db1912",
+   "symbol": "PILOT",
+   "website": "https://pilotprotocol.network",
+   "used": "pilot-protocol/pilotprotocol",
+   "ignored": [
+    "pilot-protocol"
+   ]
   }
  ],
  "symbol_counts": {
+  "LAST20DOLL": 1,
+  "BELL": 2,
+  "OKHOMI": 1,
+  "SHIFT": 1,
+  "GLOBYR": 1,
+  "DEMTAS": 1,
+  "PILOT": 1,
   "DCD": 1,
   "WAFER": 1,
   "MNYBST": 1,
@@ -5462,6 +5565,16 @@
   "SKYFLO": 1,
   "RWACAT": 1,
   "OURO": 1,
+  "WIF": 1,
+  "PONS": 1,
+  "OAK": 1,
+  "HMM": 1,
+  "DARWIN": 1,
+  "HARMONIC": 1,
+  "MOTION": 1,
+  "CHARLIE": 1,
+  "UBIK": 1,
+  "microduck": 1,
   "GTA8": 1,
   "AEGISOS": 1,
   "APLOMB": 1,
@@ -5469,16 +5582,8 @@
   "TAPDRP": 1,
   "SLING": 1,
   "SLOP": 1,
-  "WIF": 1,
-  "PONS": 1,
-  "OAK": 1,
-  "HMM": 1,
-  "DARWIN": 1,
   "ROBINCAT": 1,
-  "HARMONIC": 1,
   "DELTA": 1,
-  "CHARLIE": 1,
-  "MOTION": 1,
   "VESPERAI": 1,
   "\u062d\u0644\u0627\u0644": 5,
   "ORBITALS": 1,
@@ -5497,10 +5602,8 @@
   "SNOP": 4,
   "EXPO": 1,
   "DEBUT": 2,
-  "BELL": 2,
   "hookscan": 2,
   "XENTH": 1,
-  "UBIK": 1,
   "ASTER": 2,
   "VOTC": 1,
   "PERPSONS": 1,
@@ -5614,7 +5717,6 @@
   "FECALCOIN": 1,
   "THINKN": 1,
   "INSTCK": 1,
-  "microduck": 1,
   "GORGO": 1,
   "CUBE": 1,
   "RURU": 1,
@@ -5713,7 +5815,6 @@
   "AI": 2,
   "ROSTIQ": 1,
   "KERNEL": 1,
-  "SHIFT": 1,
   "CHARITY": 1,
   "COAGENTS": 1,
   "TI": 1,
@@ -5853,7 +5954,6 @@
   "NOIRA": 1,
   "HOUND": 1,
   "OBERTHFI": 1,
-  "GLOBYR": 1,
   "SECRIA": 1,
   "BARRAGE": 1,
   "HETAIROI": 1,
@@ -6383,6 +6483,69 @@
      "winners_linked": []
     }
    }
+  },
+  "0xbc190e16f0028a7e42b7f4b48be8bc2f23b9ad27": {
+   "address": "0xbc190e16f0028a7e42b7f4b48be8bc2f23b9ad27",
+   "symbol": "SHIFT",
+   "name": "OFF SHIFT",
+   "description": "OFFSHIFT is building a decentralized AI computing network powered by unused Apple Silicon resources.\\n\\nOne network, linking hardware owners and AI developers.",
+   "website": "https://unseenagents.online",
+   "twitter": "https://x.com/0xoffshift",
+   "launched": "2026-11-05T06:32:50+00:00",
+   "mcap": 4059.5316870386123,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T06:45:23+00:00",
+   "scored_at": "2026-11-05T06:45:23+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 25,
+    "raw_score": 25,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token (+0)",
+      "\u274c No use of stock tokens or USDG (+0)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard or wallet connect) (+5)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://unseenagents.online",
+     "https://unseenagents.online",
+     "https://unseenagents.online#token"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
   }
  },
  "site_checked": {
@@ -6431,6 +6594,10 @@
   "0x4baac3432c1f4e4c12a6250a7497dac0e73d2029": "2026-11-05T06:08:44+00:00",
   "0x3495c13c36a50ba6d05e94790864dabb37ee57ef": "2026-11-05T06:15:34+00:00",
   "0xfad17d7cc41d9c9ca4a459da798a4446dd217974": "2026-11-05T06:30:27+00:00",
-  "0xe8ffd7e24187f72afb08d75b1bb13088a989a791": "2026-11-05T06:30:27+00:00"
+  "0xe8ffd7e24187f72afb08d75b1bb13088a989a791": "2026-11-05T06:30:27+00:00",
+  "0x07d577c99cb72be75009da3c43e4f2a045079c0e": "2026-11-05T06:45:23+00:00",
+  "0xbc190e16f0028a7e42b7f4b48be8bc2f23b9ad27": "2026-11-05T06:45:23+00:00",
+  "0x7b6c500a53106276d2bd46e2efa65736e0f608fc": "2026-11-05T06:45:23+00:00",
+  "0x9055a55bd621bfebd4e741b5db61f9dbe8838ad6": "2026-11-05T06:45:23+00:00"
  }
 }

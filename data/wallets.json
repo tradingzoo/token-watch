@@ -1038,5 +1038,32 @@
   "after": 0,
   "others": [],
   "wallet_txs": 7
+ },
+ "0x2e22c08fc49f6e28bcc0411545c1b6f170db1912": {
+  "checked": "2026-11-05T06:46:28+00:00",
+  "pons": true,
+  "wallet": "0xef53d56479b2269b8a08c6e06ee8093d0eed7ba9",
+  "launches": 2,
+  "before": 1,
+  "after": 0,
+  "others": [
+   {
+    "address": "0x88909d5cec6978ceef1a2588b5f8c0bebf78dcaa",
+    "symbol": "PILOT",
+    "mcap": 3972.5369048072926,
+    "launched": "2026-11-04T17:22:48+00:00"
+   }
+  ],
+  "wallet_txs": 6
+ },
+ "0xbc190e16f0028a7e42b7f4b48be8bc2f23b9ad27": {
+  "checked": "2026-11-05T06:46:28+00:00",
+  "pons": true,
+  "wallet": "0x5d14aa4e6bee0a3aac7c85934f77c15bef7a873e",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 14
  }
 }

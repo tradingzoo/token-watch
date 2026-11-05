@@ -1582,6 +1582,50 @@
    ],
    "fake_posts": [],
    "checked": "2026-11-05T06:15:34+00:00"
+  },
+  "pilotprotocol_": {
+   "handle": "pilotprotocol_",
+   "found": true,
+   "id": "2118087960327225345",
+   "name": "Pilot Protocol",
+   "joined": "2026-11-04T21:09:18+00:00",
+   "followers": 2,
+   "following": 5,
+   "posts": 9,
+   "verified": "individual",
+   "last_post": "2026-11-05T03:19:07+00:00",
+   "sample": 7,
+   "sample_full_week": false,
+   "posts_7d": 7,
+   "avg_likes": 0.0,
+   "avg_views": 18,
+   "bio_site": "http://pilotprotocol.network",
+   "bio": "P2P Networking Stack for Al Agents.",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T06:45:23+00:00"
+  },
+  "0xoffshift": {
+   "handle": "0xOffShift",
+   "found": true,
+   "id": "2115172007344001024",
+   "name": "Off Shift",
+   "joined": "2026-10-27T20:06:55+00:00",
+   "followers": 0,
+   "following": 1,
+   "posts": 1,
+   "verified": null,
+   "last_post": "2026-10-31T15:53:28+00:00",
+   "sample": 1,
+   "sample_full_week": false,
+   "posts_7d": 1,
+   "avg_likes": 0.0,
+   "avg_views": 31,
+   "bio_site": "https://www.offshiftrh.xyz/",
+   "bio": "Your computer has a night job.",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T06:45:23+00:00"
   }
  },
  "ids": {
@@ -1791,6 +1835,12 @@
   ],
   "1334655364038422529": [
    "human_protocol"
+  ],
+  "2118087960327225345": [
+   "pilotprotocol_"
+  ],
+  "2115172007344001024": [
+   "0xOffShift"
   ]
  },
  "past": {
@@ -1864,7 +1914,9 @@
   "motiongift": [],
   "varselio1980": [],
   "tatter_xyz": [],
-  "human_protocol": []
+  "human_protocol": [],
+  "pilotprotocol_": [],
+  "0xoffshift": []
  },
  "history": {
   "barragetrade": {
@@ -2422,6 +2474,18 @@
     51179,
     1546
    ]
+  },
+  "pilotprotocol_": {
+   "2026-11-05": [
+    2,
+    9
+   ]
+  },
+  "0xoffshift": {
+   "2026-11-05": [
+    0,
+    1
+   ]
   }
  },
  "telegram": {
@@ -2781,6 +2845,11 @@
    "twitter": null,
    "blog": "https://humanprotocol.org",
    "checked": "2026-11-05T06:15:34+00:00"
+  },
+  "pilot-protocol": {
+   "twitter": null,
+   "blog": "https://pilotprotocol.network",
+   "checked": "2026-11-05T06:45:23+00:00"
   }
  }
 }
