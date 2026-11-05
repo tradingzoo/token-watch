@@ -1059,7 +1059,7 @@
   "wallet_txs": 7
  },
  "0x2e22c08fc49f6e28bcc0411545c1b6f170db1912": {
-  "checked": "2026-11-05T18:48:28+00:00",
+  "checked": "2026-11-05T19:05:53+00:00",
   "pons": true,
   "wallet": "0xef53d56479b2269b8a08c6e06ee8093d0eed7ba9",
   "launches": 2,
@@ -1069,14 +1069,14 @@
    {
     "address": "0x88909d5cec6978ceef1a2588b5f8c0bebf78dcaa",
     "symbol": "PILOT",
-    "mcap": 3690.759057893933,
+    "mcap": 3677.7133779642854,
     "launched": "2026-11-04T17:22:48+00:00"
    }
   ],
   "wallet_txs": 9
  },
  "0xbc190e16f0028a7e42b7f4b48be8bc2f23b9ad27": {
-  "checked": "2026-11-05T18:48:28+00:00",
+  "checked": "2026-11-05T19:05:53+00:00",
   "pons": true,
   "wallet": "0x5d14aa4e6bee0a3aac7c85934f77c15bef7a873e",
   "launches": 1,
@@ -3840,28 +3840,18 @@
   "others": [],
   "wallet_txs": 9
  },
- "0x3e7d88a2c1b7836af52e26a219fb54304fc1737b": {
-  "checked": "2026-11-05T18:48:28+00:00",
+ "0x2c518289915c78f870f1a86bd71685383fe95c58": {
+  "checked": "2026-11-05T19:05:53+00:00",
   "pons": true,
-  "wallet": "0xdf1ead76d2d0f8fe7494ce72def15ad0e953cb97",
-  "launches": 88,
-  "before": 84,
-  "after": 3,
+  "wallet": "0x7b444d22f099fd238210161791de26d16c3cedf2",
+  "launches": 3649,
+  "before": 2282,
+  "after": 1366,
   "others": [],
-  "wallet_txs": 1383
- },
- "0x85f6bbd7e1a03ac0b3946fabedaf33f24f33cc4d": {
-  "checked": "2026-11-05T18:48:28+00:00",
-  "pons": true,
-  "wallet": "0xb84ed664c05a56e0ba41fe40fb93eeaa73257710",
-  "launches": 1,
-  "before": 0,
-  "after": 0,
-  "others": [],
-  "wallet_txs": 6
+  "wallet_txs": 55255
  },
  "0xfb832ecb020fe83e42b58d209a26840b701bc9ae": {
-  "checked": "2026-11-05T18:48:28+00:00",
+  "checked": "2026-11-05T19:05:53+00:00",
   "pons": true,
   "wallet": "0xf9b1116bfbe40cc15c5eaf14527448dc53805613",
   "launches": 1,
@@ -3871,7 +3861,7 @@
   "wallet_txs": 6
  },
  "0x0d32e7e23e90e7504e1ae48acb215778571db377": {
-  "checked": "2026-11-05T18:48:28+00:00",
+  "checked": "2026-11-05T19:05:53+00:00",
   "pons": true,
   "wallet": "0xc5ef453170a8b9287e1e0f9003c879e5cca0464c",
   "launches": 1,
@@ -3881,7 +3871,7 @@
   "wallet_txs": 9
  },
  "0x989dec15015a6d54cf2a74ad6a1369a86a5da9b9": {
-  "checked": "2026-11-05T18:48:28+00:00",
+  "checked": "2026-11-05T19:05:53+00:00",
   "pons": true,
   "wallet": "0x6c885b54f347b3fa6dd61fd8ca64a603ee895ac7",
   "launches": 1,
@@ -3889,15 +3879,5 @@
   "after": 0,
   "others": [],
   "wallet_txs": 8
- },
- "0xe86e8331fbb72c23b83ad0f5dbd56c5735709533": {
-  "checked": "2026-11-05T18:48:28+00:00",
-  "pons": true,
-  "wallet": "0xca42692a50c95cdf786288d7585dc53173d601fc",
-  "launches": 1,
-  "before": 0,
-  "after": 0,
-  "others": [],
-  "wallet_txs": 10
  }
 }

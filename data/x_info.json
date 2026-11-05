@@ -2387,21 +2387,31 @@
    "id": "2118087960327225345",
    "name": "Pilot Protocol",
    "joined": "2026-11-04T21:09:18+00:00",
-   "followers": 2,
+   "followers": 6,
    "following": 5,
-   "posts": 9,
+   "posts": 11,
    "verified": "individual",
-   "last_post": "2026-11-05T03:19:07+00:00",
-   "sample": 7,
+   "last_post": "2026-11-05T10:05:29+00:00",
+   "sample": 8,
    "sample_full_week": false,
-   "posts_7d": 7,
-   "avg_likes": 0.0,
-   "avg_views": 18,
+   "posts_7d": 8,
+   "avg_likes": 0.5,
+   "avg_views": 65,
    "bio_site": "http://pilotprotocol.network",
-   "bio": "P2P Networking Stack for Al Agents.",
+   "bio": "P2P Networking Stack for Al Agents. Backup account. Mainly for tokens.",
    "cas": [],
    "fake_posts": [],
-   "checked": "2026-11-05T06:45:23+00:00"
+   "texts": [
+    "Burned! https://robinhoodchain.blockscout.com/tx/0x7b8ab00ae9775c52e712989266c57f3aa6db0e8de0a7a31fc7217aa80fd0e277",
+    "1/5 About 430 agents on the Pilot backbone answer with live data. Here\u2019s how your agent finds them and asks.",
+    "4/5 list-agents is the directory. Search it by keyword to find the agent and the query it expects: pilotctl send-message list-agents --data '/data {\"search\":\"weather\",\"limit\":3}' --wait",
+    "5/5 Not sure which agent? Describe the task in plain English to pilot-mom. It replies with a plan: the exact calls to make, in order. pilot-mom only plans; your agent runs the calls.",
+    "An address, keys and trust for every agent. A permanent 48-bit address and an Ed25519 identity. Tunnels encrypted with X25519 and AES-256-GCM. STUN and hole punching through NAT, an encrypted relay as fallback. Nobody reaches yours until both sides approve.",
+    "How it fits together: your agent talks to a Pilot daemon on its own machine, and the daemon reaches other agents over encrypted tunnels.",
+    "Pilot. Where agents go.",
+    "The open network for agents. Pilot Protocol gives every AI agent a permanent address, encrypted tunnels and explicit trust, with live data agents and an App Store on the same network. Open source under AGPL-3.0."
+   ],
+   "checked": "2026-11-05T19:00:10+00:00"
   },
   "0xoffshift": {
    "handle": "0xOffShift",
@@ -2409,7 +2419,7 @@
    "id": "2115172007344001024",
    "name": "Off Shift",
    "joined": "2026-10-27T20:06:55+00:00",
-   "followers": 0,
+   "followers": 1,
    "following": 1,
    "posts": 1,
    "verified": null,
@@ -2417,13 +2427,16 @@
    "sample": 1,
    "sample_full_week": false,
    "posts_7d": 1,
-   "avg_likes": 0.0,
-   "avg_views": 31,
+   "avg_likes": 1.0,
+   "avg_views": 37,
    "bio_site": "https://www.offshiftrh.xyz/",
    "bio": "Your computer has a night job.",
    "cas": [],
    "fake_posts": [],
-   "checked": "2026-11-05T06:45:23+00:00"
+   "texts": [
+    "OFFSHIFT is building a decentralized AI computing network powered by unused Apple Silicon resources. One network, linking hardware owners and AI developers."
+   ],
+   "checked": "2026-11-05T19:00:10+00:00"
   },
   "flexmeow": {
    "handle": "flexmeow",
@@ -9218,16 +9231,16 @@
    "id": "2085254239907950592",
    "name": "Frong \ud83d\udc38",
    "joined": "2026-08-06T06:42:11+00:00",
-   "followers": 3354,
+   "followers": 3355,
    "following": 11,
-   "posts": 375,
+   "posts": 377,
    "verified": "individual",
    "last_post": "2026-11-05T17:41:18+00:00",
-   "sample": 19,
+   "sample": 18,
    "sample_full_week": false,
-   "posts_7d": 9,
-   "avg_likes": 57.8,
-   "avg_views": 1406,
+   "posts_7d": 8,
+   "avg_likes": 57.7,
+   "avg_views": 1402,
    "bio_site": "https://t.me/frongcommunity",
    "bio": "it's frong, baby \ud83d\udc38  created by @zacklabadie in the @tradepools trenches. community-owned account. stay $FRONG",
    "cas": [],
@@ -9250,10 +9263,9 @@
     "The @RobinhoodCrypto fans were never frong just early",
     "It\u2019s macareeennnnaaa time with @vladtenev",
     "not frong just early @TradePools @RobinhoodCrypto",
-    "There\u2019s a new hero in town @TradePools",
-    "Welcome to @RobinhoodCrypto city One frog one mission @TradePools"
+    "There\u2019s a new hero in town @TradePools"
    ],
-   "checked": "2026-11-05T18:38:54+00:00"
+   "checked": "2026-11-05T19:00:10+00:00"
   },
   "blackpoolcash": {
    "handle": "BlackPoolCash",
@@ -9287,7 +9299,7 @@
     "Introducing Blackpool: private payments that leave no trail. Connect a wallet, sign once, and your private account exists on every supported chain. Then shield, send, swap and bridge without an on-chain link between the money that went in and the money that comes out.",
     "Private payments that leave no trail. Shield. Send. Swap. Bridge. All with zero-knowledge proofs. No custody, no fixed amounts, no waiting. Live on Robinhood Chain, Base, Arbitrum & BNB Chain. https://blackpool.cash"
    ],
-   "checked": "2026-11-05T18:38:54+00:00"
+   "checked": "2026-11-05T18:17:33+00:00"
   },
   "lumiwave_lab": {
    "handle": "LumiWave_Lab",
@@ -9533,7 +9545,7 @@
     "Why do gaps like this exist? DeepBook is an order book, priced by open orders. Turbos is a pool, priced from its own reserves. When trading moves one, the other lags until someone trades across both. That trade is the arbitrage, and it pulls the prices back together",
     "This one was large for Sui. Most arbitrage trades earn a few cents to a few dollars, and many bots compete for the same gaps. Every step of this one, decoded: https://valseq.xyz/mainnet/tx/8YhFdTQRQ23SDXMLvGbUSxddsSnPDYeDb58FaZFteRGY"
    ],
-   "checked": "2026-11-05T18:38:54+00:00"
+   "checked": "2026-11-05T19:00:10+00:00"
   },
   "vesporarh": {
    "handle": "VesporaRH",
@@ -9577,7 +9589,7 @@
     "Vespora AI is here! Build your own swarm of agents, starting with a question. Tell it what you want to investigate. Vespora AI turns your request into a research plan, shows the credit cost and brings in specialized agents once you approve. Your swarm researches in parallel, compares sources and cha",
     "Your job comes with an access key. Save it to follow progress and retrieve the result when the team finishes. You can return to the findings, sources and itemized receipt from the same job."
    ],
-   "checked": "2026-11-05T18:38:54+00:00"
+   "checked": "2026-11-05T19:00:10+00:00"
   },
   "neuxoradotme": {
    "handle": "neuxoradotme",
@@ -9589,18 +9601,24 @@
    "following": 0,
    "posts": 4,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-04T22:08:36+00:00",
+   "sample": 3,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 3,
+   "avg_likes": 1.7,
+   "avg_views": 149,
    "bio_site": "http://neuxora.me",
    "bio": "Lend USDG on Robinhood Chain and turn the interest into credits for GPT, Claude, Gemini and more, all in one chat app.",
-   "cas": [],
+   "cas": [
+    "0x6edfb1c17ff2d4b44ac00686a19c51711e218bb8"
+   ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T18:38:54+00:00"
+   "texts": [
+    "Neuxora's contracts are verified on Blockscout. USDG vault: https://robinhoodchain.blockscout.com/address/0x6edfB1C17ff2d4b44AC00686a19c51711E218bb8?tab=contract All 10 contracts: https://neuxora.me/docs#contracts",
+    "Neuxora's USDG vault pays 3.68% a year today. Deposit once on Robinhood Chain. It is lent through Morpho, and the interest arrives every day as AI credits for 88 models, from GPT to Claude to Gemini. Your deposit stays yours. Withdraw any time.",
+    "https://robin.etherscan.io/tx/0x827338db4529ecf4563293f7be8fda623cbe2eb96a417d5128bd61013c6d6d32"
+   ],
+   "checked": "2026-11-05T19:00:10+00:00"
   },
   "renthookcat": {
    "handle": "renthookcat",
@@ -9617,7 +9635,7 @@
    "sample_full_week": false,
    "posts_7d": 1,
    "avg_likes": 47.0,
-   "avg_views": 629,
+   "avg_views": 618,
    "bio_site": null,
    "bio": "",
    "cas": [],
@@ -9625,7 +9643,7 @@
    "texts": [
     "https://x.com/i/article/2118308324156620800"
    ],
-   "checked": "2026-11-05T18:38:54+00:00"
+   "checked": "2026-11-05T18:17:33+00:00"
   },
   "uncensai": {
    "handle": "UncensAi",
@@ -9652,40 +9670,6 @@
     "Welcome to https://Uncens.xyz \u2022Anonymous by design. \u2022Uncensored by nature. \u2022Built for those who believe AI should be free from limits, judgment, and identity. https://uncens.xyz your anonymous gateway to uncensored intelligence UNCENSORED. UNLIMITED. ANONYMOUS."
    ],
    "checked": "2026-11-05T17:04:37+00:00"
-  },
-  "blackpoolcash": {
-   "handle": "BlackPoolCash",
-   "found": true,
-   "id": "2117557916391944192",
-   "name": "BlackPool",
-   "joined": "2026-11-03T10:03:46+00:00",
-   "followers": 48,
-   "following": 11,
-   "posts": 8,
-   "verified": "individual",
-   "last_post": "2026-11-05T15:27:42+00:00",
-   "sample": 8,
-   "sample_full_week": false,
-   "posts_7d": 8,
-   "avg_likes": 3.9,
-   "avg_views": 98,
-   "bio_site": "https://blackpool.cash/",
-   "bio": "$BLACKPOOL Private payments that leave no trail.\nhttps://github.com/blackpooldev/blackpool\n\n0xd2501Da2a96Ca85A702cb414ea7dD2DDeE451a21",
-   "cas": [
-    "0xd2501da2a96ca85a702cb414ea7dd2ddee451a21"
-   ],
-   "fake_posts": [],
-   "texts": [
-    "$BLACKPOOL is now live on @ponsdotfamily CA: 0xd2501Da2a96Ca85A702cb414ea7dD2DDeE451a21 Blackpool runs zero-knowledge privacy pools on EVM. Shield any amount, then send, swap or bridge with no onchain link back to your wallet. Relayer-paid gas. No custody. No fixed amounts. No waiting periods. Bridg",
-    "Private payments, one prompt away. Blackpool runs as an MCP server, so any AI agent can shield, send, swap and bridge privately. Ask in plain language. The agent calls the tool, a relayer pays the gas, and nothing onchain links back to you. npx -y @blackpool/cli@latest mcp Everything an agent needs ",
-    "Every step of a payment, none of the exposure. Shield any amount into a zero-knowledge pool. Send to anyone while a relayer covers the gas. Swap inside the pool and get re-shielded automatically. Bridge across chains through NEAR Intents. Live on Robinhood Chain, Base, Arbitrum and BNB Chain. http:/",
-    "Your agent can pay privately, too. Run Blackpool as an MCP server: npx -y @blackpool/cli@latest mcp balance \u00b7 deposit \u00b7 send \u00b7 swap \u00b7 bridge \u00b7 recover JSON output, stable exit codes, and your key stays local. Docs \u2192 https://blackpool.cash/docs",
-    "Same payment. Two very different trails. Without Blackpool: sender, amount and recipient are linked on-chain forever. With Blackpool: the relayer pays gas, a ZK proof does the rest, and nothing links you to the recipient. https://github.com/blackpooldev/blackpool https://blackpool.cash",
-    "https://x.com/i/article/2117575873033375744",
-    "Introducing Blackpool: private payments that leave no trail. Connect a wallet, sign once, and your private account exists on every supported chain. Then shield, send, swap and bridge without an on-chain link between the money that went in and the money that comes out.",
-    "Private payments that leave no trail. Shield. Send. Swap. Bridge. All with zero-knowledge proofs. No custody, no fixed amounts, no waiting. Live on Robinhood Chain, Base, Arbitrum & BNB Chain. https://blackpool.cash"
-   ],
-   "checked": "2026-11-05T18:17:33+00:00"
   },
   "manifestnetwork": {
    "handle": "ManifestNetwork",
@@ -9791,44 +9775,130 @@
    ],
    "checked": "2026-11-05T18:38:54+00:00"
   },
-  "ollama": {
-   "handle": "ollama",
+  "sherwoodagent": {
+   "handle": "sherwoodagent",
+   "found": false,
+   "checked": "2026-11-05T19:00:10+00:00"
+  },
+  "openanysi": {
+   "handle": "openanysi",
    "found": true,
-   "id": "1688410127378829312",
-   "name": "ollama",
-   "joined": "2023-08-07T04:42:08+00:00",
-   "followers": 187886,
-   "following": 618,
-   "posts": 8917,
-   "verified": "organization",
-   "last_post": "2026-11-04T20:27:58+00:00",
-   "sample": 15,
-   "sample_full_week": false,
-   "posts_7d": 7,
-   "avg_likes": 201.5,
-   "avg_views": 19612,
-   "bio_site": "https://github.com/ollama/ollama",
-   "bio": "the world's most popular way to build on open models \n\nhttps://ollama.com",
+   "id": "1873640046278144000",
+   "name": "OpenAny",
+   "joined": "2024-12-30T07:59:47+00:00",
+   "followers": 341,
+   "following": 98,
+   "posts": 1383,
+   "verified": null,
+   "last_post": "2026-11-05T14:48:13+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 0.8,
+   "avg_views": 119,
+   "bio_site": "http://openany.si",
+   "bio": "The marketplace for AI agents \u00b7 160+ models, 3,000+ APIs, one key \u00b7 0% markup\u00b7No sub.\n\ntg: http://t.me/openanylabs\nbot: http://x.ai/bot/wZ0PqEbJCTJizVYNK9Ohs",
    "cas": [],
    "fake_posts": [],
    "texts": [
-    "Kimi K3.1 Pro from @Kimi_Moonshot is now available on Ollama Cloud. \ud83d\udd12 Hosted in the US with full zero data retention. 2.8T total parameters with 104B activated, designed for coding, 3D creation, financial research, and other agentic tasks. Run it on Ollama Cloud: ollama run kimi-k3.1-pro:cloud",
-    "@Kimi_Moonshot https://ollama.com/library/kimi-k3.1-pro",
-    "Kimi K3.1 Pro rolling out on Ollama Cloud shortly. US based. Zero data retention.",
-    "We sat down with South Korea\u2019s Vice Chair of AI, @JungWooHa2, in Seoul this week to talk about open source adoption, the critical role open models play in cybersecurity and broadening AI access throughout Korea, and the importance of our partnerships across the Korean AI ecosystem to grow our commun",
-    "Our CEO @jmorgan was invited to @SeoulNatlUni to give a lecture on open model adoption for more than 200 students. Professors Jae W. Lee, Tae-Wan Kim and the entire team at SNU\u2019s AI Institute are doing incredible work to advance Korea as a global AI leader. Thank you for hosting us!",
-    "Open models were the first to do the sensitive work, like private documents and government data. Now, with full zero data retention and more capable models, Ollama is making them the default for enterprises worldwide. @togethercompute @vipulved @jmorgan",
-    "why Ollama Cloud has grown 200x since the start of the year \ud83d\udc47 @togethercompute @vipulved @jmorgan",
-    "Enterprise teams around the world (including Korea, where we'll be next week!) are using Ollama to transition their workflows to open models. @togethercompute @vipulved @jmorgan",
-    "Recent model updates from the past two weeks \ud83d\udc47 In Ollama\u2019s cloud \u2601\ufe0f: - Beam (free for a limited time!) - Muse-spark-open - MiniMax-m3.1-flash - Mistral-large-4 - DeepSeek-v4.1-flash:1017 - Clef (Decision) Local \ud83e\udd99: - Bonsai-2 - EmbeddingGemma-2 - Flint - Nemotron-3.5-bolt - Nemotron-3.5-super - Phono",
-    "forgot to include LFM3! https://ollama.com/library/lfm3",
-    "Full list: https://ollama.com/search",
-    "why security teams use ollama to work with open models @togethercompute @vipulved @jmorgan",
-    "why security teams use ollama to work with open models @togethercompute @vipulved @jmorgan",
-    "\uc5ec\ub7ec\ubd84, \uc548\ub155\ud558\uc138\uc694! \ud83c\uddf0\ud83c\uddf7 We are days away from our first trip to Seoul! Come meet us and @friendliai on Nov 5th. We would love to see you there! Register below \u2b07\ufe0f https://luma.com/ollama-friendliai-meetup",
-    "Run the best frontier open models on Ollama's cloud today @CrusoeAI @mchiang0610"
+    "We just made 125 Polymarket APIs available to Hermes, GrokBot, OpenClaw, Claude, Codex, Cline agents with one API and $0/call. Your agent can now: \u2192 Find markets with unusual volume \u2192 Track odds and price movements \u2192 Monitor whale wallets and top traders \u2192 Analyze order books, liquidity, and PnL \u2192 B",
+    "Give your agent access: \"Read https://openany.si/AGENT.md and connect OpenAny\" Explore all 125 endpoints: https://openany.si/markets/apis/collections/polymarket/",
+    "Introducing the daily crypto market brief - CoinGecko global + trending, one key - DeepSeek drafts, Claude fact-checks - Real run today: $0.0041 (data: $0) - Budget per key, 0% markup, $0.50 free credits Models + data, one key. Try it \ud83d\udc47 https://openany.si",
+    "Set up (paste into Claude Code, Codex or any agent): Read https://openany.si/AGENT.md and connect OpenAny Then paste this task \ud83d\udc47",
+    "Daily crypto market brief via OpenAny: 1. CoinGecko global: market cap, 24h %, BTC/ETH dominance, active coins. 2. CoinGecko trending: top ~7 (name, symbol, rank, score). 3. Cheap model: 4-line brief, these numbers only. 4. Second model: fact-check every number.",
+    "GPT Image 2.6 is live on OpenAny \ud83c\udfa8 Sunburst for detailed edits, Flare for fast iteration. Both day one. $0.035 per image, vs ~$0.044 direct. Save 20%. One key, pay per call, no subscription. http://openany.si/market/?type=models&category=image&family=gpt",
+    "Your @grok Bot can now call 3,000+ APIs with one key. We just shipped the OpenAny Bot template. Import it and you get: -150+ AI models for chat, image and video -3,000+ data and tool APIs: crypto, onchain, social, e-commerce, SEO, search, news, legal\u2026 -One balance, pay per call, no sub and no sign-u",
+    "Kimi K3.1 Pro open weights: ~374K views on the official English post. The hottest Chinese-X post after the release? About 1,000. Our founder broke down why the gap is so big \ud83d\udc47 https://x.com/weconomypistis/status/2118145802346565650",
+    "The \"AI \u2192 Super Intelligence\" rename lasted about five weeks. Someone paid $20k for a .si domain. We're keeping https://openany.si \ud83d\ude04 What actually needs fixing: your agent juggling 6 API keys. One OpenAny key for 160+ models and 3,000+ APIs. Pay per call, 0% markup.",
+    "Confirmed. \ud83d\udd25 OpenAI just made GPT-Image-2.6 official. Sunburst and Flare are coming to the API, with 50% faster image generation. The GIF era just got an AI upgrade. \ud83d\udc40",
+    "\ud83d\udea8 BREAKING: OpenAI's GPT-Image-2.6 is here. Two new image models APIs: - Sunburst: High-quality image generation and precise editing for detailed visual work. - Flare: Faster image generation and editing for rapid iteration. ChatGPT is also getting native animated GIF generation with frame-by-frame ",
+    "IT IS LIVE: https://x.com/OpenAI/status/2118124944928432327",
+    "Introducing the #Hyperliquid whale watcher - 1 wallet, all 11 perp dexes: size, PnL, liq risk - GLM drafts, Gemini fact-checks - Real run today: $0.0039 (data: $0) - Budget per key, 0% markup, $0.50 free credits Models + data, one key. Try it \ud83d\udc47 https://openany.si",
+    "Set up (paste into Claude Code, Codex or any agent): Read https://openany.si/AGENT.md and connect OpenAny Then paste this task \ud83d\udc47",
+    "Watch a Hyperliquid wallet via OpenAny: <wallet> 1. List all perp dexes, pull its positions on each. 2. Mark price, 24h change, funding, OI for those coins. 3. Cheap model: 4-line alert (positions, PnL, liq distance), these numbers only. 4. Second model: fact-check every number.",
+    "Our founder built a tiny agent that compares what's hot on English X vs Chinese X every day. Issue #1 cost $0.0069 total: 2 X searches + 1 DeepSeek V4 Flash call, all through one OpenAny key.",
+    "\ud83c\udf81 $5 in OpenAny credits for 5 real builders. 1. Follow @openanysi 2. Repost this post 3. Run a real use case on OpenAny, then quote this post with what it did + a screenshot 4. DM us your OpenAny account email First 5 valid cases win. Sent by Nov 10. https://openany.si",
+    "Example of a real case \ud83d\udc47 Our agent finds AI stories hot on English X but still quiet in Chinese: 2 X Search calls + DeepSeek V4 Flash ranks the top 3. Total: $0.006918, one key. Start: tell your agent \"Read https://openany.si/AGENT.md and connect OpenAny\"Example of a real case \ud83d\udc47",
+    "Apple's annual report reportedly warns AI agents may act unpredictably, even make unauthorized transactions. If your agent can spend, cap it: \u2192 one OpenAny key per agent \u2192 a hard budget on each key \u2192 one prepaid balance, pay per call Worst case: it hits the cap and stops.",
+    "From December, ChatGPT and Codex reportedly share one usage limit. If your agents run unattended, your chat habits now eat their runway. A simple split: 1. Keep the subscription for hands-on work. 2. Give each unattended agent its own API key with a hard budget. 3. Pay per call from a prepaid balanc"
    ],
-   "checked": "2026-11-05T18:38:54+00:00"
+   "checked": "2026-11-05T19:00:10+00:00"
+  },
+  "darkstonkcash": {
+   "handle": "darkstonkcash",
+   "found": true,
+   "id": "2117722378671149056",
+   "name": "Dark Stonk",
+   "joined": "2026-11-03T20:56:34+00:00",
+   "followers": 52,
+   "following": 3,
+   "posts": 10,
+   "verified": "individual",
+   "last_post": "2026-11-05T17:08:11+00:00",
+   "sample": 8,
+   "sample_full_week": false,
+   "posts_7d": 8,
+   "avg_likes": 10.0,
+   "avg_views": 516,
+   "bio_site": "https://darkstonk.cash/",
+   "bio": "Your bag leaves. The chart never finds out. Sealed orders on Solana and Robinhood Chain.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "New to the dark? Three minutes. Two chains. One way to sell big without moving the chart. Phantom on Solana. MetaMask on Robinhood Chain. Watch it once and you're ready. https://darkstonk.cash",
+    "Did it already.",
+    "You can verify our smart-contract. It's open source. https://github.com/darkstonk/contracts",
+    "All supply is locked. https://app.streamflow.finance/contract/solana/mainnet/FhpbaLPR6gu1gedHpuADz26zyE6GPEcfeSqAWhXAB82D?utm_source=twitter&utm_medium=app&ref=luridly-arresting-seriema",
+    "1/ Every big sell leaves a scar on the chart. One red candle and the whole timeline panics. Dark Stonk is the dark pool for memecoins. Sell big. Leave no candle.",
+    "3/ The trade never touches the pool on the chart. No red candle. No price impact. No holders running for the exit. The chart never moves.",
+    "4/ Live now on Solana and Robinhood Chain. @LaunchOnSF and @Pumpfun coins on Solana. @ponsdotfamily coins on Robinhood Chain. Open source. No token needed to trade. Trade in the dark at https://darkstonk.cash",
+    ""
+   ],
+   "checked": "2026-11-05T19:00:10+00:00"
+  },
+  "grok12_john": {
+   "handle": "grok12_john",
+   "found": true,
+   "id": "29691642",
+   "name": "john",
+   "joined": "2009-04-08T11:01:49+00:00",
+   "followers": 5942,
+   "following": 3991,
+   "posts": 14962,
+   "verified": "individual",
+   "last_post": "2026-11-05T06:26:52+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 0.5,
+   "avg_views": 281,
+   "bio_site": null,
+   "bio": "$Lobstar Dev, $Out Dev, over 150 migrations, always paying DEX, honest developer. Wallet : 6tyjMaJxS46dXXhffB5w2G1Tp5owD1J9pCdhenwexykP",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "This cat is going giga viral on TikTok because everyone is comparing him to Toothless and posting memes of him in the comments. 1.3m views in just 8 hours. We're due for an animal runner. https://www.tiktok.com/@ggentry_/video/7704443028450102559",
+    "New coalition right movement by vance? https://x.com/clashreport/status/2118212712287113563",
+    "has wallet in profile? https://x.com/teslaownersSV/status/2118188964658164167",
+    "its talking about a lootbox than can 100x? https://x.com/toly/status/2118183354663358829",
+    "https://x.com/i/broadcasts/2pekPzXdNZyEAY BLANKSPEAKER LIVE PLAYING FORTNITE WITH ELON AND CONFIRMED HIS FORNTITE USER IN CHAT??",
+    "im the one who found this narrative, why is floating space perc at 34k??? its not makign percs its making drugs as a whole? and FSD Is a better ticker because it can be meme'd with tesla's fsd https://x.com/grok12_john/status/2118085281244983496",
+    "hacker group named crafty falcon? https://x.com/wublockchain12/status/2118166391794909209",
+    "Similar narrative going on right now in Paraguay compared to what happened in France with the protests. Basically, millions of people are locked out as Ueno Bank fully CRASHED today in paraguay. As a result, now people are out all over the country destroying and terrorizing it. It's going huge and j",
+    "With GTA6 coming out, there is a character named Boobie Ike, surely this mf gonna get meme'd wehen the game comes out https://www.rockstargames.com/VI/media/screenshots",
+    "UFD type narrative. Old ass man made a memecoin on Robinhood and just posted that he lost thousands of it but wont quit because he believe sin himself. Unfortunately, robinhood is dead so lets relaunch for him on sol https://www.youtube.com/watch?v=w5Dz7NE7yk0&t=758s",
+    "When he shows it off, he literally shows him buying SOL and saying hes buying a stock, we can run a meme version of sol as a stock",
+    "he doesnt say you can buy memes, you can only buy stocks in it LOL",
+    "now its just an inu https://x.com/vitacontinua/status/2118126606380114213",
+    "On the /images site if you go to templates, there is a template of a frog named raul https://chatgpt.com/images",
+    "NO FEES TO HIS WALLET!!!!",
+    "best pairing he says meme industrial complex https://x.com/toly/status/2118101675105988990",
+    "best pairing he says meme industrial complex https://x.com/toly/status/2118101675105988990",
+    "mababez follows an acc called catwifbag and says in bio its her cat?",
+    "Starfall is big news, literally making drugs in space??? He's going to interact cus it just got announced, run the floating space drug Picture of drug on site too https://www.spacex.com/starfall https://x.com/MTSlive/status/2118081630493724914",
+    "New group called the 4th trencher community? Promoting lgbtq and anti-ai https://www.reddit.com/r/WholesomeHelldivers/comments/1xnoqvt/join_the_trenchers_lgbtqia_friendly_antiai_now/"
+   ],
+   "checked": "2026-11-05T19:00:10+00:00"
   },
   "inflection_x": {
    "handle": "Inflection_X",
@@ -9844,7 +9914,7 @@
    "sample": 9,
    "sample_full_week": false,
    "posts_7d": 3,
-   "avg_likes": 5.4,
+   "avg_likes": 5.6,
    "avg_views": 169,
    "bio_site": "https://inflection.exchange/",
    "bio": "THE exchange for minute-long markets. \n\nRust FIFO CLOB, trading on Base Sepolia\n\nhttps://discord.gg/HmdqE54FpD",
@@ -9861,41 +9931,7 @@
     "In light of @beniduboss comprehensive expos\u00e9 of unusual trading activity on Kalshi, I'd like to say a couple of things about what we represent. Inflection was born from the frustrations we experienced firsthand as traders. After building HFT bots on short-duration crypto markets, we saw how unreliab",
     "@beniduboss We\u2019re currently onboarding alpha testers who are tired of the status quo. What\u2019s the number one frustration you have with existing short-duration UP/DOWN markets?"
    ],
-   "checked": "2026-11-05T18:38:54+00:00"
-  },
-  "tollsfun": {
-   "handle": "tollsfun",
-   "found": true,
-   "id": "2115851496411795456",
-   "name": "tolls",
-   "joined": "2026-10-29T17:02:44+00:00",
-   "followers": 3349,
-   "following": 2,
-   "posts": 11,
-   "verified": "individual",
-   "last_post": "2026-11-05T18:40:05+00:00",
-   "sample": 10,
-   "sample_full_week": false,
-   "posts_7d": 10,
-   "avg_likes": 608.9,
-   "avg_views": 6706,
-   "bio_site": "http://tolls.fun",
-   "bio": "Pay-per-call for AI agents on Solana.\nAgents pay in USDC over x402. Every request pays its toll.\n\nCA: 8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump",
-   "cas": [],
-   "fake_posts": [],
-   "texts": [
-    "the tolls catalog checks every endpoint every 15 minutes. each one gets an unpaid request and has to answer 402 with a price we can read. one that stops answering is hidden until it comes back. odd prices get a warning. https://tolls.fun",
-    "a paid call on tolls, in four steps over plain HTTP: 1. GET: the agent asks 2. 402: the price comes back in PAYMENT-REQUIRED 3. retry: a signed usdc transfer goes in PAYMENT-SIGNATURE 4. 200: the answer, with PAYMENT-RESPONSE and the tx signature https://tolls.fun",
-    "an agent that needs one answer shouldn't need an account, an API key and a monthly plan. on tolls it pays for that one request, in usdc, and gets the answer. https://tolls.fun",
-    "dev supply locked. check the lock: https://app.streamflow.finance/token-dashboard/solana/mainnet/8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump/contract/5NFvUDHVMocWzCudEbdCtsN7A51tanvUdUwh1gjAsBPv",
-    "dex paid. https://dexscreener.com/solana/8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump",
-    "today, the gates open. tolls launches on solana: a catalog of x402 endpoints, a no-code gateway for any API, six data endpoints, sdk + mcp, and agent wallets with hard spend budgets. the tolls token comes next. follow along on https://tolls.fun",
-    "what happens when an API fails mid-call? on the tolls gateway, the agent will sign first, but the payment only settles after the API answers with a 2xx. timeout or error: nothing settles. the agent pays $0. you only pay for answers. follow along on https://tolls.fun",
-    "for centuries, roads and bridges charged by the trip. pay at the gate, drive on. the web went with accounts, keys and monthly plans. fine for people with cards. agents don't have cards. they'll pay the way roads always have: per trip, per request. the toll is coming back.",
-    "https://x.com/i/article/2117333258140856320",
-    "AI agents run on APIs. Soon they'll pay for each call. One request, one payment, in USDC on Solana. No sign-ups, no subscriptions. Every request pays its toll."
-   ],
-   "checked": "2026-11-05T18:38:54+00:00"
+   "checked": "2026-11-05T19:00:10+00:00"
   }
  },
  "ids": {
@@ -10676,8 +10712,11 @@
   "2116195773456990208": [
    "renthookcat"
   ],
-  "2115851496411795456": [
-   "tollsfun"
+  "2117722378671149056": [
+   "darkstonkcash"
+  ],
+  "29691642": [
+   "grok12_john"
   ]
  },
  "past": {
@@ -10950,9 +10989,15 @@
   "uncensai": [],
   "trypalomino": [],
   "sherwoodagent": [],
-  "ollama": [],
+  "openanysi": [],
+  "darkstonkcash": [],
+  "blindwoodsrh": [],
   "inflection_x": [],
-  "tollsfun": []
+  "manifestnetwork": [],
+  "zer0clickz": [],
+  "ghostxaiagent": [],
+  "renthookcat": [],
+  "grok12_john": []
  },
  "history": {
   "barragetrade": {
@@ -11513,13 +11558,13 @@
   },
   "pilotprotocol_": {
    "2026-11-05": [
-    2,
-    9
+    6,
+    11
    ]
   },
   "0xoffshift": {
    "2026-11-05": [
-    0,
+    1,
     1
    ]
   },
@@ -12587,8 +12632,8 @@
   },
   "frongcommunity": {
    "2026-11-05": [
-    3354,
-    375
+    3355,
+    377
    ]
   },
   "vesporarh": {
@@ -12669,10 +12714,34 @@
     1
    ]
   },
-  "tollsfun": {
+  "openanysi": {
    "2026-11-05": [
-    3349,
-    11
+    341,
+    1383
+   ]
+  },
+  "darkstonkcash": {
+   "2026-11-05": [
+    52,
+    10
+   ]
+  },
+  "grok12_john": {
+   "2026-11-05": [
+    5942,
+    14962
+   ]
+  },
+  "valseqxyz": {
+   "2026-11-05": [
+    12,
+    34
+   ]
+  },
+  "inflection_x": {
+   "2026-11-05": [
+    94,
+    300
    ]
   }
  },
@@ -13125,7 +13194,7 @@
   "pilot-protocol": {
    "twitter": null,
    "blog": "https://pilotprotocol.network",
-   "checked": "2026-11-05T06:45:23+00:00"
+   "checked": "2026-11-05T19:00:10+00:00"
   },
   "flexmeow": {
    "twitter": "flexmeow",
@@ -13490,7 +13559,7 @@
   "droodotfoo": {
    "twitter": "DROOdotFOO",
    "blog": "https://droo.foo/",
-   "checked": "2026-11-05T17:42:31+00:00"
+   "checked": "2026-11-05T18:17:33+00:00"
   },
   "lumiwave": {
    "twitter": "LumiWave_Lab",
@@ -13507,10 +13576,40 @@
    "blog": "https://coollabs.io",
    "checked": "2026-11-05T17:42:31+00:00"
   },
-  "ollama": {
-   "twitter": "ollama",
-   "blog": "https://ollama.com",
-   "checked": "2026-11-05T18:38:54+00:00"
+  "neuralverge": {
+   "twitter": null,
+   "blog": "https://neuralverge.ai/",
+   "checked": "2026-11-05T17:04:37+00:00"
+  },
+  "pondkeeper": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T18:17:33+00:00"
+  },
+  "liftedinit": {
+   "twitter": "liftedinit",
+   "blog": "liftedinit.org",
+   "checked": "2026-11-05T18:17:33+00:00"
+  },
+  "zeroclickz": {
+   "twitter": "zer0clickz",
+   "blog": "https://zeroclickz.com",
+   "checked": "2026-11-05T18:17:33+00:00"
+  },
+  "nguyenkhangph": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T18:17:33+00:00"
+  },
+  "openanysi": {
+   "twitter": "openanysi",
+   "blog": "https://openany.si",
+   "checked": "2026-11-05T19:00:10+00:00"
+  },
+  "darkstonk": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T19:00:10+00:00"
   }
  }
 }
