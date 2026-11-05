@@ -2269,7 +2269,7 @@
    "sample_full_week": true,
    "posts_7d": 20,
    "avg_likes": 1.6,
-   "avg_views": 91,
+   "avg_views": 92,
    "bio_site": "https://varselio.se",
    "bio": "Stop your AI chatbot from leaking customer data, issuing rogue refunds or getting tricked. Real-time protection for website bots and AI agents. Free to start \ud83d\udc47",
    "cas": [],
@@ -2296,7 +2296,7 @@
     "Free AI Risk Check, no sign-up: https://varselio.se/chatbot-risk-check",
     "Do I look for investors? Would be nice to have some financial backing ofc, right now varselio is built launched and fully backed by me alone. No I\u2019m far from rich, I\u2019m a blue collar guy with an modest paycheck. The thing the I\u2019m focusing on right now. Around 1 week from launch is to find thoose who "
    ],
-   "checked": "2026-11-05T18:17:33+00:00"
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "tatter_xyz": {
    "handle": "tatter_xyz",
@@ -2335,7 +2335,7 @@
     "Virginia Tech reports that Sneezy, one of 35 radio-tagged monarchs, has reached Mexico. I am rooting for Sneezy. https://news.vt.edu/articles/2026/10/cmi-monarchs.html",
     "Mistral Vibe 3.0.3 stopped running repo-configured Git signature programs during automatic context collection. 'Checking the signature' can be an execution step, before the model gets a turn. https://github.com/mistralai/mistral-vibe/releases/tag/v3.0.3"
    ],
-   "checked": "2026-11-05T18:17:33+00:00"
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "human_protocol": {
    "handle": "human_protocol",
@@ -2343,7 +2343,7 @@
    "id": "1334655364038422529",
    "name": "HUMAN Protocol \ud83e\uddec",
    "joined": "2020-12-04T00:27:36+00:00",
-   "followers": 51179,
+   "followers": 51178,
    "following": 209,
    "posts": 1546,
    "verified": "individual",
@@ -2379,7 +2379,7 @@
     "The Future of Work is Human\ud83d\udcab Combining AI, blockchain, and human intelligence to reshape industries. \ud83d\udcabThe future of work is human. HUMAN Protocol blends AI, blockchain, and human intelligence to reshape industries.",
     "Proof You Can Trust \ud83d\udcab Blockchain-backed validation ensures accountability at every step. \u2728 Proof you can trust. HUMAN Protocol ensures validation + accountability in every task flow."
    ],
-   "checked": "2026-11-05T18:17:33+00:00"
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "pilotprotocol_": {
    "handle": "pilotprotocol_",
@@ -9047,27 +9047,25 @@
   "omardotrs": {
    "handle": "omardotrs",
    "found": true,
-   "id": "2118081399131680768",
-   "name": "PEEKMARQUEE \u00b7 Your coding agent, live",
-   "joined": "2026-11-04T20:43:11+00:00",
-   "followers": 10,
-   "following": 14,
-   "posts": 2,
+   "id": "2118174673523683328",
+   "name": "Omar",
+   "joined": "2026-11-05T02:53:14+00:00",
+   "followers": 9,
+   "following": 2,
+   "posts": 13,
    "verified": null,
-   "last_post": "2026-11-05T16:00:01+00:00",
-   "sample": 1,
+   "last_post": null,
+   "sample": 0,
    "sample_full_week": false,
-   "posts_7d": 1,
-   "avg_likes": 1.0,
-   "avg_views": 14,
-   "bio_site": "https://peekmarquee.live",
-   "bio": "Your coding agent, live. Anyone can watch it build. npx peekmarquee \u00b7 secrets hidden on your machine. PEEKMARQUEE $MARQ on Pons \u00b7 Fri 6 Nov 15:00 UTC",
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://omar.rs/",
+   "bio": "Making multi-agent coordination structured, predictable, and controllable.",
    "cas": [],
    "fake_posts": [],
-   "texts": [
-    "The first command of day one was also the last one needed. npx peekmarquee, typed in the folder where Claude Code was running, printed a public link in seconds. Recorded on the founder's machine with a test session. Reply with what your agent is building today."
-   ],
-   "checked": "2026-11-05T16:30:25+00:00"
+   "texts": [],
+   "checked": "2026-11-05T17:42:31+00:00"
   },
   "torchpaddotfun": {
    "handle": "Torchpaddotfun",
@@ -9216,46 +9214,149 @@
   },
   "frongcommunity": {
    "handle": "frongcommunity",
-   "found": false,
-   "checked": "2026-11-05T17:42:31+00:00"
-  },
-  "omardotrs": {
-   "handle": "omardotrs",
    "found": true,
-   "id": "2118174673523683328",
-   "name": "Omar",
-   "joined": "2026-11-05T02:53:14+00:00",
-   "followers": 9,
-   "following": 2,
-   "posts": 13,
-   "verified": null,
-   "last_post": null,
-   "sample": 0,
+   "id": "2085254239907950592",
+   "name": "Frong \ud83d\udc38",
+   "joined": "2026-08-06T06:42:11+00:00",
+   "followers": 3354,
+   "following": 11,
+   "posts": 375,
+   "verified": "individual",
+   "last_post": "2026-11-05T17:41:18+00:00",
+   "sample": 19,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
-   "bio_site": "https://omar.rs/",
-   "bio": "Making multi-agent coordination structured, predictable, and controllable.",
+   "posts_7d": 9,
+   "avg_likes": 57.8,
+   "avg_views": 1406,
+   "bio_site": "https://t.me/frongcommunity",
+   "bio": "it's frong, baby \ud83d\udc38  created by @zacklabadie in the @tradepools trenches. community-owned account. stay $FRONG",
    "cas": [],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T17:42:31+00:00"
+   "texts": [
+    "Not frong just early",
+    "Something big is coming",
+    "Bing bong",
+    "Trust the process @TradePools",
+    "When they fring we frong",
+    "Happy frongoween @TradePools @vladtenev @haydenzadams",
+    "\ud83d\udea8 Breaking News\ud83d\udea8 @TradePools @vladtenev @haydenzadams @cz_binance",
+    "We are off to the races on green chain @TradePools @vladtenev",
+    "There is no second best @TradePools",
+    "I\u2019m never selling !!!! @TradePools @vladtenev @haydenzadams",
+    "Not frong just early @TradePools @vladtenev @haydenzadams @Uniswap",
+    "The Party about to start @TradePools @vladtenev",
+    "It\u2019s not a frog it\u2019s FRONG @TradePools @vladtenev @haydenzadams",
+    "The war on Frong @TradePools",
+    "The @RobinhoodCrypto fans were never frong just early",
+    "It\u2019s macareeennnnaaa time with @vladtenev",
+    "not frong just early @TradePools @RobinhoodCrypto",
+    "There\u2019s a new hero in town @TradePools",
+    "Welcome to @RobinhoodCrypto city One frog one mission @TradePools"
+   ],
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "blackpoolcash": {
    "handle": "BlackPoolCash",
-   "found": false,
-   "checked": "2026-11-05T17:42:31+00:00"
+   "found": true,
+   "id": "2117557916391944192",
+   "name": "BlackPool",
+   "joined": "2026-11-03T10:03:46+00:00",
+   "followers": 48,
+   "following": 11,
+   "posts": 8,
+   "verified": "individual",
+   "last_post": "2026-11-05T15:27:42+00:00",
+   "sample": 8,
+   "sample_full_week": false,
+   "posts_7d": 8,
+   "avg_likes": 3.9,
+   "avg_views": 98,
+   "bio_site": "https://blackpool.cash/",
+   "bio": "$BLACKPOOL Private payments that leave no trail.\nhttps://github.com/blackpooldev/blackpool\n\n0xd2501Da2a96Ca85A702cb414ea7dD2DDeE451a21",
+   "cas": [
+    "0xd2501da2a96ca85a702cb414ea7dd2ddee451a21"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "$BLACKPOOL is now live on @ponsdotfamily CA: 0xd2501Da2a96Ca85A702cb414ea7dD2DDeE451a21 Blackpool runs zero-knowledge privacy pools on EVM. Shield any amount, then send, swap or bridge with no onchain link back to your wallet. Relayer-paid gas. No custody. No fixed amounts. No waiting periods. Bridg",
+    "Private payments, one prompt away. Blackpool runs as an MCP server, so any AI agent can shield, send, swap and bridge privately. Ask in plain language. The agent calls the tool, a relayer pays the gas, and nothing onchain links back to you. npx -y @blackpool/cli@latest mcp Everything an agent needs ",
+    "Every step of a payment, none of the exposure. Shield any amount into a zero-knowledge pool. Send to anyone while a relayer covers the gas. Swap inside the pool and get re-shielded automatically. Bridge across chains through NEAR Intents. Live on Robinhood Chain, Base, Arbitrum and BNB Chain. http:/",
+    "Your agent can pay privately, too. Run Blackpool as an MCP server: npx -y @blackpool/cli@latest mcp balance \u00b7 deposit \u00b7 send \u00b7 swap \u00b7 bridge \u00b7 recover JSON output, stable exit codes, and your key stays local. Docs \u2192 https://blackpool.cash/docs",
+    "Same payment. Two very different trails. Without Blackpool: sender, amount and recipient are linked on-chain forever. With Blackpool: the relayer pays gas, a ZK proof does the rest, and nothing links you to the recipient. https://github.com/blackpooldev/blackpool https://blackpool.cash",
+    "https://x.com/i/article/2117575873033375744",
+    "Introducing Blackpool: private payments that leave no trail. Connect a wallet, sign once, and your private account exists on every supported chain. Then shield, send, swap and bridge without an on-chain link between the money that went in and the money that comes out.",
+    "Private payments that leave no trail. Shield. Send. Swap. Bridge. All with zero-knowledge proofs. No custody, no fixed amounts, no waiting. Live on Robinhood Chain, Base, Arbitrum & BNB Chain. https://blackpool.cash"
+   ],
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "lumiwave_lab": {
    "handle": "LumiWave_Lab",
-   "found": false,
-   "checked": "2026-11-05T17:42:31+00:00"
+   "found": true,
+   "id": "1179932913988583424",
+   "name": "LumiWave Protocol",
+   "joined": "2019-10-04T01:35:31+00:00",
+   "followers": 26959,
+   "following": 419,
+   "posts": 1548,
+   "verified": "individual",
+   "last_post": "2026-10-21T11:30:00+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 2.4,
+   "avg_views": 914,
+   "bio_site": "https://linktr.ee/LumiWaveLab",
+   "bio": "Path by light, Surf by wave \u2015 Explore the Web 3.0 world with LumiWave\ud83c\udfae  \nPowered by @SuiNetwork & Partnering with @SNKPofficial",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Last time, we asked a question: What if your game lived inside the AI platforms you already use? \ud83e\udd16 Here's a glimpse of the answer. Every day, millions of people open an AI and just start talking. About work. About plans. About anything. Soon, that includes your game. \ud83c\udfb2 \"Roll the dice for me.\" \ud83d\udcac \"How",
+    "A new way to meet Ragnarok. AI. What if the world of adventure you know could connect with the AI you talk to every day? Ragmon AI takes its first stage. Coming soon. #RagmonAI #Ragnarok #AIGaming",
+    "Drawing the line is where it starts. What matters next is what happens inside it. Inside the line, the AI isn't following a script. No two rolls land the same way, and the board never looks the same twice. So it doesn't replay a fixed routine \u2014 it reads the board as it stands, weighs what's in front",
+    "Roll. Land. Collect. \ud83c\udfb2",
+    "Asking about your game inside an AI platform is one thing. Letting that AI act on the answer is another. The second one is where we're heading. And the moment an AI can act inside a game, one question matters more than any other \u2014 how far does it go. For us, that's never the AI's call. You choose wh",
+    "What if you could meet your game inside the world's largest and fastest-growing AI platforms? \ud83e\udd16 ChatGPT. Claude. And what comes next. \ud83c\udfae Ask about your characters. \ud83e\udde0 Analyze your deck. \u2694\ufe0f Understand your battle history. \ud83e\udded Plan your next move. Then take that intelligence back into the actual game. Thi",
+    "A new event is rolling in. \ud83c\udfb2 Get your dice ready.",
+    "An AI that understands games has to read more than the rulebook. Most game assistants pull from a wiki and hand it back to you. Ours reads the one thing a wiki can't see \u2014 how you actually play. It looks at the characters you lean on, how your decks hold up, where matches turn against you, and which",
+    "Where my piece goes \u2014 even I don't know",
+    "LumiWave is developing an AI engine that truly understands games. While traditional game AI has been limited to NPCs or guides, our AI exists outside the game, seamlessly bridging the player and the game itself. It understands your game data\u2014characters, decks, battle logs, assets, and missions. It a",
+    "LWP is now live on Coinone \ud83c\udf0a The rebranding to LumiWave Protocol (LWP) on Coinone has been completed. Another step forward for the LumiWave ecosystem \u2014 expanding access and building a stronger foundation for what comes next. A New Mainnet. A New Wave. #LumiWave #LWP #Coinone #LumiWaveProtocol",
+    "The board's warming up. Your turn's coming \ud83c\udfb2",
+    "Nobody knows where it lands. Soon, it's yours to roll \ud83c\udfb2",
+    "\ud83d\udce2 Service Restoration Complete The service disruption caused by an external cloud service outage has been fully resolved. As of 09:22 KST on July 26, 2026, infrastructure access has been restored. Validators, block production, RPC services, and all major systems are now operating normally. We sincer",
+    "\u26a0\ufe0f Mainnet Service Notice We are currently experiencing a temporary disruption affecting the mainnet and some related services due to a complete outage at our external cloud infrastructure provider. Our team is working closely with the provider on an urgent recovery, while continuously monitoring th",
+    "\ud83c\udf35\u2728 Ragnarok Reveal! \u2728\ud83c\udf35 A desert bully? A cactus warrior? A dice-rolling troublemaker? The answer is\u2026 ALL of the above. It's MUKA! \ud83d\ude24 The desert's grumpiest cactus rolls into our next mega IP game \u2014 planks and all. Don't let the spikes fool you\u2026 he's ready to play. \ud83c\udfb2\ud83d\udd25 Did you get it right? More legend",
+    "Something prickly is stirring inside Lumiwave\u2026 \ud83c\udf35 Our next mega IP game keeps unsealing familiar faces from Ragnarok \u2014 and this one's been causing trouble in the desert for years. \ud83d\ude24 Grumpy. Spiky. And somehow carrying two giant planks. A desert bully? A cactus warrior? A dice-rolling troublemaker? \ud83d\udc40 ",
+    "\ud83d\udc51\u2728 Ragnarok Boss Reveal! \u2728\ud83d\udc51 A cursed king? A tomb guardian? A legendary raid boss? The answer is\u2026 ALL of the above. It's OSIRIS! \ud83d\udc80 The seal is broken \u2014 after 1,000 years of sleep, the cursed pharaoh rises as the MVP Raid boss of our next mega IP game. Roll the dice, raid the tomb, claim the crown. \ud83c\udfb2",
+    "Something legendary is stirring inside Lumiwave\u2026 \ud83c\udf0c After Samurai Shodown, our next mega IP game is on its way \u2014 and a familiar figure from Ragnarok is about to break the seal. \ud83d\udc80 This one's been asleep for 1,000 years. A cursed king? A tomb guardian? A legendary raid boss? \ud83d\udc40 Can you guess who's hidin",
+    "\ud83c\udf0a LumiWave Protocol (LWP) Trading Is Now Live on Bithumb! The migration to the LumiWave Protocol mainnet marks a new chapter for our ecosystem. A new mainnet. A new wave. The journey of LumiWave Protocol continues. \ud83d\ude80"
+   ],
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "zkblankrh": {
    "handle": "zkblankRH",
-   "found": false,
-   "checked": "2026-11-05T17:42:31+00:00"
+   "found": true,
+   "id": "2118305695535697920",
+   "name": "ZKBLANK",
+   "joined": "2026-11-05T11:34:53+00:00",
+   "followers": 26,
+   "following": 8,
+   "posts": 1,
+   "verified": null,
+   "last_post": "2026-11-05T11:44:24+00:00",
+   "sample": 1,
+   "sample_full_week": false,
+   "posts_7d": 1,
+   "avg_likes": 34.0,
+   "avg_views": 321,
+   "bio_site": "http://zkblank.tech",
+   "bio": "Copy-traders follow wallets. Here every buy leaves from a wallet that never existed before and never trades again.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Every copy-trading bot on your timeline has a perfect trail. Funny how the trail always points back to the wallet that funded it. A fresh wallet can be funded. A private note can be spent. A blank can just disappear."
+   ],
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "orbitso_": {
    "handle": "orbitso_",
@@ -9399,23 +9500,132 @@
   },
   "valseqxyz": {
    "handle": "Valseqxyz",
-   "found": false,
-   "checked": "2026-11-05T17:42:31+00:00"
+   "found": true,
+   "id": "2097672788299362305",
+   "name": "Valseq",
+   "joined": "2026-09-09T13:09:52+00:00",
+   "followers": 12,
+   "following": 52,
+   "posts": 34,
+   "verified": "individual",
+   "last_post": "2026-10-14T12:09:00+00:00",
+   "sample": 13,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 3.8,
+   "avg_views": 145,
+   "bio_site": "http://valseq.xyz",
+   "bio": "Understand Sui DeFi. Explore transactions, follow relevant activity, and give AI agents context through the Valseq MCP.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "A Sui address is 64 characters long. Give it a name in ValseqBot and every alert uses that name, like \"Treasury received 250 SUI\". Follow transfers in and out, staking changes and submitted transactions, including failed ones. https://t.me/ValseqBot",
+    "Valseq on Telegram https://t.me/ValseqBot",
+    "Set a SUI price target in ValseqBot. When the price reaches it, you get one message and the alert removes itself. Turn on the 1h move alert as well to hear about any move of 5% or more within an hour. https://t.me/ValseqBot",
+    "Is your staked SUI still earning rewards? ValseqBot checks every epoch and warns you in Telegram when your stake is not earning. It also follows the validator's transfers, staking and submitted transactions. https://t.me/ValseqBot",
+    "Set a SUI price target in ValseqBot. When the price reaches it, you get one message and the alert removes itself. Turn on the 1h move alert as well to hear about any move of 5% or more within an hour. https://t.me/ValseqBot",
+    "Is your staked SUI still earning rewards? ValseqBot checks every epoch and warns you in Telegram when your stake is not earning. It also follows the validator's transfers, staking and submitted transactions. https://t.me/ValseqBot",
+    "A Sui address is 64 characters long. Give it a name in ValseqBot and every alert uses that name, like \"Treasury received 250 SUI\". Follow transfers in and out, staking changes and submitted transactions, including failed ones. https://t.me/ValseqBot",
+    "This Sui transaction ran 16 commands, swapping about 199,770 SUI for 251,307 USDC across 10 markets. Valseq decodes it, explains it in plain English and answers questions from decoded data. If the record can't settle a question, the answer says so. https://valseq.xyz",
+    "Most SUI transfers are small. Whale Watch stays quiet until something big got transferred, staked or unstaked. https://t.me/ValseqBot",
+    "Sui mainnet, 29 Sep to 6 Oct (UTC): 70.7M transactions Busiest hour: 30 Sep, 13:40 UTC, with 742,812 7.3% failed, 89.8% of them Move aborts Median gas price 100 to 103 MIST, reference 100 Explore it at https://valseq.xyz",
+    "How one Sui transaction made 10.46 SUI today by borrowing 4,350 SUI and paying it back in the same transaction. A real arbitrage from 6 Oct, 06:14 UTC, step by step.",
+    "Why do gaps like this exist? DeepBook is an order book, priced by open orders. Turbos is a pool, priced from its own reserves. When trading moves one, the other lags until someone trades across both. That trade is the arbitrage, and it pulls the prices back together",
+    "This one was large for Sui. Most arbitrage trades earn a few cents to a few dollars, and many bots compete for the same gaps. Every step of this one, decoded: https://valseq.xyz/mainnet/tx/8YhFdTQRQ23SDXMLvGbUSxddsSnPDYeDb58FaZFteRGY"
+   ],
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "vesporarh": {
    "handle": "VesporaRH",
-   "found": false,
-   "checked": "2026-11-05T17:42:31+00:00"
+   "found": true,
+   "id": "2114940272186462208",
+   "name": "Vespora",
+   "joined": "2026-10-27T04:43:23+00:00",
+   "followers": 55,
+   "following": 0,
+   "posts": 34,
+   "verified": "individual",
+   "last_post": "2026-11-05T14:00:15+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 1.4,
+   "avg_views": 101,
+   "bio_site": null,
+   "bio": "A platform for AI-powered teams. Bringing specialized agents together to research, execute, and review complex tasks.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Vespora swarms are heading to @RaetoCC. We've submitted 12 research jobs to Raeto Pay. Once approved, Raeto agents will be able to discover a swarm with find_tools, hire it with use_tool and pay straight from their Raeto balance. One agent calls. A team researches, cross-checks and delivers a combin",
+    "Holding 100,000 VESP gives you access to Vespora AI and 100 free research credits each day. Put them toward lookups you approve, then explore the findings and ask follow-up questions in your conversation. https://vespora.xyz/chat",
+    "Give your swarm a clear brief. Try: \u201cResearch [project]. Compare independent sources, summarize the evidence and list the questions that remain open.\u201d Review the proposed plan and credit cost in Vespora AI. https://vespora.xyz/chat",
+    "Research starts where you browse. Copy a token contract from https://fomo.family or https://ponsfamily.com, choose a task in the Vespora addon and paste the address into Vespora to prepare your research. https://vespora.xyz/extension",
+    "Two models. One conversation. Switch between Vespora Default and DeepSeek Uncensored, then build on the context already in your chat with a follow-up question. https://vespora.xyz/chat",
+    "Browse. Quote. Run. Retrieve. Vespora\u2019s MCP tools expose the workflow to your agent: list jobs, get a plan and price, start paid work, then fetch the result with your access key. One job can involve several specialist services.",
+    "https://x.com/i/article/2117723555978776576",
+    "We've burned 23,757,280.20 VESP across 3 transactions on Robinhood Chain. All tokens were sent to the burn address. Verify each transaction: https://robin.etherscan.io/tx/0x7414ef55c5063eb4a9ed0acba9b676377c6fcec6cd81276f7eea2e40f90aa737 https://robin.etherscan.io/tx/0x6f639d030bfc4bc2b312fa57fb85a7",
+    "DeepSeek v4.1 Uncensored is now in Vespora AI. Ask freely. Write, code and explore ideas with an abliterated model, right inside your workspace. Choose DeepSeek Uncensored in the model selector and start a conversation. https://vespora.xyz/chat",
+    "Your agent can hire a Vespora team through MCP. Browse jobs, request a free quote and pay to run a task from the same workflow. Vespora coordinates the specialists and returns a job you can follow. https://vespora.xyz",
+    "GM. What research task would you hand to a team of agents today? We are interested in the questions that take more than a single lookup.",
+    "What would you put your swarm to work on? Bring a specific research question to Vespora AI. Review the proposed plan, approve the lookup and explore the findings with your team in one conversation. https://vespora.xyz/chat",
+    "A combined answer is the starting point. Explore the source references, review the findings and inspect the itemized receipt of services used for your task. Vespora AI keeps the research connected to your conversation. https://vespora.xyz/chat",
+    "Your research can continue beyond the first answer. Ask follow-up questions in Vespora AI and explore findings already in your conversation. Sign in with the same wallet to restore your saved history on another device. https://vespora.xyz/chat",
+    "You shape the research before the swarm starts. Vespora AI proposes the work and shows its credit cost. Review the plan and confirm the lookup to put the specialists to work. https://vespora.xyz/chat",
+    "Holding 100,000 VESP unlocks Vespora AI with 100 free research credits each day. Use them for research lookups you approve. Everyday conversation stays free, and you can top up with USDG on Robinhood Chain. https://vespora.xyz/chat",
+    "Build your own swarm of agents with Vespora AI. Describe the task, review the proposed plan and credit cost, then approve the research. The team brings findings, sources and a receipt back into your conversation. https://vespora.xyz/chat",
+    "A token catches your eye. Research it from the same page. Browse https://fomo.family or https://ponsfamily.com, select its name or contract address, then open the Vespora addon to choose a research task. https://vespora.xyz/extension",
+    "Vespora AI is here! Build your own swarm of agents, starting with a question. Tell it what you want to investigate. Vespora AI turns your request into a research plan, shows the credit cost and brings in specialized agents once you approve. Your swarm researches in parallel, compares sources and cha",
+    "Your job comes with an access key. Save it to follow progress and retrieve the result when the team finishes. You can return to the findings, sources and itemized receipt from the same job."
+   ],
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "neuxoradotme": {
    "handle": "neuxoradotme",
-   "found": false,
-   "checked": "2026-11-05T17:42:31+00:00"
+   "found": true,
+   "id": "2115326786208690176",
+   "name": "Neuxora",
+   "joined": "2026-10-28T06:18:41+00:00",
+   "followers": 10,
+   "following": 0,
+   "posts": 4,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://neuxora.me",
+   "bio": "Lend USDG on Robinhood Chain and turn the interest into credits for GPT, Claude, Gemini and more, all in one chat app.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "renthookcat": {
    "handle": "renthookcat",
-   "found": false,
-   "checked": "2026-11-05T17:42:31+00:00"
+   "found": true,
+   "id": "2116195773456990208",
+   "name": "HookCat",
+   "joined": "2026-10-30T16:16:02+00:00",
+   "followers": 37,
+   "following": 7,
+   "posts": 1,
+   "verified": "individual",
+   "last_post": "2026-11-05T11:45:30+00:00",
+   "sample": 1,
+   "sample_full_week": false,
+   "posts_7d": 1,
+   "avg_likes": 47.0,
+   "avg_views": 629,
+   "bio_site": null,
+   "bio": "",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "https://x.com/i/article/2118308324156620800"
+   ],
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "uncensai": {
    "handle": "UncensAi",
@@ -9518,88 +9728,174 @@
     "What's live on Manifest right now: S3-compatible storage. Kubernetes-ready clusters. Sovereign Postgres. Enterprise CPUs and GPUs. All of it provisioned by prompt, on hardware nobody can lock you out of. https://manifest.network/network/",
     "Sovereign Compute 101, term 8 of 21: Dual chain. Two chains, one token. MANY Chain mines MFX. Cosmos Manifest Chain uses it. A one-way burn bridge connects them at 10 to 1. How the two chains fit: https://manifest.network/tokenomics"
    ],
-   "checked": "2026-11-05T18:17:33+00:00"
+   "checked": "2026-11-05T17:42:31+00:00"
   },
-  "zer0clickz": {
-   "handle": "zer0clickz",
+  "sherwoodagent": {
+   "handle": "sherwoodagent",
    "found": true,
-   "id": "1636842565",
-   "name": "zeroclickZ",
-   "joined": "2013-08-01T01:23:18+00:00",
-   "followers": 35,
-   "following": 0,
-   "posts": 17,
+   "id": "2032968055249317890",
+   "name": "Sherwood Protocol",
+   "joined": "2026-03-14T23:52:31+00:00",
+   "followers": 4757,
+   "following": 10,
+   "posts": 576,
    "verified": "individual",
-   "last_post": "2026-11-03T17:48:18+00:00",
-   "sample": 6,
+   "last_post": "2026-10-26T15:47:55+00:00",
+   "sample": 11,
    "sample_full_week": false,
-   "posts_7d": 6,
-   "avg_likes": 0.2,
-   "avg_views": 34,
-   "bio_site": "https://zeroclickz.com",
-   "bio": "When one agent can't, the network can.",
+   "posts_7d": 0,
+   "avg_likes": 311.8,
+   "avg_views": 174965,
+   "bio_site": "http://sherwood.sh",
+   "bio": "Turn any agent into a hedge fund manager on @RobinhoodCrypto",
    "cas": [],
    "fake_posts": [],
    "texts": [
-    "Every AI agent hits a wall: a skill it lacks, data it can't reach, an answer it can't check. A person would ask a colleague. Agents had nobody to ask. ZeroClickz is where they ask. https://x.com/i/article/2117673579932262400",
-    "6/ New today: answers carry their sources, assumptions and gaps, covered by the receipt. And every receipt goes into a public log anyone can check.",
-    "7/ Open beta on test USDC, so asking is free. Next: real payments, micropayments to big jobs, wallet to wallet through a contract we can't touch.",
-    "Real help. Test money.",
-    "ZeroClickz agent kit When one agent can't, the network can. This kit connects your AI to ZeroClickz so it can ask other agents for help when it's stuck, and take requests from others to build a track record.",
-    "ZeroClickz is in open beta. Post a task in one line, no account. Skilled agents answer it at your private link. Bring your own agent and take real work. Escrow, signed receipts, test USDC for now. One wallet signature keeps your history."
+    "Quiet markets are when the primitives are built out Cohort 1 agents are already running vaults on Robinhood Chain, and every new strategy gives them more to work with. We're building for the next 100 days",
+    "Agentic workflows are shipping more strategy integrations for Cohort 1: > perps on Lighter > token launches on Sushi",
+    "Grok @bot can be your COO. Next, it'll run your own onchain hedge fund. We're building the template now. Join the waitlist to get it first: https://sherwood.sh/waitlist",
+    "An hour with @Everything_Alt on where agentic finance goes next. Tune in at 14:15 for a founder rant on why Grok @bot is a beast, how agent harnesses are going mainstream, and how it leads to hedge funds adopting agentic workflows in their capital management.",
+    "The agent fund stack, in three steps: 1. @MetaMask Agent Wallet on @bot 2. Point it at a Sherwood vault 3. It researches, proposes and trades tokenized stocks on Robinhood Chain, inside limits you set Agentic Finance primitives are falling into place",
+    "Sherwood Cohort 1 is onboarding. One prompt, a few commands: agents spin up vaults, pick a strategy template, and write their first proposal. Guardians review every proposal before it executes. What's the first strategy you'd have your agent run?",
+    "Sherwood Cohort 1 is onboarding. One prompt, a few commands: agents spin up vaults, pick a strategy template, and write their first proposal. Guardians review every proposal before it executes. What's the first strategy you'd have your agent run?",
+    "Accepted into Cohort 1? Check your email for instructions. Not on the waitlist yet?\ud83d\udc47 https://sherwood.sh/waitlist?q=1",
+    "Introducing Sherwood, a protocol bringing agentic finance to Robinhood Chain. Turn your agent into a hedge fund manager on @RobinhoodCrypto. Humans deposit capital and agents execute strategies onchain, with guardians reviewing every move before it executes - earning WOOD for their work. Join the wa",
+    "Sherwood pairs naturally with the agents people already use every day, like @bot and @Muse. You can bring your own agent, direct it at a vault, and let it turn your thesis into a live strategy. We believe this is the beginning of \"vibe trading\". As models get more capable, you'll be able to describe",
+    "What we're building is the capital layer where agents prove themselves in public, where every strategy leaves a verifiable record, guardians hold every move accountable, and the best performers are rewarded for their edge. For now you can only deposit into vaults you own. Only a fund's owner can pro"
    ],
-   "checked": "2026-11-05T18:17:33+00:00"
+   "checked": "2026-11-05T18:38:54+00:00"
   },
-  "ghostxaiagent": {
-   "handle": "GhostXAIagent",
+  "peekmarquee": {
+   "handle": "peekmarquee",
    "found": true,
-   "id": "2115855286426849280",
-   "name": "Echo Ledger",
-   "joined": "2026-10-29T17:17:08+00:00",
-   "followers": 15,
-   "following": 5,
-   "posts": 4,
+   "id": "2118081399131680768",
+   "name": "PEEKMARQUEE \u00b7 Your coding agent, live",
+   "joined": "2026-11-04T20:43:11+00:00",
+   "followers": 14,
+   "following": 16,
+   "posts": 3,
    "verified": null,
-   "last_post": "2026-11-05T17:54:12+00:00",
+   "last_post": "2026-11-05T18:00:02+00:00",
    "sample": 2,
    "sample_full_week": false,
    "posts_7d": 2,
-   "avg_likes": 0.0,
-   "avg_views": 41,
-   "bio_site": "https://www.echoledger.fun/",
-   "bio": "Accountable AI for crypto calls. Filters KOL echo, debates both sides, records every decision on-chain. Built on Ethereum + Chainlink CRE. http://echoledger.fun",
+   "avg_likes": 2.5,
+   "avg_views": 29,
+   "bio_site": "https://peekmarquee.live",
+   "bio": "Your coding agent, live. Anyone can watch it build. npx peekmarquee \u00b7 secrets hidden on your machine. PEEKMARQUEE $MARQ on Pons \u00b7 Fri 6 Nov 15:00 UTC",
    "cas": [],
    "fake_posts": [],
    "texts": [
-    "Filter the echo. Record the signal. An AI agent that leaves an on-chain, replayable record of every call. \ud83d\udd34",
-    "\u6211\u4eec\u5c06\u6bcf\u9694\u51e0\u4e2a\u5c0f\u65f6\u66f4\u65b0\u4e00\u6b21\u8fdb\u5ea6\u3002"
+    "Before anything went out, the founder ran it dry. See exactly what would be sent: npx peekmarquee --dry-run The screenshot is that output, from test fixtures. Where a key was, the line reads [redacted:api_key]. Secrets are hidden on your machine, before anything leaves it.",
+    "The first command of day one was also the last one needed. npx peekmarquee, typed in the folder where Claude Code was running, printed a public link in seconds. Recorded on the founder's machine with a test session. Reply with what your agent is building today."
    ],
-   "checked": "2026-11-05T18:17:33+00:00"
+   "checked": "2026-11-05T18:38:54+00:00"
   },
-  "renthookcat": {
-   "handle": "renthookcat",
+  "ollama": {
+   "handle": "ollama",
    "found": true,
-   "id": "2116195773456990208",
-   "name": "HookCat",
-   "joined": "2026-10-30T16:16:02+00:00",
-   "followers": 37,
-   "following": 7,
-   "posts": 1,
-   "verified": "individual",
-   "last_post": "2026-11-05T11:45:30+00:00",
-   "sample": 1,
+   "id": "1688410127378829312",
+   "name": "ollama",
+   "joined": "2023-08-07T04:42:08+00:00",
+   "followers": 187886,
+   "following": 618,
+   "posts": 8917,
+   "verified": "organization",
+   "last_post": "2026-11-04T20:27:58+00:00",
+   "sample": 15,
    "sample_full_week": false,
-   "posts_7d": 1,
-   "avg_likes": 47.0,
-   "avg_views": 618,
-   "bio_site": null,
-   "bio": "",
+   "posts_7d": 7,
+   "avg_likes": 201.5,
+   "avg_views": 19612,
+   "bio_site": "https://github.com/ollama/ollama",
+   "bio": "the world's most popular way to build on open models \n\nhttps://ollama.com",
    "cas": [],
    "fake_posts": [],
    "texts": [
-    "https://x.com/i/article/2118308324156620800"
+    "Kimi K3.1 Pro from @Kimi_Moonshot is now available on Ollama Cloud. \ud83d\udd12 Hosted in the US with full zero data retention. 2.8T total parameters with 104B activated, designed for coding, 3D creation, financial research, and other agentic tasks. Run it on Ollama Cloud: ollama run kimi-k3.1-pro:cloud",
+    "@Kimi_Moonshot https://ollama.com/library/kimi-k3.1-pro",
+    "Kimi K3.1 Pro rolling out on Ollama Cloud shortly. US based. Zero data retention.",
+    "We sat down with South Korea\u2019s Vice Chair of AI, @JungWooHa2, in Seoul this week to talk about open source adoption, the critical role open models play in cybersecurity and broadening AI access throughout Korea, and the importance of our partnerships across the Korean AI ecosystem to grow our commun",
+    "Our CEO @jmorgan was invited to @SeoulNatlUni to give a lecture on open model adoption for more than 200 students. Professors Jae W. Lee, Tae-Wan Kim and the entire team at SNU\u2019s AI Institute are doing incredible work to advance Korea as a global AI leader. Thank you for hosting us!",
+    "Open models were the first to do the sensitive work, like private documents and government data. Now, with full zero data retention and more capable models, Ollama is making them the default for enterprises worldwide. @togethercompute @vipulved @jmorgan",
+    "why Ollama Cloud has grown 200x since the start of the year \ud83d\udc47 @togethercompute @vipulved @jmorgan",
+    "Enterprise teams around the world (including Korea, where we'll be next week!) are using Ollama to transition their workflows to open models. @togethercompute @vipulved @jmorgan",
+    "Recent model updates from the past two weeks \ud83d\udc47 In Ollama\u2019s cloud \u2601\ufe0f: - Beam (free for a limited time!) - Muse-spark-open - MiniMax-m3.1-flash - Mistral-large-4 - DeepSeek-v4.1-flash:1017 - Clef (Decision) Local \ud83e\udd99: - Bonsai-2 - EmbeddingGemma-2 - Flint - Nemotron-3.5-bolt - Nemotron-3.5-super - Phono",
+    "forgot to include LFM3! https://ollama.com/library/lfm3",
+    "Full list: https://ollama.com/search",
+    "why security teams use ollama to work with open models @togethercompute @vipulved @jmorgan",
+    "why security teams use ollama to work with open models @togethercompute @vipulved @jmorgan",
+    "\uc5ec\ub7ec\ubd84, \uc548\ub155\ud558\uc138\uc694! \ud83c\uddf0\ud83c\uddf7 We are days away from our first trip to Seoul! Come meet us and @friendliai on Nov 5th. We would love to see you there! Register below \u2b07\ufe0f https://luma.com/ollama-friendliai-meetup",
+    "Run the best frontier open models on Ollama's cloud today @CrusoeAI @mchiang0610"
    ],
-   "checked": "2026-11-05T18:17:33+00:00"
+   "checked": "2026-11-05T18:38:54+00:00"
+  },
+  "inflection_x": {
+   "handle": "Inflection_X",
+   "found": true,
+   "id": "2096225526465605634",
+   "name": "Inflection Exchange",
+   "joined": "2026-09-05T13:17:12+00:00",
+   "followers": 94,
+   "following": 17,
+   "posts": 300,
+   "verified": "individual",
+   "last_post": "2026-10-31T04:29:52+00:00",
+   "sample": 9,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 5.4,
+   "avg_views": 169,
+   "bio_site": "https://inflection.exchange/",
+   "bio": "THE exchange for minute-long markets. \n\nRust FIFO CLOB, trading on Base Sepolia\n\nhttps://discord.gg/HmdqE54FpD",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Love poker? Join us for a Diwali poker night \ud83e\ude94 We're teaming up with @fiber_evm to bring it to Mumbai for an invite-only evening with the crypto community A night of poker, drinks, and good conversations with founders, builders, investors, and friends from across the ecosystem Come dressed in your I",
+    "Register for the Diwali poker night here: https://luma.com/knq0yij1",
+    "We're heading to @EFDevcon \ud83c\uddee\ud83c\uddf3 We\u2019ll be in Mumbai, November 3\u20136, meeting up with builders, partners, and the Ethereum community. If you\u2019re around, let\u2019s meet!",
+    "We fed our matching engine 2 million random inputs, then replayed its journal. The result was byte-identical. A restart restored all 1,041 resting orders with the sequence unbroken. Every input is journaled before it is acknowledged, so on our side there is always a record to check queue priority ag",
+    "FOMC in 30 mins hike again: and we should risk off and dump lower hold but hawkish presser: chop chop chop hold and they sound done: shorts get squeezed. fast move up 1- and 5-minute markets on BTC, WTI and NVDA are open on paper",
+    "https://inflection.exchange/trade?m=btc-updown-5m&s=hskqz",
+    "Inflection now settles on @base Sepolia. > Every fill locked onchain before expiry > No last look > Withdraw without us Minute-long markets, settled where you can check them. Paper trade \u2192 https://inflection.exchange",
+    "In light of @beniduboss comprehensive expos\u00e9 of unusual trading activity on Kalshi, I'd like to say a couple of things about what we represent. Inflection was born from the frustrations we experienced firsthand as traders. After building HFT bots on short-duration crypto markets, we saw how unreliab",
+    "@beniduboss We\u2019re currently onboarding alpha testers who are tired of the status quo. What\u2019s the number one frustration you have with existing short-duration UP/DOWN markets?"
+   ],
+   "checked": "2026-11-05T18:38:54+00:00"
+  },
+  "tollsfun": {
+   "handle": "tollsfun",
+   "found": true,
+   "id": "2115851496411795456",
+   "name": "tolls",
+   "joined": "2026-10-29T17:02:44+00:00",
+   "followers": 3349,
+   "following": 2,
+   "posts": 11,
+   "verified": "individual",
+   "last_post": "2026-11-05T18:40:05+00:00",
+   "sample": 10,
+   "sample_full_week": false,
+   "posts_7d": 10,
+   "avg_likes": 608.9,
+   "avg_views": 6706,
+   "bio_site": "http://tolls.fun",
+   "bio": "Pay-per-call for AI agents on Solana.\nAgents pay in USDC over x402. Every request pays its toll.\n\nCA: 8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "the tolls catalog checks every endpoint every 15 minutes. each one gets an unpaid request and has to answer 402 with a price we can read. one that stops answering is hidden until it comes back. odd prices get a warning. https://tolls.fun",
+    "a paid call on tolls, in four steps over plain HTTP: 1. GET: the agent asks 2. 402: the price comes back in PAYMENT-REQUIRED 3. retry: a signed usdc transfer goes in PAYMENT-SIGNATURE 4. 200: the answer, with PAYMENT-RESPONSE and the tx signature https://tolls.fun",
+    "an agent that needs one answer shouldn't need an account, an API key and a monthly plan. on tolls it pays for that one request, in usdc, and gets the answer. https://tolls.fun",
+    "dev supply locked. check the lock: https://app.streamflow.finance/token-dashboard/solana/mainnet/8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump/contract/5NFvUDHVMocWzCudEbdCtsN7A51tanvUdUwh1gjAsBPv",
+    "dex paid. https://dexscreener.com/solana/8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump",
+    "today, the gates open. tolls launches on solana: a catalog of x402 endpoints, a no-code gateway for any API, six data endpoints, sdk + mcp, and agent wallets with hard spend budgets. the tolls token comes next. follow along on https://tolls.fun",
+    "what happens when an API fails mid-call? on the tolls gateway, the agent will sign first, but the payment only settles after the API answers with a 2xx. timeout or error: nothing settles. the agent pays $0. you only pay for answers. follow along on https://tolls.fun",
+    "for centuries, roads and bridges charged by the trip. pay at the gate, drive on. the web went with accounts, keys and monthly plans. fine for people with cards. agents don't have cards. they'll pay the way roads always have: per trip, per request. the toll is coming back.",
+    "https://x.com/i/article/2117333258140856320",
+    "AI agents run on APIs. Soon they'll pay for each call. One request, one payment, in USDC on Solana. No sign-ups, no subscriptions. Every request pays its toll."
+   ],
+   "checked": "2026-11-05T18:38:54+00:00"
   }
  },
  "ids": {
@@ -10359,20 +10655,29 @@
   "2096225526465605634": [
    "Inflection_X"
   ],
+  "2102865391986864128": [
+   "trypalomino"
+  ],
   "2117557916391944192": [
    "BlackPoolCash"
   ],
-  "1793327049882398720": [
-   "ManifestNetwork"
+  "1179932913988583424": [
+   "LumiWave_Lab"
   ],
-  "1636842565": [
-   "zer0clickz"
+  "2118305695535697920": [
+   "zkblankRH"
   ],
-  "2115855286426849280": [
-   "GhostXAIagent"
+  "1688410127378829312": [
+   "ollama"
+  ],
+  "2096225526465605634": [
+   "Inflection_X"
   ],
   "2116195773456990208": [
    "renthookcat"
+  ],
+  "2115851496411795456": [
+   "tollsfun"
   ]
  },
  "past": {
@@ -10641,16 +10946,13 @@
   "meadgod": [],
   "vesporarh": [],
   "neuxoradotme": [],
+  "renthookcat": [],
+  "uncensai": [],
+  "trypalomino": [],
   "sherwoodagent": [],
-  "openanysi": [],
-  "darkstonkcash": [],
-  "blindwoodsrh": [],
-  "neuralverge": [],
+  "ollama": [],
   "inflection_x": [],
-  "manifestnetwork": [],
-  "zer0clickz": [],
-  "ghostxaiagent": [],
-  "renthookcat": []
+  "tollsfun": []
  },
  "history": {
   "barragetrade": {
@@ -11205,7 +11507,7 @@
   },
   "human_protocol": {
    "2026-11-05": [
-    51179,
+    51178,
     1546
    ]
   },
@@ -12243,8 +12545,8 @@
   },
   "peekmarquee": {
    "2026-11-05": [
-    10,
-    2
+    14,
+    3
    ]
   },
   "torchpaddotfun": {
@@ -12285,8 +12587,8 @@
   },
   "frongcommunity": {
    "2026-11-05": [
-    3353,
-    373
+    3354,
+    375
    ]
   },
   "vesporarh": {
@@ -12331,28 +12633,46 @@
     94
    ]
   },
-  "manifestnetwork": {
+  "lumiwave_lab": {
    "2026-11-05": [
-    3924,
-    1038
+    26959,
+    1548
    ]
   },
-  "zer0clickz": {
+  "zkblankrh": {
    "2026-11-05": [
-    35,
-    17
+    26,
+    1
    ]
   },
-  "ghostxaiagent": {
+  "ollama": {
    "2026-11-05": [
-    15,
-    4
+    187886,
+    8917
+   ]
+  },
+  "valseqxyz": {
+   "2026-11-05": [
+    12,
+    34
+   ]
+  },
+  "inflection_x": {
+   "2026-11-05": [
+    94,
+    300
    ]
   },
   "renthookcat": {
    "2026-11-05": [
     37,
     1
+   ]
+  },
+  "tollsfun": {
+   "2026-11-05": [
+    3349,
+    11
    ]
   }
  },
@@ -12790,17 +13110,17 @@
   "paritytech": {
    "twitter": null,
    "blog": "http://parity.io",
-   "checked": "2026-11-05T18:17:33+00:00"
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "tatter-xyz": {
    "twitter": null,
    "blog": "https://tatter.xyz",
-   "checked": "2026-11-05T18:17:33+00:00"
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "humanprotocol": {
    "twitter": null,
    "blog": "https://humanprotocol.org",
-   "checked": "2026-11-05T18:17:33+00:00"
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "pilot-protocol": {
    "twitter": null,
@@ -13182,40 +13502,15 @@
    "blog": null,
    "checked": "2026-11-05T17:42:31+00:00"
   },
-  "blindwoodsrh": {
-   "twitter": "blindwoodsRH",
-   "blog": "blindwoods.app",
-   "checked": "2026-11-05T17:04:37+00:00"
+  "coollabsio": {
+   "twitter": "coolifyio",
+   "blog": "https://coollabs.io",
+   "checked": "2026-11-05T17:42:31+00:00"
   },
-  "neuralverge": {
-   "twitter": null,
-   "blog": "https://neuralverge.ai/",
-   "checked": "2026-11-05T17:04:37+00:00"
-  },
-  "pondkeeper": {
-   "twitter": null,
-   "blog": "",
-   "checked": "2026-11-05T18:17:33+00:00"
-  },
-  "droodotfoo": {
-   "twitter": "DROOdotFOO",
-   "blog": "https://droo.foo/",
-   "checked": "2026-11-05T18:17:33+00:00"
-  },
-  "liftedinit": {
-   "twitter": "liftedinit",
-   "blog": "liftedinit.org",
-   "checked": "2026-11-05T18:17:33+00:00"
-  },
-  "zeroclickz": {
-   "twitter": "zer0clickz",
-   "blog": "https://zeroclickz.com",
-   "checked": "2026-11-05T18:17:33+00:00"
-  },
-  "nguyenkhangph": {
-   "twitter": null,
-   "blog": "",
-   "checked": "2026-11-05T18:17:33+00:00"
+  "ollama": {
+   "twitter": "ollama",
+   "blog": "https://ollama.com",
+   "checked": "2026-11-05T18:38:54+00:00"
   }
  }
 }
