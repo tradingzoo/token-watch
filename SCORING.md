@@ -19,6 +19,7 @@ The score answers **"is the code real, is it theirs, and does the token get anyt
 **Not their GitHub = score 0** (decided 4 Nov). A repo only counts as theirs with real evidence: it mentions the token's address, or it links the token's website, or the GitHub *account* is named after the project. A matching *repo* name alone is not enough, since anyone can name a token after a famous repo. Score 0 when:
 - the repo never mentions the token, its name or its website, or nothing ties it to the token and it's a popular older repo (500+ stars, made 60+ days before the token)
 - the code is copied from someone else's repo (copy check, or checked by hand)
+- the GitHub *account* is big and older (500+ followers or 100+ repos, made 60+ days before the token) and the only tie is its name (added 5 Nov: PARITY linked github.com/paritytech, Parity Technologies' account from 2015). A matching account name only counts for smaller or newer accounts
 - the repo is a fork or is empty (a GitHub account that shows no code is a *private GitHub*, scored below)
 
 **Private GitHub** (decided 4 Nov). Some projects link a real GitHub account or repo, but the code is private (no public repos, or the linked repo is private or deleted). These are scored too, but public code counts for more:

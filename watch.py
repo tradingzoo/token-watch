@@ -729,14 +729,25 @@ def score(tok, full, found_on, symbol_counts, review):
     else:
         # A matching repo NAME is not proof (anyone can name a token after a famous repo). Real evidence:
         # token address in repo, repo links their website, or the GitHub ACCOUNT is named after the project.
-        evidence = in_repo or (tok_site and (home == tok_site or tok_site in readme.lower())) or related(tok, owner, None)
+        # ...but an account name is no proof for a big, older account either: anyone can name a token
+        # "Parity Technologies" and link github.com/paritytech (PARITY, 5 Nov).
+        acct_made = iso(user["created_at"]) if user.get("created_at") else None
+        famous_acct = bool((user.get("followers", 0) >= 500 or user.get("public_repos", 0) >= 100) and launched and acct_made
+                           and acct_made < launched - datetime.timedelta(days=60))
+        evidence = (in_repo or (tok_site and (home == tok_site or tok_site in readme.lower()))
+                    or (related(tok, owner, None) and not famous_acct))
         famous_older = (repo.get("stargazers_count", 0) >= 500 and launched and created
                         and created < launched - datetime.timedelta(days=60))
-        if not evidence and (found_on != "website" or famous_older):
-            why = (f"a popular older repo ({repo.get('stargazers_count', 0):,} stars, made {created:%b %Y})" if famous_older
-                   else "the repo")
-            flags.append(f"Nothing ties {why} to this token: it never mentions the token's address or website, and the "
-                         f"GitHub account ({owner}) isn't named after the project — likely someone else's project")
+        if not evidence and (found_on != "website" or famous_older or famous_acct):
+            if famous_acct:
+                flags.append(f"Nothing ties this big, older GitHub account ({owner}: {user.get('public_repos', 0):,} repos, "
+                             f"{user.get('followers', 0):,} followers, made {acct_made:%b %Y}) to this token: it never mentions the "
+                             f"token's address and doesn't link its website. A matching name isn't proof — likely someone using a famous name")
+            else:
+                why = (f"a popular older repo ({repo.get('stargazers_count', 0):,} stars, made {created:%b %Y})" if famous_older
+                       else "the repo")
+                flags.append(f"Nothing ties {why} to this token: it never mentions the token's address or website, and the "
+                             f"GitHub account ({owner}) isn't named after the project — likely someone else's project")
     if launched and created and created > launched + datetime.timedelta(days=1):
         reasons["Really theirs"].append(f"ℹ️ Repo was created {days_between(created, launched):.0f} days after the token launched")
     ck = f"{full}@{repo.get('pushed_at','')[:10]}"
