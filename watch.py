@@ -842,6 +842,12 @@ def score(tok, full, found_on, symbol_counts, review):
                      f"{user.get('followers', 0):,} followers), but its repo, website and X never post or mention the token. "
                      f"Likely launched by someone else using their project — capped at 25 until the dev claims it")
 
+    # --- works with past winners (+5, 5 Nov after OSTRA's Raeto vaults): their site, repo or own X ---
+    xh = ox.get("official") or ox.get("token")
+    wins, on_x = sitecheck.past_winners(tok, repo_text + " " + " ".join(t for w, u, t in srcs), x_account(xh) if xh else None)
+    add("Platform", 5 if wins else 0, ("Works with past winners: " + ", ".join(wins) + (" (from their X posts)" if on_x else ""))
+        if wins else "Doesn't work with any past winners we know of")
+
     # --- Real code (20) ---
     span = days_between(last_c, first_c) if first_c and last_c else 0
     ok_n, ok_span = n_commits >= 20, span >= 7
@@ -883,7 +889,7 @@ def score(tok, full, found_on, symbol_counts, review):
     # Not their GitHub (someone else's project, copied code, fork, empty) -> 0. Other red flags -> capped at 25.
     not_theirs = [f for f in flags if " times on Pons" not in f and not f.startswith(X_MISMATCH) and not f.startswith(UNCLAIMED)]
     capped = bool(flags)
-    final = 0 if not_theirs else (min(total, 25) if capped else total)
+    final = 0 if not_theirs else (min(total, 25) if capped else min(total, 100))  # parts add up to 105
     if cc:
         reasons.setdefault("Really theirs", []).insert(0, "⛔ Score set to 0: this token is a copy, the project's X posts a different address (see the warning above)")
     elif not_theirs:
@@ -944,6 +950,54 @@ if(top)top.append(' Times are in your time zone ('+Intl.DateTimeFormat().resolve
 }catch(e){}})();"""
 
 
+def why_short(sc, e):
+    """'Why this score' in a few lines (5 Nov): points per part, the main pluses and minuses, and any cap."""
+    parts, plus, minus = [], [], []
+    for g, items in sc.get("reasons", {}).items():
+        pts = sum(int(re.search(r"\(\+(\d+)\)$", x).group(1)) for x in items if re.search(r"\(\+(\d+)\)$", x))
+        name = re.sub(r"\s*\(.*\)$", "", g)
+        parts.append(f"<span class='chip{' zero' if not pts else ''}'>{e(name)} +{pts}</span>")
+        for x in items:
+            m = re.search(r"\(\+(\d+)\)$", x)
+            short = re.sub(r"\s*\(\+\d+\)$", "", x)
+            short = re.sub(r"\s+—.*$", "", short)[:90]
+            if m and int(m.group(1)) >= 10 and x.startswith(("✅", "🟡")):
+                plus.append((int(m.group(1)), short))
+            elif m and int(m.group(1)) == 0 and x.startswith("❌"):
+                minus.append(short)
+    cap = next((x for x in sum(sc.get("reasons", {}).values(), []) if re.match(r"(?:⛔|🟡 Capped|ℹ️ Points add up|ℹ️ The GitHub code is private)", x)), "")
+    if not cap and sc.get("flags"):
+        cap = f"⚠️ Capped at 25 by a warning: {sc['flags'][0][:110]}"
+    plus = [p for _, p in sorted(plus, key=lambda p: -p[0])[:3]]
+    lines = "".join(f"<li>{e(x)}</li>" for x in plus + minus[:2])
+    return (f"<div class='why'><div class='chips'><b>Why {sc['score']}:</b> {' '.join(parts)}</div>"
+            + (f"<p class='cap'>{e(cap[:200])}</p>" if cap else "") + (f"<ul>{lines}</ul>" if lines else "") + "</div>")
+
+
+def fold_copies(cards, e):
+    """Same-name tokens (copies, relaunches): show the best one, fold the rest under it (5 Nov). Order kept."""
+    groups, order = {}, []
+    for sym, score, html_ in cards:
+        k = sym.strip().lower()
+        if k not in groups:
+            groups[k] = []
+            order.append(k)
+        groups[k].append((score, html_))
+    out = []
+    for k in order:
+        g = groups[k]
+        if len(g) == 1:
+            out.append(g[0][1])
+            continue
+        best = max(range(len(g)), key=lambda i: (g[i][0], -i))
+        rest = [h for i, (s, h) in enumerate(g) if i != best]
+        zeros = sum(1 for i, (s, h) in enumerate(g) if i != best and s == 0)
+        what = "copies" if zeros == len(rest) else "copies or relaunches"
+        out.append(g[best][1] + f"<details class='dups'><summary>+{len(rest)} more token{'s' if len(rest) > 1 else ''} named {e(k.upper())} ({what})</summary>"
+                   + "".join(rest) + "</details>")
+    return out
+
+
 def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=None, ship=None):
     pdb = pdb or {}
     rows = sorted(state["github"].values(), key=lambda r: r.get("launched") or r["first_seen"], reverse=True)  # newest launch first
@@ -988,7 +1042,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
             meta_html = f"<p class=\"meta\">{e(meta)}</p>"
         else:
             meta_html = (f"""<p class="meta"><button class="wrong" data-msg="{e('Wrong repo? ' + (r.get('symbol') or '') + ' ' + r['address'] + ' was matched to github.com/' + sc['repo'] + '. The right one is: ')}">Wrong repo?</button> Repo {e(sc['repo'])} · {sc['facts'].get('commits','?')} changes · created {e(sc['facts'].get('created','?'))} · last update {e(sc['facts'].get('pushed','?'))} · scored {e(r['scored_at'][:16].replace('T',' '))} UTC</p>""")
-        (site_cards if is_site else cards).append(f"""
+        (site_cards if is_site else cards).append((r.get("symbol") or "?", sc["score"], f"""
 <article class="card" data-score="{sc['score']}" data-new="{int(new)}">
   <header>
     <div class="score {band}">{sc['score']}<small>/100</small></div>
@@ -1001,9 +1055,11 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
   {xline}
   {flags}
   <p class="desc">{e((r.get('description') or '')[:260])}</p>
-  <details{" open" if new else ""}><summary>Why this score</summary>{''.join(groups)}{notes}{road}
+  {why_short(sc, e)}
+  <details><summary>All reasons</summary>{''.join(groups)}{notes}{road}
   {meta_html}</details>
-</article>""")
+</article>"""))
+    cards, site_cards = fold_copies(cards, e), fold_copies(site_cards, e)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="refresh" content="420"><title>Token Watch</title>
 <style>
@@ -1021,6 +1077,10 @@ h1{{font-size:22px;margin:0 0 4px}} .top{{color:var(--mute);margin:0 0 16px}}
 h2{{margin:0;font-size:19px}} .sub,.meta{{color:var(--mute);margin:2px 0;font-size:13px}} .links{{margin:4px 0 0;font-size:13px}}
 a{{color:var(--accent)}} .new{{font-size:11px;background:var(--accent);color:var(--card);border-radius:5px;padding:1px 6px;vertical-align:middle}}
 .flag{{background:var(--flag);border-radius:8px;padding:6px 10px;margin:10px 0 0;font-size:14px}}
+.why{{border-left:3px solid var(--line);padding:4px 0 4px 10px;margin:8px 0}} .why ul{{margin:4px 0 0;font-size:14px}}
+.chips{{display:flex;flex-wrap:wrap;gap:5px;align-items:center;font-size:13px}} .chip{{border:1px solid var(--line);border-radius:6px;padding:0 6px}}
+.chip.zero{{color:var(--mute)}} .why .cap{{margin:4px 0 0;font-size:13px;color:var(--mid)}}
+.dups{{margin:-8px 0 14px 12px}} .dups summary{{font-size:14px}} .dups .card{{opacity:.85}}
 .desc{{margin:10px 0 6px}} summary{{cursor:pointer;color:var(--accent)}} h4{{margin:12px 0 2px;font-size:14px}}
 .xline{{margin:8px 0 0;font-size:13px;color:var(--mute)}} .ship{{color:var(--ink)}}
 .test h2{{margin:0 0 4px}} table.sum{{border-collapse:collapse;width:100%;font-size:13px;margin:10px 0;display:block;overflow-x:auto}}

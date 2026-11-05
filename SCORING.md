@@ -83,6 +83,14 @@ The page's "Still shipping?" box lists a token only when its status changes. The
 - **Private GitHub cap** is 40, or **60** when the token's own website posts its address (DARK, 5 Nov: $3.9M, address and Pons link on darkwoods.ai, code private).
 - **Private GitHub + a real website:** the site check also scores the website and the card keeps the **higher** score, with both shown (DARK: GitHub check 55, site check 80 → 80). A private repo shouldn't hide a strong product.
 
+## Works with past winners (5 Nov)
+
+Both scores give **+5** when the project works with a token that already did well (Hookr, Orbio, Raeto, Priors, Harmonic, WTH, Fobo, Delta, UBIK; never itself). It now counts links on their site or repo **and** the names in their own recent X posts (OSTRA: "idle earnings go to work in … Raeto vaults"). On X, everyday words (Harmonic, Delta, Priors, WTH) only count as a $TICKER or their web address. GitHub score parts now add up to 105, shown capped at 100.
+
+## Card layout (5 Nov)
+
+Each card shows a short **Why {score}** block (points per part, the main pluses and misses, and any cap) above the folded **All reasons**. Tokens with the same name (copies, relaunches) are folded under the best-scoring one: "+15 more tokens named NYMRA (copies)". Nothing is hidden for good, and no score changes.
+
 ## Ghost market warning (added 5 Nov, warning only)
 
 A token worth **$250k+** with **fewer than 25 trades in 24 hours** gets a 👻 warning on its card: the price may be propped up or stale, and selling near it may not be possible. It never changes the score (user's choice). Why trades and not volume: on 5 Nov, 'under 1% of value traded a day' would have flagged half the real winners (UBIK, GF, HMM, PONS); real winners trade 100–3,000 times a day, while TRENCHERS traded 13 times, WIN 4, AGE 7.

@@ -61,6 +61,24 @@ def listing_page(url):
                 or (_TOKEN_PATH.search(path + "/") and len(path.strip("/").split("/")) >= 2))
 
 
+# Past winners named in a project's own X posts (OSTRA, 5 Nov: "idle earnings go to work in ... Raeto vaults").
+# Plain names only where the word isn't an everyday word; $TICKERs for all.
+WINNER_WORDS = {"Raeto": r"\bRaeto\b", "Hookr": r"\bHookr\b", "Orbio": r"\bOrbio\b", "Fobo": r"\bFOBO\b|\bfobo\.fun",
+                "UBIK": r"\bUBIK\b", "Priors": r"\$PRIORS\b|priors\.trade", "Harmonic": r"\$HARMONIC\b|harmonicagent",
+                "WTH": r"\$WTH\b|whatthehook", "Delta": r"\$DELTA\b|deltaliquidity"}
+
+
+def past_winners(tok, site_text, x_acct):
+    """(names, found_on_x): past winners the project's site links, or its own recent X posts name. Never itself."""
+    own = urllib.parse.urlparse(tok.get("website") or "").netloc.lower()
+    me = {(tok.get("symbol") or "").upper(), (tok.get("name") or "").upper()}
+    wins = {WINNER_NAMES[k] for k in WINNER_NAMES if k not in own and re.search(re.escape(k), site_text or "", re.I)}
+    wins -= {n for n in wins if n.upper() in me}
+    xt = " ".join((x_acct or {}).get("texts") or [])
+    on_x = {n for n, rx in WINNER_WORDS.items() if n not in wins and n.upper() not in me and re.search(rx, xt, re.I)}
+    return sorted(wins | on_x), bool(on_x)
+
+
 def has_site(tok):
     u = tok.get("website") or ""
     if not u.startswith("http") or listing_page(u):
@@ -139,9 +157,9 @@ def score(tok, review, w):
     n_addr = len({a.lower() for a in re.findall(r"0x[0-9a-fA-F]{40}", text)})
     add("Really theirs", 5 if n_addr >= 2 else 0, f"Lists {n_addr} contract addresses" if n_addr >= 2 else "Lists fewer than 2 contract addresses",
         "✅" if n_addr >= 2 else "❌")
-    own = urllib.parse.urlparse(site).netloc.lower()
-    wins = sorted({WINNER_NAMES[k] for k in WINNER_NAMES if k not in own and re.search(re.escape(k), text, re.I)})  # not itself
-    add("Really theirs", 5 if wins else 0, ("Works with past winners: " + ", ".join(wins)) if wins else "Doesn't link any past winners")
+    wins, on_x = past_winners(tok, text, w.x_account(ox["official"]) if ox["official"] else None)
+    add("Really theirs", 5 if wins else 0, ("Works with past winners: " + ", ".join(wins) + (" (from their X posts)" if on_x else ""))
+        if wins else "Doesn't link any past winners")
     cc = w.copycat(tok, ox)
     if cc:
         flags.append(f"{w.COPYCAT}: the project's X @{cc['handle']} posts a different address with the same "
