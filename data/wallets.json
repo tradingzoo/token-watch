@@ -479,7 +479,7 @@
   "wallet_txs": 967
  },
  "0x2911657395c0357b082bb56a8c69ba896692df32": {
-  "checked": "2026-11-05T14:40:10+00:00",
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": true,
   "wallet": "0x9ada998e141bbcf169debf30dab4a2d1ad6616d5",
   "launches": 1,
@@ -489,7 +489,7 @@
   "wallet_txs": 4
  },
  "0x0647c5b90fe024219e97ef4c9743d278bc0d5729": {
-  "checked": "2026-11-05T02:59:30+00:00",
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": true,
   "wallet": "0x70b2431cce043a22db5c6d58cdc39491d4e2f8ef",
   "launches": 1,
@@ -499,7 +499,7 @@
   "wallet_txs": 6
  },
  "0xa212b74c5132079d490edfa3b34e2fadf391b3da": {
-  "checked": "2026-11-05T02:59:30+00:00",
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": true,
   "wallet": "0x282f2d835a30fcac0250f85139d43a83ec893a2c",
   "launches": 1,
@@ -754,7 +754,7 @@
   "wallet_txs": 152
  },
  "0x736be283c9e85a9ed3fb65dfe984ca118f45c80d": {
-  "checked": "2026-11-05T14:40:10+00:00",
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": true,
   "wallet": "0x465c61fa0f4ac44833414e252b00a471cd2f6f2f",
   "launches": 1,
@@ -764,7 +764,7 @@
   "wallet_txs": 6
  },
  "0xd382e35cda672a96cc28137127c279e032783802": {
-  "checked": "2026-11-05T14:40:10+00:00",
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": true,
   "wallet": "0x9617c875e9b720a50914122b9d4887c5073d4148",
   "launches": 1,
@@ -774,7 +774,7 @@
   "wallet_txs": 9
  },
  "0x4ed418d5e58358906d4b7e255f320521c6d14007": {
-  "checked": "2026-11-05T14:40:10+00:00",
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": true,
   "wallet": "0x369d0b09da2cf3689549ede6506010c4a33545f9",
   "launches": 1,
@@ -3442,22 +3442,52 @@
   "others": [],
   "wallet_txs": 2
  },
- "0x000050e18ffa3f8f7ad170eb9cef160eb3ed1111": {
-  "checked": "2026-11-05T13:53:38+00:00",
+ "0x7bae7a90c7328969614b3efbee8c4a9026befea8": {
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": false
  },
- "0x03ce631c689741f51bba9766fcbdca3d9ba04819": {
-  "checked": "2026-11-05T14:40:10+00:00",
+ "0xdcf5ca8f5254bd86cc05fd3479eddcaea7536116": {
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": true,
-  "wallet": "0x0e4f215d5314ce2a31eb4aca7e2d4b03238e7c83",
+  "wallet": "0x5c0dec4f2e5bb552f26bb7567d29f24615ece173",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 4
+ },
+ "0x697ddaf1cd21afd1d9087f052c3883369268711f": {
+  "checked": "2026-11-05T15:01:55+00:00",
+  "pons": true,
+  "wallet": "0x6241548af12ee0a2aac415d652323f6f96934902",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 4
+ },
+ "0x2279055772bcfe6630f49f34ddf860f5f10ef8e6": {
+  "checked": "2026-11-05T15:01:55+00:00",
+  "pons": true,
+  "wallet": "0x2be01895ed2f07c7edb575124f87543c2d852008",
   "launches": 1,
   "before": 0,
   "after": 0,
   "others": [],
   "wallet_txs": 8
  },
+ "0x03ce631c689741f51bba9766fcbdca3d9ba04819": {
+  "checked": "2026-11-05T15:01:55+00:00",
+  "pons": true,
+  "wallet": "0x0e4f215d5314ce2a31eb4aca7e2d4b03238e7c83",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 9
+ },
  "0x6a0a756918d8c628481ae5c9639a9bb9bad138b4": {
-  "checked": "2026-11-05T14:40:10+00:00",
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": true,
   "wallet": "0xdaa74d259a12edee185b1026e5a00f811c1177c9",
   "launches": 1,
@@ -3466,40 +3496,58 @@
   "others": [],
   "wallet_txs": 3
  },
- "0xd0d825b44e160309e4cfb2be8e94bec20355720a": {
-  "checked": "2026-11-05T14:40:10+00:00",
+ "0x43735a64fd819dc5137ada507671bdc08f68e2e6": {
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": true,
-  "wallet": "0xf7db9f6f19cd80f63e439fee5fd675c929791839",
+  "wallet": "0xc8e1db2e8b1a1cf6ffb5e50e4b2321673b9e6807",
+  "launches": 151,
+  "before": 117,
+  "after": 33,
+  "others": [],
+  "wallet_txs": 1
+ },
+ "0x627e45ca536c6cecedcd9d9bae0e0b11d5cb9baa": {
+  "checked": "2026-11-05T15:01:55+00:00",
+  "pons": true,
+  "wallet": "0x527a1299475ff48bc628975e42b6cffa85287f0e",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 2
+ },
+ "0x028aa994ddd7980932d44b45cb17c6b1e3776f46": {
+  "checked": "2026-11-05T15:01:55+00:00",
+  "pons": true,
+  "wallet": "0x7d3bb39e3675c94f451541f7c4606e365519e9f1",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 2
+ },
+ "0x5815f8a974b8ecd7d2a2f0e592fa74b11af04574": {
+  "checked": "2026-11-05T15:01:55+00:00",
+  "pons": true,
+  "wallet": "0x8145ca61c8c47ba14fb2d9cb837a82ed7b9e29ba",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 20
+ },
+ "0x1ce8d09535b6e365cfedee6b540dbdb1935151b6": {
+  "checked": "2026-11-05T15:01:55+00:00",
+  "pons": true,
+  "wallet": "0x1d8bca3405f6a8723558b1c5a1d150aa05b72268",
   "launches": 1,
   "before": 0,
   "after": 0,
   "others": [],
   "wallet_txs": 5
  },
- "0xc3a0412d8f25d3861782355b1b2a6c5ec729868a": {
-  "checked": "2026-11-05T14:40:10+00:00",
-  "pons": true,
-  "wallet": "0xe38ab18100400b26bd53a3cea069d8fcc4f24bea",
-  "launches": 1,
-  "before": 0,
-  "after": 0,
-  "others": [],
-  "wallet_txs": 6
- },
- "0x6245e67affa44a23077f0ea7f981a8dc743a0c47": {
-  "checked": "2026-11-05T14:40:10+00:00",
-  "pons": false
- },
- "0xf8bc08092c06db6148114dcf82af881f1085f92b": {
-  "checked": "2026-11-05T14:40:10+00:00",
-  "pons": false
- },
- "0x7076d0236ac2877b340f4d73b97dfa2fd94f8c4c": {
-  "checked": "2026-11-05T14:40:10+00:00",
-  "pons": false
- },
  "0x9d60e0f00ae438fc8532a29fb54ab76d824fb540": {
-  "checked": "2026-11-05T14:40:10+00:00",
+  "checked": "2026-11-05T15:01:55+00:00",
   "pons": true,
   "wallet": "0x12bad225c7b08295e6ce568daa4eb47d098e15eb",
   "launches": 1,
