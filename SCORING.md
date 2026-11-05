@@ -113,12 +113,12 @@ Caveat: these are today's websites, so a winner may have built its developer pag
 
 | Part | What counts | Points |
 |---|---|---|
-| **Plug-in tools (45)** | API keys (incl. a holder's key or `Authorization: Bearer`) 10 · SDK or install line 10 · MCP 10 · llms.txt 10 · developer page (/developers, /docs, /build) or docs link 5 | 45 |
+| **Plug-in tools (45)** | API keys (incl. a holder's key or `Authorization: Bearer`) 10 · SDK or install line (incl. terminal installs: brew, curl | sh, winget) 10 · MCP 10 · llms.txt 10 · developer page (/developers, /docs, /build) or docs link 5 | 45 |
 | **Really theirs (25)** | Token's address on their website/docs, or posted by their official X (30+ days old) 15 · 2+ contract addresses listed 5 · works with past winners (Hookr, Orbio, Raeto, Priors, Harmonic, WTH, Fobo, Delta, UBIK; not itself) 5 | 25 |
 | **Money and Robinhood Chain (20)** | Says money goes back to the token (buyback, burn, staking, revenue share) **or** holding the token unlocks the product (e.g. "a wallet holding 200,000 UBIK", token-gated), 🟡 claimed, not checked 10 · uses stock tokens or USDG, on the site or as its trading pair (paired with USDG, TSLA, NVDA…) 10 | 20 |
-| **Live product (15)** | App, dashboard, console or wallet connect 5, or an app with 3+ sections (like SIC) 10 · made for AI agents (on the site, or in their official X's recent posts) 5 · mentions an audit, 🟡 not checked 5 | 15 |
+| **Live product (15)** | App, dashboard, console or wallet connect 5, or an app with 3+ sections (like SIC) 10 · made for AI agents (on the site, or in their official X's recent posts) 5 · mentions an audit, 🟡 not checked 5 · **takes real payments** (pay by card, Stripe, Apple Pay, top-ups, buy credits; 5 Nov test: winners 41%, losers 5%) 5 | 20 |
 
-Adds up to 105, so a few points can be missed and still score 100 (shown capped at 100).
+Adds up to 110, so a few points can be missed and still score 100 (shown capped at 100).
 
 - **Copycat token = 0** (same rule as above).
 - **Other red flags** (X doesn't match the website, hand-check flags) cap at 25. **Except** (5 Nov, after TRENCHERS): if the token's address is on the project's own website or repo, an X mismatch is a warning only, no cap — a copy can't post its address on the real site. Usually it's an old or renamed X account.

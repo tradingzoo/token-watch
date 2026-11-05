@@ -20,11 +20,16 @@ MAX_NEW_PER_RUN = 40  # keep each run short
 
 TOOLS = [
     ("API key", r"\bapi[ _-]?keys?\b|Authorization:\s*`?Bearer\b|\bholder'?s? (?:api )?keys?\b", "API keys for developers"),
-    ("SDK", r"npm (?:i|install) [@\w]|pip install \w|\bSDK\b|npx [@\w]", "an SDK or install line"),
+    ("SDK", r"npm (?:i|install) [@\w]|pip install \w|\bSDK\b|npx [@\w]"
+            r"|brew install \w|curl -[a-z]*s[a-z]* [^\n]*\|\s*(?:ba)?sh|winget install|irm [^\n]*\|\s*iex|cargo install \w|go install \w",
+     "an SDK or install line"),  # terminal installs added 5 Nov (DARK, HARMONIC)
     ("MCP", r"\bMCP\b|mcp\.json", "an MCP connection for AI agents"),
 ]
 OTHER = {
     "money": r"buy ?backs?|buy-backs?|\bburn(?:ed|s)?\b|\bstak(?:e|ing|ers)\b|revenue share|holders.{0,25}(?:share|earn|receive)",
+    # takes real payments (5 Nov test: winners 41%, losers 5%; pricing pages alone didn't separate them)
+    "pay": r"\b(?:pay|paid|pays) (?:by|with) (?:card|credit card)|\bcredit card\b|\bdebit card\b|\bstripe\b|apple pay"
+           r"|\btop[- ]?ups?\b|\bbuy credits\b",
     # holding the token unlocks the product (UBIK, 5 Nov: "a wallet holding 200,000 UBIK" gets a key)
     "access": r"\b(?:holders? of|holding|hold) (?:at least |over )?\d[\d,.]*\s*(?:k|m|thousand|million)?\s*\$?[A-Za-z]{2,}"
               r"|\btoken[- ]gated\b|\bholder'?s? (?:api )?keys?\b|\bavailable (?:only )?to holders\b",
@@ -84,6 +89,9 @@ def score(tok, review, w):
     base = "{0.scheme}://{0.netloc}".format(urllib.parse.urlparse(site))
     probe = w.fetch(base + "/zz-no-such-page-81", timeout=15, limit=1_500_000) or ""
     dev_pages = []
+    t = _real(w, base + "/pricing", probe)  # read for payment signs only, not a developer page
+    if t:
+        srcs.append(("docs", base + "/pricing", t))
     for p in ("/developers", "/docs", "/build"):
         t = _real(w, base + p, probe)
         if t:
@@ -182,12 +190,15 @@ def score(tok, review, w):
                                                  else "Not aimed at AI agents"))
     au = bool(re.search(OTHER["audit"], text, re.I))
     add("Live product", 5 if au else 0, "Mentions an audit — not checked" if au else "No audit mentioned", "🟡" if au else "❌")
+    pay = re.search(OTHER["pay"], text, re.I)
+    add("Live product", 5 if pay else 0, f"Takes real payments (“{pay.group(0)}”): a service with paying customers" if pay
+        else "No sign it takes payments (card or credits)")
 
     for f in review.get("flags", []):
         flags.append(f + " (checked by hand)")
     # copycat -> 0. Address nowhere on their own pages -> capped at 60 (copies paste the real site's links;
     # 60 not lower because real winners like ORBIO and HARMONIC don't post their address either).
-    final = min(total, 100)  # parts add up to 105, so a few points can be missed
+    final = min(total, 100)  # parts add up to 110, so a few points can be missed
     if cc:
         final = 0
         reasons["Really theirs"].insert(0, "⛔ Score set to 0: this token is a copy, the project's X posts a different address (see the warning above)")
