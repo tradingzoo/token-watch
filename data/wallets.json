@@ -1469,5 +1469,85 @@
   "after": 0,
   "others": [],
   "wallet_txs": 1
+ },
+ "0x72b7fd267fb030d410b24c5277484a3eb7a5e897": {
+  "checked": "2026-11-05T09:49:27+00:00",
+  "pons": true,
+  "wallet": "0x3cf5cd1d431d49b1c119425cd28e14e05fc8b4d5",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
+ },
+ "0x79a74fd91f8e1c4ab8e76253dec5c91f3094393f": {
+  "checked": "2026-11-05T09:49:27+00:00",
+  "pons": true,
+  "wallet": "0x1328b3d4fb7db40e0e3e72f0bde0fc45dcd9f0d9",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 99
+ },
+ "0xebaa0ca1a9d178550fb2f9ca4099a292375a403a": {
+  "checked": "2026-11-05T09:49:27+00:00",
+  "pons": true,
+  "wallet": "0xc0d4bd0147b04b8aa1999a90b3896fd227b9adbf",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 34
+ },
+ "0x2205c2232914f3a962fb25eda51f2d063dc9e532": {
+  "checked": "2026-11-05T09:49:27+00:00",
+  "pons": true,
+  "wallet": "0x8887bf188c133068ef6a5ff172a1a1955334ddf3",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 3
+ },
+ "0xbf818efe65aac127ac8f9fec6fec203ee222c851": {
+  "checked": "2026-11-05T09:49:27+00:00",
+  "pons": true,
+  "wallet": "0x5d5ecb7aa69f7dbe3dbd4bd2611c08364c5d5a31",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
+ },
+ "0xbf2f5b48428fc7c6fb13bd7a4848f209f482b9df": {
+  "checked": "2026-11-05T09:49:27+00:00",
+  "pons": true,
+  "wallet": "0xf9ddb1e779fcd84c930c1462cce71d070778e5ab",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 12
+ },
+ "0x853e1a36876cc4538be636b78e7b2bd0aabc0ded": {
+  "checked": "2026-11-05T09:49:27+00:00",
+  "pons": true,
+  "wallet": "0x9a2977a778f299b87fee1042f1cea6f11473e0ad",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
+ },
+ "0xb5df107c41d82fc4a2a646f9347daf45c7ffa79f": {
+  "checked": "2026-11-05T09:49:27+00:00",
+  "pons": true,
+  "wallet": "0xa60e892ab5fbf4754e3052b7643e48a1bd6b3065",
+  "launches": 3502,
+  "before": 2273,
+  "after": 1228,
+  "others": [],
+  "wallet_txs": 92370
  }
 }
