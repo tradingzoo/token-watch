@@ -1402,6 +1402,28 @@
    "cas": [],
    "fake_posts": [],
    "checked": "2026-11-05T04:30:28+00:00"
+  },
+  "newsbeat_": {
+   "handle": "newsbeat_",
+   "found": true,
+   "id": "1500160220735197188",
+   "name": "newsbeat",
+   "joined": "2022-03-05T17:24:18+00:00",
+   "followers": 88,
+   "following": 22,
+   "posts": 8,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://www.newsbeat.dev",
+   "bio": "Market-moving news. Built for AI agents.",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T04:45:23+00:00"
   }
  },
  "ids": {
@@ -1587,6 +1609,9 @@
   ],
   "2116886559546802176": [
    "aporixa_"
+  ],
+  "1500160220735197188": [
+   "newsbeat_"
   ]
  },
  "past": {
@@ -1652,7 +1677,8 @@
   "bytejury": [],
   "felixlu1018": [],
   "trycaliber": [],
-  "aporixa_": []
+  "aporixa_": [],
+  "newsbeat_": []
  },
  "history": {
   "barragetrade": {
@@ -2162,6 +2188,12 @@
     3,
     2
    ]
+  },
+  "newsbeat_": {
+   "2026-11-05": [
+    88,
+    8
+   ]
   }
  },
  "telegram": {
@@ -2496,6 +2528,11 @@
    "twitter": "aporixa_",
    "blog": "https://aporixa.com",
    "checked": "2026-11-05T04:30:28+00:00"
+  },
+  "thepeternemec": {
+   "twitter": "thepeternemec",
+   "blog": "https://peternemec.me",
+   "checked": "2026-11-05T04:45:23+00:00"
   }
  }
 }

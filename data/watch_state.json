@@ -578,7 +578,14 @@
   "0xbb1182e00b17d631186a487847707e450a6a8812": "2026-11-05T04:30:28+00:00",
   "0x5fcb7dfe5760e05813fa7ccc685ed30042dd9885": "2026-11-05T04:30:28+00:00",
   "0xe2141cc928b5fbf82f8ebb4307733e05928bd046": "2026-11-05T04:30:28+00:00",
-  "0xe27dbe394debd0eed3e71ff9cf1cbd232f108882": "2026-11-05T04:30:28+00:00"
+  "0xe27dbe394debd0eed3e71ff9cf1cbd232f108882": "2026-11-05T04:30:28+00:00",
+  "0xa061c952b090c96b614dd66c0334446002ce1c5a": "2026-11-05T04:45:23+00:00",
+  "0x3ac781cf12dea896f5f3a4a4605afe95d68320c9": "2026-11-05T04:45:23+00:00",
+  "0x6df763cf9c0be35c5853936c3c2681d266125c46": "2026-11-05T04:45:23+00:00",
+  "0xf3f1d2e03993e716e0a62c6d444783ec22d03218": "2026-11-05T04:45:23+00:00",
+  "0x9cb27ab37e248e1d120d94de62228f73e3a1c76d": "2026-11-05T04:45:23+00:00",
+  "0x2cc592e09099c5f006e84d3545c2a130f1193990": "2026-11-05T04:45:23+00:00",
+  "0x8694fa95f4cb4642a37ccf61407f7d1469bd8465": "2026-11-05T04:45:23+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -4577,9 +4584,73 @@
      "people": 1
     }
    }
+  },
+  "0x6df763cf9c0be35c5853936c3c2681d266125c46": {
+   "address": "0x6df763cf9c0be35c5853936c3c2681d266125c46",
+   "symbol": "NWSBT",
+   "name": "NewsBeat",
+   "description": "NewsBeat turns market news into signals that AI agents use. Each signal names a possible driver, what would trigger an alert and when",
+   "website": "https://newsbeat.dev",
+   "twitter": "https://x.com/newsbeat_",
+   "launched": "2026-11-05T04:44:40+00:00",
+   "mcap": 4272.6638821155075,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T04:45:23+00:00",
+   "scored_at": "2026-11-05T04:45:23+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "thepeternemec/NewsBeat",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (dex, fees, liquidity) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (newsbeat.dev/docs), docs (newsbeat.dev/docs/quickstart), docs (newsbeat.dev/llms.txt), website (newsbeat.dev))"
+     ],
+     "Real code": [
+      "\u2705 189 changes over 50 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 1597 days old, 2 people, 2 stars, 1 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file (+5)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 7 updates shipped so far"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://newsbeat.dev",
+     "https://newsbeat.dev/llms.txt",
+     "https://newsbeat.dev/docs",
+     "https://newsbeat.dev/docs/quickstart"
+    ],
+    "facts": {
+     "commits": 189,
+     "stars": 2,
+     "created": "2026-09-09",
+     "pushed": "2026-11-04",
+     "people": 2
+    }
+   }
   }
  },
- "checked_total": 568,
+ "checked_total": 575,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -5001,6 +5072,12 @@
   }
  ],
  "symbol_counts": {
+  "\u062d\u0644\u0627\u0644": 2,
+  "ORBITALS": 1,
+  "NWSBT": 1,
+  "FBTC": 1,
+  "ANY": 1,
+  "OPSMAX": 1,
   "APORIX": 1,
   "inshallah": 2,
   "MTRL": 1,
@@ -5027,28 +5104,29 @@
   "WORG": 1,
   "VIBE": 1,
   "DOOM": 2,
+  "PONS": 1,
+  "OAK": 1,
+  "WIF": 1,
+  "HARMONIC": 1,
+  "CHARLIE": 1,
+  "UBIK": 1,
+  "ORBIO": 1,
+  "ROBINHOOD": 1,
+  "ROBINCAT": 1,
+  "RAETO": 1,
   "SRV4A": 1,
   "TEST": 2,
   "GUARDIS": 1,
   "VLDR": 1,
   "MAHORA": 1,
   "METRION": 1,
-  "PONS": 1,
-  "WIF": 1,
-  "HARMONIC": 1,
-  "ORBIO": 1,
-  "CHARLIE": 1,
   "MOTION": 1,
-  "ROBINCAT": 1,
   "DARWIN": 1,
   "HMM": 1,
-  "RAETO": 1,
   "ORIOT": 1,
   "PINOCOIN": 1,
   "DUCKTRUMP": 2,
-  "OAK": 1,
   "DELTA": 1,
-  "ROBINHOOD": 1,
   "LOCK": 1,
   "HYDX": 1,
   "VALSEQ": 1,
@@ -5095,7 +5173,6 @@
   "PHYSCL": 1,
   "RBX": 1,
   "FILDLT": 1,
-  "UBIK": 1,
   "BISCOTTI": 1,
   "ASD": 1,
   "DEPOSIT": 1,
