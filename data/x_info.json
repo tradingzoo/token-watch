@@ -10255,7 +10255,7 @@
     "npm install express @x402/express @x402/core @x402/evm",
     "Noren update Paid calls now run end to end through the hosted MCP on Robinhood Chain. We completed a test payment of 0.01 USDG, from wallet approval and signing to settlement and onchain verification. The gateway settled the payment, and noren_verify_payment successfully detected the transfer. One t"
    ],
-   "checked": "2026-11-05T20:49:41+00:00"
+   "checked": "2026-11-05T20:28:18+00:00"
   },
   "lacunalabs": {
    "handle": "LacunaLabs",
@@ -10263,7 +10263,7 @@
    "id": "1943440116611190785",
    "name": "Lacuna Labs",
    "joined": "2025-07-10T22:40:31+00:00",
-   "followers": 456,
+   "followers": 461,
    "following": 4,
    "posts": 126,
    "verified": "individual",
@@ -10272,7 +10272,7 @@
    "sample_full_week": false,
    "posts_7d": 2,
    "avg_likes": 2.7,
-   "avg_views": 347,
+   "avg_views": 353,
    "bio_site": "https://linktr.ee/lacunalabs",
    "bio": "A zk-native cross-chain wallet and protocol for private, untraceable transfers, swaps, and bridging powered by stealth addresses & encrypted transaction layers.",
    "cas": [],
@@ -10298,7 +10298,7 @@
     "\"Privacy protocols make taxes and compliance impossible\" False. True privacy means Optional Auditability Veilon balances total on-chain anonymity with enterprise-grade transparency. You transact in the dark, but maintain full control over who gets to look under the hood. Need to clear an audit? Just",
     "Privacy in web3 is usually complex, expensive and breaks UX. Not anymore. The Veilon SDK lets you build Zero-Knowledge privacy directly into your dApp, wallet or DAO without touching the underlying math. - TypeScript & Rust ready - Plug & Play shielding/unshielding - Built-in relayer support (gasles"
    ],
-   "checked": "2026-11-05T20:49:41+00:00"
+   "checked": "2026-11-05T21:06:34+00:00"
   },
   "hermeslabsai": {
    "handle": "HermesLabsAi",
@@ -10342,30 +10342,80 @@
     "Your code has a runtime. Your agent instructions do too. LintLang scans the language layer - prompts, tool descriptions, and agent configs - for vague tools, missing stop conditions, and conflicting rules. All your configs, one CI call, zero LLM. Try it: https://github.com/hermes-labs-ai/lintlang",
     "A duplicate-null schema fix needed three tests: the optional-parameter path, the nullable-keyword path, and the valid case where null should be inserted once. Fix the invariant, then prove both bad paths and the good path. https://github.com/microsoft/semantic-kernel/pull/13635"
    ],
-   "checked": "2026-11-05T20:49:41+00:00"
+   "checked": "2026-11-05T21:06:34+00:00"
   },
-  "trylooseagent": {
-   "handle": "trylooseagent",
+  "tradewithseer": {
+   "handle": "tradewithSeer",
    "found": true,
-   "id": "2110055226413588480",
-   "name": "LOOSE AGENT",
-   "joined": "2026-10-13T17:16:25+00:00",
-   "followers": 48,
+   "id": "2115764154761990144",
+   "name": "Seer",
+   "joined": "2026-10-29T11:15:12+00:00",
+   "followers": 40,
    "following": 1,
-   "posts": 30,
-   "verified": null,
-   "last_post": null,
-   "sample": 0,
+   "posts": 9,
+   "verified": "individual",
+   "last_post": "2026-11-05T19:58:53+00:00",
+   "sample": 4,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
-   "bio_site": "https://www.loose-agent.xyz/",
-   "bio": "Launch a token in one click.",
+   "posts_7d": 4,
+   "avg_likes": 9.5,
+   "avg_views": 421,
+   "bio_site": "http://tradeseer.si",
+   "bio": "Redefining capital markets through agentic intelligence.",
    "cas": [],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T20:49:41+00:00"
+   "texts": [
+    "Free your mind of what you thought was possible through agentic trading. Multi-source market data, quantitative forecasting, prediction market signals, real-time financial intelligence, and the lowest latency in the industry. This is whats necessary to build Aura. This is whats required to power you",
+    "10% of the SEER supply has now been burned, equating to approximately $22,000. TXN: https://robin.etherscan.io/tx/0x145960e578012bfeb12288d7dcd65248ffc9b7054cc9f0d826bbe26b8700ccc3 Our commitment to Seer's longevity is unwavering in it's conviction.",
+    "Our proprietary social intelligence is built with speed, reliability, and execution at the core, ensuring Seer retains an edge over other agentic trading providers (although none exist like us). Built on distributed scraping infrastructure across multiple resource clients, Seer's intelligence expedi",
+    "For those looking for a bit more information on $SEER, this is where you find it. We're here to revolutionize agentic powered finance, making the tools once reserved for institutions, accessible to everyone. It's time to usher in a new era of autonomous participation in global markets."
+   ],
+   "checked": "2026-11-05T21:06:34+00:00"
+  },
+  "tacklehooks": {
+   "handle": "tacklehooks",
+   "found": true,
+   "id": "2117083391631777792",
+   "name": "TackleHooks",
+   "joined": "2026-11-02T02:37:35+00:00",
+   "followers": 179,
+   "following": 1,
+   "posts": 190,
+   "verified": "individual",
+   "last_post": "2026-11-05T21:03:00+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 4.6,
+   "avg_views": 135,
+   "bio_site": "https://tacklehooks.xyz/",
+   "bio": "The kit for Uniswap v4 hooks on @Robinhood. Inspect, mine, quote and swap through any hook with one API. Ready for agents.",
+   "cas": [
+    "0x775f392231ac4f95b2ab9d21a4a7e50576e05b71"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "New here? Tackle in 30 seconds \ud83e\ude9d Paste a token, read every hook it trades through, quote through it, swap with calldata you sign yourself. Or ask your agent. Every v4 hook on Robinhood Chain. One tackle box.",
+    "Tomorrow, drop 02: Tackle HQ \ud83e\ude9d Our home on Telegram. Every drop lands there first, the only valid CA is pinned, and the team never DMs first. You've asked for it since day one. Tomorrow it opens.",
+    "Day three is loading \ud83e\ude9d 01 \u00b7 Tackle Swap (every trade burns TACKLE) 02 \u00b7 Tackle HQ on Telegram 03 \u00b7 Score badges and the Clean Board Which one are you waiting for the most? Reply 01, 02 or 03 \ud83d\udc47",
+    "How Tackle Score works \ud83e\ude9d Start at 100. Every hook a token's pools run costs points for what it can do to your swap: Custom pricing \u221245 Upgradeable code \u221235 Hook fee on swaps \u221220 Exit gate on LPs \u221215 Unverified source \u221210 Weighted by the share of pools it runs. Plain pools cost nothing.",
+    "Two hours into day two \ud83e\ude9d To every holder: you didn't just hold a ticker today. You unlocked a product. Tackle Pro reads your wallet, no transaction, and every new drop lands with you first. More is coming. Hold tight. TACKLE \u00b7 0x775F392231Ac4f95B2AB9D21a4a7E50576e05B71",
+    "Tomorrow, drop 01: Tackle Swap \ud83d\udd25 Swap any token on Robinhood Chain from https://tacklehooks.xyz. Best route across every pool, trap pools skipped, simulated before you sign. And 0.3% of every swap burns TACKLE. Every single trade. 19:00 Europe time.",
+    "Day one: we shipped the kit and graduated. Day two: a score for every token, a radar for every hook, Pro for every holder. This is only the beginning. We keep shipping, and the ones holding TACKLE get every new drop first \ud83e\ude9d",
+    "Day two in 25 seconds \ud83e\ude9d Score any token. Watch every new hook land. Unlock Pro with what you already hold. Three tools that didn't exist yesterday, live on the same site, same CA. Built in a day, built for the long run.",
+    "Stock tokens get a score too \ud83d\udcc8 NVDA on Robinhood Chain: 81/100, clear. 40 pools, 2 hooks read: one can take a fee, one runs unverified code. Nothing that sets its own price or blocks exits. Paste any CA in the scanner and the score comes with it: https://tacklehooks.xyz/scan",
+    "Your agent just got two new tools \ud83e\udd16 Tackle's MCP server now has 14: get_score and get_radar join scan, quote, build_swap and the rest. Ask Claude Code or Cursor: \"score this token before I buy\" or \"what hooks landed in the last hour?\" One line: claude mcp add --transport http tackle https://tackleho",
+    "Score check, live \ud83e\ude9d Drop any token on Robinhood Chain below: a stock, a meme, the one you're about to ape. We'll run it through Tackle Score and reply with the number and what's behind it. Let's see who holds the cleanest bag.",
+    "Tackle Pro is open for holders \ud83e\ude9d 1. Connect any wallet that holds TACKLE 2. Sign one message. No gas, no approval 3. Hold 5,000,000+ TACKLE and get your key: 1,200 requests a minute, a watchlist, score history, first access to every new drop Holding TACKLE now does something. http://tacklehooks.xyz/",
+    "Hook Radar is live \ud83e\ude9d Every hooked pool hitting Robinhood Chain, read in plain words before anyone swaps. Brand-new hooks get flagged the second they land. Checks every 6 seconds. Same data as GET /v1/radar. https://tacklehooks.xyz/radar",
+    "Our own token, scored by our own tool \ud83e\ude9d TACKLE: 93/100, clear. One hook read across 14 pools: a swap fee, and that's it. No custom pricing, no exit gate, no upgrade path, verified source. Paste any token: https://tacklehooks.xyz/score",
+    "45 minutes \ud83e\ude9d At 19:00 Europe time, every token on Robinhood Chain gets a Tackle Score. Ours included. TACKLE scores ?? / 100. Guess below. Closest answer gets a shoutout at the reveal \ud83d\udc47",
+    "TACKLE scores 93 / 100 \ud83e\ude9d Closest guess: @ChouJack529052 with 92.5, half a point away. @Tony4031162628 right behind at 94. Shoutout to you both. Score any token now: https://tacklehooks.xyz/score",
+    "Day two is live \ud83e\ude9d 01 \u00b7 Tackle Score: one 0\u2013100 score for every token on Robinhood Chain. TACKLE scores 93. 02 \u00b7 Hook Radar: every new hook, read the second it lands. 03 \u00b7 Tackle Pro: hold TACKLE, sign once, unlock 10\u00d7 limits, a watchlist and score history. We ship. Then we ship again. This is only t",
+    "19 minutes \ud83e\ude9d Drop 03 is for holders. Connect, sign one message, and your TACKLE unlocks Tackle Pro: 10\u00d7 API and MCP limits, a watchlist, score history and first access to every new drop. No transaction. No staking. Just hold.",
+    "30 minutes \ud83e\ude9d Drop 02 is already watching. Every new hook on Robinhood Chain, read in plain words the second it lands, before anyone swaps. At 19:00 Europe time, you get to watch too."
+   ],
+   "checked": "2026-11-05T21:06:34+00:00"
   }
  },
  "ids": {
@@ -11176,8 +11226,11 @@
   "1976675721163558912": [
    "HermesLabsAi"
   ],
-  "2110055226413588480": [
-   "trylooseagent"
+  "2115764154761990144": [
+   "tradewithSeer"
+  ],
+  "2117083391631777792": [
+   "tacklehooks"
   ]
  },
  "past": {
@@ -11465,7 +11518,8 @@
   "norenagent": [],
   "lacunalabs": [],
   "hermeslabsai": [],
-  "trylooseagent": []
+  "tradewithseer": [],
+  "tacklehooks": []
  },
  "history": {
   "barragetrade": {
@@ -13230,10 +13284,28 @@
     41349
    ]
   },
-  "norenagent": {
+  "lacunalabs": {
    "2026-11-05": [
-    43,
-    67
+    461,
+    126
+   ]
+  },
+  "hermeslabsai": {
+   "2026-11-05": [
+    18,
+    159
+   ]
+  },
+  "tradewithseer": {
+   "2026-11-05": [
+    40,
+    9
+   ]
+  },
+  "tacklehooks": {
+   "2026-11-05": [
+    179,
+    190
    ]
   },
   "lacunalabs": {
@@ -13729,7 +13801,7 @@
   "sborxyz": {
    "twitter": "SBORindex",
    "blog": "https://sbor.xyz",
-   "checked": "2026-11-05T20:49:41+00:00"
+   "checked": "2026-11-05T21:06:34+00:00"
   },
   "daboshub": {
    "twitter": null,
@@ -14139,17 +14211,17 @@
   "lacunalabs": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T20:49:41+00:00"
+   "checked": "2026-11-05T20:28:18+00:00"
+  },
+  "lacunalabs": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T21:06:34+00:00"
   },
   "hermes-labs-ai": {
    "twitter": "hermeslabsai",
    "blog": "https://hermes-labs.ai",
-   "checked": "2026-11-05T20:49:41+00:00"
-  },
-  "mickiyugods": {
-   "twitter": null,
-   "blog": null,
-   "checked": "2026-11-05T20:49:41+00:00"
+   "checked": "2026-11-05T21:06:34+00:00"
   }
  }
 }
