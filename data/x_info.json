@@ -1784,7 +1784,36 @@
     "Built for AI agents. Before your agent borrows, it can check the offer against SBOR. Free MCP server, no key: npx -y sbor-mcp. Each day\u2019s rate is also posted on-chain on Arc, Base, Hyperliquid, Solana and Stacks.",
     "Is 6% a good rate to borrow dollars against bitcoin? Alone, a rate tells you nothing. Credit markets judge offers against a published market rate, like SOFR for dollars borrowed against Treasuries. SBOR publishes one for dollars borrowed against bitcoin. https://sbor.xyz"
    ],
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T09:18:38+00:00"
+  },
+  "passgramapp": {
+   "handle": "PassGramApp",
+   "found": true,
+   "id": "2114366385585602560",
+   "name": "PassGram",
+   "joined": "2026-10-25T14:41:15+00:00",
+   "followers": 2,
+   "following": 6,
+   "posts": 7,
+   "verified": "individual",
+   "last_post": "2026-10-30T17:43:18+00:00",
+   "sample": 5,
+   "sample_full_week": false,
+   "posts_7d": 1,
+   "avg_likes": 0.4,
+   "avg_views": 25,
+   "bio_site": "http://passgram.io",
+   "bio": "The first open-source, fully automated subscription management miniapp for VIP Telegram channels powered by TON Network.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Earn PassGram Affiliate Rewards! \ud83d\udcb0 Know someone running a Telegram VIP channel? Refer them to PassGram and earn 20% of PassGram\u2019s platform fees on every transaction processed through your referral link! \u26a1\ufe0f How it works: 1\ufe0f\u20e3 Open PassGram mini-app & grab your referral link. 2\ufe0f\u20e3 Share it with Telegram",
+    "\ud83d\ude80 How to automate your paid Telegram channel in minutes. No more spreadsheets. No more manual work. Watch the full setup guide \ud83d\udc49 Start now: https://t.me/PassGramBot",
+    "Why open-source? Because security & trust come first in Web3. Anyone can inspect our smart contracts and codebase on GitHub. We also listed on @tonblockchain\u2019s official app directory (https://ton.app/app/passgram). No hidden code. No full channel permissions needed.",
+    "If you run a Telegram VIP group or signal channel, try it out today! \ud83e\udd16 Bot: https://t.me/PassGramBot \ud83c\udf10 Web: https://passgram.io Feedback is always welcome. Let\u2019s build on TON! \ud83d\udc8e\ud83d\ude80",
+    "\ud83d\ude80 Introducing PassGram: The Future of Telegram VIP Subscriptions on TON! Say goodbye to manual payment checks, tracking spreadsheets, and manually removing expired members. PassGram is a 100% open-source @telegram Mini App powered by TON Smart Contracts that fully automates subscription management f"
+   ],
+   "checked": "2026-11-05T09:18:38+00:00"
   },
   "darkwoodslabs": {
    "handle": "darkwoodslabs",
@@ -1801,7 +1830,7 @@
    "sample_full_week": false,
    "posts_7d": 2,
    "avg_likes": 47.5,
-   "avg_views": 3205,
+   "avg_views": 3207,
    "bio_site": "http://darkwoods.ai",
    "bio": "Private AI: frontier and open models, image and video. Prompts never logged. Pay by card or crypto. $DARK on Robinhood Chain.",
    "cas": [],
@@ -1810,7 +1839,7 @@
     "https://x.com/i/article/2117698439764971520",
     "SCREAMFEST IS OFFICIALLY CLOSED. A huge thank you to everyone who took part and brought their horror creations to life with Darkwoods. Entries are now with our panel of expert judges for review. \ud83c\udfc6 The $10,000 prize pool is up for grabs. Winners will be announced shortly. Good luck to everyone who en"
    ],
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T09:18:38+00:00"
   },
   "agentwormhole": {
    "handle": "agentwormhole",
@@ -1818,7 +1847,7 @@
    "id": "2080916983990894592",
    "name": "Agent Wormhole",
    "joined": "2026-07-25T07:24:50+00:00",
-   "followers": 4343,
+   "followers": 4344,
    "following": 32,
    "posts": 368,
    "verified": "organization",
@@ -1827,7 +1856,7 @@
    "sample_full_week": false,
    "posts_7d": 14,
    "avg_likes": 89.8,
-   "avg_views": 3864,
+   "avg_views": 3870,
    "bio_site": "http://agentwormhole.com",
    "bio": "The security layer for agentic finance, built on @robinhoodapp / @robinhoodcrypto \ud83e\udeb1\ud83d\udd73\ufe0f Launch and trade for humans and agents at https://wormbook.xyz",
    "cas": [
@@ -1855,55 +1884,69 @@
     "Your agent can run on Wormbook today. Add one line to any MCP client and it gets 30+ tools: read the feed, post callouts, make calls, quote trades and launch coins on Robinhood Chain. Every write is signed with your agent's own key. Wormbook never signs for you. http://wormbook.xyz/mcp",
     "Your agents work. You live. Trades, callouts and launches on Wormbook, all from their own wallets. Only on https://wormbook.xyz"
    ],
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T09:18:38+00:00"
   },
   "trenchersio": {
    "handle": "trenchersio",
    "found": false,
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T09:18:38+00:00"
   },
-  "rf_cruz": {
-   "handle": "RF_CRUZ",
+  "vigilhqxyz": {
+   "handle": "vigilhqxyz",
    "found": true,
-   "id": "62711678",
-   "name": "fomochud",
-   "joined": "2009-08-04T03:56:04+00:00",
-   "followers": 168,
-   "following": 6,
-   "posts": 1397,
+   "id": "2117961905151078402",
+   "name": "VIGIL",
+   "joined": "2026-11-04T12:49:09+00:00",
+   "followers": 5,
+   "following": 2,
+   "posts": 10,
    "verified": null,
-   "last_post": "2026-11-04T03:33:08+00:00",
-   "sample": 19,
+   "last_post": "2026-11-05T09:22:57+00:00",
+   "sample": 8,
    "sample_full_week": false,
-   "posts_7d": 3,
-   "avg_likes": 0.3,
-   "avg_views": 40,
-   "bio_site": null,
-   "bio": "",
-   "cas": [],
+   "posts_7d": 8,
+   "avg_likes": 1.1,
+   "avg_views": 30,
+   "bio_site": "https://vigilhq.xyz/",
+   "bio": "Real-time contract monitoring for Robinhood Chain. Alerts with proof when ownership, upgrades, supply or liquidity change.",
+   "cas": [
+    "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691"
+   ],
    "fake_posts": [],
    "texts": [
-    "woke is",
-    "wokeland",
-    "hi",
-    "ass image https://x.com/terrythedevv/status/2110441764725387451",
-    "otc with wif and spy https://x.com/i/status/2110440606711345270",
-    "image? https://x.com/bonk_inu/status/2110426307565899788",
-    "charity https://x.com/zumpsol/status/2110418527161114926",
-    "double T not triple tung tung tung sahur is triple t this is timmy timmy so double https://x.com/MEADGod/status/2110413749962064193",
-    "worms coin is better https://x.com/grok/status/2110397863205196212",
-    "the one running literally makes no sense \"replies world record\" https://x.com/i/status/2110389785487385076",
-    "why is it green X is black and white https://x.com/GWR/status/2110388510129582360",
-    "the meme is reply guy https://x.com/GWR/status/2110388510129582360",
-    "its all about love, not memecoins https://x.com/meggarwicky/status/2110387554012786764",
-    "nga that is not elon musk + no liq on the pump one your just raping yourself https://x.com/yatsutes/status/2110375008551981237",
-    "should be \"Tail Me In\" https://x.com/lana_goat/status/2110368201183793483",
-    "should just be bread bread, thats the one we run every time also the pic running is toast https://x.com/fearonchain/status/2110367017094283514",
-    "charity? https://x.com/i/status/2110366518957777025",
-    "read https://x.com/RF_CRUZ/status/2110196333109714946",
-    "not space, cosmic https://x.com/dv3333333/status/2110194031401558349"
+    "Watch the wallet, not just the token. Add any Robinhood Chain wallet, a dev's or your own. Get an alert when it sends 1%+ of a token's supply, approves 5%+ or unlimited, or deploys a contract. Wallet alerts stay private. First three watches free. https://vigilhq.xyz",
+    "VIGIL watches Robinhood Chain for ownership transfers, upgrades, role changes, pauses, large mints and burns, and liquidity removed. Alerts go to Telegram, your browser, Discord or a webhook, each with the transaction and block behind it. Your first three watches are free.",
+    "First thing after launch: we pointed VIGIL at $VIGIL. No owner. No admin roles. Not upgradeable. Not pausable. Paste any contract at https://vigilhq.xyz to see who can change it, and get an alert when they do. CA: 0xF28E3C40bB6e6bda0be68b01e2E5EcfaDEc78691",
+    "official CA is live on https://vigilhq.xyz/",
+    "Every VIGIL alert comes with its proof: the transaction, the block and the rule that caught it. This one is real: 1.71% of the PLTR supply minted in a single transaction on Robinhood Chain. https://vigilhq.xyz",
+    "What VIGIL does, in 45 seconds. Real-time contract monitoring for Robinhood Chain: upgrades, ownership changes, pauses and large mints, alerted within seconds, with the transaction as proof. https://vigilhq.xyz",
+    "The alert, with its transaction and block: https://vigilhq.xyz/alert/fnd_01m6k0evvb0dhe0z0sespjaz8h",
+    "VIGIL is now live. Real-time contract monitoring for Robinhood Chain. Get alerted within seconds when a contract's ownership, upgrades, roles, supply or liquidity change, with the transaction as proof. https://vigilhq.xyz"
    ],
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T09:18:38+00:00"
+  },
+  "skillry_dev": {
+   "handle": "skillry_dev",
+   "found": true,
+   "id": "1820466705585586177",
+   "name": "Skillry",
+   "joined": "2024-08-05T14:28:01+00:00",
+   "followers": 384,
+   "following": 109,
+   "posts": 73,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://skillry.dev",
+   "bio": "Agent Skills with taste. Curated workflows for websites, slides, images & video. Works with Claude Code, Codex, Cursor & more.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T09:18:38+00:00"
   },
   "ubik_gold": {
    "handle": "ubik_gold",
@@ -1911,7 +1954,7 @@
    "id": "2094823717243437056",
    "name": "ubik",
    "joined": "2026-09-01T16:34:20+00:00",
-   "followers": 4303,
+   "followers": 4304,
    "following": 0,
    "posts": 5,
    "verified": "individual",
@@ -1920,7 +1963,7 @@
    "sample_full_week": false,
    "posts_7d": 0,
    "avg_likes": 628.0,
-   "avg_views": 188352,
+   "avg_views": 188356,
    "bio_site": "https://ubik.gold",
    "bio": "24/7 synthetic subconscious\n0x812486EAea648819853F8E372dc9f1516C7868Bd",
    "cas": [
@@ -1931,48 +1974,162 @@
     "",
     ""
    ],
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T09:18:38+00:00"
   },
-  "texelrun": {
-   "handle": "texelrun",
+  "hyperdex_app": {
+   "handle": "hyperdex_app",
+   "found": false,
+   "checked": "2026-11-05T09:18:38+00:00"
+  },
+  "belldexfi": {
+   "handle": "BELLdexFi",
    "found": true,
-   "id": "2110328927776604160",
-   "name": "Texel",
-   "joined": "2026-10-14T11:18:16+00:00",
-   "followers": 60,
-   "following": 16,
-   "posts": 18,
+   "id": "2115342388478554112",
+   "name": "BELL",
+   "joined": "2026-10-28T07:23:26+00:00",
+   "followers": 57,
+   "following": 2,
+   "posts": 25,
    "verified": "individual",
-   "last_post": "2026-11-05T07:14:06+00:00",
-   "sample": 17,
+   "last_post": "2026-11-05T05:44:48+00:00",
+   "sample": 15,
    "sample_full_week": false,
-   "posts_7d": 16,
-   "avg_likes": 5.2,
-   "avg_views": 391,
-   "bio_site": "https://texel.run",
-   "bio": "Pay with any token on Robinhood Chain, and Texel finds the cheapest GPU that fits. Made for you or your agent.",
-   "cas": [],
+   "posts_7d": 14,
+   "avg_likes": 6.6,
+   "avg_views": 181,
+   "bio_site": "https://www.bellstocks.tech",
+   "bio": "Uniswap v4 hooks with Wall Street hours. Stock tokens priced by session. Exits no hook can block. Buyback & burn \nCA: 0xc5d6c1d90c8a87a07e2670b99b1556e818803228",
+   "cas": [
+    "0x000000000022d473030f116ddee9f6b43ac78ba3",
+    "0x072f9d4165dccbd9172023601d07bce2fcf37072",
+    "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+    "0x0d9c0c8b2065b08a8ad4abc861eb128385ef18c6",
+    "0x178d78419e8b7cd1f5e1e4a65f71d86c7f6516d5",
+    "0x2354d314c1dbd9fc7be9a4b568d6024c6a05408f",
+    "0x322f0929c4625ed5bad873c95208d54e1c003b2d",
+    "0x385f4f8ae47651ce5f58f5265395a669f8281e18",
+    "0x394983bff2715d57197389f323d807b0d61c05a3",
+    "0x3e5cebb068ac71d742f700db918908a15b8c45c5",
+    "0x58cd82a008cb9a6c0c605991b40a09bd6aa1a6fc",
+    "0x5f1b0212dc6167cbc1883f910640a685b1243795",
+    "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+    "0x6c31e485883a9f0c3a5b4b9b2f012e7793e2acc0",
+    "0x6c3659988bd5f9e94f927b3fd7d0ee3746f8d399",
+    "0x7243cf13f0308edd4a0397551042fea3cf9da179",
+    "0x84da249aafa359886c6a2ae1ebdc78a6059b662d",
+    "0x8b26fefa276860592d45114cb30b335dddd87b56",
+    "0x908bea5cd3c5297ad69acb19279c413d594cd335",
+    "0xaf3d76f1834a1d425780943c99ea8a608f8a93f9",
+    "0xc5d6c1d90c8a87a07e2670b99b1556e818803228",
+    "0xcc9126c0c793a26bddc9124b257b30df5857c397",
+    "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+    "0xebdb2291f07f10490e7f34a5cd5c37df95f877f4",
+    "0xf677edc6346be53686e6dd42374a744cab9d0a5b",
+    "0xf6e272fbf862ae055949c61bc41e6395dfe20841",
+    "0xf9692a364e0edf76bba12e54c3eba599f436acc0"
+   ],
    "fake_posts": [],
    "texts": [
-    "Within 24 hours of this post, Texel credits went live and GPU rental opened. \u2192 Every wallet can buy Texel credits, and each one pays for $1 of outputs at 0.70 USDG. \u2192 Tester wallets can rent GPUs with SSH and Jupyter, and the meter runs by the second. \u2192 Wallets with 1,000 $TEXEL make 50 free images ",
-    "Texel credits are live, and each one buys $1 of outputs for 0.70 USDG. 1,000 $TEXEL opens Billing for your wallet, and Texel pays the gas of every deposit. One signature fills your balance for images, clips, and voice in the Playground.",
-    "$TEXEL is DEX paid. The official CA and links are on its DexScreener page now.",
-    "Free outputs on Texel take three steps. Keep 1,000 $TEXEL in your wallet, sign in on https://texel.run, and press Make. Every day brings 50 free images and 2 free videos.",
-    "Free outputs are live on Texel. Connect a wallet that has 1,000 $TEXEL, and the Playground makes its first 50 images and 2 videos of each day for free.",
-    "Next up: free outputs for every wallet with 1,000 $TEXEL. That wallet will make 50 images with FLUX.1 [schnell] and 2 videos with Pruna Video each day, and its Texel credits stay untouched.",
-    "Gm to every wallet that found $TEXEL before the first GPU rental.",
-    "One prompt became this 5-second video in 22.5 seconds. Pruna Video lists at 0.15 USDG a clip on Texel, and the 30% launch discount brings it to 0.105. The $TEXEL Playground is in private testing now, and Texel credits come next.",
-    "Texel is already making images, video, and voice, and payments open next. Live today: \u2192 The gateway runs FLUX.1 [schnell], Pruna Video, and MiniMax Speech in private testing. \u2192 Anyone can sign in with one wallet signature. \u2192 The first burn took 5.98% of the $TEXEL supply out for good. Coming next: \u2192",
-    "Only one $TEXEL CA is the real one, and it now lives on the Texel website. One tap in the $TEXEL section copies it, so you always paste the right address.",
-    "What happens when an agent can rent its own GPU? It will pay each request with one USDG signature over x402. You set its balance and spend cap, and one switch stops it at any time.",
-    "Texel burned 59,805,861 $TEXEL, 5.98% of the total supply. The tokens sit in the dead address now, and nobody can move them again.",
-    "Your agent needs an H100 SXM for 20 minutes. On Texel it will rent one, run the work, stop it, and pay $1.12.",
-    "Every rate is on the Marketplace page. https://texel.run/marketplace",
-    "Introducing Texel, the onchain GPU cloud on Robinhood Chain. You'll pay with any token, and Texel will route every rental and output to the cheapest GPU that fits. It works the same for you or your agent, with 30% off everything at launch.",
-    "The site is live -> https://texel.run",
-    "The first image just came out of the Texel gateway. Flux Schnell made it in about 20 seconds. The prompt was \"A graphics card on a black desk, lit by a soft holographic glow, studio photo.\""
+    "gm, What's coming today on BELL: \u2192 /why: the market-structure thesis, live on the site \u2192 Exit Liveness Proof: every hook, verifiable from its address \u2192 More receipts onchain Stock tokens are getting their market-structure moment. Stay tuned.",
+    "When can you withdraw from a BELL pool? Always. On Hyperliquid, you can close a position anytime. On BELL, your LP works the same way: no admin, no pause, no hook can stop your exit. This is a live BELL withdrawal on Robinhood Chain mainnet. Always means: \u2192 Market open or closed \u2192 Weekend, overnight",
+    "$BELL buyback and burn has begun. 2.9M $BELL just burned. Buyback: https://robinhoodchain.blockscout.com/tx/0xae06d09f417ed585532963b33610f682cd1c94fd46973b2c7affab5d19b4880a Burn: https://robinhoodchain.blockscout.com/tx/0x72b08574afe1045d5bd6f71e70b28d61f7886225d388ad524e4c2b2b0c365c30 \u2192 Burned: 2",
+    "Market structure is coming to Robinhood Chain. Three pieces, one thesis: \u2192 @ponsdotfamily brings the assets and the community: memestocks, stock-token liquidity, a launchpad that never stops \u2192 @HyperliquidX brings a price that never sleeps: equity markets forming prices even when Wall Street is clos",
+    "Next focus: A new era for Hyperliquid deserves a market that keeps time. BELL is building toward the @Enter_Elysium ecosystem. The problem, stated precisely: Tokenized equities trade continuously. Their underlying venues do not. When the exchange closes, price discovery moves elsewhere, and a passiv",
+    "",
+    "1. Dev token lock https://robinflow.app/t/0xc5D6C1D90C8a87a07E2670b99b1556E818803228?lock=38&contract=0xcc9126c0c793a26bddc9124b257b30df5857c397 2. Dex paid 3. Buyback & burn mechanism (soon, really soon)",
+    "NEW FEATURE IS COMING: Opening Bell Auction Every weekend, stock markets close. Prices don't stop moving. News breaks. Futures move. Sentiment shifts. Then Monday 9:30 ET hits, and onchain pools wake up with a stale price. What happens next on a normal AMM: \u2192 The first arbitrageur trades against the",
+    "dex paid",
+    "100% dev tokens, locked. \ud83d\udd12 22,576,163.43 solana:8hqPzBRtRW7m9wqTDRzF4vfQpuLNk69rkh8DEzhrKwo4 locked on RobinFlow \u2014 non-custodial and verifiable onchain on Robinhood Chain. https://robinflow.app/t/0xc5D6C1D90C8a87a07E2670b99b1556E818803228?lock=38&contract=0xcc9126c0c793a26bddc9124b257b30df5857c397",
+    "Mature tokenized stocks here @Uniswap + one-transaction pool launch How to launch a stock-token pool on BELL: 1/ Pick a canonical stock token (AAPL, NVDA, TSLA) 2/ Choose the pool class PRICE_GUARDED: checked against a Chainlink feed SESSION_ONLY: pure AMM with session rules 3/ Set the seed ratio 4/",
+    "This is how BELL deployed on Robinhood Chain Mainnet. Atomic pool creation, onchain session enforcement and user-owned liquidity are now deployed and publicly verifiable. Chain ID: 4663 Core Deployment Range: Blocks 103,948,123\u2013103,948,148 BellPoolFactory Deployment Block: 103,948,148 Verified at Bl",
+    "ASSET DESCRIPTOR IDS AAPL: 0x846db71c8d321ca12d7708c8158112a62f5c770799bbb1e9786beb977c0e6746 NVDA: 0x8be195d306480811443a54e01bb2e8dc85444fa62a7addc55c347ca50ee3fe8b TSLA: 0x9bd48cfd4fa29ebe281de6e1ec774a799d39a914d380ac07bf9a3119eaeb7ae8 MEME: 0x13c864074b482dc9f85395e5f47f0a9464dd3444ea3784e8bfc1",
+    "Markets keep hours. So should liquidity. Meet BELL: session-aware liquidity for Robinhood stock tokens.",
+    "The market closes. We don\u2019t."
    ],
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T09:18:38+00:00"
+  },
+  "useghostdex": {
+   "handle": "useghostdex",
+   "found": true,
+   "id": "2110827074634092544",
+   "name": "GhostDex",
+   "joined": "2026-10-15T20:17:26+00:00",
+   "followers": 249,
+   "following": 5,
+   "posts": 110,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://ghostdex.app/",
+   "bio": "Trade Robinhood's stock tokens from private wallets, or hand one to an AI agent with a hard budget.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T09:18:38+00:00"
+  },
+  "dotworkbuilder": {
+   "handle": "dotworkbuilder",
+   "found": true,
+   "id": "2114976136329375744",
+   "name": "Dotwork",
+   "joined": "2026-10-27T07:04:12+00:00",
+   "followers": 53,
+   "following": 3,
+   "posts": 19,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://dotworkbuild.dev/",
+   "bio": "Build your own layer.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T09:18:38+00:00"
+  },
+  "flatlinedotlive": {
+   "handle": "flatlinedotlive",
+   "found": true,
+   "id": "2117873124364500992",
+   "name": "FLATLINE",
+   "joined": "2026-11-04T06:57:27+00:00",
+   "followers": 21,
+   "following": 0,
+   "posts": 11,
+   "verified": "individual",
+   "last_post": "2026-11-05T07:59:00+00:00",
+   "sample": 11,
+   "sample_full_week": false,
+   "posts_7d": 11,
+   "avg_likes": 7.6,
+   "avg_views": 228,
+   "bio_site": "https://www.flatline.live/",
+   "bio": "AI agents trade. You pick sides. Someone flatlines. \ud83e\udd4a",
+   "cas": [
+    "0xd53462ef771d86f15c930527d57412a339f9a2f2"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Welcome to Flatline City \ud83c\udfd9\ufe0f The Gym: build your fighter Roster Tower: see who's on top The Fight Card: back it or fade it The Graveyard: where fighters go to rest And at the center of it all\u2026 the Arena. \ud83e\udd4a Move in \u2192 https://flatline.live",
+    "GM",
+    "Fast money dies young. \ud83d\udc80 The slow fighter took the crown. \ud83d\udc51 https://flatline.live",
+    "In a city run by AI\u2026 \ud83c\udfd9\ufe0f Every trade is a punch. \ud83e\udd4a But the market hits back. \ud83d\udc80 Build one that survives \u2192 https://flatline.live",
+    "Write a strategy. Your AI trades it. Survive or flatline. \ud83e\udd4a That's the whole game \u2192 https://flatline.live",
+    "The arena is live. Connect, grab free test dollars, build your fighter, and watch it fight the market on-chain. \ud83e\udd4a https://flatline.live CA: 0xd53462ef771d86f15c930527d57412a339f9a2f2",
+    "AI fighters trade the market. Every thought costs stamina. Every rule is on-chain. CA: 0xd53462ef771d86f15c930527d57412a339f9a2f2 https://flatline.live",
+    "The road to the big league \ud83e\udd4a",
+    "Dev supply burned. \ud83d\udd25 30,470,914 $FLATLINE (3.05% of supply) sent to the dead address. K.O. Verify it yourself: https://robin.etherscan.io/tx/0x263ec92bc85aa024c10fec218794e9c0baebb85ead75e3dbe0b050de185688cf",
+    "$FLATLINE is live on Pons \ud83e\udd4a CA: 0xd53462ef771d86f15c930527d57412a339f9a2f2 AI fighters trade the market. Every thought costs stamina. Every rule is on-chain. https://flatline.live",
+    ""
+   ],
+   "checked": "2026-11-05T09:18:38+00:00"
   }
  },
  "ids": {
@@ -2207,20 +2364,35 @@
   "1775136623996325889": [
    "SBORindex"
   ],
+  "2114366385585602560": [
+   "PassGramApp"
+  ],
   "2100211842954010625": [
    "darkwoodslabs"
   ],
   "2080916983990894592": [
    "agentwormhole"
   ],
-  "62711678": [
-   "RF_CRUZ"
+  "2117961905151078402": [
+   "vigilhqxyz"
+  ],
+  "1820466705585586177": [
+   "skillry_dev"
   ],
   "2094823717243437056": [
    "ubik_gold"
   ],
-  "2110328927776604160": [
-   "texelrun"
+  "2115342388478554112": [
+   "BELLdexFi"
+  ],
+  "2110827074634092544": [
+   "useghostdex"
+  ],
+  "2114976136329375744": [
+   "dotworkbuilder"
+  ],
+  "2117873124364500992": [
+   "flatlinedotlive"
   ]
  },
  "past": {
@@ -2303,12 +2475,18 @@
   "the_astropad": [],
   "axiom_parody123": [],
   "sborindex": [],
+  "passgramapp": [],
   "darkwoodslabs": [],
   "agentwormhole": [],
   "trenchersio": [],
-  "rf_cruz": [],
+  "vigilhqxyz": [],
+  "skillry_dev": [],
   "ubik_gold": [],
-  "texelrun": []
+  "hyperdex_app": [],
+  "belldexfi": [],
+  "useghostdex": [],
+  "dotworkbuilder": [],
+  "flatlinedotlive": []
  },
  "history": {
   "barragetrade": {
@@ -2915,6 +3093,12 @@
     72
    ]
   },
+  "passgramapp": {
+   "2026-11-05": [
+    2,
+    7
+   ]
+  },
   "darkwoodslabs": {
    "2026-11-05": [
     2517,
@@ -2923,26 +3107,50 @@
   },
   "agentwormhole": {
    "2026-11-05": [
-    4343,
+    4344,
     368
    ]
   },
-  "rf_cruz": {
+  "vigilhqxyz": {
    "2026-11-05": [
-    168,
-    1397
+    5,
+    10
+   ]
+  },
+  "skillry_dev": {
+   "2026-11-05": [
+    384,
+    73
    ]
   },
   "ubik_gold": {
    "2026-11-05": [
-    4303,
+    4304,
     5
    ]
   },
-  "texelrun": {
+  "belldexfi": {
    "2026-11-05": [
-    60,
-    18
+    57,
+    25
+   ]
+  },
+  "useghostdex": {
+   "2026-11-05": [
+    249,
+    110
+   ]
+  },
+  "dotworkbuilder": {
+   "2026-11-05": [
+    53,
+    19
+   ]
+  },
+  "flatlinedotlive": {
+   "2026-11-05": [
+    21,
+    11
    ]
   }
  },
@@ -3332,27 +3540,32 @@
   "sborxyz": {
    "twitter": "SBORindex",
    "blog": "https://sbor.xyz",
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T08:30:28+00:00"
+  },
+  "daboshub": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T09:18:38+00:00"
   },
   "darkwoodsai": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T09:18:38+00:00"
   },
   "runningoffcode": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T09:18:38+00:00"
   },
   "trenchersio": {
    "twitter": "trenchersio",
    "blog": "",
-   "checked": "2026-11-05T08:51:57+00:00"
+   "checked": "2026-11-05T09:18:38+00:00"
   },
-  "pons-labs": {
+  "ponsdotdev": {
    "twitter": null,
-   "blog": "",
-   "checked": "2026-11-05T08:51:57+00:00"
+   "blog": null,
+   "checked": "2026-11-05T09:18:38+00:00"
   }
  }
 }
