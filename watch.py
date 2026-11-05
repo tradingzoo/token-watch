@@ -92,6 +92,44 @@ def pons_tokens(saved_file=None):
     return list(found.values())
 
 
+def pons_busy():
+    """Pons's top-by-market-cap and top-by-volume pages: catches tokens that take off after leaving the newest page."""
+    found = {}
+    for sort in ("marketcap", "volume"):
+        s = fetch(f"https://ponsfamily.com/launchpad?sort={sort}")
+        found.update(_pons_parse(s) if s else {})
+    log(f"Pons: {len(found)} tokens on the market-cap and volume pages")
+    return list(found.values())
+
+
+CATCHUP = os.path.join(HERE, "data", "catchup.json")  # older launches still to check (one-time sweep, 5 Nov)
+CATCHUP_PER_RUN = 20
+
+
+def catchup(state):
+    """Up to CATCHUP_PER_RUN older Pons tokens from data/catchup.json that the scanner hasn't fully checked yet.
+    A token leaves the list once both the GitHub check and the site check have looked at it."""
+    if not os.path.exists(CATCHUP):
+        return []
+    todo = json.load(open(CATCHUP, encoding="utf-8"))
+    plain = set(state.get("catchup_plain", []))  # no website and no X: only the GitHub check applies
+    done = lambda a: a in state["github"] or a in state.get("sites", {}) or (
+        a in state["seen"] and (a in state.get("site_checked", {}) or a in plain))
+    todo = [a for a in todo if not done(a)]
+    json.dump(todo, open(CATCHUP, "w", encoding="utf-8"))
+    got = {a: pons_one(a) for a in todo[:CATCHUP_PER_RUN]}
+    out = [t for t in got.values() if t]
+    plain |= {a for a, t in got.items() if t and not (t.get("website") or x_info.parse(t.get("twitter"))[0])}
+    state["catchup_plain"] = sorted(plain & set(todo))
+    gone = {a for a, t in got.items() if not t}  # no Pons page: nothing to check
+    if gone:
+        todo = [a for a in todo if a not in gone]
+        json.dump(todo, open(CATCHUP, "w", encoding="utf-8"))
+    if todo:
+        log(f"Catch-up: {len(out)} older tokens added this run, {len(todo)} left")
+    return out
+
+
 PONS_ONE = {}  # address -> token facts from its own Pons page, this run only
 
 
@@ -1104,6 +1142,10 @@ def main():
         if key not in toks:
             toks[key] = {k: g.get(k) for k in ("address", "symbol", "name", "description", "website", "twitter", "launched", "site_via_x")}
             toks[key].update({"links": [], "source": "earlier"})
+    for t in pons_busy():  # tokens taking off after they left the newest page (MERY, UPOCH, 5 Nov)
+        toks.setdefault(t["address"].lower(), t)
+    for t in catchup(state):  # older launches from the one-time sweep, a few a run
+        toks.setdefault(t["address"].lower(), t)
 
     queue = list(toks.items())
     while queue:

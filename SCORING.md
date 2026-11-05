@@ -93,6 +93,8 @@ Caveat: these are today's websites, so a winner may have built its developer pag
 
 **Who is listed.** A token with no GitHub whose own website (not an X, Telegram or news page) has **2 or more** of: API keys, an SDK or install line, MCP, llms.txt. New tokens are looked at when found and again once a day for 14 days; up to 40 new sites a run. Only what a visitor or agent can read counts (pages and docs, not script code: news sites' ad scripts mention "SDK" too).
 
+**Older tokens** (added 5 Nov, after MERY and UPOCH). The scanner started on 4 Nov and only read Pons's newest page, so tokens launched earlier, or that took off after leaving that page, were never checked. Each run now also reads Pons's top-by-market-cap and top-by-volume pages. A one-time sweep of older Pons tokens with a trading pool (data/catchup.json) is checked 20 a run until done.
+
 **No website on Pons** (added 5 Nov, after UBIK). Some projects list only an X account on Pons. The site check then uses the website on that X profile, but only if the X account itself posts this token's address, so a copy or a token linking someone else's X never gets in. The card says where the site came from.
 
 **Score /100.**
