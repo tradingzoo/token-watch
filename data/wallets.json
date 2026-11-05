@@ -571,14 +571,14 @@
   "wallet_txs": 8
  },
  "0x394b2e84879225b2695ff4e913b132068bba8e83": {
-  "checked": "2026-11-04T15:39:51+00:00",
+  "checked": "2026-11-05T03:39:55+00:00",
   "pons": true,
   "wallet": "0xe54e2348b4fa8f7368c17a306d167af3f82d29c4",
   "launches": 1,
   "before": 0,
   "after": 0,
   "others": [],
-  "wallet_txs": 1
+  "wallet_txs": 5
  },
  "0xb06dc5c98ed82b097aee8dd784e133829c3d87a9": {
   "checked": "2026-11-04T15:48:00+00:00",
@@ -799,5 +799,15 @@
   "after": 0,
   "others": [],
   "wallet_txs": 6
+ },
+ "0x9741f3f047f2ccf04754caacb59e6e5f1e6d98f1": {
+  "checked": "2026-11-05T03:39:55+00:00",
+  "pons": true,
+  "wallet": "0x91cf941c746a8e6f5f10e1f9f976929bc5a0c356",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
  }
 }

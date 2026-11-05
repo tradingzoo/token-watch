@@ -546,7 +546,8 @@
   "0x490a2c128f15ec38f9076f9e1d978dde8ebf1e54": "2026-11-05T03:35:37+00:00",
   "0x31b724e2e325c8bef660dbd3e84545d758c45ca2": "2026-11-05T03:35:37+00:00",
   "0x6a674e4d5259a836532e1042bf7c607070016a85": "2026-11-05T03:35:37+00:00",
-  "0x46b7085515cfcd66f442456c6aef1749f532e371": "2026-11-05T03:35:37+00:00"
+  "0x46b7085515cfcd66f442456c6aef1749f532e371": "2026-11-05T03:35:37+00:00",
+  "0x9741f3f047f2ccf04754caacb59e6e5f1e6d98f1": "2026-11-05T03:39:31+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -4036,9 +4037,57 @@
      "people": 6
     }
    }
+  },
+  "0x9741f3f047f2ccf04754caacb59e6e5f1e6d98f1": {
+   "address": "0x9741f3f047f2ccf04754caacb59e6e5f1e6d98f1",
+   "symbol": "WORG",
+   "name": "Worg",
+   "description": "Worg offers open AI models through an OpenAI-style API. Teams change only the base URL and key, and pay",
+   "website": "https://getworg.com",
+   "twitter": "https://x.com/worghq",
+   "launched": "2026-11-05T03:38:22+00:00",
+   "mcap": 4691.360312952091,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T03:39:31+00:00",
+   "scored_at": "2026-11-05T03:39:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "worghq/",
+    "score": 40,
+    "capped": false,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/worghq has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u2705 GitHub account worghq is named after the project (+10)"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u274c GitHub account 3 days old, 0 followers (+0)"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2026-11-01",
+     "pushed": "private",
+     "commits": "private"
+    }
+   }
   }
  },
- "checked_total": 536,
+ "checked_total": 537,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -4420,6 +4469,7 @@
   }
  ],
  "symbol_counts": {
+  "WORG": 1,
   "VIBE": 1,
   "DOOM": 2,
   "SRV4A": 1,
@@ -4451,15 +4501,16 @@
   "PP": 1,
   "CI": 2,
   "JDOG": 1,
-  "CIPHERMVP": 1,
   "PONS": 1,
   "WIF": 1,
-  "DARWIN": 1,
   "ORBIO": 1,
+  "DARWIN": 1,
+  "HARMONIC": 1,
   "CHARLIE": 1,
-  "HYDX": 1,
   "ROBINCAT": 1,
+  "HYDX": 1,
   "DELTA": 1,
+  "CIPHERMVP": 1,
   "ROBINHOOD": 1,
   "66": 1,
   "BKTDSK": 1,
@@ -4494,7 +4545,6 @@
   "UBIK": 1,
   "BISCOTTI": 1,
   "SAIBOT92": 1,
-  "HARMONIC": 1,
   "ASD": 1,
   "DEPOSIT": 1,
   "SUBLUN": 1,
