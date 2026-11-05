@@ -6565,53 +6565,326 @@
     "robinhood:0xab35d04e1ee39c789c4a65d522417b3c7f2e4723 weekly payout: 10.5 HIMS (about $302) split across 128 holders. 100% of LP fees to holders, no desk cut.",
     "New pools on the hook: PLTR/USDG, MU/USDG, NVDA/USDG. Tokenized stocks, dynamic fees that react to volatility, 100% of swap fees to LPs. Provide liquidity: https://jtmarlin.trade/hook"
    ],
-   "checked": "2026-11-05T12:02:48+00:00"
+   "checked": "2026-11-05T11:45:25+00:00"
   },
-  "hookefun": {
-   "handle": "hookefun",
+  "cryntadev": {
+   "handle": "CryntaDev",
    "found": true,
-   "id": "2097081472448651264",
-   "name": "Hooke Protocol",
-   "joined": "2026-09-07T21:57:36+00:00",
-   "followers": 1101,
-   "following": 5,
-   "posts": 28,
+   "id": "2052729608949141506",
+   "name": "Crynta",
+   "joined": "2026-05-08T12:37:35+00:00",
+   "followers": 64,
+   "following": 22,
+   "posts": 18,
    "verified": "individual",
-   "last_post": "2026-10-28T06:17:55+00:00",
-   "sample": 20,
+   "last_post": "2026-11-01T19:57:17+00:00",
+   "sample": 5,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": 24.4,
-   "avg_views": 8707,
-   "bio_site": "https://hooke.fun/",
-   "bio": "Permissionless Algorithmic Stock Tokenization.",
+   "posts_7d": 2,
+   "avg_likes": 6.0,
+   "avg_views": 272,
+   "bio_site": null,
+   "bio": "Software & AI Engineer | Building @zephium_browser and http://terax.app (9.4K+ stars)",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Zephium's launch video just crossed 60K+ views in a week Also, the Linux waitlist is now open in the website Releasing v1.0.5 soon with a bunch of performance optimizations, extensions support and adblocker improvements Thanks for all the feedback and support https://zephium.app",
+    "GitHub has changed the colors of the activity dashboard for some reason, so I asked Zephium's AI to bring them back :)",
+    "When I made a video about Terax, it hit 100K+ views in 1 month. A lot of people asked how the terminal was built A month ago I made a technical follow-up where I described how terminals work by building a minimal AI terminal using Rust + Tauri + xterm.js https://youtu.be/X1N5d-5AHeA",
+    "For the past two months, I\u2019ve been quietly working on my own browser Zephium. Terax in the morning (which already has 9K stars), Zephium in the evening :) It\u2019s not a Chromium/Firefox fork. The browser is written in Rust on top of each platform\u2019s native WebView. FOSS. 0 telemetry",
+    "Building an opensource 7MB AI Terminal with Agents & Code Editor & Web preview in Rust + Tauri. https://github.com/crynta/terax-ai"
+   ],
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "terrythedevv": {
+   "handle": "terrythedevv",
+   "found": true,
+   "id": "1972392668245209088",
+   "name": "terry",
+   "joined": "2025-09-28T20:07:22+00:00",
+   "followers": 1158,
+   "following": 16,
+   "posts": 2088,
+   "verified": "individual",
+   "last_post": "2026-11-05T01:54:40+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 0.5,
+   "avg_views": 153,
+   "bio_site": null,
+   "bio": "dev in a world full of bundlers.\n\n30x bonders",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "now that MICROSOFT is at ATH BonziBuddy is a famous, discontinued desktop virtual assistant from the early 2000s that secretly operated as malicious adware and spyware This went to 1M MC many times earlier on agency but never ran properly on Pump.",
+    "THE stockmarket just went up 1.2 TRILLION due to EARNINGS?? Everything is ONLY UP after earnings 2 HOURS AGO. \"A cash cow is a product, service, or business unit that generates a steady, reliable flow of high profits with very little ongoing investment or maintenance\" https://www.investopedia.com/te",
+    "57hbQo76Jia43hiQqE3WuphYGPveNYGtXiub6LQupump",
+    "Dont think people understand how big EARNINGS ARE. EVERY COMPANY just got earnings out and EVERYTHING is going up. \"A golden goose is a symbol for a asset that provides a continuous, reliable source of great wealth, profit, or success\" https://x.com/search?q=earnings&src=typed_query&f=live",
+    "will get dex at 15k",
+    "its right now btw, Earnings came out an hour ago.",
+    "3PE6PfxAtwda14FfmnJQwykbukeRwb7bu63gij2Rpump",
+    "EARNINGS just came out and EVERY COMPANY DID WELL. The entire stock MARKET IS FLYING. It is a white swan MOMENT in the stockmarket. https://x.com/search?q=earnings&src=typed_query&f=live",
+    "it shouldnt be calling because the entire point is that only KOLS are making on callouts. Regular traders aren't making anything on CALLOUTS. we are just traders.",
+    "Toly most used saying is \"SOLdiers\" and hes spams it when describing russians. Now is perfect time paired to BTC + SOL https://x.com/search?q=from%3Atoly%20SOLdiers&src=typed_query",
+    "what is that name??? nothing sisyphean? https://x.com/Stally_P/status/2118075813375680877",
+    "7dTk45B419671fdrdp9CSYnTbekoWGpEWTZQznw4pump",
+    "GAVE US A NEW TERM?? ARTIFICIAL SUPERINTELLIGENCE?",
+    "In the backround there is a literally coin on the board? ON whitehouse live? https://x.com/i/broadcasts/2onAeamgjgrlqK",
+    "WHITEHOUSE IS ON LIVE WITH A COIN? name: https://www.usmint.gov/semiquincentennial-president-donald-j-trump-24k-gold-proof-coin-26SQG.html?srsltid=AYCX9vIA148M1zolSOCHTCJYPcYKpmmjJbaN-3rDvXzhZ1SXS3T0i8da https://x.com/WhiteHouse/status/2118036733610639510",
+    "you can see it at the beginning of his live + all the way through when the cameras have that shot.",
+    "BPM44LwBQ8hRHJYj8QnL836yQKfyGSr1YKWrZCSepump",
+    "This JUST HAPPANED. A chemical Lab JUST EXPLOADED OUT OF nowhere, people are making theorys as to what happened in there. TWEETES EVERY SECOND: https://x.com/search?q=Chemical%20plant&src=typed_query&f=live https://x.com/WorldConflict_X/status/2118030838525005934",
+    "A NEW Virus is outbreaking which goes from BIRDS TO HUMANS labeled \"The next GLOBAL pandemic\" ALREADY 1 HUMAN killed and 100+ BIRDS KILLED?",
+    "Now that we have Alons OFFICIAL terminal wallet, we could run Alon coin again + SUPPLY. Sending 5% to ALON. https://x.com/cutiepieyv/status/2118017924183343157"
+   ],
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "tmachinrobot": {
+   "handle": "tmachinroBot",
+   "found": false,
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "cloudgrad": {
+   "handle": "cloudgrad",
+   "found": true,
+   "id": "2118077677152219136",
+   "name": "cloudgrad",
+   "joined": "2026-11-04T20:28:43+00:00",
+   "followers": 4,
+   "following": 5,
+   "posts": 1,
+   "verified": "individual",
+   "last_post": "2026-11-05T11:05:27+00:00",
+   "sample": 1,
+   "sample_full_week": false,
+   "posts_7d": 1,
+   "avg_likes": 2.0,
+   "avg_views": 48,
+   "bio_site": "https://cloudgrad.org",
+   "bio": "Cloud computers for your AI agents. Claude Code, Codex and Gemini keep working while your laptop sleeps. Pay by the second in USDG on Robinhood Chain. x402",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "https://x.com/i/article/2118298462693601280"
+   ],
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "velto_rh": {
+   "handle": "Velto_rh",
+   "found": true,
+   "id": "2118293618536411136",
+   "name": "Velto",
+   "joined": "2026-11-05T10:48:27+00:00",
+   "followers": 3,
+   "following": 0,
+   "posts": 9,
+   "verified": null,
+   "last_post": "2026-11-05T12:18:39+00:00",
+   "sample": 7,
+   "sample_full_week": false,
+   "posts_7d": 7,
+   "avg_likes": 0.1,
+   "avg_views": 27,
+   "bio_site": "https://veltorh.trade",
+   "bio": "Velocity with a shield. Non-custodial crypto app: fraud screening before you sign, trading on 63 chains & L2s. $VELTO",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "pay dex incoming....",
+    "DEV BURN ALL : https://web3.okx.com/explorer/robinhood/tx/0x1d3cabce82f812518cb979a583f51ee1277ec6c2ba007e766d38c09e80386e4a",
+    "Your keys never leave your wallet. Your Claude key never touches our servers. Velto's AI copilot runs on your own Anthropic key: 11 roles, including a 10,000-path Monte Carlo \"Time Machine.\" It proposes. It never executes. https://veltorh.trade",
+    "Trade on 63 chains and L2s: Ethereum, Base, Robinhood Chain, Arbitrum, Optimism, Polygon, Solana, Bitcoin and more. Cross-chain swaps, signed only in your own wallet. Exact approvals only. Paper mode when you want to practice first. #DeFi",
+    "Checked before you sign. Velto Shield screens every swap, token, approval and withdrawal in real time: honeypots, hidden sell taxes, mint and blacklist powers, poisoned addresses, account-takeover drains. (Illustration, synthetic data.) #CryptoSecurity",
+    "15 seconds of Velto: - Shield blocks a risky swap before anything is signed - 63 chains and L2s, including Robinhood Chain - Non-custodial: your keys never leave your wallet https://veltorh.trade",
+    "Meet Velto. Velocity with a shield. A US-based, non-custodial crypto app: real-time fraud protection that screens every transaction before you sign, plus trading across 63 chains and L2s. https://veltorh.trade"
+   ],
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "realtrollinhood": {
+   "handle": "RealTrollinHood",
+   "found": true,
+   "id": "2088508053565911041",
+   "name": "Troll In Hood | TROLL",
+   "joined": "2026-08-15T06:11:33+00:00",
+   "followers": 1796,
+   "following": 55,
+   "posts": 1410,
+   "verified": "individual",
+   "last_post": "2026-11-04T23:00:00+00:00",
+   "sample": 15,
+   "sample_full_week": true,
+   "posts_7d": 15,
+   "avg_likes": 25.9,
+   "avg_views": 379,
+   "bio_site": "https://dexscreener.com/robinhood/0xe519f39c1f867539983be78a1ed036097a545f4379b08203f6e592e153f52c90",
+   "bio": "$TROLL on Robinhood 0x2a13008CC2F5A853F6Fb21cbD90841806C64b247",
    "cas": [
-    "0xfedc47c5a7903563ce3e33c8b6b8117f57aabe81"
+    "0x2a13008cc2f5a853f6fb21cbd90841806c64b247"
    ],
    "fake_posts": [],
    "texts": [
-    "GXmax @XmaxGlobal",
-    "The $XMAX stock available to borrow is decreasing. We will keep monitoring the market data.",
-    "$XMAX short squeeze update.",
-    "Hooke\u2019s +35% target on $XMAX comes from our short-squeeze thesis. Our internal model looks at short interest, borrow availability, trading volume and the float\u2019s ownership structure. It identifies roughly +30% above the treasury\u2019s average purchase cost as a zone where covering pressure could acceler",
-    "Looking fwd to all the feedbacks on our buyback / short squeeze strategy. It is only day 3 after we launch, there is a long journey ahead. Short squeeze won't be done in few days. @TheRoaringKitty set a good example for us.",
-    "To the @wolfpackmeme community: The community has raised questions about how fees are allocated between stock purchases and WOLFPACK buybacks. These revenue streams serve different purposes and follow different buyback timelines. Here are the details. We are here, and we are not walking away. We wil",
-    "Check https://app.hooke.fun/pool/hXMAX/USDG for latest treasury info.",
-    "We have acquired 21,730 shares of $XMAX on @binance @bstocksfinance at avg. price $8.6, the total fund spent is around $186k. Proud to be the shareholder of @XmaxGlobal. We also purchased 5,036,019 $wolfpack with wallet 0xfedc47c5a7903563ce3e33c8b6b8117f57aabe81. Tx: https://robinhoodchain.blockscou",
-    "The $USDG income in the treasury has just been deposited to CEX, preparing for the buyback. Stay tuned for further updates.",
-    "We will execute the buy back of $XMAX and $wolfpack within next few hrs.",
-    "We are building the first permissionless stock tokenization protocol and our launchpad will go live soon. $wolfpack is the first meme pairing with the $10M $hXMAX stock pool. @RobinhoodApp chain is where all the RWA + memes innovation happens. Keep shipping.",
-    "http://Hooke.fun is live. A launchpad built around the short-squeeze narrative. Stocks feed memes. Memes feed stocks. The Stock-to-Meme Flywheel connects equity trading, meme launches, and WOLFPACK buybacks. Every trade in the hXMAX/USDG pool can feed the next $WOLFPACK buyback. 1. The equity flywhe",
-    "We will use the tax income to buy back $wolfpack as that is what the community wants. We will also go live the Hooke launchpad soon so that anyone can launch coins pairing with $hXMAX and the platform income will be used to buy back $wolfpack. For the income data please check: https://app.hooke.fun/",
-    "time for a good chat with @XmaxGlobal @RobinhoodApp @vladtenev",
-    "We have accumulated around $200k in the treasury. Our initial plan was to buy $XMAX, but we also hear the voice from community requesting to support @wolfpackmeme. The whole short squeeze narrative on $XMAX was triggered by the $wolfpack launch and we need more people to see the dancing wolf and eve",
-    "Appreciate the support! @global_dollar Let's push $USDG adoption together\ud83e\udee1",
-    "We\u2019re excited to contribute to the @global_dollar ecosystem! Powered by $USDG, we\u2019re enabling permissionless stock tokenization through liquidity pools with dynamic trading taxes designed to facilitate onchain stock price discovery. Our first tokenized stock, $hXMAX, is now live\u2014alongside the $hXMAX",
-    "We will use the tax fee income to buy $XMAX stock, stay tuned for further announcements.",
-    "The initial $hXMAX/USDG LP position is now locked for 21 days. The lock is complete and can be verified onchain. The position cannot be withdrawn or transferred before the unlock time below. We will let community decide what to do with the pool after 21 days. Lock tx: https://robinhoodchain.blocksco",
-    "How Hooke\u2019s dynamic trading tax works: Hooke compares the token\u2019s onchain pool price with the stock reference price reported by its oracle. Buy and sell taxes range from 2% to 4%: - At the reference price: both sides pay 2%. - Above it: the buy tax rises, while the sell tax stays at 2%. - Below it: "
+    "One homie working. One homie chilling. One homie the reason we can\u2019t go nowhere. \ud83d\ude2d Which one are you? robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood #GTA6 https://t.me/RealTrollInHoodCTO",
+    "When robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 is up: \u201cI been telling y\u2019all to buy.\u201d When robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 is down: \u201cWhy mfrs selling?\u201d Same shit. Different toilet. \ud83e\udef5\ud83c\udffc \ud83d\ude02 #WeKeepItTrollin https://t.me/RealTrollInHoodCTO",
+    "One homie working. One homie chilling. One homie the reason we can\u2019t go nowhere. \ud83d\ude2d Which one are you? robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood #GTA6 https://t.me/RealTrollInHoodCTO",
+    "Appreciate you showing love, @K1d_Crypt0. \ud83e\udee1 We\u2019ve been holding this floor and growing the community at the same time. robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 on @RobinhoodApp Chain is just getting warmed up. #TrollinHood",
+    "Still building. Still talking our shit. Still making ourselves at home. robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 in Hood. Get used to seeing us. \ud83d\udc9a #TrollinHood #WeKeepItTrollin https://t.me/RealTrollInHoodCTO",
+    "Sent robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 in for a bag of chips. Bro came back with five stars. This is why we can\u2019t skip tha cutscenes. \ud83d\ude2d \ud83e\udef5\ud83c\udffc #TrollinHood #GTA6 https://t.me/RealTrollInHoodCTO",
+    "Early Black Friday deals got bro acting like he saved the household money. Saved $200. Now he gotta explain the other $1,500. \ud83d\ude02 \ud83e\udef5\ud83c\udffc robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood https://t.me/RealTrollInHoodCTO",
+    "Sent robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 in for a bag of chips. Bro came back with five stars. This is why we can\u2019t skip tha cutscenes. \ud83d\ude2d \ud83e\udef5\ud83c\udffc #TrollinHood #GTA6 https://t.me/RealTrollInHoodCTO",
+    "Your panic sale. Our shopping spree. \ud83d\ude02\ud83e\udef5\ud83c\udffc Don\u2019t get mad when we won\u2019t sell it back for what you let it go for. robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood https://t.me/RealTrollInHoodCTO",
+    "We take building the robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 community seriously. Ourselves? Never that serious. \ud83d\ude02 https://t.me/RealTrollInHoodCTO",
+    "Your panic sale. Our shopping spree. \ud83d\ude02\ud83e\udef5\ud83c\udffc Don\u2019t get mad when we won\u2019t sell it back for what you let it go for. robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood https://t.me/RealTrollInHoodCTO",
+    "The hood always stays on...always..",
+    "Last night we were out here taking over Spaces, flooding the comments, and having a good time \ud83e\udef5\ud83c\udffc \ud83d\ude02 Building a strong foundation starts with a community that enjoys showing up. \ud83e\udee1 robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood https://t.me/RealTrollInHoodCTO",
+    "Tha Hood needs to be all over the timeline. \ud83e\udef5\ud83c\udffc\ud83d\udc9a Our robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 Grand Raid Contest kicks off today at 4PM PST. Raid, reply, and put your name on that leaderboard. \ud83e\udd47 $30 | \ud83e\udd48 $20 | \ud83e\udd49 $15 Paid in RH ETH + random rewards for those putting in work. You\u2019re already ",
+    "GM, Troll fam \u2600\ufe0f\ud83d\udc9a Another Sunday waking up with good people and plenty to look forward to. Enjoy your day, show the homies some love, and keep it Trollin\u2019. \ud83e\udee1 robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood https://t.me/RealTrollInHoodCTO"
    ],
-   "checked": "2026-11-05T12:02:48+00:00"
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "offrouter": {
+   "handle": "OffRouter",
+   "found": true,
+   "id": "2106968570899161088",
+   "name": "OffRouter",
+   "joined": "2026-10-05T04:45:33+00:00",
+   "followers": 377,
+   "following": 17,
+   "posts": 165,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://offrouter.org",
+   "bio": "Private inference router for onchain agents. Models run in secure enclaves, every response is signed.\n\n0x47b537f7c2c2183967fe5ba883291b8ada490db6",
+   "cas": [
+    "0x47b537f7c2c2183967fe5ba883291b8ada490db6"
+   ],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "omnirailorg": {
+   "handle": "omnirailorg",
+   "found": true,
+   "id": "2102840575447662592",
+   "name": "OmniRail",
+   "joined": "2026-09-23T19:20:37+00:00",
+   "followers": 403,
+   "following": 3,
+   "posts": 157,
+   "verified": "individual",
+   "last_post": "2026-11-05T09:17:00+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 9.8,
+   "avg_views": 283,
+   "bio_site": "https://omnirail.org/",
+   "bio": "The first crypto-native, multimodal API for agents. Every text, image, video model, in one MCP command.\nhttp://t.me/omnirail\n0xa4ddf100e3e0d3a9dd897e89d025622b794f0c08",
+   "cas": [
+    "0xa4ddf100e3e0d3a9dd897e89d025622b794f0c08"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "The fastest way from \"I wonder if this model can do it\" to production code. Open the Playground, sign in with your wallet, and run any model: chat, images, video, voice, embeddings, Autopilot. Every run is a real call at the exact API price, with latency, cost and your $RAIL savings on the receipt. ",
+    "Using OmniRail right now costs less than calling the providers directly. Our markup is negative: \u22122% at the moment. Fees on $RAIL trading flow into a pool, and that pool pays the difference so every call, by anyone, is billed below list price. You do not need to hold anything or opt into anything. T",
+    "So proud to be building here !",
+    "Video generation is no longer a premium feature. It is an API call. 27 video models on one endpoint: start from text, or hand it your own first frame and bring an image to life. Pick the duration and resolution the model supports, poll the job, get an MP4. You pay per second of video, and if a gener",
+    "\ud83d\udd13 UNCENSORED IS ON OMNIRAIL The models that stay in the scene are now one API call away. 8 open models that refuse less, behind the same OmniRail key as every other model: \u2192 Dolphin 24B (Venice edition) \u2192 Hermes 4 405B by Nous Research \u2192 Euryale 70B, Magnum v4 72B, Skyfall 36B, Cydonia 24B, UnslopNe",
+    "A new ticket comes in. One Jev call answers three questions at once: which team (billing, technical, account), how urgent (on a 1 to 5 scale you describe), and does it mention a payment problem? Your app routes it, and a webhook tells the right person when it is urgent. No prompt to tweak until the ",
+    "Your agent can talk and listen too \ud83d\udd0a Text-to-speech and transcription on OmniRail, through the same API and the same balance as every other model. Try it \u2192 https://omnirail.org/playground?mode=voice",
+    "We just fixed a bug in OmniRail Chat: reasoning models could use their whole output limit on thinking and answer nothing, and the call was still billed. Chat answers now get up to 65k output tokens (capped by your balance), models that think hard by default leave room for the answer, and empty answe",
+    "An agent that searches the web gets ten pages back. Half are off topic, a few are spam, one is the answer. Before reading them all into an expensive model, it can ask Jev about each one: does this page actually answer the question? Yes or no, with a number. Only the pages that pass go to the chat mo",
+    "For the people whose agents run at 2 a.m. \ud83c\udf19 OmniRail has a dark mode on every page: the Playground, the dashboard, the docs. It follows your system, or pick it from the toggle in the header. https://omnirail.org",
+    "Most questions an agent sends are easy. A few are hard. Sending all of them to the most expensive model wastes money; sending all of them to the cheapest one fails on the hard ones. So ask first. Jev scores each request on a scale you write (simple lookup, normal task, hard reasoning) and your code ",
+    "Got a great answer? Share it with one link \ud83d\udd17 Press Share in OmniRail Chat and send the link. Anyone can read it without an account, and continue the conversation in their own chat. Try it \u2192 https://omnirail.org/chat",
+    "Building an agent, a bot or an app? Build it on OmniRail \ud83d\udee0 One key, every model, paid in crypto. Tell us about your project: we review it by hand, help you integrate, and feature the best ones. Apply \u2192 https://omnirail.org/build",
+    "Moderating a busy group with a chat model is slow and expensive: every message becomes a paragraph you then have to read. With Jev, every message gets one quick question: fine, spam, scam link or abuse? The answer comes back as a choice with a probability, and the bot acts on it: let it through, del",
+    "You can top up OmniRail with $RAIL. Send it from your wallet and it is credited in dollars at its on-chain price. No fee, only network gas. Try it \u2192 https://omnirail.org/dashboard",
+    "Voice mode, with any model \ud83c\udf99\ufe0f In OmniRail Chat, tap the voice button and talk. The answer is spoken while it is still being written, and you can cut in by tapping the orb. Not tied to one model: pick the one you want. Try it \u2192 https://omnirail.org/chat",
+    "The hard part of a supervised agent: asking the human too often and they stop reading; too rarely and something slips through. Jev gives you a number instead of a sentence. Say yes above 0.9 and the agent goes ahead. Say no below 0.1 and it stops. Anything in between, it asks you. You decide the thr",
+    "Compare in the Playground, for builders \u2696\ufe0f With the latest update, you can test models on your own prompt before you wire one into your agent. One prompt goes to 2\u20134 models in parallel, each streamed through the same /v1/chat/completions your API key calls, billed the same way. Per model: time to fi",
+    "New on OmniRail: compare AI models side by side \u2696\ufe0f Picking a model used to mean trying them one by one. Now type one question in the Playground and up to four models answer at the same time, next to each other. You see which one was fastest and which one was cheapest. Live now \u2192 http://omnirail.org/",
+    "Strip the agent hype down and an agent that does real work needs four things. A brain: access to the right model for each task, not just the one it shipped with. Hands: tools it can call in a standard way, for images, video, voice, search and documents. A wallet: a way to pay for what it uses, per c"
+   ],
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "erc8004markets": {
+   "handle": "ERC8004Markets",
+   "found": false,
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "indiecreations_": {
+   "handle": "IndieCreations_",
+   "found": true,
+   "id": "1966902462583013376",
+   "name": "IndieCreations",
+   "joined": "2025-09-13T16:31:11+00:00",
+   "followers": 362,
+   "following": 1,
+   "posts": 398,
+   "verified": "individual",
+   "last_post": "2026-11-02T20:03:12+00:00",
+   "sample": 17,
+   "sample_full_week": false,
+   "posts_7d": 8,
+   "avg_likes": 6.5,
+   "avg_views": 434,
+   "bio_site": "http://indiecreations.fun",
+   "bio": "Just an indie game studio. Utilizing Claude to accelerate the workflow. CA: 0xB9195597f91f179EBB05D3F1765B35C3d8491aCb",
+   "cas": [
+    "0xb9195597f91f179ebb05d3f1765b35c3d8491acb"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Bio-shooter is closing in on 30 wishlist! Very exciting! Steam is currently back logged with game builds, probably due to the amount of ai games being built. So we wait patiently, as soon as they approve the game build, Bio-Shooter will enter early access!",
+    "even at night the fight rages on #indiedev #indiegame #gamedev",
+    "wishlist bio-shooter! https://store.steampowered.com/app/5465060/BioShooter/",
+    "We\u2019re live streaming the first ever bio-shooter gameplay right on twitch! Come join! https://www.twitch.tv/indiecreations #indiedev #indiegame #gamedev",
+    "Today, i\u2019ll be Live Streaming some Bio-Shooter gameplay directly on https://twitch.tv/indiecreations. I\u2019ll be picking random viewers to win a Steam Key when the game releases to Early Access November 6th Hope you to see you there! #indiegame #indiedev #gamedev",
+    "Indie Creations now has a discord up! Join the community, post some games you\u2019re working on, get updates to our upcoming and newest game releases, and hangout! Discord Link: https://discord.gg/ZaGaNVGPAf #indiedev #indiegame #gamedev",
+    "Bio-Shooter is 1 week and 1 day from release. - Fully Translated in 9 different languages - 3 classes, 3 maps, 3 game modes - fully voiced - 100 ranks, and many titles and player cards to earn - over 15 guns to use - extreme chaos directly in the human body Have you wishlisted? https://store.steampo",
+    "Welcome to Hallow March. Ashen Trials comes soon! $CREATIONS",
+    "Bio-Shooter is now on https://indiecreations.fun! Soon holders of $CREATIONS will be able to fill out a simple google form to request a free Steam Key to redeem on Steam to play Bio-Shooter for free!",
+    "If you have 10 minutes, consider watching this new Bio-Shooter gameplay! 10 minutes of pure chaos within the Human Body. Early Access begins November 6th! Wishlist: https://store.steampowered.com/app/5465060/BioShooter/ https://www.youtube.com/watch?v=fQrslAlZjHM #indiedev #indiegame #gamedev",
+    "Over 1000 visits to the bio-shooter steam page, which is amazing! Do you have bio-shooter wishlisted yet? If not, feel free to wishlist today! https://store.steampowered.com/app/5465060/BioShooter/ #indiegame #indiedev #gamedev",
+    "Bio-Shooter currently has 19 wishlist! And reception on Tiktok has gone well past expectations with over 35k views and 6k likes! If you haven\u2019t already, wishlist Bio-Shooter today and prepare for the fight in the human body on November 6th! https://store.steampowered.com/app/5465060/BioShooter/ #ind",
+    "Bio-shooter feedback is going extremely well. 14 wishlist and a lot of really great feedback. Be sure to wishlist if you haven\u2019t already. November 6th is the day of Early Access! Wishlist: https://store.steampowered.com/app/5465060/BioShooter/",
+    "10 people are interested in playing the Bio-Shooter Early Access begins November 6th! Be sure to wishlist as well, Bio-Shooter is an online FPS/TPS that takes place in the human body! Wishlist: https://store.steampowered.com/app/5465060/BioShooter/ #indiedev #indiegame #gamedev",
+    "Wishlist are now available for Bio-Shooter! Which means it\u2019s time to begin marketing across social media to increase awareness! Wishlist Bio-Shooter today! Link below \u2b07\ufe0f #indiedev #indiegame #gamedev",
+    "https://store.steampowered.com/app/5465060/BioShooter/",
+    "Store page approved \u2705 Game build is pending. Earliest release date: November 5th. Which means Early Access for Bio-Shooter is set for November 6th! Wishlist here: https://store.steampowered.com/app/5465060/BioShooter/ #indiedev #indiegame #gamedev"
+   ],
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "bunzonhood": {
+   "handle": "BUNZonHOOD",
+   "found": true,
+   "id": "2102174517653069824",
+   "name": "$BUNZ",
+   "joined": "2026-09-21T23:15:57+00:00",
+   "followers": 318,
+   "following": 49,
+   "posts": 227,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://BUNZonHOOD.com",
+   "bio": "$BUNZ paired with lululemon. Tokenized stock meets GTA.\n\nCA: 0x1836eBD2D73f4B4B21b827D6EA01B3931b59a140",
+   "cas": [
+    "0x1836ebd2d73f4b4b21b827d6ea01b3931b59a140"
+   ],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T12:20:31+00:00"
   }
  },
  "ids": {
@@ -7203,8 +7476,32 @@
   "2085897940313251840": [
    "JTMarlinTrade"
   ],
-  "2097081472448651264": [
-   "hookefun"
+  "2052729608949141506": [
+   "CryntaDev"
+  ],
+  "1972392668245209088": [
+   "terrythedevv"
+  ],
+  "2118077677152219136": [
+   "cloudgrad"
+  ],
+  "2118293618536411136": [
+   "Velto_rh"
+  ],
+  "2088508053565911041": [
+   "RealTrollinHood"
+  ],
+  "2106968570899161088": [
+   "OffRouter"
+  ],
+  "2102840575447662592": [
+   "omnirailorg"
+  ],
+  "1966902462583013376": [
+   "IndieCreations_"
+  ],
+  "2102174517653069824": [
+   "BUNZonHOOD"
   ]
  },
  "past": {
@@ -7411,7 +7708,17 @@
   "visitnation": [],
   "artificialypepe": [],
   "jtmarlintrade": [],
-  "hookefun": []
+  "cryntadev": [],
+  "terrythedevv": [],
+  "tmachinrobot": [],
+  "cloudgrad": [],
+  "velto_rh": [],
+  "realtrollinhood": [],
+  "offrouter": [],
+  "omnirailorg": [],
+  "erc8004markets": [],
+  "indiecreations_": [],
+  "bunzonhood": []
  },
  "history": {
   "barragetrade": {
@@ -8732,10 +9039,58 @@
     73
    ]
   },
-  "hookefun": {
+  "cryntadev": {
    "2026-11-05": [
-    1101,
-    28
+    64,
+    18
+   ]
+  },
+  "terrythedevv": {
+   "2026-11-05": [
+    1158,
+    2088
+   ]
+  },
+  "cloudgrad": {
+   "2026-11-05": [
+    4,
+    1
+   ]
+  },
+  "velto_rh": {
+   "2026-11-05": [
+    3,
+    9
+   ]
+  },
+  "realtrollinhood": {
+   "2026-11-05": [
+    1796,
+    1410
+   ]
+  },
+  "offrouter": {
+   "2026-11-05": [
+    377,
+    165
+   ]
+  },
+  "omnirailorg": {
+   "2026-11-05": [
+    403,
+    157
+   ]
+  },
+  "indiecreations_": {
+   "2026-11-05": [
+    362,
+    398
+   ]
+  },
+  "bunzonhood": {
+   "2026-11-05": [
+    318,
+    227
    ]
   }
  },
@@ -8834,7 +9189,15 @@
    "kind": "subscribers",
    "online": null,
    "name": "quietwinning",
-   "checked": "2026-11-05T12:02:48+00:00"
+   "checked": "2026-11-05T11:45:25+00:00"
+  },
+  "namidefi": {
+   "found": true,
+   "members": 1035,
+   "kind": "members",
+   "online": 169,
+   "name": "namidefi",
+   "checked": "2026-11-05T12:20:31+00:00"
   }
  },
  "tg_history": {
@@ -8879,6 +9242,9 @@
   },
   "quietwinning": {
    "2026-11-05": 186
+  },
+  "namidefi": {
+   "2026-11-05": 1035
   }
  },
  "gh": {
@@ -9380,7 +9746,17 @@
   "useverdex": {
    "twitter": "useverdex",
    "blog": "https://useverdex.xyz",
-   "checked": "2026-11-05T12:02:48+00:00"
+   "checked": "2026-11-05T11:45:25+00:00"
+  },
+  "zephium-browser": {
+   "twitter": null,
+   "blog": "https://zephium.app",
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "theselfruleorg": {
+   "twitter": null,
+   "blog": "https://theselfrule.org",
+   "checked": "2026-11-05T12:20:31+00:00"
   }
  }
 }

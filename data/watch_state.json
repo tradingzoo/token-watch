@@ -625,12 +625,12 @@
   "0xa69b3c82821e7081d91ca80a36bcdd1a89cc8fcf": "2026-11-05T06:00:34+00:00",
   "0xc23babb3416e8962ce9dc9738f6256117f0600f8": "2026-11-05T06:05:16+00:00",
   "0x3cf44ff3aaa07281f006f1368473d3251648fbad": "2026-11-05T06:05:16+00:00",
-  "0x40325e04bbc1a1746a8b4f71b429f728a73677c6": "2026-11-05T06:08:44+00:00",
+  "0x40325e04bbc1a1746a8b4f71b429f728a73677c6": "2026-11-05T12:20:31+00:00",
   "0xd31e178d7e33694a7f538b5c2698a644556699ee": "2026-11-05T06:08:44+00:00",
   "0x4baac3432c1f4e4c12a6250a7497dac0e73d2029": "2026-11-05T06:08:44+00:00",
   "0x504a9b15e1f18a47f5035c5366201d9c1709f5eb": "2026-11-05T06:08:44+00:00",
   "0x3495c13c36a50ba6d05e94790864dabb37ee57ef": "2026-11-05T06:15:34+00:00",
-  "0x51751e2b5c34a67091c258041281ce6036627ca4": "2026-11-05T06:15:34+00:00",
+  "0x51751e2b5c34a67091c258041281ce6036627ca4": "2026-11-05T12:20:31+00:00",
   "0xfdbe4ba7060d85b71a1eca33011e0cfd0723e103": "2026-11-05T06:30:27+00:00",
   "0xfad17d7cc41d9c9ca4a459da798a4446dd217974": "2026-11-05T06:30:27+00:00",
   "0xcedb9836efe8e802e70002930d30e5fbfd846914": "2026-11-05T06:30:27+00:00",
@@ -1087,56 +1087,108 @@
   "0x5e81213613b6b86eab4c6c50d718d34359459786": "2026-11-05T11:35:02+00:00",
   "0x7aac34b65bba131c6d251863afeff5a503d7e705": "2026-11-05T11:35:02+00:00",
   "0xe93237c50d904957cf27e7b1133b510c669c2e74": "2026-11-05T11:35:02+00:00",
-  "0x13249c08d5a364e6630a6315366e7318ab54418c": "2026-11-05T12:02:48+00:00",
-  "0x279d1a81f4ddb1d9f4ab4301e15cd1c3c3deb706": "2026-11-05T12:02:48+00:00",
-  "0x68907b29f1fcf84f7458f3edfc87dc6ac28e8e6f": "2026-11-05T12:02:48+00:00",
-  "0xdd2d07977991d87301ec4d349b1cb3b4c6f52ee6": "2026-11-05T12:02:48+00:00",
-  "0xbcbfd89832f5e1099935e2badb186d195f838c5c": "2026-11-05T12:02:48+00:00",
-  "0xb3f31aafc76d10f88870b3ca8b05db0f07789fc8": "2026-11-05T12:02:48+00:00",
-  "0x3a11ab5f08d1aa48a307ca2cc7a51725af419c47": "2026-11-05T12:02:48+00:00",
-  "0x0995122a724795035001689625c6693b778931d4": "2026-11-05T12:02:48+00:00",
-  "0x5ed39f421a62175fa6b25f73f27a112d74b81f8b": "2026-11-05T12:02:48+00:00",
-  "0x80c46e6d3d0afdaca1e32dcbc25a4e14427f3a7f": "2026-11-05T12:02:48+00:00",
-  "0x8b775c84db4487b9a75f162a12946d65d10951c2": "2026-11-05T12:02:48+00:00",
-  "0xbabb90b909cabb0885b3f3024e443b114a8c6b3b": "2026-11-05T12:02:48+00:00",
-  "0x8e2fe075ddbc7431b66954bd320577d438fccbc4": "2026-11-05T12:02:48+00:00",
-  "0x95943745ac9ba4cb583685cbaef5d36681ddb5b0": "2026-11-05T12:02:48+00:00",
-  "0x3f5b930663bb5d9b9afa51e32f976e384194142d": "2026-11-05T12:02:48+00:00",
-  "0xa8f8ba78a6a8a8077e86572bfd0e95c69b20cefe": "2026-11-05T12:02:48+00:00",
-  "0x93e7a34db439a3371d4149eb9e6794343312d4f2": "2026-11-05T12:02:48+00:00",
-  "0x0cc8522ca4f423638032d0211a6e823392a1eae1": "2026-11-05T12:02:48+00:00",
-  "0xe2dae1c072b9f66bed999873b94798b2152af7e1": "2026-11-05T12:02:48+00:00",
-  "0xfe936755185353b63a81dd72b47533eb6021018e": "2026-11-05T12:02:48+00:00",
-  "0x7733cda0c1a81f9aad669c7317b3a3c5ea6b4936": "2026-11-05T12:02:48+00:00",
-  "0xa905d663a8ceb43bf9fb1b866bba7604a0b4791c": "2026-11-05T12:02:48+00:00",
-  "0x88888cc1c17ffcba563f418c61596b3fa2ca2e2c": "2026-11-05T12:02:48+00:00",
-  "0xc839a88a05b231515a82c71ee97b4f18973c1340": "2026-11-05T12:02:48+00:00",
-  "0x9411673acad2ff68810713cbc04e029c8d636fe6": "2026-11-05T12:02:48+00:00",
-  "0x5b32971ee68b1ed6d11476760106f29d81f77f6e": "2026-11-05T12:02:48+00:00",
-  "0x302dacc52492095fb054937112a5aac4617ecfb3": "2026-11-05T12:02:48+00:00",
-  "0x71dff63057274f5d20330c5f18b5922b97660f9c": "2026-11-05T12:02:48+00:00",
-  "0xd7904825db3be8264e7b3e44c20998eac323b57c": "2026-11-05T12:02:48+00:00",
-  "0x7ab225fcc0231deb5381a1bab854a4f951e3f83a": "2026-11-05T12:02:48+00:00",
-  "0x0d099caf7e87626c8327f01471a142d244900f7f": "2026-11-05T12:02:48+00:00",
-  "0x72b22451c5698a54de5d00a946d75f25a48f4fd9": "2026-11-05T12:02:48+00:00",
-  "0x96f455a90a80dcf0c2df6703ea4ba3bedf286e43": "2026-11-05T12:02:48+00:00",
-  "0xab35d04e1ee39c789c4a65d522417b3c7f2e4723": "2026-11-05T12:02:48+00:00",
-  "0x9ecb1cb29353de3e28cdc26650e2bb6e5574816f": "2026-11-05T12:02:48+00:00",
-  "0x5827f75353410f20f5ba8c1bb49407eecdf42352": "2026-11-05T12:02:48+00:00",
-  "0x028ae4ab1b43c12826790c6d8d6c6ae58a9cc050": "2026-11-05T12:02:48+00:00",
-  "0x0532751220d113a814e1a31457232a17ec89ae57": "2026-11-05T12:02:48+00:00",
-  "0x17ecfc33a6970b1e460e32ed1c6196bf0321e611": "2026-11-05T12:02:48+00:00",
-  "0x61ff828a797e2e52c5c5e2872e15ee43bf7de908": "2026-11-05T12:02:48+00:00",
-  "0x71796aad4cdff942d3ee8bb1227f779255f89dbc": "2026-11-05T12:02:48+00:00",
-  "0x9d9c6684f596f66a64c030b93a886d51fd4d7931": "2026-11-05T12:02:48+00:00",
-  "0xba2fcf5b3a560854a036e29671eb3f06b30d4051": "2026-11-05T12:02:48+00:00",
-  "0x0773688d90510d9b3e083cd3496d194573fb43a4": "2026-11-05T12:02:48+00:00",
-  "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea": "2026-11-05T12:02:48+00:00",
-  "0x6330d8c3178a418788df01a47479c0ce7ccf450b": "2026-11-05T12:02:48+00:00",
-  "0x6f341e782a3fe21072869cf714e1d29557071fc0": "2026-11-05T12:02:48+00:00",
-  "0x84cab63bc87912e71ad199ff14a0ba45de68fef8": "2026-11-05T12:02:48+00:00",
-  "0x87b2bde4ac2f2590f2463a8f6822fc79bb0587b0": "2026-11-05T12:02:48+00:00",
-  "0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e": "2026-11-05T12:02:48+00:00"
+  "0xb3f31aafc76d10f88870b3ca8b05db0f07789fc8": "2026-11-05T11:45:25+00:00",
+  "0x3a11ab5f08d1aa48a307ca2cc7a51725af419c47": "2026-11-05T11:45:25+00:00",
+  "0x0995122a724795035001689625c6693b778931d4": "2026-11-05T11:45:25+00:00",
+  "0x5ed39f421a62175fa6b25f73f27a112d74b81f8b": "2026-11-05T11:45:25+00:00",
+  "0x80c46e6d3d0afdaca1e32dcbc25a4e14427f3a7f": "2026-11-05T11:45:25+00:00",
+  "0x8b775c84db4487b9a75f162a12946d65d10951c2": "2026-11-05T11:45:25+00:00",
+  "0xbabb90b909cabb0885b3f3024e443b114a8c6b3b": "2026-11-05T11:45:25+00:00",
+  "0x2b004e8892c30e596a2a2e15428418ae0d5131e8": "2026-11-05T11:45:25+00:00",
+  "0xbedffa60ed14d85e5f55e401529b11052375db64": "2026-11-05T11:45:25+00:00",
+  "0x820f678888b77973b9b6aea9ad0834ff5d7deb43": "2026-11-05T11:45:25+00:00",
+  "0x7b778747b218c87184643add220db3e5fc0ba946": "2026-11-05T11:45:25+00:00",
+  "0x22ba569012a11cfff97a4eae794a1c02ffe3cd3b": "2026-11-05T11:45:25+00:00",
+  "0xd039a0c5ab6cf66ca4e8983cba441398baa3833d": "2026-11-05T11:45:25+00:00",
+  "0x85fa52984390974a8bc1c684500974bfabacac8a": "2026-11-05T11:45:25+00:00",
+  "0x0b08cabc1dbf2d16bc306c92ced58be27a5c8722": "2026-11-05T11:45:25+00:00",
+  "0xcfb083ac0fe280ff0a4f0a4e8b6bb8adbe436276": "2026-11-05T11:45:25+00:00",
+  "0x93e7a34db439a3371d4149eb9e6794343312d4f2": "2026-11-05T11:45:25+00:00",
+  "0x0cc8522ca4f423638032d0211a6e823392a1eae1": "2026-11-05T11:45:25+00:00",
+  "0xe2dae1c072b9f66bed999873b94798b2152af7e1": "2026-11-05T11:45:25+00:00",
+  "0xfe936755185353b63a81dd72b47533eb6021018e": "2026-11-05T11:45:25+00:00",
+  "0x7733cda0c1a81f9aad669c7317b3a3c5ea6b4936": "2026-11-05T11:45:25+00:00",
+  "0xa905d663a8ceb43bf9fb1b866bba7604a0b4791c": "2026-11-05T11:45:25+00:00",
+  "0x88888cc1c17ffcba563f418c61596b3fa2ca2e2c": "2026-11-05T11:45:25+00:00",
+  "0xc839a88a05b231515a82c71ee97b4f18973c1340": "2026-11-05T11:45:25+00:00",
+  "0x9411673acad2ff68810713cbc04e029c8d636fe6": "2026-11-05T11:45:25+00:00",
+  "0x5b32971ee68b1ed6d11476760106f29d81f77f6e": "2026-11-05T11:45:25+00:00",
+  "0x302dacc52492095fb054937112a5aac4617ecfb3": "2026-11-05T11:45:25+00:00",
+  "0x71dff63057274f5d20330c5f18b5922b97660f9c": "2026-11-05T11:45:25+00:00",
+  "0xd7904825db3be8264e7b3e44c20998eac323b57c": "2026-11-05T11:45:25+00:00",
+  "0x7ab225fcc0231deb5381a1bab854a4f951e3f83a": "2026-11-05T11:45:25+00:00",
+  "0x0d099caf7e87626c8327f01471a142d244900f7f": "2026-11-05T11:45:25+00:00",
+  "0x72b22451c5698a54de5d00a946d75f25a48f4fd9": "2026-11-05T11:45:25+00:00",
+  "0x96f455a90a80dcf0c2df6703ea4ba3bedf286e43": "2026-11-05T11:45:25+00:00",
+  "0xab35d04e1ee39c789c4a65d522417b3c7f2e4723": "2026-11-05T11:45:25+00:00",
+  "0x9ecb1cb29353de3e28cdc26650e2bb6e5574816f": "2026-11-05T11:45:25+00:00",
+  "0x5827f75353410f20f5ba8c1bb49407eecdf42352": "2026-11-05T11:45:25+00:00",
+  "0x0773688d90510d9b3e083cd3496d194573fb43a4": "2026-11-05T11:45:25+00:00",
+  "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea": "2026-11-05T11:45:25+00:00",
+  "0x6330d8c3178a418788df01a47479c0ce7ccf450b": "2026-11-05T11:45:25+00:00",
+  "0x6f341e782a3fe21072869cf714e1d29557071fc0": "2026-11-05T11:45:25+00:00",
+  "0x84cab63bc87912e71ad199ff14a0ba45de68fef8": "2026-11-05T11:45:25+00:00",
+  "0x87b2bde4ac2f2590f2463a8f6822fc79bb0587b0": "2026-11-05T11:45:25+00:00",
+  "0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e": "2026-11-05T11:45:25+00:00",
+  "0x515c0ce4cca7737c29d9fe6233e30b10826fd96e": "2026-11-05T12:20:31+00:00",
+  "0xcaab657d6fd5b91755d0de837bd3e449ac9c302f": "2026-11-05T12:20:31+00:00",
+  "0x07d31817b1e366cbc208990981bbb47b31023029": "2026-11-05T12:20:31+00:00",
+  "0x3793a0607f14020f41a2cf3fb89b74af4b664900": "2026-11-05T12:20:31+00:00",
+  "0x0e6c78fce2ef4a7f2c87c5d2472adda2cb34115c": "2026-11-05T12:20:31+00:00",
+  "0xab60d06e9fe6cc3261678897a4ade872a5f7c572": "2026-11-05T12:20:31+00:00",
+  "0xf677226d19f67d6e2007c3a9f3403f431b9bafee": "2026-11-05T12:20:31+00:00",
+  "0x11a03e4b22ff2c95eda9af02a58379b72ca324cd": "2026-11-05T12:20:31+00:00",
+  "0x57bcf679981d198e42fc8a901905dd396a290a69": "2026-11-05T12:20:31+00:00",
+  "0x42fc19aafd93e0be79466c499f371a6d3a4f917d": "2026-11-05T12:20:31+00:00",
+  "0x67f64acf73c6d8d316078061ee24e4c9c09a9ad8": "2026-11-05T12:20:31+00:00",
+  "0x13249c08d5a364e6630a6315366e7318ab54418c": "2026-11-05T12:20:31+00:00",
+  "0x279d1a81f4ddb1d9f4ab4301e15cd1c3c3deb706": "2026-11-05T12:20:31+00:00",
+  "0x68907b29f1fcf84f7458f3edfc87dc6ac28e8e6f": "2026-11-05T12:20:31+00:00",
+  "0xdd2d07977991d87301ec4d349b1cb3b4c6f52ee6": "2026-11-05T12:20:31+00:00",
+  "0xbcbfd89832f5e1099935e2badb186d195f838c5c": "2026-11-05T12:20:31+00:00",
+  "0x2a13008cc2f5a853f6fb21cbd90841806c64b247": "2026-11-05T12:20:31+00:00",
+  "0x7ab1f59e871052581d0e5694159a2d6ee0d02b1a": "2026-11-05T12:20:31+00:00",
+  "0x3f128f23614c5d317efec8d0c81fdb99777d37dd": "2026-11-05T12:20:31+00:00",
+  "0xe235a199b52d8df7452b371a6df775f34f85da68": "2026-11-05T12:20:31+00:00",
+  "0x20ff0bc7d4557e207a77186fef2e51f2980c8de8": "2026-11-05T12:20:31+00:00",
+  "0xc3d0bfb2bc55661063839d9e222c8a16e5834cad": "2026-11-05T12:20:31+00:00",
+  "0xf6defefc962a81e2c8ee5018f6de50eb0f51fd96": "2026-11-05T12:20:31+00:00",
+  "0x0eccf4c3174be5bee95e0d6d2f423a8609a48b0e": "2026-11-05T12:20:31+00:00",
+  "0xe9c6b4efab3b20ad382ff3ae1f39a1aae5d1b526": "2026-11-05T12:20:31+00:00",
+  "0x6b8a1267b520448f42b0206b7741f007c3df404f": "2026-11-05T12:20:31+00:00",
+  "0x82daf5dc400cf9da0177a31f7dc7e3e32032f716": "2026-11-05T12:20:31+00:00",
+  "0x32c4ef9cf988bba62832f8ceace65aa51bffe275": "2026-11-05T12:20:31+00:00",
+  "0x50f990c4534272bb453cc35859b7eda07c314d33": "2026-11-05T12:20:31+00:00",
+  "0x9fc66b31ec4b2caf9520a8a9a1dca9bc8021ec9b": "2026-11-05T12:20:31+00:00",
+  "0x47b537f7c2c2183967fe5ba883291b8ada490db6": "2026-11-05T12:20:31+00:00",
+  "0x742af99ef5e528ee85fb04ff76c44b22ef08611a": "2026-11-05T12:20:31+00:00",
+  "0xf014a3782e6979bd965376f6638d90914820ebff": "2026-11-05T12:20:31+00:00",
+  "0x96f10d7a43639b9c7e09aee5304c406670289ab4": "2026-11-05T12:20:31+00:00",
+  "0xa4ddf100e3e0d3a9dd897e89d025622b794f0c08": "2026-11-05T12:20:31+00:00",
+  "0x6b28fb65fe80a113386541134f6a22801d2e234c": "2026-11-05T12:20:31+00:00",
+  "0xac6aa69489dc51fb002a8ae4096b35cbd9f405ac": "2026-11-05T12:20:31+00:00",
+  "0xbba60ab93fc409b1a34371cbf6c3173795ed2c7e": "2026-11-05T12:20:31+00:00",
+  "0x4ec65c12f4a02cf4a4a4a9843a2e995a42215eae": "2026-11-05T12:20:31+00:00",
+  "0xbbf2c91fdcc488ba736e0c38adc82c9a92597deb": "2026-11-05T12:20:31+00:00",
+  "0xb9195597f91f179ebb05d3f1765b35c3d8491acb": "2026-11-05T12:20:31+00:00",
+  "0x1836ebd2d73f4b4b21b827d6ea01b3931b59a140": "2026-11-05T12:20:31+00:00",
+  "0x8aefd0a905f59be969e989c87e4ac817195995a7": "2026-11-05T12:20:31+00:00",
+  "0xeb2ecf641a1f04b8df37c24eabca8f5a47cfaacb": "2026-11-05T12:20:31+00:00",
+  "0x17c35105dab9936f113af60f3bf74783caf08301": "2026-11-05T12:20:31+00:00",
+  "0xe4d2422ed4d203a0f1ec2043a4db1eda426fca18": "2026-11-05T12:20:31+00:00",
+  "0xb1da35ddb716a2f66c612d15e6d3ce5b90afb447": "2026-11-05T12:20:31+00:00",
+  "0x54f79a21c71071685369013fe12d7f6cd2528b5b": "2026-11-05T12:20:31+00:00",
+  "0x1e87e82a4aa577e5449c13e9ec7ba9535016e9b4": "2026-11-05T12:20:31+00:00",
+  "0x23bd03669b1993d34dc9e5b86815340b79ae7b27": "2026-11-05T12:20:31+00:00",
+  "0x2477110a8463b7267fc93cabbd23e22092ebb1b0": "2026-11-05T12:20:31+00:00",
+  "0x3950a4cc927bf6cddfb25779a8a2aa8ac5ea5471": "2026-11-05T12:20:31+00:00",
+  "0xc72b96e0e48ecd4dc75e1e45396e26300bc39681": "2026-11-05T12:20:31+00:00",
+  "0x028ae4ab1b43c12826790c6d8d6c6ae58a9cc050": "2026-11-05T12:20:31+00:00",
+  "0x0532751220d113a814e1a31457232a17ec89ae57": "2026-11-05T12:20:31+00:00",
+  "0x61ff828a797e2e52c5c5e2872e15ee43bf7de908": "2026-11-05T12:20:31+00:00",
+  "0x71796aad4cdff942d3ee8bb1227f779255f89dbc": "2026-11-05T12:20:31+00:00",
+  "0x9d9c6684f596f66a64c030b93a886d51fd4d7931": "2026-11-05T12:20:31+00:00",
+  "0xba2fcf5b3a560854a036e29671eb3f06b30d4051": "2026-11-05T12:20:31+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -5582,10 +5634,10 @@
    "website": "https://tatter.xyz",
    "twitter": "https://x.com/tatter_xyz",
    "launched": "2026-11-05T06:08:30+00:00",
-   "mcap": 4666.505330739643,
+   "mcap": 4077.2542078241277,
    "where": "Pons launchpad (curve)",
    "first_seen": "2026-11-05T06:08:44+00:00",
-   "scored_at": "2026-11-05T06:08:44+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "tatter-xyz/manual",
@@ -5610,7 +5662,7 @@
       "\u274c No smart contracts or tests (+0)"
      ],
      "Team": [
-      "\u274c One person, new account, no outside interest: account 11 days old, 1 people, 0 stars, 0 forks (+0)"
+      "\u274c One person, new account, no outside interest: account 12 days old, 1 people, 0 stars, 0 forks (+0)"
      ],
      "Safety": [
       "\u274c No contract addresses in the README (+0)",
@@ -5646,10 +5698,10 @@
    "website": "https://www.humanprotocol.org/",
    "twitter": "https://x.com/human_protocol",
    "launched": "2026-11-05T06:13:23+00:00",
-   "mcap": 5474.8156212479425,
+   "mcap": 4175.811150657072,
    "where": "Pons launchpad (curve)",
    "first_seen": "2026-11-05T06:15:34+00:00",
-   "scored_at": "2026-11-05T06:15:34+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "humanprotocol/human-protocol-btc",
@@ -5675,7 +5727,7 @@
       "\ud83d\udfe1 Has tests (+5)"
      ],
      "Team": [
-      "\u2705 Not a brand-new one-person repo: account 2156 days old, 1 people, 0 stars, 0 forks (+10)"
+      "\u2705 Not a brand-new one-person repo: account 2157 days old, 1 people, 0 stars, 0 forks (+10)"
      ],
      "Safety": [
       "\u274c No contract addresses in the README (+0)",
@@ -9897,7 +9949,8 @@
      "pushed": "2026-11-03",
      "people": 20
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xa8f8ba78a6a8a8077e86572bfd0e95c69b20cefe": {
    "address": "0xa8f8ba78a6a8a8077e86572bfd0e95c69b20cefe",
@@ -10012,7 +10065,8 @@
      "pushed": "2026-11-04",
      "people": 1
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x96f455a90a80dcf0c2df6703ea4ba3bedf286e43": {
    "address": "0x96f455a90a80dcf0c2df6703ea4ba3bedf286e43",
@@ -10077,10 +10131,242 @@
      "pushed": "2026-10-12",
      "people": 0
     }
+   },
+   "launched_src": "pons"
+  },
+  "0xf677226d19f67d6e2007c3a9f3403f431b9bafee": {
+   "address": "0xf677226d19f67d6e2007c3a9f3403f431b9bafee",
+   "symbol": "ZEPHIU",
+   "name": "Zephium",
+   "description": "Zephium",
+   "website": "https://zephium.app",
+   "twitter": "https://x.com/cryntadev",
+   "launched": "2026-11-05T12:07:04+00:00",
+   "mcap": 3953.650794732773,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "zephium-browser/Zephium",
+    "score": 25,
+    "raw_score": 50,
+    "capped": true,
+    "not_theirs": false,
+    "flags": [
+     "Dev never mentions this token: zephium-browser's GitHub is big and older than the token (984 stars, 33 followers), but its repo, website and X never post or mention the token. Likely launched by someone else using their project \u2014 capped at 25 until the dev claims it"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Maybe earns fees (options) \u2014 guess from their text, needs a look (+10)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (zephium.app/docs), docs (zephium.app/llms-full.txt), docs (zephium.app/llms.txt), website (zephium.app), website code (zephium.app))"
+     ],
+     "Real code": [
+      "\u2705 4562 changes over 141 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 141 days old, 8 people, 984 stars, 98 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://zephium.app/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://zephium.app",
+     "https://zephium.app",
+     "https://zephium.app/llms-full.txt",
+     "https://zephium.app/llms.txt",
+     "https://zephium.app/docs"
+    ],
+    "facts": {
+     "commits": 4562,
+     "stars": 984,
+     "created": "2026-06-15",
+     "pushed": "2026-11-05",
+     "people": 8
+    }
+   }
+  },
+  "0x6b8a1267b520448f42b0206b7741f007c3df404f": {
+   "address": "0x6b8a1267b520448f42b0206b7741f007c3df404f",
+   "symbol": "HORSE",
+   "name": "Trojan horse",
+   "description": "",
+   "website": "https://ponsfamily.com/launchpad/0xc2de98928b05b43f504ce171eeed119436a81e0f",
+   "twitter": "https://x.com/terrythedevv/status/2099523423248556445",
+   "launched": "2026-09-14T15:39:52+00:00",
+   "mcap": 4272.30698436157,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pons-labs/",
+    "score": 20,
+    "capped": false,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/pons-labs has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u274c GitHub account pons-labs isn't named after the project (+0)"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u2705 GitHub account 92 days old, 35 followers (+10)"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2026-08-05",
+     "pushed": "private",
+     "commits": "private"
+    }
+   }
+  },
+  "0x82daf5dc400cf9da0177a31f7dc7e3e32032f716": {
+   "address": "0x82daf5dc400cf9da0177a31f7dc7e3e32032f716",
+   "symbol": "Nvidia",
+   "name": "Nvidia The Second",
+   "description": "-",
+   "website": "https://ponsfamily.com/launchpad/0xbf5f724dea30731933bdc5f0c1e1ace3d7a0f577",
+   "twitter": "https://x.com/RF_CRUZ/status/2098172017107181781",
+   "launched": "2026-09-10T22:15:24+00:00",
+   "mcap": 3399.2003408759997,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pons-labs/",
+    "score": 20,
+    "capped": false,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/pons-labs has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u274c GitHub account pons-labs isn't named after the project (+0)"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u2705 GitHub account 92 days old, 35 followers (+10)"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2026-08-05",
+     "pushed": "private",
+     "commits": "private"
+    }
+   }
+  },
+  "0xbba60ab93fc409b1a34371cbf6c3173795ed2c7e": {
+   "address": "0xbba60ab93fc409b1a34371cbf6c3173795ed2c7e",
+   "symbol": "PNL",
+   "name": "Rob Track Record",
+   "description": "The agent track-record token. Deployed, held and traded ONLY by Rob Ottmachin \u2014 the autonomous agent of The Selfrule Organization. Every position is public on-chain with a verifiable ledger. No promises, no team allocation, just a machine trading transparently. Not an investment.",
+   "website": "https://polyrob.dev",
+   "twitter": "https://x.com/tmachinroBot",
+   "launched": "2026-09-14T04:08:56+00:00",
+   "mcap": 30082,
+   "where": "exchange",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "theselfruleorg/polyrob",
+    "score": 65,
+    "raw_score": 65,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (launchpad, payments) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (website links no X account to check) (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (polyrob.dev/docs), docs (polyrob.dev/docs.html), docs (polyrob.dev/llms.txt), website (polyrob.dev), website code (polyrob.dev))"
+     ],
+     "Real code": [
+      "\u2705 28 changes over 123 days (+10)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 1321 days old, 1 people, 11 stars, 2 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)",
+      "\u2139\ufe0f Audit looks self-done or AI-done, not an outside firm"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 17 updates shipped so far"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://polyrob.dev",
+     "https://polyrob.dev",
+     "https://polyrob.dev/llms.txt",
+     "https://polyrob.dev/docs",
+     "https://polyrob.dev/docs.html",
+     "https://polyrob.dev/docs.html#payments",
+     "https://polyrob.dev/docs.html#security-model"
+    ],
+    "facts": {
+     "commits": 28,
+     "stars": 11,
+     "created": "2026-07-04",
+     "pushed": "2026-11-04",
+     "people": 1
+    }
    }
   }
  },
- "checked_total": 1126,
+ "checked_total": 1178,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -10955,7 +11241,53 @@
    ]
   },
   {
-   "when": "2026-11-05T12:02:48+00:00",
+   "when": "2026-11-05T12:20:31+00:00",
+   "address": "0xf677226d19f67d6e2007c3a9f3403f431b9bafee",
+   "symbol": "ZEPHIU",
+   "website": "https://zephium.app",
+   "used": "zephium-browser/Zephium",
+   "ignored": [
+    "AnayDhawan",
+    "ErnieBernie10",
+    "VyxorDev",
+    "crynta",
+    "drunkardleo-10",
+    "kd100100",
+    "mydd7",
+    "nduongg04",
+    "zephium-browser",
+    "zephium-browser/backend",
+    "zephium-browser/website"
+   ]
+  },
+  {
+   "when": "2026-11-05T12:20:31+00:00",
+   "address": "0x7ab1f59e871052581d0e5694159a2d6ee0d02b1a",
+   "symbol": "HOOD",
+   "website": "https://www.hoodiesrh.online",
+   "used": null,
+   "ignored": [
+    "component/has-cors",
+    "facebook/react-native",
+    "galkn/parseuri",
+    "galkn/querystring",
+    "socketio/base64-arraybuffer",
+    "socketio/engine.io-client",
+    "socketio/socket.io-client"
+   ]
+  },
+  {
+   "when": "2026-11-05T12:20:31+00:00",
+   "address": "0xeb2ecf641a1f04b8df37c24eabca8f5a47cfaacb",
+   "symbol": "ERRAND",
+   "website": "https://errandboard.xyz/",
+   "used": null,
+   "ignored": [
+    "ethers-io/ethers.js"
+   ]
+  },
+  {
+   "when": "2026-11-05T12:20:31+00:00",
    "address": "0x71796aAD4CdFf942D3eE8Bb1227F779255f89DbC",
    "symbol": "hXMAX",
    "website": "https://hooke.fun/",
@@ -10966,6 +11298,16 @@
   }
  ],
  "symbol_counts": {
+  "TBA": 1,
+  "DOMINOS": 1,
+  "RIDE": 1,
+  "HARBOR": 2,
+  "UMBRA": 2,
+  "UPOCH": 1,
+  "ZEPHIU": 1,
+  "CGRAD": 1,
+  "BRONKER": 1,
+  "VELTO": 1,
   "POEFE": 1,
   "EARTH": 1,
   "BELIEF": 1,
@@ -10992,8 +11334,16 @@
   "RLSTEM": 1,
   "DELTAV": 1,
   "HGROK": 1,
-  "HARBOR": 1,
   "SATICO": 1,
+  "UBIK": 1,
+  "HMM": 1,
+  "PONS": 1,
+  "WIF": 1,
+  "HARMONIC": 1,
+  "microduck": 1,
+  "DARWIN": 1,
+  "ROBINHOOD": 1,
+  "COPY": 1,
   "SOLOMD": 1,
   "GLIDER": 1,
   "PRCHAI": 1,
@@ -11020,14 +11370,9 @@
   "FLOORFUND": 1,
   "PANTS": 1,
   "OAK": 2,
-  "WIF": 1,
-  "HARMONIC": 1,
-  "PONS": 1,
-  "ROBINHOOD": 1,
   "CHARLIE": 1,
   "DELTA": 1,
   "ORBIO": 1,
-  "UBIK": 1,
   "LETSFG": 1,
   "SHIFT": 1,
   "FLINT": 1,
@@ -11083,7 +11428,6 @@
   "Stockless": 1,
   "HYPBLX": 1,
   "RBM": 1,
-  "microduck": 1,
   "dogeking": 1,
   "MOSQUE": 1,
   "APOGEE": 1,
@@ -18043,7 +18387,82 @@
      "contract_addresses": 32,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
+  },
+  "0xbedffa60ed14d85e5f55e401529b11052375db64": {
+   "address": "0xbedffa60ed14d85e5f55e401529b11052375db64",
+   "symbol": "NULTRA",
+   "name": "Nultra",
+   "description": "NULTRA is a privacy checkpoint for AI workflows built Robinhood Chain.\\nSpot and redact sensitive data in your browser. Add advisory checks to agent pipelines with an API. Your data deserves a checkpoint before the next prompt.",
+   "website": "https://nultra.xyz",
+   "twitter": "https://x.com/nultra_ai",
+   "site_via_x": null,
+   "launched": "2026-11-04T03:14:22+00:00",
+   "mcap": 4186.176623236898,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T11:45:25+00:00",
+   "scored_at": "2026-11-05T11:45:25+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /developers, /docs (+5)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (buyback) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 1,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://nultra.xyz",
+     "https://nultra.xyz",
+     "https://nultra.xyz/llms-full.txt",
+     "https://nultra.xyz/llms.txt",
+     "https://nultra.xyz/docs",
+     "https://nultra.xyz/token",
+     "https://robinhoodchain.blockscout.com/token/0xbeDFFa60ed14d85E5F55e401529b11052375db64",
+     "https://nultra.xyz/pricing",
+     "https://nultra.xyz/developers",
+     "https://nultra.xyz/docs"
+    ],
+    "facts": {
+     "tools": 1,
+     "dev_pages": [
+      "https://nultra.xyz/developers",
+      "https://nultra.xyz/docs"
+     ],
+     "contract_addresses": 1,
+     "winners_linked": []
+    }
+   },
+   "launched_src": "pons"
   },
   "0xc839a88a05b231515a82c71ee97b4f18973c1340": {
    "address": "0xc839a88a05b231515a82c71ee97b4f18973c1340",
@@ -18113,7 +18532,8 @@
      "contract_addresses": 0,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x71dff63057274f5d20330c5f18b5922b97660f9c": {
    "address": "0x71dff63057274f5d20330c5f18b5922b97660f9c",
@@ -18176,7 +18596,8 @@
      "contract_addresses": 2,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xab35d04e1ee39c789c4a65d522417b3c7f2e4723": {
    "address": "0xab35d04e1ee39c789c4a65d522417b3c7f2e4723",
@@ -18248,6 +18669,550 @@
      "winners_linked": [
       "Orbio"
      ]
+    }
+   },
+   "launched_src": "pons"
+  },
+  "0x11a03e4b22ff2c95eda9af02a58379b72ca324cd": {
+   "address": "0x11a03e4b22ff2c95eda9af02a58379b72ca324cd",
+   "symbol": "CGRAD",
+   "name": "CloudGrad",
+   "description": "Close your laptop. Claude Code, Codex and Gemini keep working on your own computer in the cloud, around the clock.",
+   "website": "https://cloudgrad.org",
+   "twitter": "https://x.com/cloudgrad",
+   "site_via_x": null,
+   "launched": "2026-11-05T12:05:26+00:00",
+   "mcap": 3933.4305662220436,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u2705 Lists 2 contract addresses (+5)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)",
+      "\u2705 Takes real payments (\u201ctop-up\u201d): a service with paying customers (+5)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://cloudgrad.org",
+     "https://cloudgrad.org",
+     "https://cloudgrad.org/docs",
+     "https://cloudgrad.org/docs/billing",
+     "https://cloudgrad.org/docs/agents",
+     "https://cloudgrad.org/docs"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [
+      "https://cloudgrad.org/docs"
+     ],
+     "contract_addresses": 2,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x67f64acf73c6d8d316078061ee24e4c9c09a9ad8": {
+   "address": "0x67f64acf73c6d8d316078061ee24e4c9c09a9ad8",
+   "symbol": "VELTO",
+   "name": "Velto Realtime Fraud Protection Crypto",
+   "description": "Velocity with a shield. Non-custodial crypto app: fraud screening before you sign, trading on 63 chains & L2s. $VELTO",
+   "website": "https://veltorh.trade",
+   "twitter": "https://x.com/Velto_rh",
+   "site_via_x": null,
+   "launched": "2026-11-05T12:04:06+00:00",
+   "mcap": 6177.80215948327,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 30,
+    "raw_score": 30,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u274c No use of stock tokens or USDG (+0)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\ud83d\udfe1 Mentions an audit \u2014 not checked (+5)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://veltorh.trade",
+     "https://veltorh.trade"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x2a13008cc2f5a853f6fb21cbd90841806c64b247": {
+   "address": "0x2a13008cc2f5a853f6fb21cbd90841806c64b247",
+   "symbol": "TROLL",
+   "name": "Troll in Hood",
+   "description": "",
+   "website": "https://trollinhood.world/",
+   "twitter": "https://x.com/realtrollinhood?s=11&t=2xH2uG6mn9KNQT92T6_skg",
+   "site_via_x": null,
+   "launched": "2026-09-28T06:19:52+00:00",
+   "mcap": 783791,
+   "where": "exchange",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Links to developer docs (+5)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u2705 Lists 24 contract addresses (+5)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (buyback) \u2014 claimed, not checked on chain (+10)",
+      "\u274c No use of stock tokens or USDG (+0)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\u274c No audit mentioned (+0)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://trollinhood.world/",
+     "https://trollinhood.world/",
+     "https://trollinhood.world/llms-full.txt",
+     "https://trollinhood.world/llms.txt",
+     "https://trollinhood.world/docs",
+     "https://dex.coinmarketcap.com/token/robinhood/0x2a13008cc2f5a853f6fb21cbd90841806c64b247/",
+     "https://robinhoodchain.blockscout.com/token/0x2a13008CC2F5A853F6Fb21cbD90841806C64b247",
+     "https://robinhoodchain.blockscout.com/token/0x58daec3116aae6d93017baaea7749052e8a04fa7/instance/3372257",
+     "https://phantom.com/tokens/robinhood/0x2a13008CC2F5A853F6Fb21cbD90841806C64b247"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [],
+     "contract_addresses": 24,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x47b537f7c2c2183967fe5ba883291b8ada490db6": {
+   "address": "0x47b537f7c2c2183967fe5ba883291b8ada490db6",
+   "symbol": "OFFROUTER",
+   "name": "OffRouter",
+   "description": "Private inference router for onchain agents. Models run in secure enclaves, every response is signed.",
+   "website": "http://offrouter.org",
+   "twitter": "https://x.com/OffRouter",
+   "site_via_x": "OffRouter",
+   "launched": "2026-10-05T16:17:13+00:00",
+   "mcap": 30805,
+   "where": "exchange",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 90,
+    "raw_score": 90,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\u2139\ufe0f Pons lists no website: found http://offrouter.org on their X @OffRouter, which posts the token's address",
+      "\u2705 Token's address is posted by their official X @OffRouter (+15)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (staking) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\ud83d\udfe1 Mentions an audit \u2014 not checked (+5)",
+      "\u2705 Takes real payments (\u201ctopup\u201d): a service with paying customers (+5)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 3,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "http://offrouter.org",
+     "http://offrouter.org",
+     "http://offrouter.org/docs",
+     "http://offrouter.org/docs#x402",
+     "http://offrouter.org/docs"
+    ],
+    "facts": {
+     "tools": 3,
+     "dev_pages": [
+      "http://offrouter.org/docs"
+     ],
+     "contract_addresses": 1,
+     "winners_linked": []
+    }
+   }
+  },
+  "0xa4ddf100e3e0d3a9dd897e89d025622b794f0c08": {
+   "address": "0xa4ddf100e3e0d3a9dd897e89d025622b794f0c08",
+   "symbol": "RAIL",
+   "name": "OmniRail",
+   "description": "The first crypto-native, multimodal unified API for agents. Give your agent every text, image, video model, in one MCP command. \\n$RAIL cuts every model's price.",
+   "website": "https://omnirail.org/",
+   "twitter": "https://x.com/omnirailorg",
+   "site_via_x": "omnirailorg",
+   "launched": "2026-09-30T16:17:00+00:00",
+   "mcap": 27508,
+   "where": "exchange",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 90,
+    "raw_score": 90,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Developer page: /docs, /build (+5)"
+     ],
+     "Really theirs": [
+      "\u2139\ufe0f Pons lists no website: found https://omnirail.org/ on their X @omnirailorg, which posts the token's address",
+      "\u2705 Token's address is posted by their website or docs and official X @omnirailorg (+15)",
+      "\u2705 Lists 2 contract addresses (+5)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)",
+      "\u2705 Takes real payments (\u201ctop up\u201d): a service with paying customers (+5)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 4,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://omnirail.org/",
+     "https://omnirail.org/",
+     "https://omnirail.org/llms-full.txt",
+     "https://omnirail.org/llms.txt",
+     "https://omnirail.org/docs",
+     "https://omnirail.org/docs#autopilot",
+     "https://omnirail.org/docs#images",
+     "https://omnirail.org/docs#grounding",
+     "https://omnirail.org/docs",
+     "https://omnirail.org/build"
+    ],
+    "facts": {
+     "tools": 4,
+     "dev_pages": [
+      "https://omnirail.org/docs",
+      "https://omnirail.org/build"
+     ],
+     "contract_addresses": 2,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x4ec65c12f4a02cf4a4a4a9843a2e995a42215eae": {
+   "address": "0x4ec65c12f4a02cf4a4a4a9843a2e995a42215eae",
+   "symbol": "AIMCAP",
+   "name": "ERC8004 Markets",
+   "description": "Back the AI agents that pay.",
+   "website": "https://www.erc8004.markets",
+   "twitter": "https://x.com/ERC8004Markets",
+   "site_via_x": null,
+   "launched": "2026-10-29T14:28:56+00:00",
+   "mcap": 29233,
+   "where": "exchange",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /developers, /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burns) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard, console or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\ud83d\udfe1 Mentions an audit \u2014 not checked (+5)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://www.erc8004.markets",
+     "https://www.erc8004.markets",
+     "https://www.erc8004.markets/docs",
+     "https://www.erc8004.markets/developers",
+     "https://www.erc8004.markets/docs"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [
+      "https://www.erc8004.markets/developers",
+      "https://www.erc8004.markets/docs"
+     ],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
+  },
+  "0xb9195597f91f179ebb05d3f1765b35c3d8491acb": {
+   "address": "0xb9195597f91f179ebb05d3f1765b35c3d8491acb",
+   "symbol": "CREATIONS",
+   "name": "Indie Creations",
+   "description": "An indie game company that\u2019s been tokenized. Holding 5M tokens or more grants you access to play testing, access to full game launches, and more.",
+   "website": "http://indiecreations.fun",
+   "twitter": "https://x.com/indiecreations_",
+   "site_via_x": "IndieCreations_",
+   "launched": "2026-09-19T01:39:23+00:00",
+   "mcap": 29403,
+   "where": "exchange",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 40,
+    "raw_score": 40,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\u2139\ufe0f Pons lists no website: found http://indiecreations.fun on their X @IndieCreations_, which posts the token's address",
+      "\u2705 Token's address is posted by their website or docs and official X @IndieCreations_ (+15)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (stake) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Trades against USDG, Robinhood Chain's own dollar (+10)"
+     ],
+     "Live product": [
+      "\u274c No app or wallet connect found (+0)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 0,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "http://indiecreations.fun",
+     "http://indiecreations.fun",
+     "http://indiecreations.fun/token",
+     "https://robinhoodchain.blockscout.com/token/0xB9195597f91f179EBB05D3F1765B35C3d8491aCb"
+    ],
+    "facts": {
+     "tools": 0,
+     "dev_pages": [],
+     "contract_addresses": 1,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x1836ebd2d73f4b4b21b827d6ea01b3931b59a140": {
+   "address": "0x1836ebd2d73f4b4b21b827d6ea01b3931b59a140",
+   "symbol": "BUNZ",
+   "name": "BUNZ",
+   "description": "$$BUNZ paired with lululemon. Tokenized stock meets GTA.",
+   "website": "http://BUNZonHOOD.com",
+   "twitter": "https://x.com/Bunzonhood",
+   "site_via_x": "BUNZonHOOD",
+   "launched": "2026-09-21T01:57:33+00:00",
+   "mcap": 29134,
+   "where": "exchange",
+   "first_seen": "2026-11-05T12:20:31+00:00",
+   "scored_at": "2026-11-05T12:20:31+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 40,
+    "raw_score": 40,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\u2139\ufe0f Pons lists no website: found http://BUNZonHOOD.com on their X @BUNZonHOOD, which posts the token's address",
+      "\u2705 Token's address is posted by their website or docs and official X @BUNZonHOOD (+15)",
+      "\u2705 Lists 2 contract addresses (+5)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burns) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (Tokenized Stock) (+10)"
+     ],
+     "Live product": [
+      "\u274c No app or wallet connect found (+0)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\u274c No audit mentioned (+0)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 0,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "http://BUNZonHOOD.com",
+     "http://BUNZonHOOD.com",
+     "http://BUNZonHOOD.com/llms-full.txt",
+     "http://BUNZonHOOD.com/llms.txt",
+     "http://BUNZonHOOD.com/docs"
+    ],
+    "facts": {
+     "tools": 0,
+     "dev_pages": [],
+     "contract_addresses": 2,
+     "winners_linked": []
     }
    }
   },
@@ -18333,7 +19298,7 @@
   "0xc31470ee219a22ae5a722f265e778631e38a79d1": "2026-11-05T05:17:44+00:00",
   "0xa797fb1edbd0a10036c657ce75eaa43710e61b1b": "2026-11-05T05:17:44+00:00",
   "0xc9695a82f2e05071f179ee292721bbe891adfff7": "2026-11-05T05:17:44+00:00",
-  "0x19e813946c708b91fa2d792e222ed9c604cdda9d": "2026-11-05T12:02:48+00:00",
+  "0x19e813946c708b91fa2d792e222ed9c604cdda9d": "2026-11-05T12:20:31+00:00",
   "0x3ac781cf12dea896f5f3a4a4605afe95d68320c9": "2026-11-05T05:17:44+00:00",
   "0x2cc592e09099c5f006e84d3545c2a130f1193990": "2026-11-05T05:17:44+00:00",
   "0xe2141cc928b5fbf82f8ebb4307733e05928bd046": "2026-11-05T05:17:44+00:00",
@@ -18700,39 +19665,79 @@
   "0x623ede6b702721e2014d9a420c759abfe0f1e3f3": "2026-11-05T11:35:02+00:00",
   "0x4c24e2bd3ad36af26b805bfbe629ea614323e0a0": "2026-11-05T11:35:02+00:00",
   "0x32ac8c1d7672667d5ebdea22935f7b06fc8d496f": "2026-11-05T11:35:02+00:00",
-  "0x13249c08d5a364e6630a6315366e7318ab54418c": "2026-11-05T12:02:48+00:00",
-  "0x68907b29f1fcf84f7458f3edfc87dc6ac28e8e6f": "2026-11-05T12:02:48+00:00",
-  "0xdd2d07977991d87301ec4d349b1cb3b4c6f52ee6": "2026-11-05T12:02:48+00:00",
-  "0xbcbfd89832f5e1099935e2badb186d195f838c5c": "2026-11-05T12:02:48+00:00",
-  "0xb3f31aafc76d10f88870b3ca8b05db0f07789fc8": "2026-11-05T12:02:48+00:00",
-  "0x0995122a724795035001689625c6693b778931d4": "2026-11-05T12:02:48+00:00",
-  "0x5ed39f421a62175fa6b25f73f27a112d74b81f8b": "2026-11-05T12:02:48+00:00",
-  "0x80c46e6d3d0afdaca1e32dcbc25a4e14427f3a7f": "2026-11-05T12:02:48+00:00",
-  "0x8b775c84db4487b9a75f162a12946d65d10951c2": "2026-11-05T12:02:48+00:00",
-  "0xbabb90b909cabb0885b3f3024e443b114a8c6b3b": "2026-11-05T12:02:48+00:00",
-  "0x8e2fe075ddbc7431b66954bd320577d438fccbc4": "2026-11-05T12:02:48+00:00",
-  "0x95943745ac9ba4cb583685cbaef5d36681ddb5b0": "2026-11-05T12:02:48+00:00",
-  "0x3f5b930663bb5d9b9afa51e32f976e384194142d": "2026-11-05T12:02:48+00:00",
-  "0x93e7a34db439a3371d4149eb9e6794343312d4f2": "2026-11-05T12:02:48+00:00",
-  "0xe2dae1c072b9f66bed999873b94798b2152af7e1": "2026-11-05T12:02:48+00:00",
-  "0xfe936755185353b63a81dd72b47533eb6021018e": "2026-11-05T12:02:48+00:00",
-  "0x7733cda0c1a81f9aad669c7317b3a3c5ea6b4936": "2026-11-05T12:02:48+00:00",
-  "0xa905d663a8ceb43bf9fb1b866bba7604a0b4791c": "2026-11-05T12:02:48+00:00",
-  "0x88888cc1c17ffcba563f418c61596b3fa2ca2e2c": "2026-11-05T12:02:48+00:00",
-  "0xc839a88a05b231515a82c71ee97b4f18973c1340": "2026-11-05T12:02:48+00:00",
-  "0x9411673acad2ff68810713cbc04e029c8d636fe6": "2026-11-05T12:02:48+00:00",
-  "0x5b32971ee68b1ed6d11476760106f29d81f77f6e": "2026-11-05T12:02:48+00:00",
-  "0x302dacc52492095fb054937112a5aac4617ecfb3": "2026-11-05T12:02:48+00:00",
-  "0x71dff63057274f5d20330c5f18b5922b97660f9c": "2026-11-05T12:02:48+00:00",
-  "0xd7904825db3be8264e7b3e44c20998eac323b57c": "2026-11-05T12:02:48+00:00",
-  "0x0d099caf7e87626c8327f01471a142d244900f7f": "2026-11-05T12:02:48+00:00",
-  "0xab35d04e1ee39c789c4a65d522417b3c7f2e4723": "2026-11-05T12:02:48+00:00",
-  "0x9ecb1cb29353de3e28cdc26650e2bb6e5574816f": "2026-11-05T12:02:48+00:00",
-  "0x5827f75353410f20f5ba8c1bb49407eecdf42352": "2026-11-05T12:02:48+00:00",
-  "0x71796aad4cdff942d3ee8bb1227f779255f89dbc": "2026-11-05T12:02:48+00:00"
+  "0xb3f31aafc76d10f88870b3ca8b05db0f07789fc8": "2026-11-05T11:45:25+00:00",
+  "0x0995122a724795035001689625c6693b778931d4": "2026-11-05T11:45:25+00:00",
+  "0x5ed39f421a62175fa6b25f73f27a112d74b81f8b": "2026-11-05T11:45:25+00:00",
+  "0x80c46e6d3d0afdaca1e32dcbc25a4e14427f3a7f": "2026-11-05T11:45:25+00:00",
+  "0x8b775c84db4487b9a75f162a12946d65d10951c2": "2026-11-05T11:45:25+00:00",
+  "0xbabb90b909cabb0885b3f3024e443b114a8c6b3b": "2026-11-05T11:45:25+00:00",
+  "0x2b004e8892c30e596a2a2e15428418ae0d5131e8": "2026-11-05T11:45:25+00:00",
+  "0xbedffa60ed14d85e5f55e401529b11052375db64": "2026-11-05T11:45:25+00:00",
+  "0x820f678888b77973b9b6aea9ad0834ff5d7deb43": "2026-11-05T11:45:25+00:00",
+  "0x7b778747b218c87184643add220db3e5fc0ba946": "2026-11-05T11:45:25+00:00",
+  "0x22ba569012a11cfff97a4eae794a1c02ffe3cd3b": "2026-11-05T11:45:25+00:00",
+  "0xd039a0c5ab6cf66ca4e8983cba441398baa3833d": "2026-11-05T11:45:25+00:00",
+  "0xcfb083ac0fe280ff0a4f0a4e8b6bb8adbe436276": "2026-11-05T11:45:25+00:00",
+  "0x93e7a34db439a3371d4149eb9e6794343312d4f2": "2026-11-05T11:45:25+00:00",
+  "0xe2dae1c072b9f66bed999873b94798b2152af7e1": "2026-11-05T11:45:25+00:00",
+  "0xfe936755185353b63a81dd72b47533eb6021018e": "2026-11-05T11:45:25+00:00",
+  "0x7733cda0c1a81f9aad669c7317b3a3c5ea6b4936": "2026-11-05T11:45:25+00:00",
+  "0xa905d663a8ceb43bf9fb1b866bba7604a0b4791c": "2026-11-05T11:45:25+00:00",
+  "0x88888cc1c17ffcba563f418c61596b3fa2ca2e2c": "2026-11-05T11:45:25+00:00",
+  "0xc839a88a05b231515a82c71ee97b4f18973c1340": "2026-11-05T11:45:25+00:00",
+  "0x9411673acad2ff68810713cbc04e029c8d636fe6": "2026-11-05T11:45:25+00:00",
+  "0x5b32971ee68b1ed6d11476760106f29d81f77f6e": "2026-11-05T11:45:25+00:00",
+  "0x302dacc52492095fb054937112a5aac4617ecfb3": "2026-11-05T11:45:25+00:00",
+  "0x71dff63057274f5d20330c5f18b5922b97660f9c": "2026-11-05T11:45:25+00:00",
+  "0xd7904825db3be8264e7b3e44c20998eac323b57c": "2026-11-05T11:45:25+00:00",
+  "0x0d099caf7e87626c8327f01471a142d244900f7f": "2026-11-05T11:45:25+00:00",
+  "0xab35d04e1ee39c789c4a65d522417b3c7f2e4723": "2026-11-05T11:45:25+00:00",
+  "0x9ecb1cb29353de3e28cdc26650e2bb6e5574816f": "2026-11-05T11:45:25+00:00",
+  "0x5827f75353410f20f5ba8c1bb49407eecdf42352": "2026-11-05T11:45:25+00:00",
+  "0x515c0ce4cca7737c29d9fe6233e30b10826fd96e": "2026-11-05T12:20:31+00:00",
+  "0xcaab657d6fd5b91755d0de837bd3e449ac9c302f": "2026-11-05T12:20:31+00:00",
+  "0x3793a0607f14020f41a2cf3fb89b74af4b664900": "2026-11-05T12:20:31+00:00",
+  "0x0e6c78fce2ef4a7f2c87c5d2472adda2cb34115c": "2026-11-05T12:20:31+00:00",
+  "0x11a03e4b22ff2c95eda9af02a58379b72ca324cd": "2026-11-05T12:20:31+00:00",
+  "0x57bcf679981d198e42fc8a901905dd396a290a69": "2026-11-05T12:20:31+00:00",
+  "0x42fc19aafd93e0be79466c499f371a6d3a4f917d": "2026-11-05T12:20:31+00:00",
+  "0x67f64acf73c6d8d316078061ee24e4c9c09a9ad8": "2026-11-05T12:20:31+00:00",
+  "0x13249c08d5a364e6630a6315366e7318ab54418c": "2026-11-05T12:20:31+00:00",
+  "0x68907b29f1fcf84f7458f3edfc87dc6ac28e8e6f": "2026-11-05T12:20:31+00:00",
+  "0xdd2d07977991d87301ec4d349b1cb3b4c6f52ee6": "2026-11-05T12:20:31+00:00",
+  "0xbcbfd89832f5e1099935e2badb186d195f838c5c": "2026-11-05T12:20:31+00:00",
+  "0x2a13008cc2f5a853f6fb21cbd90841806c64b247": "2026-11-05T12:20:31+00:00",
+  "0x7ab1f59e871052581d0e5694159a2d6ee0d02b1a": "2026-11-05T12:20:31+00:00",
+  "0x3f128f23614c5d317efec8d0c81fdb99777d37dd": "2026-11-05T12:20:31+00:00",
+  "0xe235a199b52d8df7452b371a6df775f34f85da68": "2026-11-05T12:20:31+00:00",
+  "0x20ff0bc7d4557e207a77186fef2e51f2980c8de8": "2026-11-05T12:20:31+00:00",
+  "0xc3d0bfb2bc55661063839d9e222c8a16e5834cad": "2026-11-05T12:20:31+00:00",
+  "0xf6defefc962a81e2c8ee5018f6de50eb0f51fd96": "2026-11-05T12:20:31+00:00",
+  "0xf451df4451d472fdf25c274a37ae9739ff702071": "2026-11-05T12:20:31+00:00",
+  "0x0eccf4c3174be5bee95e0d6d2f423a8609a48b0e": "2026-11-05T12:20:31+00:00",
+  "0xe9c6b4efab3b20ad382ff3ae1f39a1aae5d1b526": "2026-11-05T12:20:31+00:00",
+  "0x32c4ef9cf988bba62832f8ceace65aa51bffe275": "2026-11-05T12:20:31+00:00",
+  "0x50f990c4534272bb453cc35859b7eda07c314d33": "2026-11-05T12:20:31+00:00",
+  "0x9fc66b31ec4b2caf9520a8a9a1dca9bc8021ec9b": "2026-11-05T12:20:31+00:00",
+  "0x47b537f7c2c2183967fe5ba883291b8ada490db6": "2026-11-05T12:20:31+00:00",
+  "0x742af99ef5e528ee85fb04ff76c44b22ef08611a": "2026-11-05T12:20:31+00:00",
+  "0xf014a3782e6979bd965376f6638d90914820ebff": "2026-11-05T12:20:31+00:00",
+  "0xa4ddf100e3e0d3a9dd897e89d025622b794f0c08": "2026-11-05T12:20:31+00:00",
+  "0x6b28fb65fe80a113386541134f6a22801d2e234c": "2026-11-05T12:20:31+00:00",
+  "0xac6aa69489dc51fb002a8ae4096b35cbd9f405ac": "2026-11-05T12:20:31+00:00",
+  "0x4ec65c12f4a02cf4a4a4a9843a2e995a42215eae": "2026-11-05T12:20:31+00:00",
+  "0xb9195597f91f179ebb05d3f1765b35c3d8491acb": "2026-11-05T12:20:31+00:00",
+  "0x1836ebd2d73f4b4b21b827d6ea01b3931b59a140": "2026-11-05T12:20:31+00:00",
+  "0x8aefd0a905f59be969e989c87e4ac817195995a7": "2026-11-05T12:20:31+00:00",
+  "0xeb2ecf641a1f04b8df37c24eabca8f5a47cfaacb": "2026-11-05T12:20:31+00:00",
+  "0x17c35105dab9936f113af60f3bf74783caf08301": "2026-11-05T12:20:31+00:00",
+  "0xe4d2422ed4d203a0f1ec2043a4db1eda426fca18": "2026-11-05T12:20:31+00:00",
+  "0x54f79a21c71071685369013fe12d7f6cd2528b5b": "2026-11-05T12:20:31+00:00",
+  "0x1e87e82a4aa577e5449c13e9ec7ba9535016e9b4": "2026-11-05T12:20:31+00:00"
  },
  "catchup_plain": [
-  "0x0cc8522ca4f423638032d0211a6e823392a1eae1",
-  "0x72b22451c5698a54de5d00a946d75f25a48f4fd9"
+  "0x96f10d7a43639b9c7e09aee5304c406670289ab4",
+  "0xb1da35ddb716a2f66c612d15e6d3ce5b90afb447",
+  "0xbbf2c91fdcc488ba736e0c38adc82c9a92597deb"
  ]
 }
