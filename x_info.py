@@ -202,13 +202,14 @@ def facts(r, rows, db, now):
     accts = db.get("accounts", {})
     a = accts.get(h.lower())
     done = set()
+    same, near = [], []  # one warning each, with counts (user, 5 Nov: NYMRA showed 16 identical lines)
     for o in rows:
         oh, _ = parse(o.get("twitter"))
         if not oh or o["address"].lower() == r["address"].lower() or not o.get("symbol") or (oh.lower(), o["address"]) in done:
             continue
         done.add((oh.lower(), o["address"]))
         if oh.lower() == h.lower():
-            warn.append(f"Same X account as another token on this list ({o['symbol']})")
+            same.append(o["symbol"])
         elif norm(oh) == norm(h):
             oa = accts.get(oh.lower()) or {}
             older = a and oa.get("joined") and a.get("joined") and oa["joined"] < a["joined"]
@@ -220,7 +221,17 @@ def facts(r, rows, db, now):
                 for p in oa.get("fake_posts") or []:
                     warn.append(f"@{oh} warns about fakes: “{p}”")
             else:
-                warn.append(f"Near-identical X name to another token ({o['symbol']}: @{oh}), possible copycat")
+                near.append(f"{o['symbol']}: @{oh}")
+
+    def counted(xs):
+        c = {}
+        for x in xs:
+            c[x] = c.get(x, 0) + 1
+        return ", ".join(f"{k} ×{n}" if n > 1 else k for k, n in c.items())
+    if same:
+        warn.append(f"Same X account as {len(same)} other token{'s' if len(same) > 1 else ''} on this list ({counted(same)})")
+    if near:
+        warn.append(f"Near-identical X name to {len(near)} other token{'s' if len(near) > 1 else ''} ({counted(near)}), possible copycat")
     if not a:
         return "<p class='xline'>𝕏 Not checked yet.</p>", warn
     if not a["found"]:
