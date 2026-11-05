@@ -1446,6 +1446,38 @@
    "cas": [],
    "fake_posts": [],
    "checked": "2026-11-05T05:15:23+00:00"
+  },
+  "vesperailab": {
+   "handle": "VesperaiLAb",
+   "found": true,
+   "id": "2118196973387796480",
+   "name": "VesperaiLAb",
+   "joined": "2026-11-05T04:22:37+00:00",
+   "followers": 1,
+   "following": 1,
+   "posts": 13,
+   "verified": null,
+   "last_post": "2026-11-05T04:53:56+00:00",
+   "sample": 12,
+   "sample_full_week": false,
+   "posts_7d": 12,
+   "avg_likes": 0.1,
+   "avg_views": 4,
+   "bio_site": "https://vesperai.fun/",
+   "bio": "A self-hosted Mining AI agent that runs on your computer or server, asks before it acts, and keeps working while you sleep. Open source.",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T05:17:44+00:00"
+  },
+  "darklabchat": {
+   "handle": "Darklabchat",
+   "found": false,
+   "checked": "2026-11-05T05:17:44+00:00"
+  },
+  "motiongift": {
+   "handle": "motiongift",
+   "found": false,
+   "checked": "2026-11-05T05:17:44+00:00"
   }
  },
  "ids": {
@@ -1637,6 +1669,9 @@
   ],
   "1886355883929866241": [
    "skyflo_ai"
+  ],
+  "2118196973387796480": [
+   "VesperaiLAb"
   ]
  },
  "past": {
@@ -1704,7 +1739,10 @@
   "trycaliber": [],
   "aporixa_": [],
   "newsbeat_": [],
-  "skyflo_ai": []
+  "skyflo_ai": [],
+  "vesperailab": [],
+  "darklabchat": [],
+  "motiongift": []
  },
  "history": {
   "barragetrade": {
@@ -2225,6 +2263,12 @@
    "2026-11-05": [
     55,
     43
+   ]
+  },
+  "vesperailab": {
+   "2026-11-05": [
+    1,
+    13
    ]
   }
  },

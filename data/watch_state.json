@@ -603,7 +603,8 @@
   "0xbfcd3707d488d720821d17cf3b543a78cb7f1dc0": "2026-11-05T05:15:23+00:00",
   "0x27c685b88d318fd2cbb2f36c40462a21b29fbe56": "2026-11-05T05:15:23+00:00",
   "0x1e8740066fd1a615c2019a71b4ce2fcb5ca4e3e4": "2026-11-05T05:15:23+00:00",
-  "0xc31470ee219a22ae5a722f265e778631e38a79d1": "2026-11-05T05:15:23+00:00"
+  "0xc31470ee219a22ae5a722f265e778631e38a79d1": "2026-11-05T05:15:23+00:00",
+  "0xf0c81ed967babb33e4b16329b9ed744d5271ee78": "2026-11-05T05:17:44+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -4734,7 +4735,7 @@
    }
   }
  },
- "checked_total": 593,
+ "checked_total": 594,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -5166,6 +5167,7 @@
   }
  ],
  "symbol_counts": {
+  "WAKA": 1,
   "SWEEPER": 1,
   "MICROSOFT": 1,
   "SKYFLO": 1,
@@ -5199,14 +5201,14 @@
   "XENTH": 1,
   "OAK": 1,
   "PONS": 1,
-  "HARMONIC": 1,
-  "WIF": 1,
   "UBIK": 1,
+  "WIF": 1,
+  "HARMONIC": 1,
   "CHARLIE": 1,
   "ROBINCAT": 1,
+  "MOTION": 1,
   "ORBIO": 1,
   "ROBINHOOD": 1,
-  "MOTION": 1,
   "ASTER": 2,
   "VOTC": 1,
   "PERPSONS": 1,
@@ -5738,5 +5740,317 @@
     "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo"
    ]
   ]
+ },
+ "sites": {
+  "0x19e813946c708b91fa2d792e222ed9c604cdda9d": {
+   "address": "0x19e813946c708b91fa2d792e222ed9c604cdda9d",
+   "symbol": "VESPERAI",
+   "name": "vesperai",
+   "description": "A self-hosted Mining AI agent that runs on your computer or server, asks before it acts, and keeps working while you sleep. Open source.",
+   "website": "https://vesperai.fun",
+   "twitter": "https://x.com/VesperaiLAb",
+   "launched": "2026-11-05T04:47:14+00:00",
+   "mcap": 4224.647214527684,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T05:17:44+00:00",
+   "scored_at": "2026-11-05T05:17:44+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 35,
+    "raw_score": 35,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token (+0)",
+      "\u274c No use of stock tokens or USDG (+0)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://vesperai.fun",
+     "https://vesperai.fun",
+     "https://vesperai.fun/llms-full.txt",
+     "https://vesperai.fun/llms.txt",
+     "https://vesperai.fun/docs",
+     "https://vesperai.fun/docs"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [
+      "https://vesperai.fun/docs"
+     ],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
+  },
+  "0xe27dbe394debd0eed3e71ff9cf1cbd232f108882": {
+   "address": "0xe27dbe394debd0eed3e71ff9cf1cbd232f108882",
+   "symbol": "DRKLAB",
+   "name": "DarkLab",
+   "description": "DarkLab is a private AI studio with ten open models from six makers. Chats, images, music and voice run in sealed hardware, and an API is open",
+   "website": "https://darklab.chat",
+   "twitter": "https://x.com/Darklabchat",
+   "launched": "2026-11-05T04:20:15+00:00",
+   "mcap": 4006.8987959785363,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T05:17:44+00:00",
+   "scored_at": "2026-11-05T05:17:44+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 35,
+    "raw_score": 35,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Links to developer docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token (+0)",
+      "\u274c No use of stock tokens or USDG (+0)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://darklab.chat",
+     "https://darklab.chat",
+     "https://darklab.chat/llms-full.txt",
+     "https://darklab.chat/llms.txt",
+     "https://docs.darklab.chat/llms-full.txt",
+     "https://docs.darklab.chat/llms.txt",
+     "https://darklab.chat/docs",
+     "https://app.darklab.chat/docs",
+     "https://app.darklab.chat/docs#attestation",
+     "https://app.darklab.chat/docs#api"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x061732dc141e0a2d37f5fa91cf5343f24064e60f": {
+   "address": "0x061732dc141e0a2d37f5fa91cf5343f24064e60f",
+   "symbol": "MOTION",
+   "name": "motion",
+   "description": "trading terminal for robinhood chain with 0% fees",
+   "website": "https://motion.gift",
+   "twitter": "https://x.com/motiongift",
+   "launched": "2026-10-11T18:42:52+00:00",
+   "mcap": 896850,
+   "where": "exchange",
+   "first_seen": "2026-11-05T05:17:44+00:00",
+   "scored_at": "2026-11-05T05:17:44+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 60,
+    "raw_score": 65,
+    "capped": true,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /developers (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u2705 Lists 14 contract addresses (+5)",
+      "\u2705 Works with past winners: Raeto (+5)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (holders with share) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard or wallet connect) (+5)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\ud83d\udfe1 Mentions an audit \u2014 not checked (+5)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://motion.gift",
+     "https://motion.gift",
+     "https://motion.gift/docs",
+     "https://motion.gift/developers"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [
+      "https://motion.gift/developers"
+     ],
+     "contract_addresses": 14,
+     "winners_linked": [
+      "Raeto"
+     ]
+    }
+   }
+  },
+  "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3": {
+   "address": "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3",
+   "symbol": "ORBIO",
+   "name": "Orbio.so",
+   "description": "Hold $ORBIO, earn OpenRouter credits. Half of trading fees are converted into inference credits and paid to holders, in dollars.",
+   "website": "https://orbio.so",
+   "twitter": "https://x.com/orbiodotso",
+   "launched": "2026-09-20T07:06:54+00:00",
+   "mcap": 30437459,
+   "where": "exchange",
+   "first_seen": "2026-11-05T05:17:44+00:00",
+   "scored_at": "2026-11-05T05:17:44+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 60,
+    "raw_score": 80,
+    "capped": true,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Developer page: /developers, /docs, /build (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u2705 Lists 4 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burns) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 4,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://orbio.so",
+     "https://orbio.so",
+     "https://orbio.so/llms-full.txt",
+     "https://orbio.so/llms.txt",
+     "https://orbio.so/docs",
+     "https://orbio.so/developers",
+     "https://orbio.so/docs",
+     "https://orbio.so/build"
+    ],
+    "facts": {
+     "tools": 4,
+     "dev_pages": [
+      "https://orbio.so/developers",
+      "https://orbio.so/docs",
+      "https://orbio.so/build"
+     ],
+     "contract_addresses": 4,
+     "winners_linked": []
+    }
+   }
+  }
+ },
+ "site_checked": {
+  "0x70b66f507341d25ac76e20e8b7c65e1efd02ee12": "2026-11-05T05:17:44+00:00",
+  "0x0f58e1a3754dfc352ffae8e962c729ede06a8c5e": "2026-11-05T05:17:44+00:00",
+  "0x6104df5db9ee0bd9165ff480db2fa054113796f7": "2026-11-05T05:17:44+00:00",
+  "0xc9675fe679c7d4e1b94416f66d61c96127eb964a": "2026-11-05T05:17:44+00:00",
+  "0x38bb87cf3e7344a82be7cd671c191f015b97eee6": "2026-11-05T05:17:44+00:00",
+  "0x69156ef2ec33d24efb29c1a2fa84967be618ccbf": "2026-11-05T05:17:44+00:00",
+  "0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172": "2026-11-05T05:17:44+00:00",
+  "0xf0c81ed967babb33e4b16329b9ed744d5271ee78": "2026-11-05T05:17:44+00:00",
+  "0x5a96941ebc98715691565f59e0601a86042fcbf2": "2026-11-05T05:17:44+00:00",
+  "0x1dc1c01af1cabb189ce3ade48838adc5547d79e0": "2026-11-05T05:17:44+00:00",
+  "0xbfcd3707d488d720821d17cf3b543a78cb7f1dc0": "2026-11-05T05:17:44+00:00",
+  "0xc31470ee219a22ae5a722f265e778631e38a79d1": "2026-11-05T05:17:44+00:00",
+  "0xa797fb1edbd0a10036c657ce75eaa43710e61b1b": "2026-11-05T05:17:44+00:00",
+  "0xc9695a82f2e05071f179ee292721bbe891adfff7": "2026-11-05T05:17:44+00:00",
+  "0x19e813946c708b91fa2d792e222ed9c604cdda9d": "2026-11-05T05:17:44+00:00",
+  "0x3ac781cf12dea896f5f3a4a4605afe95d68320c9": "2026-11-05T05:17:44+00:00",
+  "0x2cc592e09099c5f006e84d3545c2a130f1193990": "2026-11-05T05:17:44+00:00",
+  "0xe2141cc928b5fbf82f8ebb4307733e05928bd046": "2026-11-05T05:17:44+00:00",
+  "0xe27dbe394debd0eed3e71ff9cf1cbd232f108882": "2026-11-05T05:17:44+00:00",
+  "0x214147a16cb9974fbca773c924c9c49ec50bc3fa": "2026-11-05T05:17:44+00:00",
+  "0xd4e343852d3093d6945a85ae2df17af549e5ac2a": "2026-11-05T05:17:44+00:00",
+  "0xe14655a842c9fec9e1a949651d70cc77659927d0": "2026-11-05T05:17:44+00:00",
+  "0x5b66d673d10529bf248d7051696f6da2fc1dad7a": "2026-11-05T05:17:44+00:00",
+  "0x68997d200b06ae6d60e8bd6fb92855b37e132fe6": "2026-11-05T05:17:44+00:00",
+  "0xa1efdc4a24aede9f950f766eb077f1a7938678d4": "2026-11-05T05:17:44+00:00",
+  "0x87aa10ed9337640675a9a98e52d944a462971013": "2026-11-05T05:17:44+00:00",
+  "0xbeafd922c716fef1b82945a5e0dddcb8d2495b25": "2026-11-05T05:17:44+00:00",
+  "0xded852de9fe9ba9b6f27f39e8e81cf851a5c79cc": "2026-11-05T05:17:44+00:00",
+  "0x061732dc141e0a2d37f5fa91cf5343f24064e60f": "2026-11-05T05:17:44+00:00",
+  "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3": "2026-11-05T05:17:44+00:00"
  }
 }
