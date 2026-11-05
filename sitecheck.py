@@ -158,8 +158,8 @@ def score(tok, review, w):
     add("Really theirs", 5 if n_addr >= 2 else 0, f"Lists {n_addr} contract addresses" if n_addr >= 2 else "Lists fewer than 2 contract addresses",
         "✅" if n_addr >= 2 else "❌")
     wins, on_x = past_winners(tok, text, w.x_account(ox["official"]) if ox["official"] else None)
-    add("Really theirs", 5 if wins else 0, ("Works with past winners: " + ", ".join(wins) + (" (from their X posts)" if on_x else ""))
-        if wins else "Doesn't link any past winners")
+    if wins:  # a bonus only: not working with a past winner is never listed as a miss (user, 5 Nov)
+        add("Really theirs", 5, "Works with past winners: " + ", ".join(wins) + (" (from their X posts)" if on_x else ""))
     cc = w.copycat(tok, ox)
     if cc:
         flags.append(f"{w.COPYCAT}: the project's X @{cc['handle']} posts a different address with the same "

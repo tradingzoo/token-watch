@@ -845,8 +845,8 @@ def score(tok, full, found_on, symbol_counts, review):
     # --- works with past winners (+5, 5 Nov after OSTRA's Raeto vaults): their site, repo or own X ---
     xh = ox.get("official") or ox.get("token")
     wins, on_x = sitecheck.past_winners(tok, repo_text + " " + " ".join(t for w, u, t in srcs), x_account(xh) if xh else None)
-    add("Platform", 5 if wins else 0, ("Works with past winners: " + ", ".join(wins) + (" (from their X posts)" if on_x else ""))
-        if wins else "Doesn't work with any past winners we know of")
+    if wins:  # a bonus only: not working with a past winner is never listed as a miss (user, 5 Nov)
+        add("Platform", 5, "Works with past winners: " + ", ".join(wins) + (" (from their X posts)" if on_x else ""))
 
     # --- Real code (20) ---
     span = days_between(last_c, first_c) if first_c and last_c else 0

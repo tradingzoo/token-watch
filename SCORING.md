@@ -85,7 +85,7 @@ The page's "Still shipping?" box lists a token only when its status changes. The
 
 ## Works with past winners (5 Nov)
 
-Both scores give **+5** when the project works with a token that already did well (Hookr, Orbio, Raeto, Priors, Harmonic, WTH, Fobo, Delta, UBIK; never itself). It now counts links on their site or repo **and** the names in their own recent X posts (OSTRA: "idle earnings go to work in … Raeto vaults"). On X, everyday words (Harmonic, Delta, Priors, WTH) only count as a $TICKER or their web address. GitHub score parts now add up to 105, shown capped at 100.
+Both scores give a **+5 bonus** when the project works with a token that already did well (not doing so is never listed as a miss) (Hookr, Orbio, Raeto, Priors, Harmonic, WTH, Fobo, Delta, UBIK; never itself). It now counts links on their site or repo **and** the names in their own recent X posts (OSTRA: "idle earnings go to work in … Raeto vaults"). On X, everyday words (Harmonic, Delta, Priors, WTH) only count as a $TICKER or their web address. GitHub score parts now add up to 105, shown capped at 100.
 
 ## Card layout (5 Nov)
 
