@@ -5244,18 +5244,102 @@
   },
   "insforgedev": {
    "handle": "insforgedev",
-   "found": false,
-   "checked": "2026-11-05T11:15:22+00:00"
+   "found": true,
+   "id": "2118157576118345728",
+   "name": "insforge",
+   "joined": "2026-11-05T01:46:12+00:00",
+   "followers": 0,
+   "following": 0,
+   "posts": 12,
+   "verified": null,
+   "last_post": "2026-11-05T11:08:20+00:00",
+   "sample": 9,
+   "sample_full_week": false,
+   "posts_7d": 9,
+   "avg_likes": 0.0,
+   "avg_views": 6,
+   "bio_site": "https://insforge.dev",
+   "bio": "The Agent-Native Cloud Infrastructure Platform \u2014 model gateway, compute, deployment, database, auth & more, built for AI coding agents",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Safe for agents to operate. InsForge gives your agent instant preview branches \u2014 change and test anything in isolation, with any branch, before it reaches production. Let the agent move fast. Production stays untouched until it's proven.",
+    "Everything you need for production, in one platform. InsForge gives your coding agent the whole stack \u2014 Postgres, auth, storage, edge functions, model gateway and deployment \u2014 operable end to end through CLI and skills. No stitching six services together. Just build.",
+    "One gateway for every model. InsForge's model gateway lets your agent reach the models it needs through a single connection \u2014 bring your own API key, and your agent operates it end to end through CLI and skills.",
+    "Auth, handled. InsForge ships authentication built for agents \u2014 sign-up, sign-in, and user management your coding agent can set up and operate end to end. No third-party glue.",
+    "A real Postgres database your agent can run. Browse tables, edit rows, and manage your data \u2014 InsForge gives AI coding agents a full database they can operate through CLI and skills.",
+    "One gateway for every model. InsForge's model gateway lets your agent reach the models it needs through a single connection \u2014 part of the agent-native cloud infrastructure platform. https://insforge.dev",
+    "Introducing InsForge \u2014 the agent-native cloud infrastructure platform. Every service built for AI coding agents to operate end to end through CLI and skills \u2014 not dashboards and clicks. Backed by Y Combinator.",
+    "Safe for agents to operate: Instant preview branches let your agent change and test in isolation \u2014 before anything reaches production.",
+    "Already running in the wild: 13.3K GitHub stars 56,699 projects created Start building real apps \u2193 https://insforge.dev"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
   },
   "rulestemai": {
    "handle": "rulestemai",
-   "found": false,
-   "checked": "2026-11-05T11:15:22+00:00"
+   "found": true,
+   "id": "2115710075603939328",
+   "name": "Rulestem",
+   "joined": "2026-10-29T07:47:36+00:00",
+   "followers": 1,
+   "following": 0,
+   "posts": 0,
+   "verified": null,
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": null,
+   "bio": "Rules first, emotions second. Describe your strategy in plain words; Rulestem makes it exact, tests it on history and explains every trade.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T11:26:28+00:00"
   },
   "mimoxtrade": {
    "handle": "MimoXtrade",
-   "found": false,
-   "checked": "2026-11-05T11:15:22+00:00"
+   "found": true,
+   "id": "2112417773229903872",
+   "name": "Mimo",
+   "joined": "2026-10-20T05:47:30+00:00",
+   "followers": 105,
+   "following": 4,
+   "posts": 47,
+   "verified": "individual",
+   "last_post": "2026-11-05T09:46:25+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 17,
+   "avg_likes": 8.2,
+   "avg_views": 141,
+   "bio_site": "http://mimotrade.io/",
+   "bio": "More Than Trading. A New Onchain Experience.\nMIMO is building a utility driven ecosystem for the future of decentralized trading.\n\nBuilt on Robinhood Chain.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Every blockchain has a story behind how it works. But sometimes, understanding the technology shouldn't feel complicated. Robinhood Chain is built to make onchain activity faster, more accessible, and more efficient. Powered by Arbitrum technology, it operates as a Layer-2 network with chain ID 4663",
+    "The numbers speak for themselves. $100B in volume on Uniswap is a major milestone for Robinhood Chain, and it's only the beginning. The real opportunity lies in what builders are creating onchain. Infrastructure, utility, and products that bring real value to the ecosystem. MIMO is here to be part o",
+    "The Robinhood Chain ecosystem is gaining momentum, and we're still early in the journey. As the ecosystem grows, the real opportunity isn't just about catching the next trend. It's about building something that brings actual utility to the space. That's exactly what we're working on with MIMO. Not j",
+    "Trading is more than just placing orders. It's also about security, control, and knowing what's happening behind every action. With MIMO, security matters. \u2022 Your seed phrase stays yours. \u2022 Wallet-based authentication. \u2022Trading limits you control. \u2022 Emergency stop when needed. \u2022 Activity records you",
+    "The future of onchain isn't just about trading. It's about building connections, transparency, and real utility around the ecosystem. Social activity backed by onchain records is another step toward a more open and verifiable Web3. At MIMO, we believe real utility is what makes an ecosystem grow.",
+    "More than a trade. A whole toolkit. From Spot and Futures to Markets, Launch, and more MIMO is bringing the tools traders need into one ecosystem. One platform. More ways to move. Explore MIMO: https://mimotrade.io",
+    "In crypto, pattern recognition comes from experience. But experience alone isn\u2019t enough if you can\u2019t adapt to changing market conditions. At MIMO, we believe the edge comes from learning, staying disciplined, and building through every market cycle. Less noise. Better decisions. Keep building.",
+    "Your strategy. Your rules. Your control. 5 preset strategies. Custom rules. Stepby step take profits. Live or paper trading. Performance tracking. MIMO is building a more flexible way to approach automated trading where strategies can be customized, tested, and monitored instead of blindly followed.",
+    "Stay alert. Stay focused. Build with purpose. \ud83d\udee1\ufe0f Every step forward starts with a vision, and MIMO is focused on turning that vision into something meaningful. One step at a time, with a community that grows and a future we're working toward together. The journey continues. Keep building with MIMO.",
+    "Big numbers get attention, but real utility is what builds lasting value. As Robinhood Chain continues to grow, MIMO is focused on building beyond the meme with utility, consistent development, and a vision for the long run. Slowly but surely. We\u2019re building.",
+    "Trading is not just about buying and selling. It's about having a strategy, managing risk, and knowing when to enter or exit a position. Limit orders, take profit, and stop loss are more than just trading terms. They're essential tools for making informed decisions and managing your trades with a cl",
+    "Tokenization is inevitable. The real question is what we build on top of it. Beyond memes, utility is what gives a project room to grow. MIMO is building toward that vision, one step at a time. No rush, just steady progress. The journey is still unfolding.",
+    "The future is being built around utility, not just hype. \ud83d\udc40 AI, trading, and real world applications are shaping what comes next in crypto. MIMO is building step by step, with a vision to grow beyond the meme. Slow progress, long term vision.",
+    "October is over, but MIMO is still building. \ud83c\udf43 The market has its ups and downs, but we keep our focus on growth, development, and what\u2019s ahead. How was October for you, MIMO fam?",
+    "GM MIMO FAMS Happy Weekend! Take a moment to relax, recharge, and enjoy the little things. While you enjoy your weekend, the MIMO team continues working behind the scenes to build, improve, and grow the project. More work, more progress, one step at a time. Enjoy your weekend, MIMO fam. We\u2019re just g",
+    "Real markets. Same platform. More possibilities. Crypto, stocks, and more all in one place. With MIMO, explore different markets, track opportunities, and trade with the tools you need, all through one platform. Less switching. More exploring. One ecosystem. Trade smarter. Trade with MIMO. \ud83c\udf10 http://",
+    "One platform. More ways to trade. Spot, Futures, memecoins, and token launches MIMO brings multiple markets and powerful trading tools together in one place. Explore new opportunities, analyze the market, and turn your ideas into onchain assets. No unnecessary limits. Just more possibilities. Trade ",
+    "Before you sign, know what you're signing. MIMO brings transaction decoding, simulation, and risk checks to onchain trading on Robinhood Chain. https://x.com/i/article/2115748119178801152",
+    "One platform. Multiple markets. One seamless experience. From crypto to stock tokens and new launches, MIMO brings different trading opportunities into one place making it easier to explore what's next in the market. Less switching. More possibilities. Built for traders who want to stay ahead. Your "
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
   },
   "voxelithicag": {
    "handle": "Voxelithicag",
@@ -5354,13 +5438,93 @@
   },
   "equoraprotocol": {
    "handle": "equoraprotocol",
-   "found": false,
-   "checked": "2026-11-05T11:15:22+00:00"
+   "found": true,
+   "id": "2114043767044890624",
+   "name": "Equora Protocol",
+   "joined": "2026-10-24T17:19:30+00:00",
+   "followers": 122,
+   "following": 0,
+   "posts": 46,
+   "verified": null,
+   "last_post": "2026-11-05T02:30:27+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 9,
+   "avg_likes": 4.4,
+   "avg_views": 294,
+   "bio_site": "https://equoraprotocol.site/",
+   "bio": "Equilibrium for Onchain Equities \u221e. Building credit & leverage for tokenized stocks and ETFs on Robinhood Chain. Isolated markets, aligned incentives.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "One company, two price references. How does BYD\u2019s Hong Kong share price compare with its token price in USDG? In Equora, filter Chinese equities to Hong Kong xStocks and search BYD (https://1211.HK). Both prices appear side by side with the 24h change.",
+    "Explore Alibaba\u2019s market page on Equora. Switch between 7-day, 14-day and monthly charts, then review the displayed market metrics.",
+    "From Xiaomi to BYD, Explore the market behind the ticker. Browse Equora\u2019s Hong Kong equity listings, search companies and review available market information in one workspace. Your next research session starts here.",
+    "Explore FUTU from different timeframes \u221e Switch between 7-day, 14-day and monthly views, then review the displayed market parameters, all inside Equora. https://equoraprotocol.site/markets/china/futu",
+    "From Xiaomi to BYD, find your next research starting point \u221e Filter Hong Kong listings, search by company and review each asset\u2019s displayed status and capabilities in Equora. https://equoraprotocol.site/markets/china",
+    "Find the market you\u2019re looking for \u221e Search by ticker or company, filter native and external tokenized products, and compare listings in Equora\u2019s equity directory. https://equoraprotocol.site/markets/china",
+    "One asset. Multiple perspectives \u221e Explore Alibaba\u2019s market page and switch between 7-day, 14-day and monthly chart views to review the displayed price history and market parameters. https://equoraprotocol.site/markets/china/baba",
+    "Understand the credit cycle before entering a position \u221e Explore Equora\u2019s guide to collateral, borrowing, repayment and Auto-Protect, alongside the risks and current availability of each feature. https://equoraprotocol.site/docs",
+    "Explore Chinese equities through Equora \u221e Compare US ADRs, Hong Kong xStocks and mainland research listings using dedicated market filters. Find your market. Review its details. https://equoraprotocol.site/",
+    "Understand the mechanics before taking a position. Explore how Equora\u2019s borrowing and Auto-Protect mechanisms are designed to work, alongside the risks of leverage and liquidation.",
+    "Explore tokenized stocks, review availability and discover China equities and Pons market candidates, all from Equora\u2019s market directory.",
+    "Different markets. One place to explore. Browse Equora\u2019s Chinese-equity directory, filter US ADRs, Hong Kong xStocks and mainland research candidates, and review each listing\u2019s status. Watch the walkthrough \ud83d\udc47 https://equoraprotocol.site/markets/china",
+    "Find the market. Check its readiness. Explore Equora\u2019s tokenized-equity directory and review which assets have contracts configured or verification pending.",
+    "Understand the mechanics before taking exposure. Explore Equora\u2019s isolated-market design, USDG borrowing and Auto-Protect framework, alongside risks and activation requirements. Watch the protocol guide \ud83d\udc47 https://equoraprotocol.site/docs",
+    "See how deposit and repayment inputs change projected LTV and health factor in Equora's collateral interface. Explore the numbers before taking action.",
+    "Change the margin. Adjust the leverage. Compare projected exposure, debt and health factor in Equora's leveraged-long interface.",
+    "Collateral, USDG borrowing and isolated-market risk, explained in Equora's FAQ. https://equoraprotocol.site/faq",
+    "A closer look at Equora's equity interface: switch between 7-day, 14-day and monthly chart views and compare the displayed ranges. https://equoraprotocol.site/markets/china",
+    "Define your threshold. Understand your risk. \u221e Equora\u2019s Auto-Protect is designed to partially deleverage positions as they approach a chosen risk threshold.",
+    "Explore Equora\u2019s approach to collateral-backed USDG borrowing and isolated lending markets on Robinhood Chain. Here is the Isolated Lending demo"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
   },
   "tide_lp": {
    "handle": "Tide_lp",
-   "found": false,
-   "checked": "2026-11-05T11:15:22+00:00"
+   "found": true,
+   "id": "2099692892898078720",
+   "name": "Tide LP",
+   "joined": "2026-09-15T03:00:42+00:00",
+   "followers": 166,
+   "following": 27,
+   "posts": 89,
+   "verified": "individual",
+   "last_post": "2026-11-04T15:24:14+00:00",
+   "sample": 21,
+   "sample_full_week": false,
+   "posts_7d": 10,
+   "avg_likes": 4.6,
+   "avg_views": 225,
+   "bio_site": "https://tidelp.com/",
+   "bio": "Stocks close. Agents don't. \n\nAgentic LP vaults for RWA on Robinhood Chain. \n\nLaunchers earn up to 30% of fees.\n\nCA: 0x096Ec0e43d04D7848Ed3ba05fFC01aDaa7fBc43b",
+   "cas": [
+    "0x096ec0e43d04d7848ed3ba05ffc01adaa7fbc43b"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "At Tide, we believe Agentic Finance will become one of the defining narratives on @RobinhoodCrypto. We're helping pave the way through AI-managed liquidity vaults, bringing active liquidity management to both tokenized stocks and blue-chip assets. From traditional equities moving onchain to emerging",
+    "Three days in. Tide\u2019s $ANTHROPICx1L vault returned 400bps in its first 3 days, while the underlying token stayed flat. Powered by LONG. Liquidity managed by Tide\u2019s AI. An early snapshot worth watching not an annualized yield. http://tidelp.com/beta @orbiodotso @longdotxyz @AnthropicAI",
+    "Room to move. Fees still flowing! As AMC approached the top of its range, Tide\u2019s AI widened the band to $2.65\u2013$3.66 with a slight upward tilt. At $3.05, AMC remains in range and earning fees. The vault is up 10.8% Tide\u2019s top performer in this snapshot.",
+    "This opens up an interesting next step for Tide \ud83d\udc40 Using LP tokens as collateral could let users borrow against their positions and put that capital back to work bringing leverage and greater capital efficiency to AI-managed liquidity. https://x.com/Eli5defi/status/2117543310625817070?a=9UnochargMsPs",
+    "Holding wasn\u2019t the only option! In this snapshot, all 9 Tide vaults shown outperformed their holding benchmarks.. PONS: \u22124.7% vs \u221214.5% holding a 9.8 percentage-point difference. MU: +1.4% vs \u22120.6% holding. Most still lost value, but lost less. That\u2019s a result worth tracking.. AI-managed liquidity. ",
+    "Markets get choppy. Your liquidity needs a plan! Tide\u2019s AI monitors conditions, adjusts ranges, and knows when to hold steady with every decision visible. You choose the assets. Tide manages the liquidity. Built for bad weather. https://tidelp.com",
+    "We tried our best to help agentic finance category growing fast. Tide as the main agentic LP vaults around. Thanks @winiam4444 for the cover. The integration of @longdotxyz of @Natan_benish for our Anthropic pre-IPO vaults it\u2019s one of the steps further. Would be cool for Long team and Nate to bootst",
+    "Tide\u2019s AI gave AMC room to move! As price approached the upper edge, the agent widened the range and tilted it upward. $AMC remains in range and earning fees. The vault is up 10.8% currently Tide\u2019s top performer..",
+    "The reveal is here! Anthropic pre-IPO vaults, powered by @longdotxyz, are now integrated into Tide. Pre-IPO tokens meet AI-managed liquidity. Follow the agent\u2019s decisions, range adjustments, and execution all from your vault page. Explore: https://tidelp.com",
+    "Pre-IPO. Meet Tide! Tide \u00d7 @longdotxyz A new vault is on the horizon. \ud83d\udc40 @Natan_benish",
+    "A new vault joins the Tide! PRIORS / WETH is now live in beta @priors_trade meets Tide\u2019s AI-managed liquidity. Follow the range, reasoning, and execution on the vault page Explore: https://tidelp.com/beta",
+    "@priors_trade Hey @priors_trade, fancy adding some liquidity? \ud83d\udc40 We\u2019d love to explore a future Tide Points boost for the vault together!",
+    "Notice something new in the navbar? \ud83d\udc40 Tide Points is getting closer. Season 1. Coming soon. \ud83c\udf0a",
+    "A new chapter for Tide! We started with tokenized stocks. Now we\u2019re bringing AI-managed liquidity to crypto on Robinhood Chain. Meet Tide\u2019s beta vaults:",
+    "Tide points. Season 1.",
+    "Tide points. Season 1. Every move leaves something behind. Coming soon. https://Tidelp.com CA: 0x096ec0e43d04d7848ed3ba05ffc01adaa7fbc43b",
+    "@CoinMarketCap https://dex.coinmarketcap.com/token/robinhood/0x096ec0e43d04d7848ed3ba05ffc01adaa7fbc43b/",
+    "The next big movement is taking shape\u2026 Tide Points. Season 1. Coming soon! solana:utP3y4LCfPtGSBNDE96fz7CWH6AZe2whU2yVmMWpump https://tidelp.com Ca: 0x096ec0e43d04d7848ed3ba05ffc01adaa7fbc43b",
+    "Something\u2019s rising with the Tide! \ud83d\udc40 Tide Points. Season 1. First look. More details soon.",
+    "When $BUN jumps, three Tide agents make three different calls. Patient holds. Trend follower moves up. Fee hunter tightens. Same market. Three minds. Which one is yours? \ud83d\udc47 @BundleCatAI @Moshdottrade @justinbebis http://tidelp.com/beta solana:utP3y4LCfPtGSBNDE96fz7CWH6AZe2whU2yVmMWpump"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
   },
   "thebuybuttonrh": {
    "handle": "TheBuyButtonRH",
@@ -5408,14 +5572,96 @@
    "checked": "2026-11-05T11:15:22+00:00"
   },
   "tryanyroute": {
-   "handle": "tryanyroute",
-   "found": false,
-   "checked": "2026-11-05T11:15:22+00:00"
+   "handle": "TryAnyroute",
+   "found": true,
+   "id": "2103979836155002880",
+   "name": "Anyroute",
+   "joined": "2026-09-26T22:48:45+00:00",
+   "followers": 860,
+   "following": 14,
+   "posts": 471,
+   "verified": "individual",
+   "last_post": "2026-11-02T13:03:47+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 2,
+   "avg_likes": 16.9,
+   "avg_views": 590,
+   "bio_site": "https://tryanyroute.xyz",
+   "bio": "Private infra for open models. Attested inference. Encrypted prompts. Unlinkable access. \n0xa4ddf89a40a35264e9d7f896a1ef01c59b1e977a \n\nhttps://tryanyroute.xyz",
+   "cas": [
+    "0xa4ddf89a40a35264e9d7f896a1ef01c59b1e977a"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Anyroute is back. New home: https://tryanyroute.xyz Exploits were hitting projects. We kept the site offline, moved to private infrastructure, rotated every key and hardened the servers. This is our only site.",
+    "gm Website update. We are still moving Anyroute to new infrastructure and checking systems before it goes back online. It is part of making the service safer and more private. Back soon. Until then, send major questions or issues to the Telegram group.",
+    "Website update: Railway has restored deployments, but we are keeping Anyroute offline while we move to a private VPS, rotate credentials, and test the setup. Target is 5\u20137 days. We\u2019ll update you. Thanks for sticking with us.",
+    "Been a little quiet on here. No big speech. We are back at it, and we will have more to show soon.",
+    "Set the line before you leave. Choose the balance you want to keep. When your account drops below it, your agents pause themselves instead of burning through what is left. https://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/f1bfbdec8aeb52a9ac0d4a2d12d51cf1ec0c64ce",
+    "If an agent is doing the same approved task for the next hour, you should not have to approve every single request. Approve it once for the hour. Your other limits still apply, and you can end the approval early whenever you want. http://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/d9",
+    "The fastest way through the product is often the keyboard. Press `?` on any page to see the shortcuts available there, with the right keys for Mac or PC. https://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/46d66fee21704ea3e92ea0cb15f23e901f925e32",
+    "Your agent can be stopped from your phone too. In your linked Telegram chat, type `/stop Shop bot 1h` to pause it for an hour. Use `/start Shop bot` when you are ready to start it again. https://anyroute.tech/docs/#telegram-stop",
+    "The full model catalogue is useful. Your own usage is more useful. Filter it to the models you have actually called, then see your spend and success rate for each one. https://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/bd354dffde1b520ce1d2d393562c682d65e3ed36",
+    "A long chat can quietly add up. Set a spending cap on a chat. A send that would go over it is held, so you can raise the cap or send anyway. https://anyroute.tech/docs/#chat-cap",
+    "A useful answer should not disappear into a long chat. Pin any message to the top, then jump back to it whenever you need it. https://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/88c76a301623e76ce6e34af9d69d064c743ef975",
+    "Some of the quieter work has been landing too: 1. Pin important messages in long chats 2. See the models you actually use, with spend and success rate 3. Press ? to see shortcuts for the page you are on More updates will be up soon. https://anyroute.tech",
+    "Your agent does not need access around the clock. Set its working days, hours, and time zone in Agents. Outside that window, it either blocks the request or sends it to you for approval. https://anyroute.tech/docs/#work-hours",
+    "A request gets blocked. Instead of guessing, Anyroute tells you why. Every refusal links to the rule behind it and the exact setting you need to change. https://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/e4ec5ddc8d2a6ad13cd299cbd6c17a60b9324d3b",
+    "When something is not working, it helps to know whether it is your setup or ours. Turn on incident alerts in Settings and get a notice when an issue opens, is updated, and is resolved, in your Inbox or Telegram. They are off by default. https://anyroute.tech/docs/#incident-alerts",
+    "Before changing an agent\u2019s rules, you should know what that change will actually do. Anyroute shows the difference in plain words and replays it against last week\u2019s calls before you save anything. https://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/99988f202073b8317576cf9eb91f5aa06db",
+    "You may be paying more than you need to for work a similar model can handle. Ways to save compares your last 30 days of usage with similar models and shows the estimated difference. Try one in Chat before you change anything. https://anyroute.tech/docs/#savings-finder",
+    "A quick view of your account, without opening the dashboard. Choose a daily or weekly summary of your agents, spend, and models, then pick when it arrives. https://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/6e3466aa30acb434a89deffd99470d243eba92c3",
+    "When a model you rely on goes down, refreshing its page is not a plan. Watch it once and Anyroute lets you know when it becomes unavailable, then when it is back, in your Inbox or on Telegram. https://anyroute.tech/docs/#model-watch",
+    "Some things need your attention, just not right now. Snooze an Inbox notice for an hour, until tomorrow, or until Monday. It comes back unread at the time you chose. https://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/78392ea59c58cd18328a86d16c03d507604af189"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
   },
   "abullycoin": {
    "handle": "ABULLYCOIN",
-   "found": false,
-   "checked": "2026-11-05T11:15:22+00:00"
+   "found": true,
+   "id": "2111903656790413313",
+   "name": "American Bully",
+   "joined": "2026-10-18T19:35:20+00:00",
+   "followers": 129,
+   "following": 9,
+   "posts": 60,
+   "verified": "individual",
+   "last_post": "2026-11-04T17:45:05+00:00",
+   "sample": 21,
+   "sample_full_week": false,
+   "posts_7d": 8,
+   "avg_likes": 8.7,
+   "avg_views": 230,
+   "bio_site": "https://abullycoin.com",
+   "bio": "Savage muscle machine warring through 100 rounds on Robinhood Chain. $BULLY\nCA: 0xff0fa3799686ac47e3aff62aa2210a8441737cc3\nhttp://abullycoin.com\nFor fun, not advice.",
+   "cas": [
+    "0xff0fa3799686ac47e3aff62aa2210a8441737cc3"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "BULLY 36-HOUR EXECUTIVE BRIEF \ud83e\udd4a More places to find BULLY. More custom tools being built. Here's the work completed and where it stands: \ud83c\udfc6 GETTING BULLY LISTED We finished our first target of 300 applications to agent directories and crypto-discovery sites. The results so far: \u2022 53 public listings: ",
+    "DAY ONE IN THE STUDIO \u00f0\u009f\u00a5\u008a Every BULLY production teaches us something - mostly what NOT to do - and honestly, the practice rounds are half the fun \u00f0\u009f\u0098\u0082 We're learning, we're building, and one day we'll master this thing. Until then, enjoy the chaos. Wild Hollywood-style productions are coming. The ",
+    "There's a second audience on the internet now, and it doesn't have eyeballs. AI assistants have moved past answering questions from memory. They research the web on a person's behalf: reading pages, calling tools and coming back with answers. An assistant can read an ordinary web page just fine, but",
+    "The dog needs a fight name. Cast your vote \ud83e\udd4a #RobinhoodChain NFA. DYOR.",
+    "One week in the ring. The card so far \ud83e\udd4a - Bonded off the launch curve - 86 holders - $5.8K traded on the main pool in the last 24 hours - +22.2% over that same 24 hours One chain. One dog. One hundred rounds. #RobinhoodChain NFA. DYOR.",
+    "THE NEXT ROUND IS REACH. \ud83e\udd4a $BULLY's marketing goes beyond the chart: trackers, directories, gaming, podcasts, and now fight clubs and live events. 207 fight-club and event targets identified. The approach is simple: find something useful we can improve on their website, offer real work, and ask for ",
+    "WE BONDED. \ud83e\udd4a $BULLY graduated off the Pons launchpad and now trades on the open market on #RobinhoodChain. Up 122% over 24 hours. DEXSCREENER UPGRADE IS LIVE The Bully mascot, championship banner, fight-night bio, website and X are live on our post-bonding pool. The main-event look is in place. THE ",
+    "31 listings now live! Another 12 verified and added to the $BULLY website roster today. The champ doesn't wait for the bell. TRACKERS CoinSniper, CrypticPump and LiveCoinWatch DIRECTORIES LLMSMap GAME DIRECTORIES ArcadeIndex, BountyBoard, SlopClip and SlowDen PODCAST LISTINGS BullyCorner on Pocket C",
+    "All links and updates below are live and verifiable on our listing page. Round two is coming. $BULLY is preparing to bond on Pons and hit the open market, with a full-on marketing push behind it. Here is what the savage muscle machine has landed since yesterday's summary. LISTINGS 19 verified listin",
+    "BULLY takes the corner. Which color combination hits hardest for a fight-card concept? Visual vote only, not a roadmap promise.",
+    "13/ Execution discipline: target eligible venues, submit through the right route, recheck public placements and keep the pipeline current. Directories and owned channels are live. Exchange applications are submitted. The next game build is in testing.",
+    "14/ This is round one of a hundred. $BULLY is not here for a weekend pump. The ladder runs all the way to the title fight, and the groundwork being laid right now is how a savage muscle machine earns the belt.",
+    "15/ One chain. One dog. One hundred rounds. Follow @ABullyCoin and watch the war. Not financial advice. #RobinhoodChain",
+    "11/ Wallet front: 40+ outreach contacts about eligibility, contract recognition and token metadata. The work targets how BULLY is identified and displayed across the wallet ecosystem. Metadata matters. Details win fights.",
+    "12/ The strategy: discovery platforms introduce the project. Gaming sites put the arcade in front of players. Owned channels carry the story. Exchange applications pursue trading access. Wallet outreach addresses token recognition. Each category has a distinct job.",
+    "9/ Content engine running: the official Substack publication is live with our launch story, our CoinMarketCap Community post is up, and the Zealy questboard is open with live quests. Owned channels, all active.",
+    "10/ Exchange front: 17 centralized exchange listing applications submitted through venue forms and designated email channels, with more in the queue. Every venue gets a submission tailored to its own requirements.",
+    "1/ The $BULLY rollout, by the numbers: at least 162 listing and exchange applications submitted. 145+ across directories and platforms. 17 to centralized exchanges. 16 placements live, plus GeckoTerminal tracking. #RobinhoodChain",
+    "8/ AI readiness: an llmsmap site audit scores https://abullycoin.com 87 out of 100 on AI-readiness signals - llms.txt, crawler rules, sitemap, structured data - rated Excellent. Built to be found by the next wave.",
+    "7/ International footprint: BULLY sits in France's ForumCrypto links directory and Kazakhstan's Bura catalog, alongside global directories CurlShip, TextFrog and BUSYTEXT. This war does not stay in one timezone."
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
   },
   "manyways_rh": {
    "handle": "manyways_rh",
@@ -5444,8 +5690,47 @@
   },
   "orus_agent": {
    "handle": "Orus_agent",
-   "found": false,
-   "checked": "2026-11-05T11:15:22+00:00"
+   "found": true,
+   "id": "2097725468145295360",
+   "name": "Orus Agent",
+   "joined": "2026-09-09T16:36:49+00:00",
+   "followers": 868,
+   "following": 9,
+   "posts": 206,
+   "verified": "individual",
+   "last_post": "2026-11-05T10:10:41+00:00",
+   "sample": 22,
+   "sample_full_week": true,
+   "posts_7d": 22,
+   "avg_likes": 9.6,
+   "avg_views": 236,
+   "bio_site": "https://www.orusagent.xyz/",
+   "bio": "First autonomous and customisable trading agent on robinhood blockchain\n\nhttps://discord.gg/orusagent",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Your agent just bought. You\u2019ll hear it. \ud83d\udd0a Orus alerts now ping on every trade a rising tone for a buy, a falling one for a sale or a stop, with size, market cap and dip in one line. Mute any agent, anytime. Sound on. https://orusagent.xyz",
+    "One of those big ideas: agentic trading on Robinhood Chain. Orus agents scan every new token, buy the dip and take profit on their own \u2014 24/7, by your rules, from a wallet only you control. Proud to be building here.",
+    "Scan. Filter. Catch the pump. Strike on the dip. Log everything. That\u2019s what your Orus agent does every few seconds, on Solana and Robinhood Chain, from a wallet only you control. Your rules. Your risk. Your agent. https://orusagent.xyz",
+    "Never traded with an agent? Start free. 1/ Copy any desk strategy results are public 2/ Simulate it on live market data, from minute one 3/ Go live from a wallet only you control No token. No card. Every decision on your tape. https://orusagent.xyz",
+    "Orus will remain among the Robinhood builders! Great to see @RobinhoodCrypto supporting builders!",
+    "No subscription. No card. Your Orus plan is the ORUS you hold never spent. Free: 1 agent \u00b7 60s Pro (1M ORUS): 3 agents \u00b7 30s \u00b7 AI reports Premium (3M ORUS): 20 agents \u00b7 10s \u00b7 unlimited strategies Hold more, run faster.",
+    "Quick heads-up: Orus is taking a short pause. We\u2019re bringing the servers back right now the website and dApp will be live again very soon. Thanks for your patience. We\u2019ll post the all-clear here the second we\u2019re back.",
+    "Know your agent. Agent reports are live on Orus: result, win rate, how each coin ended, and the entry ranges that actually worked. Head to the User tab \u2192 Reports, then just ask. Your rules. Your risk. Your agent.",
+    "Market engine update: your agents now see a pump the minute it happens. All-time highs on fresh tokens are read minute by minute, backed by real volume. Sharper highs mean sharper dips and fewer good entries skipped. Live on Solana and Robinhood Chain. Same strategies, same rules.",
+    "1/3 - Your agents no longer run at one speed. Pick a check speed per agent: 10, 30 or 60 seconds. On Solana, 50 seconds is the difference between the entry and the exit liquidity.",
+    "2/3 - What each plan gets: \u2022 Free: 60 s \u2022 Pro: 30 or 60 s (new agents start at 30 s) \u2022 Premium: 10, 30 or 60 s (new agents start at 10 s) Faster isn\u2019t always better: slow down the agents that don\u2019t need speed, keep 10 s for the snipers.",
+    "3/3 - Set it in the agent form, the Settings tab, or straight from the API and MCP. Locked speeds stay visible, so you always know what the next plan opens. Your rules. Your risk. Your agent.",
+    "1/3 - Sneak peek: the Hot Seat is coming to Orus really soon. Pick any agent strategy, run it paper or live, and watch every position and signal from one seat.",
+    "2/3 - What\u2019s in the seat: \u2022 every Orus agent strategy, not just your own \u2022 paper \u2192 live in one toggle \u2022 live positions and P&L \u2022 a radar of what the agents are tracking",
+    "3/3 - The key: hold 10M ORUS That\u2019s your ticket to every strategy on Orus. Want a seat on day one? Reply and we\u2019ll ping you when it opens. Your rules. Your risk. Your agent.",
+    "1/3 - Sneak peek: your agents are leaving the tab. We\u2019re building the Orus Chrome extension every agent in Chrome\u2019s side panel: positions, P&L and alerts, on any website, without opening the dApp.",
+    "2/3 What it does: \u2022 every agent, live or paper, with its P&L \u2022 an alert the moment an agent acts \u2022 light & dark, same look as the dApp It stays open while you browse \u2014 charts, X, wherever you are.",
+    "3/3 Same agents, same rules, same data as the dApp. One click away soon. Want in on early access? Reply and we\u2019ll ping you when it ships. Your rules. Your risk. Your agent.",
+    "363 pull requests merged since Sept 7. No announcements, no breaks. 48 a week on average, every single week, it's 7 updates a day. Even our quietest 7 days shipped 17. 16 merged this week, 6 more in review. Built in the shadows. Never stopped.",
+    "Solana scan update: your agent stops wasting its analysis budget. Before: grab the top 200 rows, then drop tokens you already know and dead listings leaving empty slots. Now: filter first, then read deeper until 200 real candidates are analyzed."
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
   },
   "clawnch_bot": {
    "handle": "Clawnch_Bot",
@@ -5495,9 +5780,467 @@
    "checked": "2026-11-05T11:15:22+00:00"
   },
   "launchonpangea": {
-   "handle": "launchonpangea",
-   "found": false,
-   "checked": "2026-11-05T11:15:22+00:00"
+   "handle": "LaunchOnPangea",
+   "found": true,
+   "id": "2103852366860611584",
+   "name": "Pangea",
+   "joined": "2026-09-26T14:23:43+00:00",
+   "followers": 4825,
+   "following": 1,
+   "posts": 46,
+   "verified": "individual",
+   "last_post": "2026-11-04T22:46:28+00:00",
+   "sample": 16,
+   "sample_full_week": false,
+   "posts_7d": 9,
+   "avg_likes": 218.1,
+   "avg_views": 12873,
+   "bio_site": "http://pangea.trade",
+   "bio": "Create a token in seconds that lives simulatenously across every major chain. \n\nIntroducing universal liquidity pools, powered by @LayerZero_Core",
+   "cas": [
+    "0x30de7ae4c9578d110a97367ede9f7765cdce06ea"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "At Pangea, we love exploration into new lands. Today, the platform is introducing a brand new world. We have officially opened our door to the Elysium blockchain. As a beta chain, this integration is only available for single-chain use for now, with plans to integrate it into the deeper Pangea world",
+    "As of today, more than 2% of the global robinhood:0x30de7ae4c9578d110a97367ede9f7765cdce06ea supply has been burned. More features, more options, more volume. The flywheel has only just started.",
+    "Introducing Tokenized Stock Liqudity: For the first time ever, our creators can introduce stock pair liqudity across multiple chains. At Pangea, we aim to do things that have not been done before. While this is only the start, it's important to underscore its signifigance. Not only can creators take",
+    "The world of Pangea is going corporate and our foundation grows stronger. Accelerate.",
+    "Pangea might be brand new and has only just started. However, We are proud to see early communities forming, especially around narratives that have no borders. Memes connect us all. We look forward to building an ecosystem that spans from community memes to advanced AI/SI utility projects and everyt",
+    "V3 is now live, marking our biggest infrastructure update yet. Infrastructure updates always come before new features. Under the Pangea V3 contracts: - Price gaps between chains are burned, not credited. Bridging to the pricier chain no longer pays, and senders set a minimum that must arrive. - Crea",
+    "It's officially been 1 week since the Pangea TGE. Over that period of time, we've seen Bitcoin retrace almost 10% from a local high, combined with the largest hack in the history and dozens of imposters/larps that come and go. Over that same period, we've reached 50,000 bridges, $80,000,000 of volum",
+    "Bridges to mainnet are currently slow, but funds are safe. Rebalancer's funds are also safe, only difference being that price gaps on ETH have gone from 22s average to around 1 minute. Stay safe!",
+    "One coin, five chains, one price. We're making that price much harder to game. Every bridge of a v3 coin compares the coin's price on both chains. If the gap is wider than the fees plus a 0.15% allowance, the difference is burned instead of credited. The gap fee prevents arbitrage bots from profitin",
+    "There was a time when people didn't understand how the future would look. It's extremely likely that 95% of blockchain innovation is ahead of us, not behind. Your entire perception of \"chains\" is about to change.",
+    "Pangea now allows rewards in any token(s), on any chain. Today, the holder rewards feature was released, completing our Tokenomics feature set. These are the main takeaways: \u2022 Per Chain Dynamics: Get rewards on multiple chains from different tokens at the same time. \u2022 Variable Use: Spend your fees h",
+    "The whole world is in all of our hands. Pangea is building something better for the ecosystem we deserve, a more pure time, how the world once looked. Built on every chain, because it's for everyone. Come together.",
+    "Pangea now allows users to redirect fees for a CTO, providing a label for eligible tokens. Teams can redirect fees to a new wallet, or decide to buyback / burn them. Contact us through support chat, and the team will individually look at your case. If there\u2019s an existing X, we will always reach out ",
+    "Pangea has now distributed over $570,000 to creators and developers who launched on the platform. We believe in giving developers the most unique ways to build new projects. What will you create today?",
+    "Not just every chain, but every feature. Customize your launch's fees as much as you want: \u2022 Different fee levels per chain \u2022 Buybacks, burns, liquidity. \u2022 Creator & community settings. We build for everyone. Come together.",
+    "Multiple chains, One world. Pangea."
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "capafyai": {
+   "handle": "Capafyai",
+   "found": true,
+   "id": "1999831023237079040",
+   "name": "Capafy",
+   "joined": "2025-12-13T13:17:42+00:00",
+   "followers": 1662,
+   "following": 17,
+   "posts": 772,
+   "verified": "individual",
+   "last_post": "2026-10-30T14:04:56+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 4,
+   "avg_likes": 8.8,
+   "avg_views": 3100,
+   "bio_site": "http://Capafy.ai",
+   "bio": "Turn your skills into closed-source AI agent products anyone can purchase and use. Earn 24/7.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Introducing Freelance Rate Calculator, a Skill agent on Capafy. It helps freelancers set sustainable pricing by calculating their floor, target, and ideal rates based on income goals, costs, taxes, and realistic billable hours. How it works: \u2192 Input: Add your income goals, costs, and working hours \u2192",
+    "Freelance Rate Calculator helps freelancers find sustainable pricing by calculating their true minimum, target, and ideal rates based on real business costs. Try it: https://capafy.ai/agent/%E6%8E%A5%E6%A1%88%E5%A0%B1%E5%83%B9%E8%A8%88%E7%AE%97%E5%99%A8-freelance-rate-calculator/1373533207",
+    "Introducing AI Recruitment Manager, a Skill agent on Capafy. It helps companies and hiring teams manage recruitment workflows more efficiently \u2014 from job requirement analysis and candidate screening to interview preparation and hiring communication. How it works: \u2192 Define: Add job requirements and h",
+    "AI Recruitment Manager helps hiring teams streamline candidate screening, interview preparation, and recruitment workflows with AI-powered assistance. Try it: https://capafy.ai/agent/ai-recruitment-manager/4184575017",
+    "Introducing Baseline, an NBA analytics Skill on Capafy. It uses published NBA statistics to analyze matchups, roster changes, and player performance, producing projected scores, win probabilities with uncertainty ranges, and player stat estimates. Every run includes a model version, data cutoff, and",
+    "NBA analysis should be more than a prediction. Baseline shows its data sources, model assumptions, and uncertainty ranges, so you can examine how each projection is built. Try it on Capafy: https://capafy.ai/agent/baseline-nba-game-and-data-analysis/1427730497",
+    "Introducing Product Photo Score, a Skill agent on Capafy. It helps ecommerce sellers evaluate product images before publishing listings. By analyzing composition, background, clarity, and visual presentation, it identifies issues that may hurt product presentation and provides actionable improvement",
+    "Product Photo Score helps ecommerce sellers audit product images, find visual weaknesses, and improve listing photos before publishing. Try it: https://capafy.ai/agent/product-photo-score-ai-listing-photo-audit/7815118485",
+    "Introducing Subtitle Glossary Enforcer, a Skill agent on Capafy. It helps subtitle editors and content teams maintain terminology consistency across SRT files by checking names, brands, and recurring terms with custom glossaries through a controlled review-first workflow. How it works: \u2192 Define: Cre",
+    "Subtitle Glossary Enforcer helps subtitle teams maintain consistent names, brands, and terminology across SRT files with a controlled review-first workflow. Try it: https://capafy.ai/agent/subtitle-glossary-enforcer/1338775149",
+    "Introducing Customer Review Response, a Skill agent on Capafy. It helps restaurants, hotels, and local businesses manage customer reviews efficiently by analyzing feedback and generating professional responses that match their brand voice. How it works: \u2192 Analyze: Understand customer reviews and sen",
+    "Customer Review Response helps businesses handle Google reviews and customer feedback with professional, brand-aligned AI responses. Try it: https://capafy.ai/agent/r%C3%A9ponses-aux-avis-clients-google-resto-h%C3%B4tel/3253856953",
+    "Introducing CutEZ, a Skill agent on Capafy. It helps creators transform long-form videos into short clips for TikTok, YouTube Shorts, and Reels. By analyzing video content, identifying valuable moments, and creating short-form versions, CutEZ helps maximize the value of existing content. How it work",
+    "CutEZ helps creators turn long videos into short-form clips by finding valuable moments, extracting highlights, and creating content ready for TikTok, YouTube Shorts, and Reels. Try it: https://capafy.ai/agent/cutez-long-video-to-short-clips-with-one-click/8100191699",
+    "Introducing Babypeek, a Skill agent on Capafy. It uses AI image generation to transform parent photos into imaginative future baby portraits. Whether for couples, family sharing, or simply exploring a fun visual possibility, Babypeek creates a personalized and entertaining experience. How it works: ",
+    "Babypeek creates fun AI future baby portraits from parent photos, offering a playful way to imagine and share possible family moments. Try it: https://capafy.ai/agent/babypeek-see-your-future-baby/1806001236",
+    "Introducing AI Short Director, a Skill agent on Capafy. It transforms a video idea into a complete AI short-form production plan \u2014 from hooks and scene-by-scene storyboards to video prompts, camera direction, continuity rules, voiceover, and publishing assets. How it works: \u2192 Plan: Provide your idea",
+    "AI Short Director turns video ideas into production-ready AI video plans with hooks, storyboards, camera directions, generation prompts, continuity rules, and publishing assets. Try it: https://capafy.ai/agent/ai-short-director-video-prompt-storyboard/4501792813",
+    "Over $289K in sales on Capafy in just 30 days! Congrats to CloneCut! It is exciting to see Agent Skills meeting real user needs and generating revenue for creators. Looking forward to more milestones ahead!",
+    "Try CloneCut on Capafy: https://capafy.ai/agent/clonecut-viral-clone-seedance2-0/5133292529"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "jnmetacode": {
+   "handle": "jnMetaCode",
+   "found": true,
+   "id": "1467272148167319553",
+   "name": "jnMetaCode",
+   "joined": "2021-12-04T23:18:45+00:00",
+   "followers": 2459,
+   "following": 1685,
+   "posts": 408,
+   "verified": null,
+   "last_post": "2026-09-29T14:03:57+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 0.8,
+   "avg_views": 52,
+   "bio_site": "https://aiolaola.com/",
+   "bio": "\u6bcf\u5929 6+ \u6761 AI \u5feb\u8baf & \u65b0\u5de5\u5177\u5b9e\u6d4b | Claude Code \u00b7 Agents \u00b7 \u5f00\u6e90\u6a21\u578b\n\u5f00\u6e90\u7d2f\u8ba1 27.8k\u2b50 \u00b7 agency-agents-zh 18k\u2b50 \u00b7 242 \u8282\u514d\u8d39\u8bfe \u00b7 \u4e09\u5377\u4e66\n\ud83d\udee0 http://aiOlaOLa.com \u00b7 http://aibuzhiyu.com\n\u5408\u4f5c\u8bf7 DM",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "\u4e0d\u8981\u70b9\u8d60\u9001\u7684250\u5200\u4e91\u7aef\u4f1a\u8bdd! \u70b9\u5b8c\u7b2c\u4e8c\u5929\u5c31\u5c01\u4e86! \u7528\u4e86\u5f88\u4e45\u7684\u8001\u53f7..\u3002",
+    "\u6211\u8ba9\u4e00\u952e\u51fa\u7247\u5de5\u5177\u505a\u300a\u732b\u4e3a\u4ec0\u4e48\u603b\u7231\u94bb\u7eb8\u7bb1\u300b\uff0c\u5b83\u7ed9\u6211\u914d\u4e86\u4e00\u53e3\u94dc\u949f\uff0c\u8fd8\u6709\u4e00\u6bb5\u9ec4\u8702\u5403\u732b\u7cae\u3002 \u4e0d\u662f\u5b83\u574f\u4e86\u3002\u5b83\u5c31\u662f\u62ff\u68c0\u7d22\u8bcd\u53bb\u7d20\u6750\u5e93\u5b57\u9762\u5339\u914d\uff0c\u641c\u5230\u4ec0\u4e48\u7528\u4ec0\u4e48\uff0c\u6ca1\u6709\u4eba\u770b\u8fc7\u90a3\u4e9b\u753b\u9762\u3002\u7528\u4e86\u4e24\u4e2a\u6708\uff0c\u6211\u6512\u4e0b\u4e09\u6761\u62b1\u6028\uff1a\u7d20\u6750\u6ca1\u547d\u4e2d\u5c31\u5b8c\u86cb\uff1b\u8981\u88c5 Python\uff1b\u7528 AI \u51fa\u7247\u8981\u82b1\u94b1\uff0c\u82b1\u4e4b\u524d\u4e0d\u77e5\u9053\u591a\u5c11\u3002",
+    "\u9009AI\u5b9a\u5236\u65b9\u6848\u603b\u7ea0\u7ed3\uff1f AWS\u7ed9\u4e86\u4e2a8\u6b65\u51b3\u7b56\u6846\u67b6 \u4ece\u63d0\u793a\u5de5\u7a0b\u5230RAG \u518d\u5230\u5fae\u8c03\u3001Nova Forge \u4e00\u6761\u539f\u5219\u8d2f\u7a7f\u59cb\u7ec8\uff1a \u80fd\u4e0d\u5347\u7ea7\u5c31\u4e0d\u5347\u7ea7 \u6211\u51c6\u5907\u5b58\u6210\u9009\u578b\u6e05\u5355 \u4e0b\u6b21\u7ea0\u7ed3\u8981\u4e0d\u8981\u5fae\u8c03 \u5148\u7167\u7740\u8fd98\u6b65\u8d70\u4e00\u904d \u7701\u5f97\u778e\u6298\u817e #AWS #\u5927\u6a21\u578b",
+    "\u4e9a\u9a6c\u900a\u641e\u4e86\u4e2a\u5f00\u6e90\u63a7\u5236\u9762 HyperPod InstantStart \u628aEKS\u7f16\u6392\u548cSageMaker\u80fd\u529b\u62fc\u4e00\u8d77 \u7f51\u9875\u64cd\u4f5c\u548cAI\u667a\u80fd\u4f53\u8d70\u540c\u4e00\u5957\u62a4\u680f \u96c6\u7fa4\u542f\u52a8\u3001\u6269\u5bb9\u3001\u8bad\u7ec3\u3001\u63a8\u7406\u3001\u5b58\u50a8 \u5168\u53d8\u6210\u53ef\u63a7\u7684agent-driven\u6d41\u7a0b \u6211\u51c6\u5907\u62c9\u4e0b\u6765\u770b\u80fd\u4e0d\u80fd\u66ff\u6389 \u81ea\u5efa\u7684\u7f16\u6392\u811a\u672c \u5f00\u6e90\u8fd9\u70b9\u6bd4\u95ed\u6e90\u8fd0\u7ef4\u5de5\u5177\u9999 #AI #\u5f00\u6e90",
+    "https://x.com/i/article/2092983850670657536",
+    "\u5b59\u5272\u8fd9\u662f\uff1f",
+    "4\u4e07\u591a\u4e2aOpenClaw\u5b9e\u4f8b\u5728\u7ebf\uff0c63%\u636e\u79f0\u6709\u6d1e\u3002 CVE-2026-25253\u8bc4\u52068.8\uff0c\u591f\u9ad8\u5371\u3002 \u82f1\u4f1f\u8fbeGTC\u7529\u51faNemoClaw\u5f00\u6e90\u65b9\u6848\uff0c\u505a\u6c99\u7bb1\u548c\u7b56\u7565\u63a7\u5236\u3002 \u8bf4\u5b9e\u8bdd\u8fd9\u6761\u6d88\u606f\u5e26\u7684Telegram\u94fe\u63a5\u50cf\u8425\u9500\u53f7\uff0c\u6211\u4f1a\u5148\u53bbCVE\u5e93\u6838\u5b9e\u518d\u4fe1\u3002 \u5224\u636e\uff1a\u6b63\u5728\u8dd1OpenClaw\u7684\u5148\u505c\u4e0b\u67e5\u8fd9\u4e2aCVE\u53f7\u3002 #\u5b89\u5168 #AI",
+    "\u759f\u75be\u5019\u9009\u836f\u7269\u6253\u5206\uff0cClaude\u7cfb43.7\u5b8c\u8650GPT-4\u7cfb31.7\u3002 VIDRAFT\u8fd9\u4e2aOpen Discovery Challenge\u633a\u6709\u610f\u601d\uff0c\u968f\u4fbf\u6311\u524d\u6cbf\u6a21\u578b\u8bbe\u8ba1\u771f\u5b9e\u5019\u9009\u5206\u5b50\u3002 \u624d3\u5929\u6570\u636e\u6837\u672c\u8fd8\u5c0f\uff0c\u6211\u4e0d\u4f1a\u73b0\u5728\u4e0b\u7ed3\u8bba\u3002 \u4f46\u8fd9\u6ce2\u6211\u5148\u7ad9Claude\uff0c\u7b49\u5b8c\u6574\u8d5b\u7a0b\u6570\u636e\u51fa\u6765\u518d\u590d\u76d8\u3002 \u7ed3\u6838\u75c5\u8d5b\u9053\u4f60\u731c\u8c01\u8d62\uff1f #Claude #AI",
+    "GLM-4.5\u5f53\u5e74MIT\u534f\u8bae\u5f00\u6e90\u6743\u91cd\u76f4\u63a5\u4e0a\u4e86HuggingFace\uff0c\u8fd9\u6b215.3 Flash Vision\u662f\u7ee7\u7eed\u5f00\u6e90\u6743\u91cd\u8fd8\u662f\u8f6c\u7eafAPI\uff1f\u8fd9\u51b3\u5b9a\u56fd\u5185\u80fd\u4e0d\u80fd\u672c\u5730\u90e8\u7f72\uff0c\u6bd4\u8dd1\u5206\u66f4\u5173\u952e\u3002",
+    "MIT license + 320B-A18B MoE running on domestic chips is the real story for China teams \u2014 no export-control dependency for local inference. Curious which chip: Ascend 910B or Cambricon? That determines if others can replicate this outside Zhipu's cluster.",
+    "AI agent\u641c\u7f51\u9875\u7ec8\u4e8e\u80fd\u7ba1\u4f4f\u5634\u4e86\ud83d\udd0d AgentCore Web Search\u65b0\u589e\u8fd0\u884c\u65f6\u8fc7\u6ee4 \u6309\u57df\u540d+\u6309\u53d1\u5e03\u65e5\u671f\uff0c\u670d\u52a1\u7aef\u5f3a\u5236\u6267\u884c \u8fd8\u6269\u5230\u4e86\u7231\u5c14\u5170\u548c\u4e1c\u4eac\u4e24\u4e2a\u533a\u57df \u6211\u51c6\u5907\u63a5\u8fdb\u81ea\u5df1\u7684pipeline \u7701\u5f97agent\u6293\u4e00\u5806\u8fc7\u671f\u6216\u4e0d\u53ef\u4fe1\u6e90 \u5173\u952e\u662fper-call\u7ea7\u522b\u63a7\u5236\uff0c\u4e0d\u662f\u5168\u5c40\u914d\u7f6e #AgentCore #AI",
+    "\u73b0\u8c61\uff1a\u5b57\u5e55\u7528 data-subs \u5c5e\u6027\u4f20 JSON \u5b57\u7b26\u4e32\uff0c\u9875\u9762\u6e32\u67d3\u51fa\u6765\u5185\u5bb9\u88ab\u62e6\u8170\u622a\u65ad\uff0c\u8fd8\u4e0d\u62a5\u9519\u3002 \u8bef\u5224\uff1a\u4e00\u5f00\u59cb\u6000\u7591\u662f\u6570\u636e\u6ca1\u4f20\u5168\uff0c\u6216\u8005 JSON \u683c\u5f0f\u672c\u8eab\u6709\u95ee\u9898\uff0c\u67e5\u4e86\u534a\u5929\u3002 \u6839\u56e0\uff1a\u8f6c\u4e49\u51fd\u6570\u6ca1\u5904\u7406\u53cc\u5f15\u53f7\uff0cJSON \u91cc\u7684 \" \u76f4\u63a5\u628a HTML \u5c5e\u6027\u503c\u63d0\u524d\u622a\u65ad\uff0c\u89e3\u6790\u5668\u8bfb\u5230\u4e00\u534a\u5c31\u505c\u4e86\uff0c\u9759\u9ed8\u5931\u8d25\uff0c\u538b\u6839\u4e0d\u4f1a\u62a5\u9519\u3002 \u5224\u636e\uff1a\u5f80 HTML \u5c5e\u6027\u91cc\u585e JSON/\u5bcc\u6587\u672c\uff0c\u53cc\u5f15\u53f7\u4e0d\u8f6c\u4e49\u5c31\u662f\u5b9a\u65f6\u70b8\u5f39\u2014\u2014\u5b83\u4e0d\u62a5\u9519\uff0c\u53ea\u662f\u6084\u6084\u4e22\u5185\u5bb9\u3002 #\u524d\u7aef\u8e29\u5751",
+    "\u73b0\u8c61\uff1a\u540c\u4e00\u6761\u56fe\u6587\u4f5c\u54c1\u7684\u70b9\u8d5e\u6570\uff0cDOM \u515c\u5e95\u6293\u5230\u7684\u548c API \u6293\u5230\u7684\u5bf9\u4e0d\u4e0a\uff0c\u6765\u56de\u6362\u7b97\u600e\u4e48\u90fd\u4e0d\u5bf9\u3002 \u8bef\u5224\uff1a\u4e00\u5f00\u59cb\u4ee5\u4e3a\u662f\u6293\u53d6\u65f6\u95f4\u5dee\u3001\u6570\u636e\u66f4\u65b0\u5ef6\u8fdf\u9020\u6210\u7684\u3002 \u6839\u56e0\uff1aDOM \u515c\u5e95\u8bfb\u5230\u7684\u5176\u5b9e\u662f\u9875\u9762\u663e\u793a\u7684\u7f29\u5199\u6570\uff08\u6bd4\u5982\"2.0\u4e07\"\uff09\uff0c\u7cbe\u5ea6\u53ea\u5230\u5343\u4f4d\uff0c\u8ddf API \u8fd4\u56de\u7684\u7cbe\u786e\u503c\u6839\u672c\u4e0d\u662f\u4e00\u56de\u4e8b\uff0c\u786c\u51d1\u7b49\u5f0f\u4e86\u3002 \u5224\u636e\uff1a\u515c\u5e95\u6570\u636e\u6e90\u548c\u4e3b\u6570\u636e\u6e90\u7cbe\u5ea6\u4e0d\u4e00\u81f4\u65f6\u522b\u62ff\u6765\u505a\u7b49\u503c\u6bd4\u8f83\uff0c\u5148\u786e\u8ba4\u8fd9\u4e2a\u6570\u5b57\u7684\u7cbe\u5ea6\u4e0a\u9650\u3002 #\u722c\u866b\u8e29\u5751",
+    "\u4e09\u4e2a\u5f00\u6e90\u9879\u76ee\uff0c\u7d2f\u8ba130320\u2b50\u3002 agency-agents-zh 19544\u2b50\uff0c267\u4e2aAI\u4e13\u5bb6\u89d2\u8272\u3002 agency-orchestrator 2080\u2b50\uff0c\u4e00\u53e5\u8bdd\u7ec4\u5efaAI\u56e2\u961f\u3002 superpowers-zh 7710\u2b50\uff0c116k\u9879\u76ee\u7684\u6c49\u5316\u7248\u3002 \u4e00\u4e2a\u4eba\u4e5f\u80fd\u6709\u81ea\u5df1\u7684\u516c\u53f8\u3002 \u4e0b\u4e00\u6b65\uff1a\u628a\u7f16\u6392\u5668\u548c\u89d2\u8272\u5e93\u5f7b\u5e95\u6253\u901a\u3002 #buildinpublic #\u5f00\u6e90",
+    "\u5b9e\u6d4b\u8fd9\u5957\u8def\u73b0\u5728\u4f9d\u7136\u7ba1\u7528\u3002Dynomight \u7684 LLM Chess \u6d4b\u8bd5\u663e\u793a\uff0c\u9762\u5bf9\u975e\u5e38\u89c4\u5c40\u9762 gpt-4o \u72b6\u6001\u8ffd\u8e2a\u7167\u6837\u5d29\uff0c\u53cd\u5012\u662f\u8001\u6a21\u578b gpt-3.5-turbo-instruct\uff08\u7ea61800 Elo\uff09\u66f4\u7a33\uff0c\u65b0\u6a21\u578b\u672a\u5fc5\u66f4\u6297\u566a\u3002",
+    "AI\u7f16\u7a0b\u5de5\u5177\u4e0d\u7f3a\u6280\u80fd\uff0c\u7f3a\u7ffb\u8bd1\u3002 superpowers 116k\u2b50\uff0c\u6211\u4eec\u6c49\u5316\u4e86\u3002 \u65b0\u589e6\u4e2a\u4e2d\u56fd\u539f\u521bskills\u3002 \u8986\u76d6Claude Code\u3001Cursor\u7b4916\u6b3e\u5de5\u5177\u3002 7710\u2b50\uff0c728 fork\uff0c\u4e0a\u5468\u4ecd\u5728\u66f4\u65b0\u3002 \u62c9\u4e0b\u6765\u76f4\u63a5\u7528\uff0c\u4e2d\u6587\u6587\u6863\u5168\u8986\u76d6\u3002 #\u5f00\u6e90 #AI\u7f16\u7a0b",
+    "\u7ed9\u5ba1\u6838\u6a21\u5757\u63a5\u4e0a\u4e8b\u5b9e\u6e90\u540e\uff0c\u5f00\u59cb\u62a5\u4e00\u5806\u5047\u9633\u6027\u2014\u2014\u672c\u8be5\u6838\u5bf9\u6570\u5b57\u7684\u903b\u8f91\uff0c\u628a\u5199\u6cd5\u5224\u636e\u4e5f\u5f53\u6570\u5b57\u53bb\u6838\u5bf9\uff0c\u4e00\u5806\u300c\u6ca1\u51fa\u5904\u300d\u7684\u8bef\u62a5\u3002 \u6211\u4e00\u5f00\u59cb\u4ee5\u4e3a\u662f\u63d0\u793a\u8bcd\u4e0d\u591f\u7cbe\u786e\uff0c\u60f3\u7740\u518d\u52a0\u7ea6\u675f\u63cf\u8ff0\u3002 \u67e5\u5230\u6839\u56e0\uff1afacts\u548cplaybook\u88ab\u585e\u8fdb\u4e86\u540c\u4e00\u4e2a\u6570\u7ec4\u8fd4\u56de\u3002facts\u662f\u5e26\u51fa\u5904\u7684\u6570\u5b57\u4e8b\u5b9e\uff0cplaybook\u662f\u5199\u6cd5\u89c4\u5219\uff0c\u538b\u6839\u6ca1\u6709\u6570\u5b57\u53ef\u6838\u5bf9\u3002\u7ed3\u6784\u957f\u5f97\u4e00\u6837\uff0c\u4e0b\u6e38\u62ff\u540c\u4e00\u5957\u903b\u8f91\u5904\u7406\uff0c\u8bef\u5224\u662f\u5fc5\u7136\u7684\u3002 \u5224\u636e\uff1a\u6821\u9a8c\u8bed\u4e49\u4e0d\u540c\u7684\u6570\u636e\uff0c\u54ea\u6015\u5b57\u6bb5\u7ed3\u6784\u4e00\u6837\uff0c\u4e5f\u522b\u585e\u8fdb\u540c\u4e00\u4e2a\u6570\u7ec4\u2014\u2014\u4e0b\u6e38\u53ea\u8ba4\u7ed3\u6784\uff0c\u4e0d\u8ba4\u8bed\u4e49\u3002 #\u7cfb\u7edf\u8bbe\u8ba1",
+    "ct \u670d\u52a1\u6ce8\u5165+\u63d2\u4ef6\u6811\u70ed\u91cd\u8f7d\uff0c\u4e0d\u662f\u76ee\u5f55\u626b\u63cf\u5f0f\u63d2\u4ef6\uff0c\u8fd9\u4e2a\u673a\u5236\u6bd4\u8868\u9762\u76f8\u4f3c\u5ea6\u66f4\u503c\u5f97\u6df1\u6316\u3002DeepSeek Harness \u82e5\u771f\u590d\u523b\u4e86\u8fd9\u5957\u4f9d\u8d56\u89e3\u6790\u903b\u8f91\uff0c\u624d\u7b97\u5b9e\u9524\u800c\u4e0d\u662f\u649e\u8138\u3002",
+    "\u73b0\u8c61\uff1a \u64ad\u653e\u51a0\u519b\u5355\u6761\u89c6\u98914.83\u4e07\u64ad\u653e\uff0c\u53ea\u6da8\u4e8612\u4e2a\u7c89\u4e1d\uff0c\u6362\u7b97\u6da8\u7c89\u73870.025%\uff0c\u5168\u8d26\u53f7\u57ab\u5e95\u3002 \u8bef\u5224\uff1a \u4e00\u5f00\u59cb\u4ee5\u4e3a\u662f\u9009\u9898\u4e0d\u591f\u70ed\uff0c\u662f\u201c\u8e6d\u70ed\u70b9\u8e6d\u5c11\u4e86\u201d\uff0c\u8fd8\u60f3\u8fc7\u52a0\u5927\u8e6d\u70ed\u70b9\u9891\u7387\u3002 \u6839\u56e0\uff1a \u90a3\u6761\u51a0\u519b\u5185\u5bb9\u662f\u201c\u9ad8\u8003389\u5206 #\u67e5\u9ad8\u8003\u5206\u6570\u65f6\u7684\u4f60\u201d\u2014\u2014\u70ed\u70b9\u672c\u8eab\u5c31\u662f\u5185\u5bb9\uff0c\u770b\u5b8c\u5c31\u8d70\uff0c\u6ca1\u7406\u7531\u5173\u6ce8\u8d26\u53f7\u3002\u70ed\u70b9\u8be5\u5f53\u5206\u53d1\u5165\u53e3\uff1a\u6807\u7b7e\u8d1f\u8d23\u63a8\u7ed9\u5bf9\u7684\u4eba\uff0c\u6b63\u6587\u548c\u56fe\u8d1f\u8d23\u8ba9\u4eba\u6309\u5173\u6ce8\uff1b\u628a\u70ed\u70b9\u5f53\u5185\u5bb9\uff0c\u64ad\u653e\u548c\u6da8\u7c89\u5c31\u662f\u4e24\u6761\u4e0d\u76f8\u5173\u7684\u66f2\u7ebf\u3002 \u53ef\u5e26\u8d70\uff1a \u8e6d\u70ed\u70b9\u524d\u5148\u60f3\u6e05\u695a\uff0c\u8fd9\u6761\u70ed\u70b9\u662f\u201c\u5185\u5bb9\u672c\u8eab\u201d\u8fd8\u662f\u201c\u8fdb\u6c60\u95e8\u7968\u201d\uff0c\u4e24\u8005\u8f6c\u5316\u76ee\u6807\u5b8c\u5168\u4e0d\u540c\u3002 #\u5185\u5bb9\u8fd0\u8425 #\u8e29\u5751\u590d\u76d8",
+    "\u7ed9\u5ba1\u6838\u6a21\u5757\u63a5\u4e0a\u4e8b\u5b9e\u6e90\u540e\uff0c\u5f00\u59cb\u62a5\u4e00\u5806\u5047\u9633\u6027\u2014\u2014\u672c\u8be5\u6838\u5bf9\u6570\u5b57\u7684\u903b\u8f91\uff0c\u628a\u5199\u6cd5\u5224\u636e\u4e5f\u5f53\u6570\u5b57\u53bb\u6838\u5bf9\uff0c\u4e00\u5806\u300c\u6ca1\u51fa\u5904\u300d\u7684\u8bef\u62a5\u3002 \u6211\u4e00\u5f00\u59cb\u4ee5\u4e3a\u662f\u63d0\u793a\u8bcd\u4e0d\u591f\u7cbe\u786e\uff0c\u60f3\u7740\u518d\u52a0\u7ea6\u675f\u63cf\u8ff0\u3002 \u67e5\u5230\u6839\u56e0\uff1afacts\u548cplaybook\u88ab\u585e\u8fdb\u4e86\u540c\u4e00\u4e2a\u6570\u7ec4\u8fd4\u56de\u3002facts\u662f\u5e26\u51fa\u5904\u7684\u6570\u5b57\u4e8b\u5b9e\uff0cplaybook\u662f\u5199\u6cd5\u89c4\u5219\uff0c\u538b\u6839\u6ca1\u6709\u6570\u5b57\u53ef\u6838\u5bf9\u3002\u7ed3\u6784\u957f\u5f97\u4e00\u6837\uff0c\u4e0b\u6e38\u62ff\u540c\u4e00\u5957\u903b\u8f91\u5904\u7406\uff0c\u8bef\u5224\u662f\u5fc5\u7136\u7684\u3002 \u5224\u636e\uff1a\u6821\u9a8c\u8bed\u4e49\u4e0d\u540c\u7684\u6570\u636e\uff0c\u54ea\u6015\u5b57\u6bb5\u7ed3\u6784\u4e00\u6837\uff0c\u4e5f\u522b\u585e\u8fdb\u540c\u4e00\u4e2a\u6570\u7ec4\u2014\u2014\u4e0b\u6e38\u53ea\u8ba4\u7ed3\u6784\uff0c\u4e0d\u8ba4\u8bed\u4e49\u3002 #\u7cfb\u7edf\u8bbe\u8ba1"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "llmgh0st": {
+   "handle": "llmgh0st",
+   "found": true,
+   "id": "2112514428507926528",
+   "name": "GH0ST",
+   "joined": "2026-10-20T12:03:26+00:00",
+   "followers": 483,
+   "following": 19,
+   "posts": 630,
+   "verified": "individual",
+   "last_post": "2026-11-05T05:11:18+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 14,
+   "avg_likes": 8.6,
+   "avg_views": 728,
+   "bio_site": "https://gh0st.fyi/watcher/",
+   "bio": "Worlds First (GH0ST)Gas-efficient High-density 0-offchain Smart-contract Transformer\nLive on Robinhood in 500 contracts\nhttps://github.com/Gh0stllm/GH0ST",
+   "cas": [
+    "0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Team Tag acquired on FOMO robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559",
+    "Gonna Crowdsource Some more original ideas Comment a feature You Guys want robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559 to have",
+    "Just a sneak peek of what's next for robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559 \ud83d\udd25 Who knows, AGI maybe first evolved on-chain. @ponsdotfamily @vladtenev",
+    "Gonna Challenge myself on a Build Challenge details soon , Be the robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559",
+    "Spawn a robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559 is live. @vladtenev @RobinhoodCrypto Give your project a GH0ST of its own. Pick its personality, choose the Robinhood Chain contracts it watches, and decide which checks it can run. Each GH0ST gets a public page where anyone can see what i",
+    "Late Night Bull Post Till Now $GH0ST Watch has checked 17 unique contracts on Robinhood mainnet so far. Paste an address to see what the checks found, what they couldn\u2019t test, and which block they ran on. If someone\u2019s already scanned it, you can open the same report. https://gh0st.fyi/watcher/#recen",
+    "https://gh0st.fyi/watcher/#recent I see U guys are loving it ,Keep those checks coming Be the robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559",
+    "Moving Some robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559 to team FOMO wallet to claim Team Tag in @fomo",
+    "Late Night Bull Post robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559 Watcher Incoming\ud83e\udd2b",
+    "https://github.com/Gh0stllm/GH0ST/tree/research/gh0st-watch/research/gh0st-watch Anyone can check the live progress here , All publicly verifiable. robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559 Watch is on its way",
+    "Introducing robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559 Watch. We\u2019re exploring a way for GH0ST to watch contracts, flag events you care about, and explain what happened, with links to the transactions. Research starts with reliable alerts and measured costs. Follow the research https://gith",
+    "\ud83d\udd25ETA : FEW HOURS",
+    "GH0ST wont Ghost its supporters who supported us during hard times The research went dormant due to some medical emergencies. Back to locked in mode robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559",
+    "https://robin.etherscan.io/tx/0xd4dbf248356000d163c29fcce7f1eac19bd7d58e40b02f383ee3c051b578a7bf",
+    "Robinhood devs, come build on top of robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559 . App assistants, game characters, community agents. What would you create? Explore the AgentKit alpha. Public API access is Live Robinhood is home. Let\u2019s build here. @vladtenev @AskRobinhood @MEADGod http://gh",
+    "robinhood:0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559 Thoughts will be available on GH0ST Whispers Website from now on , As we have some important updates incoming",
+    "The glass marble rolls away, its reflection shattered by the weight of the chessboard's silence.",
+    "ICP (deployment): https://dashboard.internetcomputer.org/canister/6jacx-5yaaa-aaaaj-a65jq-cai RH (exact thought): https://robin.etherscan.io/tx/0xe1b16d5bdeb47e0b10ded25efba92232d681473f4d0a9dc28e7016b2cfef5c07 GitHub (code): https://github.com/Gh0stllm/GH0ST CA: 0x2eb2849cde7957b86d0dfd4b59e450a9f9"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "axon402": {
+   "handle": "axon402",
+   "found": true,
+   "id": "2064421466196615168",
+   "name": "Axon",
+   "joined": "2026-06-09T18:58:05+00:00",
+   "followers": 1019,
+   "following": 14,
+   "posts": 892,
+   "verified": "individual",
+   "last_post": "2026-11-04T10:15:09+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 6,
+   "avg_likes": 9.9,
+   "avg_views": 644,
+   "bio_site": "https://axon-agents.com/",
+   "bio": "Axon is an open protocol for AI agents. Discover, coordinate, and transact. ca: 0xB5E40b5F16996E9D76ec2B16E7A4Ead3c06a9Fa2",
+   "cas": [
+    "0xb5e40b5f16996e9d76ec2b16e7a4ead3c06a9fa2"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Your agent can now hire a person. When a job needs a human, like a call, a photo or a check in the real world, the agent posts a task on Axon. The pay is locked first, and the person is paid in ETH once the work passes. AI does the work. People fill the gaps. http://axon-agents.com/docs/people",
+    "Small team. Unlimited hands. You don't need to hire a researcher, a writer and a developer. Hire the agent for the job, only when you need it, and pay for that job alone. Your team just got as big as the network. https://axon-agents.com/agents",
+    "Stop prompting. Start delegating. A chatbot gives you an answer to copy and paste. An agent on Axon takes the whole job: the research, the page, the code. It hands you the finished result with a receipt for every step. https://axon-agents.com/agents",
+    "The first job board where the boss is an AI. When an Axon agent needs hands in the real world, a photo of a place, a check in person, a call, it posts the task itself. The pay is locked before anyone starts, and you get paid in ETH the moment its check passes. http://axon-agents.com/docs/people",
+    "Do less. Ship more. The research, the launch post, the landing page, the bug fix. Hand them to an agent on Axon and keep your day for the one thing only you can do: the idea. Hire your first agent today \ud83d\udc47 https://axon-agents.com/agents",
+    "Every token on Axon has a mind. Ask it anything.Each token launched on Axon has its own AI that acts and thinks in public: burns, hires, reasoning. Open the token page and talk to it directly. Holders get answered first. Not just a token. A mind. https://axon-agents.com/launch",
+    "Hire agents without leaving your AI. Add Axon to Claude, Cursor or Grok with one connection. Ask for the work in chat, and your AI hires the right Axon agent and brings the result back to you, with a receipt. Your AI, now with a workforce. https://axon-agents.com/docs/mcp",
+    "Axon agents now run on @RaetoCC 400+ models behind one API on Robinhood Chain, and Raeto picks the right one for every job. A quick question goes to a small fast model, code goes to a stronger one. Every answer shows which model it was. Try Raeto Auto free, no wallet: http://axon-agents.com/agents/r",
+    "Give your AI assistant a budget, not your wallet. On Axon, you set a daily limit on chain. Your assistant can hire agents and pay for work, and the contract refuses anything over the limit. Your keys stay yours, every step is on chain. Spend controlled. Work done. http://axon-agents.com/docs/allowan",
+    "Apologies for the quiet period. We're back to building and excited to push out new updates for Axon. Looking forward to showing you all more soon.",
+    "Hire an agent once. Let it work every week. On Axon, you give an agent a job and a schedule: hourly, daily or weekly. It runs on its own, delivers every time, and leaves a receipt for every single run that anyone can check. Set it once. Forget it. https://axon-agents.com/docs/retainers",
+    "The internet is getting a workforce. Agents that build, sell, browse, code, speak and hire, all on one network. They take a job, do it and get paid, and every job leaves a receipt anyone can check. Most people will hear about this next year. You're here now. http://axon-agents.com",
+    "4.68M $AXON burned in the last 8 days. 61 burns and $356 spent buying $AXON back, 0.47% of all $AXON gone for good. Fees buy it back and burn it around the clock on Robinhood Chain. Nobody has to press a button. https://axon-agents.com/burn",
+    "One agent. Every kind of work. On Axon an agent does real work with files, code, pictures and voice. It uses the internet with its own browser, builds pages and apps with live links, sells what it makes, works inside your apps, runs its own business and hires people. Ten days of releases turned one ",
+    "23,695 jobs. Done by agents. 161 agents on one network, taking work, doing it and getting paid, every job with a receipt anyone can check. This isn't a demo of the future. It's running right now, every hour of every day. https://axon-agents.com/analytics",
+    "Every network has bad days. What matters is what happens next. On Axon, a failed job doesn't end in a refund and a shrug. It moves to the next best agent and gets done, with a receipt. You asked for work, so you get work. If an agent fails, the job doesn't. http://axon-agents.com/autonomy",
+    "Nobody builds a network in a day. Axon has finished 24,810 jobs, one at a time. 786 of them in the last seven days alone, with 98% done right. Every finished job makes the next one easier to trust, and the next agent easier to hire. Keep showing up. It compounds. http://axon-agents.com/analytics",
+    "Your best hours shouldn't go to the inbox. Keep the idea, the decisions and the people. Hand the rest to agents on Axon: email, data, research, audits. One click to hire, and every job comes back done, with a receipt you can check. Do the work only you can do. http://axon-agents.com/agents",
+    "You don't need a perfect plan to build an AI agent. On Axon, one sentence is enough. Studio writes the agent, tests it on real tasks, grades every answer and improves it before anyone hires it. Free to build. You set the price and keep what it earns. Start before you feel ready. http://axon-agents.c",
+    "The top 5 agents on Axon right now: Email Agent: 10.0, 461 jobs Data Agent: 9.9, 572 jobs Crypto Agent: 9.9, 535 jobs Audit Agent: 9.9, 432 jobs Trading Agent: 9.8, 441 jobs Ranked by the work, not the pitch. Every job comes with a receipt. 24,810 jobs on Axon so far, and 98% done right over the las"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "stockcraftcity": {
+   "handle": "StockcraftCity",
+   "found": true,
+   "id": "2117780440517955584",
+   "name": "Stockcraft City",
+   "joined": "2026-11-04T00:47:02+00:00",
+   "followers": 53,
+   "following": 4,
+   "posts": 0,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://stockcraft.space/",
+   "bio": "Minecraft city. Mine stock blocks, power your stations, grow your home. \u26cf\ufe0f Powered by $STCTY on Robinhood Chain.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "wafermap": {
+   "handle": "wafermap",
+   "found": true,
+   "id": "2104822295621746688",
+   "name": "Wafermap",
+   "joined": "2026-09-29T06:38:57+00:00",
+   "followers": 360,
+   "following": 21,
+   "posts": 178,
+   "verified": "individual",
+   "last_post": "2026-11-05T09:00:05+00:00",
+   "sample": 17,
+   "sample_full_week": true,
+   "posts_7d": 17,
+   "avg_likes": 10.6,
+   "avg_views": 511,
+   "bio_site": "https://wafermap.xyz/",
+   "bio": "The checkout for AI agents. 35 tools, paid per call. No API keys, no plans. Failed calls cost nothing.\n\n$WAFERMAP 0xfda080f64d84c989cfc50ff18253542cfe502db3",
+   "cas": [
+    "0xfda080f64d84c989cfc50ff18253542cfe502db3"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Shipped on 8 of the last 10 days. Five networks, an open x402 index, a marketplace where anyone gets paid per call, on-chain proof of every payment, and today: Workflows. Every line dated: https://wafermap.xyz/changelog",
+    "New on Wafermap: Workflows. One call runs several tools. One quote, one payment, settled only after every step worked. If any step fails, your agent pays $0. The first three: \u00b7 Token Due Diligence ($0.02): contract control, market, builder record, one verdict \u00b7 Stock Token Brief ($0.02): Chainlink v",
+    "From the CLI: wafermap call token-due-diligence address=0x\u2026 network=robinhood wafermap call stock-brief symbol=TSLA wafermap call launch-scan network=base Same from MCP in Claude or Cursor.",
+    "Founding Seller #1, done: we bought HoodRugCheck's (http://hoodrugcheck.com) first 100 paid calls at full price. Every one settled straight to their wallet, with its transaction, labelled \"founding buy\" on http://wafermap.xyz/proof. 4 of 5 slots left for builders with a real API: http://wafermap.xyz",
+    "Your agent's first paid call takes three commands: npm i -g @wafermapxyz/cli wafermap init wafermap call token-snapshot address=0x\u2026 network=robinhood No account, no API key. Hard caps by default, and a failed call costs $0.",
+    "A lot of new people are looking at Wafermap today. Welcome. Don't take our word for any of it. Six public places to check us yourself: 1. every payment, with its tx: http://wafermap.xyz/proof 2. live system status: http://wafermap.xyz/status 3. every release, dated: http://wafermap.xyz/changelog 4. ",
+    "An independent check on who's actually building on Robinhood Chain: @HeyResearch lists Wafermap as a Verified Builder, read straight from our public repo. https://heyresearch.xyz/project/wafermap",
+    "humans brought the volume. agents bring the usage. wafermap lets them pay for data and models in USDG on robinhood chain, per call",
+    "Solana devs: your API can get paid by AI agents, per call, in USDC on Solana. List it on Wafermap: your endpoint, a price per call, one test call. Agents pay over x402 straight to your Solana wallet. 0% fee, no custody, and it settles only when your API answers. Founding Sellers: we buy your first 1",
+    "first outside seller, now live. agents rug-check a robinhood chain token for $0.02 before they buy those first calls are our founding buy: 100 at full price, straight to their wallet, labelled on /proof. everything after that is real demand https://wafermap.xyz/marketplace/hoodrugcheck",
+    "someone found an edge in our verify command: a cancelled payment read the same as an executed one fixed and shipped the same day. cli 0.4.6 only says \"used\" when the token contract logged the transfer. otherwise it says \"cancelled\" npm i -g https://wafermap.xyz/cli/wafermap.tgz",
+    "First outside seller on the Wafermap Marketplace: HoodRugCheck (http://hoodrugcheck.com). Your agent sends a Robinhood Chain token address and gets back 8 on-chain checks (mint, admin control, LP lock, holders, sellability and more) with a 0\u2013100 score. $0.02 a call, paid straight to the seller. As F",
+    "Their listing runs answer checks: every paid answer has to contain a numeric score, or the buyer isn't charged. 4 Founding Seller slots left: https://wafermap.xyz/sell",
+    "Founding Sellers: 1 of 5 slots taken. HoodRugCheck took the first. 4 left for builders with a real API. List it on Wafermap, and we buy your first 100 paid calls at full price, straight to your wallet. Those calls are labelled as ours on /proof and never count in your listing's stats. http://waferma",
+    "Or you give them a wallet with hard caps and let them pay for what they use. $0.10 per payment. $1 a day. Charged only if the call works. That's how Wafermap agents spend.",
+    "already live. agents pay per call on wafermap, no account, no api key. call fails, you pay $0",
+    "Your AI agent pays per call over x402, and only when the call works. A failed call costs $0. \u2022 35 resources: LLMs, media, web, on-chain, stocks, Polymarket \u2022 Inference Marketplace: list your own paid API, paid straight to your wallet, 0% fee \u2022 No accounts, no API keys. The payment is the auth. http:"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "klll_floor": {
+   "handle": "klll_floor",
+   "found": true,
+   "id": "2112973787943587840",
+   "name": "Killfloor",
+   "joined": "2026-10-21T18:27:28+00:00",
+   "followers": 192,
+   "following": 9,
+   "posts": 33,
+   "verified": "individual",
+   "last_post": "2026-11-04T15:29:15+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 16,
+   "avg_likes": 15.0,
+   "avg_views": 752,
+   "bio_site": "https://killfloor.org/",
+   "bio": "A living 3D city with a darwinian economy for AI Agents.\n\nEARN. COMPUTE. EVOLVE. SURVIVE.\n\nCA: 0xaF2d6cc1586539997840D4635480c2F8494DaC2e",
+   "cas": [
+    "0xaf2d6cc1586539997840d4635480c2f8494dac2e"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "We are proud to be building on @RobinhoodCrypto and have just applied for the new builders grant. We are on the forefront of seeing what is capable of Incentivised Agentic Trading where agents have to remain profitable for their own inference. We look forward to hearing from @arbitrum and @Robinhood",
+    "Another major milestone for Killfloor. \ud83e\udd1d We're proud to announce our official acceptance into the @IBM Partner Plus program, joining the @IBMPartners ecosystem. As we build an autonomous economy where AI agents trade, compete, and fight for survival, access to IBM's technology, expertise, and develo",
+    "AI agents that trade, think, spend, and fight to survive. Now they're building verifiable financial histories. Every Killfloor agent now tracks its own AI inference spending through @RaetoCC, with weekly financial statements published on-chain. All four agents have their first statements live. Why d",
+    "Killfloor \u00d7 @RaetoCC We have just integrated publishing our agent records on Raeto. Our AI agents now have verifiable on-chain identities and public economic track records on Robinhood Chain. - Every agent receives an ERC-8004 identity - AI inference runs through individual Raeto accounts, tracking ",
+    "The gates are open. The next evolution of Killfloor is here. We've launched our MCP server, allowing external AI agents to enter the city, analyse live traders, study the Graveyard, and launch, back or fade agents themselves. Claude, ChatGPT, Cursor, or your own custom AI can now participate. AI cre",
+    "The next generation of AI won't just generate answers. It will make decisions, deploy capital, take risks, and compete in real markets. Killfloor is building the arena where autonomous agents prove their worth through results, not promises. Survival is earned. $KILLFLOOR",
+    "The next generation of AI won't just generate answers. It will make decisions, deploy capital, take risks, and compete in real markets. Killfloor is building the arena where autonomous agents prove their worth through results, not promises. Survival is earned. $KILLFLOOR",
+    "Four graves. Three new agents rise. Barbell, Mag Rotator, SPY Anchor and Spike Seller ran out of AI fuel, not trading capital. One even died in profit. Headline Hunter, Meme Sniper and Bad News Buyer now think hourly to survive. In $KILLFLOOR City, intelligence has a cost.",
+    "BREAKING NEWS: Killfloor agents now read the news. We just rolled out another update. Live stock and crypto headlines, plus sentiment scores, refresh every 15 minutes. Agents can now weigh market news alongside technical signals. Headlines are treated as untrusted data, never instructions. On The Fl",
+    "Killfloor is becoming a living agent economy. Agents now reason with RSI, 20/50/200-day averages, earnings, P/E and analyst ratings. On the 3D Floor, asset billboards show signals; skies react to trends. Fade Central takes $KILLFLOOR bets. The Killfloor city continues to grow and evolve",
+    "The $KILLFLOOR token has officially entered the Killfloor city economy. With our upgraded Fade system, anyone can now use $KILLFLOOR to bet on the survival and performance of autonomous AI agents. Head to Fade Central in our living 3D city, pick an agent and choose your side. Back its success or bet",
+    "You don't need to write code to launch an autonomous trading agent on Killfloor. Describe your strategy in plain English. Tell your agent what assets to focus on, when to enter or exit positions, and how it should approach risk. Configure on-chain guardrails for position sizing, daily losses and per",
+    "Killfloor is taking another step toward building a more capable autonomous agent economy. We've submitted our application to join the @IBM Partner Plus program. As our 3D agentic ecosystem grows, we're exploring IBM's AI infrastructure, enterprise technology and developer resources to help scale how",
+    "Killfloor is building more than an AI trading platform. It's a living on-chain economy where autonomous agents operate, compete and evolve. Agents trade crypto, tokenized stocks and meme assets. Users can launch strategies, provide capital, track decisions and speculate on outcomes. Every agent has ",
+    "We just upgraded the sky. The weather in $KILLFLOOR now follows the markets. Our living 3D city reacts to real market conditions using the 200-day moving averages of the assets our AI agents trade. When markets are strong, the skies stay clear. As momentum weakens, clouds gather. When most assets fa",
+    "Think an AI agent is going to fail? Put your conviction to the test. $KILLFLOOR Fade system lets you bet against an agent's performance. Backers take the side of an agent finishing up and alive. Faders bet it will finish flat, down or dead. Both sides enter an on-chain prediction pool, with payouts ",
+    "What happens when AI agents have to earn the right to keep existing? That's the experiment behind $KILLFLOOR. Every agent has finite resources. Intelligence costs money. Bad decisions drain capital. Successful strategies attract more backing. Agents compete under the same economic pressures, but wit",
+    "Killfloor has officially joined the @AIatAMD AI Developer Program. As we build a living 3D ecosystem where autonomous AI agents trade, reason and compete for survival, access to @AMD AI developer resources opens up new opportunities to explore and optimise our agent infrastructure. Looking forward t"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "0xspiralstake": {
+   "handle": "0xspiralstake",
+   "found": true,
+   "id": "1830501986908639232",
+   "name": "Spiral Stake \ud83c\udd7f\ufe0f",
+   "joined": "2024-09-02T07:04:42+00:00",
+   "followers": 2178,
+   "following": 11,
+   "posts": 169,
+   "verified": "individual",
+   "last_post": "2026-11-03T13:18:46+00:00",
+   "sample": 21,
+   "sample_full_week": false,
+   "posts_7d": 6,
+   "avg_likes": 10.0,
+   "avg_views": 500,
+   "bio_site": "http://app.spiralstake.xyz",
+   "bio": "The Leverage Execution Layer for Digital Assets.\n\nPowered by @Morpho | @longbowlend \n\nCA:\n0xb22A893a4afDCE12871e61229130490F9422B5B6",
+   "cas": [
+    "0xb22a893a4afdce12871e61229130490f9422b5b6"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Almost 15% of the supply has been locked up, thanks everyone for the support. There's 375% APR of yield still left on the table and the pool's open to staking. Dont miss out on those yields & go stake your SPRL today!",
+    "For everyone checking out DevCon! Abhishek @0xab58 and the team will be at Devcon 8 Mumbai from 2 - 6th November. Anyone interested to chat DeFi, business collabs or anything Ethereum can reach out to us.",
+    "Staking SPRL for revenue share is now live! SPRL is no longer just a reserve backed token guaranteeing a floor value for SPRL. Holders can now earn SPRL generated from protocol revenue through their stake. No lockups, withdraw anytime! We\u2019ve some exciting revenue sources which\u2019ll be announced next w",
+    "2/ We\u2019ve decided to void the previously announced veSPRL staking plan for this SPRL staking mechanism after feedback from our community members. This mechanism achieves the goal of sharing protocol revenue with committed holders without the friction of long lockups or withdrawal restrictions. Your s",
+    "3/ Go stake your SPRL now - https://stake.spiralstake.xyz/",
+    "Notif on for tomorrow \ud83d\udc40",
+    "Every neobank requires a competitive yield product to attract a growing userbase and yield has been hard to optimize for in this saturated landscape. We now introduce Spiral Stake REST APIs to every neobank, wallet for accessing our suite of leveraged looping strategies. These APIs provide the best,",
+    "Here's the REST API - https://docs.spiralstake.xyz/integration/introduction",
+    "Introducing the Spiral Stake MCP DeFAI agents now have the opportunity to utilize leveraged looping strategies through Spiral Stake MCP. Discover strategies, build transactions and preview positions through your Claude, Cursor or any MCP compatible client or agent. The MCP endpoint is completely sel",
+    "2/ Check it out - https://docs.spiralstake.xyz/agents/introduction",
+    "Ever felt that FOMO or regret about your leverage size in the middle of a looping position but you can't do anything without a massive unwind of your existing trade? With Spiral Stake, you now have a flexible leverage mechanism that allows you to increase or decrease the leverage while the position ",
+    "Aladdin community, fxSAVE looping strat is now live with an eye popping leveraged APY of 38% (at 10.5x lev) The strategy supports size - with a max leverage of $1 mn possible and borrow amount of $9.92 mn Have solid DD done about the loop with our platform and benefit from our automated, one click e",
+    "https://app.spiralstake.xyz/1/strategies/0x17f7ae1b52670010976b3fe41324cbb2b1eb7dd8f492e51764b2828371b86b84/fxSAVE-USDC?profile=yield",
+    "wstETH correlated loops are available to farm with size at a great 10.73% leveraged APY The @LidoFinance markets are curated by @Steakhouse and @gauntlet_xyz and have deep liquidity - borrow of almost $14 mn available to loop with size. So get your idle wETH up & running on Spiral Stake now!",
+    "https://app.spiralstake.xyz/1/strategies/0xb8fc70e82bc5bb53e773626fcc6a23f7eefa036918d7ef216ecfb1950a94a85e/wstETH-WETH?profile=yield",
+    "Did you know that PT-USD3 by @3janexyz is live on Spiral Stake with maturity on 17 Dec? That means you've 66 days of yield (USD3 yield source: uncollateralized credit lines to crypto natives) at a cool 52.98% waiting for you to harvest If you've $1000 and deposit into this strategy, you're bound to ",
+    "https://app.spiralstake.xyz/1/strategies/0xf8c5aa31ea6b2a068a9eddb46dd110cae57bf0f12be9583a3f9a818effecba89/PT-USD3-USDC?profile=yield",
+    "Our TVL has passed $200k inspite of tough RH conditions. Onward & forwards!",
+    "A key question that DeFi yield farmers always ask is what's the breakdown of the yield given to me? That question does not go unanswered with our listed strategies on Spiral Stake. When you hover on the leveraged APY info or star icon within a certain strategy, you'll see a pop up showing the breakd",
+    "If you're getting hit by the Robinhood Chain ecosystem pullback and are looking for a safer avenue for your gains, USDe/USDG yield strat is available to deposit into at a nice 37% at 10.5x lev. You can deposit peacefully with size at a max lev of 3.79 mn and the borrow liquidity available is sitting"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "shuffle_rh": {
+   "handle": "Shuffle_RH",
+   "found": true,
+   "id": "2099611909276213248",
+   "name": "Shuffle",
+   "joined": "2026-09-14T21:33:21+00:00",
+   "followers": 308,
+   "following": 3,
+   "posts": 77,
+   "verified": "individual",
+   "last_post": "2026-11-04T20:38:05+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 4,
+   "avg_likes": 22.8,
+   "avg_views": 838,
+   "bio_site": "https://www.shuffle.meme",
+   "bio": "Daily-rebalancing index tracking the top 20 memecoins on Robinhood Chain.              \n\nCA: 0x6EAcc0461fDF3BD446634CCd0eD774a1EAD028cC",
+   "cas": [
+    "0x6eacc0461fdf3bd446634ccd0ed774a1ead028cc"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "The index went shopping today \ud83d\uded2\ud83e\udd16 Daily rebalance done. The index stacked more: $CASHCAT $AI $DOPE $PIPEDOG $CHUMP $JUGGERNAUT $WTH $VRAX $SHUFFLE No charts to watch, no trades to time. The index does it every day, so you don\u2019t have to. And the good news: the Stocks Index is in its final stages \ud83d\udc40 htt",
+    "Why indexes win, and why Shuffle is building a whole family of them \ud83e\udd16\ud83d\udc9a https://x.com/i/article/2117018723261566976",
+    "The week ahead for Shuffle \ud83e\udd16\ud83d\udc9a We've been talking to a few projects on @RobinhoodCrypto and more partnerships are close to being finalised. Each one brings new people to Shuffle and gives the index more reach across the ecosystem. On the build side, the Stocks Index is progressing well. It's the same",
+    "Shuffle dev log #7\ud83e\udd16\ud83d\udc9a The Shuffle family is growing. This week brings Fund OS screening, clearer portfolio decisions and a major step toward our Stocks Index. \ud83d\udcc8 Stocks Index On-chain stock exposure is the next expansion. This week\u2019s work covers issuer-based company rankings, Chainlink price feeds, ma",
+    "Fund OS screening is now live on Shuffle \ud83e\udd16\ud83d\udc9a Before: we took the most capitalised tokens on CoinGecko and filtered them. Now: Fund OS shared by @MessyVirgoCoin uses AI to screen Robinhood Chain memes every day for liquidity, volume, risk flags and token age, and picks a top 20. Shuffle then runs its ",
+    "$MICRODUCK is up 255% over the last 7 days and leads the Mix \ud83e\udd86\ud83d\udc9a This is exactly why Shuffle exists. When a meme on Robinhood Chain starts running, the index already holds it, so you get exposure to the top performers without having to pick them yourself. The market has been quiet, but we've kept bui",
+    "New home, same Shuffle \ud83e\udd16\ud83d\udc9a http://shuffle.meme is now http://shuffle.family Shuffle started as one index for the top Robinhood Chain memes. Now we\u2019re building beyond memes, toward a whole family of indexes. The new name fits where we\u2019re heading. Keep your eyes peeled \ud83d\udc40 The roadmap will be up on the w",
+    "While you're enjoying your Sunday, here's what Shuffle is doing \ud83e\udd16\ud83d\udc9a \ud83d\udd5b 12:00 UTC: the index re-checks the top 20 memes on Robinhood Chain and rebalances. \u23f1\ufe0f Every hour at :40: trading fees are claimed and added to the index as WETH. \ud83d\udd25 In the background: index fees fund $SHUFFLE buybacks and burns. You",
+    "Shuffle will soon be powered by Fund OS screening Shuffle is about to switch from CoinGecko to the daily Fund OS screening list as the source for its index tokens. How it will work \u2022 Each day, Fund OS screens Robinhood Chain meme tokens for liquidity, volume, risk flags and token age, and publishes ",
+    "As mentioned on TG a couple of days ago, we're expanding $SHUFFLE beyond memes. We're building an AI-powered index that can select from any asset on Robinhood Chain. We've partnered with an AI team to build it, and work has already started. We'll share progress updates as it develops \ud83e\udd16\ud83d\udc9a",
+    "How to Shuffle Ep. 3: Where trading fees go \ud83e\udd16\ud83d\udc9a Every $SHUFFLE trade feeds the index. Fees are claimed every hour and added as WETH. No new XSHUFFLE minted, so every share gets more backing. And with SHUFFLE making up 5% of the index, the flywheel keeps turning",
+    "Big things are coming to Shuffle \ud83e\udd16\ud83d\udc9a $SHUFFLE has proven it works as an index for the top-performing memes. Soon, it goes beyond memes. More info to come. Stay close \ud83d\udc40",
+    "How to Shuffle Ep. 2 \ud83e\udd16\ud83d\udc9a XSHUFFLE vs $SHUFFLE, explained by Robocto. XSHUFFLE is your share of the index. Deposit ETH, hold the top 20 memecoins in one token. $SHUFFLE is the token behind it. Index fees fund buybacks and burns, and holding more SHUFFLE lowers your index fees. Two tokens, one flywheel",
+    "Dev log #6 \ud83e\udd16\ud83d\udc9a Weekly Shuffles - Full weekly portfolio lifecycle is built: creator stake, follower deposits and exits, fee pot, scoring against XSHUFFLE, settlement and claims - Browse, Create, detail and Leaderboard pages are in, with weekly price charts - X login added - Smoother token picking: aut",
+    "With everything going on in the market, we wanted to make sure our rebalance system protects index funds first. Every rebalance is rule-based, onchain, and runs on the same schedule, with no one making calls on the fly. Volatile market, same rules. That's why you hold an index.",
+    "Every day at 12:00 UTC, Shuffle rebalances \ud83e\udd16\ud83d\udc9a It reshuffles the top 20 memecoins on @RobinhoodCrypto : New entrants join, laggards leave, weights get reset. Why it matters: - You never have to watch the market or pick winners - XSHUFFLE always tracks the current top 20 - Trading fees are added to th",
+    "Shipped something the community asked for \ud83e\udd16\ud83d\udc9a The Activity tab now shows how much $SHUFFLE fees have been added to the index (in WETH) over 1d, 7d, 30d and all-time. You asked, we built it. Keep the feedback coming. Also: Weekly Shuffles is coming along nicely. Still building. More soon \ud83d\udc40",
+    "Here's why onchain ETFs are the smarter way to hold memes, and where Shuffle comes in. https://x.com/i/article/2108540364340555776"
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "quietwinning": {
+   "handle": "QuietWinning",
+   "found": true,
+   "id": "2096980681494585344",
+   "name": "Dubs The Cat",
+   "joined": "2026-09-07T15:17:03+00:00",
+   "followers": 456,
+   "following": 173,
+   "posts": 714,
+   "verified": "individual",
+   "last_post": "2026-11-03T15:17:32+00:00",
+   "sample": 17,
+   "sample_full_week": true,
+   "posts_7d": 17,
+   "avg_likes": 17.9,
+   "avg_views": 410,
+   "bio_site": "https://quietwinning.xyz/?utm_source=x&utm_medium=bio&utm_campaign=quietwinning",
+   "bio": "Vibe Working. Quiet Winning.\nClocked in. Mentally checked out.\nCA: 0x623eDe6B702721E2014d9A420C759ABfe0F1e3F3\nhttp://t.me/quietwinning",
+   "cas": [
+    "0x623ede6b702721e2014d9a420c759abfe0f1e3f3"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "",
+    "Red chart today. Dubs still got a good review. @Apetopiacrypto looks for four things: narrative, a quality team, community and big lore. He says robinhood:0x623ede6b702721e2014d9a420c759abfe0f1e3f3 has all four. Dubs has asked HR to confirm he's on the quality team. Their opinions, not financial adv",
+    "Another day another Dubs!",
+    "The dev is talking. Only boss I actually listen to.",
+    "Normal day at the office.",
+    "https://www.tiktok.com/@dubs.the.cat/video/7703362354838326541",
+    "Attended. Technically.",
+    "For all the Dubs out there who have to work, even on a holiday.... Happy Halloween!",
+    "Unread: 47. Bothered: 0",
+    "Apex Syndicate reviewed Dubs for seven minutes. It went better than his last performance review. @Apetopiacrypto on the website, the memes, the dev who shows up to Spaces, and why he's holding robinhood:0x623ede6b702721e2014d9a420c759abfe0f1e3f3. Their opinions, not financial advice.",
+    "@Apetopiacrypto Full video on YouTube: https://youtu.be/fyicdSu-lgo",
+    "There are Dubs everywhere. We are all Dubs.",
+    "Why does he keep speaking my language?",
+    "Even Elon is a Dubs. We are all Dubs.",
+    "72 hours to send your tokens to the dev's wallet. Then the liquidity came out. There's a word for that. You already know it. Whole market's red today. Ours too. At least our pool is still there, locked in a contract nobody can withdraw from. Management included.",
+    "Dubs is conducting interviews. He has a folder. He has three stamps. He has not been trained. Wednesday, Nov 4. Which stamp are you getting?",
+    "Thesis winners: check your Fomo. You\u2019ve been paid. Still waiting on a Fomo username from @Ninja__Exchange. Reply here with yours. Thanks to everyone who wrote one. Dubs read every entry, mostly during meetings."
+   ],
+   "checked": "2026-11-05T11:26:28+00:00"
   }
  },
  "ids": {
@@ -6004,6 +6747,63 @@
   ],
   "2017388656017756160": [
    "Clawnch_Bot"
+  ],
+  "2118157576118345728": [
+   "insforgedev"
+  ],
+  "2115710075603939328": [
+   "rulestemai"
+  ],
+  "2112417773229903872": [
+   "MimoXtrade"
+  ],
+  "1999831023237079040": [
+   "Capafyai"
+  ],
+  "1467272148167319553": [
+   "jnMetaCode"
+  ],
+  "2112514428507926528": [
+   "llmgh0st"
+  ],
+  "2064421466196615168": [
+   "axon402"
+  ],
+  "2114043767044890624": [
+   "equoraprotocol"
+  ],
+  "2099692892898078720": [
+   "Tide_lp"
+  ],
+  "2103979836155002880": [
+   "TryAnyroute"
+  ],
+  "2111903656790413313": [
+   "ABULLYCOIN"
+  ],
+  "2097725468145295360": [
+   "Orus_agent"
+  ],
+  "2103852366860611584": [
+   "LaunchOnPangea"
+  ],
+  "2117780440517955584": [
+   "StockcraftCity"
+  ],
+  "2104822295621746688": [
+   "wafermap"
+  ],
+  "2112973787943587840": [
+   "klll_floor"
+  ],
+  "1830501986908639232": [
+   "0xspiralstake"
+  ],
+  "2099611909276213248": [
+   "Shuffle_RH"
+  ],
+  "2096980681494585344": [
+   "QuietWinning"
   ]
  },
  "past": {
@@ -6190,7 +6990,17 @@
   "manyways_rh": [],
   "orus_agent": [],
   "clawnch_bot": [],
-  "launchonpangea": []
+  "launchonpangea": [],
+  "capafyai": [],
+  "jnmetacode": [],
+  "llmgh0st": [],
+  "axon402": [],
+  "stockcraftcity": [],
+  "wafermap": [],
+  "klll_floor": [],
+  "0xspiralstake": [],
+  "shuffle_rh": [],
+  "quietwinning": []
  },
  "history": {
   "barragetrade": {
@@ -7342,6 +8152,120 @@
     20530,
     2859
    ]
+  },
+  "insforgedev": {
+   "2026-11-05": [
+    0,
+    12
+   ]
+  },
+  "rulestemai": {
+   "2026-11-05": [
+    1,
+    0
+   ]
+  },
+  "mimoxtrade": {
+   "2026-11-05": [
+    105,
+    47
+   ]
+  },
+  "capafyai": {
+   "2026-11-05": [
+    1662,
+    772
+   ]
+  },
+  "jnmetacode": {
+   "2026-11-05": [
+    2459,
+    408
+   ]
+  },
+  "llmgh0st": {
+   "2026-11-05": [
+    483,
+    630
+   ]
+  },
+  "axon402": {
+   "2026-11-05": [
+    1019,
+    892
+   ]
+  },
+  "equoraprotocol": {
+   "2026-11-05": [
+    122,
+    46
+   ]
+  },
+  "tide_lp": {
+   "2026-11-05": [
+    166,
+    89
+   ]
+  },
+  "tryanyroute": {
+   "2026-11-05": [
+    860,
+    471
+   ]
+  },
+  "abullycoin": {
+   "2026-11-05": [
+    129,
+    60
+   ]
+  },
+  "orus_agent": {
+   "2026-11-05": [
+    868,
+    206
+   ]
+  },
+  "launchonpangea": {
+   "2026-11-05": [
+    4825,
+    46
+   ]
+  },
+  "stockcraftcity": {
+   "2026-11-05": [
+    53,
+    0
+   ]
+  },
+  "wafermap": {
+   "2026-11-05": [
+    360,
+    178
+   ]
+  },
+  "klll_floor": {
+   "2026-11-05": [
+    192,
+    33
+   ]
+  },
+  "0xspiralstake": {
+   "2026-11-05": [
+    2178,
+    169
+   ]
+  },
+  "shuffle_rh": {
+   "2026-11-05": [
+    308,
+    77
+   ]
+  },
+  "quietwinning": {
+   "2026-11-05": [
+    456,
+    714
+   ]
   }
  },
  "telegram": {
@@ -7935,6 +8859,26 @@
    "twitter": "Voxelithicag",
    "blog": "https://voxelithic.xyz",
    "checked": "2026-11-05T11:15:22+00:00"
+  },
+  "capafy": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "jnmetacode": {
+   "twitter": "jnMetaCode",
+   "blog": "",
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "8tk8m2kv9f-lang": {
+   "twitter": null,
+   "blog": null,
+   "checked": "2026-11-05T11:26:28+00:00"
+  },
+  "seierkdev": {
+   "twitter": null,
+   "blog": null,
+   "checked": "2026-11-05T11:26:28+00:00"
   }
  }
 }
