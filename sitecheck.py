@@ -38,12 +38,27 @@ WINNER_NAMES = {"hookr.fun": "Hookr", "orbio.so": "Orbio", "raeto.cc": "Raeto", 
                 "harmonicagent": "Harmonic", "whatthehook": "WTH", "fobo.fun": "Fobo", "deltaliquidity": "Delta",
                 "ubik.gold": "UBIK"}  # UBIK added 5 Nov ($23M peak, $6M now)
 SOCIAL = re.compile(r"(?:^|\.)(?:x\.com|twitter\.com|t\.me|t\.co|github\.com|ponsfamily\.com|pons\.family|reddit\.com|youtube\.com|youtu\.be|"
-                    r"instagram\.com|tiktok\.com|dexscreener\.com|gmgn\.ai|linktr\.ee|discord\.gg|discord\.com|medium\.com)$")
+                    r"instagram\.com|tiktok\.com|dexscreener\.com|gmgn\.ai|linktr\.ee|discord\.gg|discord\.com|medium\.com|"
+                    # news, reference and big-company pages that memes use as their "website" (5 Nov test)
+                    r"wikipedia\.org|bbc\.com|bbc\.co\.uk|sec\.gov|truthsocial\.com|linkedin\.com|facebook\.com|"
+                    r"web\.archive\.org|urbandictionary\.com|globenewswire\.com|gofundme\.com|robinhood\.com|"
+                    r"nvidia\.com|apple\.com|huggingface\.co)$")
+# a token's own page on someone else's platform (Pons, pump.fun, otcdesks, an audit site...): not their website
+_EVM = re.compile(r"0x[0-9a-fA-F]{40}")
+_SOL = re.compile(r"(?<![A-Za-z0-9])[1-9A-HJ-NP-Za-km-z]{32,44}(?![A-Za-z0-9])")
+_TOKEN_PATH = re.compile(r"/(?:coins?|tokens?|address|launchpad|pairs?|swap|trade)/", re.I)
+
+
+def listing_page(url):
+    """True if the link is a token page on another platform (5 Nov test: 86 of 921 links, no winner)."""
+    path = urllib.parse.urlparse(url or "").path or ""
+    return bool(_EVM.search(path) or _SOL.search(path)
+                or (_TOKEN_PATH.search(path + "/") and len(path.strip("/").split("/")) >= 2))
 
 
 def has_site(tok):
     u = tok.get("website") or ""
-    if not u.startswith("http"):
+    if not u.startswith("http") or listing_page(u):
         return False
     host = urllib.parse.urlparse(u).netloc.lower().removeprefix("www.")
     return bool(host) and not SOCIAL.search(host)
@@ -124,8 +139,11 @@ def score(tok, review, w):
         flags.append(f"{w.COPYCAT}: the project's X @{cc['handle']} posts a different address with the same "
                      f"{' and '.join(cc['same'])}: {cc['real']}. It never posts this one, so this is very likely someone copying the name and links")
     if ox["mismatch"]:
-        flags.append(f"{w.X_MISMATCH}: the token links @{ox['token']}, but its website links "
-                     + ", ".join("@" + h for h in ox["site"]) + " — may be someone copying the project's links")
+        if on_site:  # address on their own site: a copy can't do that (TRENCHERS, 5 Nov)
+            reasons["Really theirs"].append("ℹ️ " + w.x_mismatch_note(ox, "website"))
+        else:
+            flags.append(f"{w.X_MISMATCH}: the token links @{ox['token']}, but its website links "
+                         + ", ".join("@" + h for h in ox["site"]) + " — may be someone copying the project's links")
 
     # --- Money and Robinhood Chain (20) ---
     m = re.search(OTHER["money"], text, re.I)

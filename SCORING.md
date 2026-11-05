@@ -77,6 +77,10 @@ Each run checks every token on the site plus the 16 test tokens: the project's o
 
 The page's "Still shipping?" box lists a token only when its status changes. The first run (5 Nov) only saved starting points.
 
+## Ghost market warning (added 5 Nov, warning only)
+
+A token worth **$250k+** with **fewer than 25 trades in 24 hours** gets a 👻 warning on its card: the price may be propped up or stale, and selling near it may not be possible. It never changes the score (user's choice). Why trades and not volume: on 5 Nov, 'under 1% of value traded a day' would have flagged half the real winners (UBIK, GF, HMM, PONS); real winners trade 100–3,000 times a day, while TRENCHERS traded 13 times, WIN 4, AGE 7.
+
 ## Site check: tokens with no GitHub (added 5 Nov)
 
 **Why.** The GitHub score skips every token without a public GitHub, so it missed winners like HOOKR and HARMONIC. On 5 Nov we compared 19 tokens worth $2M+ (with a website) against 65 random Pons tokens that went nowhere (under $20k, a week or more old). Winners' websites let developers and AI agents plug in directly:
@@ -111,6 +115,7 @@ Caveat: these are today's websites, so a winner may have built its developer pag
 Adds up to 105, so a few points can be missed and still score 100 (shown capped at 100).
 
 - **Copycat token = 0** (same rule as above).
-- **Other red flags** (X doesn't match the website, hand-check flags) cap at 25.
+- **Other red flags** (X doesn't match the website, hand-check flags) cap at 25. **Except** (5 Nov, after TRENCHERS): if the token's address is on the project's own website or repo, an X mismatch is a warning only, no cap — a copy can't post its address on the real site. Usually it's an old or renamed X account.
+- **Not their website** (5 Nov): a link to the token's page on another platform (Pons, pump.fun, otcdesks, an audit site; the link holds a token address or a /coin/ /token/ path) or a news/reference page (Wikipedia, BBC, SEC…) doesn't count as the project's website. Tested on 921 links: 86 flagged, no winner.
 - **Address not shown anywhere** (site, docs, recent X posts) caps at 60. Copies paste a real site's links, so an unclaimed token can't score top marks; not lower than 60 because real winners like ORBIO and HARMONIC don't post their address either.
 

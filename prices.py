@@ -27,10 +27,12 @@ def _dex_batch(addrs, fetch_json):
             a = ((p.get("baseToken") or {}).get("address") or "").lower()
             liq = (p.get("liquidity") or {}).get("usd") or 0
             if a and (a not in best or liq > best[a][0]):
-                best[a] = (liq, p.get("marketCap") or p.get("fdv"))
-        for a, (_, m) in best.items():
+                best[a] = (liq, p.get("marketCap") or p.get("fdv"), p)
+        for a, (liq, m, p) in best.items():
             if m:
-                out[a] = (float(m), "exchange")
+                tx = (p.get("txns") or {}).get("h24") or {}
+                out[a] = (float(m), "exchange", {"vol24": (p.get("volume") or {}).get("h24") or 0, "liq": liq,
+                                                 "trades24": (tx.get("buys") or 0) + (tx.get("sells") or 0)})
     return out
 
 
@@ -46,7 +48,7 @@ def update(state, fetch_json, market, now, log=print):
             except Exception:
                 mk = {}
             if mk.get("mcap"):
-                got[key] = (float(mk["mcap"]), mk.get("where") or "Pons launchpad")
+                got[key] = (float(mk["mcap"]), mk.get("where") or "Pons launchpad", {})
     new_rows = []
     for key, r in rows.items():
         score = r["scoring"]["score"]
@@ -60,7 +62,8 @@ def update(state, fetch_json, market, now, log=print):
         t["score"] = score
         if key not in got:
             continue
-        m, where = got[key]
+        m, where, mkt = got[key]
+        t["market"] = mkt  # 24h volume, liquidity, trades: for the ghost-market warning
         if t["start_mcap"] is None:
             t["start_mcap"], t["start_at"] = m, stamp
         if t["high_mcap"] is None or m > t["high_mcap"]:
@@ -98,11 +101,35 @@ def _pct(a, b):
     return (b / a - 1) * 100
 
 
+GHOST_MCAP = 250_000  # ghost market: worth this much...
+GHOST_TRADES = 25     # ...but fewer trades than this in 24h (5 Nov test: winners trade 100-3,000 times a day;
+                      # TRENCHERS 13, WIN 4, AGE 7). Warning only, never changes the score (user, 5 Nov).
+
+
+def ghost(t):
+    """Warning text if the token is worth a lot but hardly trades, else ''."""
+    mk, m = (t or {}).get("market") or {}, (t or {}).get("now_mcap") or 0
+    if m < GHOST_MCAP or "trades24" not in mk or mk["trades24"] >= GHOST_TRADES:
+        return ""
+    return (f"👻 Ghost market: worth {_money(m)} but only {mk['trades24']} trades ({_money(mk.get('vol24') or 0)}) "
+            f"in 24h. The price may be propped up or stale; liquidity is {_money(mk.get('liq'))}, "
+            f"so selling near this price may not be possible.")
+
+
 def card_line(key, db):
     """One line for a token's card."""
     t = db.get(key)
     if not t or t.get("start_mcap") is None:
         return "<p class='xline'>📈 Price: not priced yet</p>"
+    g = ghost(t)
+    if g:
+        return f"<p class='xline' style='color:var(--warn,#b45309)'><b>{g}</b></p>" + card_line_plain(t)
+    return card_line_plain(t)
+
+
+def card_line_plain(t):
+    if t.get("start_mcap") is None:
+        return ""
     ch, hi = _pct(t["start_mcap"], t.get("now_mcap")), _pct(t["start_mcap"], t.get("high_mcap"))
     sign = lambda p: "?" if p is None else f"{p:+.0f}%"
     return (f"<p class='xline'>📈 Price since tracked ({t['start_at'][:16].replace('T',' ')} UTC, score then {t['start_score']}): "

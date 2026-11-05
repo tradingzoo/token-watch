@@ -394,6 +394,8 @@ def project_sources(tok):
     site = tok.get("website") or ""
     if not site.startswith("http") or any(x in site for x in ("x.com/", "twitter.com/", "t.me/")):
         return out
+    if sitecheck.listing_page(site):  # its own page on Pons/pump.fun/etc. lists its address but isn't their site
+        return out
     page, code = website_text(site)
     out.append(("website", site, page))
     out.append(("website code", site, code))  # its script files: links and addresses often live here
@@ -479,6 +481,14 @@ def official_x(tok, srcs):
     mismatch = bool(token_h and site and token_h.lower() not in [h.lower() for h in site])
     return {"site": site, "token": token_h, "official": official, "posted": posted and not young,
             "young": young, "joined": joined, "mismatch": mismatch}
+
+
+def x_mismatch_note(ox, where):
+    acct = x_account(ox["token"]) if ox.get("token") else None
+    gone = not acct or not acct.get("found")
+    return (f"X differs: the token links @{ox['token']}" + (" (that account no longer exists)" if gone else "")
+            + ", but the project now uses " + ", ".join("@" + h for h in ox["site"])
+            + f". The token's address is on their own {where}, so it is theirs: warning only, no cap")
 
 
 COPYCAT = "Copycat token"
@@ -755,8 +765,11 @@ def score(tok, full, found_on, symbol_counts, review):
                      f"{' and '.join(cc['same'])}: {cc['real']}{when}. It never posts this one, so this is very likely "
                      f"someone copying the name and links")
     if ox["mismatch"]:
-        flags.append(f"{X_MISMATCH}: the token links @{ox['token']}, but its website links "
-                     + ", ".join("@" + h for h in ox["site"]) + " — may be someone copying the project's links")
+        if in_repo or in_site:  # a copy can't post its address on the real site or repo (TRENCHERS, 5 Nov)
+            reasons["Really theirs"].append("ℹ️ " + x_mismatch_note(ox, "repo" if in_repo else "website"))
+        else:
+            flags.append(f"{X_MISMATCH}: the token links @{ox['token']}, but its website links "
+                         + ", ".join("@" + h for h in ox["site"]) + " — may be someone copying the project's links")
     linked = []
     if found_on == "website":
         linked.append("website links the repo")
@@ -1131,9 +1144,13 @@ def site_pass(toks, state, reviews):
         mk = market(t["address"])
         t2 = {**t, **{k: v for k, v in mk.items() if v and (k not in ("symbol", "launched") or not t.get(k))}}
         if not sitecheck.has_site(t2):
-            t2 = site_from_x(t2)
-            if not t2:
+            t2x = site_from_x(t2)
+            if not t2x:
+                if key in sites:  # listed before, but its "website" turned out not to be theirs (5 Nov rule)
+                    log(f"  SITE REMOVED: {sites[key].get('symbol')} {sites[key].get('website')} is not the project's own website")
+                    del sites[key]
                 continue
+            t2 = t2x
         try:
             sc = sitecheck.score(t2, reviews.get(key, {}), sys.modules[__name__])
         except Exception as ex:
