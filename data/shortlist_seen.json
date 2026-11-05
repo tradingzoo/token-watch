@@ -31,17 +31,17 @@
   },
   "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d": {
    "symbol": "GAGE",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-05T16:30:25+00:00"
   },
   "0x9cc546a4091f184898c4155c1b9f6290075ef8fb": {
    "symbol": "STAX",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-05T16:30:25+00:00"
   },
   "0xb8fa8010833463aac5595b55b9045479239eff79": {
    "symbol": "WTH",
@@ -59,10 +59,10 @@
   },
   "0xf44702b17d9abd53815f703e772f35e9c71a53af": {
    "symbol": "RAXOL",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-05T16:30:25+00:00"
   },
   "0xaf2d6cc1586539997840d4635480c2f8494dac2e": {
    "symbol": "KILLFLOOR",
@@ -108,17 +108,17 @@
   },
   "0x000050e18ffa3f8f7ad170eb9cef160eb3ed1111": {
    "symbol": "TORCH",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-05T16:30:25+00:00"
   },
   "0x61e0deba0a6bd1d0df92af816739449c861e3cce": {
    "symbol": "SYNTHS",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-05T16:30:25+00:00"
   },
   "0x89b76dcdda801f2e456765742c64950eb2a0c93c": {
    "symbol": "BORRO",
@@ -165,15 +165,15 @@
   "0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e": {
    "symbol": "DARK",
    "in": true,
-   "joined": "2026-11-05T15:46:50+00:00",
-   "first": "2026-11-05T15:46:50+00:00",
+   "joined": "2026-11-05T16:30:25+00:00",
+   "first": "2026-11-05T16:30:25+00:00",
    "left": null
   },
-  "0xf44702b17d9abd53815f703e772f35e9c71a53af": {
-   "symbol": "RAXOL",
+  "0x440e339a46eaa3be8d723c2cbed2a30af74536d5": {
+   "symbol": "SPRING",
    "in": true,
-   "joined": "2026-11-05T15:46:50+00:00",
-   "first": "2026-11-05T15:46:50+00:00",
+   "joined": "2026-11-05T16:30:25+00:00",
+   "first": "2026-11-05T16:30:25+00:00",
    "left": null
   }
  }
