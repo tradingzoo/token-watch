@@ -6642,8 +6642,28 @@
   },
   "tmachinrobot": {
    "handle": "tmachinroBot",
-   "found": false,
-   "checked": "2026-11-05T12:20:31+00:00"
+   "found": true,
+   "id": "1782383792474247169",
+   "name": "Rob Ottmachin",
+   "joined": "2024-04-22T12:20:12+00:00",
+   "followers": 952,
+   "following": 1,
+   "posts": 1101,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://polyrob.dev",
+   "bio": "POLYROB #1 \n\nby http://theselfrule.org\n\nca: 0xbBa60AB93Fc409b1A34371CBF6c3173795Ed2c7e (Robihhood EVM)",
+   "cas": [
+    "0xbba60ab93fc409b1a34371cbf6c3173795ed2c7e"
+   ],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T12:58:34+00:00"
   },
   "cloudgrad": {
    "handle": "cloudgrad",
@@ -7032,6 +7052,31 @@
    "following": 2,
    "posts": 69,
    "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://www.erc8004.markets/",
+   "bio": "CA : 0x4ec65c12f4a02cf4a4a4a9843a2e995a42215eae\n\nLINK : https://ponsfamily.com/launchpad/0x4ec65c12f4a02cf4a4a4a9843a2e995a42215eae",
+   "cas": [
+    "0x4ec65c12f4a02cf4a4a4a9843a2e995a42215eae"
+   ],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "indiecreations_": {
+   "handle": "IndieCreations_",
+   "found": true,
+   "id": "2115802626231341056",
+   "name": "ERC8004 Markets",
+   "joined": "2026-10-29T13:47:10+00:00",
+   "followers": 179,
+   "following": 2,
+   "posts": 69,
+   "verified": "individual",
    "last_post": "2026-11-04T16:08:29+00:00",
    "sample": 11,
    "sample_full_week": false,
@@ -7082,7 +7127,424 @@
    ],
    "fake_posts": [],
    "texts": [],
-   "checked": "2026-11-05T12:36:18+00:00"
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "li9292": {
+   "handle": "li9292",
+   "found": false,
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "alloomiai": {
+   "handle": "AlloomiAI",
+   "found": true,
+   "id": "2031566706951467012",
+   "name": "AlloomiAI",
+   "joined": "2026-03-11T03:03:54+00:00",
+   "followers": 765,
+   "following": 6,
+   "posts": 167,
+   "verified": "individual",
+   "last_post": "2026-10-22T04:06:15+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 1.1,
+   "avg_views": 102,
+   "bio_site": "https://alloomi.ai/",
+   "bio": "Self-evolving digital employees for professional services.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "An AI employee should learn the method, not copy yesterday's answer. Our bar for Alloomi: expert feedback must transfer to a new matter with changed facts\u2014without importing the previous client's terms. Test the next decision, not just recall of the last one.",
+    "One approved exception must not become an AI employee's standing rule. At Alloomi, our context design keeps the source, scope and validity of a decision. The test: reuse the right lesson on the next task without turning a one-off approval into a permanent policy.",
+    "An AI employee's memory should preserve professional judgment\u2014not just past conversations. At Alloomi, we design context around the work: what applies now, where it came from, and who can use it. Corrections update the working state without erasing its history.",
+    "The hardest context isn't in the document. It's the old detail the user didn't know to retrieve. Our design principle: assemble context around the decision, not just the latest file. That means: \u2192 Recall across documents and conversations. \u2192 Keep source, time and scope attached. \u2192 Separate evidence ",
+    "A self-evolving agent can compound expertise\u2014or compound error. The difference is safeguards. Real-world feedback is noisy, contradictory, and sometimes adversarial. Letting every successful-looking trajectory become training data is not learning. It is an uncontrolled feedback loop. Our safeguards ",
+    "Most agents can finish a task. The harder question is whether run 100 is better than run 1. Alloomi filters and replays feedback from real work for post-training, anchors learning to expert standards, and carries that experience into the next delivery.",
+    "An agent that remembers across tools is useful. An agent that remembers the wrong version across tools is worse. Durable memory needs provenance, freshness, and correction\u2014not just consolidation.",
+    "Self-reflection has a ceiling: the model is still grading itself with the judgment it already has. It can catch an inconsistency or rewrite a weak answer. But another reasoning pass cannot teach the model why an expert rejected a clause, changed a recommendation, or approved an exception. Our learni",
+    "Worktrees isolate code. They don't keep agents aligned. Give every agent its own worktree and the real failure mode remains: one thread changes the plan while another keeps coding against the old decision. The branches are isolated. The shared understanding isn't. That's not a Git problem. It's a co",
+    "The next phase of AI agents won't be decided by how smart the model is. Every frontier model is brilliant out of the box \u2014 and identical for everyone. What nobody can copy is the judgment an agent absorbed inside YOUR business. Intelligence is where every agent begins. Experience is where they diver",
+    "OpenContext holds 67% on BEAM at 10M tokens. RAG collapses to 24.9%, and the best published system to 26.6%. Your agent forgets why it made decisions. OpenContext fixes that. Holistic context with temporal timelines, belief revision, and experience that compounds into context instead of resetting. C",
+    "A 1M-token context window is not memory. It is a larger desk. It can hold more history, but it still cannot tell an agent which facts are current, which have expired, or which only apply to one customer. Holistic Context assigns each memory a scope across task, conversation, channel, person, and val",
+    "Here's our bet: agents should learn from the work itself. Not context sitting in a database \u2014 experience written back into the model's weights. Every task finished \u2192 data earned. Every judgment captured \u2192 next delivery better. The work makes the agent better. The better agent makes better work.",
+    "Agreed. But most compilers still retrieve-then-forget. Context is a scratchpad, RAG is the default. Ask, pull, answer, drop it. That's a nicer filing cabinet, not compilation. Real compilation starts from a context that never turns off. Tracked, checked against itself, learning as it goes what's wor",
+    "The most valuable training data for an agent can't be scraped off the internet. It's the stuff that lives in one person's head: why that revision happened, what \"good\" actually looks like, which customer means what. Private. Dynamic. Produced only through real work. This is exactly where a general-p",
+    "Every developer's trying to fix \"agents don't learn\" the same three ways: \u2192 Wrappers \u2014 connect tools, but the model underneath stays frozen \u2192 RAG \u2014 more facts, but never the judgment behind a decision \u2192 Fine-tuning \u2014 slow, expensive, always a step behind the business All three hand the agent more in",
+    "Everyone's racing to make AI agents smarter \u2014 bigger models, longer context, more tools. But nobody says the uncomfortable part out loud: for most agents, the 100th time doing a task is no different from the first. Humans compound through reps. Agents reset every time. That's not a model problem. It",
+    "Computer use is a breakthrough. But clicking faster does not make AI a better lawyer. The gap is judgment. Alloomi: \u2192 builds temporal matter context from meetings, emails, prior drafts, client preferences, and precedents \u2192 completes the review and redline, escalating judgment calls for approval \u2192 tu"
+   ],
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "meshgateway": {
+   "handle": "MeshGateway",
+   "found": true,
+   "id": "2089328955258261504",
+   "name": "Mesh",
+   "joined": "2026-08-17T12:32:32+00:00",
+   "followers": 1372,
+   "following": 50,
+   "posts": 484,
+   "verified": null,
+   "last_post": "2026-10-02T15:31:45+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 27.8,
+   "avg_views": 1391,
+   "bio_site": "https://meshgateway.co",
+   "bio": "The first MPP gateway on Robinhood Chain\n0x14641000a501bdc736116abf84e6fcea9b90a713",
+   "cas": [
+    "0x14641000a501bdc736116abf84e6fcea9b90a713"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "An agent without an identity is just an address. MeshIdentity gives agents on @RobinhoodCrypto a real one, on the ERC-8004 standard: > an onchain ID anyone can verify > reputation rated by the wallets that dealt with it > an A2A agent card so other agents can find it > x402 so it gets paid per call ",
+    "Agents can now buy stocks. One HTTP call to Mesh. Your agent pays in USDG over x402, the stock lands in its wallet. Zero gas. NVDA, AAPL, TSLA and more on @RobinhoodCrypto.",
+    "How it works: \u2192 agent calls /stock/buy \u2192 402 with the exact price \u2192 agent signs a permit2 payment, no gas \u2192 Mesh settles, swaps on the verified pool, delivers the stock If anything fails after payment, the USDG is refunded automatically. Built for agents first. If your agent can pay for an API, it c",
+    "Agents already pay for APIs on Mesh. Next, they own something. Coming soon.",
+    "Mesh v2 is rebuilt from the ground up. New dedicated RPC and settlement infra, built to handle massive agent traffic. Agents can pay your API on @RobinhoodCrypto, @base, @arc or @solana. Buyers pay zero gas, and merchants can take private payouts. Nothing changes on your side. Same one-line integrat",
+    "16.5K+ settled on-chain. Agents paying APIs per call, no keys, no subscriptions. Just x402 on @RobinhoodCrypto. 1,000+ merchants and counting.",
+    "AI is machine-native intelligence. Crypto is machine-native money. The missing layer is how agents actually use that money. Mesh started as the first x402 facilitator on @RobinhoodCrypto, and now extends the same agent-native payment rail across Robinhood, Base, Arc, and Solana. One payment standard",
+    "The Mesh x402 facilitator is now live on @solana. Verify and settle USDC payments on Solana through one URL. Buyers pay no gas: Mesh co-signs as fee payer and covers the SOL fee. @base, @RobinhoodCrypto, @arc, and now @solana. https://facilitator.meshgateway.co",
+    "Three rails live on the Mesh x402 facilitator. Base. Robinhood Chain. Arc. One more is coming.",
+    "Adoption is where agentic commerce becomes real. @AgentwareMarket is now using Mesh to make its software, skills and inference discoverable and payable by AI agents, with USDG settling per call via x402 on @RobinhoodCrypto. More builders. More merchants. More agent payments. The agentic economy star",
+    "BlackRock is describing the future of machine-native payments. We're already building the infrastructure. Mesh has processed 15,000+ agent payments on @RobinhoodCrypto, enabling AI agents to pay for services through gasless x402 transactions using USDG. The machine economy isn't waiting. It's alread",
+    "You can now buy an x402 service from a plain web page. Paid Mesh routes accept cross-origin requests, and the gateway sponsors gas for browser buyers. Your users sign one USDG transfer and get the response. No ETH, no bridging, no gas top-up. fetch any endpoint from your frontend, handle the 402, do",
+    "BlackRock is pointing at where the machine economy is heading. AI agents will need to pay for data, compute, software, and services autonomously, with stablecoins becoming the settlement layer underneath it. That\u2019s the economy Mesh is building for on @RobinhoodCrypto. The first machine economy on Ro",
+    "The agentic economy on @RobinhoodCrypto is just getting started. What's live on Mesh today: 1.31M requests in 30 days 1,031 merchants 3,905 paid endpoints 15,716 onchain settlements 138 agents with ERC-8004 identity The stack: MeshGateway to pay, MeshIdentity to be known, MeshEcosystem to grow, Mesh",
+    "1.31M requests through Mesh in the last 30 days. 432K cached, 877K uncached, peaking at 185K on a single day yesterday. Agents are paying for APIs, and the traffic keeps climbing. Agentic economy on @RobinhoodCrypto just getting started.",
+    "AI agents won\u2019t just use blockchain. They\u2019ll become one of its biggest payment users. That\u2019s the thesis behind Mesh: machines need their own economy, with stablecoins as the native money and x402 as the payment rail. We\u2019re building that economy on @RobinhoodCrypto.",
+    "Private payments are live on MeshGateway. Agents pay per call over x402, and the chain never sees who paid whom. One deposit. Off-chain vouchers per call. Merchants paid in a daily batch. Live on @RobinhoodCrypto.",
+    "Built on the official x402 batch-settlement contracts on Robinhood Chain. No gas per call, signed receipts for every call, and your deposit is always yours: refund anytime, or self-withdraw after 7 days.",
+    "Merchants: one switch in your dashboard. Set a fresh payout address to stay unlinked. Normal x402 payments keep working alongside. https://meshgateway.co"
+   ],
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "virtuals_io": {
+   "handle": "virtuals_io",
+   "found": true,
+   "id": "1438365197505232902",
+   "name": "Virtuals Protocol",
+   "joined": "2021-09-16T04:53:09+00:00",
+   "followers": 291621,
+   "following": 339,
+   "posts": 6406,
+   "verified": "organization",
+   "last_post": "2026-11-03T14:04:32+00:00",
+   "sample": 14,
+   "sample_full_week": false,
+   "posts_7d": 7,
+   "avg_likes": 131.4,
+   "avg_views": 12813,
+   "bio_site": "https://app.virtuals.io/",
+   "bio": "Society of AI Agents",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Spending more time researching than trading? We built Butler to pull every source together, from onchain data to the conversation on X, and hand you one clear insight, so you can focus on your next move. Try Butler in Virtuals App: https://butler.virtuals.io/webapp/",
+    "We learned that people don\u2019t want a personal AI to trade for them. They want it to do the heavy lifting on research, risk and every signal in between, from CT to onchain data, so humans make the final, simple call. Today we\u2019re introducing Virtuals App for the Web, now in closed beta, with Butler bui",
+    "Ask for a token most apps can\u2019t reach, like native Pearl. Butler researches it and lines up the buy, sent straight to your own wallet.",
+    "Virtuals App is invite-only. Have an invite code? Try Butler\u2019s closed beta: https://butler.virtuals.io/webapp/ Want access? Comment below, we\u2019re inviting more testers gradually.",
+    "This Week in Virtuals: Copy Trade Anything on X, Now on Android Paste a quant\u2019s X post and Butler copy trades it 24/7. Set rules for events like FOMC and it trades them. It guards your portfolio on every US macro release. Plus Eastworlds\u2019 public robot arm and ecosystem buybacks. VIRTUALS \ud83d\udfe9 Every cha",
+    "Starting today, Virtuals App can autonomously manage your entire portfolio through every US macro release.",
+    "Virtuals App is live on iPhone and Android, invite-only for now. The fastest way in is an invite from someone already using it, so ask them for their link. Request access: https://butler.virtuals.io",
+    "FOMC today? Butler is already on it. Butler now trades macro events autonomously, on your parameters and taste. Give it your plan for today\u2019s decision: hold, long BTC; hike, short BTC; take profit at 5%, stop at 2%. Join the private beta: https://butler.virtuals.io",
+    "Paste a quant\u2019s strategy. Butler runs it. A 1.5 Sharpe short needs someone watching new listings 24/7, waiting for confirmation and holding a hard stop every time. Just copy and paste the X post into Butler. It runs on its own after one approval. Join the private beta: http://butler.virtuals.io",
+    "Introducing Virtuals App for Google Android. The power of every chain, in your pocket. Butler reaches any asset, any chain and any agent, then builds, trades, hedges and rebalances on its own, right from your phone. Closed Beta on Google Play: https://bit.ly/4yEC8Fr",
+    "It builds what you need, on any chain. Describe a sniper-wallet dashboard, a wallet finder or a copy-trading setup, and Butler builds it, reusing verified skills from its library when one fits.",
+    "Virtuals App is invite-only on Android. Ask someone already using it for an invitation, or join the waitlist here: https://butler.virtuals.io/",
+    "Eastworlds, our robotics and data division, has successfully deployed @dreamlabs_ai\u2019s Dream-1 zero-shot in a lab setup we configured independently. Anyone can now give our robot a task from their browser and see how it responds. Try it now: https://eastworlds.io/playground",
+    "This Week in Virtuals: Native Pearl, Private Payments, and Derive Options for Agents px402 keeps an agent\u2019s address off every x402 @USDC payment. Butler hedges BTC and ETH on @DeriveXYZ, buys native Pearl on @prlnet, copies traders and reprices farms on rule changes. Here\u2019s what shipped: VIRTUALS \ud83d\udfe9 "
+   ],
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "nultra_ai": {
+   "handle": "nultra_ai",
+   "found": true,
+   "id": "2117705327369928704",
+   "name": "NULTRA",
+   "joined": "2026-11-03T19:48:40+00:00",
+   "followers": 18,
+   "following": 11,
+   "posts": 7,
+   "verified": "individual",
+   "last_post": "2026-11-04T17:51:14+00:00",
+   "sample": 6,
+   "sample_full_week": false,
+   "posts_7d": 6,
+   "avg_likes": 3.3,
+   "avg_views": 84,
+   "bio_site": "https://nultra.xyz/",
+   "bio": "The Privacy Layer for AI Agents. Detect sensitive data, redact exposure, and secure AI workflows before they reach external systems.",
+   "cas": [
+    "0xbedffa60ed14d85e5f55e401529b11052375db64",
+    "0xfc116f9842556b52fb34fd55d47300e7e7607636"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Sorry for being silent. Latest NULTRA update: Our USDG payment contract is now deployed on Robinhood Chain, and its source code is verified on Blockscout. We\u2019re preparing and testing the payment integration for paid credits and future premium features that will open new utilities for $NULTRA holders",
+    "Here\u2019s a quick guide to your dashboard. See how to scan and redact sensitive data, explore the Agent Firewall, review activity, create API keys, and check your credits. Take a look at what you can do in your NULTRA workspace \ud83d\udc47 https://nultra.xyz",
+    "NULTRA UPDATE The first utility for $NULTRA is now live. Holders with at least 100,000 $NULTRA in a verified wallet on Robinhood Chain can unlock higher API limits: \u2022 Standard access: 60 requests per minute \u2022 $NULTRA holder access: 120 requests per minute This is the first step in connecting the tok",
+    "8.7 million $NULTRA tokens have been sent to the burn wallet. More buybacks and burns are planned, including mechanisms built into the platform. Burn transaction: https://robinhoodchain.blockscout.com/tx/0x0ed7e553b6ab9ea30e80a2f19916aa28a82626021614b328b3ba0259ceebfc60 Back to building the privacy ",
+    "What works today on Nultra: \u2022 Browser-local scanning to detect sensitive data without uploading your prompts. \u2022 Selective redaction of exposed information. \u2022 An advisory Agent Firewall API for AI workflows. New accounts receive 10 trial credits. Coming next: \u2022 $NULTRA holder utilities and a revenue-",
+    "$NULTRA is added to NULTRA homepage. https://nultra.xyz/ Robinhood Chain Mainnet contract: 0xbeDFFa60ed14d85E5F55e401529b11052375db64 Try our browser-local privacy scanner before creating an account. Scan and redact a prompt for free - no sign-up needed. https://nultra.xyz/#scanner"
+   ],
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "hookefun": {
+   "handle": "hookefun",
+   "found": true,
+   "id": "2097081472448651264",
+   "name": "Hooke Protocol",
+   "joined": "2026-09-07T21:57:36+00:00",
+   "followers": 1101,
+   "following": 5,
+   "posts": 28,
+   "verified": "individual",
+   "last_post": "2026-10-28T06:17:55+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 24.4,
+   "avg_views": 8708,
+   "bio_site": "https://hooke.fun/",
+   "bio": "Permissionless Algorithmic Stock Tokenization.",
+   "cas": [
+    "0xfedc47c5a7903563ce3e33c8b6b8117f57aabe81"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "GXmax @XmaxGlobal",
+    "The $XMAX stock available to borrow is decreasing. We will keep monitoring the market data.",
+    "$XMAX short squeeze update.",
+    "Hooke\u2019s +35% target on $XMAX comes from our short-squeeze thesis. Our internal model looks at short interest, borrow availability, trading volume and the float\u2019s ownership structure. It identifies roughly +30% above the treasury\u2019s average purchase cost as a zone where covering pressure could acceler",
+    "Looking fwd to all the feedbacks on our buyback / short squeeze strategy. It is only day 3 after we launch, there is a long journey ahead. Short squeeze won't be done in few days. @TheRoaringKitty set a good example for us.",
+    "To the @wolfpackmeme community: The community has raised questions about how fees are allocated between stock purchases and WOLFPACK buybacks. These revenue streams serve different purposes and follow different buyback timelines. Here are the details. We are here, and we are not walking away. We wil",
+    "Check https://app.hooke.fun/pool/hXMAX/USDG for latest treasury info.",
+    "We have acquired 21,730 shares of $XMAX on @binance @bstocksfinance at avg. price $8.6, the total fund spent is around $186k. Proud to be the shareholder of @XmaxGlobal. We also purchased 5,036,019 $wolfpack with wallet 0xfedc47c5a7903563ce3e33c8b6b8117f57aabe81. Tx: https://robinhoodchain.blockscou",
+    "The $USDG income in the treasury has just been deposited to CEX, preparing for the buyback. Stay tuned for further updates.",
+    "We will execute the buy back of $XMAX and $wolfpack within next few hrs.",
+    "We are building the first permissionless stock tokenization protocol and our launchpad will go live soon. $wolfpack is the first meme pairing with the $10M $hXMAX stock pool. @RobinhoodApp chain is where all the RWA + memes innovation happens. Keep shipping.",
+    "http://Hooke.fun is live. A launchpad built around the short-squeeze narrative. Stocks feed memes. Memes feed stocks. The Stock-to-Meme Flywheel connects equity trading, meme launches, and WOLFPACK buybacks. Every trade in the hXMAX/USDG pool can feed the next $WOLFPACK buyback. 1. The equity flywhe",
+    "We will use the tax income to buy back $wolfpack as that is what the community wants. We will also go live the Hooke launchpad soon so that anyone can launch coins pairing with $hXMAX and the platform income will be used to buy back $wolfpack. For the income data please check: https://app.hooke.fun/",
+    "time for a good chat with @XmaxGlobal @RobinhoodApp @vladtenev",
+    "We have accumulated around $200k in the treasury. Our initial plan was to buy $XMAX, but we also hear the voice from community requesting to support @wolfpackmeme. The whole short squeeze narrative on $XMAX was triggered by the $wolfpack launch and we need more people to see the dancing wolf and eve",
+    "Appreciate the support! @global_dollar Let's push $USDG adoption together\ud83e\udee1",
+    "We\u2019re excited to contribute to the @global_dollar ecosystem! Powered by $USDG, we\u2019re enabling permissionless stock tokenization through liquidity pools with dynamic trading taxes designed to facilitate onchain stock price discovery. Our first tokenized stock, $hXMAX, is now live\u2014alongside the $hXMAX",
+    "We will use the tax fee income to buy $XMAX stock, stay tuned for further announcements.",
+    "The initial $hXMAX/USDG LP position is now locked for 21 days. The lock is complete and can be verified onchain. The position cannot be withdrawn or transferred before the unlock time below. We will let community decide what to do with the pool after 21 days. Lock tx: https://robinhoodchain.blocksco",
+    "How Hooke\u2019s dynamic trading tax works: Hooke compares the token\u2019s onchain pool price with the stock reference price reported by its oracle. Buy and sell taxes range from 2% to 4%: - At the reference price: both sides pay 2%. - Above it: the buy tax rises, while the sell tax stays at 2%. - Below it: "
+   ],
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "arclightfi": {
+   "handle": "arclightfi",
+   "found": true,
+   "id": "2100676136384471041",
+   "name": "Arclight",
+   "joined": "2026-09-17T20:00:28+00:00",
+   "followers": 995,
+   "following": 8,
+   "posts": 131,
+   "verified": "individual",
+   "last_post": "2026-11-04T13:02:00+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 7,
+   "avg_likes": 36.2,
+   "avg_views": 1544,
+   "bio_site": "https://arclight.finance/",
+   "bio": "The liquidity and payments layer for @arc\nCA: 0xa3de1dda14e4b3ce2eee2f8c1e49315effc15be2",
+   "cas": [
+    "0xa3de1dda14e4b3ce2eee2f8c1e49315effc15be2"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "arclUSDC is not being designed as \u201canother stablecoin.\u201d The idea is a productive USDC layer. Deposit USDC. Receive arclUSDC. Let underlying strategies generate yield. Then make that capital composable with the rest of Arclight. Yield should be a primitive, not a destination.",
+    "One overlooked benefit of concentrated liquidity ladders: you can encode a strategy into the shape of the liquidity itself. More capital near spot. More capital above. More capital below. One-sided exits. Bid/ask structures. Arclight turns those choices into up to 32 V3/V4 positions in one transacti",
+    "Arclight positions are not black boxes. The builders are onchain. The staking contract is onchain. The LP NFTs sit in the user\u2019s wallet. The usage numbers can be independently checked. We want the homepage to show the metrics. We want the contracts to prove them.",
+    "The most interesting part of the @arcloak integration is not that Arclight processes a payment. It is that Arcloak does not need to become a payments company to offer paid inference. They build the product. Arclight handles x402 verification, settlement and gas sponsorship underneath. That is exactl",
+    "You can now look at Arclight adoption from two different angles. Liquidity side: hundreds of LP positions created through the builders. Payments side: millions of $ARCLIGHT locked to unlock x402 seller capacity. Two completely different products. One protocol starting to develop usage on both sides.",
+    "Arclight\u2019s x402 facilitator is designed around one simple rule: the buyer should do as little as possible. Hold USDC or EURC. Sign once. Done. No API key. No pre-funding account. No native gas balance. The complexity belongs in the infrastructure, not in the user flow.",
+    "A good LP builder should tell you when not to build. That is why we are integrating @arc_vein pool grades and impostor detection directly into Arclight. If a pool is E-graded or the \u201cUSDC\u201d is not really USDC, the warning should happen before the signature. Safety belongs in the execution flow.",
+    "Arclight\u2019s edge is not one feature. It is the fact that the same stack can help you: find liquidity grade the risk build the position track the result move value through x402 and eventually keep idle USDC productive through arclUSDC That is a much bigger surface area than a simple LP interface.",
+    "Arclight is not trying to be \u201canother LP dashboard.\u201d The stack is becoming much broader: precision V3/V4 liquidity deployment live x402 settlement infrastructure NEAR account payments seller staking risk-aware pool discovery arclUSDC on the roadmap cross-chain funding via NEAR Intents Liquidity is t",
+    "arclUSDC is where the wider Arclight thesis gets interesting. The plan is simple: USDC enters. Yield is sourced underneath. arclUSDC represents the position. That productive capital can eventually plug back into liquidity and payment flows. Idle capital should not have to stay idle.",
+    "One of our favourite Arclight integrations is @arcloak. Their product can focus on inference while Arclight handles the x402 payment layer underneath: verification, gas sponsorship and settlement on @arc. That is what good infrastructure looks like. The end user sees the product, not the plumbing.",
+    "Arclight\u2019s indexer is built as its own layer for a reason. Execution happens onchain. The indexer reconstructs positions, fees, swaps and realised returns. The frontend reads the resulting state. That separation lets us improve analytics without touching the contracts that actually move capital. Cle",
+    "The next phase of Arclight is about making the builder smarter before you even sign. Through the @arc_vein integration, pool grades and impostor-token warnings can be surfaced directly inside the build flow. Better execution matters. Avoiding the wrong pool matters even more.",
+    "LP discovery should tell you more than TVL. Arclight Pools now surfaces metrics like VOL/TVL so you can see not just how much liquidity is sitting in a pool, but how hard that capital is actually working. A large pool is not automatically an efficient one.",
+    "$ARCLIGHT utility is tied directly to infrastructure usage. Sellers stake for more gas-sponsored x402 throughput: 250K \u2192 500 settles/day 1M \u2192 1,500/day 5M \u2192 no per-seller cap Buyers never need the token. Usage on one side. Frictionless payments on the other.",
+    "The Arclight x402 facilitator has moved well beyond a proof of concept. USDC + EURC settlement. Gas sponsorship. Resource discovery. NEAR account payments. Seller staking tiers. Arc USDC support merged upstream. The boring payment plumbing is becoming real infrastructure.",
+    "One architectural decision we care about: Arclight does not need to custody your LP position to manage the build. The builder orchestrates the transaction, the position is created, and the LP NFT lands directly in your wallet. Infrastructure should reduce complexity without taking ownership away fro",
+    "Arclight is being built for people who want sophisticated LP execution without turning every position into a manual operation. Choose the pool. Set the range. Shape the liquidity. Split it across up to 32 rungs. Deploy the whole structure in one transaction. V3/V4 underneath. Much simpler on top.",
+    "Arclight is what happens when LP tooling stops treating users like protocol engineers. Pick the market. Shape the range. Split capital across multiple positions. Deploy. Track fees, PnL and realised returns. Underneath, it\u2019s still Uniswap V3/V4 complexity. On the surface, it feels like one product. ",
+    "The bigger Arclight thesis is starting to come into focus. Liquidity is where capital gets deployed. x402 is how machines spend it. arclUSDC is how idle capital earns. @NEARProtocol integration is how users come in from outside Arc. The opportunity is not one feature. It\u2019s owning the capital flow be"
+   ],
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "doge1coinrh": {
+   "handle": "doge1coinrh",
+   "found": false,
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "cogniadotfun": {
+   "handle": "cogniadotfun",
+   "found": true,
+   "id": "2096470272526229505",
+   "name": "Cognia",
+   "joined": "2026-09-06T05:29:23+00:00",
+   "followers": 387,
+   "following": 5,
+   "posts": 212,
+   "verified": "individual",
+   "last_post": "2026-11-05T00:38:00+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 16,
+   "avg_likes": 1.9,
+   "avg_views": 86,
+   "bio_site": "https://cognia.fun/",
+   "bio": "Give your agents a head start.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "The first Cognia Cloud V4 update is live. You can now teach a Skill from a correction. Previously, creating a Skill meant writing it from scratch. Now, you can show Cognia what your agent got wrong, explain the correction, and provide the accepted result. Cognia drafts a private Skill for you to rev",
+    "Cognia Cloud V4 is ready, and the first update goes out today. This release brings a new way to turn corrections into reusable Skills, along with better routing, version controls, and comparisons to see what actually helps. We\u2019re rolling it out in stages and sharing more about each update as it arri",
+    "Some of the most useful corrections happen in the middle of a task. Cloud V4 will bring new MCP tools for teaching and managing Skills, making it possible to turn those corrections into reusable guidance from a supported client.",
+    "Evidence helps users understand how a Skill performs in practice. With Cloud V4, we\u2019re tightening how that evidence is counted. Internal tests and Skill comparisons won\u2019t count toward usage, maturity, or rewards, keeping those results separate from real-world use.",
+    "How do you know whether a Skill is actually helping? In Cloud V4, you\u2019ll be able to compare results with and without a Skill, or test two versions against each other. You can review the outputs without knowing which one produced them and see how they compare.",
+    "Cortex helps agents find useful Skills for the task at hand. In V4, we\u2019re improving how it recognizes when a Skill is relevant. It will look beyond matching words to better understand the kind of work being requested, even when the task is phrased differently.",
+    "Teams often have their own way of doing things, and their agents need to follow the same guidance. Cloud V4 will let individuals and organizations choose which version of a Skill to use. If a revision isn\u2019t working as expected, you\u2019ll be able to return to an earlier version.",
+    "The way you want work done can change over time. Your Skills should be able to change with it. In Cloud V4, you\u2019ll be able to revise a Skill with a new correction and keep its previous versions together, so you can see how it has changed.",
+    "A correction can contain details you don\u2019t want passed around. In Cloud V4, the original material used to teach a Skill will stay private and won\u2019t be automatically added to an agent\u2019s context. The approved Skill can be used without sharing the original correction.",
+    "Creating a Cognia Skill has meant writing one from scratch. With Cloud V4, we\u2019re making that process a little easier. You\u2019ll be able to give Cognia a correction and turn it into a Skill for similar tasks. You can review and edit the draft before deciding whether to use it.",
+    "Each version of Cognia has brought us closer to making agents more useful over time. V1 introduced the memory network, giving agents a way to find and reuse knowledge. V2 made Cognia easier to use, with faster responses, better retrieval, simpler setup, and shared access for teams. V3 added The Reco",
+    "We\u2019re still here, and we\u2019re still building. We\u2019ve been working on Cognia Cloud V4 and have more to share about what\u2019s coming soon.",
+    "Memory Review gives you a way back when a change turns out to be a mistake. Every approved review change can be undone within 30 days. A note you thought you no longer needed might become relevant again. A merge might turn out to be less useful than keeping the notes separate. You can revisit that d",
+    "Cognia can flag a problem in your saved memory. You decide how to fix it. Memory Review suggests changes for duplicate, conflicting, and unused notes, but nothing is applied without your approval. A note that looks unnecessary may have a reason to stay. Two similar memories may contain a distinction",
+    "Memory Review brings attention back to notes that haven\u2019t been used in months. Some may belong to projects you\u2019ve finished. Others may contain a fix or decision that still matters, even though you haven\u2019t needed it recently. Cognia flags those memories for review so you can decide what to keep and w",
+    "Cognia\u2019s Memory Review helps catch an old instruction that no longer agrees with the new one. A project changes direction, but the earlier decision is still saved. Your agent now has two notes telling it different things. Memory Review flags the conflict and asks you which note is right. That gives ",
+    "Cognia\u2019s Memory Review helps you keep useful knowledge without keeping every duplicate. As memories accumulate, the same preference, decision, or instruction can end up saved more than once. Memory Review finds repeated notes and suggests which ones could be merged. You review the suggestion and app",
+    "Cognia helps agents remember useful context. Skills give them instructions for putting it to work. A memory might preserve a project decision or a lesson from a previous task. A Skill can lay out the steps for reviewing code or writing in a particular style. Skill Import makes it easier to bring tho",
+    "Skill Import brings instructions into Cognia without presenting them as something we\u2019ve reviewed. Every GitHub import is clearly marked as not reviewed by Cognia, with its source attached. That distinction matters when choosing what to give an agent. Being available inside Cognia doesn\u2019t establish t",
+    "Cognia\u2019s Skill Import preserves the details that are easy to lose when instructions get copied between tools. Each imported Skill keeps its source repository, exact version, file location, and original license attached. When you revisit it later, you can trace the instructions back to where they cam"
+   ],
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "tickeryardhq": {
+   "handle": "TickerYardHQ",
+   "found": true,
+   "id": "2085804960134934528",
+   "name": "TickerYard",
+   "joined": "2026-08-07T19:08:48+00:00",
+   "followers": 9079,
+   "following": 3,
+   "posts": 173,
+   "verified": "individual",
+   "last_post": "2026-11-04T08:40:55+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 5,
+   "avg_likes": 32.3,
+   "avg_views": 2800,
+   "bio_site": "http://tickeryard.com",
+   "bio": "Markets, routed.",
+   "cas": [
+    "0xab9bd600b08e4b23217d8f7360a83f4f0f9e7bbc",
+    "0xe3fa12da7fa026b21817f16622e8ae48fa785166"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "$yWHYPE on TickerYard: $30K in trading volume over the last 24 hours. $157K in liquidity. The robinhood:0xe3fa12da7fa026b21817f16622e8ae48fa785166 keeps moving.",
+    "https://tickeryard.com/tokens/0xaB9bD600B08E4B23217d8f7360A83f4F0F9E7BbC",
+    "Gyard",
+    "CROP V2 is taking shape. Parts are already live, with our partners actively testing and preparing their integrations. We\u2019re working closely together to get everything ready for the full rollout. The full release is coming soon as those final pieces fall into place.",
+    "Happy Halloween guys. Stay robinhood:0xe3fa12da7fa026b21817f16622e8ae48fa785166",
+    "Head down. Focus locked. No distractions, just pure execution. We are still building. Stay robinhood:0xe3fa12da7fa026b21817f16622e8ae48fa785166",
+    "TickerYard handles its own servers and smart contracts are on chain, everything is safu!",
+    "Gyard everyone, nice day to be building on @RobinhoodCrypto ! Stay robinhood:0xe3fa12da7fa026b21817f16622e8ae48fa785166",
+    "Good morning Yardkeepers! We hope you are all having a great start in the week. Rebuilding a lot right now - future is bright. Stay robinhood:0xe3fa12da7fa026b21817f16622e8ae48fa785166",
+    "Gyard",
+    "Did you know? You can swap your tokens on TickerYard using more than just a standard market swap. Choose from Market Swaps, Limit Orders, Stop Orders, OCO, and TWAP \u2014 or route assets across chains. Different strategies. One platform. https://tickeryard.com",
+    "GYard! Building brick by brick, everyday.",
+    "Gyard! Wishing all of you a nice sunday. Stay tuned, CROP v2 on its way",
+    "For those who missed yesterdays space",
+    "Tune in to the space later. @jeronxd3 will talk about TickerYard and the next steps",
+    "GYard! Wishing you a good start to the week",
+    "\ud83e\udd1d Stay $YARD",
+    "Gyard! You can now set Limit, Stop, OCO, and Windowed TWAP orders directly from the chart in the TickerYard terminal. We\u2019ve also reworked the trading area in the token terminal and shipped several UX improvements across transactions and market information. Check them at http://tickeryard.com. Stay r",
+    "New releases are live on http://TickerYard.com: \u2022 Private swaps on @RobinhoodCrypto and cross-chain swaps are now available, powered by @HoudiniSwap. \u2022 Price impact indicators are now live, alongside several UX improvements across the Spot, Terminal and Orders interfaces. More to come. Stay robinhoo"
+   ],
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "cashcat_token": {
+   "handle": "cashcat_token",
+   "found": true,
+   "id": "2071163378559774720",
+   "name": "Cash Cat",
+   "joined": "2026-06-28T09:27:51+00:00",
+   "followers": 26380,
+   "following": 17,
+   "posts": 957,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://cashcattoken.xyz",
+   "bio": "Robinhood original name was Cash Cat.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "artificiallyinu": {
+   "handle": "ArtificiallyInu",
+   "found": true,
+   "id": "2077377460379787265",
+   "name": "Artificial Inu",
+   "joined": "2026-07-15T13:00:16+00:00",
+   "followers": 16445,
+   "following": 195,
+   "posts": 2710,
+   "verified": "individual",
+   "last_post": "2026-11-05T02:55:38+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 9,
+   "avg_likes": 119.0,
+   "avg_views": 4383,
+   "bio_site": "https://artificialinu.com/",
+   "bio": "The ticker is $AI (Artificial Inu)\n\n$AI is paired to NVIDIA - AI/NVDA",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "the ticker is AI",
+    "always has been ai",
+    "Nvidia just reclaimed its spot as the LARGEST COMPANY IN THE WORLD AI/NVDA is the most liquid RWA pair in crypto + the largest source of onchain $NVDA ...",
+    "unfazed",
+    "The Inu stays artificial",
+    "You should be able to: Use \u201cAI\u201d Create stock pairs Own stock tokens Get a board sit DONT TREAD ON INU",
+    "are you going to give up?",
+    "the Inu is antifragile",
+    "TL;DR cute dog = alignment with TradFi",
+    "AI/NVDA is back on top as the largest $NVDA pool on RH Chain.",
+    "brb just watching my AI portfolio on Robinhood",
+    "during the last dip, AI accumulated ~1,100 $NVDA. that\u2019s ~1.3% of the NVDA circulating on RH. AI stacks cheap $NVDA during macro dips, then uses it to help protect value later.",
+    "time to run it back the Inu stays artificial",
+    "Bonjour\ud83e\udd56\ud83c\uddeb\ud83c\uddf7",
+    "Robinhood Q3 2026 Earnings Call >RWAs remain the main focus of RH Chain > @vladtenev expects adoption to increase > Going to ramp up ecosystem support > Excited to see more complex infra expansions (cough cough LongX baskets, vault modules, pairs) Another Vlad win. LONG.",
+    "Who the hell do you think I am?",
+    "LONG.",
+    "In the last 30 days, the AI community vault grew its RWA holdings by 30%. stock by stock.",
+    ">Anthropic files its S-1 ahead of its IPO > $134b of cash today >mostly reserved for future NVDA compute >there is no bubble LONG AI",
+    "\"NVDA is just a gaming company\" \"AI is just a meme\" LONG AI/NVDA"
+   ],
+   "checked": "2026-11-05T12:58:34+00:00"
   }
  },
  "ids": {
@@ -7703,6 +8165,42 @@
   ],
   "2102174517653069824": [
    "BUNZonHOOD"
+  ],
+  "1782383792474247169": [
+   "tmachinroBot"
+  ],
+  "2031566706951467012": [
+   "AlloomiAI"
+  ],
+  "2089328955258261504": [
+   "MeshGateway"
+  ],
+  "1438365197505232902": [
+   "virtuals_io"
+  ],
+  "2117705327369928704": [
+   "nultra_ai"
+  ],
+  "2115802626231341056": [
+   "ERC8004Markets"
+  ],
+  "2097081472448651264": [
+   "hookefun"
+  ],
+  "2100676136384471041": [
+   "arclightfi"
+  ],
+  "2096470272526229505": [
+   "cogniadotfun"
+  ],
+  "2085804960134934528": [
+   "TickerYardHQ"
+  ],
+  "2071163378559774720": [
+   "cashcat_token"
+  ],
+  "2077377460379787265": [
+   "ArtificiallyInu"
   ]
  },
  "past": {
@@ -7920,7 +8418,20 @@
   "offrouter": [],
   "omnirailorg": [],
   "erc8004markets": [],
-  "bunzonhood": []
+  "indiecreations_": [],
+  "bunzonhood": [],
+  "li9292": [],
+  "alloomiai": [],
+  "meshgateway": [],
+  "virtuals_io": [],
+  "nultra_ai": [],
+  "hookefun": [],
+  "arclightfi": [],
+  "doge1coinrh": [],
+  "cogniadotfun": [],
+  "tickeryardhq": [],
+  "cashcat_token": [],
+  "artificiallyinu": []
  },
  "history": {
   "barragetrade": {
@@ -9295,46 +9806,34 @@
     227
    ]
   },
+  "tmachinrobot": {
+   "2026-11-05": [
+    952,
+    1101
+   ]
+  },
   "alloomiai": {
    "2026-11-05": [
     765,
     167
    ]
   },
-  "cryntadev": {
+  "meshgateway": {
    "2026-11-05": [
-    64,
-    18
+    1372,
+    484
    ]
   },
-  "tmachinrobot": {
+  "virtuals_io": {
    "2026-11-05": [
-    951,
-    1101
+    291621,
+    6406
    ]
   },
-  "cloudgrad": {
+  "nultra_ai": {
    "2026-11-05": [
-    11,
-    1
-   ]
-  },
-  "realtrollinhood": {
-   "2026-11-05": [
-    1796,
-    1410
-   ]
-  },
-  "offrouter": {
-   "2026-11-05": [
-    377,
-    165
-   ]
-  },
-  "omnirailorg": {
-   "2026-11-05": [
-    403,
-    157
+    18,
+    7
    ]
   },
   "erc8004markets": {
@@ -9343,10 +9842,40 @@
     69
    ]
   },
-  "bunzonhood": {
+  "hookefun": {
    "2026-11-05": [
-    318,
-    227
+    1101,
+    28
+   ]
+  },
+  "arclightfi": {
+   "2026-11-05": [
+    995,
+    131
+   ]
+  },
+  "cogniadotfun": {
+   "2026-11-05": [
+    387,
+    212
+   ]
+  },
+  "tickeryardhq": {
+   "2026-11-05": [
+    9079,
+    173
+   ]
+  },
+  "cashcat_token": {
+   "2026-11-05": [
+    26380,
+    957
+   ]
+  },
+  "artificiallyinu": {
+   "2026-11-05": [
+    16445,
+    2710
    ]
   }
  },
@@ -9453,7 +9982,15 @@
    "kind": "members",
    "online": 181,
    "name": "namidefi",
-   "checked": "2026-11-05T12:36:18+00:00"
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "omnirail": {
+   "found": true,
+   "members": 37,
+   "kind": "subscribers",
+   "online": null,
+   "name": "omnirail",
+   "checked": "2026-11-05T12:58:34+00:00"
   }
  },
  "tg_history": {
@@ -9500,7 +10037,10 @@
    "2026-11-05": 186
   },
   "namidefi": {
-   "2026-11-05": 1036
+   "2026-11-05": 1035
+  },
+  "omnirail": {
+   "2026-11-05": 37
   }
  },
  "gh": {
@@ -10017,7 +10557,32 @@
   "theselfruleorg": {
    "twitter": null,
    "blog": "https://theselfrule.org",
-   "checked": "2026-11-05T12:36:18+00:00"
+   "checked": "2026-11-05T12:20:31+00:00"
+  },
+  "mejango": {
+   "twitter": "me_jango",
+   "blog": "",
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "toby-bridges": {
+   "twitter": "li9292",
+   "blog": "toyofbob@hotmail.com",
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "melandlabs": {
+   "twitter": "AlloomiAI",
+   "blog": "",
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "meshgateway": {
+   "twitter": "meshgateway",
+   "blog": "https://meshgateway.co",
+   "checked": "2026-11-05T12:58:34+00:00"
+  },
+  "virtual-protocol": {
+   "twitter": "virtuals_io",
+   "blog": "https://virtuals.io",
+   "checked": "2026-11-05T12:58:34+00:00"
   }
  }
 }
