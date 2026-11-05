@@ -95,6 +95,8 @@ Caveat: these are today's websites, so a winner may have built its developer pag
 
 **Older tokens** (added 5 Nov, after MERY and UPOCH). The scanner started on 4 Nov and only read Pons's newest page, so tokens launched earlier, or that took off after leaving that page, were never checked. Each run now also reads Pons's top-by-market-cap and top-by-volume pages. A one-time sweep of older Pons tokens with a trading pool (data/catchup.json) is checked 20 a run until done.
 
+**Tokens not launched on Pons** (added 5 Nov, after FOBO: its own launchpad, $60k to $3.9M, never seen). Each run reads every new Uniswap pool on Robinhood Chain (dexpools.py) and follows the non-Pons tokens, checking their value on DexScreener about 1 hour, 1 day, 3 days and 7 days in. Any worth $25k+ with $5k+ liquidity get the GitHub check and the site check like a Pons token.
+
 **No website on Pons** (added 5 Nov, after UBIK). Some projects list only an X account on Pons. The site check then uses the website on that X profile, but only if the X account itself posts this token's address, so a copy or a token linking someone else's X never gets in. The card says where the site came from.
 
 **Score /100.**

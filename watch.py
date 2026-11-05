@@ -11,7 +11,7 @@ Hand-checked findings go in reviews.json and replace the script's guesses.
 """
 import json, os, re, subprocess, shutil, sys, time, datetime, html, urllib.request, urllib.parse
 from collections import Counter
-import x_info, deployers, test_tokens, prices, shipping, sitecheck
+import x_info, deployers, test_tokens, prices, shipping, sitecheck, dexpools
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "data", "watch_state.json")
@@ -118,10 +118,13 @@ def catchup(state):
     todo = [a for a in todo if not done(a)]
     json.dump(todo, open(CATCHUP, "w", encoding="utf-8"))
     got = {a: pons_one(a) for a in todo[:CATCHUP_PER_RUN]}
+    not_pons = [a for a, t in got.items() if not t]  # launched elsewhere (FOBO-style): build it from DexScreener
+    if not_pons:
+        got.update(dexpools.lookup(not_pons, fetch_json))
     out = [t for t in got.values() if t]
     plain |= {a for a, t in got.items() if t and not (t.get("website") or x_info.parse(t.get("twitter"))[0])}
     state["catchup_plain"] = sorted(plain & set(todo))
-    gone = {a for a, t in got.items() if not t}  # no Pons page: nothing to check
+    gone = {a for a, t in got.items() if not t}  # not on Pons or DexScreener: nothing to check
     if gone:
         todo = [a for a in todo if a not in gone]
         json.dump(todo, open(CATCHUP, "w", encoding="utf-8"))
@@ -1178,6 +1181,12 @@ def main():
         toks.setdefault(t["address"].lower(), t)
     for t in catchup(state):  # older launches from the one-time sweep, a few a run
         toks.setdefault(t["address"].lower(), t)
+    try:  # every new token trading on Robinhood Chain, not only Pons ones (FOBO, 5 Nov)
+        deployers.refresh_index(log)
+        for t in dexpools.run(deployers.rpc, fetch_json, deployers.KNOWN, lambda a: a in state["seen"], NOW, log):
+            toks.setdefault(t["address"].lower(), t)
+    except Exception as ex:
+        log(f"Pool feed: failed ({ex})")
     fix_launch_dates(state)
 
     queue = list(toks.items())
