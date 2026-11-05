@@ -29,6 +29,10 @@ def publish(log=print):
         shutil.copyfile(SITE, os.path.join(HERE, "index.html"))
         log("Live site: page copied, the workflow pushes it")
         return
+    # Since 5 Nov 2026 the scan and the page run on GitHub (.github/workflows/scan.yml).
+    # A run on the PC must not publish too, or the two overwrite each other.
+    log("Live site: not published from the PC (GitHub runs the scan and publishes it now)")
+    return
     if not os.path.isdir(os.path.join(REPO, ".git")):
         log("Live site: skipped (publish folder not set up)")
         return
