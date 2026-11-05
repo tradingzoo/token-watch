@@ -926,7 +926,7 @@ if(top)top.append(' Times are in your time zone ('+Intl.DateTimeFormat().resolve
 
 def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=None, ship=None):
     pdb = pdb or {}
-    rows = sorted(state["github"].values(), key=lambda r: r["first_seen"], reverse=True)
+    rows = sorted(state["github"].values(), key=lambda r: r.get("launched") or r["first_seen"], reverse=True)  # newest launch first
     # newest project first: by launch time (when found, if the launch time isn't known)
     site_rows = sorted(state.get("sites", {}).values(), key=lambda r: r.get("launched") or r["first_seen"], reverse=True)
     xdb, wallets = xdb or {}, wallets or {}
