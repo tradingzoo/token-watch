@@ -162,3 +162,6 @@ Data comes from the still-shipping check (shipping.py). Teams with no public cod
 
 ## Shortlist alerts (5 Nov)
 notify.py sends a phone alert (Telegram and/or ntfy, set as GitHub secrets) when a token joins the Shortlist, with its score, value, signs, contract address and DexScreener link. A token that drops off and returns after 24h+ away is announced again as "back"; shorter dips stay quiet. Tokens already on the list when alerts started don't alert. On the page, a token that joined in the last 24h shows "🆕 joined the list".
+
+## Sound when a token reaches 60+ (5 Nov)
+The page plays a short chime when a token newly scores 60+ on the GitHub or Site check list. Click "🔕 Sound off" (bottom left) to switch it on; browsers only allow sound after a click on the page, so after opening the page, tap anywhere once. The page no longer reloads itself: it fetches the new version every 5 minutes and swaps it in (not while you have a card's details open), which keeps the sound switched on. New 60+ tokens get a popup (bottom right), a blue outline and a count in the tab title. Tokens that reached 60+ since your last visit show in the popup when you open the page. Remembered per browser.

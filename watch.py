@@ -956,6 +956,66 @@ const top=document.querySelector('p.top');
 if(top)top.append(' Times are in your time zone ('+Intl.DateTimeFormat().resolvedOptions().timeZone+'); hover a time to see it in UTC.');
 }catch(e){}})();"""
 
+PAGE_JS = r"""
+// Everything that has to run again after the page refreshes itself in the background.
+window.TW_SHOW=()=>{const tabs=[...document.querySelectorAll('section.tab')],links=[...document.querySelectorAll('#tabs a')];
+let id=(location.hash||'#github').slice(1);if(!tabs.some(t=>t.id===id))id='github';
+tabs.forEach(t=>t.hidden=t.id!==id);links.forEach(a=>a.classList.toggle('on',a.dataset.tab===id));};
+window.TW_INIT=()=>{TW_SHOW();
+document.querySelectorAll('button.wrong').forEach(b=>b.onclick=()=>{const m=b.dataset.msg;
+const done=()=>{b.textContent='Copied: paste it to Claude and add the right repo';};
+if(navigator.clipboard)navigator.clipboard.writeText(m).then(done,()=>prompt('Copy this and paste it to Claude:',m));else prompt('Copy this and paste it to Claude:',m);});
+document.querySelectorAll('button.ca').forEach(b=>b.onclick=()=>{const t=b.textContent,c=b.dataset.ca;
+const ok=()=>{b.textContent='Copied ✓';setTimeout(()=>b.textContent=t,1500);};
+if(navigator.clipboard)navigator.clipboard.writeText(c).then(ok,()=>prompt('Copy:',c));else prompt('Copy:',c);});
+document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.bar button').forEach(x=>x.classList.toggle('on',x===b));
+const f=b.dataset.f;document.querySelectorAll('#github article.card').forEach(c=>{const s=+c.dataset.score,n=c.dataset.new==='1',fl=!!c.querySelector('.flag');
+c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))?'':'none'})});
+TW_TIME();};
+window.addEventListener('hashchange',()=>{TW_SHOW();window.scrollTo(0,0);});
+
+// Sound when a token newly reaches 60+ on the GitHub or Site check list (5 Nov).
+// Browsers only allow sound after a click on the page, so the page no longer reloads itself:
+// it fetches the new version every 5 minutes and swaps it in, which keeps the sound switched on.
+(()=>{
+const KEY='tw-seen60',SKEY='tw-sound',EVERY=5*60*1000;
+const get=k=>{try{return localStorage.getItem(k)}catch(e){return null}},put=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+const high=doc=>[...doc.querySelectorAll('#github article.card,#sites article.card')].filter(c=>+c.dataset.score>=60&&c.dataset.addr)
+  .map(c=>({a:c.dataset.addr,s:(c.querySelector('h2')||{}).firstChild?.textContent.trim()||'?',sc:+c.dataset.score,tab:c.closest('section.tab')?.id||'github'}));
+let ctx=null,on=get(SKEY)==='1',fresh=[];
+const btn=document.getElementById('sound'),toast=document.getElementById('toast');
+const live=()=>ctx&&ctx.state==='running';
+const paint=()=>{btn.textContent=on?(live()?'🔔 Sound on':'🔔 Tap the page to arm sound'):'🔕 Sound off';btn.classList.toggle('on',on&&live());};
+const arm=()=>{if(!on)return;try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();ctx.resume().then(paint);}catch(e){}};
+document.addEventListener('pointerdown',arm);document.addEventListener('keydown',arm);
+const chime=()=>{if(!live())return;const t=ctx.currentTime;[[659.25,0],[880,.16],[1318.5,.32]].forEach(([f,d])=>{
+  const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.value=f;
+  g.gain.setValueAtTime(.0001,t+d);g.gain.exponentialRampToValueAtTime(.22,t+d+.02);g.gain.exponentialRampToValueAtTime(.0001,t+d+.7);
+  o.connect(g).connect(ctx.destination);o.start(t+d);o.stop(t+d+.75);});};
+btn.onclick=e=>{e.stopPropagation();on=!on;put(SKEY,on?'1':'0');if(on){arm();setTimeout(chime,150);}paint();};
+const check=list=>{const prev=get(KEY),seen=new Set(prev?JSON.parse(prev):[]);
+  const out=prev?list.filter(x=>!seen.has(x.a)):[];  // first visit: just remember, no alert
+  put(KEY,JSON.stringify([...new Set([...seen,...list.map(x=>x.a)])].slice(-4000)));return out;};
+const mark=()=>fresh.forEach(x=>document.querySelectorAll(`article.card[data-addr="${x.a}"]`).forEach(c=>c.classList.add('fresh')));
+const show=(add,sound)=>{if(!add.length)return;fresh=[...add,...fresh.filter(f=>!add.some(x=>x.a===f.a))];mark();
+  toast.innerHTML='<b>🔔 New 60+</b> '+fresh.map(x=>`<a href="#${x.tab}">${x.s} <span>${x.sc}</span></a>`).join(' ')+'<button aria-label="Close">×</button>';
+  toast.hidden=false;document.title=`(${fresh.length}) Token Watch`;
+  toast.querySelector('button').onclick=()=>{toast.hidden=true;fresh=[];document.title='Token Watch';
+    document.querySelectorAll('article.fresh').forEach(c=>c.classList.remove('fresh'));};
+  if(sound)chime();};
+TW_INIT();paint();show(check(high(document)),false);  // new since your last visit: shown, no sound (not armed yet)
+setInterval(async()=>{try{
+  const r=await fetch(location.pathname+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)return;
+  const doc=new DOMParser().parseFromString(await r.text(),'text/html'),nm=doc.querySelector('main');if(!nm)return;
+  const add=check(high(doc));
+  // don't pull the page out from under someone reading an open card; the toast still tells them
+  if(!document.querySelector('main section.tab:not([hidden]) article.card details[open]')){const y=scrollY;document.querySelector('main').replaceWith(nm);TW_INIT();mark();scrollTo(0,y);}
+  show(add,true);
+}catch(e){}},EVERY);
+})();
+"""
+
+
 
 def score_bits(sc):
     """(parts, pluses, misses, cap) for a card: points per part, the main pluses and misses, any cap."""
@@ -1307,7 +1367,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         about = (r.get("description") or "").strip()
         about = about if len(about) <= 220 else about[:217].rsplit(" ", 1)[0] + "…"
         (site_cards if is_site else cards).append((r.get("symbol") or "?", sc["score"], f"""
-<article class="card" data-score="{sc['score']}" data-new="{int(new)}">
+<article class="card" data-score="{sc['score']}" data-new="{int(new)}" data-addr="{e(a_.lower())}">
   <header>
     <div class="score {band}" style="--p:{sc['score']}">{sc['score']}<small>/ 100</small></div>
     <div class="title">
@@ -1343,7 +1403,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         joined = {}
     cards, site_cards = fold_copies(cards, e), fold_copies(site_cards, e)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="refresh" content="420"><title>Token Watch</title>
+<title>Token Watch</title>
 <style>
 /* Design system, 5 Nov 2026. Built on:
    - Type: modular scale, ratio 1.25 (major third) from 15px: 12 / 15 / 18.75 / 23.4 / 29.3 (Bringhurst, Elements of Typographic Style)
@@ -1427,8 +1487,18 @@ table.sum{{border-collapse:collapse;width:100%;font-size:13px;margin:var(--s3) 0
 .trow{{border-top:1px solid var(--line);padding:var(--s2) 0}} .trow summary{{color:var(--ink);font-size:14px;font-weight:450}} .trow summary b{{margin-right:var(--s1)}}
 .kv{{color:var(--mute);font-size:13px;margin-left:var(--s2);white-space:nowrap;font-variant-numeric:tabular-nums}} .kv.warn{{color:var(--lo)}}
 button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);background:none;color:var(--mute);border-radius:6px;padding:1px 8px;cursor:pointer;margin-right:6px}}
+.sound{{position:fixed;left:16px;bottom:16px;z-index:9;font:inherit;font-size:13px;font-weight:600;border:1px solid var(--line);background:var(--card);color:var(--mute);border-radius:999px;padding:6px 14px;cursor:pointer;box-shadow:var(--shadow)}}
+.sound.on{{color:var(--hi);border-color:var(--hi)}}
+.toast{{position:fixed;right:16px;bottom:16px;z-index:9;max-width:min(420px,calc(100vw - 32px));background:var(--ink);color:var(--card);border-radius:12px;padding:12px 40px 12px 16px;font-size:14px;box-shadow:0 8px 24px rgb(0 0 0/.25)}}
+.toast a{{color:var(--card);font-weight:650;margin-right:10px;white-space:nowrap}} .toast a span{{opacity:.7;font-weight:500}}
+.toast button{{position:absolute;top:6px;right:8px;border:0;background:none;color:inherit;font-size:18px;cursor:pointer;opacity:.7}}
+.card.fresh{{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in oklab,var(--accent) 25%,transparent)}}
+@media (max-width:600px){{.toast{{bottom:64px}}}}
 @media (max-width:600px){{main{{padding:var(--s5) var(--s4) var(--s7)}} h1{{font-size:var(--t2)}} .card{{padding:var(--s4)}} .card header{{gap:var(--s3)}} .score{{width:52px;height:52px;font-size:var(--t0)}} .score small{{display:none}} .dups{{margin-left:0}}}}
-</style></head><body><main>
+</style></head><body>
+<button id="sound" class="sound" title="Play a sound when a token newly scores 60+ on the GitHub or Site check list">🔕 Sound off</button>
+<div id="toast" class="toast" role="status" hidden></div>
+<main>
 <h1>Token Watch</h1>
 <nav class="tabs" id="tabs">
 <a href="#short" data-tab="short">Shortlist <span class="cnt">{sum(1 for p in picks if len(p[4]) >= SHORT_SIGNS and (p[3].get('trades24') or 0) >= SHORT_TRADES and (p[3].get('liq') or 0) >= SHORT_LIQ)}</span></a>
@@ -1459,20 +1529,8 @@ Prices are tracked so we can see whether this works.</p>
 {skipped_html(state)}
 </section>
 </main><script>
-(()=>{{const tabs=[...document.querySelectorAll('section.tab')],links=[...document.querySelectorAll('#tabs a')];
-const show=()=>{{let id=(location.hash||'#github').slice(1);if(!tabs.some(t=>t.id===id))id='github';
-tabs.forEach(t=>t.hidden=t.id!==id);links.forEach(a=>a.classList.toggle('on',a.dataset.tab===id));}};
-window.addEventListener('hashchange',()=>{{show();window.scrollTo(0,0);}});show();}})();
-document.querySelectorAll('button.wrong').forEach(b=>b.onclick=()=>{{const m=b.dataset.msg;
-const done=()=>{{b.textContent='Copied: paste it to Claude and add the right repo';}};
-if(navigator.clipboard)navigator.clipboard.writeText(m).then(done,()=>prompt('Copy this and paste it to Claude:',m));else prompt('Copy this and paste it to Claude:',m);}});
-document.querySelectorAll('button.ca').forEach(b=>b.onclick=()=>{{const t=b.textContent,c=b.dataset.ca;
-const ok=()=>{{b.textContent='Copied ✓';setTimeout(()=>b.textContent=t,1500);}};
-if(navigator.clipboard)navigator.clipboard.writeText(c).then(ok,()=>prompt('Copy:',c));else prompt('Copy:',c);}});
-document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{{document.querySelectorAll('.bar button').forEach(x=>x.classList.toggle('on',x===b));
-const f=b.dataset.f;document.querySelectorAll('#github article.card').forEach(c=>{{const s=+c.dataset.score,n=c.dataset.new==='1',fl=!!c.querySelector('.flag');
-c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))?'':'none'}})}});
-{LOCAL_TIME_JS}
+window.TW_TIME=()=>{{{LOCAL_TIME_JS}}};
+{PAGE_JS}
 </script></body></html>"""
     os.makedirs(os.path.dirname(SITE), exist_ok=True)
     open(SITE, "w", encoding="utf-8").write(page)
