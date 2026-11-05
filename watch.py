@@ -866,7 +866,8 @@ if(top)top.append(' Times are in your time zone ('+Intl.DateTimeFormat().resolve
 def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=None, ship=None):
     pdb = pdb or {}
     rows = sorted(state["github"].values(), key=lambda r: r["first_seen"], reverse=True)
-    site_rows = sorted(state.get("sites", {}).values(), key=lambda r: (-r["scoring"]["score"], r["first_seen"]))
+    # newest project first: by launch time (when found, if the launch time isn't known)
+    site_rows = sorted(state.get("sites", {}).values(), key=lambda r: r.get("launched") or r["first_seen"], reverse=True)
     xdb, wallets = xdb or {}, wallets or {}
     all_rows = all_rows or rows  # every token on the page, for the same-X checks
     e = html.escape
@@ -909,7 +910,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
     <div class="score {band}">{sc['score']}<small>/100</small></div>
     <div class="title">
       <h2>{e(r.get('symbol') or '?')} {"<span class='new'>NEW</span>" if new else ""}{" <span class='grp'>🔒 private GitHub</span>" if sc.get('private') else ""}</h2>
-      <p class="sub">{e(r.get('name') or '')} · found {e(r['first_seen'][:16].replace('T',' '))} UTC · {e(money(r.get('mcap')))} · {e(r.get('where') or '')}</p>
+      <p class="sub">{e(r.get('name') or '')} · {('launched ' + e(r['launched'][:16].replace('T',' ')) + ' UTC · ') if r.get('launched') else ''}found {e(r['first_seen'][:16].replace('T',' '))} UTC · {e(money(r.get('mcap')))} · {e(r.get('where') or '')}</p>
       <p class="links">{" · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(t)}</a>' for u, t in links)}</p>
     </div>
   </header>
