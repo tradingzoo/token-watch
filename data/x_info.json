@@ -1648,6 +1648,31 @@
    "cas": [],
    "fake_posts": [],
    "checked": "2026-11-05T07:15:24+00:00"
+  },
+  "pfedprog": {
+   "handle": "pfedprog",
+   "found": true,
+   "id": "1188005806484217856",
+   "name": "Pavel",
+   "joined": "2019-10-26T08:14:30+00:00",
+   "followers": 3500,
+   "following": 1395,
+   "posts": 11543,
+   "verified": "individual",
+   "last_post": "2026-08-19T20:11:14+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 5.5,
+   "avg_views": 372,
+   "bio_site": "https://dspyt.com/profile/pavel-fedotov",
+   "bio": "pfp by @ttyl5h",
+   "cas": [
+    "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97"
+   ],
+   "fake_posts": [],
+   "checked": "2026-11-05T07:45:22+00:00"
   }
  },
  "ids": {
@@ -1866,6 +1891,9 @@
   ],
   "1791849524794740736": [
    "flexmeow"
+  ],
+  "1188005806484217856": [
+   "pfedprog"
   ]
  },
  "past": {
@@ -1942,7 +1970,8 @@
   "human_protocol": [],
   "pilotprotocol_": [],
   "0xoffshift": [],
-  "flexmeow": []
+  "flexmeow": [],
+  "pfedprog": []
  },
  "history": {
   "barragetrade": {
@@ -2518,6 +2547,12 @@
     1550,
     243
    ]
+  },
+  "pfedprog": {
+   "2026-11-05": [
+    3500,
+    11543
+   ]
   }
  },
  "telegram": {
@@ -2887,6 +2922,11 @@
    "twitter": "flexmeow",
    "blog": "flexmeow.com",
    "checked": "2026-11-05T07:15:24+00:00"
+  },
+  "pfed-prog": {
+   "twitter": "pfedprog",
+   "blog": "https://dspyt.com/profile/pavel-fedotov/",
+   "checked": "2026-11-05T07:45:22+00:00"
   }
  }
 }

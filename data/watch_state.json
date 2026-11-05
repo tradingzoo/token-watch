@@ -665,7 +665,11 @@
   "0xa27e07503d23d7c658753d1917468005a768fe38": "2026-11-05T07:30:27+00:00",
   "0x8c594bcf4e3f545b92a34f60a6503ffb43703ee9": "2026-11-05T07:30:27+00:00",
   "0x46835c309fab2b1a086b73ac83cba1843219a876": "2026-11-05T07:30:27+00:00",
-  "0x36a080c57c749e57eaf859ce082a368d96264481": "2026-11-05T07:30:27+00:00"
+  "0x36a080c57c749e57eaf859ce082a368d96264481": "2026-11-05T07:30:27+00:00",
+  "0xda201daeb934aab6d87c6c9f38368fb498a25a19": "2026-11-05T07:45:22+00:00",
+  "0x01b22b48aa5111bf08603c0450ad4388dec913f0": "2026-11-05T07:45:22+00:00",
+  "0x09a969fa304ec0a8d6707d23698c1d0ea455c008": "2026-11-05T07:45:22+00:00",
+  "0x4387dd92f6aa259084adf33b8bfc2cc1e0aadfdb": "2026-11-05T07:45:22+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -5349,9 +5353,148 @@
      "people": 0
     }
    }
+  },
+  "0x01b22b48aa5111bf08603c0450ad4388dec913f0": {
+   "address": "0x01b22b48aa5111bf08603c0450ad4388dec913f0",
+   "symbol": "PILOT",
+   "name": "Chain Pilot",
+   "description": "An autonomous assistant for analyzing wallets, smart contracts, and DeFi protocols through a simple, intuitive interface.",
+   "website": "https://dspyt.com/profile/pavel-fedotov",
+   "twitter": "https://x.com/pfedprog",
+   "launched": "2026-11-05T07:42:00+00:00",
+   "mcap": 3949.0699388435796,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T07:45:22+00:00",
+   "scored_at": "2026-11-05T07:45:22+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Pfed-prog/EVMExplorer-Blockscout",
+    "score": 25,
+    "raw_score": 60,
+    "capped": true,
+    "not_theirs": false,
+    "flags": [
+     "PILOT was launched 3 times on Pons"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Maybe earns fees (exchange) \u2014 guess from their text, needs a look (+10)",
+      "\ud83d\udfe1 Says fees go back to the token (burn) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: website (dspyt.com/profile/pavel-fedotov), website code (dspyt.com/profile/pavel-fedotov))"
+     ],
+     "Real code": [
+      "\u2705 134 changes over 438 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 2335 days old, 1 people, 2 stars, 1 forks (+10)"
+     ],
+     "Safety": [
+      "\u2705 Contract addresses listed in the README (+5)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://dspyt.com/profile/pavel-fedotov",
+     "https://dspyt.com/profile/pavel-fedotov"
+    ],
+    "facts": {
+     "commits": 134,
+     "stars": 2,
+     "created": "2024-10-12",
+     "pushed": "2026-03-24",
+     "people": 1
+    }
+   }
+  },
+  "0x4387dd92f6aa259084adf33b8bfc2cc1e0aadfdb": {
+   "address": "0x4387dd92f6aa259084adf33b8bfc2cc1e0aadfdb",
+   "symbol": "NYMRA",
+   "name": "NYMRA",
+   "description": "",
+   "website": "https://nymra.si/",
+   "twitter": "https://x.com/Nymrasi",
+   "launched": "2026-11-05T07:33:08+00:00",
+   "mcap": 4047.557179203773,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T07:45:22+00:00",
+   "scored_at": "2026-11-05T07:45:22+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Nymrasi/plugin",
+    "score": 0,
+    "raw_score": 45,
+    "capped": true,
+    "not_theirs": true,
+    "flags": [
+     "Copycat token: the project's X @Nymrasi posts a different address with the same symbol and name: 0x62946bd33e9967e772d410aef5cbe24c4c45ff8a, launched 04 Nov 17:00 UTC. It never posts this one, so this is very likely someone copying the name and links",
+     "NYMRA was launched 4 times on Pons"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, fees, hook, launchpad) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn, buyback, revenue share) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u26d4 Score set to 0: this token is a copy, the project's X posts a different address (see the warning above)",
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 83 of 83 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u2705 Their website mentions the token: $NYMRA \u2014 \u201c=\"/pay/\">Finance $NYMRA Docs <span class=\"n\u201d (https://nymra.si/)",
+      "\u2705 Their docs mentions the token: $NYMRA \u2014 \u201c=\"/pay/\">Finance $NYMRA Docs <span class=\"n\u201d (https://nymra.si/llms-full.txt)",
+      "\u2705 Their docs mentions the token: $NYMRA \u2014 \u201ct a wallet, and prevent it with private payments on Robinhood Chain. $NYMRA contract address on Robinhood Chain (chain id 4663): 0x62946bd33e9967\u201d (https://nymra.si/llms.txt)",
+      "\u2705 Their docs mentions the token: 'NYMRA token' \u2014 \u201cops, with payment links, invoices, a dashboard and a payment API. - [$NYMRA token](https://nymra.si/docs/token/): $NYMRA on Robinhood Chain, its supply\u201d (https://nymra.si/llms.txt)"
+     ],
+     "Real code": [
+      "\u274c 2 changes over 0 days (+0)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 20 days old, 0 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://nymra.si/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": "0x62946bd33e9967e772d410aef5cbe24c4c45ff8a",
+    "sources_read": [
+     "https://nymra.si/",
+     "https://nymra.si/",
+     "https://nymra.si/llms-full.txt",
+     "https://nymra.si/llms.txt",
+     "https://nymra.si/docs",
+     "https://nymra.si/token/",
+     "https://nymra.si/docs/"
+    ],
+    "facts": {
+     "commits": 2,
+     "stars": 0,
+     "created": "2026-11-02",
+     "pushed": "2026-11-02",
+     "people": 0
+    }
+   }
   }
  },
- "checked_total": 655,
+ "checked_total": 659,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -5842,21 +5985,33 @@
    "ignored": [
     "flexmeow"
    ]
+  },
+  {
+   "when": "2026-11-05T07:45:22+00:00",
+   "address": "0x01b22b48aa5111bf08603c0450ad4388dec913f0",
+   "symbol": "PILOT",
+   "website": "https://dspyt.com/profile/pavel-fedotov",
+   "used": "pfed-prog",
+   "ignored": [
+    "dspytdao",
+    "zloirock/core-js"
+   ]
   }
  ],
  "symbol_counts": {
+  "PILOT": 3,
+  "Stockless": 1,
+  "NYMRA": 4,
   "HYPBLX": 1,
   "RBM": 1,
   "dogeking": 1,
   "MOSQUE": 1,
   "APOGEE": 1,
-  "PILOT": 2,
   "PRVHIR": 1,
   "OAK": 2,
   "WALLE": 1,
   "KERNEL": 1,
   "SLYM": 1,
-  "NYMRA": 4,
   "FLEX": 1,
   "LYXVO": 1,
   "ITA": 1,
@@ -5880,16 +6035,18 @@
   "STACK": 1,
   "ROME": 1,
   "STUDIES": 1,
-  "PACKSW": 1,
-  "CI": 2,
-  "IO": 1,
   "WIF": 1,
   "PONS": 1,
-  "\u5bcc\u8d35": 1,
-  "HARMONIC": 1,
   "ROBINCAT": 1,
   "CHARLIE": 1,
   "SHROOM": 1,
+  "HARMONIC": 1,
+  "ROBINHOOD": 1,
+  "DELTA": 1,
+  "PACKSW": 1,
+  "CI": 2,
+  "IO": 1,
+  "\u5bcc\u8d35": 1,
   "ORBIO": 1,
   "SHORK": 1,
   "SOTTO": 1,
@@ -5924,7 +6081,6 @@
   "TAPDRP": 1,
   "SLING": 1,
   "SLOP": 1,
-  "DELTA": 1,
   "VESPERAI": 1,
   "\u062d\u0644\u0627\u0644": 5,
   "ORBITALS": 1,
@@ -5934,7 +6090,6 @@
   "OPSMAX": 1,
   "APORIX": 1,
   "inshallah": 2,
-  "ROBINHOOD": 1,
   "ZEAL": 1,
   "MTRL": 1,
   "DRKLAB": 1,
@@ -6949,6 +7104,7 @@
   "0x8ab19ae030994319c31ca9f8f09998bb3d99ff57": "2026-11-05T07:30:27+00:00",
   "0xa27e07503d23d7c658753d1917468005a768fe38": "2026-11-05T07:30:27+00:00",
   "0x46835c309fab2b1a086b73ac83cba1843219a876": "2026-11-05T07:30:27+00:00",
-  "0x36a080c57c749e57eaf859ce082a368d96264481": "2026-11-05T07:30:27+00:00"
+  "0x36a080c57c749e57eaf859ce082a368d96264481": "2026-11-05T07:30:27+00:00",
+  "0xda201daeb934aab6d87c6c9f38368fb498a25a19": "2026-11-05T07:45:22+00:00"
  }
 }

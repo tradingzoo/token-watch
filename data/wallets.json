@@ -1105,5 +1105,32 @@
   "after": 0,
   "others": [],
   "wallet_txs": 395
+ },
+ "0x01b22b48aa5111bf08603c0450ad4388dec913f0": {
+  "checked": "2026-11-05T07:46:34+00:00",
+  "pons": true,
+  "wallet": "0x8097c3c354652cb1eeed3e5b65fba2576470678a",
+  "launches": 2,
+  "before": 1,
+  "after": 0,
+  "others": [
+   {
+    "address": "0xb260a8b9245a784ce0c75d6346467fe9f305bcad",
+    "symbol": "DSPYT",
+    "mcap": 3933.2027116744307,
+    "launched": "2026-10-01T17:03:50+00:00"
+   }
+  ],
+  "wallet_txs": 40
+ },
+ "0x4387dd92f6aa259084adf33b8bfc2cc1e0aadfdb": {
+  "checked": "2026-11-05T07:46:34+00:00",
+  "pons": true,
+  "wallet": "0x18b54241c078c2da4f638c09d72d2553c5cf45ae",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 7
  }
 }
