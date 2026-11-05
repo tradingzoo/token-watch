@@ -1028,7 +1028,12 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         xline, xwarn = x_info.facts(r, all_rows, xdb, NOW)
         wline, wwarn = deployers.facts(r, wallets)
         xline = shipping.line(r, ship) + xline + wline + prices.card_line(r["address"].lower(), pdb)
-        flags = "".join(f"<div class='flag'>⚠️ {e(f)}</div>" for f in sc.get("flags", []) + xwarn + wwarn)
+        allw = sc.get("flags", []) + xwarn + wwarn
+        flags = "".join(f"<div class='flag'>⚠️ {e(f)}</div>" for f in allw)
+        ghost_w = prices.ghost(pdb.get(r["address"].lower()))
+        titles = list(dict.fromkeys(re.split(r"[:(—]", f)[0].strip()[:55] for f in allw)) + (["👻 Ghost market"] if ghost_w else [])
+        oneline = (f"<p class='oneline'>⚠️ {len(titles)} warning{'s' if len(titles) > 1 else ''}: {e(' · '.join(titles))}</p>"
+                   if titles else "<p class='oneline ok'>No warnings</p>")
         notes = ("<h4>Checked by hand</h4><ul>" + "".join(f"<li>{md(n)}</li>" for n in sc.get("notes", [])) + "</ul>") if sc.get("notes") else ""
         road = "<h4>Roadmap</h4><ul>" + "".join(f"<li>{md(x)}</li>" for x in sc.get("roadmap", [])) + "</ul>"
         band = "hi" if sc["score"] >= 60 else ("mid" if sc["score"] >= 40 else "lo")
@@ -1052,12 +1057,15 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
       <p class="links">{" · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(t)}</a>' for u, t in links)}</p>
     </div>
   </header>
+  {oneline}
+  <details class="more"><summary>Details and why this score</summary>
   {xline}
   {flags}
   <p class="desc">{e((r.get('description') or '')[:260])}</p>
   {why_short(sc, e)}
   <details><summary>All reasons</summary>{''.join(groups)}{notes}{road}
   {meta_html}</details>
+  </details>
 </article>"""))
     cards, site_cards = fold_copies(cards, e), fold_copies(site_cards, e)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -1081,6 +1089,7 @@ a{{color:var(--accent)}} .new{{font-size:11px;background:var(--accent);color:var
 .chips{{display:flex;flex-wrap:wrap;gap:5px;align-items:center;font-size:13px}} .chip{{border:1px solid var(--line);border-radius:6px;padding:0 6px}}
 .chip.zero{{color:var(--mute)}} .why .cap{{margin:4px 0 0;font-size:13px;color:var(--mid)}}
 .dups{{margin:-8px 0 14px 12px}} .dups summary{{font-size:14px}} .dups .card{{opacity:.85}}
+.oneline{{margin:8px 0 0;font-size:14px;color:var(--lo)}} .oneline.ok{{color:var(--mute)}} .more>summary{{margin-top:6px}}
 .desc{{margin:10px 0 6px}} summary{{cursor:pointer;color:var(--accent)}} h4{{margin:12px 0 2px;font-size:14px}}
 .xline{{margin:8px 0 0;font-size:13px;color:var(--mute)}} .ship{{color:var(--ink)}}
 .test h2{{margin:0 0 4px}} table.sum{{border-collapse:collapse;width:100%;font-size:13px;margin:10px 0;display:block;overflow-x:auto}}
