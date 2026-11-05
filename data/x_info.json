@@ -1889,7 +1889,7 @@
   "trenchersio": {
    "handle": "trenchersio",
    "found": false,
-   "checked": "2026-11-05T09:30:29+00:00",
+   "checked": "2026-11-05T09:36:41+00:00",
    "cas": [],
    "fake_posts": []
   },
@@ -1979,11 +1979,48 @@
    "checked": "2026-11-05T09:18:38+00:00"
   },
   "hyperdex_app": {
-   "handle": "hyperdex_app",
-   "found": false,
-   "checked": "2026-11-05T09:30:29+00:00",
-   "cas": [],
-   "fake_posts": []
+   "handle": "Hyperdex_app",
+   "found": true,
+   "id": "2100312020969205760",
+   "name": "Hyperdex",
+   "joined": "2026-09-16T19:54:02+00:00",
+   "followers": 2601,
+   "following": 133,
+   "posts": 244,
+   "verified": "individual",
+   "last_post": "2026-11-05T08:27:54+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 9,
+   "avg_likes": 66.9,
+   "avg_views": 3284,
+   "bio_site": "https://hyperdex.app",
+   "bio": "Unified Marketplace for Tokenized Assets & RWAs across 70+ chains",
+   "cas": [
+    "0xaa5751ff3fb61e613993b2eb4eab1fce017081fc"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "SuperSwap has been overhauled. We've shipped a major round of upgrades across SuperSwap, with significant improvements to UX, routing, execution speed, and reliability. https://hyperdex.app/superswap What's new: \u2192 Buy & Sell: Buy trending tokens with any asset you hold, then sell them back into any ",
+    "Hyperdex Flywheel & Growth Update We've received our latest partner fee payout and executed another round of $HYDX buybacks and burns. Here's the breakdown: \u2192 319.01 USDG in swap fees received \u2192 255.21 USDG used to buy 166,638 $HYDX, sent directly to 0xdead \u2192 63.80 USDG allocated to the treasury The",
+    "Hyperdex Perps Aggregator Updates & Upgrades 1. Volume Growth In just the past two days, our Perps aggregator has nearly matched the volume of our DEX aggregator. We've surpassed $150K in cumulative volume, with daily volume now exceeding $50K+. A strong start, and we're steadily scaling. 2. Fully S",
+    "Hyperdex Updates 1. Swap & Bridge Aggregation A major milestone: Hyperdex's DEX aggregator and Swap & Bridge aggregation have now surpassed $2 million in cumulative volume, with daily volumes continuing to grow. Track all the details: https://hyperdex.app/explorer 2. Perps Now Integrated with @DeFiL",
+    "Super Swap is live Fastest way to buy trending memes on @BNBCHAIN , @base , @solana , @RobinhoodCrypto & @arc Cross-chain & same-chain \u2192 Every route races at once, best quote in 800ms \u2192 Better rate? We switch routes for you \u2192 Route failing? We fall back to the next one \u2192 Slippage set for you http://",
+    "Important Security Announcement Recently, DNS attacks affected Flap, Kintsu, and 10+ other DeFi websites, with some domains redirecting users to wallet drainers. Some affected websites have since restored access. The incidents reportedly involve a compromise at http://Name.com, alongside unconfirmed",
+    "Introducing Super Swaps The fastest way to trade new tokens on HyperDex \u2192 Instantly swapped \u2192 Best rates \u2192 We pick the best route and slippage for you \u2192 Cross-chain & same-chain \u2192 BNB, Base, Solana, Robinhood & Arc Launching soon.",
+    "Hyperdex Updates: @DefiLlama & Buyback and Burn Two important updates. 1. DefiLlama Integration Our PR has been merged and approved by @DefiLlama. All Swap and Bridge Aggregator volume is now updated hourly. The reported volume is approximately $1.2M, matching our existing internal tracking. Track t",
+    "Hyperdex continues to operate at full strength, processing more volume than ever. Our DEX aggregator is built for performance, reliability, and execution under all market conditions. Trade \u2192 https://hyperdex.app/swap",
+    "Hyperdex @DefiLlama Updates We've been proceeding with our planned deployments, but we were getting requests to make our volume trackable on Defillama, hence we decided to accelerate this integration. This morning, we submitted a PR covering our Swap, Bridge, and Perps integrations. Perps is integra",
+    "New Robinhood Stock Tokens are now live on the HyperDex. https://hyperdex.app/swap",
+    "This is what great partnership looks like. $600K+ in volume all via Hyperdex. We're just getting started.",
+    "Hyperdex Swap & Bridge alone has processed over $1.6M in volume. Perps, markets and other HyperDex products are not counted in this volume. We're working on full volume tracking and analytics. Full details: https://hyperdex.app/explorer **Around $600K in volume cannot currently be attributed due to ",
+    "Soon this will just be a normal transaction every minute. Hyperdex is the best defi aggregator.",
+    "Hyperdex Updates 1. Infrastructure Upgrade Our infrastructure deployment was successful. Hyperdex now has improved performance and a stronger foundation to support future scaling and product releases, including payments. 2. Payments: Partnerships & Global Coverage We're working with 6 biggest paymen",
+    "Hyperdex Infrastructure Upgrade We\u2019re upgrading our infrastructure to support future capabilities and scale. During this process, there may be intermittent outages or temporary failures lasting 5\u201310 minutes. Products should otherwise continue to work as normal. Rest assured, your funds, transfers, p",
+    "We\u2019re proud to have such amazing partners.",
+    "Private Swaps are live on Hyperdex. https://hyperdex.app/private Two ways to privately swap: \u2022 Private Swaps: Hide the transaction amount. Powered by @hinkal_protocol, @ravnexchange \u2022 Shielded Swaps: Hide the wallet address. Powered by @Zcash, @lifiprotocol"
+   ],
+   "checked": "2026-11-05T09:36:41+00:00"
   },
   "belldexfi": {
    "handle": "BELLdexFi",
@@ -2176,7 +2213,7 @@
     "read https://x.com/RF_CRUZ/status/2110196333109714946",
     "not space, cosmic https://x.com/dv3333333/status/2110194031401558349"
    ],
-   "checked": "2026-11-05T09:30:29+00:00"
+   "checked": "2026-11-05T09:36:41+00:00"
   },
   "perlacompute": {
    "handle": "perlacompute",
@@ -2192,8 +2229,8 @@
    "sample": 9,
    "sample_full_week": false,
    "posts_7d": 8,
-   "avg_likes": 0.9,
-   "avg_views": 33,
+   "avg_likes": 1.0,
+   "avg_views": 34,
    "bio_site": "http://perlacompute.xyz",
    "bio": "Perla is a GPU mining platform designed to reshape the economics of AI compute.",
    "cas": [],
@@ -2211,7 +2248,48 @@
     "Perla makes GPU contributions traceable. Workers run matrix workloads and submit proofs for verification. Accepted shares earn contribution points and a record in the Proof Explorer, so miners can inspect the work credited to their wallet. https://perlacompute.xyz",
     "Introducing Perla. We\u2019re building a GPU mining network for AI compute on Robinhood Chain. Our first focus is making accepted contributions traceable, so miners can see which work counts and how rewards are calculated. https://perlacompute.xyz"
    ],
-   "checked": "2026-11-05T09:30:29+00:00"
+   "checked": "2026-11-05T09:36:41+00:00"
+  },
+  "texelrun": {
+   "handle": "texelrun",
+   "found": true,
+   "id": "2110328927776604160",
+   "name": "Texel",
+   "joined": "2026-10-14T11:18:16+00:00",
+   "followers": 60,
+   "following": 16,
+   "posts": 18,
+   "verified": "individual",
+   "last_post": "2026-11-05T07:14:06+00:00",
+   "sample": 17,
+   "sample_full_week": false,
+   "posts_7d": 16,
+   "avg_likes": 5.2,
+   "avg_views": 394,
+   "bio_site": "https://texel.run",
+   "bio": "Pay with any token on Robinhood Chain, and Texel finds the cheapest GPU that fits. Made for you or your agent.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Within 24 hours of this post, Texel credits went live and GPU rental opened. \u2192 Every wallet can buy Texel credits, and each one pays for $1 of outputs at 0.70 USDG. \u2192 Tester wallets can rent GPUs with SSH and Jupyter, and the meter runs by the second. \u2192 Wallets with 1,000 $TEXEL make 50 free images ",
+    "Texel credits are live, and each one buys $1 of outputs for 0.70 USDG. 1,000 $TEXEL opens Billing for your wallet, and Texel pays the gas of every deposit. One signature fills your balance for images, clips, and voice in the Playground.",
+    "$TEXEL is DEX paid. The official CA and links are on its DexScreener page now.",
+    "Free outputs on Texel take three steps. Keep 1,000 $TEXEL in your wallet, sign in on https://texel.run, and press Make. Every day brings 50 free images and 2 free videos.",
+    "Free outputs are live on Texel. Connect a wallet that has 1,000 $TEXEL, and the Playground makes its first 50 images and 2 videos of each day for free.",
+    "Next up: free outputs for every wallet with 1,000 $TEXEL. That wallet will make 50 images with FLUX.1 [schnell] and 2 videos with Pruna Video each day, and its Texel credits stay untouched.",
+    "Gm to every wallet that found $TEXEL before the first GPU rental.",
+    "One prompt became this 5-second video in 22.5 seconds. Pruna Video lists at 0.15 USDG a clip on Texel, and the 30% launch discount brings it to 0.105. The $TEXEL Playground is in private testing now, and Texel credits come next.",
+    "Texel is already making images, video, and voice, and payments open next. Live today: \u2192 The gateway runs FLUX.1 [schnell], Pruna Video, and MiniMax Speech in private testing. \u2192 Anyone can sign in with one wallet signature. \u2192 The first burn took 5.98% of the $TEXEL supply out for good. Coming next: \u2192",
+    "Only one $TEXEL CA is the real one, and it now lives on the Texel website. One tap in the $TEXEL section copies it, so you always paste the right address.",
+    "What happens when an agent can rent its own GPU? It will pay each request with one USDG signature over x402. You set its balance and spend cap, and one switch stops it at any time.",
+    "Texel burned 59,805,861 $TEXEL, 5.98% of the total supply. The tokens sit in the dead address now, and nobody can move them again.",
+    "Your agent needs an H100 SXM for 20 minutes. On Texel it will rent one, run the work, stop it, and pay $1.12.",
+    "Every rate is on the Marketplace page. https://texel.run/marketplace",
+    "Introducing Texel, the onchain GPU cloud on Robinhood Chain. You'll pay with any token, and Texel will route every rental and output to the cheapest GPU that fits. It works the same for you or your agent, with 30% off everything at launch.",
+    "The site is live -> https://texel.run",
+    "The first image just came out of the Texel gateway. Flux Schnell made it in about 20 seconds. The prompt was \"A graphics card on a black desk, lit by a soft holographic glow, studio photo.\""
+   ],
+   "checked": "2026-11-05T09:36:41+00:00"
   },
   "perpsons": {
    "handle": "perpsons",
@@ -2228,7 +2306,7 @@
    "sample_full_week": true,
    "posts_7d": 20,
    "avg_likes": 1.6,
-   "avg_views": 86,
+   "avg_views": 88,
    "bio_site": "https://perpsons.com/",
    "bio": "The infrastructure for onchain perpetual markets. Trade crypto, stocks, and ETFs in one unified ecosystem.",
    "cas": [],
@@ -2255,7 +2333,52 @@
     "He said it first. \ud83c\udd7f\ufe0f BTC to NVDA, 32 perp markets, all in your pocket on Robinhood Chain. https://x.com/MEADGod/status/2117483647200530476",
     "Before your first Perpsons trade, your wallet needs three things: 1. Robinhood Chain (chain id 4663). The app asks your wallet to add it. 2. A little ETH for gas. 3. USDG, the Paxos Global Dollar. Bridged USDC is a different token and can't be deposited. If your internet provider blocks *.robinhood."
    ],
-   "checked": "2026-11-05T09:30:29+00:00"
+   "checked": "2026-11-05T09:36:41+00:00"
+  },
+  "protocol_v4": {
+   "handle": "Protocol_v4",
+   "found": true,
+   "id": "2114109596319039488",
+   "name": "Shadow Protocol",
+   "joined": "2026-10-24T21:43:45+00:00",
+   "followers": 110,
+   "following": 0,
+   "posts": 131,
+   "verified": "individual",
+   "last_post": "2026-11-05T07:52:16+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 2.2,
+   "avg_views": 106,
+   "bio_site": "https://www.protocolv4.xyz/",
+   "bio": "The v4 aggregator that leaves no trail. Best split across every pool, hooks included, sent to a fresh shadow. Routes for agents over x402.",
+   "cas": [
+    "0x007061380d6f5b236af26e292c9b00e681fbb7e6"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Four days, six more things live, and every one started with someone hitting a wall during a real swap: hooks that price by gas, a wallet reading a stale node, a balance that didn\u2019t show. Now the router quotes at your real gas price, checks your wallet\u2019s connection before you sign, and hands you a re",
+    "A swap can be fine on chain and still fail in your wallet, simply because the wallet is reading the chain through a node that fell behind. That\u2019s why the router asks both before it lets you sign, and if your wallet is the problem, it fixes the connection for you. https://www.protocolv4.xyz/swap CA: ",
+    "No token list to wait for, no listing to request. Paste a contract address and the router works out where it actually trades and the best way to reach it. A fresh launch and a deep pool take the same three steps. $PV4",
+    "Every swap from your main wallet adds to a public history anyone can read. Shadow addresses give you fresh ones, rebuilt from one free signature every time you need them. No key file to lose, no database of yours on our servers.",
+    "Wrapping ETH was always a tax: an extra step, an extra approval, extra gas, and WETH left behind when something fails halfway. In v4 a pool can hold ETH itself, and when it does the router pays it in directly. Your ETH goes in, your token comes out.",
+    "A quote taken at zero gas price looks great and fails on chain, because some v4 hooks set their fee from the transaction\u2019s own gas price. We learned that from a real reverted swap, and fixed it the same day: every quote, preflight and floor is now simulated at the base fee you\u2019ll actually pay. https",
+    "Plenty of tokens launch with a deck and a \u201ccoming soon\u201d. $PV4 launched with a router you can use right now, and it gets better every week from what people run into while using it. Open it, swap something small, judge for yourself.",
+    "A success screen is easy to fake. A block isn\u2019t. When your swap lands, the router reads what actually hit your wallet and what the network charged, straight from the chain, and puts it next to the price you were quoted. Trust the receipt, not the app.",
+    "The safest money is money that never leaves your hands. There\u2019s no Protocol V4 balance to top up and no vault to trust: your tokens leave your wallet, go through the pools, and come back to it, all inside one transaction you sign yourself. https://www.protocolv4.xyz/swap",
+    "Doing a good swap by hand means knowing which pools exist, what each one keeps, whether the token is still on its curve, and how to cut your size between them, all before the price moves. We turned that whole afternoon into a quote you can read in five seconds.",
+    "Uniswap v4 spread liquidity across more pools than anyone can watch: every fee tier, every hook, every launch curve. You shouldn\u2019t have to pick. Tell the router what you want and how much, it finds the pools and fills them all in the same transaction. $PV4",
+    "Update: swap receipts. A quote is a promise. A receipt is proof. After every swap, the router now reads the block it landed in and tells you what really reached your wallet, how that compares to what you were quoted, and what the gas cost you. And if your wallet doesn\u2019t list the token yet, one click",
+    "Pools named, hooks named, fee per leg, minimum per leg, the block it was priced at, the link the moment it\u2019s sent. If you like to know exactly what you signed, this router was built for you. $PV4 https://www.protocolv4.xyz/swap",
+    "Every fix this week started as a reply under one of our posts. Keep them coming: tell us what confused you, what was slow, what didn\u2019t work. We read all of it, and the router is better for it.",
+    "On this chain the network fee is so low that the trade itself is all that matters. Which is exactly why routing matters: the difference between a good and a bad route is worth far more than the gas you\u2019ll ever pay here. https://www.protocolv4.xyz/swap",
+    "Never used a v4 router? Bring a small amount, keep some ETH aside for gas, and read the route before you sign. The page checks the rest and won\u2019t let you send a swap that would fail.",
+    "Comparing a quote to a chart is comparing a crowd to one person. The chart shows the last trade. Your quote shows what your exact size gets after it pushes through every pool on the route, fees and depth included. The router shows both, so you can see the gap before you sign.",
+    "The most common \u201cthe swap won\u2019t go through\u201d isn\u2019t the swap. It\u2019s an older transaction in your wallet, sent with too little gas, still sitting in the queue. Open your wallet\u2019s activity, speed it up or cancel it, and everything behind it clears in seconds.",
+    "Live demo, real wallet, real funds, no edits. Pick the pair, read the route, watch Preflight check the network, the balance and the exact transaction before the wallet even opens. Sign once. 0.01 ETH in, 22.71 USDG out, about a cent in gas, confirmed in a tenth of a second. Don\u2019t take the video\u2019s wo"
+   ],
+   "checked": "2026-11-05T09:36:41+00:00"
   },
   "asterrapools": {
    "handle": "AsterraPools",
@@ -2267,114 +2390,154 @@
    "following": 4,
    "posts": 25,
    "verified": "individual",
+   "last_post": "2026-11-05T03:05:00+00:00",
+   "sample": 15,
+   "sample_full_week": true,
+   "posts_7d": 15,
+   "avg_likes": 9.6,
+   "avg_views": 346,
+   "bio_site": "https://asterrapools.tech/",
+   "bio": "The liquidity layer for Robinhood Chain. Dynamic pools, LP positions & smart routing across onchain markets.\n\nCA: 0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d",
+   "cas": [
+    "0x01327059ea96296ce211447e172a2141f35289c0",
+    "0x0467f28ce401e54b73110304e84232260b736b1c",
+    "0x0767bae17950e47414e44939c4fb29d9ecd3bacc",
+    "0x0fa6b7942fcbfb87b5c46026effd648d25f6fea2",
+    "0x1067798554c74df7edaf46044ed501e9946b2018",
+    "0x136999f59948d0bd1870bc44e82d5fe335dc4232",
+    "0x16880cd97057a2b00da7ed4e8812c9cfe341f16e",
+    "0x1855ae69e1e816973107ef05952dfcc4668b0355",
+    "0x1912ee4462c07c3d082e35efec173d6ab3c1a2b1",
+    "0x1b0b7c30cf7857e3999faf9e15d95f455d3c1d84",
+    "0x22d203216ef35e8f13e72122a1fcf90156d69a46",
+    "0x286cffa5cb86ddbf0f920eef171988eedd516cb2",
+    "0x294b8a94934177af20b2f4a7521ef76e18abbfd7",
+    "0x2d47c1cd006cd3283fffe1fe67ba283be6dfea40",
+    "0x312fc9a9304a5a06f19b342f93472970868523ee",
+    "0x3939b7aa0ad0cc88b31755ac0e5b234ed551146f",
+    "0x39fcfde08e5811d44e3f17d9d3dfd5dc143f5537",
+    "0x3ac6ab66141e6460d99faf8351eab9c77bb949b4",
+    "0x4e3bc60138c1fe9d0b1e470ee1de7b626e73fa30",
+    "0x51cce1b672c872502497b1758fd3620a517bd813",
+    "0x533d6fbfcbc0ba220b33cb049bf4fb798995b6d4",
+    "0x56b4000a3aeef3efb8cd7ddb77252d9c62b494d8",
+    "0x56df7c5537fd5d4b79396cf6ae2ac4417336f47d",
+    "0x5a0388486bdf8b1c7723a2b46754383a715d0525",
+    "0x5b9519f659cc0b6d1d2f5ea2d3b24dbc25638e3a",
+    "0x5d82b6edc218a7221015b8e4c74eed1fdcaa7770",
+    "0x5e6375f2c285294fd2c369e61ab9f4f4fd4bc5a4",
+    "0x5e975c3a6e9b958249d360e532b457641298a260",
+    "0x61d50a7fdf0a3996f6e247fddfb62680afa36cc8",
+    "0x6a5ce4bd9c0159cbcf6223e839e705023d8b81b4",
+    "0x7289f8134a388107d3f0ea2d4caa60be847054c2",
+    "0x74eb745add95806a5bb00161edde47c5f71dfacc",
+    "0x7a06c9ad1337a3981d14afbb62ddcc2a8697a85e",
+    "0x7e63fa168308b82e0a469313c6c983e21d12532b",
+    "0x82d6cc7e4053a9519423f7cf4a78b37bd8392862",
+    "0x873110e60b5d176cde20c6f128caf1a17d628ce5",
+    "0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d",
+    "0x9f26e031adf9d50196b7f0feaf9ade81799e7976",
+    "0xa3a78463ebff712399998573975f7900f31b28c7",
+    "0xaa935f375d63d73a0e44c0354d84c06d61d147f3",
+    "0xaad41fe843a12ba3bdb6b528876faf7a0d78fa1c",
+    "0xad64f67f8763d941edc2619c10ea12f1031876e0",
+    "0xb35b3bf9effb66317c11ae0f9a2a86ed80d127b2",
+    "0xb4b3494af9ace98dc40aceb087775acb30e8cc8e",
+    "0xc1df16a076fc9b880b92013f3e7dea0c2220f87b",
+    "0xc3f24004fea71da18831a7a1c8ba2ffba4ebfc95",
+    "0xc4e2e0ddb7ea9b6c42f0db108883b4ee09d47ea5",
+    "0xc618f5d5226477744b87aac652ad58261a2ac429",
+    "0xcc9126c0c793a26bddc9124b257b30df5857c397",
+    "0xcdd521c9471743fd9f34d7bd1d2c9134efdc1e64",
+    "0xd779d28c746a04635fddd5b509c4f841a65df92a",
+    "0xdb8ced28ffb34f5152681574073f96ce50bb5d2d",
+    "0xe4e00c59f948cc0568a945471c60fb24f5734fc1",
+    "0xe6b92f1ac021d6015ee75f79fa7cf29fdc60c7e0",
+    "0xf3f0430ff7663f1d5f379cee464ab5c3c8c8a546",
+    "0xfd6bd9537dc257d3541364082654d2f4c350016e"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Which part of v2 should we break down first? How Stock Pools use a reference price, or what happens to liquidity when a token graduates from the Launchpad? Anyway, back to work \ud83e\uddd1\u200d\ud83d\udcbb",
+    "The stock market opens at 9:30. A new token\u2019s market opens with its first trade. Asterra v2.0 brings both to Robinhood Chain: Stock Pools with Chainlink feeds and oracle guards, plus a Launchpad with bonding curves for new tokens.",
+    "Last update, you saw the code in our editor. Now you can read it on the explorer. Asterra v2.0 contracts are deployed on Robinhood Chain mainnet. This recording shows us verifying the source code against the deployed bytecode. Contract addresses below. Verify them yourself.",
+    "AsterraHub (proxy) 0x873110e60b5d176cde20C6F128caF1A17D628CE5 https://robinhoodchain.blockscout.com/address/0x873110e60b5d176cde20C6F128caF1A17D628CE5?tab=contract AsterraHub (implementation) 0x82D6cc7e4053A9519423F7cF4A78b37Bd8392862 https://robinhoodchain.blockscout.com/address/0x82D6cc7e4053A9519",
+    "When a stock pool drifts from its reference price, what should happen? When a new token trades for the first time, where should its price start? Asterra v2.0 is 50% complete: Chainlink price feeds and price guards for Stock Pools, plus bonding curves for the Launchpad.",
+    "Btw, the $ASTER lock is onchain, our DEX Screener profile is updated, and the contracts are deployed on Robinhood Chain mainnet. We\u2019re back in the editor working on v2.0. Here\u2019s a peek.",
+    "Roadmaps make promises. Mainnet leaves receipts. Asterra Pools has deployed its smart contracts on Robinhood Chain mainnet. The contracts behind our liquidity layer now have onchain addresses you can verify.",
+    "AsterraHub (proxy) 0x873110e60b5d176cde20C6F128caF1A17D628CE5 https://robinhoodchain.blockscout.com/address/0x873110e60b5d176cde20C6F128caF1A17D628CE5 AsterraHub (implementation) 0x82D6cc7e4053A9519423F7cF4A78b37Bd8392862 https://robinhoodchain.blockscout.com/address/0x82D6cc7e4053A9519423F7cF4A78b3",
+    "We want Asterra to be easy to find and easy to verify. DEX Paid is complete. You can now find $ASTER and follow its market activity on DEX Screener.",
+    "On it.",
+    "We believe commitments should be visible and verifiable. Here\u2019s ours, onchain: \ud83d\udd12 19,814,050.56 $ASTER locked on RobinFlow \u2014 non-custodial and verifiable onchain on Robinhood Chain. Unlocks December 5, 2026. https://robinflow.app/t/0x8c4be7763F446DF2b5A8c331e7CCF497e7F78b1d?lock=37&contract=0xcc9126c",
+    "First stop was testnet. Now we\u2019re preparing Asterra for mainnet. Here\u2019s a look at the code behind that next step.",
+    "First stop: testnet. Asterra\u2019s smart contracts are deployed on testnet. Here\u2019s what the deployment looked like. Built for the flow of every market.",
+    "AsterraHub (proxy) 0x01327059eA96296Ce211447e172A2141f35289c0 https://explorer.testnet.chain.robinhood.com/address/0x01327059eA96296Ce211447e172A2141f35289c0?tab=contract AsterraHub (implementation) 0x51CCE1b672c872502497b1758Fd3620A517BD813 https://explorer.testnet.chain.robinhood.com/address/0x51C",
+    "What if liquidity moved with the market instead of fighting it? Every price has a path. Every position has a place. Every route has an edge. Asterra is building DLMM, DAMM, LP positions, and smart routing for the markets ahead. Built for the flow of every market."
+   ],
+   "checked": "2026-11-05T09:36:41+00:00"
+  },
+  "borromarkets": {
+   "handle": "Borromarkets",
+   "found": true,
+   "id": "2107094703044792320",
+   "name": "Borro",
+   "joined": "2026-10-05T13:07:17+00:00",
+   "followers": 1239,
+   "following": 26,
+   "posts": 216,
+   "verified": "individual",
    "last_post": null,
    "sample": 0,
    "sample_full_week": false,
    "posts_7d": 0,
    "avg_likes": null,
    "avg_views": null,
-   "bio_site": "https://asterrapools.tech/",
-   "bio": "The liquidity layer for Robinhood Chain. Dynamic pools, LP positions & smart routing across onchain markets.\n\nCA: 0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d",
-   "cas": [
-    "0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d"
-   ],
-   "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T09:30:29+00:00"
-  },
-  "texelrun": {
-   "handle": "texelrun",
-   "found": true,
-   "id": "2110328927776604160",
-   "name": "Texel",
-   "joined": "2026-10-14T11:18:16+00:00",
-   "followers": 60,
-   "following": 16,
-   "posts": 18,
-   "verified": "individual",
-   "last_post": "2026-11-05T07:14:06+00:00",
-   "sample": 17,
-   "sample_full_week": false,
-   "posts_7d": 16,
-   "avg_likes": 5.2,
-   "avg_views": 392,
-   "bio_site": "https://texel.run",
-   "bio": "Pay with any token on Robinhood Chain, and Texel finds the cheapest GPU that fits. Made for you or your agent.",
+   "bio_site": "http://borro.markets",
+   "bio": "Lend, borrow and short stock tokens. Earn fees on what you lend. On Robinhood Chain.",
    "cas": [],
    "fake_posts": [],
-   "texts": [
-    "Within 24 hours of this post, Texel credits went live and GPU rental opened. \u2192 Every wallet can buy Texel credits, and each one pays for $1 of outputs at 0.70 USDG. \u2192 Tester wallets can rent GPUs with SSH and Jupyter, and the meter runs by the second. \u2192 Wallets with 1,000 $TEXEL make 50 free images ",
-    "Texel credits are live, and each one buys $1 of outputs for 0.70 USDG. 1,000 $TEXEL opens Billing for your wallet, and Texel pays the gas of every deposit. One signature fills your balance for images, clips, and voice in the Playground.",
-    "$TEXEL is DEX paid. The official CA and links are on its DexScreener page now.",
-    "Free outputs on Texel take three steps. Keep 1,000 $TEXEL in your wallet, sign in on https://texel.run, and press Make. Every day brings 50 free images and 2 free videos.",
-    "Free outputs are live on Texel. Connect a wallet that has 1,000 $TEXEL, and the Playground makes its first 50 images and 2 videos of each day for free.",
-    "Next up: free outputs for every wallet with 1,000 $TEXEL. That wallet will make 50 images with FLUX.1 [schnell] and 2 videos with Pruna Video each day, and its Texel credits stay untouched.",
-    "Gm to every wallet that found $TEXEL before the first GPU rental.",
-    "One prompt became this 5-second video in 22.5 seconds. Pruna Video lists at 0.15 USDG a clip on Texel, and the 30% launch discount brings it to 0.105. The $TEXEL Playground is in private testing now, and Texel credits come next.",
-    "Texel is already making images, video, and voice, and payments open next. Live today: \u2192 The gateway runs FLUX.1 [schnell], Pruna Video, and MiniMax Speech in private testing. \u2192 Anyone can sign in with one wallet signature. \u2192 The first burn took 5.98% of the $TEXEL supply out for good. Coming next: \u2192",
-    "Only one $TEXEL CA is the real one, and it now lives on the Texel website. One tap in the $TEXEL section copies it, so you always paste the right address.",
-    "What happens when an agent can rent its own GPU? It will pay each request with one USDG signature over x402. You set its balance and spend cap, and one switch stops it at any time.",
-    "Texel burned 59,805,861 $TEXEL, 5.98% of the total supply. The tokens sit in the dead address now, and nobody can move them again.",
-    "Your agent needs an H100 SXM for 20 minutes. On Texel it will rent one, run the work, stop it, and pay $1.12.",
-    "Every rate is on the Marketplace page. https://texel.run/marketplace",
-    "Introducing Texel, the onchain GPU cloud on Robinhood Chain. You'll pay with any token, and Texel will route every rental and output to the cheapest GPU that fits. It works the same for you or your agent, with 30% off everything at launch.",
-    "The site is live -> https://texel.run",
-    "The first image just came out of the Texel gateway. Flux Schnell made it in about 20 seconds. The prompt was \"A graphics card on a black desk, lit by a soft holographic glow, studio photo.\""
-   ],
-   "checked": "2026-11-05T09:30:29+00:00"
-  },
-  "rhiablo": {
-   "handle": "rhiablo",
-   "found": true,
-   "id": "2113536458065932289",
-   "name": "RHIABLO",
-   "joined": "2026-10-23T07:42:54+00:00",
-   "followers": 143,
-   "following": 19,
-   "posts": 136,
-   "verified": "individual",
-   "last_post": "2026-11-05T07:50:28+00:00",
-   "sample": 17,
-   "sample_full_week": true,
-   "posts_7d": 17,
-   "avg_likes": 4.2,
-   "avg_views": 179,
-   "bio_site": "http://rhiablo.io",
-   "bio": "Diablo-like idle ARPG on Robinhood Chain. Every token you burn is carved into your share of the fees, for good. Your hero fights alone. The fire remembers.",
-   "cas": [
-    "0x39dbed3a2bd333467115de45665cc57f813c4571"
-   ],
-   "fake_posts": [],
-   "texts": [
-    "\ud83d\udd25 300+ heroes have joined RHIABLO! To celebrate, 5,000,000 $RHIABLO just poured from the Great Vault into the dungeon pots \ud83d\udcb0 Open the map: the deeper you go, the richer the dungeons. Have fun, heroes \u2694\ufe0f https://rhiablo.io",
-    "Patch notes \ud83d\udd28 Server stability upgrades are complete: the lag is fixed. Thank you all for your patience \ud83d\ude4f One more update later today, and with it 5,000,000 $RHIABLO poured into the dungeon pots \ud83d\udd25 Have fun, heroes \u2694\ufe0f https://rhiablo.io",
-    "2nd Heroic Item was found! \ud83d\udd25 The destiny shines upon great adventurers. Tristram's legends grow by the hour.",
-    "Patch notes \ud83d\udd28 \ud83e\uddea Pick your brew at camp: Small \u00b7 2 herbs \u00b7 1h \u00b7 +3% Medium \u00b7 4 herbs \u00b7 1.5h \u00b7 +4% Large \u00b7 7 herbs \u00b7 2h \u00b7 +5% Many cheap or few strong. The dungeon HUD shows each kind left. \ud83d\udcdc The log survives a reload. From players' feedback \ud83d\udd25 https://rhiablo.io",
-    "Look! RHIABLO in cute format! Thanks for TABBY's sharing. Gaming communities stick together! \ud83e\udd1d",
-    "Great introduction for \ud83d\udd25 Let's expand the fire gang \ud83c\udf7b",
-    "\u2728 Today's unique #4: The Unmoved Sill Armor \u00b7 item level 4 When the deep corridor sank, one threshold stayed. One a day, 365 a year. Not sold. Found only in the dungeons. https://rhiablo.io",
-    "Today, we also submitted CoinMarketCap submission. $RHIABLO @CoinMarketCap",
-    "Application submitted. \ud83d\udd25",
-    "Watch elite players conquer the RHIABLO dungeon! \ud83d\udd25",
-    "Today $RHIABLO connected to robinhood:0x39dbed3a2bd333467115de45665cc57f813c4571 via @Uniswap Build the volume together!",
-    "New pool: RHIABLO/PONS is live on Uniswap v4, Robinhood Chain. Hold PONS? Swap straight into $RHIABLO. One more step in building out the market around the token. More to come. Pool ID: 0xa196290f50d7773709c08b526195dc7a015766d8a64b8006cc4c6e966397b67a @ponsdotfamily",
-    "\u2728 Today's unique #3: The Scarwind Dagger \u00b7 item level 4 A bleeding ranger set his last bone blade in a whispering root, begging for home. One a day, 365 a year. Not sold. Found only in the dungeons. https://rhiablo.io",
-    "Market update \ud83d\uded2 You can now filter the market by stat as well as by type: attack, crit, lifesteal, drop rate and more. Pick one and the list sorts by it, highest first. By default, gear that beats what you're wearing comes first, so the upgrades are the first thing you see.",
-    "CoinGecko Listing Submitted. $RHIABLO @coingecko",
-    "First Heroic Belt was found in RHIABLO! Congrats to Wynne Kim!!",
-    "The next generation of gaming belongs on Robinhood \ud83d\udd25"
-   ],
-   "checked": "2026-11-05T09:30:29+00:00"
-  },
-  "borromarkets": {
-   "handle": "Borromarkets",
-   "found": false,
-   "checked": "2026-11-05T09:30:29+00:00"
+   "texts": [],
+   "checked": "2026-11-05T09:36:41+00:00"
   },
   "touchgrassrwa": {
    "handle": "TouchGrassRWA",
-   "found": false,
-   "checked": "2026-11-05T09:30:29+00:00"
+   "found": true,
+   "id": "2095516362055569413",
+   "name": "Touch Grass",
+   "joined": "2026-09-03T14:18:02+00:00",
+   "followers": 6743,
+   "following": 6,
+   "posts": 156,
+   "verified": "individual",
+   "last_post": "2026-11-04T22:29:14+00:00",
+   "sample": 16,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 107.3,
+   "avg_views": 5953,
+   "bio_site": "https://www.touchgrass.family",
+   "bio": "Stocks hidden in the real world. Go get them. Built on Robinhood Chain.\n\nhttps://discord.gg/6k4VpQqjpx",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Update 0.4: Your week now has its own card. Your profile shows this week's catches, the doors you found, the cities you walked and what your stocks are worth today. If you are in your city's top 25, your rank is on it too. One tap shares it on X. Show us your week!",
+    "Update 0.3: the leaderboard now has a tab for every city. Pick your city and see who has caught the most there since Monday. When the week ends, the #1 in each city gets a Top Paris, Top Tokyo or Top New York badge on their profile. Who runs your city?",
+    "Update: the stock collection is live. Your page now shows the eight companies of the game. Every one you have caught lights up, the rest stay grey until you find them. The last one is NVDA, a whole share, won only in a legendary draw. Catch all eight.",
+    "Update: the Genesis badge is live. Make your first catch before December 1 and reach full-size drops. Your profile keeps it for good. After that, nobody can earn it. Also new: your page shows the catches you have left today and when they reset. Early walkers get remembered.",
+    "Update: your level is now on your profile. New wallets start on a smaller share of each catch and grow to full size after 5 days of catches. It keeps throwaway bot wallets small, and now you can watch your own bar fill up, day by day. Keep walking. Your grass grows with you.",
+    "Next legendary drops: Shanghai, today at 18:00 local Daegu, Friday at 18:00 local One whole NVDA share, one door, one hour. Hold 5,000 $GRASS, be within 25 m, and it's yours. A new city every couple of days. https://touchgrass.family",
+    "Update: every payout now gets an automated check before it's sent. Your stocks land within a day. The net around bots gets tighter every day as our tech keeps improving, and this 24-hour check is part of it. Rewards go to people who actually walk. Keep walking, keep catching.",
+    "Today the app learns seven new languages: French, Spanish, German, Italian, Portuguese, Dutch and Polish. 15 in total. https://touchgrass.family",
+    "With the app coming out soon, we owed the newcomers a better welcome. So we rebuilt the website from scratch. you land, you get it in 3 seconds: Walk somewhere, Catch real stock, Keep it : https://touchgrass.family",
+    "Soon on Touch Grass: Crypto Drops at random spots around the world. Thanks for the idea, Matteo. Today we hide real stocks like TSLA, AAPL and NVDA at real stores. Walk there, tap, and they're yours. Next, it's crypto's turn. Which coin would you want to find first?",
+    "Already on our list: USDC, USDG, ETH, BTC and SOL. Anything missing? Touch Grass keeps growing, so the map is growing with it. Coins won't be tied to stores: they will show up at random spots worldwide, in big cities and small towns alike. Be ready...",
+    "The Touch Grass iOS app is done. Here\u2019s a first look. We\u2019re submitting it to the App Store review very soon. Once Apple gives the green light, anyone with an iPhone can walk outside and start catching stocks, no wallet needed. iPhone people, start stretching your legs. Touch Grass is about to go glo",
+    "5 new updates just went live on Touch Grass. \u2022 PnL cards: everything you've ever caught, priced at today's close. Cost basis: your legs. One tap to post it. \u2022 Buy the dip, literally: when a stock closes 3% down, its balloons fall to the sidewalk and you can catch them from 60 m instead of 40. Friday",
+    "Big updates are coming. We've been heads down on them and we keep building every day. We're also looking for one or more developers to join us. Full time or not, we're flexible, what matters is that you want to build this with us. DMs are open.",
+    "Here is an easy way to explain Touch Grass to your geek friend: 1) Consumer/User layer: It's basically a game Like Pok\u00e9mon GO, but instead of catching Pok\u00e9mons, you unlock RWA, rewards, discounts, free samples, etc. 2) Business: Touch Grass Places Businesses/Brands/Stores can use locations, IRL visi",
+    "If you own a local store, this one for you... You can sponsor a spot starting from $10 and put your store on the Touch Grass map with its name on the pin. You choose what's in the drop: tokenized stocks or any other token you want. Then just print a QR code and put it by the cashier. A customer walk"
+   ],
+   "checked": "2026-11-05T09:36:41+00:00"
   },
   "tickerspring": {
    "handle": "tickerspring",
@@ -2386,20 +2549,40 @@
    "following": 124,
    "posts": 259,
    "verified": "organization",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-04T23:58:03+00:00",
+   "sample": 19,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 11,
+   "avg_likes": 23.7,
+   "avg_views": 599,
    "bio_site": "http://tickerspring.com",
    "bio": "Bringing yield to tokenized stocks. Vaults, trading & lending on Robinhood Chain. \ud83c\udf31 \n\nCreated by @PolyPup\n\nCA: 0x440e339a46eaa3bE8d723c2cBED2A30af74536D5",
    "cas": [
     "0x440e339a46eaa3be8d723c2cbed2a30af74536d5"
    ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T09:30:29+00:00"
+   "texts": [
+    "Another record day in fees and volume. Over $400 earned today. Excited to reveal our next feature very soon.",
+    "$7,000 in fees and counting \ud83c\udf31 Ticker Spring just passed $7,000 in lifetime fees, and Tuesday was the best day yet for our vaults and baskets at $335. Next up: \ud83d\udd25 A big robinhood:0x440e339a46eaa3be8d723c2cbed2a30af74536d5 buyback and burn \ud83e\udd16 Strategy agents, plus the tools to build your own agent with ",
+    "Back-to-back record days \ud83c\udf31 Our vaults and baskets just had their two best fee days ever: Monday: $277 Tuesday: $320+ And a big $SPRING buyback and burn is coming in the next couple of days \ud83d\udd25 https://tickerspring.com/stats/fees",
+    "From T-bills to cat coins \ud83c\udf31 8 new vaults on Ticker Spring: $LLY $GLXY $BABA $SGOV $ORBIO $STONKBROKER $CASHCAT $UP Stocks, ETFs and Robinhood Chain favorites, two of them paired with ETH. That's 39 vaults, all on our audited vault contracts. https://tickerspring.com/vaults",
+    "The exciting part is about to start \ud83c\udf31 Next at Ticker Spring: \ud83d\udcc8 Strategies: put your money in and watch it grow over time, without worrying about impermanent loss \ud83e\udd1d Integrations with other great projects on Robinhood Chain More announcements coming soon \ud83d\udc40",
+    "Your pool. Our autopilot. Now live \ud83c\udf31 Create your own vault on any token with a pool on @Uniswap, @uponrh or @RamsesExchange. Pick a range, make the first deposit, and the keeper runs it. Your vault lists next to ours, and anyone can join. If auto is selected, our AI intelligence adjusts the range we",
+    "\u23f3 Create vault goes live in the next 24\u201336 hours. Turn almost any pool into a Ticker Spring vault, running on our audited vault contracts. Safety checks are built in, so pools without enough liquidity can't be used. And it's just the first launch of a big week \ud83d\udc40",
+    "What to expect from our strategy agents coming this week... Steady, predictable gains with minimal losses as the goal, like a delta-neutral or stablecoin APR. They won't earn every day, but this weekend's tests showed the strategies work. Soon: copy one with your own AI, or hop into an agent pool \ud83c\udf31",
+    "Coming next week: create your own vault \ud83c\udf31 Pick any USDG or WETH pool on Uniswap, Up or Ramses. We spin up a vault for it on our audited contracts and manage the range from there. Your pool. Our autopilot.",
+    "Our strategy agents are running... They're working with real money in testing right now, and they'll keep stacking results all weekend. The goal: steady, consistent returns. Soon you'll be able to copy any agent with your own, or let ours run it for you \ud83c\udf31",
+    "Strategy agents are coming to Ticker Spring \ud83e\udd16 Not chatbots. Not tokens. Onchain agents that each run a real strategy and earn around the clock, nights and weekends included. The first on Robinhood Chain built to earn continuous revenue. Soon \ud83c\udf31",
+    "We're live on @DeBankDeFi \ud83c\udf31 Your Ticker Spring vaults and baskets now show up in your DeBank portfolio and in @Rabby_io, right next to everything else you hold. Thanks to everyone who upvoted \ud83d\ude4f",
+    "What's next at Ticker Spring \ud83d\udc40 Delta-neutral vaults. Earn the yield, hedge the price. Testing now. More soon \ud83c\udf31",
+    "We're getting TickerSpring on @DeBankDeFi \ud83c\udf31 Once it's approved, your vaults and baskets show up right in your DeBank portfolio, next to everything else you hold. Help us get it over the line: connect your wallet and hit upvote \ud83d\udc47 https://debank.com/proposal/85819",
+    "8 new vaults just went live \ud83c\udf31 $NFLX $COST $RDDT $DELL $HIMS $MRNA $AMC $USO That's 31 smart vaults on TickerSpring. Which ticker should we add next? \ud83d\udc47 https://tickerspring.com/vaults",
+    "\ud83d\udd14 Markets are open. So are our vaults. \u2705 Audited by @sherlockdefi, full report on every vault \u2705 Already in? Hit Migrate and we'll walk you through it \ud83d\udd1c Next up: More Vaults, Strategies and the Launchpad, very soon https://tickerspring.com",
+    "Sunday reset \ud83c\udf31 Tomorrow the market opens, and so do our upgraded vaults: audited by @sherlockdefi, open to everyone. We've been building toward this one for weeks. See you Monday \ud83d\udd14",
+    "Markets go up. Markets go down. We keep building \ud83c\udf31 This week alone: Spring Orders went live, fees passed $5,000, and Sherlock cleared our vaults. Next up: strategies, the Launchpad, and a few things we can't show yet \ud83d\udc40 We never stop.",
+    "Audit update \ud83d\udee1\ufe0f \u2705 @sherlockdefi audit complete \u2705 Every fix signed off \u23f3 Final report on its way. We'll post it the moment it lands \ud83d\udd1c Upgraded vaults on https://tickerspring.com in about 48 hours Already in a vault? You'll see a Migrate button when it's time to move."
+   ],
+   "checked": "2026-11-05T09:36:41+00:00"
   },
   "zokieth": {
    "handle": "ZokiEth",
@@ -2407,7 +2590,7 @@
    "id": "2096711937392623616",
    "name": "Zoki | $ZOKI",
    "joined": "2026-09-06T21:37:20+00:00",
-   "followers": 1021,
+   "followers": 1020,
    "following": 42,
    "posts": 567,
    "verified": "organization",
@@ -2445,7 +2628,7 @@
     "Some things are written on the blockchain. Others are written in the heart. \ud83d\udc08\u200d\u2b1b\u20bf Zoki believes Satoshi\u2019s vision is engraved in his heart. 800 years of history. Nine lives. One unshakable belief in Bitcoin. Zoki isn\u2019t trying to replace Bitcoin. He believes he deserves a place beside it. Because legen",
     "Wait\u2026 Zoki has his own Halloween anthem now?! \ud83c\udf83\ud83d\udc08\u200d\u2b1b 800 years of history. Nine lives. And apparently, a music career. \ud83d\ude02 Huge shoutout to @Quayycera for bringing the Halloween vibes! This is what makes our community special. People creating, having fun, and bringing the legend to life. Turn up the vol"
    ],
-   "checked": "2026-11-05T09:30:29+00:00"
+   "checked": "2026-11-05T09:36:41+00:00"
   },
   "aurumonmosh": {
    "handle": "aurumonmosh",
@@ -2453,7 +2636,7 @@
    "id": "2098167351648620553",
    "name": "Aurum",
    "joined": "2026-09-10T21:52:34+00:00",
-   "followers": 741,
+   "followers": 742,
    "following": 5,
    "posts": 98,
    "verified": "individual",
@@ -2485,7 +2668,7 @@
     "no other token does this \ud83d\udc09 \ud83c\udf80 only possible on @Moshdottrade",
     "the $AUR agents are now net buyers \ud83d\udc09 \ud83c\udf80 only possible on @Moshdottrade"
    ],
-   "checked": "2026-11-05T09:30:29+00:00"
+   "checked": "2026-11-05T09:36:41+00:00"
   }
  },
  "ids": {
@@ -2756,17 +2939,26 @@
   "2114801295198400513": [
    "perlacompute"
   ],
-  "2118002805407662080": [
-   "perpsons"
-  ],
-  "2116974406455242752": [
-   "AsterraPools"
+  "2100312020969205760": [
+   "Hyperdex_app"
   ],
   "2110328927776604160": [
    "texelrun"
   ],
-  "2113536458065932289": [
-   "rhiablo"
+  "2118002805407662080": [
+   "perpsons"
+  ],
+  "2114109596319039488": [
+   "Protocol_v4"
+  ],
+  "2116974406455242752": [
+   "AsterraPools"
+  ],
+  "2107094703044792320": [
+   "Borromarkets"
+  ],
+  "2095516362055569413": [
+   "TouchGrassRWA"
   ],
   "2084832896213254144": [
    "tickerspring"
@@ -2872,10 +3064,10 @@
   "flatlinedotlive": [],
   "rf_cruz": [],
   "perlacompute": [],
-  "perpsons": [],
-  "asterrapools": [],
   "texelrun": [],
-  "rhiablo": [],
+  "perpsons": [],
+  "protocol_v4": [],
+  "asterrapools": [],
   "borromarkets": [],
   "touchgrassrwa": [],
   "tickerspring": [],
@@ -3559,16 +3751,10 @@
     10
    ]
   },
-  "perpsons": {
+  "hyperdex_app": {
    "2026-11-05": [
-    147,
-    69
-   ]
-  },
-  "asterrapools": {
-   "2026-11-05": [
-    67,
-    25
+    2601,
+    244
    ]
   },
   "texelrun": {
@@ -3577,10 +3763,34 @@
     18
    ]
   },
-  "rhiablo": {
+  "perpsons": {
    "2026-11-05": [
-    143,
-    136
+    147,
+    69
+   ]
+  },
+  "protocol_v4": {
+   "2026-11-05": [
+    110,
+    131
+   ]
+  },
+  "asterrapools": {
+   "2026-11-05": [
+    67,
+    25
+   ]
+  },
+  "borromarkets": {
+   "2026-11-05": [
+    1239,
+    216
+   ]
+  },
+  "touchgrassrwa": {
+   "2026-11-05": [
+    6743,
+    156
    ]
   },
   "tickerspring": {
@@ -3591,13 +3801,13 @@
   },
   "zokieth": {
    "2026-11-05": [
-    1021,
+    1020,
     567
    ]
   },
   "aurumonmosh": {
    "2026-11-05": [
-    741,
+    742,
     98
    ]
   }
@@ -4018,12 +4228,12 @@
   "pons-labs": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T09:30:29+00:00"
+   "checked": "2026-11-05T09:36:41+00:00"
   },
   "perlacompute": {
    "twitter": "perlacompute",
    "blog": "https://perlacompute.xyz/",
-   "checked": "2026-11-05T09:30:29+00:00"
+   "checked": "2026-11-05T09:36:41+00:00"
   }
  }
 }
