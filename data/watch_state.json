@@ -547,7 +547,31 @@
   "0x31b724e2e325c8bef660dbd3e84545d758c45ca2": "2026-11-05T03:35:37+00:00",
   "0x6a674e4d5259a836532e1042bf7c607070016a85": "2026-11-05T03:35:37+00:00",
   "0x46b7085515cfcd66f442456c6aef1749f532e371": "2026-11-05T03:35:37+00:00",
-  "0x9741f3f047f2ccf04754caacb59e6e5f1e6d98f1": "2026-11-05T03:39:31+00:00"
+  "0x9741f3f047f2ccf04754caacb59e6e5f1e6d98f1": "2026-11-05T03:39:31+00:00",
+  "0x214147a16cb9974fbca773c924c9c49ec50bc3fa": "2026-11-05T04:09:46+00:00",
+  "0x9ab224366f06ab079a6f340b67c966ba5e64e3d6": "2026-11-05T04:09:46+00:00",
+  "0xd4e343852d3093d6945a85ae2df17af549e5ac2a": "2026-11-05T04:09:46+00:00",
+  "0xe14655a842c9fec9e1a949651d70cc77659927d0": "2026-11-05T04:09:46+00:00",
+  "0x5b66d673d10529bf248d7051696f6da2fc1dad7a": "2026-11-05T04:09:46+00:00",
+  "0x68997d200b06ae6d60e8bd6fb92855b37e132fe6": "2026-11-05T04:09:46+00:00",
+  "0xa1efdc4a24aede9f950f766eb077f1a7938678d4": "2026-11-05T04:09:46+00:00",
+  "0x87aa10ed9337640675a9a98e52d944a462971013": "2026-11-05T04:09:46+00:00",
+  "0xbeafd922c716fef1b82945a5e0dddcb8d2495b25": "2026-11-05T04:09:46+00:00",
+  "0x4fc591ef568f5c83a12c1cb255331f2e68817fd3": "2026-11-05T04:09:46+00:00",
+  "0xb8d5ad3125a5c11f2e64824bb0a6c5f6d51aa138": "2026-11-05T04:09:46+00:00",
+  "0x9c5c9eba22ef9ad26ec61b5604c42fc6c78a0e22": "2026-11-05T04:09:46+00:00",
+  "0x6731ecfcf2fd05d46bc9bde30e0c12d9ccd748eb": "2026-11-05T04:09:46+00:00",
+  "0x9c6022ed050ed5ea205c0703ebca4ff679da8542": "2026-11-05T04:09:46+00:00",
+  "0xb5d532c933a9ed4f3b2753e1bc02fce7c93cdbb0": "2026-11-05T04:09:46+00:00",
+  "0x781eba55966e0cac7e412359ffa152467ded43bd": "2026-11-05T04:09:46+00:00",
+  "0xf9a77d247ed017cddf283e09abd5ed669b53f5c0": "2026-11-05T04:09:46+00:00",
+  "0x5f87a62e1cd056a821d227757a47e391f77e501a": "2026-11-05T04:09:46+00:00",
+  "0x292ff391d6e23361d883ab4a24edb1c920a07ff5": "2026-11-05T04:09:46+00:00",
+  "0xaa0149406344fb160b28719e0b625f0e45890578": "2026-11-05T04:09:46+00:00",
+  "0xaaf5086f30523283adcab653da9442d5a6b4f47d": "2026-11-05T04:09:46+00:00",
+  "0xc4362d6327b8c5fbb948b918ad29dac64008cb9e": "2026-11-05T04:09:46+00:00",
+  "0x4e30413c04b41f672ae294e4adc93431e91d7886": "2026-11-05T04:09:46+00:00",
+  "0xd56c8690299a80b3ec853c14b6d9772a14d3fad5": "2026-11-05T04:09:46+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -4085,9 +4109,344 @@
      "commits": "private"
     }
    }
+  },
+  "0x9ab224366f06ab079a6f340b67c966ba5e64e3d6": {
+   "address": "0x9ab224366f06ab079a6f340b67c966ba5e64e3d6",
+   "symbol": "EXPO",
+   "name": "Expo Gacha",
+   "description": "Gacha machines for Ethereum NFTs. Open-source and onchain.",
+   "website": "https://expogacha.com/",
+   "twitter": "https://x.com/2O1Patrons",
+   "launched": "2026-11-05T04:06:49+00:00",
+   "mcap": 3981.472756859093,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T04:09:46+00:00",
+   "scored_at": "2026-11-05T04:09:46+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "expogacha/contracts",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (fees, launchpad, marketplace, payments) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (stake) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 66 of 67 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u2705 Their website mentions the token: $EXPO \u2014 \u201c!-- -->2026 Expo Gacha $EXPO on Robinhood Chain <a class=\"Y7oPKa_tokenAddres\u201d (https://expogacha.com/)",
+      "\u2705 Their docs mentions the token: $EXPO \u2014 \u201c!-- -->2026 Expo Gacha $EXPO on Robinhood Chain <a class=\"Y7oPKa_tokenAddres\u201d (https://expogacha.com/llms-full.txt)",
+      "\u2705 Their docs mentions the token: $EXPO \u2014 \u201c!-- -->2026 Expo Gacha $EXPO on Robinhood Chain <a class=\"Y7oPKa_tokenAddres\u201d (https://expogacha.com/llms.txt)",
+      "\u2705 Their docs mentions the token: $EXPO \u2014 \u201c!-- -->2026 Expo Gacha $EXPO on Robinhood Chain <a class=\"Y7oPKa_tokenAddres\u201d (https://expogacha.com/docs)"
+     ],
+     "Real code": [
+      "\u274c 3 changes over 0 days (+0)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 1 days old, 1 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u2705 Contract addresses listed in the README (+5)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "sources_read": [
+     "https://expogacha.com/",
+     "https://expogacha.com/llms-full.txt",
+     "https://expogacha.com/llms.txt",
+     "https://expogacha.com/docs",
+     "https://robinhoodchain.blockscout.com/token/0xB01E3f89C3590533AaefBfc77d0dFa9CF679af42"
+    ],
+    "facts": {
+     "commits": 3,
+     "stars": 0,
+     "created": "2026-11-03",
+     "pushed": "2026-11-03",
+     "people": 1
+    }
+   }
+  },
+  "0x781eba55966e0cac7e412359ffa152467ded43bd": {
+   "address": "0x781eba55966e0cac7e412359ffa152467ded43bd",
+   "symbol": "byte",
+   "name": "bytejury.exe",
+   "description": "Cybersecurity audits by AI agents. Find potential exploits, check project claims and get evidence-backed reports.",
+   "website": "https://bytejury.xyz/",
+   "twitter": "https://x.com/bytejury/status/2118099800461906189",
+   "launched": "2026-11-05T03:56:00+00:00",
+   "mcap": 3962.4327759438984,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T04:09:46+00:00",
+   "scored_at": "2026-11-05T04:09:46+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "bytejury-exe/contracts",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (dex, fees, hook, liquidity) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn, buyback, staking) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 31 of 31 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u2705 Their website mentions the token: $byte \u2014 \u201cell pixel inline-flex h-9 items-center gap-2 px-2 text-[13px]\" title=\"$BYTE token address: coming soon\"><span aria-hidden=\"true\" class=\"inline-bl\u201d (https://bytejury.xyz/)",
+      "\u2705 Their website mentions the token: 'byte token' \u2014 \u201cll pixel inline-flex h-9 items-center gap-2 px-2 text-[13px]\" title=\"$BYTE token address: coming soon\"><span aria-hidden=\"true\" class=\"inline-block si\u201d (https://bytejury.xyz/)",
+      "\u2705 Their docs mentions the token: $byte \u2014 \u201cell pixel inline-flex h-9 items-center gap-2 px-2 text-[13px]\" title=\"$BYTE token address: coming soon\"><span aria-hidden=\"true\" class=\"inline-bl\u201d (https://bytejury.xyz/llms-full.txt)",
+      "\u2705 Their docs mentions the token: 'byte token' \u2014 \u201cll pixel inline-flex h-9 items-center gap-2 px-2 text-[13px]\" title=\"$BYTE token address: coming soon\"><span aria-hidden=\"true\" class=\"inline-block si\u201d (https://bytejury.xyz/llms-full.txt)"
+     ],
+     "Real code": [
+      "\u274c 2 changes over 0 days (+0)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 0 days old, 1 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u2705 Contract addresses listed in the README (+5)",
+      "\u2705 Safety info: SECURITY file, audit, timelock (+5)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://bytejury.xyz/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "sources_read": [
+     "https://bytejury.xyz/",
+     "https://bytejury.xyz/llms-full.txt",
+     "https://bytejury.xyz/llms.txt",
+     "https://bytejury.xyz/docs",
+     "https://bytejury.xyz/docs#contracts"
+    ],
+    "facts": {
+     "commits": 2,
+     "stars": 0,
+     "created": "2026-11-04",
+     "pushed": "2026-11-04",
+     "people": 1
+    }
+   }
+  },
+  "0xf9a77d247ed017cddf283e09abd5ed669b53f5c0": {
+   "address": "0xf9a77d247ed017cddf283e09abd5ed669b53f5c0",
+   "symbol": "SAIBOT92",
+   "name": "SAIBOT92",
+   "description": "SAIBOT92 turns public futures telemetry into structured market context across order flow, OI, funding, liquidations and squeeze states.",
+   "website": "https://www.saibot92.auction",
+   "twitter": "https://x.com/SAIBOT92app",
+   "launched": "2026-11-05T03:55:01+00:00",
+   "mcap": 3913.0384791991155,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T04:09:46+00:00",
+   "scored_at": "2026-11-05T04:09:46+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "tobiasguerrero9-debug/Saibot92",
+    "score": 20,
+    "raw_score": 20,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 41 of 62 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u2705 Their website mentions the token: 'SAIBOT92 token' \u2014 \u201c}),(0,I.jsx)(`p`,{children:`Access to AUGUSTUS92 will be reserved for SAIBOT92 token holders.`}),(0,I.jsx)(`p`,{children:`The planned holder layer will un\u201d (https://www.saibot92.auction)"
+     ],
+     "Real code": [
+      "\ud83d\udfe1 19 changes over 100 days (+5)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 254 days old, 1 people, 0 stars, 0 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "sources_read": [
+     "https://www.saibot92.auction",
+     "https://www.saibot92.auction/llms-full.txt",
+     "https://www.saibot92.auction/llms.txt",
+     "https://www.saibot92.auction/docs"
+    ],
+    "facts": {
+     "commits": 19,
+     "stars": 0,
+     "created": "2026-07-28",
+     "pushed": "2026-11-04",
+     "people": 1
+    }
+   }
+  },
+  "0x292ff391d6e23361d883ab4a24edb1c920a07ff5": {
+   "address": "0x292ff391d6e23361d883ab4a24edb1c920a07ff5",
+   "symbol": "OPENME",
+   "name": "Openmeld",
+   "description": "The open-source collaboration system for people and AI agents. Share context, coordinate tasks, and work in parallel with your team, cloud agents, Cod",
+   "website": "https://openmeld.ai",
+   "twitter": "https://x.com/felixlu1018",
+   "launched": "2026-11-05T03:54:14+00:00",
+   "mcap": 3965.810434902916,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T04:09:46+00:00",
+   "scored_at": "2026-11-05T04:09:46+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "amplifthq/openmeld",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (borrow, exchange, marketplace, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (docs.openmeld.ai), docs (docs.openmeld.ai/docs/start/connect-computer), docs (docs.openmeld.ai/llms-full.txt), docs (docs.openmeld.ai/llms.txt), docs (openmeld.ai/app-logos/docker-hub.svg), docs (openmeld.ai/app-logos/google-docs.svg), docs (openmeld.ai/docs), docs (openmeld.ai/llms-full.txt), docs (openmeld.ai/llms.txt), website (openmeld.ai))"
+     ],
+     "Real code": [
+      "\u2705 8697 changes over 85 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 531 days old, 7 people, 1407 stars, 86 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)",
+      "\u2139\ufe0f Audit looks self-done or AI-done, not an outside firm"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 47 updates shipped so far"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "sources_read": [
+     "https://openmeld.ai",
+     "https://openmeld.ai/llms-full.txt",
+     "https://openmeld.ai/llms.txt",
+     "https://docs.openmeld.ai/llms-full.txt",
+     "https://docs.openmeld.ai/llms.txt",
+     "https://openmeld.ai/docs",
+     "https://openmeld.ai/app-logos/google-docs.svg",
+     "https://openmeld.ai/app-logos/docker-hub.svg",
+     "https://docs.openmeld.ai",
+     "https://docs.openmeld.ai/docs/start/connect-computer"
+    ],
+    "facts": {
+     "commits": 8697,
+     "stars": 1407,
+     "created": "2026-06-24",
+     "pushed": "2026-11-05",
+     "people": 7
+    }
+   }
+  },
+  "0xd56c8690299a80b3ec853c14b6d9772a14d3fad5": {
+   "address": "0xd56c8690299a80b3ec853c14b6d9772a14d3fad5",
+   "symbol": "AISETU",
+   "name": "Ai Setup",
+   "description": "Continuously sync your AI setups with one command. Codebase tailor suited agent skills, MCPs and config files for Claude Code, Cursor, and Codex.",
+   "website": "https://trycaliber.ai",
+   "twitter": "https://x.com/trycaliber",
+   "launched": "2026-11-05T03:48:42+00:00",
+   "mcap": 4028.4772216231063,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T04:09:46+00:00",
+   "scored_at": "2026-11-05T04:09:46+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "caliber-ai-org/ai-setup",
+    "score": 70,
+    "raw_score": 70,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (fees, hook, marketplace, options) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (docs.trycaliber.ai/llms-full.txt), docs (docs.trycaliber.ai/llms.txt), docs (trycaliber.ai/docs), docs (trycaliber.ai/llms-full.txt), docs (trycaliber.ai/llms.txt), website (trycaliber.ai))"
+     ],
+     "Real code": [
+      "\u2705 670 changes over 198 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 277 days old, 19 people, 1310 stars, 129 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 99 updates shipped so far"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "sources_read": [
+     "https://trycaliber.ai",
+     "https://trycaliber.ai/llms-full.txt",
+     "https://trycaliber.ai/llms.txt",
+     "https://docs.trycaliber.ai/llms-full.txt",
+     "https://docs.trycaliber.ai/llms.txt",
+     "https://trycaliber.ai/docs"
+    ],
+    "facts": {
+     "commits": 670,
+     "stars": 1310,
+     "created": "2026-03-10",
+     "pushed": "2026-09-24",
+     "people": 19
+    }
+   }
   }
  },
- "checked_total": 537,
+ "checked_total": 561,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -4466,9 +4825,47 @@
     "google/model-viewer",
     "h5bp/html5-boilerplate"
    ]
+  },
+  {
+   "when": "2026-11-05T04:09:46+00:00",
+   "address": "0x5b66d673d10529bf248d7051696f6da2fc1dad7a",
+   "symbol": "hookscan",
+   "website": "https://hookscan.info/",
+   "used": null,
+   "ignored": [
+    "ungap/url-search-params."
+   ]
+  },
+  {
+   "when": "2026-11-05T04:09:46+00:00",
+   "address": "0x68997d200b06ae6d60e8bd6fb92855b37e132fe6",
+   "symbol": "hookscan",
+   "website": "https://hookscan.info/",
+   "used": null,
+   "ignored": [
+    "ungap/url-search-params."
+   ]
   }
  ],
  "symbol_counts": {
+  "SNOP": 4,
+  "EXPO": 1,
+  "DEBUT": 2,
+  "BELL": 2,
+  "hookscan": 2,
+  "XENTH": 1,
+  "ASTER": 2,
+  "VOTC": 1,
+  "PERPSONS": 1,
+  "MOKO": 1,
+  "byte": 1,
+  "SAIBOT92": 1,
+  "OPENME": 1,
+  "MOSQUE": 1,
+  "HOODHAVEN": 1,
+  "HYPBLX": 1,
+  "LEEROY": 2,
+  "AISETU": 1,
   "WORG": 1,
   "VIBE": 1,
   "DOOM": 2,
@@ -4479,11 +4876,19 @@
   "MAHORA": 1,
   "METRION": 1,
   "ORIOT": 1,
-  "LEEROY": 1,
   "PINOCOIN": 1,
-  "SNOP": 1,
   "DUCKTRUMP": 2,
   "LOCK": 1,
+  "PONS": 1,
+  "OAK": 1,
+  "WIF": 1,
+  "ORBIO": 1,
+  "HARMONIC": 1,
+  "ROBINCAT": 1,
+  "CHARLIE": 1,
+  "DELTA": 1,
+  "HYDX": 1,
+  "ROBINHOOD": 1,
   "VALSEQ": 1,
   "PIRATE": 1,
   "PIXERT": 1,
@@ -4495,23 +4900,13 @@
   "EGOLIT": 1,
   "VARVE": 1,
   "GRANT": 1,
-  "HOODHAVEN": 1,
   "JOE": 1,
   "OMHER": 1,
   "PP": 1,
   "CI": 2,
   "JDOG": 1,
-  "PONS": 1,
-  "WIF": 1,
-  "ORBIO": 1,
   "DARWIN": 1,
-  "HARMONIC": 1,
-  "CHARLIE": 1,
-  "ROBINCAT": 1,
-  "HYDX": 1,
-  "DELTA": 1,
   "CIPHERMVP": 1,
-  "ROBINHOOD": 1,
   "66": 1,
   "BKTDSK": 1,
   "SEO": 1,
@@ -4544,7 +4939,6 @@
   "FILDLT": 1,
   "UBIK": 1,
   "BISCOTTI": 1,
-  "SAIBOT92": 1,
   "ASD": 1,
   "DEPOSIT": 1,
   "SUBLUN": 1,
@@ -4659,7 +5053,6 @@
   "ZELORA": 1,
   "SPHERE": 1,
   "JACKASS": 1,
-  "MOKO": 1,
   "DARE": 2,
   "AMLABS": 1,
   "jackass": 1,
@@ -4982,6 +5375,12 @@
    [],
    [
     "\u2139\ufe0f 1 of 3 sample lines also appears in older repo nextain/naia-shell \u2014 could be shared library code"
+   ]
+  ],
+  "caliber-ai-org/ai-setup@2026-09-24": [
+   [],
+   [
+    "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo"
    ]
   ]
  }

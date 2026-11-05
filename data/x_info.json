@@ -1247,8 +1247,100 @@
   },
   "worghq": {
    "handle": "worghq",
+   "found": true,
+   "id": "2116586247938617344",
+   "name": "worghq",
+   "joined": "2026-10-31T17:41:40+00:00",
+   "followers": 0,
+   "following": 29,
+   "posts": 1,
+   "verified": null,
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": null,
+   "bio": "",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T04:09:46+00:00"
+  },
+  "2o1patrons": {
+   "handle": "2O1Patrons",
+   "found": true,
+   "id": "1997570941828927488",
+   "name": "2o1 Patrons",
+   "joined": "2025-12-07T07:37:16+00:00",
+   "followers": 3346,
+   "following": 1,
+   "posts": 211,
+   "verified": "individual",
+   "last_post": "2026-11-05T02:18:24+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 17.7,
+   "avg_views": 571,
+   "bio_site": "http://expogacha.com",
+   "bio": "The elite circle of 201 Digital Art Patrons. Pull \u2018em all on @expogacha.",
+   "cas": [
+    "0xb01e3f89c3590533aaefbfc77d0dfa9cf679af42"
+   ],
+   "fake_posts": [],
+   "checked": "2026-11-05T04:09:46+00:00"
+  },
+  "bytejury": {
+   "handle": "bytejury",
+   "found": true,
+   "id": "2117451118288502784",
+   "name": "bytejury.exe",
+   "joined": "2026-11-03T02:59:05+00:00",
+   "followers": 36,
+   "following": 7,
+   "posts": 40,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://bytejury.xyz/",
+   "bio": "Cybersecurity audits by AI agents\n\nCA: 0xa4e331ed89db2fae193c6c4216dd99aded105471",
+   "cas": [
+    "0xa4e331ed89db2fae193c6c4216dd99aded105471"
+   ],
+   "fake_posts": [],
+   "checked": "2026-11-05T04:09:46+00:00"
+  },
+  "felixlu1018": {
+   "handle": "felixlu1018",
+   "found": true,
+   "id": "1580234561769701376",
+   "name": "Felix Lu - Open for work",
+   "joined": "2022-10-12T16:31:13+00:00",
+   "followers": 461,
+   "following": 423,
+   "posts": 640,
+   "verified": "individual",
+   "last_post": "2026-11-04T17:26:03+00:00",
+   "sample": 18,
+   "sample_full_week": true,
+   "posts_7d": 18,
+   "avg_likes": 2.5,
+   "avg_views": 263,
+   "bio_site": "https://felixlyu.com",
+   "bio": "open-source engineer, contributing to http://ui.shadcn.com \u00b7 http://openclaw.ai \u00b7 better auth and building http://openmeld.ai \u00b7 http://peekat.email \u00b7 http://deepcrawl.dev",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T04:09:46+00:00"
+  },
+  "trycaliber": {
+   "handle": "trycaliber",
    "found": false,
-   "checked": "2026-11-05T03:39:31+00:00"
+   "checked": "2026-11-05T04:09:46+00:00"
   }
  },
  "ids": {
@@ -1416,6 +1508,18 @@
   ],
   "241270968": [
    "burcs"
+  ],
+  "2116586247938617344": [
+   "worghq"
+  ],
+  "1997570941828927488": [
+   "2O1Patrons"
+  ],
+  "2117451118288502784": [
+   "bytejury"
+  ],
+  "1580234561769701376": [
+   "felixlu1018"
   ]
  },
  "past": {
@@ -1475,7 +1579,11 @@
   "ego_agent": [],
   "serverforagent": [],
   "burcs": [],
-  "worghq": []
+  "worghq": [],
+  "2o1patrons": [],
+  "bytejury": [],
+  "felixlu1018": [],
+  "trycaliber": []
  },
  "history": {
   "barragetrade": {
@@ -1949,6 +2057,30 @@
     12175,
     3427
    ]
+  },
+  "worghq": {
+   "2026-11-05": [
+    0,
+    1
+   ]
+  },
+  "2o1patrons": {
+   "2026-11-05": [
+    3346,
+    211
+   ]
+  },
+  "bytejury": {
+   "2026-11-05": [
+    36,
+    40
+   ]
+  },
+  "felixlu1018": {
+   "2026-11-05": [
+    461,
+    640
+   ]
   }
  },
  "telegram": {
@@ -2253,6 +2385,26 @@
    "twitter": "worghq",
    "blog": "https://getworg.com/",
    "checked": "2026-11-05T03:39:31+00:00"
+  },
+  "expogacha": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T04:09:46+00:00"
+  },
+  "bytejury-exe": {
+   "twitter": "bytejury",
+   "blog": "https://bytejury.xyz/",
+   "checked": "2026-11-05T04:09:46+00:00"
+  },
+  "amplifthq": {
+   "twitter": "karis_ai",
+   "blog": "https://karis.im/",
+   "checked": "2026-11-05T04:09:46+00:00"
+  },
+  "caliber-ai-org": {
+   "twitter": "trycaliber",
+   "blog": "https://trycaliber.ai",
+   "checked": "2026-11-05T04:09:46+00:00"
   }
  }
 }
