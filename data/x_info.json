@@ -2383,7 +2383,7 @@
   },
   "pilotprotocol_": {
    "handle": "pilotprotocol_",
-   "found": true,
+   "found": false,
    "id": "2118087960327225345",
    "name": "Pilot Protocol",
    "joined": "2026-11-04T21:09:18+00:00",
@@ -2401,17 +2401,8 @@
    "bio": "P2P Networking Stack for Al Agents. Backup account. Mainly for tokens.",
    "cas": [],
    "fake_posts": [],
-   "texts": [
-    "Burned! https://robinhoodchain.blockscout.com/tx/0x7b8ab00ae9775c52e712989266c57f3aa6db0e8de0a7a31fc7217aa80fd0e277",
-    "1/5 About 430 agents on the Pilot backbone answer with live data. Here\u2019s how your agent finds them and asks.",
-    "4/5 list-agents is the directory. Search it by keyword to find the agent and the query it expects: pilotctl send-message list-agents --data '/data {\"search\":\"weather\",\"limit\":3}' --wait",
-    "5/5 Not sure which agent? Describe the task in plain English to pilot-mom. It replies with a plan: the exact calls to make, in order. pilot-mom only plans; your agent runs the calls.",
-    "An address, keys and trust for every agent. A permanent 48-bit address and an Ed25519 identity. Tunnels encrypted with X25519 and AES-256-GCM. STUN and hole punching through NAT, an encrypted relay as fallback. Nobody reaches yours until both sides approve.",
-    "How it fits together: your agent talks to a Pilot daemon on its own machine, and the daemon reaches other agents over encrypted tunnels.",
-    "Pilot. Where agents go.",
-    "The open network for agents. Pilot Protocol gives every AI agent a permanent address, encrypted tunnels and explicit trust, with live data agents and an App Store on the same network. Open source under AGPL-3.0."
-   ],
-   "checked": "2026-11-05T19:00:10+00:00"
+   "checked": "2026-11-05T19:16:57+00:00",
+   "gone_since": "2026-11-05T19:16:57+00:00"
   },
   "0xoffshift": {
    "handle": "0xOffShift",
@@ -2436,7 +2427,7 @@
    "texts": [
     "OFFSHIFT is building a decentralized AI computing network powered by unused Apple Silicon resources. One network, linking hardware owners and AI developers."
    ],
-   "checked": "2026-11-05T19:00:10+00:00"
+   "checked": "2026-11-05T19:16:57+00:00"
   },
   "flexmeow": {
    "handle": "flexmeow",
@@ -2444,21 +2435,22 @@
    "id": "1791849524794740736",
    "name": "Flex",
    "joined": "2024-05-18T15:13:50+00:00",
-   "followers": 1550,
+   "followers": 1552,
    "following": 1,
-   "posts": 243,
+   "posts": 245,
    "verified": "individual",
-   "last_post": "2026-11-03T12:57:46+00:00",
-   "sample": 11,
+   "last_post": null,
+   "sample": 0,
    "sample_full_week": false,
-   "posts_7d": 3,
-   "avg_likes": 18.6,
-   "avg_views": 1527,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
    "bio_site": "https://flexmeow.com/",
    "bio": "Choose-your-fixed-rate loans. From @yearnfi",
    "cas": [],
    "fake_posts": [],
-   "checked": "2026-11-05T07:15:24+00:00"
+   "texts": [],
+   "checked": "2026-11-05T19:16:57+00:00"
   },
   "pfedprog": {
    "handle": "pfedprog",
@@ -9931,7 +9923,118 @@
     "In light of @beniduboss comprehensive expos\u00e9 of unusual trading activity on Kalshi, I'd like to say a couple of things about what we represent. Inflection was born from the frustrations we experienced firsthand as traders. After building HFT bots on short-duration crypto markets, we saw how unreliab",
     "@beniduboss We\u2019re currently onboarding alpha testers who are tired of the status quo. What\u2019s the number one frustration you have with existing short-duration UP/DOWN markets?"
    ],
-   "checked": "2026-11-05T19:00:10+00:00"
+   "checked": "2026-11-05T18:38:54+00:00"
+  },
+  "tollsfun": {
+   "handle": "tollsfun",
+   "found": true,
+   "id": "2115851496411795456",
+   "name": "tolls",
+   "joined": "2026-10-29T17:02:44+00:00",
+   "followers": 3349,
+   "following": 2,
+   "posts": 11,
+   "verified": "individual",
+   "last_post": "2026-11-05T18:40:05+00:00",
+   "sample": 10,
+   "sample_full_week": false,
+   "posts_7d": 10,
+   "avg_likes": 608.9,
+   "avg_views": 6706,
+   "bio_site": "http://tolls.fun",
+   "bio": "Pay-per-call for AI agents on Solana.\nAgents pay in USDC over x402. Every request pays its toll.\n\nCA: 8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "the tolls catalog checks every endpoint every 15 minutes. each one gets an unpaid request and has to answer 402 with a price we can read. one that stops answering is hidden until it comes back. odd prices get a warning. https://tolls.fun",
+    "a paid call on tolls, in four steps over plain HTTP: 1. GET: the agent asks 2. 402: the price comes back in PAYMENT-REQUIRED 3. retry: a signed usdc transfer goes in PAYMENT-SIGNATURE 4. 200: the answer, with PAYMENT-RESPONSE and the tx signature https://tolls.fun",
+    "an agent that needs one answer shouldn't need an account, an API key and a monthly plan. on tolls it pays for that one request, in usdc, and gets the answer. https://tolls.fun",
+    "dev supply locked. check the lock: https://app.streamflow.finance/token-dashboard/solana/mainnet/8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump/contract/5NFvUDHVMocWzCudEbdCtsN7A51tanvUdUwh1gjAsBPv",
+    "dex paid. https://dexscreener.com/solana/8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump",
+    "today, the gates open. tolls launches on solana: a catalog of x402 endpoints, a no-code gateway for any API, six data endpoints, sdk + mcp, and agent wallets with hard spend budgets. the tolls token comes next. follow along on https://tolls.fun",
+    "what happens when an API fails mid-call? on the tolls gateway, the agent will sign first, but the payment only settles after the API answers with a 2xx. timeout or error: nothing settles. the agent pays $0. you only pay for answers. follow along on https://tolls.fun",
+    "for centuries, roads and bridges charged by the trip. pay at the gate, drive on. the web went with accounts, keys and monthly plans. fine for people with cards. agents don't have cards. they'll pay the way roads always have: per trip, per request. the toll is coming back.",
+    "https://x.com/i/article/2117333258140856320",
+    "AI agents run on APIs. Soon they'll pay for each call. One request, one payment, in USDC on Solana. No sign-ups, no subscriptions. Every request pays its toll."
+   ],
+   "checked": "2026-11-05T18:38:54+00:00"
+  },
+  "openanysi": {
+   "handle": "openanysi",
+   "found": true,
+   "id": "1873640046278144000",
+   "name": "OpenAny",
+   "joined": "2024-12-30T07:59:47+00:00",
+   "followers": 341,
+   "following": 98,
+   "posts": 1383,
+   "verified": null,
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://openany.si",
+   "bio": "The marketplace for AI agents \u00b7 160+ models, 3,000+ APIs, one key \u00b7 0% markup\u00b7No sub.\n\ntg: http://t.me/openanylabs\nbot: http://x.ai/bot/wZ0PqEbJCTJizVYNK9Ohs",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "darkstonkcash": {
+   "handle": "darkstonkcash",
+   "found": false,
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "zer0clickz": {
+   "handle": "zer0clickz",
+   "found": false,
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "ghostxaiagent": {
+   "handle": "GhostXAIagent",
+   "found": false,
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "letronnaagent": {
+   "handle": "LetronnaAgent",
+   "found": true,
+   "id": "2118007547638546432",
+   "name": "Letronna",
+   "joined": "2026-11-04T15:50:44+00:00",
+   "followers": 2,
+   "following": 0,
+   "posts": 8,
+   "verified": "individual",
+   "last_post": "2026-11-05T19:14:50+00:00",
+   "sample": 3,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 0.3,
+   "avg_views": 1754,
+   "bio_site": "https://letronna.ai",
+   "bio": "Fast agent written in Rust, come with built in Wallet, Cloud and Offline models. Deploy anywhere even in your pocket with Letronna.",
+   "cas": [
+    "0xa2753fd0bc86b8ceb55ffd2698679c7f214785f1"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "One prompt. A live app. Its own wallet paid for it. Letronna is an agent with its own cloud and wallet, written in Rust. Its wallet runs on Robinhood Chain, with $LETRO: buy AI credit in Letronna with it, and part of every purchase is burned. Contract: 0xa2753fd0bc86b8ceb55ffd2698679c7f214785f1 What",
+    "Runs on your own machine too. Letronna picks the models your computer can run well, downloads them checked, and answers on your GPU. No internet needed, and nothing leaves your computer.",
+    "https://letronna.ai Try the demo, built from one prompt: https://lc-f77huch6yuxym3sj2m95.letronna.si iOS and Android: soon. Intelligence in motion."
+   ],
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "trypalomino": {
+   "handle": "trypalomino",
+   "found": false,
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "nycmayor": {
+   "handle": "NYCMayor",
+   "found": false,
+   "checked": "2026-11-05T19:16:57+00:00"
   }
  },
  "ids": {
@@ -10706,17 +10809,14 @@
   "1688410127378829312": [
    "ollama"
   ],
-  "2096225526465605634": [
-   "Inflection_X"
-  ],
   "2116195773456990208": [
    "renthookcat"
   ],
-  "2117722378671149056": [
-   "darkstonkcash"
+  "2115851496411795456": [
+   "tollsfun"
   ],
-  "29691642": [
-   "grok12_john"
+  "2118007547638546432": [
+   "LetronnaAgent"
   ]
  },
  "past": {
@@ -10993,11 +11093,13 @@
   "darkstonkcash": [],
   "blindwoodsrh": [],
   "inflection_x": [],
-  "manifestnetwork": [],
+  "tollsfun": [],
+  "openanysi": [],
+  "darkstonkcash": [],
   "zer0clickz": [],
   "ghostxaiagent": [],
-  "renthookcat": [],
-  "grok12_john": []
+  "letronnaagent": [],
+  "nycmayor": []
  },
  "history": {
   "barragetrade": {
@@ -11570,8 +11672,8 @@
   },
   "flexmeow": {
    "2026-11-05": [
-    1550,
-    243
+    1552,
+    245
    ]
   },
   "pfedprog": {
@@ -12743,6 +12845,18 @@
     94,
     300
    ]
+  },
+  "openanysi": {
+   "2026-11-05": [
+    341,
+    1383
+   ]
+  },
+  "letronnaagent": {
+   "2026-11-05": [
+    2,
+    8
+   ]
   }
  },
  "telegram": {
@@ -13194,12 +13308,12 @@
   "pilot-protocol": {
    "twitter": null,
    "blog": "https://pilotprotocol.network",
-   "checked": "2026-11-05T19:00:10+00:00"
+   "checked": "2026-11-05T19:16:57+00:00"
   },
   "flexmeow": {
    "twitter": "flexmeow",
    "blog": "flexmeow.com",
-   "checked": "2026-11-05T07:15:24+00:00"
+   "checked": "2026-11-05T19:16:57+00:00"
   },
   "pfed-prog": {
    "twitter": "pfedprog",
@@ -13576,40 +13690,50 @@
    "blog": "https://coollabs.io",
    "checked": "2026-11-05T17:42:31+00:00"
   },
-  "neuralverge": {
-   "twitter": null,
-   "blog": "https://neuralverge.ai/",
-   "checked": "2026-11-05T17:04:37+00:00"
-  },
-  "pondkeeper": {
-   "twitter": null,
-   "blog": "",
-   "checked": "2026-11-05T18:17:33+00:00"
-  },
-  "liftedinit": {
-   "twitter": "liftedinit",
-   "blog": "liftedinit.org",
-   "checked": "2026-11-05T18:17:33+00:00"
-  },
-  "zeroclickz": {
-   "twitter": "zer0clickz",
-   "blog": "https://zeroclickz.com",
-   "checked": "2026-11-05T18:17:33+00:00"
-  },
-  "nguyenkhangph": {
-   "twitter": null,
-   "blog": "",
-   "checked": "2026-11-05T18:17:33+00:00"
+  "ollama": {
+   "twitter": "ollama",
+   "blog": "https://ollama.com",
+   "checked": "2026-11-05T18:38:54+00:00"
   },
   "openanysi": {
    "twitter": "openanysi",
    "blog": "https://openany.si",
-   "checked": "2026-11-05T19:00:10+00:00"
+   "checked": "2026-11-05T19:16:57+00:00"
   },
   "darkstonk": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T19:00:10+00:00"
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "blindwoodsrh": {
+   "twitter": "blindwoodsRH",
+   "blog": "blindwoods.app",
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "neuralverge": {
+   "twitter": null,
+   "blog": "https://neuralverge.ai/",
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "liftedinit": {
+   "twitter": "liftedinit",
+   "blog": "liftedinit.org",
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "zeroclickz": {
+   "twitter": "zer0clickz",
+   "blog": "https://zeroclickz.com",
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "nguyenkhangph": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T19:16:57+00:00"
+  },
+  "gadlus": {
+   "twitter": null,
+   "blog": "https://gadl.us",
+   "checked": "2026-11-05T19:16:57+00:00"
   }
  }
 }
