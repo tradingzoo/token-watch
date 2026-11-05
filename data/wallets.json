@@ -1142,5 +1142,35 @@
   "after": 0,
   "others": [],
   "wallet_txs": 5
+ },
+ "0x906458971e78bb0367174056fd1dcd8226622bb9": {
+  "checked": "2026-11-05T08:16:23+00:00",
+  "pons": true,
+  "wallet": "0x437bb23d5aa935d2a47910faaf876e73c6092ede",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 4
+ },
+ "0xeaeaa6d3cbfd3ec51728410057a89f699438334f": {
+  "checked": "2026-11-05T08:16:23+00:00",
+  "pons": true,
+  "wallet": "0xa0fe0943318a9dbe037a18f126195a37b60c3a70",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 5
+ },
+ "0x40322a15342394188699ee9eae1254d2cb213f04": {
+  "checked": "2026-11-05T08:16:23+00:00",
+  "pons": true,
+  "wallet": "0x790f5e6efd99f62d099d72f707f0a119a165c2b2",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 7
  }
 }

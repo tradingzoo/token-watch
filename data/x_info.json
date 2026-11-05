@@ -1695,6 +1695,52 @@
    "cas": [],
    "fake_posts": [],
    "checked": "2026-11-05T08:00:41+00:00"
+  },
+  "the_astropad": {
+   "handle": "the_astropad",
+   "found": true,
+   "id": "2117872719681167360",
+   "name": "ASTROPAD",
+   "joined": "2026-11-04T06:55:07+00:00",
+   "followers": 21,
+   "following": 4,
+   "posts": 15,
+   "verified": null,
+   "last_post": "2026-11-05T08:13:32+00:00",
+   "sample": 14,
+   "sample_full_week": false,
+   "posts_7d": 14,
+   "avg_likes": 4.9,
+   "avg_views": 71,
+   "bio_site": "https://astropad.live/",
+   "bio": "Multi Chain Launchpad Built Across Robinhood Chain, Base and Arc\n\nCA:0xeaeaa6d3cbfd3ec51728410057a89f699438334f",
+   "cas": [
+    "0xeaeaa6d3cbfd3ec51728410057a89f699438334f"
+   ],
+   "fake_posts": [],
+   "checked": "2026-11-05T08:15:24+00:00"
+  },
+  "axiom_parody123": {
+   "handle": "axiom_parody123",
+   "found": true,
+   "id": "2027116346040029184",
+   "name": "Axiom Certified \ud83d\udfe2",
+   "joined": "2026-02-26T20:19:39+00:00",
+   "followers": 324,
+   "following": 45,
+   "posts": 1639,
+   "verified": null,
+   "last_post": "2026-11-05T08:10:12+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 0.0,
+   "avg_views": 29,
+   "bio_site": null,
+   "bio": "#1 Dev From Christmas Island.,\n\nAXIOM FAN ACCOUNT",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T08:15:24+00:00"
   }
  },
  "ids": {
@@ -1919,6 +1965,12 @@
   ],
   "2114190575922819072": [
    "fairround"
+  ],
+  "2117872719681167360": [
+   "the_astropad"
+  ],
+  "2027116346040029184": [
+   "axiom_parody123"
   ]
  },
  "past": {
@@ -1997,7 +2049,9 @@
   "0xoffshift": [],
   "flexmeow": [],
   "pfedprog": [],
-  "fairround": []
+  "fairround": [],
+  "the_astropad": [],
+  "axiom_parody123": []
  },
  "history": {
   "barragetrade": {
@@ -2585,6 +2639,18 @@
     7,
     35
    ]
+  },
+  "the_astropad": {
+   "2026-11-05": [
+    21,
+    15
+   ]
+  },
+  "axiom_parody123": {
+   "2026-11-05": [
+    324,
+    1639
+   ]
   }
  },
  "telegram": {
@@ -2964,6 +3030,11 @@
    "twitter": null,
    "blog": "",
    "checked": "2026-11-05T08:00:41+00:00"
+  },
+  "s4viour1": {
+   "twitter": null,
+   "blog": null,
+   "checked": "2026-11-05T08:15:24+00:00"
   }
  }
 }

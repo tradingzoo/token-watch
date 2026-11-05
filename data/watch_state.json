@@ -673,7 +673,12 @@
   "0x1df5916e0df4abeed63585f74aaccc9335dafe50": "2026-11-05T08:00:41+00:00",
   "0x4c45dacdb284b13df65435270cc6d8b5b0654222": "2026-11-05T08:00:41+00:00",
   "0x8dd71026cd5e0b832c098995cdd72ae952e715d6": "2026-11-05T08:00:41+00:00",
-  "0xeb7e610a85c4daa77ad2229b330789ae4e7265cb": "2026-11-05T08:00:41+00:00"
+  "0xeb7e610a85c4daa77ad2229b330789ae4e7265cb": "2026-11-05T08:00:41+00:00",
+  "0x40322a15342394188699ee9eae1254d2cb213f04": "2026-11-05T08:15:24+00:00",
+  "0x906458971e78bb0367174056fd1dcd8226622bb9": "2026-11-05T08:15:24+00:00",
+  "0x8a7b68a5b3e2600db7534c9baaeb38af5aaab2db": "2026-11-05T08:15:24+00:00",
+  "0x704a2a8c58a918a4e3339f6b6551fad0b1f6394a": "2026-11-05T08:15:24+00:00",
+  "0xeaeaa6d3cbfd3ec51728410057a89f699438334f": "2026-11-05T08:15:24+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -5560,9 +5565,110 @@
      "people": 2
     }
    }
+  },
+  "0x906458971e78bb0367174056fd1dcd8226622bb9": {
+   "address": "0x906458971e78bb0367174056fd1dcd8226622bb9",
+   "symbol": "PILOT",
+   "name": "Pilot Protocol",
+   "description": "P2P Networking Stack for Al Agents. Backup account. Mainly for tokens",
+   "website": "https://pilotprotocol.network",
+   "twitter": "https://x.com/pilotprotocol_",
+   "launched": "2026-11-05T08:08:46+00:00",
+   "mcap": 4058.43546697816,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T08:15:24+00:00",
+   "scored_at": "2026-11-05T08:15:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pilot-protocol/pilotprotocol",
+    "score": 25,
+    "raw_score": 60,
+    "capped": true,
+    "not_theirs": false,
+    "flags": [
+     "PILOT was launched 4 times on Pons"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, hook) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (pilotprotocol.network/docs), docs (pilotprotocol.network/docs/concepts), docs (pilotprotocol.network/docs/getting-started), docs (pilotprotocol.network/docs/integration), docs (pilotprotocol.network/docs/research), docs (pilotprotocol.network/llms.txt), website (pilotprotocol.network), website code (pilotprotocol.network))"
+     ],
+     "Real code": [
+      "\u2705 938 changes over 243 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 167 days old, 6 people, 148 stars, 20 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 22 updates shipped so far",
+     "Website has a roadmap page: https://pilotprotocol.network/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://pilotprotocol.network",
+     "https://pilotprotocol.network",
+     "https://pilotprotocol.network/llms.txt",
+     "https://pilotprotocol.network/docs",
+     "https://pilotprotocol.network/docs/concepts",
+     "https://pilotprotocol.network/docs/getting-started",
+     "https://pilotprotocol.network/docs/integration",
+     "https://pilotprotocol.network/docs/research"
+    ],
+    "facts": {
+     "commits": 938,
+     "stars": 148,
+     "created": "2026-02-07",
+     "pushed": "2026-10-14",
+     "people": 6
+    }
+   }
+  },
+  "0xeaeaa6d3cbfd3ec51728410057a89f699438334f": {
+   "address": "0xeaeaa6d3cbfd3ec51728410057a89f699438334f",
+   "symbol": "APT",
+   "name": "ASTROPADTOKEN",
+   "description": "$$APT: The utility token powering AstroPad, a multichain launchpad across Robinhood, Base and Arc. 25% of token purchases go directly to the community.",
+   "website": "https://astropad.live",
+   "twitter": "https://x.com/the_astropad",
+   "launched": "2026-11-05T08:04:25+00:00",
+   "mcap": 5112.012030215745,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T08:15:24+00:00",
+   "scored_at": "2026-11-05T08:15:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "S4viour1/astropad",
+    "score": 0,
+    "capped": true,
+    "flags": [
+     "GitHub link is dead: github.com/S4viour1 doesn't exist"
+    ],
+    "private": true,
+    "reasons": {
+     "Really theirs": [
+      "\u274c github.com/S4viour1 doesn't exist"
+     ]
+    },
+    "roadmap": [],
+    "facts": {}
+   }
   }
  },
- "checked_total": 663,
+ "checked_total": 668,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -6064,14 +6170,27 @@
     "dspytdao",
     "zloirock/core-js"
    ]
+  },
+  {
+   "when": "2026-11-05T08:15:24+00:00",
+   "address": "0x906458971e78bb0367174056fd1dcd8226622bb9",
+   "symbol": "PILOT",
+   "website": "https://pilotprotocol.network",
+   "used": "pilot-protocol/pilotprotocol",
+   "ignored": [
+    "pilot-protocol"
+   ]
   }
  ],
  "symbol_counts": {
+  "DECEL": 1,
+  "PILOT": 4,
+  "ANTI SI": 2,
+  "APT": 1,
   "ASI": 1,
   "BNW": 1,
   "FAIRND": 1,
   "LAYER": 1,
-  "PILOT": 3,
   "Stockless": 1,
   "NYMRA": 4,
   "HYPBLX": 1,
@@ -6098,19 +6217,20 @@
   "SHIFT": 1,
   "GLOBYR": 1,
   "DEMTAS": 1,
-  "DCD": 1,
-  "WAFER": 1,
-  "MNYBST": 1,
-  "Human": 1,
-  "TATTER": 1,
   "WIF": 1,
   "PONS": 1,
   "HARMONIC": 1,
   "CHARLIE": 1,
   "ROBINCAT": 1,
-  "MOTION": 1,
-  "GAGE": 1,
   "ZEAL": 1,
+  "MOTION": 1,
+  "RAETO": 1,
+  "DCD": 1,
+  "WAFER": 1,
+  "MNYBST": 1,
+  "Human": 1,
+  "TATTER": 1,
+  "GAGE": 1,
   "ARCOM": 1,
   "STACK": 1,
   "ROME": 1,
@@ -6186,7 +6306,6 @@
   "WORG": 1,
   "VIBE": 1,
   "DOOM": 2,
-  "RAETO": 1,
   "SRV4A": 1,
   "TEST": 2,
   "GUARDIS": 1,
@@ -7115,6 +7234,149 @@
      "winners_linked": []
     }
    }
+  },
+  "0x40322a15342394188699ee9eae1254d2cb213f04": {
+   "address": "0x40322a15342394188699ee9eae1254d2cb213f04",
+   "symbol": "DECEL",
+   "name": "Effective Decelerationism",
+   "description": "",
+   "website": "https://www.serializedaudit.io/bsc/0x085b526f5e1715abc6d6b64046d9d6c91de04444",
+   "twitter": "https://x.com/axiom_parody123/status/2118253852474392656",
+   "launched": "2026-11-05T08:11:26+00:00",
+   "mcap": 4100.151479942445,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T08:15:24+00:00",
+   "scored_at": "2026-11-05T08:15:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 50,
+    "raw_score": 50,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms-full.txt) (+10)",
+      "\u2705 Developer page: /developers, /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u2705 Lists 2 contract addresses (+5)",
+      "\u274c Doesn't link any past winners (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burn) \u2014 claimed, not checked on chain (+10)",
+      "\u274c No use of stock tokens or USDG (+0)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard or wallet connect) (+5)",
+      "\u274c Not aimed at AI agents (+0)",
+      "\ud83d\udfe1 Mentions an audit \u2014 not checked (+5)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://www.serializedaudit.io/bsc/0x085b526f5e1715abc6d6b64046d9d6c91de04444",
+     "https://www.serializedaudit.io/bsc/0x085b526f5e1715abc6d6b64046d9d6c91de04444",
+     "https://www.serializedaudit.io/llms-full.txt",
+     "https://www.serializedaudit.io/llms.txt",
+     "https://docs.serializedaudit.io/llms-full.txt",
+     "https://docs.serializedaudit.io/llms.txt",
+     "https://www.serializedaudit.io/docs",
+     "https://www.serializedaudit.io/developers",
+     "https://www.serializedaudit.io/docs"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [
+      "https://www.serializedaudit.io/developers",
+      "https://www.serializedaudit.io/docs"
+     ],
+     "contract_addresses": 2,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x72be1277e198d0c476869253cb4e62807e14533c": {
+   "address": "0x72be1277e198d0c476869253cb4e62807e14533c",
+   "symbol": "RAETO",
+   "name": "Raeto",
+   "description": "Your tokenized stocks pay for your AI inference. Lend on Morpho, earn credits for 400+ models. Our proprietary auto-routing saves up to 70% per request",
+   "website": "https://raeto.cc",
+   "twitter": "https://x.com/RaetoCC",
+   "launched": "2026-10-12T14:39:55+00:00",
+   "mcap": 2617002,
+   "where": "exchange",
+   "first_seen": "2026-11-05T08:15:24+00:00",
+   "scored_at": "2026-11-05T08:15:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "repo": null,
+    "score": 90,
+    "raw_score": 90,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2705 Site offers API keys for developers (+10)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+10)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /developers, /build (+5)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u2705 Lists 2 contract addresses (+5)",
+      "\u2705 Works with past winners: Priors (+5)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burns) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)"
+     ],
+     "Live product": [
+      "\u2705 Has a working app (app, dashboard or wallet connect) (+5)",
+      "\u2705 Made for AI agents to use (+5)",
+      "\u274c No audit mentioned (+0)"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 3,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://raeto.cc",
+     "https://raeto.cc",
+     "https://raeto.cc/llms-full.txt",
+     "https://raeto.cc/llms.txt",
+     "https://raeto.cc/docs",
+     "https://raeto.cc/developers",
+     "https://raeto.cc/build"
+    ],
+    "facts": {
+     "tools": 3,
+     "dev_pages": [
+      "https://raeto.cc/developers",
+      "https://raeto.cc/build"
+     ],
+     "contract_addresses": 2,
+     "winners_linked": [
+      "Priors"
+     ]
+    }
+   }
   }
  },
  "site_checked": {
@@ -7179,6 +7441,8 @@
   "0x36a080c57c749e57eaf859ce082a368d96264481": "2026-11-05T07:30:27+00:00",
   "0xda201daeb934aab6d87c6c9f38368fb498a25a19": "2026-11-05T07:45:22+00:00",
   "0x1df5916e0df4abeed63585f74aaccc9335dafe50": "2026-11-05T08:00:41+00:00",
-  "0xeb7e610a85c4daa77ad2229b330789ae4e7265cb": "2026-11-05T08:00:41+00:00"
+  "0xeb7e610a85c4daa77ad2229b330789ae4e7265cb": "2026-11-05T08:00:41+00:00",
+  "0x40322a15342394188699ee9eae1254d2cb213f04": "2026-11-05T08:15:24+00:00",
+  "0x72be1277e198d0c476869253cb4e62807e14533c": "2026-11-05T08:15:24+00:00"
  }
 }
