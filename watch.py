@@ -789,6 +789,27 @@ def skipped_html(state):
             "If a real project is here, tell Claude and it goes in reviews.json.</p><ul>" + "".join(out) + "</ul></details>")
 
 
+# Shows every "2026-11-05 02:47 UTC" or "4 Nov 13:35 UTC" on the page in the visitor's own time zone.
+# The original UTC time stays as a tooltip. If the browser can't run it, the UTC times simply stay.
+LOCAL_TIME_JS = r"""(()=>{try{
+const M={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+const full=new Intl.DateTimeFormat(undefined,{day:'numeric',month:'short',year:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});
+const short=new Intl.DateTimeFormat(undefined,{day:'numeric',month:'short',hour:'numeric',minute:'2-digit',timeZoneName:'short'});
+const re=/([0-9]{4})-([0-9]{2})-([0-9]{2})[ T]([0-9]{2}):([0-9]{2})(?::[0-9]{2})? ?UTC|\b([0-9]{1,2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) ([0-9]{2}):([0-9]{2}) UTC/g;
+const yr=new Date().getUTCFullYear();
+const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:n=>/SCRIPT|STYLE/.test(n.parentNode.nodeName)?2:1});
+const nodes=[];while(w.nextNode())nodes.push(w.currentNode);
+for(const n of nodes){const s=n.nodeValue;re.lastIndex=0;if(!re.test(s))continue;re.lastIndex=0;
+ const f=document.createDocumentFragment();let last=0,m;
+ while((m=re.exec(s))){f.append(s.slice(last,m.index));
+  const t=m[1]?Date.UTC(+m[1],m[2]-1,+m[3],+m[4],+m[5]):Date.UTC(yr,M[m[7]],+m[6],+m[8],+m[9]);
+  const sp=document.createElement('span');sp.title=m[0];sp.textContent=(m[1]?full:short).format(t);f.append(sp);last=re.lastIndex;}
+ f.append(s.slice(last));n.replaceWith(f);}
+const top=document.querySelector('p.top');
+if(top)top.append(' Times are in your time zone ('+Intl.DateTimeFormat().resolvedOptions().timeZone+'); hover a time to see it in UTC.');
+}catch(e){}})();"""
+
+
 def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=None, ship=None):
     pdb = pdb or {}
     rows = sorted(state["github"].values(), key=lambda r: r["first_seen"], reverse=True)
@@ -877,6 +898,7 @@ if(navigator.clipboard)navigator.clipboard.writeText(m).then(done,()=>prompt('Co
 document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{{document.querySelectorAll('.bar button').forEach(x=>x.classList.toggle('on',x===b));
 const f=b.dataset.f;document.querySelectorAll('article.card').forEach(c=>{{const s=+c.dataset.score,n=c.dataset.new==='1',fl=!!c.querySelector('.flag');
 c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))?'':'none'}})}});
+{LOCAL_TIME_JS}
 </script></body></html>"""
     os.makedirs(os.path.dirname(SITE), exist_ok=True)
     open(SITE, "w", encoding="utf-8").write(page)
