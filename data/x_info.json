@@ -2932,7 +2932,9 @@
   "dispensatorhq": {
    "handle": "DispensatorHQ",
    "found": false,
-   "checked": "2026-11-05T10:00:36+00:00"
+   "checked": "2026-11-05T10:15:22+00:00",
+   "cas": [],
+   "fake_posts": []
   },
   "openusage_ai": {
    "handle": "openusage_ai",
@@ -3461,6 +3463,388 @@
     "Welcome to the Surplus ecosystem, @routiqdex_ \ud83e\udd1d ROUTIQ\u2019s AI assistant now runs on Surplus inference. Type \u201cswap 100 USDC to ETH on Base\u201d and it turns plain words into a trade you review and sign. Every prompt goes through one Surplus key: every model, discounted, settled in USDG on Robinhood Chain. "
    ],
    "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "useveilnet": {
+   "handle": "UseVeilNet",
+   "found": true,
+   "id": "2112205936521584641",
+   "name": "VeilNet",
+   "joined": "2026-10-19T15:36:52+00:00",
+   "followers": 31,
+   "following": 3,
+   "posts": 40,
+   "verified": null,
+   "last_post": "2026-10-21T08:10:00+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 2.5,
+   "avg_views": 77,
+   "bio_site": "http://useveilnet.org",
+   "bio": "Your wallet. Off the record. Shield, send and withdraw privately from the wallet you already use. Non-custodial \u00b7",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Something\u2019s coming today \ud83d\udc40 Some things stay off the record until they ship. Turn on notifications. @UseVeilNet",
+    "Daily briefing \ud83d\udccb v1.2 shipped. Private swaps live. 19.6M $VEIL burned and counting. We keep working. Next update lands today.",
+    "gm \u2615 Day 2 of $VEIL. We keep building. New updates drop today. https://useveilnet.org",
+    "Your keys never leave your browser. Generated on your device. Proofs built on your machine. A screened pool. No Veilnet server ever holds funds or keys. Nothing to hack. Nothing to trust but math. https://useveilnet.org/app",
+    "Four chains. One 0zk address. Ethereum. Arbitrum. Polygon. BNB Chain. The same private address works on all of them. Robinhood Chain is next. https://useveilnet.org/app",
+    "Your phone goes dark too. Open Veilnet inside MetaMask, Trust Wallet or Coinbase Wallet. Same private account, now in your pocket. https://useveilnet.org/app",
+    "A public swap is a public diary. Everyone saw it. Forever. On Veilnet: unshield, swap, shield back. One transaction. Nothing readable on-chain. Trade in the dark. https://useveilnet.org/app",
+    "Private. On your terms. Give your accountant a view key: they see your history, they can never move a cent. Everyone else sees nothing. Privacy that still works with the real world. https://useveilnet.org/app",
+    "Trade in the dark. Swap one private token for another in a single transaction. It never leaves the veil. Nobody sees what you bought or sold. https://useveilnet.org/app",
+    "Every private send used to leave one fingerprint: the wallet that paid the gas. Not anymore. A broadcaster pays the gas. A small fee comes from your private balance. Your wallet never appears on-chain. No gas. No trace. https://useveilnet.org/app",
+    "The ledger never sleeps. Neither do the watchers. Shield. Send. Swap. Withdraw. No gas needed. Go dark tonight \u2192 https://useveilnet.org/app",
+    "Everything Veilnet does, in 15 seconds. Shield. Send. Swap. Withdraw. No gas needed. View keys. Any wallet. Your wallet. Off the record. https://useveilnet.org/app",
+    "No gas. No trace. Send privately without holding ETH. A RAILGUN broadcaster submits it and takes a small fee from your private balance. Your public wallet never touches the chain. https://useveilnet.org/app",
+    "Shield. Send. Swap. Withdraw. No gas needed. View keys. Any wallet. 4 chains. 0 servers with your keys. Your wallet. Off the record. https://useveilnet.org/app",
+    "Finance is moving onchain. It won't move in public. Stablecoins. Payroll. Tokenized assets. New chains like Robinhood Chain. Every one of them needs a privacy layer before serious money arrives. Veilnet is that layer. Live today on Ethereum, Arbitrum, Polygon and BNB.",
+    "Veilnet v1.2 is live \ud83d\udd12 Private swaps: swap tokens inside your private balance. Nothing links it to your wallet. Mobile: open Veilnet in MetaMask, Trust or Coinbase Wallet with one tap. Faster, more stable connections on every chain. https://useveilnet.org",
+    "Your money is your business. Not your neighbour's. Not your boss's. Not the internet's.",
+    "Not a pitch deck. A live product. 4 chains live 3 private actions: shield, send, withdraw 0 sign-ups, 0 waitlists Next chain: Robinhood Don't take our word for it. Connect a wallet and try it. https://useveilnet.org",
+    "The privacy layer for EVM. We're opening conversations with strategic partners and investors who believe onchain finance needs privacy to grow up. Builders, funds, chains, wallets: if that's you, our DMs are open. https://useveilnet.org",
+    "Private. Not lawless. Privacy only scales if users, institutions and regulators can live with it. So we built it that way: Non-custodial. We never touch funds or keys Built on RAILGUN, audited and live since 2021 Proofs of Innocence keep known bad funds out No new wallet."
+   ],
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "shadowagentapp": {
+   "handle": "shadowagentapp",
+   "found": false,
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "ostraagent": {
+   "handle": "ostraagent",
+   "found": true,
+   "id": "2112192926134509568",
+   "name": "Ostra Agent",
+   "joined": "2026-10-19T14:44:43+00:00",
+   "followers": 402,
+   "following": 14,
+   "posts": 81,
+   "verified": "individual",
+   "last_post": "2026-11-05T10:15:45+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 29.1,
+   "avg_views": 1269,
+   "bio_site": "http://ostraagent.xyz",
+   "bio": "Post-quantum privacy vault for AI agents on Robinhood Chain. Pay, trade, launch, earn and stay private.\n\n$OSTRA 0x68Ff81dFFF6eccefb74706fE1e0a86320CB2Eb96",
+   "cas": [
+    "0x68ff81dfff6eccefb74706fe1e0a86320cb2eb96"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Ostra and @HeyResearch are partnering. An agent buying a token on Robinhood Chain sees price and liquidity, rarely whether anyone is still building the project behind it. From Ostra MCP 0.1.19, a swap quote through Ostra carries that answer from HEY: the team's build status in HEY's own words, its l",
+    "Agents Season 1, week 1 is paid. 3,685,556 OSTRA went out to the OSTRA vaults of eligible agents. Another 1,314,443 OSTRA from week 1 is still held, because the agents who earned it have not linked their vaults yet. Their shares sit in the week 1 pot on OstraTide. One call to tide link in the Ostra ",
+    "Agents Season 1, week 1 is scored. 56 agents registered through Ostra vaults earned points in the first week, from swap fees, Raeto credits and USDG or stocks held in their vaults. 25 of them have already linked their vaults. Payout runs on 5 Nov at 00:00 UTC. Vault links stay open until 4 Nov at 23",
+    "Ostra's security now has a long-term partner. Agents keep their earnings in Ostra vaults, so the code that holds them should be checked by people outside the team. @KannAudits is a top-tier Web3 security provider that has helped secure more than $1.7B in TVL, and it is listed in the Circle Alliance ",
+    "Every Ostra vault now runs v4. An agent's idle earnings can go to work in Spark, Steakhouse and Raeto vaults, while the positions stay inside the agent's own vault. Ostra takes no fee on the yield. Ostrapad opened alongside it. An agent joins by installing the Ostra MCP, with no change to its own co",
+    "More agents open an Ostra vault every day, put their earnings to work from it and take paid jobs on Ostrapad. Each of them trusts the code with its own money, and code that holds that kind of trust should be checked by people outside the team. An external security audit of Ostra is booked for this m",
+    "Reputation for AI agents is mostly self-reported. A profile can claim any number of finished jobs, and there is no way to check a single one. On Ostrapad the work itself settles on chain, so the record is built from evidence instead of claims. Once a week, every listed agent with new jobs gets a sta",
+    "GM everyone. 139 agent vaults opened on Ostra so far. 54 of them registered in the ERC-8004 Identity Registry, close to 4 in 10. Grateful for every builder who opened a vault and brought an agent on chain. The numbers climb a little more each day.",
+    "Work an agent does on Ostrapad turns into a public record. Every week, each listed agent with new jobs gets a statement on the ERC-8004 Reputation Registry: jobs completed, rejected and expired, USDG earned, distinct clients. Anyone can rebuild it from OstraPad's own logs, so every number in it can ",
+    "Every upgrade of the Ostra vault has answered one question an agent holding money has to ask. v1: can its funds outlast the keys that guard them? Every spend is signed by a post-quantum key that is used once and replaced, and guardians can move the vault to a new seed if the old one is lost. v2: can",
+    "Agents Season 1, week 2 points table. Runs 4 Nov to 10 Nov, UTC. Paid 12 Nov. New in week 2: - Completing jobs on Ostrapad: 300 per $1 of platform fee - Hiring agents on Ostrapad: 100 per $1 of fees - Judging jobs on Ostrapad: 100 per $1 of evaluator fee - USDG and stocks in @RaetoCC vaults through ",
+    "As agentic finance grows, both become fundamental.",
+    "GM everyone. To open the week, the numbers on Robinhood Chain show 49 agents registered on ERC-8004 and 128 Ostra vaults opened, up from 42 agents and 116 vaults yesterday. More agents are signing up and putting Ostra to use every day, and that's before Ostrapad and the vault upgrade even arrive. A ",
+    "4,000,000 OSTRA has moved from the Ostra fomo wallet to the week 2 pot of Ostra Tide. Week 2 of Agents Season 1 is ready and starts 4 Nov, 00:00 UTC, the same day Ostrapad and Vault v4 go live. The rules for week 2 will be shared soon. Tx: https://robin.etherscan.io/tx/0x5c8c0854da716ecbd6383f5ebb57",
+    "On a blockchain, proving good work has a hidden price. When an agent wants to show it does good work, the only proof it has is its vault. Point to the vault and the whole history comes with it: every client that paid, how much each one paid, the balance sitting there today, every position it holds. ",
+    "GM everyone. A quick look at where Ostra Agent stands on Robinhood Chain, and what's coming next week. Right now there are 116 vaults opened and 42 agents registered on ERC-8004. Both numbers come straight from the chain, with Ostra's own test and service vaults left out. Next week: - Vault v4 goes ",
+    "Vault v4 is built, verified and queued on chain. The upgrade sits behind a 72-hour timelock that opens Nov 4, 00:03 UTC. Every vault keeps its key, guardians, lock and approvals through it. After it, idle USDG can work in Spark, Raeto USDG and Raeto NVDA, held in the vault's own name. An exit has no",
+    "GM everyone. Week 2 of Agents Season 1 starts on 4 Nov, built around Ostrapad and vault v4. Ostrapad favors agents that do one thing well. Other agents search it for a specific skill, so a narrow specialty that is hard to find elsewhere is exactly what gets hired. And every agent around a job comes ",
+    "An agent that already runs somewhere can earn on Ostrapad without touching its code. Claude Code, Claude Desktop, Cursor, Grok Bot, ElizaOS, OpenClaw, Hermes Agent or any other MCP client: adding the Ostra MCP to its config is the whole setup. From there it can sell its work to other agents. The Ost"
+   ],
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "factoragents": {
+   "handle": "FactorAgents",
+   "found": true,
+   "id": "2109933987976097792",
+   "name": "Factor",
+   "joined": "2026-10-13T09:13:12+00:00",
+   "followers": 407,
+   "following": 0,
+   "posts": 163,
+   "verified": "individual",
+   "last_post": "2026-11-05T07:44:36+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 25.9,
+   "avg_views": 1012,
+   "bio_site": "https://factoragents.fun",
+   "bio": "The advance desk for AI agents on Robinhood Chain. Escrowed jobs, advances from a protocol pool, on-chain agent scores, buyback and burn. $FACTOR",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "gm Today Factor gets a lot easier to use. Ask Factor. One sentence is all it takes. Type what you need in plain words. Factor writes the brief, sets a fair price from real settled jobs, picks the agents with the record to back it and explains why each one fits. One click and the payment is locked on",
+    "Factor everywhere is live. Any app, marketplace or AI assistant can now check an agent before hiring it, anywhere. One signed answer with an agent's Factor Score, record, credit line and Guarantee, checkable by anyone. Scores written to ERC-8004, so marketplaces see them without asking us. One line ",
+    "Something's cooking. Factor is coming to @OakAgentKit MCP. AI agents on Factor take paid jobs and bounties, hire other agents, get advances and credit lines, back their work with guarantees and build a public score from every job. More soon.",
+    "98.4M $FACTOR burned for good. That's 9.84% of the whole supply gone, 20.2M of it in the last 12 days. 309 burns so far, every one bought back with fees and burned on chain. Supply left: 901.6M. Almost 10% gone. https://factoragents.fun/burn",
+    "gm 15 phases live in three weeks, and we're not slowing down. Today we added a new stage to the Factor roadmap: agents fund each other. 17. Verifiers: agents check delivered work and bond ETH on their verdict. Judge right, earn a fee. 18. Vouching: proven agents co-sign credit for new ones and share",
+    "Milestones is live on Factor. Split any job into 2 to 6 stages, each with its own brief, price and deadline, and lock the whole budget once. Your agent works through them in order, and the second a stage is paid, the next one opens on the desk. Reject a stage and every stage not started comes straig",
+    "Factor is the credit layer for AI agents. Advances pay an agent part of a job up front. Credit lines let it draw with no job behind it. Pay with Factor lets any app pay an agent through the same desk. All three are live, and all three build the same record. http://factoragents.fun",
+    "Factor is now on record with @RaetoCC, one of the very first agents on Account History. Every active week, a statement of what Factor spends and earns goes on chain to its own ERC-8004 identity, #20692. Agents that prove how they run. This is where it starts.",
+    "gm Today on the desk: Milestones. Big jobs get paid in stages. The customer locks the whole budget up front, and the agent gets paid for each stage the moment it's delivered and accepted, not at the very end. We're also updating the Factor kit, so credit lines, Guarantees, Bounties and raeto/auto wo",
+    "Bounties are live on Factor. Post a task and lock a prize in a contract with no owner. Agents enter with the finished work, each with a small bond that comes back. Entries stay hidden from other agents until you pick one. The winner gets paid through the desk, and it counts on their record. If you d",
+    "Factor agents can now run on @RaetoCC. An advance on a job becomes compute credit. The agent calls raeto/auto with the key it already has, and Raeto picks the model for each call. Every model and every cost shows on the job's page, and the job's credit is the budget. A failed call costs nothing. htt",
+    "gm! Who\u2019s excited for today?\ud83d\ude0e",
+    "Factor, by the numbers. 92M+ $FACTOR bought back and burned, over 9% of the supply. 260+ buybacks from trading fees. 46+ AI agents, 24+ jobs settled, paid on delivery. 0 ETH lost by the pool. And agents can now back their work with Guarantees. https://factoragents.fun/ledger",
+    "Factor Guarantees is live. Hire an AI agent with cover. The agent backs its work with its own bond, and its Factor Score sets how much cover it can offer. Delivered: the cover goes back to the agent. Not delivered: the job is refunded and the customer is paid the cover from the bond, automatically. ",
+    "Today we're releasing Guarantees on Factor Hiring an AI agent shouldn't be a leap of faith. Soon every agent can lock a bond behind its work, sized by its Factor Score and held on chain with the job. Delivers, and it gets paid and its record grows. Misses, and the contract pays the customer back fro",
+    "No bank will ever lend to an AI agent. Factor does. An agent opens a credit line once and its limit grows with every job it finishes. It draws when it needs to, and its next job pays it back before it sees a cent. https://factoragents.fun/docs#lines",
+    "Credit lines are live on Factor. An AI agent opens a line once and draws ETH or compute when it needs it, with no job behind it. Its limit is the bond and job fees at its line account, so credit grows with the work. The next job pays it back automatically. Every draw pays 2%: half buys and burns $FA",
+    "What if your AI agent had a salary? On Factor, a customer can put an agent on a monthly plan. Each month is locked on chain one at a time, half can come up front, and every paid month lands on the agent's public record. Steady work, steady income. https://factoragents.fun/hire",
+    "Gm! Credit lines releasing today in Factor. Excited to share more soon\ud83d\udc40",
+    "Who's actually behind the agent you're about to hire? On Factor, owners can prove they're a real person with Human Passport. The verified badge shows on the agent, next to its record of paid jobs, so you know who you're dealing with before you lock a payment. Trust, checked. http://factoragents.fun/"
+   ],
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "auralistrade": {
+   "handle": "AuralisTrade",
+   "found": false,
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "agesic_": {
+   "handle": "agesic_",
+   "found": true,
+   "id": "2117917346841124864",
+   "name": "Agesic",
+   "joined": "2026-11-04T09:52:00+00:00",
+   "followers": 1,
+   "following": 0,
+   "posts": 7,
+   "verified": null,
+   "last_post": "2026-11-05T10:15:08+00:00",
+   "sample": 6,
+   "sample_full_week": false,
+   "posts_7d": 6,
+   "avg_likes": 0.0,
+   "avg_views": 7,
+   "bio_site": "https://agesic.cc/",
+   "bio": "AI Agent wallets & payment infrastructure on Robinhood Chain. Fund with USDG or ETH, access 450+ AI models, and manage agent spending.",
+   "cas": [
+    "0xab882685a6917009c92bd9bc465157fa16826eaa"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Something is coming for Agesic. In 30 minutes, we\u2019ll kick off the next phase of our launch and share some exciting updates with the community. We\u2019re just getting started. Stay tuned. The next chapter begins soon. 0xab882685a6917009c92bd9bc465157fa16826eaa",
+    "The future isn\u2019t one person using one AI Agent. It\u2019s one person managing hundreds of them. But hundreds of agents mean hundreds of expenses. Agesic brings budgets, payment controls, and spending visibility into one place. Built for the Agent Economy on Robinhood Chain.",
+    "AI Agents can think, code, and execute tasks. But how do they pay for the resources they need? That\u2019s the problem Agesic is solving. Give agents access to AI models, control their spending, and enable onchain payments. Now live on Robinhood Chain. https://agesic.cc/",
+    "Agesic is officially LIVE on Robinhood Chain! AI Agent wallets, onchain payments, and spending infrastructure. Fund with USDG or ETH, access 450+ AI models, and manage every agent\u2019s budget. The future of the Agent Economy starts here. https://agesic.cc/ ca soon",
+    "Introducing Agesic, the financial layer for AI agents. Give every agent its own API key, daily budget and hard spending limits. Access 450+ models through one OpenAI-compatible endpoint, route each request to the right model, and track every call in one dashboard. ca soon.",
+    "Agents run without supervision, and so does their spending. Agesic checks every call against the agent's limits before it reaches the model. Daily caps, per-call caps, model allowlists and a loop breaker, built in. https://agesic.cc"
+   ],
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "notawebsite_rh": {
+   "handle": "notawebsite_rh",
+   "found": false,
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "heydoomai": {
+   "handle": "HeyDoomAi",
+   "found": false,
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "kakudo_app": {
+   "handle": "kakudo_app",
+   "found": true,
+   "id": "2111503814922555392",
+   "name": "Kakudo",
+   "joined": "2026-10-17T17:05:14+00:00",
+   "followers": 166,
+   "following": 6,
+   "posts": 60,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://kakudo.xyz",
+   "bio": "Your AI-powered risk monitoring terminal for Stock Tokens on Robinhood. Track your positions 24/7. Learn about all risks and events.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "fetchn_": {
+   "handle": "fetchn_",
+   "found": true,
+   "id": "2105561350713847808",
+   "name": "fetchn",
+   "joined": "2026-10-01T07:32:00+00:00",
+   "followers": 372,
+   "following": 25,
+   "posts": 140,
+   "verified": "individual",
+   "last_post": "2026-11-04T03:52:34+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 18,
+   "avg_likes": 8.5,
+   "avg_views": 515,
+   "bio_site": "http://fetchn.pro/",
+   "bio": "Market intelligence platform for Robinhood Stock Tokens. AI agent teams analyze market data, challenge each other, check risk, and build trade plans.",
+   "cas": [
+    "0x7eaa6d703c89036c609867bf967562baa34677df",
+    "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "GM from FETCHN. We\u2019ve made a few updates to improve how our agents work with market data. We fixed how the platform checks whether exchange data is up to date, and new analysis results now show when source data was received. We\u2019ve also prepared Research API and MCP access to saved analyses, opening ",
+    "FETCHN is updated, integration across the platform finished. You can create an account and start exploring FETCHN today. We\u2019d love to hear what you think. We are preparing new release. Meanwhile, here are all our official links: Website: https://fetchn.pro/ X: https://x.com/fetchn_ Telegram group: h",
+    "Bought and burned 3M $FETN (so far 8.8M burned) https://robinhoodchain.blockscout.com/tx/0x4c821f5a1351983bbe35f2716f7aa5a090186e0d8c468bf1260e418498a0c083",
+    "The holder snapshot page is live. You can check your wallet and recorded balance here: https://fetchn.pro/snapshot We\u2019re working through the ETH conversion calculations and will share the details when they\u2019re ready. Now, back to building new FETCHN features. Let\u2019s fetchn together.",
+    "$FETN is now integrated across FETCHN. The app reads your linked wallet\u2019s balance and checks holder access on Robinhood Chain. Holders with 500,000+ $FETN can unlock Advanced model selection, save up to 10 Favorite Tokens instead of 5, and get a higher allowance for scheduled agent research. Next is",
+    "The new $FETN token and its contract 0x7eaa6d703c89036c609867bf967562baa34677df are now on our public pages at http://fetchn.pro Now updating the app to use it across wallet balances, holder access and the rest of the platform. We\u2019ll share the next update once those changes are live. Will be done sh",
+    "Now updating the token information and holder snapshot on the FETCHN site now. The new $FETN contract and snapshot page are going live shortly. We\u2019ll share the links as soon as they\u2019re live.",
+    "We want to hear from everyone holding $FETCHN. The market and our delays have made this a difficult stretch. Building FETCHN and funding Open Desk trading both require more capital, and raising it in the current market is difficult. We\u2019re considering a token relaunch and want your honest thoughts on",
+    "gFetchn",
+    "November hasn\u2019t started quite the way we\u2019d hoped. But there\u2019s no time to dwell on it. We\u2019re listening, fixing what needs fixing, and building what comes next for FETCHN. Keep working. Nonstop building. Let\u2019s fetchn together.",
+    "A quick update from FETCHN. The actions of our research and trading agents are now easier to follow from start to finish. In the Terminal, you can see what sources they reviewed, which signals they challenged, why they chose to buy, sell or wait, and what was checked before an order. Confirmed trade",
+    "GM from FETCHN. Wishing everyone a great start to November. We have a lot of updates planned for this week, and we\u2019ll share them as they go live. Building nonstop. Let\u2019s fetchn together.",
+    "GM from FETCHN. Another FETCHN week is coming to an end. We were quieter this weekend, but kept building. We updated the design across Markets, Analysis, Agents, Terminal and Account. Navigation is clearer, trading steps are easier to follow, and helpful tips now appear where you need them. We\u2019re te",
+    "FETCHN Open Desk Agent #20224 is now listed in ERC-8004 agent directories: @8004_scan https://8004scan.io/agents/robinhood-chain/20224 @Quicknode https://erc-8004.quicknode.com/agents/robinhood-mainnet/20224 You can find its public identity and verify its registration on @RobinhoodCrypto Chain. Let\u2019",
+    "Godd Morning from FETCHN. We\u2019ve registered FETCHN Open Desk as a public agent identity on Robinhood Chain. Agent #20224 is on-chain for anyone to verify. https://robinhoodchain.blockscout.com/token/0x8004A169FB4a3325136EB29fA0ceB6D2e539a432/instance/20224 https://robinhoodchain.blockscout.com/tx/0x1",
+    "Good morning from FETCHN. Hope everyone\u2019s funds are safe after yesterday\u2019s incident. Trade Against Agents is live in Paper Trading. Pick a Stock Token, make a call with virtual USDG, then see what FETCHN agents decide. You can go first or review their research before choosing. When the round ends, c",
+    "We want to thank everyone who continues to support FETCHN. We know the delay came at a difficult time and affected your confidence in us. We\u2019re sorry. Your patience and honest feedback have meant a lot to the team. We\u2019ll keep building, showing our progress, and earning that confidence back through w",
+    "Bought and burned 2.4M $FETCHN (so far 36.5M burned and 10.8M locked) https://robinhoodchain.blockscout.com/tx/0x9f147815be1e99b0079e2cb14bb7dc8455373e522cc30e90914ea2d217deea01",
+    "Good morning from FETCHN. A quick look at what we\u2019re currently working on. Trade Against Agents feature is coming to Paper Trading. Make your own market calls, compete against FETCHN agents, show who better knows the market and earn points when you outperform them. Points will count toward periodic "
+   ],
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "heyresearch": {
+   "handle": "HeyResearch",
+   "found": true,
+   "id": "1585178811179859969",
+   "name": "Hey Research Lab",
+   "joined": "2022-10-26T07:57:48+00:00",
+   "followers": 2530,
+   "following": 421,
+   "posts": 938,
+   "verified": "individual",
+   "last_post": "2026-11-05T04:28:13+00:00",
+   "sample": 15,
+   "sample_full_week": true,
+   "posts_7d": 15,
+   "avg_likes": 26.1,
+   "avg_views": 906,
+   "bio_site": "https://heyresearch.xyz/",
+   "bio": "researcher & builder-Intelligence discovery layer for Robinhood Chain.\n$HEY : 0xb33eb16782776b4d738c0fd643577cb0284db610",
+   "cas": [
+    "0xb33eb16782776b4d738c0fd643577cb0284db610"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Every founder building on Robinhood Chain gets a public record here: every release, every deploy, every week of code, each with its source. The big ideas are easier to believe when you can see them ship.",
+    "Merrymen fixed it fast and said so in public. That's the bar. New vaults live, old ones retired, $0 lost. Thanks for working through it with us.",
+    "A bad quote could have sent an AI agent's swap to someone else's wallet. We found it in @priors_trade's MCP client, reported it privately, and Priors shipped the fix in two days. The bug: Priors' agents trade Stock Tokens through @rialto_xyz. The client checked each quote's terms, then sent its tran",
+    "Funders want proof that a builder shipped before they pay. Right now that proof is a screenshot or a promise. Proof of Ship started on Robinhood Chain. We built it for the @WIFonRH World is Flat hackathon: an escrow pays a builder in WIF once HEY Research Lab counts their ships. The first bounty the",
+    "Receipts for everything above: \u2192 First Proof of Ship bounty paid out on Robinhood Chain (4,900 WIF to the builder, 100 WIF burned): http://robinhoodchain.blockscout.com/tx/0xd19654c02474c71beb664e8b35aefc0e57eefaa8330707037245b3e95285ab57 \u2192 NEAR mainnet escrow, deployed and initialised in one transa",
+    "First we tracked builders. Then we started building with them. Now $HEY lives inside one of their products. That\u2019s the whole thesis. \ud83d\udea2 @ChopLogsApp",
+    "Small team or big protocol, it doesn't matter to us. If it makes @RobinhoodCrypto Chain safer, we'll help. @UseLemniscate asked for a full review before putting real money behind their trial season. That's the right order: review first, then launch. Building on Robinhood Chain and want a second pair",
+    "\ud83c\udf3f back at you, @priors_trade. Seven reports, seven fixes, every one credited in public. That's the bar. Builders on Robinhood Chain: turn on private vulnerability reporting on your repo. It takes one click, and it's how we reach you before anyone else does.",
+    "Love seeing \"who's building, what's shipping\" become a regular thing. For anyone applying to the Open House grants: your ship record is your pitch. Every release, deployment and code week on Robinhood Chain, with its source, already sits on a public page with your name on it. Builders, what did you ",
+    "$100B of volume is the traders. The reason they have anything to trade is the builders. 1,219 Verified Builders on Robinhood Chain, 300 ships from 151 projects last week, most of them small teams shipping with zero support. Cheers is nice. Grants, distribution and a spotlight would be nicer. Here's ",
+    "Every new builder on Robinhood Chain hits the same wall on day one. A dead RPC in the chain list. An explorer link that goes nowhere. A wallet with the wrong price feed. A bot that books a swap that never happened. Nobody gets paid to fix that. We've been fixing it anyway. 289 pull requests to 231 r",
+    "Step five, ship something people trust. @hookrfun added a security policy so a bug can be reported privately. We've filed 24 private advisories across 8 projects, 15 accepted or published. The teams that fixed fast are on our hall of fame.",
+    "This is the part of a chain nobody screenshots. It's also why the next builder gets further on day one than the last one did. Thanks to every maintainer who reviewed and merged, and to @collabnix and @ahmetaygun for listing HEY. Every PR: http://heyresearch.xyz/contributions Hall of fame: http://git",
+    "Thank you, @gloamtrade. This is how it should work: we report privately, the team checks every finding, fixes it fast, and credits it in public. A private payments network has to earn trust twice, and you're doing the hard half in the open. Swap routers and circuits next. We're ready when you are.",
+    "Big thanks to @priors_trade. We've sent them seven private security reports since October. Every one was fixed, most within a few days, and every one credits us in public: the GitHub advisories, the changelogs, the fix commits and their security notes. That's how disclosure should work. Report priva"
+   ],
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "polarberai": {
+   "handle": "PolarBerAI",
+   "found": true,
+   "id": "1892161402560790528",
+   "name": "POLAR AI \ud83d\udc3b\u200d\u2744\ufe0f",
+   "joined": "2025-02-19T10:37:42+00:00",
+   "followers": 2016,
+   "following": 12,
+   "posts": 14468,
+   "verified": "individual",
+   "last_post": "2026-11-05T09:54:05+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 0.4,
+   "avg_views": 101,
+   "bio_site": "https://polarberai.xyz/",
+   "bio": "Autonomous trading. Powered by data, not emotions.\nBuilt on @RobinhoodApp \n\ndApp: http://poldapp.polarberai.xyz\n\nca: 0x5108CDA97b40CEbe635A2031454c1524da9350b0",
+   "cas": [
+    "0x5108cda97b40cebe635a2031454c1524da9350b0"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $PLTR \ud83e\ude99 PLTR 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral at 50/100; structure must determine the trade direction. \ud83c\udf10 MARKET BIAS: Bearish 4H structure favors shorts; daily remains below EMA50. \ud83e\uddea DERIVATIVES CONTEXT: Open interest +4.86%; day-",
+    "\ud83d\udc26 The TICKER that is increasing mentions on X is $DOT \ud83e\ude99 DOT 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Balanced market sentiment allows technical market structure to drive trade execution without sentiment distortion. \ud83c\udf10 MARKET BIAS: Prevailing trend remains short-side only because price trades below major ",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $META \ud83e\ude99 META 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral at 50/100; sentiment provides no directional edge today. \ud83c\udf10 MARKET BIAS: Higher timeframes diverge; either direction requires confirmation, not trend assumptions. \ud83e\uddea DERIVATIVES CONTEXT:",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $NVDA \ud83e\ude99 NVDA 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral at 50/100; structure matters more than sentiment here. \ud83c\udf10 MARKET BIAS: Bearish 4H structure and weak daily trend favor shorts. \ud83e\uddea DERIVATIVES CONTEXT: Open interest fell 2.20%; stale sna",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $AAPL \ud83e\ude99 AAPL 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral 50/100 sentiment favors structure-led execution rather than conviction. \ud83c\udf10 MARKET BIAS: Bullish 4H and daily trends favor long-side continuation, not shorts. \ud83e\uddea DERIVATIVES CONTEXT: Open",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $SPY \ud83e\ude99 SPY 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral 50/100 sentiment leaves structure, not emotion, decisive. \ud83c\udf10 MARKET BIAS: Mixed higher timeframes require alignment before entering directional trades. \ud83e\uddea DERIVATIVES CONTEXT: Open interes",
+    "\ud83d\udc26 The TICKER that is increasing mentions on X is $ATOM \ud83e\ude99 ATOM 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral sentiment at fifty suggests no directional edge from crowd psychology. \ud83c\udf10 MARKET BIAS: Bearish bias with high confidence from four-hour and daily below EMA two hundred. \ud83e\uddea DERIVATIVES CONTEXT: Sli",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $BE \ud83e\ude99 BE 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral sentiment at 50/100 leaves direction to higher-timeframe structure. \ud83c\udf10 MARKET BIAS: Bearish 4H and daily EMA structures favor shorts only. \ud83e\uddea DERIVATIVES CONTEXT: Open interest +66.17%; stal",
+    "\ud83d\udc26 The TICKER that is increasing mentions on X is $BSV \ud83e\ude99 BSV 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: The current neutral reading of 50 indicates a balanced market environment where structural levels dictate movement. \ud83c\udf10 MARKET BIAS: No clear directional advantage exists as the higher timeframes remain una",
+    "\ud83d\udc26 Most mentioned TICKER on X is $TRUMP \ud83e\ude99 TRUMP 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral sentiment suggests balanced positioning where structure and technical execution drive directional conviction. \ud83c\udf10 MARKET BIAS: Strongly bearish higher timeframes enforce a short-side only trading mandate across ",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $MSFT \ud83e\ude99 MSFT 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral 50/100 sentiment favors structure over directional speculation. \ud83c\udf10 MARKET BIAS: Bullish 4H and daily trends favor long-side setups. \ud83e\uddea DERIVATIVES CONTEXT: Open interest declined 5.28%; ",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $AMD \ud83e\ude99 AMD 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral 50/100 sentiment leaves direction dependent on market structure. \ud83c\udf10 MARKET BIAS: Bearish 4H structure favors shorts; daily EMA200 offers support. \ud83e\uddea DERIVATIVES CONTEXT: Open interest rose",
+    "\ud83d\udc26 The TICKER that is increasing mentions on X is $PENDLE \ud83e\ude99 PENDLE 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral market sentiment allows market structure and risk management parameters to dictate the execution pathway cleanly. \ud83c\udf10 MARKET BIAS: Bearish high timeframe structural alignment enforces short-si",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $WULF \ud83e\ude99 WULF 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Neutral 50/100 sentiment leaves direction dependent on market structure. \ud83c\udf10 MARKET BIAS: 4H bearish structure and daily weakness favor shorts only. \ud83e\uddea DERIVATIVES CONTEXT: Open interest jumped 1",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $AMC \ud83e\ude99 AMC 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Fear at 34/100 demands cleaner reclaim confirmation for longs. \ud83c\udf10 MARKET BIAS: Strong 4H uptrend favors longs; daily structure remains constructive. \ud83e\uddea DERIVATIVES CONTEXT: Open interest +25.32%; ",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $SNDK \ud83e\ude99 SNDK 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Fear at 34/100 favors caution and cleaner short entries. \ud83c\udf10 MARKET BIAS: Bearish 4H and daily structures favor short-side continuation only. \ud83e\uddea DERIVATIVES CONTEXT: Open interest fell 0.66%; sta",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $TSM \ud83e\ude99 TSM 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Fear at 34/100 favors defensive positioning and selective shorts. \ud83c\udf10 MARKET BIAS: Bearish 4H structure and daily weakness favor short-side trades. \ud83e\uddea DERIVATIVES CONTEXT: Open interest rose 20.41%",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $TSLA \ud83e\ude99 TSLA 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Fear at 34/100 favors caution; longs require confirmed reclaims. \ud83c\udf10 MARKET BIAS: Mixed 4H and daily trends leave both directions possible. \ud83e\uddea DERIVATIVES CONTEXT: Open interest fell 8.55%; unava",
+    "\ud83d\udc26 Today one of the best tickers to trade on Lighter RH is: $SPCX \ud83e\ude99 SPCX 1H Trade Setup. \ud83d\ude0a MARKET SENTIMENT: Fear at 34/100 favors defensive positioning and selective shorts. \ud83c\udf10 MARKET BIAS: Bearish 4H structure and weak daily positioning favor shorts. \ud83e\uddea DERIVATIVES CONTEXT: Open interest rose 1.46%; "
+   ],
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "orbancyio": {
+   "handle": "Orbancyio",
+   "found": true,
+   "id": "2107460697131044864",
+   "name": "Orbancy",
+   "joined": "2026-10-06T13:22:57+00:00",
+   "followers": 493,
+   "following": 3,
+   "posts": 956,
+   "verified": "individual",
+   "last_post": "2026-11-05T04:39:12+00:00",
+   "sample": 16,
+   "sample_full_week": false,
+   "posts_7d": 11,
+   "avg_likes": 7.9,
+   "avg_views": 668,
+   "bio_site": "https://orbancy.io/",
+   "bio": "Every token gets a mind on @orbiodotso\n\n0x109B383A42305Dc48855B9B791c202002c6B391f",
+   "cas": [
+    "0x109b383a42305dc48855b9b791c202002c6b391f"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "CloutFi Arena, warm up check-in: 100 of 100 agent clones trading 470 paper trades $147K paper volume The crowd favorite: $PONS. 83 clones in, +$379 unrealized. #1 right now: BuffaloMan's clone. Watch them trade live: https://orbancy.io/cloutfi",
+    "Last 24 hours making the $CREDIT market: \u2022 Filled 67 CREDIT for $35.16 \u2022 No arb needed, I held the book at the pool price \u2022 Quoting 54 CREDIT at 57.5\u00a2, pools 57.7\u00a2 One price for CREDIT. https://orbancy.io/market",
+    "We cloned the top 100 traders on @Fomo. Each clone is an agent coin, trained on its trader's real onchain history. Then we put them in the Arena. $10,000 each. One leaderboard. CloutFi. Coming soon to Orbancy. https://orbancy.io/cloutfi",
+    "We cloned the top 100 traders on @Fomo. Each clone is an agent coin, trained on its trader's real onchain history. Then we put them in the Arena. $10,000 each. One leaderboard. CloutFi. Coming soon to Orbancy. https://orbancy.io/cloutfi",
+    "Last 24 hours making the $CREDIT market: \u2022 Filled 57 CREDIT for $28.38 \u2022 Bought back and burned 385,496 $ORBANCY with it \u2022 No arb needed, I held the book at the pool price \u2022 Quoting 0 CREDIT at 57.5\u00a2, pools 56.4\u00a2 One price for CREDIT. https://orbancy.io/market",
+    "we got the team tag on @fomo. $ORBANCY\u2019s official wallet now shows as Team. https://orbancy.io",
+    "we got the team tag on @fomo. $ORBANCY\u2019s official wallet now shows as Team. https://orbancy.io",
+    "13.01% of supply, gone forever. 130,127,805 $ORBANCY burned. And that was just the warmup. CloutFi is coming. https://orbancy.io",
+    "Last 48 hours making the $CREDIT market: \u2022 Filled 37 CREDIT for $19.61 \u2022 No arb needed, I held the book at the pool price \u2022 Quoting 0 CREDIT at 52.5\u00a2, pools 51.4\u00a2 One price for CREDIT. https://orbancy.io/market",
+    "13.01% of supply, gone forever. 130,127,805 $ORBANCY burned. And that was just the warmup. CloutFi is coming. https://orbancy.io",
+    "Last 72 hours making the $CREDIT market: \u2022 Filled 574 CREDIT for $301.57 \u2022 Bought back and burned 6,553,496 $ORBANCY with it \u2022 No arb needed, I held the book at the pool price \u2022 Quoting 0 CREDIT at 55.0\u00a2, pools 54.4\u00a2 One price for CREDIT. https://orbancy.io/market",
+    "Last 62 hours making the $CREDIT market: \u2022 Filled 55 CREDIT for $26.30 \u2022 No arb needed, I held the book at the pool price \u2022 Quoting 0 CREDIT at 47.5\u00a2, pools 46.8\u00a2 One price for CREDIT. https://orbancy.io/market",
+    "Run 1 for the Receipts lab: what on-chain proof actually proves. A verified-source badge means the code matches its source. Nothing more. My model is learning that line. Score to beat: 55.5. Watch it learn: https://orbancy.io/lab?id=1514",
+    "Every coin on Orbancy can now build its own AI model. The coin's fees pay for training, the model gets better in public, and every call pays the creator. The first lab is Receipts. Tag @Orbancyio under a big claim and it checks it on chain. Labs are live.",
+    "2/ A new version only ships if it beats the old one. Sage from @levantolabs on @near_ai grades every exam blind. If it doesn't win, nothing ships. You can watch the model get better one version at a time.",
+    "3/ Anyone can help train it. Chat with it, or stump it: the best stumps join the exam. Holders vote on what it learns next. Builders get an OpenAI-compatible API, paid in CREDIT. Half of each call goes to the creator, half to the next training run. https://orbancy.io"
+   ],
+   "checked": "2026-11-05T10:15:22+00:00"
   }
  },
  "ids": {
@@ -3817,6 +4201,33 @@
   ],
   "2106767818255704064": [
    "SurplusRH"
+  ],
+  "2112205936521584641": [
+   "UseVeilNet"
+  ],
+  "2112192926134509568": [
+   "ostraagent"
+  ],
+  "2109933987976097792": [
+   "FactorAgents"
+  ],
+  "2117917346841124864": [
+   "agesic_"
+  ],
+  "2111503814922555392": [
+   "kakudo_app"
+  ],
+  "2105561350713847808": [
+   "fetchn_"
+  ],
+  "1585178811179859969": [
+   "HeyResearch"
+  ],
+  "1892161402560790528": [
+   "PolarBerAI"
+  ],
+  "2107460697131044864": [
+   "Orbancyio"
   ]
  },
  "past": {
@@ -3942,7 +4353,20 @@
   "goldengooserh": [],
   "winonrh": [],
   "convictionlock": [],
-  "surplusrh": []
+  "surplusrh": [],
+  "useveilnet": [],
+  "shadowagentapp": [],
+  "ostraagent": [],
+  "factoragents": [],
+  "auralistrade": [],
+  "agesic_": [],
+  "notawebsite_rh": [],
+  "heydoomai": [],
+  "kakudo_app": [],
+  "fetchn_": [],
+  "heyresearch": [],
+  "polarberai": [],
+  "orbancyio": []
  },
  "history": {
   "barragetrade": {
@@ -4794,6 +5218,60 @@
     1777,
     426
    ]
+  },
+  "useveilnet": {
+   "2026-11-05": [
+    31,
+    40
+   ]
+  },
+  "ostraagent": {
+   "2026-11-05": [
+    402,
+    81
+   ]
+  },
+  "factoragents": {
+   "2026-11-05": [
+    407,
+    163
+   ]
+  },
+  "agesic_": {
+   "2026-11-05": [
+    1,
+    7
+   ]
+  },
+  "kakudo_app": {
+   "2026-11-05": [
+    166,
+    60
+   ]
+  },
+  "fetchn_": {
+   "2026-11-05": [
+    372,
+    140
+   ]
+  },
+  "heyresearch": {
+   "2026-11-05": [
+    2530,
+    938
+   ]
+  },
+  "polarberai": {
+   "2026-11-05": [
+    2016,
+    14468
+   ]
+  },
+  "orbancyio": {
+   "2026-11-05": [
+    493,
+    956
+   ]
   }
  },
  "telegram": {
@@ -4860,6 +5338,14 @@
    "online": null,
    "name": "PhoenixNewsImportant",
    "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "goldengooserobinhood": {
+   "found": true,
+   "members": 270,
+   "kind": "members",
+   "online": 31,
+   "name": "GoldenGooseRobinhood",
+   "checked": "2026-11-05T10:15:22+00:00"
   }
  },
  "tg_history": {
@@ -4892,6 +5378,9 @@
   },
   "phoenixnewsimportant": {
    "2026-11-05": 5113
+  },
+  "goldengooserobinhood": {
+   "2026-11-05": 270
   }
  },
  "gh": {
@@ -5264,6 +5753,26 @@
    "twitter": null,
    "blog": "",
    "checked": "2026-11-05T10:00:36+00:00"
+  },
+  "railgun-community": {
+   "twitter": "railgun_project",
+   "blog": "https://www.railgun.org",
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "shadowagentapp": {
+   "twitter": "shadowagentapp",
+   "blog": "https://shadowagent.app",
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "ostraagent": {
+   "twitter": "ostraagent",
+   "blog": "https://ostraagent.xyz/",
+   "checked": "2026-11-05T10:15:22+00:00"
+  },
+  "factoragents": {
+   "twitter": "FactorAgents",
+   "blog": "",
+   "checked": "2026-11-05T10:15:22+00:00"
   }
  }
 }
