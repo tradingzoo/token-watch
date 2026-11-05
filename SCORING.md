@@ -93,14 +93,16 @@ Caveat: these are today's websites, so a winner may have built its developer pag
 
 **Who is listed.** A token with no GitHub whose own website (not an X, Telegram or news page) has **2 or more** of: API keys, an SDK or install line, MCP, llms.txt. New tokens are looked at when found and again once a day for 14 days; up to 40 new sites a run. Only what a visitor or agent can read counts (pages and docs, not script code: news sites' ad scripts mention "SDK" too).
 
+**No website on Pons** (added 5 Nov, after UBIK). Some projects list only an X account on Pons. The site check then uses the website on that X profile, but only if the X account itself posts this token's address, so a copy or a token linking someone else's X never gets in. The card says where the site came from.
+
 **Score /100.**
 
 | Part | What counts | Points |
 |---|---|---|
-| **Plug-in tools (45)** | API keys 10 · SDK or install line 10 · MCP 10 · llms.txt 10 · developer page (/developers, /docs, /build) or docs link 5 | 45 |
+| **Plug-in tools (45)** | API keys (incl. a holder's key or `Authorization: Bearer`) 10 · SDK or install line 10 · MCP 10 · llms.txt 10 · developer page (/developers, /docs, /build) or docs link 5 | 45 |
 | **Really theirs (25)** | Token's address on their website/docs, or posted by their official X (30+ days old) 15 · 2+ contract addresses listed 5 · works with past winners (Hookr, Orbio, Raeto, Priors, Harmonic, WTH, Fobo, Delta; not itself) 5 | 25 |
-| **Money and Robinhood Chain (20)** | Says money goes back to the token (buyback, burn, staking, revenue share), 🟡 claimed, not checked on chain 10 · uses stock tokens or USDG 10 | 20 |
-| **Live product (15)** | App, dashboard or wallet connect 5 · made for AI agents 5 · mentions an audit, 🟡 not checked 5 | 15 |
+| **Money and Robinhood Chain (20)** | Says money goes back to the token (buyback, burn, staking, revenue share) **or** holding the token unlocks the product (e.g. "a wallet holding 200,000 UBIK", token-gated), 🟡 claimed, not checked 10 · uses stock tokens or USDG 10 | 20 |
+| **Live product (15)** | App, dashboard or wallet connect 5 · made for AI agents (on the site, or in their official X's recent posts) 5 · mentions an audit, 🟡 not checked 5 | 15 |
 
 Adds up to 105, so a few points can be missed and still score 100 (shown capped at 100).
 

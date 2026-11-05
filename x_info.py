@@ -17,7 +17,7 @@ NOT_HANDLES = {"i", "intent", "home", "search", "hashtag", "share", "explore"}
 
 def parse(url):
     """(handle, is_post_link) from an x.com / twitter.com link, or (None, False)."""
-    m = re.search(r"(?:x|twitter)\.com/([A-Za-z0-9_]{1,15})(/status/\d+)?", url or "")
+    m = re.search(r"(?:x|twitter)\.com/([A-Za-z0-9_]{1,15})(/status/\d+)?", url or "", re.I)  # SIC links "X.com/SIC_HQ"
     if not m or m.group(1).lower() in NOT_HANDLES:
         return None, False
     return m.group(1), bool(m.group(2))
@@ -58,6 +58,7 @@ def _lookup(handle, fetch_json, now):
         "fake_posts": [re.sub(r"\s+", " ", t.get("text") or "")[:200] + " (" + (t.get("created_at") or "")[4:16] + " UTC)"
                        for t in own if re.search(r"\b(fake|scam|impersonat\w*)\b", t.get("text") or "", re.I)
                        and re.search(r"\b(CA|contract|token|address|launched)\b", t.get("text") or "", re.I)][:3],
+        "texts": [re.sub(r"\s+", " ", t.get("text") or "")[:300] for t in own][:20],
         "checked": now.isoformat(timespec="seconds"),
     }
 

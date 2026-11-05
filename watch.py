@@ -1013,17 +1013,30 @@ c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))
     open(SITE, "w", encoding="utf-8").write(page)
 
 
+def site_from_x(tok):
+    """Pons lists no website (UBIK, 5 Nov): use the website on the token's own X profile, but only if that X
+    posts this token's address. A copy, or a token linking someone else's famous X, never passes."""
+    h, is_post = x_info.parse(tok.get("twitter"))
+    acct = x_account(h) if h and not is_post else None
+    if not acct or not acct.get("found") or tok["address"].lower() not in (acct.get("cas") or []):
+        return None
+    t2 = {**tok, "website": acct.get("bio_site"), "site_via_x": acct.get("handle") or h}
+    return t2 if sitecheck.has_site(t2) else None
+
+
 def site_pass(toks, state, reviews):
     """Site check for tokens with no public GitHub (rules in SCORING.md, code in sitecheck.py)."""
     sites = state.setdefault("sites", {})
     looked = state.setdefault("site_checked", {})
     for key, g in sites.items():  # keep re-scoring listed ones that have left the newest lists
         if key not in toks:
-            toks[key] = {k: g.get(k) for k in ("address", "symbol", "name", "description", "website", "twitter", "launched")}
+            toks[key] = {k: g.get(k) for k in ("address", "symbol", "name", "description", "website", "twitter", "launched", "site_via_x")}
             toks[key].update({"links": [], "source": "earlier"})
     todo = []
     for key, t in toks.items():
-        if key in state["github"] or reviews.get(key, {}).get("skip") or not sitecheck.has_site(t):
+        if key in state["github"] or reviews.get(key, {}).get("skip"):
+            continue
+        if not sitecheck.has_site(t) and not (key in sites or x_info.parse(t.get("twitter"))[0]):
             continue
         g = sites.get(key)
         if g:
@@ -1045,6 +1058,10 @@ def site_pass(toks, state, reviews):
         looked[key] = NOW.isoformat(timespec="seconds")
         mk = market(t["address"])
         t2 = {**t, **{k: v for k, v in mk.items() if v and (k != "symbol" or not t.get("symbol"))}}
+        if not sitecheck.has_site(t2):
+            t2 = site_from_x(t2)
+            if not t2:
+                continue
         try:
             sc = sitecheck.score(t2, reviews.get(key, {}), sys.modules[__name__])
         except Exception as ex:
@@ -1055,6 +1072,7 @@ def site_pass(toks, state, reviews):
             continue
         sites[key] = {"address": t["address"], "symbol": t2.get("symbol"), "name": t2.get("name"),
                       "description": t2.get("description"), "website": t2.get("website"), "twitter": t2.get("twitter"),
+                      "site_via_x": t2.get("site_via_x"),
                       "launched": t2.get("launched"), "mcap": mk.get("mcap") or t.get("mcap"), "where": mk.get("where") or t.get("stage"),
                       "first_seen": (g or {}).get("first_seen", NOW.isoformat(timespec="seconds")),
                       "scored_at": NOW.isoformat(timespec="seconds"), "found_on": "website", "scoring": sc}
@@ -1084,7 +1102,7 @@ def main():
     toks.update({t["address"].lower(): t for t in ptoks})
     for key, g in state["github"].items():  # keep re-scoring tokens that have left the newest lists
         if key not in toks:
-            toks[key] = {k: g.get(k) for k in ("address", "symbol", "name", "description", "website", "twitter", "launched")}
+            toks[key] = {k: g.get(k) for k in ("address", "symbol", "name", "description", "website", "twitter", "launched", "site_via_x")}
             toks[key].update({"links": [], "source": "earlier"})
 
     queue = list(toks.items())

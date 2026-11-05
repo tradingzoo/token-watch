@@ -17,16 +17,19 @@ NEW_DAYS = 14  # ...for this many days after launch
 MAX_NEW_PER_RUN = 40  # keep each run short
 
 TOOLS = [
-    ("API key", r"\bapi[ _-]?keys?\b", "API keys for developers"),
+    ("API key", r"\bapi[ _-]?keys?\b|Authorization:\s*`?Bearer\b|\bholder'?s? (?:api )?keys?\b", "API keys for developers"),
     ("SDK", r"npm (?:i|install) [@\w]|pip install \w|\bSDK\b|npx [@\w]", "an SDK or install line"),
     ("MCP", r"\bMCP\b|mcp\.json", "an MCP connection for AI agents"),
 ]
 OTHER = {
     "money": r"buy ?backs?|buy-backs?|\bburn(?:ed|s)?\b|\bstak(?:e|ing|ers)\b|revenue share|holders.{0,25}(?:share|earn|receive)",
+    # holding the token unlocks the product (UBIK, 5 Nov: "a wallet holding 200,000 UBIK" gets a key)
+    "access": r"\b(?:holders? of|holding|hold) (?:at least |over )?\d[\d,.]*\s*(?:k|m|thousand|million)?\s*\$?[A-Za-z]{2,}"
+              r"|\btoken[- ]gated\b|\bholder'?s? (?:api )?keys?\b|\bavailable (?:only )?to holders\b",
     "rh": r"stock tokens?|tokeni[sz]ed (?:stock|equit)|\bUSDG\b",
     "app": r"launch app|open app|connect wallet|\bdashboard\b",
     "audit": r"\baudit(?:ed)?\b",
-    "agents": r"\bAI agents?\b|\bagents? (?:can|pay|that)\b",
+    "agents": r"\bAI agents?\b|\bagents? (?:can|pay|that)\b|\byour agents?\b|\bfor agents\b|\bagent[- ]native\b",
     "winners": r"hookr\.fun|orbio\.so|raeto\.cc|priors\.trade|harmonicagent|whatthehook|fobo\.fun|deltaliquidity",
 }
 WINNER_NAMES = {"hookr.fun": "Hookr", "orbio.so": "Orbio", "raeto.cc": "Raeto", "priors.trade": "Priors",
@@ -76,6 +79,8 @@ def score(tok, review, w):
 
     reasons = {"Plug-in tools": [], "Really theirs": [], "Money and Robinhood Chain": [], "Live product": []}
     flags, total = [], 0
+    if tok.get("site_via_x"):
+        reasons["Really theirs"].append(f"ℹ️ Pons lists no website: found {site} on their X @{tok['site_via_x']}, which posts the token's address")
 
     def add(group, pts, txt, mark=None):
         nonlocal total
@@ -121,9 +126,12 @@ def score(tok, review, w):
 
     # --- Money and Robinhood Chain (20) ---
     m = re.search(OTHER["money"], text, re.I)
-    add("Money and Robinhood Chain", 10 if m else 0,
-        f"Says money goes back to the token ({m.group(0).lower()}) — claimed, not checked on chain" if m else "No sign money goes back to the token",
-        "🟡" if m else "❌")
+    a = None if m else re.search(OTHER["access"], text, re.I)
+    add("Money and Robinhood Chain", 10 if (m or a) else 0,
+        f"Says money goes back to the token ({m.group(0).lower()}) — claimed, not checked on chain" if m
+        else (f"Holding the token unlocks the product (“{a.group(0)}”) — claimed, not checked" if a
+              else "No sign money goes back to the token, or that holding it unlocks anything"),
+        "🟡" if (m or a) else "❌")
     m = re.search(OTHER["rh"], text, re.I)
     add("Money and Robinhood Chain", 10 if m else 0,
         f"Built on Robinhood Chain's own assets ({m.group(0)})" if m else "No use of stock tokens or USDG")
@@ -131,8 +139,12 @@ def score(tok, review, w):
     # --- Live product (15) ---
     add("Live product", 5 if re.search(OTHER["app"], text, re.I) else 0,
         "Has a working app (app, dashboard or wallet connect)" if re.search(OTHER["app"], text, re.I) else "No app or wallet connect found")
-    add("Live product", 5 if re.search(OTHER["agents"], text, re.I) else 0,
-        "Made for AI agents to use" if re.search(OTHER["agents"], text, re.I) else "Not aimed at AI agents")
+    ag = bool(re.search(OTHER["agents"], text, re.I))
+    xa = w.x_account(ox["official"]) if (not ag and ox["official"]) else None
+    ag_x = bool(xa and re.search(OTHER["agents"], " ".join(xa.get("texts") or []), re.I))
+    add("Live product", 5 if (ag or ag_x) else 0,
+        "Made for AI agents to use" if ag else (f"Made for AI agents to use (says so on their X @{ox['official']})" if ag_x
+                                                 else "Not aimed at AI agents"))
     au = bool(re.search(OTHER["audit"], text, re.I))
     add("Live product", 5 if au else 0, "Mentions an audit — not checked" if au else "No audit mentioned", "🟡" if au else "❌")
 
