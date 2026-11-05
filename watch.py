@@ -326,7 +326,7 @@ def score_private(tok, full, owner, user, found_on, symbol_counts, review, reaso
         flags.append(f"{tok.get('symbol')} was launched {symbol_counts[tok.get('symbol')]} times on Pons")
     for f in review.get("flags", []):
         flags.append(f + " (checked by hand)")
-    not_theirs = [f for f in flags if " times on Pons" not in f and not f.startswith(X_MISMATCH)]
+    not_theirs = [f for f in flags if " times on Pons" not in f and not f.startswith(X_MISMATCH) and not f.startswith(UNCLAIMED)]
     t = total()
     final = 0 if not_theirs else min(t, 25 if flags else PRIVATE_CAP)
     if t > PRIVATE_CAP and not flags:
@@ -440,6 +440,7 @@ def official_x(tok, srcs):
 
 
 COPYCAT = "Copycat token"
+UNCLAIMED = "Dev never mentions this token"
 
 
 def copycat(tok, ox):
@@ -771,6 +772,16 @@ def score(tok, full, found_on, symbol_counts, review):
     else:
         reasons["Really theirs"].append(f"❌ Their website, docs and GitHub never mention the token (read: {read})")
     token_mentioned = bool(ment)
+    # A big, older project whose dev never posts or mentions the token: anyone can launch a token on
+    # Pons named after a popular repo and point it at the real links (SEO, OMHER, 5 Nov). Cap at 25
+    # until the dev claims it; lifts by itself at the next rescore once they do.
+    made = iso(user["created_at"]) if user.get("created_at") else None
+    old_enough = lambda d: bool(launched and d and d < launched - datetime.timedelta(days=60))
+    big = ((user.get("followers", 0) >= 500 or user.get("public_repos", 0) >= 100) and old_enough(made)) or           (repo.get("stargazers_count", 0) >= 500 and old_enough(created))
+    if big and not where and not token_mentioned:
+        flags.append(f"{UNCLAIMED}: {owner}'s GitHub is big and older than the token ({repo.get('stargazers_count', 0):,} stars, "
+                     f"{user.get('followers', 0):,} followers), but its repo, website and X never post or mention the token. "
+                     f"Likely launched by someone else using their project — capped at 25 until the dev claims it")
 
     # --- Real code (20) ---
     span = days_between(last_c, first_c) if first_c and last_c else 0
@@ -811,7 +822,7 @@ def score(tok, full, found_on, symbol_counts, review):
         flags.append(f + " (checked by hand)")
 
     # Not their GitHub (someone else's project, copied code, fork, empty) -> 0. Other red flags -> capped at 25.
-    not_theirs = [f for f in flags if " times on Pons" not in f and not f.startswith(X_MISMATCH)]
+    not_theirs = [f for f in flags if " times on Pons" not in f and not f.startswith(X_MISMATCH) and not f.startswith(UNCLAIMED)]
     capped = bool(flags)
     final = 0 if not_theirs else (min(total, 25) if capped else total)
     if cc:
