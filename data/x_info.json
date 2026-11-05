@@ -1340,7 +1340,123 @@
   "trycaliber": {
    "handle": "trycaliber",
    "found": false,
-   "checked": "2026-11-05T04:09:46+00:00"
+   "checked": "2026-11-05T04:15:57+00:00",
+   "cas": [],
+   "fake_posts": []
+  },
+  "rath_team": {
+   "handle": "Rath_Team",
+   "found": true,
+   "id": "2055223706151174144",
+   "name": "Rath-Team",
+   "joined": "2026-05-15T09:48:25+00:00",
+   "followers": 3,
+   "following": 35,
+   "posts": 10,
+   "verified": null,
+   "last_post": "2026-07-07T02:07:04+00:00",
+   "sample": 8,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 1.5,
+   "avg_views": 31,
+   "bio_site": "https://github.com/Rath-Team",
+   "bio": "Code the Future. Build the World.",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T04:15:57+00:00"
+  },
+  "2o1patrons": {
+   "handle": "2O1Patrons",
+   "found": true,
+   "id": "1997570941828927488",
+   "name": "2o1 Patrons",
+   "joined": "2025-12-07T07:37:16+00:00",
+   "followers": 3346,
+   "following": 1,
+   "posts": 211,
+   "verified": "individual",
+   "last_post": "2026-11-05T02:18:24+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 17.7,
+   "avg_views": 572,
+   "bio_site": "http://expogacha.com",
+   "bio": "The elite circle of 201 Digital Art Patrons. Pull \u2018em all on @expogacha.",
+   "cas": [
+    "0xb01e3f89c3590533aaefbfc77d0dfa9cf679af42"
+   ],
+   "fake_posts": [],
+   "checked": "2026-11-05T04:15:57+00:00"
+  },
+  "bytejury": {
+   "handle": "bytejury",
+   "found": true,
+   "id": "2117451118288502784",
+   "name": "bytejury.exe",
+   "joined": "2026-11-03T02:59:05+00:00",
+   "followers": 36,
+   "following": 7,
+   "posts": 40,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://bytejury.xyz/",
+   "bio": "Cybersecurity audits by AI agents\n\nCA: 0xa4e331ed89db2fae193c6c4216dd99aded105471",
+   "cas": [
+    "0xa4e331ed89db2fae193c6c4216dd99aded105471"
+   ],
+   "fake_posts": [],
+   "checked": "2026-11-05T04:15:57+00:00"
+  },
+  "felixlu1018": {
+   "handle": "felixlu1018",
+   "found": true,
+   "id": "1580234561769701376",
+   "name": "Felix Lu - Open for work",
+   "joined": "2022-10-12T16:31:13+00:00",
+   "followers": 461,
+   "following": 423,
+   "posts": 640,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://felixlyu.com",
+   "bio": "open-source engineer, contributing to http://ui.shadcn.com \u00b7 http://openclaw.ai \u00b7 better auth and building http://openmeld.ai \u00b7 http://peekat.email \u00b7 http://deepcrawl.dev",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T04:15:57+00:00"
+  },
+  "trycaliber": {
+   "handle": "trycaliber",
+   "found": true,
+   "id": "2099080281130995720",
+   "name": "Caliber",
+   "joined": "2026-09-13T10:19:39+00:00",
+   "followers": 34,
+   "following": 378,
+   "posts": 300,
+   "verified": "individual",
+   "last_post": "2026-11-04T13:04:23+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 4,
+   "avg_likes": 2.4,
+   "avg_views": 1118,
+   "bio_site": "https://trycaliber.ai",
+   "bio": "The operating system for AI native organizations - helping teams measure, manage, and improve how they use AI.",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T04:15:57+00:00"
   }
  },
  "ids": {
@@ -1509,8 +1625,8 @@
   "241270968": [
    "burcs"
   ],
-  "2116586247938617344": [
-   "worghq"
+  "2055223706151174144": [
+   "Rath_Team"
   ],
   "1997570941828927488": [
    "2O1Patrons"
@@ -1520,6 +1636,9 @@
   ],
   "1580234561769701376": [
    "felixlu1018"
+  ],
+  "2099080281130995720": [
+   "trycaliber"
   ]
  },
  "past": {
@@ -1580,6 +1699,7 @@
   "serverforagent": [],
   "burcs": [],
   "worghq": [],
+  "rath_team": [],
   "2o1patrons": [],
   "bytejury": [],
   "felixlu1018": [],
@@ -2058,10 +2178,10 @@
     3427
    ]
   },
-  "worghq": {
+  "rath_team": {
    "2026-11-05": [
-    0,
-    1
+    3,
+    10
    ]
   },
   "2o1patrons": {
@@ -2080,6 +2200,12 @@
    "2026-11-05": [
     461,
     640
+   ]
+  },
+  "trycaliber": {
+   "2026-11-05": [
+    34,
+    300
    ]
   }
  },
@@ -2386,25 +2512,30 @@
    "blog": "https://getworg.com/",
    "checked": "2026-11-05T03:39:31+00:00"
   },
+  "rath-team": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T04:15:57+00:00"
+  },
   "expogacha": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T04:09:46+00:00"
+   "checked": "2026-11-05T04:15:57+00:00"
   },
   "bytejury-exe": {
    "twitter": "bytejury",
    "blog": "https://bytejury.xyz/",
-   "checked": "2026-11-05T04:09:46+00:00"
+   "checked": "2026-11-05T04:15:57+00:00"
   },
   "amplifthq": {
    "twitter": "karis_ai",
    "blog": "https://karis.im/",
-   "checked": "2026-11-05T04:09:46+00:00"
+   "checked": "2026-11-05T04:15:57+00:00"
   },
   "caliber-ai-org": {
    "twitter": "trycaliber",
    "blog": "https://trycaliber.ai",
-   "checked": "2026-11-05T04:09:46+00:00"
+   "checked": "2026-11-05T04:15:57+00:00"
   }
  }
 }
