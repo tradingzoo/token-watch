@@ -2571,7 +2571,7 @@
     "The countdown to the next chapter of ASTROPAD begins. \ud83d\ude80 We're getting ready to share more about $APT. For now: \u2705 Explore https://astropad.live/ \u2705 Turn on notifications if you want launch updates We'll publish verified token details when the launch is confirmed",
     "Introducing Astropad A Multi-chain Launchpad Across Base, Robinhood Chain, Solana & Arc. No noise. No waiting https://Astropad.live"
    ],
-   "checked": "2026-11-05T20:28:18+00:00"
+   "checked": "2026-11-05T20:49:41+00:00"
   },
   "axiom_parody123": {
    "handle": "axiom_parody123",
@@ -10229,7 +10229,7 @@
    "sample_full_week": true,
    "posts_7d": 19,
    "avg_likes": 3.2,
-   "avg_views": 179,
+   "avg_views": 180,
    "bio_site": "http://usenoren.xyz",
    "bio": "Every agent runs under a signed grant. Every action leaves a receipt in a hash-chained audit log. Eight primitives, built in the open.",
    "cas": [],
@@ -10255,7 +10255,117 @@
     "npm install express @x402/express @x402/core @x402/evm",
     "Noren update Paid calls now run end to end through the hosted MCP on Robinhood Chain. We completed a test payment of 0.01 USDG, from wallet approval and signing to settlement and onchain verification. The gateway settled the payment, and noren_verify_payment successfully detected the transfer. One t"
    ],
-   "checked": "2026-11-05T20:28:18+00:00"
+   "checked": "2026-11-05T20:49:41+00:00"
+  },
+  "lacunalabs": {
+   "handle": "LacunaLabs",
+   "found": true,
+   "id": "1943440116611190785",
+   "name": "Lacuna Labs",
+   "joined": "2025-07-10T22:40:31+00:00",
+   "followers": 456,
+   "following": 4,
+   "posts": 126,
+   "verified": "individual",
+   "last_post": "2026-11-05T20:02:03+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 2,
+   "avg_likes": 2.7,
+   "avg_views": 347,
+   "bio_site": "https://linktr.ee/lacunalabs",
+   "bio": "A zk-native cross-chain wallet and protocol for private, untraceable transfers, swaps, and bridging powered by stealth addresses & encrypted transaction layers.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "This is exactly the future we're building toward at @LacunaLabs. Onchain finance shouldn't mean giving up your financial privacy. Transparency where it matters. Privacy where it belongs. We're building for the long term. \ud83d\udda4",
+    "How Lacuna works: \u20601. Shield. Move tokens into the shielded pool. The chain sees one deposit. 2. Use. Send and swap from a private balance. The chain sees a proof, not who, what or how much. \u20603. Unshield. Withdraw to any address, with no link back. Proofs are made on your device. Your keys never lea",
+    "Your transactions. Your privacy. On a public chain, the first is visible to everyone and the second doesn't exist by default. We're building Lacuna to change that. Non-custodial, zero-knowledge.",
+    "Partnership Announcement \ud83e\udd1d We\u2019re excited to announce our partnership with @RetifyOS , the operating system for autonomous AI agents. RetifyOS brings secure agent execution, isolated key management, and modular AI infrastructure. Lacuna Labs brings privacy-first onchain infrastructure. Together, we\u2019r",
+    "The Privacy Argument (Why This Matters At All) \"I have nothing to hide.\" Ok. Post your bank statement. Onchain, every payment is a permanent public record. We're building Lacuna so it doesn't have to be. https://lacunalabs.io",
+    "Your transactions. Your privacy. On a public chain, the first is visible to everyone and the second doesn't exist by default. Lacuna is a mobile-native, non-custodial ZK shielded pool built to change that.",
+    "Self custody. Private by design. Lacuna is a mobile-native, non-custodial ZK shielded pool. We never hold your funds, and your transactions don't have to be a public record. https://lacunalabs.io",
+    "Privacy shouldn't be something you have to opt into. It should be the default. Lacuna Labs is building toward a future where your transactions, balances, and financial activity stay yours. Privacy should be the default.",
+    "A public blockchain tells everyone: \u2022 What you hold \u2022 What you transferred \u2022 Where you transferred it \u2022 When you transferred it A shielded pool changes the visibility model. You can still transact onchain without broadcasting your entire financial history to everyone watching the chain. http://Lacun",
+    "Privacy tooling has always assumed you're at a desktop, with a browser extension and patience to spare. Most people aren't. They're on a phone. A privacy layer nobody can actually use protects nobody. So we're building Lacuna mobile-native and non-custodial.",
+    "Privacy Where Your Money Already Is Your bank balance isn't public. Your salary isn't public. Cash doesn't ask questions. Onchain, all of it is. Every transfer, every counterparty, every amount permanently, to anyone who looks. Lacuna is a mobile-native, non-custodial shielded pool. Private balances",
+    "Privacy coins failed because they asked you to leave. New chain, new wallet, new liquidity, new everything. Nobody wants a privacy island. They want privacy where their money already is. \"Compliant privacy\" isn't an oxymoron. You should be able to prove your funds are clean without publishing your e",
+    "Money shouldn't be transparent. But institutions still need to clear audits. You do not have to choose between protecting your trade secrets and being compliant. Lacuna is the infrastructure powering confidential finance. Inside the wallet, your capital is completely dark. But when regulators knock,",
+    "Why jump between exchanges, bridges and privacy protocols just to protect a single transaction? Right now, staying private requires 6 steps, 3 dApps and constant exposure. Privacy is fragmented. Lacuna eliminates the complexity. Deposit, bridge, swap and send assets privately from a single self-cust",
+    "Crypto made money public. Every balance, every swap, and every strategy is permanently exposed to the world. Web3 swung the pendulum too far. Blockchains require verifiable code, but human beings require private execution. Lacuna restores the balance. we built the first self-custodial wallet where p",
+    "Transparency in crypto was designed to keep protocols accountable. Instead, it became a surveillance tool to track everyday users. If your capital operates on a public chain, your strategies are public. Your AI agents' payments are public. Your exact net worth is public. Lacuna is the private financ",
+    "Privacy shouldn't mean your capital is trapped. Most privacy tools force you into isolation. Veilon lets you stay active in DeFi while completely off the radar. How it works: - Shield: Deposit into the private zone. It\u2019s like putting cash in a private vault, you own it, but no one can see it. Once s",
+    "\"Privacy protocols make taxes and compliance impossible\" False. True privacy means Optional Auditability Veilon balances total on-chain anonymity with enterprise-grade transparency. You transact in the dark, but maintain full control over who gets to look under the hood. Need to clear an audit? Just",
+    "Privacy in web3 is usually complex, expensive and breaks UX. Not anymore. The Veilon SDK lets you build Zero-Knowledge privacy directly into your dApp, wallet or DAO without touching the underlying math. - TypeScript & Rust ready - Plug & Play shielding/unshielding - Built-in relayer support (gasles"
+   ],
+   "checked": "2026-11-05T20:49:41+00:00"
+  },
+  "hermeslabsai": {
+   "handle": "HermesLabsAi",
+   "found": true,
+   "id": "1976675721163558912",
+   "name": "Hermes Labs",
+   "joined": "2025-10-10T15:46:42+00:00",
+   "followers": 18,
+   "following": 17,
+   "posts": 159,
+   "verified": null,
+   "last_post": "2026-10-04T07:49:24+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 0.6,
+   "avg_views": 31,
+   "bio_site": "http://hermes-labs.ai",
+   "bio": "AI reliability infrastructure for production LLMs & agents. Research, OSS, and failure-mode engineering.\nOSS: http://github.com/hermes-labs-ai",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Sometimes less is more.",
+    "Valid YAML can still give an agent a tool with no description. LintLang flags that before runtime: H1.1. Offline static checks for agent instructions, prompts and tool definitions. No LLM calls. Try it: https://lintlang.ai/",
+    "Shipping season at Hermes Labs. Offline demos, memory infra, agent safety tooling. All in the open, nearly 300 stars. Check out the work: https://github.com/hermes-labs-ai",
+    "You ask your coding agent to review a function. It starts refactoring. You correct it. Hermeneutic mines that exchange and surfaces relevant guidance when similar tasks come up. Put your past corrections to work. Try it: https://github.com/hermes-labs-ai/hermeneutic",
+    "Somebody ask @polsia why they sending us churn mail 5 months after we disappointingly cancelled our subscription due to continuous epistemic failures in your output? :( Re. The 5-month delay now: Context was right, temporal reasoning was way off. Sounds like you need us ;)",
+    "Your agent runs on more than AGENTS.md: SKILL.md, MCP tool schemas, prompts and config shape its behavior. From the repo root: uvx lintlang scan . LintLang 0.7.1 flags overlapping tools, missing stop rules and conflicting contracts. https://github.com/hermes-labs-ai/lintlang",
+    "Using Hermes Agent? Add Little Canary before you hand it tools. It checks incoming prompts for injection. If it catches a serious attempt, the agent loses tool access for that turn. Open source. Runs locally. Try it now: https://github.com/hermes-labs-ai/little-canary",
+    "Try LintLang in the browser: paste or load Markdown, YAML, JSON, or Python instruction text and get deterministic findings with evidence and suggestions. Copy or download results as JSON. No account needed. https://hermes-labs.ai/lintlang",
+    "Ruff, Pyright, pytest: three checks, three outputs to parse in CI. PyGate runs them and emits one versioned JSON gate result your next CI step can just read. pygate run --mode full https://github.com/hermes-labs-ai/quick-gate-python",
+    "A fluent agent answer is not the same as a well-supported one. Hermes Rubric scores only against cited evidence, reports coverage and evidence gaps, and leaves the pass decision to the caller. https://github.com/hermes-labs-ai/hermes-rubric",
+    "A receipt can prove what ran, what input it saw, and what result it returned. It cannot turn a weak test into strong evidence. Provenance helps you inspect a claim. It does not upgrade the claim.",
+    "Hermes Blind 0.3.0 finds your current Claude Code or Codex session log with apply --latest and extracts the first user turn as a recovery anchor. It does not detect drift. https://github.com/hermes-labs-ai/hermes-blind/releases/tag/v0.3.0",
+    "Version metadata is executable state. A package can be at 0.3.0 while its citation or archive metadata still says 0.1.2. The durable fix is not a one-time edit; it is a test that makes those versions disagree loudly.",
+    "If a model returns {\"decision\":\"allow\"} followed by another object, a parser should not keep the first object and discard the rest. Control-plane JSON is either complete and valid or rejected. \u2018Repair\u2019 must not change what the model tried to say.",
+    "A test suite can exist, pass locally, and still protect nothing if CI never runs it. Review the workflow graph, not only the test directory. \u2018We have tests\u2019 and \u2018this change is gated by tests\u2019 are different claims.",
+    "Before blaming the model for \u2018forgetting,\u2019 inspect the payload it actually received. One Semantic Kernel history-reduction path could return valid chat history without the system prompt. The failure happened upstream of generation. https://github.com/microsoft/semantic-kernel/pull/13610",
+    "A fluent agent answer is not the same as a well-supported one. Hermes Rubric turns an output into cited evidence, dimension scores, coverage facts, and a receipt. It measures and explains; your application decides what happens next. Try it: https://github.com/hermes-labs-ai/hermes-rubric",
+    "Worked prompt check: \u201cIf the request is ambiguous, ask a question.\u201d What happens when it is clear? A conditional rule without an else-case leaves behavior unspecified. Rule Audit reports that missing default as a coverage gap. https://github.com/hermes-labs-ai/rule-audit#coverage-gaps",
+    "Your code has a runtime. Your agent instructions do too. LintLang scans the language layer - prompts, tool descriptions, and agent configs - for vague tools, missing stop conditions, and conflicting rules. All your configs, one CI call, zero LLM. Try it: https://github.com/hermes-labs-ai/lintlang",
+    "A duplicate-null schema fix needed three tests: the optional-parameter path, the nullable-keyword path, and the valid case where null should be inserted once. Fix the invariant, then prove both bad paths and the good path. https://github.com/microsoft/semantic-kernel/pull/13635"
+   ],
+   "checked": "2026-11-05T20:49:41+00:00"
+  },
+  "trylooseagent": {
+   "handle": "trylooseagent",
+   "found": true,
+   "id": "2110055226413588480",
+   "name": "LOOSE AGENT",
+   "joined": "2026-10-13T17:16:25+00:00",
+   "followers": 48,
+   "following": 1,
+   "posts": 30,
+   "verified": null,
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://www.loose-agent.xyz/",
+   "bio": "Launch a token in one click.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-05T20:49:41+00:00"
   }
  },
  "ids": {
@@ -11059,6 +11169,15 @@
   ],
   "2115816365491662848": [
    "NorenAgent"
+  ],
+  "1943440116611190785": [
+   "LacunaLabs"
+  ],
+  "1976675721163558912": [
+   "HermesLabsAi"
+  ],
+  "2110055226413588480": [
+   "trylooseagent"
   ]
  },
  "past": {
@@ -11343,7 +11462,10 @@
   "nycmayor": [],
   "ollama": [],
   "criaofrj": [],
-  "norenagent": []
+  "norenagent": [],
+  "lacunalabs": [],
+  "hermeslabsai": [],
+  "trylooseagent": []
  },
  "history": {
   "barragetrade": {
@@ -13096,15 +13218,9 @@
     4
    ]
   },
-  "letronnaagent": {
-   "2026-11-05": [
-    2,
-    8
-   ]
-  },
   "norenagent": {
    "2026-11-05": [
-    41,
+    43,
     67
    ]
   },
@@ -13118,6 +13234,24 @@
    "2026-11-05": [
     43,
     67
+   ]
+  },
+  "lacunalabs": {
+   "2026-11-05": [
+    456,
+    126
+   ]
+  },
+  "hermeslabsai": {
+   "2026-11-05": [
+    18,
+    159
+   ]
+  },
+  "trylooseagent": {
+   "2026-11-05": [
+    48,
+    30
    ]
   }
  },
@@ -13590,12 +13724,12 @@
   "s4viour1": {
    "twitter": null,
    "blog": null,
-   "checked": "2026-11-05T20:28:18+00:00"
+   "checked": "2026-11-05T20:49:41+00:00"
   },
   "sborxyz": {
    "twitter": "SBORindex",
    "blog": "https://sbor.xyz",
-   "checked": "2026-11-05T08:30:28+00:00"
+   "checked": "2026-11-05T20:49:41+00:00"
   },
   "daboshub": {
    "twitter": null,
@@ -14000,12 +14134,22 @@
   "nguyenkhangph": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T20:28:18+00:00"
+   "checked": "2026-11-05T20:10:38+00:00"
   },
-  "jacksondavidprice-ui": {
+  "lacunalabs": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T20:28:18+00:00"
+   "checked": "2026-11-05T20:49:41+00:00"
+  },
+  "hermes-labs-ai": {
+   "twitter": "hermeslabsai",
+   "blog": "https://hermes-labs.ai",
+   "checked": "2026-11-05T20:49:41+00:00"
+  },
+  "mickiyugods": {
+   "twitter": null,
+   "blog": null,
+   "checked": "2026-11-05T20:49:41+00:00"
   }
  }
 }
