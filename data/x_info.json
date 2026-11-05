@@ -1626,6 +1626,28 @@
    "cas": [],
    "fake_posts": [],
    "checked": "2026-11-05T06:45:23+00:00"
+  },
+  "flexmeow": {
+   "handle": "flexmeow",
+   "found": true,
+   "id": "1791849524794740736",
+   "name": "Flex",
+   "joined": "2024-05-18T15:13:50+00:00",
+   "followers": 1550,
+   "following": 1,
+   "posts": 243,
+   "verified": "individual",
+   "last_post": "2026-11-03T12:57:46+00:00",
+   "sample": 11,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 18.6,
+   "avg_views": 1527,
+   "bio_site": "https://flexmeow.com/",
+   "bio": "Choose-your-fixed-rate loans. From @yearnfi",
+   "cas": [],
+   "fake_posts": [],
+   "checked": "2026-11-05T07:15:24+00:00"
   }
  },
  "ids": {
@@ -1841,6 +1863,9 @@
   ],
   "2115172007344001024": [
    "0xOffShift"
+  ],
+  "1791849524794740736": [
+   "flexmeow"
   ]
  },
  "past": {
@@ -1916,7 +1941,8 @@
   "tatter_xyz": [],
   "human_protocol": [],
   "pilotprotocol_": [],
-  "0xoffshift": []
+  "0xoffshift": [],
+  "flexmeow": []
  },
  "history": {
   "barragetrade": {
@@ -2486,6 +2512,12 @@
     0,
     1
    ]
+  },
+  "flexmeow": {
+   "2026-11-05": [
+    1550,
+    243
+   ]
   }
  },
  "telegram": {
@@ -2850,6 +2882,11 @@
    "twitter": null,
    "blog": "https://pilotprotocol.network",
    "checked": "2026-11-05T06:45:23+00:00"
+  },
+  "flexmeow": {
+   "twitter": "flexmeow",
+   "blog": "flexmeow.com",
+   "checked": "2026-11-05T07:15:24+00:00"
   }
  }
 }

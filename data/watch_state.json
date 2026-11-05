@@ -649,7 +649,15 @@
   "0x818b81642f848b76ac3d56194daa6ff73f075b2a": "2026-11-05T07:00:32+00:00",
   "0xe0c58c41a4c639c97fe8bd5caf2e5d879befde9c": "2026-11-05T07:00:32+00:00",
   "0xceebf25b318201f1f949be2fabbfcee231737139": "2026-11-05T07:00:32+00:00",
-  "0xab093def657f15df31b33922a95e047add645b29": "2026-11-05T07:00:32+00:00"
+  "0xab093def657f15df31b33922a95e047add645b29": "2026-11-05T07:00:32+00:00",
+  "0xbc494f26de0dcf086c9ae25776e5cfa25451f031": "2026-11-05T07:15:24+00:00",
+  "0xde6a823f9d8ffc54e691f9c4e7f5f9adafcc58bb": "2026-11-05T07:15:24+00:00",
+  "0x0bd326342e6a87b20936d46f821efc32abad9da3": "2026-11-05T07:15:24+00:00",
+  "0x7a312470b5a8b91718196874a0df09108ee4905c": "2026-11-05T07:15:24+00:00",
+  "0x251bd9cab995ea411b658abbea0fdbf694e63824": "2026-11-05T07:15:24+00:00",
+  "0x3ad285d19eb5e1574cfdf151e996f1d0936f6268": "2026-11-05T07:15:24+00:00",
+  "0xf14f2d492739f4a3c981cda2ccb5cfe3ee83f78a": "2026-11-05T07:15:24+00:00",
+  "0x62946bd33e9967e772d410aef5cbe24c4c45ff8a": "2026-11-05T07:15:24+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -5047,9 +5055,295 @@
      "people": 6
     }
    }
+  },
+  "0x7a312470b5a8b91718196874a0df09108ee4905c": {
+   "address": "0x7a312470b5a8b91718196874a0df09108ee4905c",
+   "symbol": "NYMRA",
+   "name": "NYMRA",
+   "description": "",
+   "website": "https://nymra.si/",
+   "twitter": "https://x.com/Nymrasi",
+   "launched": "2026-11-05T07:07:49+00:00",
+   "mcap": 4034.27248164133,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T07:15:24+00:00",
+   "scored_at": "2026-11-05T07:15:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Nymrasi/plugin",
+    "score": 0,
+    "raw_score": 45,
+    "capped": true,
+    "not_theirs": true,
+    "flags": [
+     "Copycat token: the project's X @Nymrasi posts a different address with the same symbol and name: 0x62946bd33e9967e772d410aef5cbe24c4c45ff8a, launched 04 Nov 17:00 UTC. It never posts this one, so this is very likely someone copying the name and links",
+     "NYMRA was launched 4 times on Pons"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, fees, hook, launchpad) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn, buyback, revenue share) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u26d4 Score set to 0: this token is a copy, the project's X posts a different address (see the warning above)",
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 83 of 83 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u2705 Their website mentions the token: $NYMRA \u2014 \u201c=\"/pay/\">Finance $NYMRA Docs <span class=\"n\u201d (https://nymra.si/)",
+      "\u2705 Their docs mentions the token: $NYMRA \u2014 \u201c=\"/pay/\">Finance $NYMRA Docs <span class=\"n\u201d (https://nymra.si/llms-full.txt)",
+      "\u2705 Their docs mentions the token: $NYMRA \u2014 \u201ct a wallet, and prevent it with private payments on Robinhood Chain. $NYMRA contract address on Robinhood Chain (chain id 4663): 0x62946bd33e9967\u201d (https://nymra.si/llms.txt)",
+      "\u2705 Their docs mentions the token: 'NYMRA token' \u2014 \u201cops, with payment links, invoices, a dashboard and a payment API. - [$NYMRA token](https://nymra.si/docs/token/): $NYMRA on Robinhood Chain, its supply\u201d (https://nymra.si/llms.txt)"
+     ],
+     "Real code": [
+      "\u274c 2 changes over 0 days (+0)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 20 days old, 0 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://nymra.si/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": "0x62946bd33e9967e772d410aef5cbe24c4c45ff8a",
+    "sources_read": [
+     "https://nymra.si/",
+     "https://nymra.si/",
+     "https://nymra.si/llms-full.txt",
+     "https://nymra.si/llms.txt",
+     "https://nymra.si/docs",
+     "https://nymra.si/token/",
+     "https://nymra.si/docs/"
+    ],
+    "facts": {
+     "commits": 2,
+     "stars": 0,
+     "created": "2026-11-02",
+     "pushed": "2026-11-02",
+     "people": 0
+    }
+   }
+  },
+  "0x251bd9cab995ea411b658abbea0fdbf694e63824": {
+   "address": "0x251bd9cab995ea411b658abbea0fdbf694e63824",
+   "symbol": "NYMRA",
+   "name": "Nymra",
+   "description": "Privacy superintelligence for users, apps & security teams. See what the chain reveals and prevent it.",
+   "website": "https://t.co/0EcqqOuPTc",
+   "twitter": "https://x.com/Nymrasi",
+   "launched": "2026-11-05T07:06:07+00:00",
+   "mcap": 4033.67788885951,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T07:15:24+00:00",
+   "scored_at": "2026-11-05T07:15:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Nymrasi/plugin",
+    "score": 0,
+    "raw_score": 35,
+    "capped": true,
+    "not_theirs": true,
+    "flags": [
+     "Copycat token: the project's X @Nymrasi posts a different address with the same symbol and name: 0x62946bd33e9967e772d410aef5cbe24c4c45ff8a, launched 04 Nov 17:00 UTC. It never posts this one, so this is very likely someone copying the name and links",
+     "NYMRA was launched 4 times on Pons"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, hook, marketplace, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u26d4 Score set to 0: this token is a copy, the project's X posts a different address (see the warning above)",
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 83 of 83 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u2705 Their website mentions the token: $NYMRA \u2014 \u201c=\"/pay/\">Finance $NYMRA Docs <span class=\"n\u201d (https://t.co/0EcqqOuPTc)"
+     ],
+     "Real code": [
+      "\u274c 2 changes over 0 days (+0)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 20 days old, 0 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": "0x62946bd33e9967e772d410aef5cbe24c4c45ff8a",
+    "sources_read": [
+     "https://t.co/0EcqqOuPTc",
+     "https://t.co/0EcqqOuPTc",
+     "https://t.co/llms-full.txt",
+     "https://t.co/llms.txt",
+     "https://t.co/docs",
+     "https://t.co/token/",
+     "https://t.co/docs/"
+    ],
+    "facts": {
+     "commits": 2,
+     "stars": 0,
+     "created": "2026-11-02",
+     "pushed": "2026-11-02",
+     "people": 0
+    }
+   }
+  },
+  "0x3ad285d19eb5e1574cfdf151e996f1d0936f6268": {
+   "address": "0x3ad285d19eb5e1574cfdf151e996f1d0936f6268",
+   "symbol": "FLEX",
+   "name": "Flex",
+   "description": "",
+   "website": "https://t.co/CRs60h78j8",
+   "twitter": "https://x.com/flexmeow",
+   "launched": "2026-11-05T07:03:32+00:00",
+   "mcap": 4047.45724836662,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-05T07:15:24+00:00",
+   "scored_at": "2026-11-05T07:15:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "flexmeow/flex-contracts",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (borrow, exchange, fees, hook) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)",
+      "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (t.co/docs), docs (t.co/llms-full.txt), docs (t.co/llms.txt), website (t.co/CRs60h78j8), website code (t.co/CRs60h78j8))"
+     ],
+     "Real code": [
+      "\u2705 283 changes over 325 days (+10)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u2705 Not a brand-new one-person repo: account 303 days old, 1 people, 5 stars, 2 forks (+10)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://t.co/CRs60h78j8",
+     "https://t.co/CRs60h78j8",
+     "https://t.co/llms-full.txt",
+     "https://t.co/llms.txt",
+     "https://t.co/docs"
+    ],
+    "facts": {
+     "commits": 283,
+     "stars": 5,
+     "created": "2025-09-20",
+     "pushed": "2026-10-15",
+     "people": 1
+    }
+   }
+  },
+  "0x62946bd33e9967e772d410aef5cbe24c4c45ff8a": {
+   "address": "0x62946bd33e9967e772d410aef5cbe24c4c45ff8a",
+   "symbol": "NYMRA",
+   "name": "Nymra",
+   "description": "Privacy superintelligence for users, apps & security teams. See what the chain reveals and prevent it.",
+   "website": "https://nymra.si",
+   "twitter": "https://x.com/nymrasi",
+   "launched": "2026-11-04T17:02:48+00:00",
+   "mcap": 4248,
+   "where": "exchange",
+   "first_seen": "2026-11-05T07:15:24+00:00",
+   "scored_at": "2026-11-05T07:15:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Nymrasi/plugin",
+    "score": 25,
+    "raw_score": 55,
+    "capped": true,
+    "not_theirs": false,
+    "flags": [
+     "NYMRA was launched 4 times on Pons"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, fees, hook, launchpad) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn, buyback, revenue share) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website (+10)",
+      "\ud83d\udfe1 Their X @nymrasi posts the address, but the account is brand new (made 15 Oct 2026) \u2014 names can change hands, so it doesn't count (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 83 of 83 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u2705 Their website mentions the token: $NYMRA \u2014 \u201c=\"/pay/\">Finance $NYMRA Docs <span class=\"n\u201d (https://nymra.si)",
+      "\u2705 Their docs mentions the token: $NYMRA \u2014 \u201c=\"/pay/\">Finance $NYMRA Docs <span class=\"n\u201d (https://nymra.si/llms-full.txt)",
+      "\u2705 Their docs mentions the token: its contract address \u2014 \u201cd Chain. $NYMRA contract address on Robinhood Chain (chain id 4663): 0x62946bd33e9967e772d410AEF5cBe24c4c45fF8a Nymra is building privacy superintelligence, one intelligence over e\u201d (https://nymra.si/llms.txt)",
+      "\u2705 Their docs mentions the token: $NYMRA \u2014 \u201ct a wallet, and prevent it with private payments on Robinhood Chain. $NYMRA contract address on Robinhood Chain (chain id 4663): 0x62946bd33e9967\u201d (https://nymra.si/llms.txt)"
+     ],
+     "Real code": [
+      "\u274c 2 changes over 0 days (+0)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u274c One person, new account, no outside interest: account 20 days old, 0 people, 0 stars, 0 forks (+0)"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://nymra.si/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": null,
+    "sources_read": [
+     "https://nymra.si",
+     "https://nymra.si",
+     "https://nymra.si/llms-full.txt",
+     "https://nymra.si/llms.txt",
+     "https://nymra.si/docs",
+     "https://nymra.si/token/",
+     "https://nymra.si/docs/"
+    ],
+    "facts": {
+     "commits": 2,
+     "stars": 0,
+     "created": "2026-11-02",
+     "pushed": "2026-11-02",
+     "people": 0
+    }
+   }
   }
  },
- "checked_total": 639,
+ "checked_total": 647,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -5530,9 +5824,25 @@
    "ignored": [
     "pilot-protocol"
    ]
+  },
+  {
+   "when": "2026-11-05T07:15:24+00:00",
+   "address": "0x3ad285d19eb5e1574cfdf151e996f1d0936f6268",
+   "symbol": "FLEX",
+   "website": "https://t.co/CRs60h78j8",
+   "used": "flexmeow/flex-contracts",
+   "ignored": [
+    "flexmeow"
+   ]
   }
  ],
  "symbol_counts": {
+  "WALLE": 1,
+  "KERNEL": 1,
+  "SLYM": 1,
+  "NYMRA": 4,
+  "FLEX": 1,
+  "LYXVO": 1,
   "ITA": 1,
   "OTD": 1,
   "ARCOMM": 1,
@@ -5566,6 +5876,15 @@
   "FTT": 1,
   "PARITY": 1,
   "CHAMPS": 1,
+  "WIF": 1,
+  "OAK": 1,
+  "\u5bcc\u8d35": 1,
+  "PONS": 1,
+  "HARMONIC": 1,
+  "MOTION": 1,
+  "CHARLIE": 1,
+  "SHROOM": 1,
+  "UBIK": 1,
   "TRIVVO": 2,
   "VARSEL": 1,
   "AEQU": 1,
@@ -5573,15 +5892,6 @@
   "SAFWTR": 1,
   "FLACCID": 1,
   "ACOSTA": 1,
-  "WIF": 1,
-  "OAK": 1,
-  "PONS": 1,
-  "\u5bcc\u8d35": 1,
-  "HARMONIC": 1,
-  "UBIK": 1,
-  "CHARLIE": 1,
-  "SHROOM": 1,
-  "MOTION": 1,
   "microduck": 1,
   "WAKA": 1,
   "SWEEPER": 1,
@@ -5705,7 +6015,6 @@
   "ROAMB": 1,
   "ONION": 1,
   "Grant": 1,
-  "NYMRA": 4,
   "LOONA": 2,
   "GTA6": 1,
   "Zatvoon": 1,
@@ -5830,7 +6139,6 @@
   "PURRINHOOD": 1,
   "AI": 2,
   "ROSTIQ": 1,
-  "KERNEL": 1,
   "CHARITY": 1,
   "COAGENTS": 1,
   "TI": 1,
@@ -6155,6 +6463,12 @@
    [
     "\u2139\ufe0f Copy check: not enough of their own code to sample",
     "\u2139\ufe0f 135 of 135 files arrived in the very first change \u2014 could be copied, or moved over from a private repo"
+   ]
+  ],
+  "flexmeow/flex-contracts@2026-10-15": [
+   [],
+   [
+    "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo"
    ]
   ]
  },
@@ -6617,6 +6931,8 @@
   "0x9055a55bd621bfebd4e741b5db61f9dbe8838ad6": "2026-11-05T06:45:23+00:00",
   "0xac5f55ad19deceec31ed73d42335b1f508e8cc93": "2026-11-05T07:00:32+00:00",
   "0x83719276c3e3b94fe871926e6133087786dd19e4": "2026-11-05T07:00:32+00:00",
-  "0xe0c58c41a4c639c97fe8bd5caf2e5d879befde9c": "2026-11-05T07:00:32+00:00"
+  "0xe0c58c41a4c639c97fe8bd5caf2e5d879befde9c": "2026-11-05T07:00:32+00:00",
+  "0xde6a823f9d8ffc54e691f9c4e7f5f9adafcc58bb": "2026-11-05T07:15:24+00:00",
+  "0x0bd326342e6a87b20936d46f821efc32abad9da3": "2026-11-05T07:15:24+00:00"
  }
 }
