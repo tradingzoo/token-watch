@@ -11,6 +11,7 @@ Hand-checked findings go in reviews.json and replace the script's guesses.
 """
 import json, os, re, subprocess, shutil, sys, time, datetime, html, urllib.request, urllib.parse
 from collections import Counter
+import statistics
 import x_info, deployers, test_tokens, prices, shipping, sitecheck, dexpools
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -310,6 +311,7 @@ def choose_link(tok, links_by_origin):
     return None, None
 
 
+INFO_GROUPS = {"Team", "Live product"}  # parts shown as information only, no points (5 Nov)
 PRIVATE_CAP = 40  # public code is weighed more: a private GitHub can't score above this
 PRIVATE_CLAIMED_CAP = 60  # ...unless their own website posts the token's address (DARK, 5 Nov)
 
@@ -692,6 +694,9 @@ def score(tok, full, found_on, symbol_counts, review):
 
     def add(group, pts, text, mark=None):
         nonlocal total
+        if group in INFO_GROUPS:  # shown, not scored (5 Nov test: Team didn't separate winners from dead tokens)
+            reasons[group].append(f"ℹ️ {text}")
+            return
         total += pts
         mark = mark or ("✅" if pts > 0 else "❌")
         reasons[group].append(f"{mark} {text} (+{pts})")
@@ -956,7 +961,8 @@ def score_bits(sc):
     clean = lambda x: re.sub(r"\s+—.*$", "", re.sub(r"\s*\(\+\d+\)$", "", x)).lstrip("✅🟡❌ℹ️ ").strip()[:95]
     for g, items in sc.get("reasons", {}).items():
         pts = sum(int(m.group(1)) for x in items if (m := re.search(r"\(\+(\d+)\)$", x)))
-        parts.append((re.sub(r"\s*\(.*\)$", "", g), pts))
+        if re.sub(r"\s*\(.*\)$", "", g) not in INFO_GROUPS:  # information-only parts get no chip
+            parts.append((re.sub(r"\s*\(.*\)$", "", g), pts))
         for x in items:
             m = re.search(r"\(\+(\d+)\)$", x)
             if m and int(m.group(1)) >= 10 and x.startswith(("✅", "🟡")):
@@ -1004,6 +1010,48 @@ def narratives(r, sc, xdb):
     if owner and h and gh_x.lower() == h.lower() and m and int(m.group(1)) >= 180:
         tags.append("Public dev")
     return tags
+
+
+CHECK_AGE_DAYS = 3        # score check: tokens at least this old...
+TOOK_OFF = 500_000        # ...now worth this much "took off"
+DIED = 20_000             # ...now worth less than this "died"
+
+
+def score_check_html(state, pdb, e):
+    """Is the score working? Tokens 3+ days old that took off vs died: median score, share 60+, points per part.
+    Updates every run; the cut-off and weights get set from this once the groups are big enough (5 Nov)."""
+    def parts(sc):
+        out = {}
+        for g, items in sc.get("reasons", {}).items():
+            name = re.sub(r"\s*\(.*\)$", "", g)
+            if name not in INFO_GROUPS:
+                out[name] = sum(int(m.group(1)) for x in items if (m := re.search(r"\(\+(\d+)\)$", x)))
+        return out
+    blocks = []
+    for sec, label in (("github", "GitHub score"), ("sites", "Site check score")):
+        took, died = [], []
+        for a, r in state.get(sec, {}).items():
+            if not r.get("launched") or days_between(NOW, iso(r["launched"])) < CHECK_AGE_DAYS:
+                continue
+            m = (pdb.get(a) or {}).get("now_mcap") or r.get("mcap") or 0
+            (took if m >= TOOK_OFF else died if m < DIED else []).append(r["scoring"])
+        if not took and not died:
+            continue
+        med = lambda g: f"{statistics.median(s['score'] for s in g):.0f}" if g else "–"
+        pct = lambda g: f"{sum(s['score'] >= 60 for s in g)} of {len(g)}" if g else "–"
+        keys = list(dict.fromkeys(k for s in took + died for k in parts(s)))
+        avg = lambda g, k: f"{statistics.mean(parts(s).get(k, 0) for s in g):.0f}" if g else "–"
+        rows = [("Median score", med(took), med(died)), ("Scored 60+", pct(took), pct(died))]
+        rows += [(f"{k} (avg points)", avg(took, k), avg(died, k)) for k in keys]
+        small = len(took) < 15 or len(died) < 15
+        blocks.append(f"<h3>{e(label)}</h3><table class='sc'><tr><th></th><th>Took off ({len(took)})</th><th>Died ({len(died)})</th></tr>"
+                      + "".join(f"<tr><td>{e(a_)}</td><td>{e(b)}</td><td>{e(c)}</td></tr>" for a_, b, c in rows) + "</table>"
+                      + ("<p class='muted'>Too few tokens yet to set the cut-off from this: wait for 15+ in each group.</p>" if small else ""))
+    if not blocks:
+        return ""
+    return (f"<h2 style='margin:22px 0 6px'>Is the score working?</h2><p class='muted'>Tokens launched {CHECK_AGE_DAYS}+ days ago: "
+            f"<b>took off</b> = now worth {money(TOOK_OFF)}+, <b>died</b> = now under {money(DIED)}. A part that helps gives the "
+            f"took-off group clearly more points. Updates every run.</p>" + "".join(blocks))
 
 
 def ago(ts):
@@ -1211,6 +1259,7 @@ a{{color:var(--accent)}} .new{{font-size:11px;background:var(--accent);color:var
 .dups{{margin:-8px 0 14px 12px}} .dups summary{{font-size:14px}} .dups .card{{opacity:.85}}
 .verdict{{margin:4px 0;font-size:14px}} .verdict .good{{color:var(--hi);margin-right:10px}} .verdict .bad{{color:var(--lo)}} .verdict .muted,.nm{{color:var(--mute)}}
 .nm{{font-weight:400;font-size:16px}} button.ca{{font:12px ui-monospace,Consolas,monospace;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:1px 6px;cursor:pointer;vertical-align:middle}}
+table.sc{{border-collapse:collapse;margin:4px 0 8px;font-size:14px}} table.sc td,table.sc th{{border-bottom:1px solid var(--line);padding:3px 12px 3px 0;text-align:left}} .muted{{color:var(--mute);font-size:13px}}
 .tags{{margin:4px 0;display:flex;gap:5px;flex-wrap:wrap}} .tag{{font-size:12px;border-radius:10px;padding:0 8px;background:var(--bg);border:1px solid var(--line);color:var(--mute)}}
 .facts{{display:grid;grid-template-columns:max-content 1fr;gap:2px 12px;margin:4px 0;font-size:14px}} .facts dt{{color:var(--mute)}} .facts dd{{margin:0}}
 ul.pm{{list-style:none;padding-left:0;margin:6px 0;font-size:14px}} ul.pm li.p::before{{content:"+ ";color:var(--hi);font-weight:700}} ul.pm li.m::before{{content:"– ";color:var(--lo);font-weight:700}}
@@ -1245,7 +1294,7 @@ Prices are tracked so we can see whether this works.</p>
 </section>
 <section class="tab" id="status">{shipping.alerts_html(ship, NOW) if ship else '<p>No status data yet.</p>'}</section>
 <section class="tab" id="test">{test_html or '<p>The 30-day test section is refreshed about twice a day.</p>'}</section>
-<section class="tab" id="scores">{prices.section(pdb, e)}</section>
+<section class="tab" id="scores">{score_check_html(state, pdb, e)}{prices.section(pdb, e)}</section>
 <section class="tab" id="github">
 <h2 style="margin:22px 0 10px">New tokens with a public GitHub</h2>
 <div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="60">60+</button><button data-f="flag">Red flags</button></div>

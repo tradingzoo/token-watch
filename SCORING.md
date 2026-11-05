@@ -91,6 +91,12 @@ Both scores give a **+5 bonus** when the project works with a token that already
 
 Closed, each card is four lines: score, name, a **click-to-copy contract address**, badges; value · launched how long ago · where it trades; one ✅ main plus and one ⚠️ main warning (+N more); links. **Details** opens, always in this order: Quick facts (market, X, GitHub or website, launch wallet, status), Warnings (each once, ×N for repeats), Score (points per part, cap, top pluses and misses), About, and Full evidence (every reason line). NEW means launched in the last 24 hours. **Narrative tags** under the warnings line (display only, never scored): up to 3 of AI agents, AI, Privacy, Stocks / RWA, DeFi, Launchpad, Payments, Prediction, Gaming / NFT, Dev tools, Meme — from the project's own words (name, description, X bio) — plus **Public dev** when a GitHub account at least 6 months old names the project's X. Same-name tokens are folded under the best-scoring one.
 
+## Score refinement (5 Nov): two parts shown, not scored
+
+Tested on our own tokens launched before 2 Nov (took off = now $500k+, died = now under $20k): **Team** (GitHub score) and **Live product** (site check: app, agents, audit) gave the dead tokens as many points as the winners, so they're now information lines (ℹ️) with no points. *Takes real payments* keeps its 5 points and moved to Money and Robinhood Chain. Effect on the same tokens: site check, dead tokens scoring 60+ went from 3 of 8 to 1 of 8 (winners unchanged, 8 of 13); GitHub, winners 60+ 5 of 6, dead 0 of 9.
+
+The **Is the score working?** table on the *Was the score right?* tab redoes this comparison every run (tokens 3+ days old, median score, share 60+, points per part). Once each group has 15+ tokens, the 60 cut-off and the weights get set from it.
+
 ## Ghost market warning (added 5 Nov, warning only)
 
 A token worth **$250k+** with **fewer than 25 trades in 24 hours** gets a 👻 warning on its card: the price may be propped up or stale, and selling near it may not be possible. It never changes the score (user's choice). Why trades and not volume: on 5 Nov, 'under 1% of value traded a day' would have flagged half the real winners (UBIK, GF, HMM, PONS); real winners trade 100–3,000 times a day, while TRENCHERS traded 13 times, WIN 4, AGE 7.

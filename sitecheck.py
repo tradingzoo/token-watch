@@ -128,6 +128,9 @@ def score(tok, review, w):
 
     def add(group, pts, txt, mark=None):
         nonlocal total
+        if group in w.INFO_GROUPS:  # shown, not scored (5 Nov test: Live product didn't separate winners from dead tokens)
+            reasons[group].append(f"ℹ️ {txt}")
+            return
         total += pts
         mark = mark or ("✅" if pts > 0 else "❌")
         reasons[group].append(f"{mark} {txt} (+{pts})")
@@ -209,7 +212,7 @@ def score(tok, review, w):
     au = bool(re.search(OTHER["audit"], text, re.I))
     add("Live product", 5 if au else 0, "Mentions an audit — not checked" if au else "No audit mentioned", "🟡" if au else "❌")
     pay = re.search(OTHER["pay"], text, re.I)
-    add("Live product", 5 if pay else 0, f"Takes real payments (“{pay.group(0)}”): a service with paying customers" if pay
+    add("Money and Robinhood Chain", 5 if pay else 0, f"Takes real payments (“{pay.group(0)}”): a service with paying customers" if pay
         else "No sign it takes payments (card or credits)")
 
     for f in review.get("flags", []):
