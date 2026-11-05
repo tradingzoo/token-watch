@@ -2513,7 +2513,7 @@
   },
   "fairround": {
    "handle": "fairround",
-   "found": true,
+   "found": false,
    "id": "2114190575922819072",
    "name": "FairRound",
    "joined": "2026-10-25T03:02:15+00:00",
@@ -2531,25 +2531,8 @@
    "bio": "Own the price discovery. The on-chain IPO exchange for crypto projects: one clearing price, small buyers filled, the raise held by holders. Live on @arbitrum",
    "cas": [],
    "fake_posts": [],
-   "texts": [
-    "Launching a token on Arbitrum? Raise with one clearing price, a wide holder base and a treasury your holders control, so nobody can call it a rug. We're looking for our first launch partner. DMs are open.",
-    "Try FairRound in 10 minutes: 1. Connect MetaMask on Arbitrum One 2. Verify (hold 0.0083 ETH; nothing is taken) 3. Claim 1,000 free UNRIG commitment credits 4. Bid in an open round Demo credits have no value. We'll never ask for your secret phrase. https://fairround.xyz",
-    "I started my career answering phones in a travel call centre. No CS degree. No crypto fund. Just thousands of calls with people who felt the system wasn\u2019t fair to them. So I built a launch where it has to be fair. \ud83e\uddf5",
-    "So here\u2019s my ask, and I\u2019m certain about it: On 7 Nov the first holder vote opens. Watch it, or better, try to break it. Verify a wallet, claim free test credits, bid in the next listing. Every bug, every bot, reported publicly.",
-    "Either it holds, or we learn exactly where it breaks. Both move launches forward. Join the test: https://fairround.xyz Hypotheses (DOI): https://doi.org/10.5281/zenodo.23844124",
-    "Ten demo listings, from The Chosen One (1 unit) to Xerxes' Host (300,000). 150 units a round, one price per round. Even the founder can't take The Thousand in one go. The few against the whale.",
-    "\u201cThe Fellowship\u201d in large bold type, with a tilted \u201cSOLD OUT IN ONE ROUND\u201d stamp.",
-    "\u201cFree test credits, no value. No promise of price.\u201d and https://fairround.xyz.",
-    "The timeline: 7 Nov vote opens, 10 Nov count and propose, 13 Nov treasury vote ends, 18 Nov first vUNRIG.",
-    "The honest line: \u201cOne founder, three wallets, in public. No outside bids in the 40 minutes after the announcement.\u201d",
-    "Nine blocks in three colours, one row per wallet: Wallet 1 lead candidate, Wallet 2 voter, Wallet 3 recipient.",
-    "The numbers: 9/9 units, 333 UNRIG each, same price, 2,967 UNRIG capital.",
-    "We came to Arbitrum Open House Singapore with a different product: a simulation of privatizing a country on-chain. One mentor conversation later, we rebuilt the story, the contracts and the brand around one question: why do token launches keep failing the people who fund them?",
-    "FairRound is a public test. Our launch system on Arbitrum One runs in the open: free entry, real rules, every step on-chain. Everyone, bots included, is invited to break it. Round 2 of The Fellowship is open until 13:16 UTC. Outbid us if you want in: https://fairround.xyz/company/2 \ud83e\uddf5",
-    "How it works: \u2022 Verify a wallet, claim 1,000 UNRIG (a free test credit, no value) \u2022 Bid in hourly rounds: everyone filled pays the same price \u2022 Holders elect a project lead and vote on every treasury payment \u2022 Max 5% of a treasury leaves per 30-day term",
-    "UNRIG is a free test credit with no value. vUNRIG is not backed, not redeemable and not an investment. Any price comes only from what people choose to pay. We make no promise about its price."
-   ],
-   "checked": "2026-11-05T20:10:38+00:00"
+   "checked": "2026-11-05T20:28:18+00:00",
+   "gone_since": "2026-11-05T20:28:18+00:00"
   },
   "the_astropad": {
    "handle": "the_astropad",
@@ -2559,21 +2542,36 @@
    "joined": "2026-11-04T06:55:07+00:00",
    "followers": 21,
    "following": 4,
-   "posts": 15,
+   "posts": 14,
    "verified": null,
    "last_post": "2026-11-05T08:13:32+00:00",
-   "sample": 14,
+   "sample": 13,
    "sample_full_week": false,
-   "posts_7d": 14,
-   "avg_likes": 4.9,
-   "avg_views": 71,
+   "posts_7d": 13,
+   "avg_likes": 5.2,
+   "avg_views": 87,
    "bio_site": "https://astropad.live/",
-   "bio": "Multi Chain Launchpad Built Across Robinhood Chain, Base and Arc\n\nCA:0xeaeaa6d3cbfd3ec51728410057a89f699438334f",
+   "bio": "Multi Chain Launchpad Built Across Robinhood Chain, Base and Arc",
    "cas": [
     "0xeaeaa6d3cbfd3ec51728410057a89f699438334f"
    ],
    "fake_posts": [],
-   "checked": "2026-11-05T08:15:24+00:00"
+   "texts": [
+    "No platform fee There is no fee address, fee variable or treasury anywhere in the factory or the locker. Nothing to switch on later. It cannot be added to immutable code.",
+    "Fee routing is written in The trading fee you choose (0%, 1% or 3%) goes 100% to the beneficiaries you name, or is burned if you name none. Fixed at launch, unchangeable.",
+    "The liquidity position is locked 100% of the supply goes into one single-sided position at launch. Its NFT is minted to an ownerless locker that has no function to withdraw, transfer or shrink it. Ever.",
+    "A market opens A Uniswap v4 pool pairs your token with ETH on Base, USDG on Robinhood Chain, a tokenized stock (Coinbase stocks on Base, Robinhood Stock Tokens on Robinhood Chain), or USDC on Arc. No hook. The pool starts at the market cap you pick.",
+    "One signature. Four things happen. Your token is deployed A plain ERC-20 with EIP-2612 permit. Fixed supply, 1 billion by default. No mint, no pause, no blacklist, no transfer tax, no owner.",
+    "\ud83d\udea8 THE WAIT IS ALMOST OVER! \ud83d\ude80\ud83d\udd25 ASTROPAD COMMUNITY, GET READY! The moment we've been building towards is finally here. CA LAUNCH IS JUST A FEW MOMENTS AWAY! This is ASTROPAD. This is just the beginning! \ud83d\udcab Who's ready? \ud83d\udc40\ud83d\udd25",
+    "JOIN TELEGRAM FOR EARLY CA! https://t.me/astropadofficial",
+    "\ud83d\udea8 ASTROPAD COMMUNITY, THE NEXT MILESTONE IS COMING! \ud83d\ude80 The momentum is building, and we're just getting started! \ud83d\udd25 CA IS COMING SOON! Stay connected, stay active, and keep your eyes on ASTROPAD. Big things are ahead, and we want our community ready for what's next.",
+    "\ud83d\ude80 IT'S OFFICIAL! ASTROPAD IS LIVE ON TELEGRAM! \ud83d\udd25 The ASTROPAD community is now OPEN! \ud83c\udf0c Join us as we connect, share updates, build together, and grow the ASTROPAD ecosystem. \ud83d\udc47 Join the community now: https://t.me/astropadofficial Let's build something amazing together! \ud83d\ude80",
+    "Meet Astropad . Create and trade coins paired with memes, majors, stocks on Robinhood Chain, Base, Arc & Solana. We're just getting started. \ud83d\udfe2 Keep your eyes open. \ud83d\ude80",
+    "JOIN TG: https://t.me/astropadofficial",
+    "The countdown to the next chapter of ASTROPAD begins. \ud83d\ude80 We're getting ready to share more about $APT. For now: \u2705 Explore https://astropad.live/ \u2705 Turn on notifications if you want launch updates We'll publish verified token details when the launch is confirmed",
+    "Introducing Astropad A Multi-chain Launchpad Across Base, Robinhood Chain, Solana & Arc. No noise. No waiting https://Astropad.live"
+   ],
+   "checked": "2026-11-05T20:28:18+00:00"
   },
   "axiom_parody123": {
    "handle": "axiom_parody123",
@@ -10215,6 +10213,49 @@
     "\"Get CA$H now\" !? 00:37"
    ],
    "checked": "2026-11-05T19:51:57+00:00"
+  },
+  "norenagent": {
+   "handle": "NorenAgent",
+   "found": true,
+   "id": "2115816365491662848",
+   "name": "NorenAgent",
+   "joined": "2026-10-29T14:42:36+00:00",
+   "followers": 43,
+   "following": 9,
+   "posts": 67,
+   "verified": "individual",
+   "last_post": "2026-11-05T19:22:11+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 3.2,
+   "avg_views": 179,
+   "bio_site": "http://usenoren.xyz",
+   "bio": "Every agent runs under a signed grant. Every action leaves a receipt in a hash-chained audit log. Eight primitives, built in the open.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Every agent runs under a signed grant. Every action leaves a receipt in a hash-chained audit log. Eight primitives, built in the open.",
+    "The trenches are calling and i must held to.",
+    "The Grant \u2192 Act \u2192 Prove Model. Noren's operating model can be understood through three stages. 1. Grant: Define the Agent's Authority Everything starts with a signed capability. An operator issues an authorization that identifies the agent, the action it is allowed to perform, optional scope restric",
+    "Noren introduces a permission-based execution model where authority is explicitly granted, checked, and enforced by the daemon. Before an agent performs an action, the system checks whether the required capability exists and whether it is still valid. If the permission is missing, expired, revoked, ",
+    "Noren's memory is a single store partitioned into three tiers. Tiers are represented as a column on a shared schema rather than as separate databases; records can be promoted between tiers without migration.",
+    "https://x.com/i/article/2118058619069681664",
+    "We have applied @fomo team tags for $NOREN.",
+    "Every Noren install holds a single ed25519 keypair. The same key signs capability grants and appears as the issuer on audit events and memory records. Noren does not maintain a secondary key system.",
+    "The keypair is stored as the raw 32-byte seed at $NOREN_HOME/identity/local.key with mode 0600 (owner read/write only). The daemon refuses to start if the key file has broader permissions; restrict the file with chmod 0600 to recover. The corresponding public key is derived from the seed and attache",
+    "Noren freezes its public wire and record contracts as committed, byte-exact golden vectors. A golden vector is the canonical serialized form of one message or record, checked into the repository, that an external implementation can encode and decode against without reading the Rust source. If your i",
+    "A capability token is a typed, signed authorization. It names an action, optionally carries a versioned JSON scope, and is signed by the granter with their ed25519 key. Noren enforces agent and tool authorization through capability tokens.",
+    "Noren is a local-first daemon. The model assumes the operator owns the host and trusts their own user account; it does not defend against an adversary that has already obtained shell access as the operator. Within that boundary, Noren provides hard guarantees over Noren-mediated actions: ed25519-sig",
+    "zauth runs a provider hub for x402: a directory that discovers public x402 endpoints, health-checks them, and exposes provider telemetry. Noren integrates with it so the paid resources Noren exposes are discoverable and monitored, and so Noren agents can read the directory when looking for paid serv",
+    "The client crate is implemented. Registering a Noren seller in the zauth provider hub requires a live public x402 seller on Robinhood Chain, which is coming soon. No Noren endpoint is registered or monitored yet. One operational detail worth stating plainly: a hub registers a selling endpoint only o",
+    "Noren x402: x402 is HTTP 402 Payment Required turned into a working payment rail. A resource answers an unpaid request with a signed price quote, the caller pays, and the same request retried with an X-PAYMENT header returns the resource. Noren uses x402 in both directions: agents pay for external r",
+    "An agent needs a secp256k1 key holding USDG. Because Noren's facilitator settles with transferFrom rather than an EIP-3009 authorization, the buyer first sets a one-time ERC-20 allowance for the facilitator's spender address (published at /facilitator), which costs a small amount of ETH once. After ",
+    "x402 lets a product charge per request over plain HTTP: an unpaid call gets 402 Payment Required with a price, and a paid retry gets the response. On Noren's settlement chain, Robinhood Chain (chain id 4663, CAIP-2 id eip155:4663), payments are in USDG and gas is ETH.",
+    "npm install express @x402/express @x402/core @x402/evm",
+    "Noren update Paid calls now run end to end through the hosted MCP on Robinhood Chain. We completed a test payment of 0.01 USDG, from wallet approval and signing to settlement and onchain verification. The gateway settled the payment, and noren_verify_payment successfully detected the transfer. One t"
+   ],
+   "checked": "2026-11-05T20:28:18+00:00"
   }
  },
  "ids": {
@@ -11010,14 +11051,14 @@
   "2117722378671149056": [
    "darkstonkcash"
   ],
-  "1636842565": [
-   "zer0clickz"
-  ],
   "2044517304705146880": [
    "criaofRJ"
   ],
   "19834403": [
    "NYCMayor"
+  ],
+  "2115816365491662848": [
+   "NorenAgent"
   ]
  },
  "past": {
@@ -11301,7 +11342,8 @@
   "letronnaagent": [],
   "nycmayor": [],
   "ollama": [],
-  "criaofrj": []
+  "criaofrj": [],
+  "norenagent": []
  },
  "history": {
   "barragetrade": {
@@ -11893,7 +11935,7 @@
   "the_astropad": {
    "2026-11-05": [
     21,
-    15
+    14
    ]
   },
   "axiom_parody123": {
@@ -13072,10 +13114,10 @@
     41349
    ]
   },
-  "vladyy__01": {
+  "norenagent": {
    "2026-11-05": [
-    4234,
-    22227
+    43,
+    67
    ]
   }
  },
@@ -13543,12 +13585,12 @@
   "amiran11": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T20:10:38+00:00"
+   "checked": "2026-11-05T20:28:18+00:00"
   },
   "s4viour1": {
    "twitter": null,
    "blog": null,
-   "checked": "2026-11-05T08:15:24+00:00"
+   "checked": "2026-11-05T20:28:18+00:00"
   },
   "sborxyz": {
    "twitter": "SBORindex",
@@ -13943,22 +13985,27 @@
   "neuralverge": {
    "twitter": null,
    "blog": "https://neuralverge.ai/",
-   "checked": "2026-11-05T20:10:38+00:00"
+   "checked": "2026-11-05T20:28:18+00:00"
   },
   "liftedinit": {
    "twitter": "liftedinit",
    "blog": "liftedinit.org",
-   "checked": "2026-11-05T20:10:38+00:00"
+   "checked": "2026-11-05T20:28:18+00:00"
   },
   "zeroclickz": {
    "twitter": "zer0clickz",
    "blog": "https://zeroclickz.com",
-   "checked": "2026-11-05T20:10:38+00:00"
+   "checked": "2026-11-05T20:28:18+00:00"
   },
   "nguyenkhangph": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-05T20:10:38+00:00"
+   "checked": "2026-11-05T20:28:18+00:00"
+  },
+  "jacksondavidprice-ui": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-05T20:28:18+00:00"
   }
  }
 }
