@@ -311,6 +311,7 @@ def choose_link(tok, links_by_origin):
 
 
 PRIVATE_CAP = 40  # public code is weighed more: a private GitHub can't score above this
+PRIVATE_CLAIMED_CAP = 60  # ...unless their own website posts the token's address (DARK, 5 Nov)
 
 
 def score_private(tok, full, owner, user, found_on, symbol_counts, review, reasons, flags, add, total):
@@ -322,8 +323,11 @@ def score_private(tok, full, owner, user, found_on, symbol_counts, review, reaso
         return {"repo": full, "score": 0, "capped": True, "flags": flags, "private": True,
                 "reasons": {"Really theirs": [f"❌ github.com/{owner} doesn't exist"]}, "roadmap": [], "facts": {}}
     what = (f"the linked repo {full} is private or deleted" if rname else f"github.com/{owner} has no public repos")
-    reasons["Really theirs"].append(f"🔒 Private GitHub: {what}. Code can't be checked, so the score is capped at {PRIVATE_CAP}")
     srcs = project_sources(tok)
+    claimed = any(tok["address"].lower() in t.lower() for w, u, t in srcs)
+    cap = PRIVATE_CLAIMED_CAP if claimed else PRIVATE_CAP
+    reasons["Really theirs"].append(f"🔒 Private GitHub: {what}. Code can't be checked, so the score is capped at {cap}"
+                                    + (" (not 40: their own website posts the token's address)" if claimed else ""))
     text = " ".join([tok.get("description") or ""] + [t for w, u, t in srcs if w == "docs"]).lower()
     rv = review.get("checks", {})
     # Platform (40): same guesses as a public repo, from the token page and their docs
@@ -370,9 +374,9 @@ def score_private(tok, full, owner, user, found_on, symbol_counts, review, reaso
         flags.append(f + " (checked by hand)")
     not_theirs = [f for f in flags if " times on Pons" not in f and not f.startswith(X_MISMATCH) and not f.startswith(UNCLAIMED)]
     t = total()
-    final = 0 if not_theirs else min(t, 25 if flags else PRIVATE_CAP)
-    if t > PRIVATE_CAP and not flags:
-        reasons["Really theirs"].append(f"ℹ️ Points add up to {t}, capped at {PRIVATE_CAP} because the code is private")
+    final = 0 if not_theirs else min(t, 25 if flags else cap)
+    if t > cap and not flags:
+        reasons["Really theirs"].append(f"ℹ️ Points add up to {t}, capped at {cap} because the code is private")
     return {"repo": full, "score": final, "capped": final < t, "flags": flags, "private": True,
             "reasons": reasons, "notes": review.get("notes", []), "roadmap": [],
             "facts": {"created": (user.get("created_at") or "?")[:10], "pushed": "private", "commits": "private"}}
@@ -974,6 +978,9 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         notes = ("<h4>Checked by hand</h4><ul>" + "".join(f"<li>{md(n)}</li>" for n in sc.get("notes", [])) + "</ul>") if sc.get("notes") else ""
         road = "<h4>Roadmap</h4><ul>" + "".join(f"<li>{md(x)}</li>" for x in sc.get("roadmap", [])) + "</ul>"
         band = "hi" if sc["score"] >= 60 else ("mid" if sc["score"] >= 40 else "lo")
+        # badge only, no score change (user, 5 Nov): the team has never posted or mentioned this token anywhere
+        said = " ".join(sum(sc.get("reasons", {}).values(), []))
+        unclaimed = sc["score"] > 0 and not re.search(r"✅ (?:Token's address is posted|Their [\w ]+ mentions the token)", said)
         if is_site:
             f = sc.get("facts", {})
             meta = (f"Site check · {sc.get('tools', 0)} of 4 plug-in tools · {f.get('contract_addresses', 0)} contract addresses"
@@ -986,7 +993,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
   <header>
     <div class="score {band}">{sc['score']}<small>/100</small></div>
     <div class="title">
-      <h2>{e(r.get('symbol') or '?')} {"<span class='new'>NEW</span>" if new else ""}{" <span class='grp'>🔒 private GitHub</span>" if sc.get('private') else ""}</h2>
+      <h2>{e(r.get('symbol') or '?')} {"<span class='new'>NEW</span>" if new else ""}{" <span class='grp'>🔒 private GitHub</span>" if sc.get('private') else ""}{" <span class='grp' title='Their repo, website and X never post the token address or mention the token. It may have been launched by someone else.'>🤐 dev hasn't mentioned this token</span>" if unclaimed else ""}</h2>
       <p class="sub">{e(r.get('name') or '')} · {('launched ' + e(r['launched'][:16].replace('T',' ')) + ' UTC · ') if r.get('launched') else ''}found {e(r['first_seen'][:16].replace('T',' '))} UTC · {e(money(r.get('mcap')))} · {e(r.get('where') or '')}</p>
       <p class="links">{" · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(t)}</a>' for u, t in links)}</p>
     </div>

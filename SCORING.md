@@ -77,6 +77,11 @@ Each run checks every token on the site plus the 16 test tokens: the project's o
 
 The page's "Still shipping?" box lists a token only when its status changes. The first run (5 Nov) only saved starting points.
 
+## Badges and private code (5 Nov)
+
+- **🤐 dev hasn't mentioned this token** (badge only, no score change): the project's repo, website and X never post the token's address or mention it. The big-older-GitHub cap of 25 above still applies; for everyone else it's just the badge. On 5 Nov, 60 of about 130 cards got it, including ORBIO (a real winner that never posts its address), so it means 'unconfirmed', not 'fake'.
+- **Private GitHub cap** is 40, or **60** when the token's own website posts its address (DARK, 5 Nov: $3.9M, address and Pons link on darkwoods.ai, code private).
+
 ## Ghost market warning (added 5 Nov, warning only)
 
 A token worth **$250k+** with **fewer than 25 trades in 24 hours** gets a 👻 warning on its card: the price may be propped up or stale, and selling near it may not be possible. It never changes the score (user's choice). Why trades and not volume: on 5 Nov, 'under 1% of value traded a day' would have flagged half the real winners (UBIK, GF, HMM, PONS); real winners trade 100–3,000 times a day, while TRENCHERS traded 13 times, WIN 4, AGE 7.
