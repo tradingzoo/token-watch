@@ -1075,6 +1075,24 @@ c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))
     open(SITE, "w", encoding="utf-8").write(page)
 
 
+def with_site_check(sc, tok, review):
+    """Private GitHub (code can't be checked): also score their website with the site check and keep the
+    higher score, so a private repo can't hide a strong product (DARK, 5 Nov: 40 on GitHub, 80 on its site)."""
+    if not sc.get("private") or sc["score"] == 0 or not sitecheck.has_site(tok):
+        return sc
+    ss = sitecheck.score(tok, review, sys.modules[__name__])
+    if not ss or ss["score"] <= sc["score"] or ss.get("copy_of"):
+        return sc
+    out = dict(sc)
+    out["reasons"] = {f"Website (site check: {ss['score']})": [ln for g in ss["reasons"].values() for ln in g],
+                      **{f"{g} (GitHub check: {sc['score']})" if i == 0 else g: v for i, (g, v) in enumerate(sc["reasons"].items())}}
+    out["reasons"][next(iter(out["reasons"]))].insert(
+        0, f"ℹ️ The GitHub code is private, so the score uses their website instead: {ss['score']} (the GitHub check gave {sc['score']})")
+    out.update(score=ss["score"], raw_score=ss.get("raw_score"), site_score=ss["score"], github_score=sc["score"],
+               flags=sc["flags"] + [f for f in ss["flags"] if f not in sc["flags"]])
+    return out
+
+
 def launch_date(addr):
     """(launched, source): the Pons launch time for Pons tokens, else the token's first trade on DexScreener."""
     p = pons_one(addr)
@@ -1254,6 +1272,7 @@ def main():
         rv = reviews.get(key, {})
         try:
             sc = score(t2, full, found_on, symbol_counts, rv)
+            sc = with_site_check(sc, t2, rv)
         except Exception as ex:
             log(f"  {t2.get('symbol')}: scoring failed ({ex})")
             continue

@@ -81,6 +81,7 @@ The page's "Still shipping?" box lists a token only when its status changes. The
 
 - **🤐 dev hasn't mentioned this token** (badge only, no score change): the project's repo, website and X never post the token's address or mention it. The big-older-GitHub cap of 25 above still applies; for everyone else it's just the badge. On 5 Nov, 60 of about 130 cards got it, including ORBIO (a real winner that never posts its address), so it means 'unconfirmed', not 'fake'.
 - **Private GitHub cap** is 40, or **60** when the token's own website posts its address (DARK, 5 Nov: $3.9M, address and Pons link on darkwoods.ai, code private).
+- **Private GitHub + a real website:** the site check also scores the website and the card keeps the **higher** score, with both shown (DARK: GitHub check 55, site check 80 → 80). A private repo shouldn't hide a strong product.
 
 ## Ghost market warning (added 5 Nov, warning only)
 
