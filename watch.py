@@ -1029,7 +1029,8 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         wline, wwarn = deployers.facts(r, wallets)
         xline = shipping.line(r, ship) + xline + wline + prices.card_line(r["address"].lower(), pdb)
         allw = sc.get("flags", []) + xwarn + wwarn
-        flags = "".join(f"<div class='flag'>⚠️ {e(f)}</div>" for f in allw)
+        seen_w = Counter(allw)  # the same warning twice is shown once with ×2 (user, 5 Nov)
+        flags = "".join(f"<div class='flag'>⚠️ {e(f)}{f' <b>×{n}</b>' if n > 1 else ''}</div>" for f, n in seen_w.items())
         ghost_w = prices.ghost(pdb.get(r["address"].lower()))
         titles = list(dict.fromkeys(re.split(r"[:(—]", f)[0].strip()[:55] for f in allw)) + (["👻 Ghost market"] if ghost_w else [])
         oneline = (f"<p class='oneline'>⚠️ {len(titles)} warning{'s' if len(titles) > 1 else ''}: {e(' · '.join(titles))}</p>"
