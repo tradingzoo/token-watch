@@ -1386,6 +1386,8 @@ def review_queue_html(q, e):
             f"launched since 6 Nov without a review, AI projects first</summary><ul style='margin:8px 0 0'>{rows}</ul></details>")
 
 
+# The Shortlist tab and the hand review queue are hidden from the page (user, 6 Nov: too much to look at for now).
+# Both are still worked out every run (data/review_queue.json, shortlist alerts); to show them again, put the tab back in build_site.
 def shortlist_live(picks):
     """(live, early): the Shortlist proper and the riskier 'passes everything but trading' list."""
     good = [p for p in picks if len(p[4]) >= SHORT_SIGNS]
@@ -1953,7 +1955,6 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <p class="key"><span>✅ checked</span><span>🟡 claimed or guessed, not checked</span><span>❌ missing</span><span>⚠️ warning</span><span>🔒 private code</span>
 <span class="qg">green chip = good</span><span class="qa">amber = claimed / unchecked</span><span class="qx">red = risk</span></p>
 <nav class="tabs" id="tabs">
-<a href="#short" data-tab="short">Shortlist <span class="cnt">{sum(1 for p in picks if len(p[4]) >= SHORT_SIGNS and (p[3].get('trades24') or 0) >= SHORT_TRADES and (p[3].get('liq') or 0) >= SHORT_LIQ)}</span></a>
 <a href="#building" data-tab="building">Still building</a>
 <a href="#github" data-tab="github">GitHub <span class="cnt">{len(cards)}</span></a>
 <a href="#sites" data-tab="sites">Site check <span class="cnt">{len(site_cards)}</span></a>
@@ -1963,7 +1964,6 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <a href="#health" data-tab="health">Scanner health</a>
 </nav>
 <p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · showing only projects scoring {SHOW_AT}+, one card per project ({len(cards)} GitHub, {len(site_cards)} site check, of {len(rows) + len(site_rows)} scored) · {state.get('checked_total',0)} tokens checked in all. Lower scores are still tracked: see <a href="#scores">Was the score right?</a> for any that took off. Scoring rules: SCORING.md.</p>
-<section class="tab" id="short">{shortlist_html(picks, e, joined)}{review_queue_html(review_q, e)}</section>
 <section class="tab" id="building">{building_html(builders, e)}</section>
 <section class="tab" id="sites">
 <h2 style="margin:22px 0 6px">Site check: websites developers and AI agents can plug into</h2>
