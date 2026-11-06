@@ -165,3 +165,6 @@ notify.py sends a phone alert (Telegram and/or ntfy, set as GitHub secrets) when
 
 ## Sound when a token reaches 60+ (5 Nov)
 The page plays a short chime when a token newly scores 60+ on the GitHub or Site check list. Click "🔕 Sound off" (bottom left) to switch it on; browsers only allow sound after a click on the page, so after opening the page, tap anywhere once. The page no longer reloads itself: it fetches the new version every 5 minutes and swaps it in (not while you have a card's details open), which keeps the sound switched on. New 60+ tokens get a popup (bottom right), a blue outline and a count in the tab title. Tokens that reached 60+ since your last visit show in the popup when you open the page. Remembered per browser.
+
+## Every exchange DexScreener shows (6 Nov)
+DexScreener's Robinhood page can't be read by a script (it has a bot check), so the pool feed reads the same thing from the chain: every new pool on Uniswap v4, v2-style exchanges (this includes the flap.sh launchpad, ~580 launches a day), v3-style and Aerodrome-style exchanges. Tokens worth $25k+ with $5k+ liquidity (checked about 1h, 1 day, 3 days and 7 days after their first pool) go to the GitHub and site checks. On 6 Nov the last 24h held ~1,100 tokens outside Uniswap v4, of which 1 had a website: so this is a safety net, not a big source.

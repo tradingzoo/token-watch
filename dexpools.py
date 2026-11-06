@@ -1,8 +1,8 @@
 """Every token trading on Robinhood Chain, not just Pons launches (5 Nov, after FOBO: launched on its own
 launchpad, went from $60k to $3.9M, and the scanner never saw it).
 
-Source: Uniswap v4's pool manager on Robinhood Chain. Every new pool writes an "Initialize" event naming its
-two tokens. Each run reads the new pools since the last run (one RPC call), keeps the non-Pons tokens, and
+Source: new-pool events on Robinhood Chain: Uniswap v4 "Initialize", plus (6 Nov) v2/v3/Aerodrome-style pool
+creation, which covers flap.sh launches too. Each names the pool's two tokens. Each run reads the new pools since the last run (one RPC call), keeps the non-Pons tokens, and
 checks their value on DexScreener (30 tokens a call) about 1 hour, 1 day, 3 days and 7 days after we first
 see them. A token worth MIN_MCAP+ with MIN_LIQ+ liquidity is handed to the GitHub check and the site check.
 
@@ -14,6 +14,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FILE = os.path.join(HERE, "data", "pool_feed.json")
 POOL_MANAGER = "0x8366a39cc670b4001a1121b8f6a443a643e40951"  # Uniswap v4 on Robinhood Chain (found via MERY's pool, 5 Nov)
 INITIALIZE = "0xdd466e674ea557f56295e2d0218a125ea4b4f0f6f3307b95f85e6110838d6438"
+# 6 Nov: DexScreener's Robinhood page also lists pools on other exchanges (Uniswap v2/v3, Aerodrome-style,
+# and the flap.sh launchpad: ~580 launches a day). Every new pool of any of these kinds is read too;
+# only tokens that reach MIN_MCAP with MIN_LIQ liquidity get passed on, so the extra cost is ~2 calls a run.
+PAIR_CREATED = "0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9"   # Uniswap v2 style (flap.sh too)
+POOL_CREATED = "0x783cca1c0412dd0d695e784568c96da2e9c22ff989357a2e8b1d9b2b4e6b7118"   # Uniswap v3 style
+SOLIDLY_CREATED = "0x2128d88d14c80cb081c1252a5acff7a264671bf199ce226b53788fb26065005e"  # Aerodrome/Velodrome style
+TOKEN_TOPICS = {INITIALIZE: (2, 4), PAIR_CREATED: (1, 3), POOL_CREATED: (1, 3), SOLIDLY_CREATED: (1, 3)}
 CHECK_AT = [1, 24, 72, 168]  # hours after we first see the token
 MIN_MCAP = 25_000
 MIN_LIQ = 5_000
@@ -23,7 +30,7 @@ ZERO = "0x" + "0" * 40
 
 def _logs(rpc, a, b):
     try:
-        return rpc("eth_getLogs", [{"address": POOL_MANAGER, "fromBlock": hex(a), "toBlock": hex(b), "topics": [INITIALIZE]}])
+        return rpc("eth_getLogs", [{"fromBlock": hex(a), "toBlock": hex(b), "topics": [list(TOKEN_TOPICS)]}])
     except ValueError:
         if b <= a:
             raise
@@ -72,7 +79,8 @@ def run(rpc, fetch_json, pons_known, skip, now, log=print):
     stamp = now.isoformat(timespec="seconds")
     new = 0
     for l in _logs(rpc, start + 1, latest) if latest > start else []:
-        for t in l["topics"][2:4]:
+        i, j = TOKEN_TOPICS.get(l["topics"][0], (2, 4))
+        for t in l["topics"][i:j]:
             a = "0x" + t[-40:]
             if a != ZERO and a not in pons_known and a not in toks:
                 toks[a] = [stamp, 0]  # [first seen, checks done]
