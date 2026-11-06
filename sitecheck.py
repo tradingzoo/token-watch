@@ -175,7 +175,7 @@ def score(tok, review, w):
                          + ", ".join("@" + h for h in ox["site"]) + " — may be someone copying the project's links")
 
     # --- Money and Robinhood Chain (20) ---
-    m = re.search(OTHER["money"], text, re.I)
+    m = next((x for x in re.finditer(OTHER["money"], text, re.I) if not w.said_not(text, x.start())), None)  # not "no buyback"
     a = None if m else re.search(OTHER["access"], text, re.I)
     add("Money and Robinhood Chain", 10 if (m or a) else 0,
         f"Says money goes back to the token ({m.group(0).lower()}) — claimed, not checked on chain" if m

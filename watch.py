@@ -352,7 +352,7 @@ def score_private(tok, full, owner, user, found_on, symbol_counts, review, reaso
         add("Platform", rv["fees_back"][0], rv["fees_back"][1] + " — checked by hand",
             "✅" if rv["fees_back"][0] >= 20 else ("🟡" if rv["fees_back"][0] else "❌"))
     else:
-        hits = sorted({w.strip() for w in BACK_WORDS if w in text})
+        hits = back_hits(text)
         add("Platform", 10 if hits else 0, (f"Says fees go back to the token ({', '.join(hits[:3])}) — claimed, not checked on chain"
                                             if hits else "No sign fees go back to the token"), "🟡" if hits else None)
     # Really theirs (20): website links the GitHub; GitHub account named after the project
@@ -562,6 +562,21 @@ EARN_WORDS = ["protocol fee", "swap fee", "trading fee", "fees", "launchpad", "l
               "perps", "perpetual", "options", "liquidity", "vault", "marketplace", "hook", "pay per", "payments"]
 BACK_WORDS = ["buyback", "buy back", "buy-back", "burn", "staking", "stake ", "stakers", "revenue share", "fee share",
               "holders earn", "to holders", "paid to holders", "distributed to holders", "real yield"]
+# A "no / not / never / without" up to 2 words before the word, in the same sentence, means they say they DON'T do it
+# (6 Nov, MERY: "there is no buyback, no burn tax and no revenue share" had earned +10 for a buyback).
+NEG_BEFORE = re.compile(r"\b(?:no|not|never|without|zero|nor|don'?t|doesn'?t|won'?t|isn'?t|aren'?t)\b"
+                        r"(?:[^\w.!?;:\n]+\w+){0,2}[^\w.!?;:\n]*$", re.I)
+
+
+def said_not(text, start):
+    """True if the words just before position `start` deny it ("there is no buyback")."""
+    return bool(NEG_BEFORE.search(text[max(0, start - 60):start]))
+
+
+def back_hits(text):
+    """BACK_WORDS found in text, leaving out the ones they say they don't do."""
+    return sorted({w.strip() for w in BACK_WORDS
+                   if any(not said_not(text, m.start()) for m in re.finditer(re.escape(w), text))})
 
 
 def domain(u):
@@ -774,7 +789,7 @@ def score(tok, full, found_on, symbol_counts, review):
         add("Platform", rv["fees_back"][0], rv["fees_back"][1] + " — checked by hand",
             "✅" if rv["fees_back"][0] >= 20 else ("🟡" if rv["fees_back"][0] else "❌"))
     else:
-        hits = sorted({w.strip() for w in BACK_WORDS if w in text})
+        hits = back_hits(text)
         if hits:
             add("Platform", 10, f"Says fees go back to the token ({', '.join(hits[:3])}) — claimed, not checked on chain", "🟡")
         else:

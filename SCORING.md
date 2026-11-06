@@ -205,3 +205,5 @@ The closed card shows up to 3 written-out key points taken from the score's own 
 **Status changes** list only the projects on the page and the 30-day test tokens: real colour changes only, the latest per token, split into good news and warnings. An X account counts as gone only when X says it doesn't exist; a lookup that gets no answer keeps the last result (6 Nov: failed lookups had marked live accounts like OAK and ORBIO as gone).
 
 **What it does** (Quick read) uses the token's own description when it says what the product is, else their X bio (marked "from their X"), else "Not explained on their page".
+
+**"No buyback" is not a buyback (6 Nov).** The money-back check (buyback, burn, staking, revenue share…) ignores a word when "no / not / never / without" comes up to 2 words before it in the same sentence. MERY's site says "there is no buyback, no burn tax and no revenue share" and had been given +10 for a buyback; OFFROUTER says "No staking".
