@@ -179,7 +179,7 @@ A DexScreener pool with under $500 of liquidity is ignored when reading a token'
 A line like "Is there a BLACKPOOL token? Token details are TBA" no longer counts as the project mentioning the token. If the project's own pages say there's no official token yet (TBA, "treat anything else as unofficial", "there is no official token", "beware of fake tokens"...) and they don't post this token's address, the card shows a ⚠️ line quoting it. No points change.
 
 ## Hand reviews (6 Nov)
-`"review": {"What it does": ..., "Unique?": ..., "Scalable?": ..., "Narrative fit": ..., "How it makes money": ..., "Token today": ..., "Watch for": ...}` in reviews.json shows as a "Hand review" block at the top of the card's Details, with a 📝 hand review badge on the closed card. Information only, no score change. First one: LETRO.
+`"review": {"What it does": ..., "Unique?": ..., "Scalable?": ..., "Narrative fit": ..., "How it makes money": ..., "Token today": ..., "Watch for": ...}` in reviews.json shows as a "Hand review" block at the top of the card's Details, with a 📝 hand review badge on the closed card. Information only, no score change. First one: LETRO. **Keep each line short** (one sentence, about 20 words or less; Watch for = short items split by ·) so it can be taken in at a glance; longer evidence goes in `notes` (shown under Full evidence). User, 6 Nov.
 
 ## Hand review queue (6 Nov)
 Tokens launched from 6 Nov 03:15 UTC on that score 60+ (and aren't marked maybe-not-official) without a hand review go in data/review_queue.json and a collapsed "📝 Hand review queue" list at the bottom of the Shortlist tab, AI projects first, then by score and value. Reviews are written by Claude when asked ("do the reviews"); the scanner itself doesn't write them.

@@ -111,13 +111,13 @@
    "Launch wallet bought 0.62% and moved it to a second wallet that still holds it (not sold, as of 6 Nov). Graduated from the Pons curve on 6 Nov"
   ],
   "review": {
-   "What it does": "An AI assistant you install on your computer (Mac, Windows, Linux, phone app coming) that does real work: writes and fixes code, runs commands, browses the web. Ask for an app and it builds it, hosts it at a live link on their cloud, and can pay for the online services it needs from its own crypto wallet.",
-   "Unique?": "Partly. Each piece exists elsewhere: coding agents (Claude Code, Codex, Cursor), prompt-to-live-app builders (Replit, Lovable, Bolt), local AI (Ollama). The rare part is all of them in one fast app plus a built-in wallet that pays per use (x402). Open source (MIT), so anyone can copy it: the edge is speed of shipping, not secret tech.",
-   "Scalable?": "The software is lean (Rust, starts in 8 ms, 9.5 MB memory). The business is harder: a 2-person team, their own cloud servers cost money per user, and they compete with very well-funded companies. Fine as a niche product; big scale is unproven.",
-   "Narrative fit": "Strong: AI agents, agents that pay for things (x402), open-source local AI. Weak link to Robinhood Chain: the agent's wallet runs on Base, Ethereum, Solana and other EVM chains; Robinhood Chain is only where the token lives.",
-   "How it makes money": "Pro plan $20/month, Team $18 a seat/month, a margin on AI models it resells (priced below the makers' own list prices), and cloud hosting billed by the hour. Token: half of the model margin is meant to buy LETRO back, and paying for credit in LETRO burns 10%.",
-   "Token today": "LETRO does nothing yet: their docs say buying credit with it and staking 'switch on when LETRO launches', and the roadmap still lists buybacks as 'next'. Staking promises 20% a year paid as AI credit (up to $5/day), a real cost the business must cover.",
-   "Watch for": "1) Buybacks starting, listed with transactions on /tokenomics. 2) X followers growing (169 now vs 4,000+ for the big winners). 3) The team's earlier token $AILE peaked in a month and lost 83%. 4) Cheap model prices may rely on shared subscriptions (their AILE market), which the AI companies' terms generally don't allow."
+   "What it does": "AI assistant app that writes code, runs tasks, and builds and hosts apps. Pays for services from its own wallet.",
+   "Unique?": "Partly. The pieces exist elsewhere; having all of them in one app with a built-in wallet is rare. Open source, so easy to copy.",
+   "Scalable?": "Software yes (fast, light). Business unproven: 2-person team, paid servers, rich rivals.",
+   "Narrative fit": "Strong: AI agents that pay for things. Weak Robinhood Chain link: only the token lives here.",
+   "How it makes money": "Subscriptions ($20/month), a cut on AI models it resells, and hosting.",
+   "Token today": "Does nothing yet. Buybacks and paying with LETRO aren't switched on.",
+   "Watch for": "Buybacks starting · X followers (169 now) · team's last token fell 83% · cheap AI prices may break providers' rules"
   }
  },
  "0xd2501da2a96ca85a702cb414ea7dd2ddee451a21": {
