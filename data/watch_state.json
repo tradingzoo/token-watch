@@ -4368,7 +4368,42 @@
   "0x939bbd03c4a3abbd54b75a8e82a28323b5fa582d": "2026-11-06T22:30:30+00:00",
   "0x00a2576a825175a993591c53088aa582a83fdfd6": "2026-11-06T22:30:30+00:00",
   "0x0fc67fa5345d5d300c62fb6e26a2a2eae40442e4": "2026-11-06T22:30:30+00:00",
-  "0x0a9658e85ec279d326672ce8df3d6eb0b2975eab": "2026-11-06T22:30:30+00:00"
+  "0x0a9658e85ec279d326672ce8df3d6eb0b2975eab": "2026-11-06T22:30:30+00:00",
+  "0x350d937542edc90f53a3509ff90d0341b4f9758a": "2026-11-06T22:45:22+00:00",
+  "0x52c0d914ae84c3d10dc298ccad6af68fc6ba7023": "2026-11-06T22:45:22+00:00",
+  "0x200bd7bfeeb87f1bfcec9434b227a084f788db84": "2026-11-06T22:45:22+00:00",
+  "0x119e833364f9c79218d3940f398863a6063df5ea": "2026-11-06T22:45:22+00:00",
+  "0x0355771631ab2587ee021eaf4aeb9ecfedc11010": "2026-11-06T22:45:22+00:00",
+  "0x2551043df3efa355529e28d3bed5bd428bddc348": "2026-11-06T22:45:22+00:00",
+  "0x891809eeda339a1f1d82211574b60daa0362de7c": "2026-11-06T22:45:22+00:00",
+  "0x97ab487c74ee12d772c3485aeedc04340b95a662": "2026-11-06T22:45:22+00:00",
+  "0xa06b7dbe289a1330a2300a7976be26f498524369": "2026-11-06T22:45:22+00:00",
+  "0x212aad17ef2193b8c4177497f0144ba031610647": "2026-11-06T22:45:22+00:00",
+  "0x02b0de4c4d4a7416a3465126730df71a026d7bbb": "2026-11-06T22:45:22+00:00",
+  "0x863019e2e676164fcfaab6e14dcd6568eb6deb1f": "2026-11-06T22:45:22+00:00",
+  "0x9443dfb35c9f0d0de6568508cd855956d8bc962d": "2026-11-06T22:45:22+00:00",
+  "0x8392eba31a0f5dde15efb435bea9b6ef1b0ee05e": "2026-11-06T22:45:22+00:00",
+  "0x6bd14c72bfdbb8d8867822856004203a2abb9862": "2026-11-06T22:45:22+00:00",
+  "0x0b2fe85e6e8486f3c78cd9f8725d9851ca578830": "2026-11-06T22:45:22+00:00",
+  "0x139f397737be69083aacc6435a7ae853811712cf": "2026-11-06T22:45:22+00:00",
+  "0x24633f2ada1ae84ce1fa8a9f8ec82f7124183a5f": "2026-11-06T22:45:22+00:00",
+  "0x2d4219cc591f1b068bc0d4ac1092c9a23f39fa55": "2026-11-06T22:45:22+00:00",
+  "0x318cea8534cbab6ee1d1a299cbe0f7ee87dd9716": "2026-11-06T22:45:22+00:00",
+  "0x32dfb7ed14bd6c96d2d935b32d1cd3ab74181cfc": "2026-11-06T22:45:22+00:00",
+  "0x893cb57e2f68c8bb9772ad6188ae5ba884abc48a": "2026-11-06T22:45:22+00:00",
+  "0x8e2dfe4f8e36c6021c530c3661eedd870d408888": "2026-11-06T22:45:22+00:00",
+  "0x8f8d6514cee3bb9e818158ca1c9a91f699285ecb": "2026-11-06T22:45:22+00:00",
+  "0x9b28e2d9cb174139439ae9a9eabb5af8582b9222": "2026-11-06T22:45:22+00:00",
+  "0xa000e528fa2856c62fbe4776fb0d1711321e4218": "2026-11-06T22:45:22+00:00",
+  "0xabea17500054f5e8785e52ca11e31fb4119c9222": "2026-11-06T22:45:22+00:00",
+  "0xc24637c9c41e110587119893b919b418fdaf1c58": "2026-11-06T22:45:22+00:00",
+  "0xc2b06ea66d71809ced096899cc7bc0d9f13f7e99": "2026-11-06T22:45:22+00:00",
+  "0xc3d99c3fcba822157f1ad88e478a0cf263b87b99": "2026-11-06T22:45:22+00:00",
+  "0xcad3fc650b0995a5248fc4920cd9a0ebcef7f89a": "2026-11-06T22:45:22+00:00",
+  "0xcb644de8f976dc240346cdcd748e82362f23b3ab": "2026-11-06T22:45:22+00:00",
+  "0xce7f08c02eddd9125c51976f01b70bec912b8b98": "2026-11-06T22:45:22+00:00",
+  "0xd770e270fd146baadfcdc69ee32d9501a46b2edc": "2026-11-06T22:45:22+00:00",
+  "0xf24abe258464b3be4dd0f58495d6129371fa7e32": "2026-11-06T22:45:22+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -24272,10 +24307,149 @@
      "pushed": "2026-11-06",
      "people": 1
     }
+   },
+   "launched_src": "pons"
+  },
+  "0x350d937542edc90f53a3509ff90d0341b4f9758a": {
+   "address": "0x350d937542edc90f53a3509ff90d0341b4f9758a",
+   "symbol": "BLKPRO",
+   "name": "BlockPro",
+   "description": "BlockPro runs reliable nodes for staking on many networks. Its validators are watched around the clock.",
+   "website": "https://block-pro.net",
+   "twitter": "https://x.com/BlockPro_",
+   "launched": "2026-11-06T22:43:21+00:00",
+   "mcap": 3962.6677609846947,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-06T22:45:22+00:00",
+   "scored_at": "2026-11-06T22:45:22+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Shoni-O/monad-vdp-validators",
+    "score": 0,
+    "raw_score": 30,
+    "capped": true,
+    "not_theirs": true,
+    "flags": [
+     "Repo never mentions this token, its name or its website (repo's own site is monad-vdp-validators-shoni-os-projects.vercel.app) \u2014 may be someone else's project"
+    ],
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\ud83d\udfe1 Says fees go back to the token (staking) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u26d4 Score set to 0: this GitHub is not their own work (see the warning above)",
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (block-pro.net/docs), docs (block-pro.net/llms-full.txt), docs (block-pro.net/llms.txt), website (block-pro.net), website code (block-pro.net))"
+     ],
+     "Real code": [
+      "\u2705 61 changes over 36 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 1755 days old, 1 people, 0 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "`REGISTRY_IMPLEMENTATION_ROADMAP.md`: 68 items"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://block-pro.net",
+     "https://block-pro.net",
+     "https://block-pro.net/llms-full.txt",
+     "https://block-pro.net/llms.txt",
+     "https://block-pro.net/docs"
+    ],
+    "facts": {
+     "commits": 61,
+     "stars": 0,
+     "created": "2026-03-05",
+     "pushed": "2026-04-10",
+     "people": 1
+    }
+   }
+  },
+  "0x02b0de4c4d4a7416a3465126730df71a026d7bbb": {
+   "address": "0x02b0de4c4d4a7416a3465126730df71a026d7bbb",
+   "symbol": "OAKEN",
+   "name": "OAKEN",
+   "description": "",
+   "website": "https://oaken.one/",
+   "twitter": "https://x.com/oakenhood",
+   "launched": "2026-10-22T12:01:18+00:00",
+   "mcap": 3962.9448458230236,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-06T22:45:22+00:00",
+   "scored_at": "2026-11-06T22:45:22+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "OAKEN-spec/OAKEN-spec",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (dex, fees, launchpad, liquidity) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website (+10)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 261 of 356 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u2705 Their website mentions the token: its contract address \u2014 \u201cHOOD CHAIN \u00b7 CA 0x02b0de4c4d4a7416a3465126730df71a026d7bbb <button class=\"co\u201d (https://oaken.one/)",
+      "\u2705 Their docs mentions the token: its contract address \u2014 \u201con\" content=\"View token details, holders, transfers and analytics for 0x02b0de4c4d4a7416a3465126730df71a026d7bbb on Robinhood Chain.\" data-next-head=\"\"/><meta property=\"og:title\" c\u201d (https://robinhoodchain.blockscout.com/token/0x02b0de4c4d4a7416a3465126730df71a026d7bbb)"
+     ],
+     "Real code": [
+      "\ud83d\udfe1 37 changes over 5 days (+5)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u2139\ufe0f One person, new account, no outside interest: account 15 days old, 1 people, 2 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": null,
+    "sources_read": [
+     "https://oaken.one/",
+     "https://oaken.one/",
+     "https://oaken.one/llms-full.txt",
+     "https://oaken.one/llms.txt",
+     "https://oaken.one/docs",
+     "https://robinhoodchain.blockscout.com/token/0x02b0de4c4d4a7416a3465126730df71a026d7bbb",
+     "https://solscan.io/token/B2ro2c1AFemiDDfnCBeVTKx6dZLQ3opB6ygsKo9XwrLi",
+     "https://oaken.one/tools/token"
+    ],
+    "facts": {
+     "commits": 37,
+     "stars": 2,
+     "created": "2026-10-23",
+     "pushed": "2026-10-28",
+     "people": 1
+    }
    }
   }
  },
- "checked_total": 4358,
+ "checked_total": 4393,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -26710,9 +26884,58 @@
     "uuidjs/uuid",
     "zloirock/core-js"
    ]
+  },
+  {
+   "when": "2026-11-06T22:45:22+00:00",
+   "address": "0x350d937542edc90f53a3509ff90d0341b4f9758a",
+   "symbol": "BLKPRO",
+   "website": "https://block-pro.net",
+   "used": "Shoni-O",
+   "ignored": [
+    "bkwld/tram",
+    "timagixe",
+    "zertosh/loose-envify"
+   ]
+  },
+  {
+   "when": "2026-11-06T22:45:22+00:00",
+   "address": "0x02b0de4c4d4a7416a3465126730df71a026d7bbb",
+   "symbol": "OAKEN",
+   "website": "https://oaken.one/",
+   "used": "OAKEN-spec/OAKEN-spec",
+   "ignored": [
+    "ethers-io/ethers.js"
+   ]
+  },
+  {
+   "when": "2026-11-06T22:45:22+00:00",
+   "address": "0x863019e2e676164fcfaab6e14dcd6568eb6deb1f",
+   "symbol": "GATTAI",
+   "website": "https://www.gattai.tech/#how",
+   "used": null,
+   "ignored": [
+    "syntax-tree/hast-util-to-jsx-runtime"
+   ]
+  },
+  {
+   "when": "2026-11-06T22:45:22+00:00",
+   "address": "0x6bd14c72bfdbb8d8867822856004203a2abb9862",
+   "symbol": "GRAVEN",
+   "website": "https://gravendot.fun",
+   "used": null,
+   "ignored": [
+    "ethers-io/ethers.js"
+   ]
   }
  ],
  "symbol_counts": {
+  "BLKPRO": 1,
+  "GOCHIS": 3,
+  "Jos\u00e9": 1,
+  "ZELIX": 2,
+  "EQUIXAI": 1,
+  "BTC": 1,
+  "EDP445": 1,
   "SLN": 1,
   "BAGEL": 1,
   "WOW": 1,
@@ -26726,7 +26949,6 @@
   "GHOST": 1,
   "EQUITY": 1,
   "RECORD": 1,
-  "ZELIX": 1,
   "CHAMELEON": 1,
   "EQUIX": 1,
   "SEASHELL": 2,
@@ -26742,6 +26964,16 @@
   "UEHI": 1,
   "WOJAK": 1,
   "WINCH": 1,
+  "HMM": 4,
+  "PONS": 1,
+  "WIF": 1,
+  "UBIK": 1,
+  "CHARLIE": 1,
+  "TROLL": 1,
+  "ROBINCAT": 1,
+  "ROBINHOOD": 1,
+  "microduck": 1,
+  "DELTA": 1,
   "CLAUDE": 1,
   "NATE": 1,
   "SETTLEX": 1,
@@ -26750,14 +26982,6 @@
   "p/acc": 1,
   "OFC": 1,
   "RAGENT": 1,
-  "HMM": 4,
-  "PONS": 1,
-  "WIF": 1,
-  "UBIK": 1,
-  "CHARLIE": 1,
-  "ROBINCAT": 1,
-  "DELTA": 1,
-  "microduck": 1,
   "HARMONIC": 1,
   "ITSALLRISK": 1,
   "888": 1,
@@ -26766,7 +26990,6 @@
   "TERVN": 1,
   "CATBRAIN": 1,
   "BOW": 1,
-  "ROBINHOOD": 1,
   "HITO": 1,
   "ALONSHOUSE": 1,
   "VICEPENGU": 1,
@@ -27007,7 +27230,6 @@
   "OPENBELL": 1,
   "MERTAMIC": 1,
   "ADSAXW1": 1,
-  "GOCHIS": 3,
   "Wurren": 2,
   "ZCATS": 2,
   "YIELD": 5,
@@ -27254,7 +27476,6 @@
   "HEDGE": 1,
   "CCAT": 1,
   "APU": 2,
-  "BTC": 1,
   "OPSIN": 1,
   "LUNAR": 1,
   "catcall": 1,
@@ -35315,10 +35536,10 @@
    "twitter": "https://x.com/omnirailorg",
    "site_via_x": "omnirailorg",
    "launched": "2026-09-30T16:17:00+00:00",
-   "mcap": 25725,
+   "mcap": 30287,
    "where": "exchange",
    "first_seen": "2026-11-05T12:36:18+00:00",
-   "scored_at": "2026-11-06T16:30:34+00:00",
+   "scored_at": "2026-11-06T22:45:22+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -35803,10 +36024,10 @@
    "twitter": "https://x.com/hibouspace",
    "site_via_x": null,
    "launched": "2026-11-02T14:39:36+00:00",
-   "mcap": 3992.5714573393852,
+   "mcap": 4013.37739621749,
    "where": "Pons launchpad (curve)",
    "first_seen": "2026-11-05T12:36:18+00:00",
-   "scored_at": "2026-11-06T16:30:34+00:00",
+   "scored_at": "2026-11-06T22:45:22+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -36387,10 +36608,10 @@
    "twitter": "https://x.com/hookrfun",
    "site_via_x": null,
    "launched": "2026-08-06T04:20:57+00:00",
-   "mcap": 25527453,
+   "mcap": 24577246,
    "where": "exchange",
    "first_seen": "2026-11-05T12:58:34+00:00",
-   "scored_at": "2026-11-06T16:30:34+00:00",
+   "scored_at": "2026-11-06T22:45:22+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -36461,10 +36682,10 @@
    "twitter": "https://x.com/debasementdesk",
    "site_via_x": null,
    "launched": "2026-07-09T12:35:54+00:00",
-   "mcap": 65415,
+   "mcap": 65113,
    "where": "exchange",
    "first_seen": "2026-11-05T14:27:59+00:00",
-   "scored_at": "2026-11-06T16:30:34+00:00",
+   "scored_at": "2026-11-06T22:45:22+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -38666,10 +38887,10 @@
    "twitter": "https://x.com/fablesfi",
    "site_via_x": null,
    "launched": "2026-10-20T21:35:40+00:00",
-   "mcap": 1862181,
+   "mcap": 1794144,
    "where": "exchange",
    "first_seen": "2026-11-06T02:03:39+00:00",
-   "scored_at": "2026-11-06T16:30:34+00:00",
+   "scored_at": "2026-11-06T22:45:22+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -42553,10 +42774,10 @@
    "twitter": "https://x.com/ourolayer",
    "site_via_x": null,
    "launched": "2026-09-02T15:28:21+00:00",
-   "mcap": 68092,
+   "mcap": 68977,
    "where": "exchange",
    "first_seen": "2026-11-06T08:53:29+00:00",
-   "scored_at": "2026-11-06T16:30:34+00:00",
+   "scored_at": "2026-11-06T22:45:22+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -42627,10 +42848,10 @@
    "twitter": "https://x.com/ducat_money",
    "site_via_x": null,
    "launched": "2026-09-29T13:08:53+00:00",
-   "mcap": 64953,
+   "mcap": 63142,
    "where": "exchange",
    "first_seen": "2026-11-06T08:53:29+00:00",
-   "scored_at": "2026-11-06T16:30:34+00:00",
+   "scored_at": "2026-11-06T22:45:22+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -47933,6 +48154,74 @@
      "contract_addresses": 0,
      "winners_linked": []
     }
+   },
+   "launched_src": "pons"
+  },
+  "0xa06b7dbe289a1330a2300a7976be26f498524369": {
+   "address": "0xa06b7dbe289a1330a2300a7976be26f498524369",
+   "symbol": "EXVIV",
+   "name": "Exviv",
+   "description": "AI market agent powered by MCP & x402. Turning signals into action.",
+   "website": "https://exviv.com",
+   "twitter": "https://x.com/exvivagent",
+   "site_via_x": null,
+   "launched": "2026-10-21T14:30:43+00:00",
+   "mcap": 4031.94099132565,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-06T22:45:22+00:00",
+   "scored_at": "2026-11-06T22:45:22+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 20,
+    "raw_score": 20,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u2705 Site offers an MCP connection for AI agents (+5)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u274c No use of stock tokens or USDG (+0)",
+      "\u2705 Takes real payments (\u201ccredit card\u201d): a service with paying customers (+5)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f No audit mentioned"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://exviv.com",
+     "https://exviv.com",
+     "https://exviv.com/llms.txt",
+     "https://exviv.com/docs",
+     "https://exviv.com/pricing"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
    }
   }
  },
@@ -48005,7 +48294,7 @@
   "0x7f434bfd5397a76692115c24d0e1eea8be15192e": "2026-11-05T08:30:28+00:00",
   "0x60f2341f0605870769513b62d80a5233af35d6f6": "2026-11-05T08:30:28+00:00",
   "0x07bb78f6f8d5121fbc03ad4c8b1a22f5a95227e6": "2026-11-05T08:30:28+00:00",
-  "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691": "2026-11-06T22:30:30+00:00",
+  "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691": "2026-11-06T22:45:22+00:00",
   "0x4e00b96443a2af7b741aa4b9cbfde3de5fd11ac2": "2026-11-05T09:18:38+00:00",
   "0xd20073c027624c37a22d8df415ab271f57b9f446": "2026-11-05T09:18:38+00:00",
   "0xc4315b4191bd7fc290dc4906afaf110d1ded1055": "2026-11-06T19:57:21+00:00",
@@ -48367,7 +48656,7 @@
   "0x0eccf4c3174be5bee95e0d6d2f423a8609a48b0e": "2026-11-05T12:36:18+00:00",
   "0x2f4ee1ecb26b37d0c78e9a9e2feb4ff0374b19c8": "2026-11-05T12:36:18+00:00",
   "0x4f78379d192e7558c3270f11e29695bd725fdcf9": "2026-11-05T12:36:18+00:00",
-  "0xa077216737be8c7025fcd974c169c464a716b621": "2026-11-06T16:30:34+00:00",
+  "0xa077216737be8c7025fcd974c169c464a716b621": "2026-11-06T22:45:22+00:00",
   "0xe270f3532ad24aef2109834cb28bd1221f0a3080": "2026-11-05T12:36:18+00:00",
   "0x277f482350f11288733cc06970e304744d423493": "2026-11-05T12:36:18+00:00",
   "0xf0ce22d01c0fbb73cbdd519fee23cc8fdb50aad3": "2026-11-05T12:36:18+00:00",
@@ -48376,7 +48665,7 @@
   "0x47b537f7c2c2183967fe5ba883291b8ada490db6": "2026-11-06T16:30:34+00:00",
   "0x742af99ef5e528ee85fb04ff76c44b22ef08611a": "2026-11-05T12:36:18+00:00",
   "0xf014a3782e6979bd965376f6638d90914820ebff": "2026-11-05T12:36:18+00:00",
-  "0xa4ddf100e3e0d3a9dd897e89d025622b794f0c08": "2026-11-06T16:30:34+00:00",
+  "0xa4ddf100e3e0d3a9dd897e89d025622b794f0c08": "2026-11-06T22:45:22+00:00",
   "0x6b28fb65fe80a113386541134f6a22801d2e234c": "2026-11-05T12:36:18+00:00",
   "0xac6aa69489dc51fb002a8ae4096b35cbd9f405ac": "2026-11-05T12:36:18+00:00",
   "0x4ec65c12f4a02cf4a4a4a9843a2e995a42215eae": "2026-11-06T16:30:34+00:00",
@@ -48428,7 +48717,7 @@
   "0xaa5265e27c7de70063544ca3a7bbefccda3015a8": "2026-11-05T13:18:29+00:00",
   "0x4c2f59ea682a90c16584a69db234967e1385f4cd": "2026-11-06T17:00:14+00:00",
   "0xf6defefc962a81e2c8ee5018f6de50eb0f51fd96": "2026-11-05T13:18:29+00:00",
-  "0x7076d0236ac2877b340f4d73b97dfa2fd94f8c4c": "2026-11-06T16:30:34+00:00",
+  "0x7076d0236ac2877b340f4d73b97dfa2fd94f8c4c": "2026-11-06T22:45:22+00:00",
   "0xaa8774e8dad07bde703c9658f61b76f2e09ea0ea": "2026-11-05T14:04:33+00:00",
   "0x9d5d56f4eb9bf4a976f299cd2c76093ee3b42509": "2026-11-05T14:04:33+00:00",
   "0xd9f18560ba6cd3ad718efa4cb8a6d4eab6d0a18d": "2026-11-05T14:04:33+00:00",
@@ -48632,7 +48921,7 @@
   "0xab9bd600b08e4b23217d8f7360a83f4f0f9e7bbc": "2026-11-06T16:30:34+00:00",
   "0x020bfc650a365f8bb26819deaabf3e21291018b4": "2026-11-06T16:30:34+00:00",
   "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18": "2026-11-06T16:30:34+00:00",
-  "0x18e674231a58c239dc7daedcffe15ec3a24cff5c": "2026-11-06T16:30:34+00:00",
+  "0x18e674231a58c239dc7daedcffe15ec3a24cff5c": "2026-11-06T22:45:22+00:00",
   "0x4e01f43e82e6d4e3c41752f922af0a23dd2e9077": "2026-11-05T19:00:10+00:00",
   "0x1242e7bd97009dff54f5e66a402feeb7bf07b647": "2026-11-05T19:00:10+00:00",
   "0xae04aa7efa9c3908c43968b93a15d6f5bf850970": "2026-11-05T19:00:10+00:00",
@@ -48956,7 +49245,7 @@
   "0xbef5995b7afd53c7d0c7a2928a399e3acaf6e7ac": "2026-11-06T00:52:15+00:00",
   "0x168661c52e5922288dfb2b3f323b6cf90eb21e18": "2026-11-06T16:30:34+00:00",
   "0x9df72f508f7f44748a55831875d3d459e559d3c1": "2026-11-06T02:03:39+00:00",
-  "0xb63d07cef74be747231d601bb2faa6b252c68106": "2026-11-06T16:30:34+00:00",
+  "0xb63d07cef74be747231d601bb2faa6b252c68106": "2026-11-06T22:45:22+00:00",
   "0x8db244f6bf052571f4e0c6065b700e714092d4b6": "2026-11-06T02:03:39+00:00",
   "0x42afa2124ca5a2b83898e46b2da9a190995b1e18": "2026-11-06T16:30:34+00:00",
   "0x127cdc74e44e3c60422b7e792ebe480c0f873ed5": "2026-11-06T02:03:39+00:00",
@@ -49269,8 +49558,8 @@
   "0x2796cdf7328916e0a6c04c296a72c5c6d70b3aee": "2026-11-06T08:53:29+00:00",
   "0xf6726b70568677a1e0e1281aa289dbe87761d09e": "2026-11-06T08:53:29+00:00",
   "0x72d5bf142874d24d1565f8633621307fd2871111": "2026-11-06T16:30:34+00:00",
-  "0x8ea0eb3505f5b3bd2bbea0febae0ce850cc73ecc": "2026-11-06T16:30:34+00:00",
-  "0xd0ca71118ca21d674f9018a53026a38a0ab54dbf": "2026-11-06T16:30:34+00:00",
+  "0x8ea0eb3505f5b3bd2bbea0febae0ce850cc73ecc": "2026-11-06T22:45:22+00:00",
+  "0xd0ca71118ca21d674f9018a53026a38a0ab54dbf": "2026-11-06T22:45:22+00:00",
   "0x7c0495053f47ec52eb4b678c4ad8f572df745bfe": "2026-11-06T08:53:29+00:00",
   "0x0145acbccefbed6f303c420beeaaac72e905430b": "2026-11-06T17:00:14+00:00",
   "0x072d88c2f31f568c0f4b8f613692eb489541ed45": "2026-11-06T17:00:14+00:00",
@@ -49993,7 +50282,20 @@
   "0x1754882daf1612143d6fe9efb35d58d8f088a059": "2026-11-06T22:30:30+00:00",
   "0x960182929a8259598c92ec4cf43518ef85483b4a": "2026-11-06T22:30:30+00:00",
   "0x00a2576a825175a993591c53088aa582a83fdfd6": "2026-11-06T22:30:30+00:00",
-  "0x0fc67fa5345d5d300c62fb6e26a2a2eae40442e4": "2026-11-06T22:30:30+00:00"
+  "0x0fc67fa5345d5d300c62fb6e26a2a2eae40442e4": "2026-11-06T22:30:30+00:00",
+  "0x52c0d914ae84c3d10dc298ccad6af68fc6ba7023": "2026-11-06T22:45:22+00:00",
+  "0x200bd7bfeeb87f1bfcec9434b227a084f788db84": "2026-11-06T22:45:22+00:00",
+  "0x119e833364f9c79218d3940f398863a6063df5ea": "2026-11-06T22:45:22+00:00",
+  "0x0355771631ab2587ee021eaf4aeb9ecfedc11010": "2026-11-06T22:45:22+00:00",
+  "0x2551043df3efa355529e28d3bed5bd428bddc348": "2026-11-06T22:45:22+00:00",
+  "0x891809eeda339a1f1d82211574b60daa0362de7c": "2026-11-06T22:45:22+00:00",
+  "0x97ab487c74ee12d772c3485aeedc04340b95a662": "2026-11-06T22:45:22+00:00",
+  "0xa06b7dbe289a1330a2300a7976be26f498524369": "2026-11-06T22:45:22+00:00",
+  "0x212aad17ef2193b8c4177497f0144ba031610647": "2026-11-06T22:45:22+00:00",
+  "0x863019e2e676164fcfaab6e14dcd6568eb6deb1f": "2026-11-06T22:45:22+00:00",
+  "0x9443dfb35c9f0d0de6568508cd855956d8bc962d": "2026-11-06T22:45:22+00:00",
+  "0x8392eba31a0f5dde15efb435bea9b6ef1b0ee05e": "2026-11-06T22:45:22+00:00",
+  "0x6bd14c72bfdbb8d8867822856004203a2abb9862": "2026-11-06T22:45:22+00:00"
  },
  "catchup_plain": []
 }
