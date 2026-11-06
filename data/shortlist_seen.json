@@ -24,10 +24,10 @@
   },
   "0x81e770ba8343232b6f200209bf9a2c1430c2dea1": {
    "symbol": "VEYA",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-06T02:26:34+00:00"
   },
   "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d": {
    "symbol": "GAGE",
@@ -251,6 +251,13 @@
    "in": true,
    "joined": "2026-11-06T02:03:39+00:00",
    "first": "2026-11-06T02:03:39+00:00",
+   "left": null
+  },
+  "0xa3b6aee90017b72c0812dc1e013de70eb2917ba3": {
+   "symbol": "EARN",
+   "in": true,
+   "joined": "2026-11-06T02:26:34+00:00",
+   "first": "2026-11-06T02:26:34+00:00",
    "left": null
   }
  }
