@@ -41,9 +41,20 @@ def _dex_batch(addrs, fetch_json):
     return out
 
 
+# Records broken by a line-by-line merge of two saves (6 Nov): on 5 Nov 17:04 FRONG's price ($1.99M, its liquidity and trades)
+# landed inside EGO's record, while EGO never left ~$3.8k on the Pons curve (price_log.csv). Put back the real high.
+# Data files are now merged whole-file (.gitattributes), so this can't recur.
+BAD_HIGHS = {"0xdcf5ca8f5254bd86cc05fd3479eddcaea7536116": (3831.47, "2026-11-05T14:50:31+00:00")}
+
+
 def update(state, fetch_json, market, now, log=print):
     rows = {**state.get("github", {}), **state.get("sites", {})}  # GitHub tokens and site-check tokens
     db = json.load(open(FILE, encoding="utf-8")) if os.path.exists(FILE) else {}
+    for a, (hi, at) in BAD_HIGHS.items():
+        t = db.get(a)
+        if t and (t.get("high_mcap") or 0) > hi * 10:
+            t["high_mcap"], t["high_at"] = hi, at
+            log(f"Prices: repaired the high of {t.get('symbol')} (merge mix-up)")
     stamp = now.isoformat(timespec="seconds")
     got = _dex_batch(list(rows), fetch_json)
     for key, r in rows.items():

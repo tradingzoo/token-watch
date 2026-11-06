@@ -1,0 +1,3 @@
+# Data files are rewritten whole by each scan. Never merge them line by line: on 5 Nov a line merge of two
+# saves put FRONG's price inside EGO's record. As binary, a clash keeps one whole file (the newer scan's).
+data/*.json binary
