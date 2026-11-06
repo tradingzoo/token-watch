@@ -31,17 +31,17 @@
   },
   "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d": {
    "symbol": "GAGE",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-06T19:57:21+00:00"
+   "left": null
   },
   "0x9cc546a4091f184898c4155c1b9f6290075ef8fb": {
    "symbol": "STAX",
    "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-06T19:57:21+00:00"
+   "left": "2026-11-06T20:19:18+00:00"
   },
   "0xb8fa8010833463aac5595b55b9045479239eff79": {
    "symbol": "WTH",
@@ -52,10 +52,10 @@
   },
   "0xe934e36a439c94017b64a3fece66af12099abf50": {
    "symbol": "STONKBROKER",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-06T18:52:45+00:00"
   },
   "0xf44702b17d9abd53815f703e772f35e9c71a53af": {
    "symbol": "RAXOL",
@@ -73,10 +73,10 @@
   },
   "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": {
    "symbol": "AUTONOMO",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-06T19:57:21+00:00"
+   "left": null
   },
   "0xa3b6b325f7937f97b3df9f7ee654d7463c2382da": {
    "symbol": "LOT",
@@ -108,10 +108,10 @@
   },
   "0x000050e18ffa3f8f7ad170eb9cef160eb3ed1111": {
    "symbol": "TORCH",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-06T19:57:21+00:00"
+   "left": null
   },
   "0x61e0deba0a6bd1d0df92af816739449c861e3cce": {
    "symbol": "SYNTHS",
@@ -227,17 +227,17 @@
   },
   "0x2a13008cc2f5a853f6fb21cbd90841806c64b247": {
    "symbol": "TROLL",
-   "in": false,
+   "in": true,
    "joined": "2026-11-05T23:26:47+00:00",
    "first": "2026-11-05T23:26:47+00:00",
-   "left": "2026-11-06T19:57:21+00:00"
+   "left": null
   },
   "0xfc5a5c521c80d8e1d6b5aee6454b8c9483c91bff": {
    "symbol": "LLL",
-   "in": false,
+   "in": true,
    "joined": "2026-11-06T02:03:39+00:00",
    "first": "2026-11-06T02:03:39+00:00",
-   "left": "2026-11-06T19:57:21+00:00"
+   "left": null
   },
   "0xbc9e7b1c5c0081f4ae85e71ec95703d3dec9ffad": {
    "symbol": "Bucket",
@@ -248,10 +248,10 @@
   },
   "0xc72f232a6869e6cf34dc06129affd07f8a2a246a": {
    "symbol": "MANCER",
-   "in": false,
+   "in": true,
    "joined": "2026-11-06T02:03:39+00:00",
    "first": "2026-11-06T02:03:39+00:00",
-   "left": "2026-11-06T19:57:21+00:00"
+   "left": null
   },
   "0xc60ba256b44334a0cd2c7242e98b88f031abb006": {
    "symbol": "V4",
@@ -262,10 +262,10 @@
   },
   "0xa3b6aee90017b72c0812dc1e013de70eb2917ba3": {
    "symbol": "EARN",
-   "in": false,
+   "in": true,
    "joined": "2026-11-06T02:52:36+00:00",
    "first": "2026-11-06T02:52:36+00:00",
-   "left": "2026-11-06T19:57:21+00:00"
+   "left": null
   },
   "0xa2753fd0bc86b8ceb55ffd2698679c7f214785f1": {
    "symbol": "LETRO",
@@ -283,10 +283,10 @@
   },
   "0xdcd885f5c60b3ad49f6d58718696417314e8724d": {
    "symbol": "GLOAM",
-   "in": true,
+   "in": false,
    "joined": "2026-11-06T05:11:23+00:00",
    "first": "2026-11-06T05:11:23+00:00",
-   "left": null
+   "left": "2026-11-06T18:52:45+00:00"
   },
   "0x6d1f3baefb22d725b8068e60105b45c8a97da1fa": {
    "symbol": "ALFA",
@@ -304,10 +304,10 @@
   },
   "0x96f455a90a80dcf0c2df6703ea4ba3bedf286e43": {
    "symbol": "VERDEX",
-   "in": false,
+   "in": true,
    "joined": "2026-11-06T10:18:22+00:00",
    "first": "2026-11-06T10:18:22+00:00",
-   "left": "2026-11-06T19:57:21+00:00"
+   "left": null
   },
   "0x8ff92566f2e81bdd68edfaa8cde73942a723796b": {
    "symbol": "VEX",
