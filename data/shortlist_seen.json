@@ -27,14 +27,14 @@
    "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-06T02:26:34+00:00"
+   "left": "2026-11-06T02:52:36+00:00"
   },
   "0x7163ae1b5aea2f09ebc609c52b4dcac0a7a4bc2d": {
    "symbol": "GAGE",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-05T17:04:37+00:00"
+   "left": "2026-11-06T02:26:34+00:00"
   },
   "0x9cc546a4091f184898c4155c1b9f6290075ef8fb": {
    "symbol": "STAX",
@@ -45,10 +45,10 @@
   },
   "0xb8fa8010833463aac5595b55b9045479239eff79": {
    "symbol": "WTH",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-06T02:52:36+00:00"
   },
   "0xe934e36a439c94017b64a3fece66af12099abf50": {
    "symbol": "STONKBROKER",
@@ -253,11 +253,18 @@
    "first": "2026-11-06T02:03:39+00:00",
    "left": null
   },
+  "0xc60ba256b44334a0cd2c7242e98b88f031abb006": {
+   "symbol": "V4",
+   "in": true,
+   "joined": "2026-11-06T02:52:36+00:00",
+   "first": "2026-11-06T02:52:36+00:00",
+   "left": null
+  },
   "0xa3b6aee90017b72c0812dc1e013de70eb2917ba3": {
    "symbol": "EARN",
    "in": true,
-   "joined": "2026-11-06T02:26:34+00:00",
-   "first": "2026-11-06T02:26:34+00:00",
+   "joined": "2026-11-06T02:52:36+00:00",
+   "first": "2026-11-06T02:52:36+00:00",
    "left": null
   }
  }
