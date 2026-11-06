@@ -1372,7 +1372,11 @@ def group_projects(ents, wallets, copies, e):
         box = (f"<div class='unconf'><b>⚠️ Not confirmed:</b> {len(g)} tokens claim this project and the team hasn't posted any of "
                f"their addresses. Any of them could be fake. Below is one of them; when the team posts an address the page "
                f"switches to it by itself.<ul>{''.join(lines)}</ul></div>")
-        out.append(pick["html"].replace("<header>", box + "<header>", 1))
+        h = pick["html"].replace("<header>", box + "<header>", 1)
+        h = re.sub(r"<div class='tldr \w+'><p class='tl-v'><!--V-->.*?<!--/V-->",
+                   lambda m: ("<div class='tldr bad'><p class='tl-v'><!--V-->❌ <b>Skip</b> <span>· " + str(len(g))
+                              + " tokens claim this project and the team hasn't confirmed any of them</span><!--/V-->"), h, count=1, flags=re.S)
+        out.append(h)
         shown.append(pick)
         unconfirmed.extend(g)
     return out, shown, unconfirmed
@@ -1661,6 +1665,85 @@ def quick_facts(r, sc, xdb, wallets, pdb, ship, e):
     return "<dl class='facts'>" + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in rows) + "</dl>"
 
 
+THIN_LIQ = 10_000  # "Watch out for" mentions liquidity under this (a fact on the card, no score change)
+VERDICTS = {"look": ("✅", "Worth a look", "good"), "careful": ("🟡", "Careful", "mid"), "skip": ("❌", "Skip", "bad")}
+
+
+def tldr(r, sc, xdb, pdb, tu, use_checked, posted, unoff, is_copy, hand, warn_items, unclaimed):
+    """TL;DR box at the top of every card (user, 5-6 Nov: 'people decide in seconds').
+    Verdict rule (user chose, 6 Nov; a hand review's "Verdict" wins):
+      Skip = marked not official by hand, or a known copy (group_projects also sets Skip when no token of a project is confirmed).
+      Worth a look = the team posts this address, no warnings, and a HAND CHECK found a use for the token
+        (use_checked = reviews.json "token_use"). A claimed use alone never counts: on 6 Nov all 61 automatic
+        "Worth a look" cards rested on unchecked fee/burn claims, and RAETO's claim was wrong.
+      Careful = everything else. The box always says which rule it hit.
+    Returns (verdict key, why, what it does, quick info, watch-out list)."""
+    tok_use = tu[0] != "❌"
+    if unoff:
+        v, why = "skip", "marked by hand as probably not the team's token"
+    elif is_copy:
+        v, why = "skip", "a known copy of another project's token"
+    elif posted and not warn_items and tok_use and use_checked:
+        v, why = "look", "the team posts this address, no warnings, and a hand check found a use for the token"
+    else:
+        miss = (([] if posted else ["the team doesn't post this address"])
+                + ([f"{len(warn_items)} warning" + ("s" if len(warn_items) > 1 else "")] if warn_items else [])
+                + (["the token has no use for holders"] if not tok_use else ([] if use_checked else ["the token's use isn't checked yet"])))
+        v, why = "careful", ", ".join(miss)
+    hv = (hand.get("Verdict") or "").strip()
+    if hv:  # hand review: "Worth a look: why" / "Careful: why" / "Skip: why"
+        k = next((k for k, (_, word, _) in VERDICTS.items() if hv.lower().startswith(word.lower())), None)
+        if k:
+            v, why = k, (hv.split(":", 1)[1].strip() if ":" in hv else why) + " (hand review)"
+    what = (hand.get("What it does") or what_it_does(r, xdb)).strip()
+    what = what if len(what) <= 160 else what[:157].rsplit(" ", 1)[0] + "…"
+    # quick info: one line of facts
+    a = r["address"].lower()
+    pt = pdb.get(a) or {}
+    mk = pt.get("market") or {}
+    liq = mk.get("liq")
+    info = [money(pt.get("now_mcap") or r.get("mcap"))]
+    if liq:
+        info.append(f"liquidity {money(liq)}")
+    info.append(f"launched {ago(r.get('launched')) or '?'}")
+    h, _ = x_info.parse(r.get("twitter"))
+    acct = ((xdb or {}).get("accounts") or {}).get((h or "").lower()) or {}
+    if h and acct and acct.get("found") is not False:
+        j = acct.get("joined")
+        info.append(f"X {short_n(acct.get('followers'))} followers" + (f", made {iso(j):%b %Y}" if j else ""))
+    elif h:
+        info.append("X not found now" if acct.get("found") is False else f"X @{h}")
+    else:
+        info.append("no X")
+    info.append("site check, no GitHub" if sc.get("kind") == "site" else ("GitHub 🔒 private" if sc.get("private") else "GitHub ✅"))
+    info.append("address posted by team ✅" if posted else "address not posted by team ❌")
+    # watch out for: up to 3, warnings first, then plain facts. (A hand review's "Watch for" is a list of things to
+    # wait for, often good news, so it stays in the hand review, not here.)
+    watch = []
+    for f, n in warn_items:
+        f = f if len(f) <= 110 else f[:107].rsplit(" ", 1)[0] + "…"
+        watch.append(f + (f" (×{n})" if n > 1 else ""))
+    if liq and liq < THIN_LIQ:
+        watch.append(f"Thin liquidity ({money(liq)}): a small sale moves the price a lot")
+    if not tok_use:
+        watch.append("Token has no use for holders")
+    elif "claimed" in tu[1]:
+        watch.append(tu[1] + ", not checked on chain")
+    if unclaimed and not any(UNCLAIMED in w for w in watch):
+        watch.append("The team never mentions this token")
+    if sc.get("private"):
+        watch.append("Code is private, so it can't be checked")
+    return v, why, what, " · ".join(info), watch[:3]
+
+
+def tldr_html(v, why, what, info, watch, e):
+    icon, word, cls = VERDICTS[v]
+    return (f"<div class='tldr {cls}'><p class='tl-v'><!--V-->{icon} <b>{word}</b> <span>· {e(why)}</span><!--/V--></p>"
+            f"<p class='tl-what'>{e(what)}</p><p class='tl-info'><b>Quick info:</b> {e(info)}</p>"
+            + ("<p class='tl-w'><b>Watch out for:</b></p><ul>" + "".join(f"<li>{e(w)}</li>" for w in watch) + "</ul>" if watch
+               else "<p class='tl-w'><b>Watch out for:</b> nothing flagged by the scanner</p>") + "</div>")
+
+
 def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=None, ship=None, health=""):
     pdb = pdb or {}
     rows = sorted(state["github"].values(), key=lambda r: r.get("launched") or r["first_seen"], reverse=True)  # newest launch first
@@ -1770,6 +1853,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         about = about if len(about) <= 220 else about[:217].rsplit(" ", 1)[0] + "…"
         proof = (bool(re.search(r"✅ Token's address is posted", said))
                  or (not unoff and (bool(hand) or reviews.get(a_.lower(), {}).get("official") is True)))
+        tl = tldr_html(*tldr(r, sc, xdb, pdb, tu, bool(reviews.get(a_.lower(), {}).get("token_use")), proof, unoff, a_.lower() in copies, hand, warn_items, unclaimed), e)
         (site_cards if is_site else cards).append(dict(r=r, sc=sc, proof=proof, unclaimed=unclaimed, unoff=unoff, hand=hand,
                                                        warn_items=warn_items, act=act, tags=tags, is_site=is_site, html=f"""
 <article class="card" data-score="{sc['score']}" data-new="{int(new)}" data-addr="{e(a_.lower())}">
@@ -1779,13 +1863,14 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
       <h2>{e(r.get('symbol') or '?')} <span class="nm">· {e(r.get('name') or '')}</span>
         <button class="ca" data-ca="{e(a_)}" title="Copy the contract address">{e(a_[:6] + '…' + a_[-4:])} ⧉</button> {badges}</h2>
       <p class="sub">{e(money(r.get('mcap')))} · launched {e(ago(r.get('launched')) or '?')} · {e(r.get('where') or '')}</p>
-      <p class="verdict">{verdict}</p>
+      {tl}
+      <p class="verdict"></p>
       {('<p class="tags">' + ''.join(f'<span class="tag">{e(t)}</span>' for t in tags) + '</p>') if tags else ''}
-      {qr_line}
       <p class="links">{" · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(t)}</a>' for u, t in links)}</p>
     </div>
   </header>
   <details class="more"><summary>Details</summary>
+  <h4>Key points</h4><p class="verdict">{verdict}</p>{qr_line}
   {hand_html}{qr_html}
   <h4>Quick facts</h4>{quick_facts(r, sc, xdb, wallets, pdb, ship, e)}
   {warn_html}
@@ -1896,6 +1981,11 @@ ul{{margin:0;padding-left:20px}} li{{margin:2px 0}}
 .links{{margin:var(--s2) 0 0;font-size:13px;font-weight:550}}
 .verdict{{margin:var(--s2) 0 0;font-size:14px;display:flex;flex-wrap:wrap;gap:var(--s1) var(--s3)}}
 .verdict:empty{{display:none}} .verdict .kp{{display:block;width:100%}} .verdict .mid{{color:var(--mid)}} .verdict .good{{color:var(--hi)}} .verdict .bad{{color:var(--lo)}} .verdict .muted{{color:var(--mute)}}
+.tldr{{margin:var(--s3) 0 0;padding:var(--s2) var(--s3);border-radius:8px;border-left:4px solid var(--line);background:var(--soft);font-size:14px;color:var(--ink)}}
+.tldr.good{{border-left-color:var(--hi)}} .tldr.mid{{border-left-color:var(--mid)}} .tldr.bad{{border-left-color:var(--lo)}}
+.tldr p{{margin:2px 0}} .tldr ul{{margin:0 0 2px}} .tl-v{{font-size:15px}} .tl-v span{{color:var(--mute);font-size:13px}}
+.tldr.good .tl-v b{{color:var(--hi)}} .tldr.mid .tl-v b{{color:var(--mid)}} .tldr.bad .tl-v b{{color:var(--lo)}}
+.tl-info{{font-size:13px;color:var(--mute)}} .tl-info b,.tl-w b{{color:var(--ink);font-weight:600}}
 .signs{{margin:var(--s2) 0 0;font-size:13px;color:var(--hi);font-weight:600;background:var(--goodbg);border-radius:6px;padding:2px var(--s2);width:fit-content;max-width:100%}}
 .joined{{background:var(--accent);color:var(--card);border-radius:4px;padding:0 6px;margin-right:6px;font-weight:700}}
 .qr{{margin:var(--s2) 0 0;display:flex;gap:4px;flex-wrap:wrap;font-size:12px;font-weight:550}} .qr span{{border-radius:5px;padding:1px 7px}} .qg{{background:var(--goodbg);color:var(--hi)}} .qa{{background:color-mix(in oklab,var(--mid) 14%,transparent);color:var(--mid)}} .qx{{background:var(--flag);color:var(--lo)}}
