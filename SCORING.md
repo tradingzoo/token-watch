@@ -199,3 +199,9 @@ The closed card shows up to 3 written-out key points taken from the score's own 
 
 **Serial launcher** (red): the token's launch wallet also launched known copies (copycat flag, or marked not official by hand). Shown in the Not confirmed box and as a warning on the card.
 
+
+**Second 30-day test (started 6 Nov, `test61.py`, `data/test61.json`).** Every project the page shows (61+) enters at its value the first time it is shown, in two sections: GitHub and Site check. After 30 days it passes if it is above its entry value and no more than 45% below its highest since entry (the same rule as the 4 Nov test). Entries are never changed or removed. The 4 Nov test (README) is unchanged and shown below it, with each token's scanner list as a label only.
+
+**Status changes** list only the projects on the page and the 30-day test tokens: real colour changes only, the latest per token, split into good news and warnings. An X account counts as gone only when X says it doesn't exist; a lookup that gets no answer keeps the last result (6 Nov: failed lookups had marked live accounts like OAK and ORBIO as gone).
+
+**What it does** (Quick read) uses the token's own description when it says what the product is, else their X bio (marked "from their X"), else "Not explained on their page".

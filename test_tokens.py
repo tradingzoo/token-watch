@@ -123,13 +123,50 @@ def section(rows, xdb, wallets, now, compare_rows=None, ship=None):
  {'<span class="kv warn">⚠️ ' + str(len(xw + ww)) + '</span>' if xw + ww else ''}</summary>
  <p class="sub">{e(r['why'])}</p>{shipping.line(r, ship)}{xl}{wl}{flags}</details>""")
     return f"""
-<section class="card test">
-<h2>30-day test tokens: X, Telegram and launch wallet</h2>
-<p class="sub">The 16 tokens in the day-30 test (tokens.csv). Facts only: none of this changes the test's rule or result.
-Refreshed about twice a day. Click a row for details.</p>
+<h2 style="margin:32px 0 6px">The first test (4 Nov): 5 hand-picked tokens vs winners</h2>
+{progress_html(compare_rows, e)}
+<details class="card test"><summary><b>X, Telegram and launch wallet for the 16 tokens</b></summary>
+<p class="sub">Facts only: none of this changes the test's rule or result. Refreshed about twice a day. Click a row for details.</p>
 <table class="sum"><thead><tr><th>Group</th><th>Has X</th><th>X account age at launch (median)</th><th>Followers now (median)</th><th>Has Telegram</th><th>Wallet launched others</th></tr></thead>
 <tbody>{''.join(summ)}</tbody></table>
 <p class="sub">Fair to compare: <b>account age at launch</b> and <b>wallet history</b> (both fixed on launch day).
 Not fair: <b>followers now</b>, because the winners have had weeks to grow. Follower growth for the watch tokens is saved daily from 4 Nov, so by day 30 we can compare growth instead.</p>
 {''.join(body)}
-</section>"""
+</details>"""
+
+
+PROGRESS = os.path.join(HERE, "data", "test_progress.json")
+DAY30 = datetime.datetime(2026, 12, 4, 11, 46, tzinfo=datetime.timezone.utc)  # day 0 (baseline.json) + 30 days
+
+
+def _money(x):
+    if not x:
+        return "–"
+    return f"${x/1e6:.2f}M" if x >= 1e6 else f"${x/1e3:.0f}k"
+
+
+def progress_html(compare_rows, e):
+    """Where each of the 16 tokens stands against the day-0 rule (from scan.py's hourly check), with which
+    scanner list it is on (GitHub / Site check / not scanned) as a label only: the test's groups stay as on day 0."""
+    if not os.path.exists(PROGRESS):
+        return "<p class='muted'>Progress appears after the next hourly check.</p>"
+    p = json.load(open(PROGRESS, encoding="utf-8"))
+    route = {}
+    for r in compare_rows or []:
+        if "scoring" in r:
+            route[r["address"].lower()] = (("Site check" if r["scoring"].get("kind") == "site" else "GitHub") + f" {r['scoring']['score']}")
+    watch = [t for t in p["tokens"] if t["group"] == "watch"]
+    rows = []
+    for g, label in GROUPS:
+        for t in [t for t in p["tokens"] if t["group"] == g]:
+            ch = f"{t['now'] / t['day0']:.2f}x" if t.get("now") and t.get("day0") else "–"
+            off = f"{1 - t['now'] / t['high']:.0%}" if t.get("now") and t.get("high") else "–"
+            mark = ("✅" if t["passing"] else "❌") if g == "watch" else ("✓" if t["passing"] else "·")
+            rows.append(f"<tr><td><b>{e(t['symbol'])}</b></td><td>{e(label.split(' (')[0])}</td>"
+                        f"<td>{e(route.get(t['address'].lower(), 'not scanned'))}</td><td>{_money(t.get('day0'))}</td>"
+                        f"<td>{_money(t.get('now'))} ({ch})</td><td>{_money(t.get('high'))} (now {off} below)</td><td>{mark}</td></tr>")
+    return (f"<p class='top'>Day {p['day']:.0f} of 30 · result on 4 Dec · <b>{sum(t['passing'] for t in watch)} of {len(watch)} watch tokens passing so far</b>. "
+            "Passes if above its day-0 value and no more than 45% below its highest since (rule fixed on day 0, README). "
+            "Winners and faded tokens show whether the whole chain moved. List = which scanner list it is on now (a label only).</p>"
+            "<table class='sum'><tr><th>Token</th><th>Group</th><th>List</th><th>Day 0</th><th>Now</th><th>Highest</th><th>Passing?</th></tr>"
+            + "".join(rows) + "</table>")

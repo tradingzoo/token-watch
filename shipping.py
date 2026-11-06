@@ -336,22 +336,30 @@ def kv(r, db):
     return f"<span class='kv'>{DOT[rec['status']]} {rec['status']}</span>" if rec else ""
 
 
-def alerts_html(db, now):
+def alerts_html(db, now, keep=None):
+    """keep: addresses (lower case) to show: the projects on the page and the 30-day test tokens (user, 6 Nov).
+    Only real colour changes, the latest one per token, split into good news and warnings."""
     e = html.escape
     week = (now - datetime.timedelta(days=7)).isoformat()
-    rows = sorted([x for x in (db or {}).get("alerts", []) if x["t"] >= week], key=lambda x: x["t"], reverse=True)
-    toks = (db or {}).get("tokens", {})
+    wanted = (lambda a: (a or "").lower() in keep) if keep is not None else (lambda a: True)
+    latest = {}
+    for x in sorted((db or {}).get("alerts", []), key=lambda x: x["t"]):
+        if x["t"] >= week and x["from"] != x["to"] and x["to"] != "GREY" and wanted(x.get("address")):
+            latest[(x.get("address") or x.get("symbol") or "").lower()] = x
+    rows = sorted(latest.values(), key=lambda x: x["t"], reverse=True)
+    toks = {a: t for a, t in (db or {}).get("tokens", {}).items() if wanted(a)}
     counts = " · ".join(f"{DOT[s]} {sum(1 for t in toks.values() if t.get('status') == s)} {s.lower()}"
                         for s in ("GREEN", "AMBER", "RED", "GREY"))
-    items = "".join(
-        f"<li>{e(x['t'][:16].replace('T', ' '))} UTC · <b>{e(x.get('symbol') or '?')}</b> "
-        f"{DOT.get(x['from'], '')}→{DOT.get(x['to'], '')} {e(x['to'])}: {e(x['why'])}</li>" for x in rows[:40])
+    li = lambda x: (f"<li>{e(x['t'][:16].replace('T', ' '))} UTC · <b>{e(x.get('symbol') or '?')}</b> "
+                    f"{DOT.get(x['from'], '')}→{DOT.get(x['to'], '')} {e(x['why'])}</li>")
+    good = [x for x in rows if x["to"] == "GREEN"]
+    bad = [x for x in rows if x["to"] in ("AMBER", "RED")]
+    block = lambda title, xs, none: (f"<h3>{title} ({len(xs)})</h3>" + (("<ul>" + "".join(li(x) for x in xs) + "</ul>") if xs
+                                                                       else f"<p class='muted'>{none}</p>"))
     return f"""
-<section class="card">
-<h2>Still shipping? Changes in the last 7 days</h2>
-<p class="sub">Now: {counts}. Checks each project's GitHub, website, X and market every run and lists a token here only when its status changes.
-🟢 real GitHub change or release in the last 3 days (bots don't count) · 🟠 3–6 days quiet, website failed once, or a sharp drop the rest of the chain didn't have ·
-🔴 7+ days quiet, repo gone, website down 6+ hours, X account gone or address removed from its bio · ⚪ no public code of their own to watch.
-Catches projects going quiet; it doesn't predict price.</p>
-{('<ul>' + items + '</ul>') if items else '<p>No changes yet.</p>'}
-</section>"""
+<h2 style="margin:22px 0 6px">Still shipping? Changes in the last 7 days</h2>
+<p class="top">Projects on the page and the 30-day test tokens only. Now: {counts}. A token is listed when its colour changes (latest change only).
+🟢 real GitHub change or release in the last 3 days · 🟠 3–6 days quiet, website failed once, or a sharp drop the rest of the chain didn't have ·
+🔴 7+ days quiet, repo gone, website down 6+ hours, X account gone or address removed from its bio. Catches projects going quiet; it doesn't predict price.</p>
+{block("🟢 Good news", good, "None this week.")}
+{block("⚠️ Warnings", bad, "None this week.")}"""

@@ -109,7 +109,7 @@ def main():
     lines = [f"# Check {now:%Y-%m-%d} (day {days:.1f} since {t0:%Y-%m-%d %H:%M} UTC)", "",
              "| Token | Group | Day 0 | Now | Change | Highest seen | Down from highest | Where it trades |",
              "|---|---|---|---|---|---|---|---|"]
-    verdicts = []
+    verdicts, progress = [], []
     for t in tokens:
         sym = t["symbol"]
         b = base["tokens"].get(sym, {}).get("mcap")
@@ -126,6 +126,8 @@ def main():
         if where == "pons":
             where = f"Pons launchpad ({snap['tokens'][sym].get('stage')})"
         lines.append(f"| {sym} | {t['group']} | {money(b)} | {money(n)} | {ch} | {money(hi)} | {dd} | {where} |")
+        progress.append({"symbol": sym, "group": t["group"], "address": t["address"], "day0": b, "now": n, "high": hi,
+                         "passing": bool(b and n and hi and n > b and (1 - n / hi) <= RULE_MAX_DROP)})
         if t["group"] == "watch" and b and n and hi:
             ok = n > b and (1 - n / hi) <= RULE_MAX_DROP
             verdicts.append(f"- **{sym}**: {'acts like the winners' if ok else 'does not'} "
@@ -140,6 +142,9 @@ def main():
     out = os.path.join(HERE, "checks", f"{now:%Y-%m-%d}.md")
     open(out, "w", encoding="utf-8").write("\n".join(lines) + "\n")
     print(f"\nWrote {out}")
+    # same numbers for the site's 30-day test tab (test_tokens.py); progress only, the day-30 result is the rule in README
+    json.dump({"checked": now.isoformat(timespec="seconds"), "day": round(days, 1), "tokens": progress},
+              open(os.path.join(HERE, "data", "test_progress.json"), "w", encoding="utf-8"), indent=1)
 
 
 if __name__ == "__main__":

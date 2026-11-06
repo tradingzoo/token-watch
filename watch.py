@@ -9,10 +9,10 @@ Each run:
 
 Hand-checked findings go in reviews.json and replace the script's guesses.
 """
-import json, os, re, subprocess, shutil, sys, time, datetime, html, urllib.request, urllib.parse
+import csv, json, os, re, subprocess, shutil, sys, time, datetime, html, urllib.request, urllib.parse
 from collections import Counter
 import statistics
-import x_info, deployers, test_tokens, prices, shipping, sitecheck, dexpools, notify
+import x_info, deployers, test_tokens, prices, shipping, sitecheck, dexpools, notify, test61
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "data", "watch_state.json")
@@ -487,12 +487,13 @@ def x_account(handle):
     """Facts for one X account (bio + recent posts, incl. token addresses it posted). Reuses x_info.json if fresh."""
     k = handle.lower()
     if k not in X_CACHE:
+        rec = None
         try:
             db = json.load(open(x_info.FILE, encoding="utf-8")) if os.path.exists(x_info.FILE) else {}
             rec = (db.get("accounts") or {}).get(k)
             X_CACHE[k] = rec if x_info._fresh(rec, NOW) else x_info._lookup(handle, fetch_json, NOW)
         except Exception:
-            X_CACHE[k] = None
+            X_CACHE[k] = rec  # couldn't check now: use the last result (older than 12h) rather than nothing
     return X_CACHE[k]
 
 
@@ -1009,8 +1010,8 @@ if(navigator.clipboard)navigator.clipboard.writeText(m).then(done,()=>prompt('Co
 document.querySelectorAll('button.ca').forEach(b=>b.onclick=()=>{const t=b.textContent,c=b.dataset.ca;
 const ok=()=>{b.textContent='Copied ✓';setTimeout(()=>b.textContent=t,1500);};
 if(navigator.clipboard)navigator.clipboard.writeText(c).then(ok,()=>prompt('Copy:',c));else prompt('Copy:',c);});
-document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.bar button').forEach(x=>x.classList.toggle('on',x===b));
-const f=b.dataset.f;document.querySelectorAll('#github article.card').forEach(c=>{const s=+c.dataset.score,n=c.dataset.new==='1',fl=!!c.querySelector('.flag');
+document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{b.closest('.bar').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+const f=b.dataset.f;b.closest('section').querySelectorAll('article.card').forEach(c=>{const s=+c.dataset.score,n=c.dataset.new==='1',fl=!!c.querySelector('.flag');
 c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))?'':'none'})});
 TW_TIME();};
 window.addEventListener('hashchange',()=>{TW_SHOW();window.scrollTo(0,0);});
@@ -1130,9 +1131,10 @@ TOOK_OFF = 500_000        # ...now worth this much "took off"
 DIED = 20_000             # ...now worth less than this "died"
 
 
-def score_check_html(state, pdb, e):
-    """Is the score working? Tokens 3+ days old that took off vs died: median score, share 60+, points per part.
-    Updates every run; the cut-off and weights get set from this once the groups are big enough (5 Nov)."""
+def score_check_html(state, pdb, e, sec):
+    """One list (sec = 'github' or 'sites'): a headline answer, then 'Is the score working?' for tokens 3+ days old
+    that took off vs died: median score, share at the page cut-off, points per part. Updates every run; the cut-off and
+    weights get set from this once the groups are big enough (5 Nov). Split per list on 6 Nov (user)."""
     def parts(sc):
         out = {}
         for g, items in sc.get("reasons", {}).items():
@@ -1140,31 +1142,30 @@ def score_check_html(state, pdb, e):
             if name not in INFO_GROUPS:
                 out[name] = sum(int(m.group(1)) for x in items if (m := re.search(r"\(\+(\d+)\)$", x)))
         return out
-    blocks = []
-    for sec, label in (("github", "GitHub score"), ("sites", "Site check score")):
-        took, died = [], []
-        for a, r in state.get(sec, {}).items():
-            if not r.get("launched") or days_between(NOW, iso(r["launched"])) < CHECK_AGE_DAYS:
-                continue
-            m = (pdb.get(a) or {}).get("now_mcap") or r.get("mcap") or 0
-            (took if m >= TOOK_OFF else died if m < DIED else []).append(r["scoring"])
-        if not took and not died:
+    took, died, mid = [], [], []
+    for a, r in state.get(sec, {}).items():
+        if not r.get("launched") or days_between(NOW, iso(r["launched"])) < CHECK_AGE_DAYS:
             continue
-        med = lambda g: f"{statistics.median(s['score'] for s in g):.0f}" if g else "–"
-        pct = lambda g: f"{sum(s['score'] >= 60 for s in g)} of {len(g)}" if g else "–"
-        keys = list(dict.fromkeys(k for s in took + died for k in parts(s)))
-        avg = lambda g, k: f"{statistics.mean(parts(s).get(k, 0) for s in g):.0f}" if g else "–"
-        rows = [("Median score", med(took), med(died)), ("Scored 60+", pct(took), pct(died))]
-        rows += [(f"{k} (avg points)", avg(took, k), avg(died, k)) for k in keys]
-        small = len(took) < 15 or len(died) < 15
-        blocks.append(f"<h3>{e(label)}</h3><table class='sc'><tr><th></th><th>Took off ({len(took)})</th><th>Died ({len(died)})</th></tr>"
-                      + "".join(f"<tr><td>{e(a_)}</td><td>{e(b)}</td><td>{e(c)}</td></tr>" for a_, b, c in rows) + "</table>"
-                      + ("<p class='muted'>Too few tokens yet to set the cut-off from this: wait for 15+ in each group.</p>" if small else ""))
-    if not blocks:
-        return ""
-    return (f"<h2 style='margin:22px 0 6px'>Is the score working?</h2><p class='muted'>Tokens launched {CHECK_AGE_DAYS}+ days ago: "
-            f"<b>took off</b> = now worth {money(TOOK_OFF)}+, <b>died</b> = now under {money(DIED)}. A part that helps gives the "
-            f"took-off group clearly more points. Updates every run.</p>" + "".join(blocks))
+        m = (pdb.get(a.lower()) or {}).get("now_mcap") or r.get("mcap") or 0
+        (took if m >= TOOK_OFF else died if m < DIED else mid).append(r["scoring"])
+    if not took and not died:
+        return f"<p class='muted'>No {CHECK_AGE_DAYS}+ day old tokens on this list yet.</p>"
+    hi = lambda g: sum(s["score"] >= SHOW_AT for s in g)
+    shown = hi(took) + hi(died) + hi(mid)
+    head = (f"<p class='answer'>Of the <b>{shown}</b> tokens here that scored {SHOW_AT}+ and launched {CHECK_AGE_DAYS}+ days ago: "
+            f"<b>{hi(took)} took off</b> (now {money(TOOK_OFF)}+), <b>{hi(died)} died</b> (under {money(DIED)}), {hi(mid)} in between.</p>")
+    med = lambda g: f"{statistics.median(s['score'] for s in g):.0f}" if g else "–"
+    pct = lambda g: f"{hi(g)} of {len(g)}" if g else "–"
+    keys = list(dict.fromkeys(k for s in took + died for k in parts(s)))
+    avg = lambda g, k: f"{statistics.mean(parts(s).get(k, 0) for s in g):.0f}" if g else "–"
+    rows = [("Median score", med(took), med(died)), (f"Scored {SHOW_AT}+", pct(took), pct(died))]
+    rows += [(f"{k} (avg points)", avg(took, k), avg(died, k)) for k in keys]
+    small = len(took) < 15 or len(died) < 15
+    return (head + f"<h3>Is the score working?</h3><p class='muted'>All tokens on this list launched {CHECK_AGE_DAYS}+ days ago, shown or hidden. "
+            f"A part that helps gives the took-off group clearly more points.</p>"
+            f"<table class='sc'><tr><th></th><th>Took off ({len(took)})</th><th>Died ({len(died)})</th></tr>"
+            + "".join(f"<tr><td>{e(a_)}</td><td>{e(b)}</td><td>{e(c)}</td></tr>" for a_, b, c in rows) + "</table>"
+            + ("<p class='muted'>Too few tokens yet to set the cut-off from this: wait for 15+ in each group.</p>" if small else ""))
 
 
 # --- Shortlist (5 Nov): strict gates + 2 or more signs that winners shared. A place to look first, not advice. ---
@@ -1366,7 +1367,31 @@ def building_html(picks, e):
 QUICK_AT = 60  # cards at this score or more get a Quick read (user, 6 Nov: key words to decide fast, deep dive later)
 
 
-def quick_read(r, sc, tags, warn_items, act):
+# Words that show a description says what the product is or does. A blurb with none of them is a slogan.
+PRODUCT_WORDS = (r"\b(apps?|platform|protocol|agents?|agentic|api|sdk|mcp|tools?|toolkit|builds?|building|trad(e|es|ing)|swaps?|"
+                 r"exchange|pay|payments?|launch(es|pad)?|markets?|marketplace|wallets?|data|index|vaults?|lend(ing)?|borrow(ing)?|"
+                 r"stak(e|ing)|bridge|games?|gaming|infra(structure)?|network|engine|terminal|bots?|assistant|models?|compute|"
+                 r"router|routing|oracle|dex|perps?|yield|liquidity|pools?|hooks?|analytics|search|browser|cloud|storage|layer|"
+                 r"framework|library|plugin|extension|automat\w*|inference|llm|gpu|code|coding|developers?|devs?|"
+                 r"predictions?|options|machines?|nfts?|dao|security|audits?|memory|commerce|workflows?|defi|assets|"
+                 r"investors?|tokeni[sz]\w*|rwa|lets you|helps you|allows)\b")
+
+
+def what_it_does(r, xdb):
+    """One line on what the product is: the token's own description, else their X bio, else 'Not explained' (user, 6 Nov)."""
+    cut = lambda s: s if len(s) <= 200 else s[:197].rsplit(" ", 1)[0] + "…"
+    own = re.sub(r"\s+", " ", (r.get("description") or "")).strip()
+    if own and re.search(PRODUCT_WORDS, own, re.I):
+        return cut(own)
+    h, _ = x_info.parse(r.get("twitter"))
+    bio = re.sub(r"\s+", " ", ((((xdb or {}).get("accounts") or {}).get((h or "").lower()) or {}).get("bio") or "")).strip()
+    bio = re.sub(r"\s*(?:https?://\S+|(?:Token )?CA:?\s*0x[0-9a-fA-F]{40})", "", bio).strip()
+    if bio and re.search(PRODUCT_WORDS, bio, re.I):
+        return cut(bio) + " (from their X)"
+    return "Not explained on their page" + (" (their words are under About)" if own else "")
+
+
+def quick_read(r, sc, tags, warn_items, act, xdb=None):
     """(chips, rows) built only from facts the scanner already has. chips: [(kind, text)] with kind g/a/r
     (good / claimed-or-unknown / risk). rows: [(label, text)] for the Details block. No judgement, just key words."""
     said = " ".join(sum(sc.get("reasons", {}).values(), []))
@@ -1421,9 +1446,7 @@ def quick_read(r, sc, tags, warn_items, act):
     for f, _n in warn_items[:3]:
         risk.append(re.split(r"[:(—]", f)[0].strip()[:42])
     chips = [("g", x) for x in good] + [("a", x) for x in amber] + [("r", x) for x in risk]
-    about = (r.get("description") or "").strip().replace("\n", " ")
-    about = about if len(about) <= 200 else about[:197].rsplit(" ", 1)[0] + "…"
-    rows = [("What it does", about or "No description given"),
+    rows = [("What it does", what_it_does(r, xdb)),
             ("Narrative", ", ".join(tags) or "No clear tag"),
             ("Money", ", ".join([x for x in good if x in ("takes payments", "uses USDG / stock tokens")] + amber[:3]) or "No money signs found"),
             ("Theirs?", next((x for x in good if x.startswith("CA on")), None) or ", ".join(x for x in risk if "CA" in x or "mentions" in x) or "Not shown"),
@@ -1602,7 +1625,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         tags = narratives(r, sc, xdb)
         act = build_activity(a_, ship)
         kps = key_points(sc, act)
-        qr_chips, qr_rows = quick_read(r, sc, tags, warn_items, act) if sc["score"] >= QUICK_AT else ([], [])
+        qr_chips, qr_rows = quick_read(r, sc, tags, warn_items, act, xdb) if sc["score"] >= QUICK_AT else ([], [])
         said_kp = " ".join(t for _, t in kps).lower()
         def _shown(t):  # a chip the key points already say (user, 6 Nov: key points first, chips for the rest)
             return ((t.startswith(("CA on", "CA not posted")) and ("address" in said_kp))
@@ -1663,6 +1686,22 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
     cards, gh_shown, gh_unconf = group_projects(cards, wallets, copies, e)
     site_cards, site_shown, site_unconf = group_projects(site_cards, wallets, copies, e)
     not_sure = {x["r"]["address"].lower() for x in gh_unconf + site_unconf}  # never on the Shortlist or Still building
+    try:  # second 30-day test: every project shown at 61+, GitHub and Site check apart (user, 6 Nov)
+        t61 = test61.update([("sites" if x["is_site"] else "github", x["r"], x["sc"]) for x in gh_shown + site_shown], pdb, NOW)
+    except Exception as ex:
+        print(f"Test 61: skipped ({ex})")
+        t61 = {}
+    try:
+        old_test = [t["address"].lower() for t in csv.DictReader(open(os.path.join(HERE, "tokens.csv"), encoding="utf-8"))]
+    except Exception:
+        old_test = []
+    keep = ({x["r"]["address"].lower() for x in gh_shown + site_shown} | set(old_test)
+            | set((t61 or {}).get("tokens", {})))  # Status changes: page + test tokens only
+    by_list = {sec: {a.lower() for a in state.get(sec, {})} for sec in ("github", "sites")}
+    scores_html = "".join(
+        f"<h2 style='margin:28px 0 6px'>{label}</h2>" + score_check_html(state, pdb, e, sec)
+        + prices.section(pdb, e, SHOW_AT, memes, by_list[sec])
+        for sec, label in (("github", "GitHub"), ("sites", "Site check")))
     for x in gh_shown + site_shown:
         r, sc, unclaimed, unoff, hand, warn_items, card_html = (x["r"], x["sc"], x["unclaimed"], x["unoff"], x["hand"],
                                                                 x["warn_items"], x["html"])
@@ -1773,6 +1812,7 @@ ul.pm li.p::before{{content:"+";display:inline-block;width:18px;text-indent:0;co
 .dups{{margin:calc(-1*var(--s1)) 0 var(--s4) var(--s4)}} .dups>summary{{margin-bottom:var(--s2)}} .dups .card{{opacity:.88}}
 .xline{{margin:var(--s2) 0 0;font-size:13px;color:var(--mute)}} .ship{{color:var(--ink)}}
 .muted{{color:var(--mute);font-size:13px}}
+.answer{{background:var(--soft);border-radius:8px;padding:var(--s2) var(--s3);margin:var(--s2) 0;font-size:15px}}
 table.sc{{border-collapse:collapse;margin:var(--s2) 0 var(--s3);font-size:14px;font-variant-numeric:tabular-nums}}
 table.sc td,table.sc th{{border-bottom:1px solid var(--line);padding:6px var(--s4) 6px 0;text-align:left}} table.sc th{{color:var(--mute);font-weight:550;font-size:13px}}
 .test h2{{margin:0 0 var(--s1)}}
@@ -1809,15 +1849,14 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <section class="tab" id="short">{shortlist_html(picks, e, joined)}{review_queue_html(review_q, e)}</section>
 <section class="tab" id="building">{building_html(builders, e)}</section>
 <section class="tab" id="sites">
-<h2 style="margin:22px 0 6px">Site check: tokens whose website lets developers and AI agents plug in</h2>
-<p class="top">No GitHub needed. Listed when their own website has at least {sitecheck.LIST_AT} of API key, SDK, MCP and llms.txt.
-Why: on 5 Nov, 32% of tokens worth $2M+ had 3 or more of these, against 2% of random tokens that went nowhere. Rules: SCORING.md.
-Prices are tracked so we can see whether this works.</p>
+<h2 style="margin:22px 0 6px">Site check: websites developers and AI agents can plug into</h2>
+<p class="top">No GitHub needed: their own site has {sitecheck.LIST_AT}+ of API keys, SDK, MCP, llms.txt. Rules: SCORING.md.</p>
+<div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="flag">Red flags</button></div>
 {''.join(site_cards) if site_cards else f'<p>No site-check projects score {SHOW_AT}+ right now.</p>'}
 </section>
-<section class="tab" id="status">{shipping.alerts_html(ship, NOW) if ship else '<p>No status data yet.</p>'}</section>
-<section class="tab" id="test">{test_html or '<p>The 30-day test section is refreshed about twice a day.</p>'}</section>
-<section class="tab" id="scores">{score_check_html(state, pdb, e)}{prices.section(pdb, e, SHOW_AT, memes)}</section>
+<section class="tab" id="status">{shipping.alerts_html(ship, NOW, keep) if ship else '<p>No status data yet.</p>'}</section>
+<section class="tab" id="test">{test61.html(t61, NOW, e, money)}{test_html or '<p>The first test section is refreshed about twice a day.</p>'}</section>
+<section class="tab" id="scores">{scores_html}</section>
 <section class="tab" id="github">
 <h2 style="margin:22px 0 10px">New tokens with a public GitHub</h2>
 <div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="flag">Red flags</button></div>

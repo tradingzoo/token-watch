@@ -155,12 +155,14 @@ def card_line_plain(t):
 MISS_MCAP = 25_000  # a hidden token must reach this value (and double) to count as a possible miss
 
 
-def misses(db, esc, show_at, skip=frozenset()):
+def misses(db, esc, show_at, skip=frozenset(), only=None):
     """Hidden tokens (score under the page cut-off) whose value at least doubled to $25k+: what the score may have missed.
     User, 6 Nov: low scores are off the page, but they must still be watched in case the system isn't good enough yet.
     skip = meme coins, left out for now (user, 6 Nov); only counted."""
     out, memes = [], 0
     for t in db.values():
+        if only is not None and (t.get("address") or "").lower() not in only:  # one list (GitHub or Site check)
+            continue
         now_sc = t.get("score", t.get("start_score", 0))
         hi = _pct(t.get("start_mcap"), t.get("high_mcap"))
         if t.get("start_mcap") and now_sc < show_at and (hi or 0) >= 100 and (t.get("high_mcap") or 0) >= MISS_MCAP:
@@ -171,43 +173,44 @@ def misses(db, esc, show_at, skip=frozenset()):
     out.sort(key=lambda x: x[0].get("high_mcap") or 0, reverse=True)
     left = f" {memes} meme coin{'s' if memes != 1 else ''} left out (memes are ignored for now)." if memes else ""
     if not out:
-        return (f"<h2 style='margin:22px 0 6px'>Possible misses</h2><p class='muted'>No hidden token (score under {show_at}) "
+        return (f"<h3>Possible misses</h3><p class='muted'>No hidden token (score under {show_at}) "
                 f"has doubled to {_money(MISS_MCAP)}+ yet.{left}</p>")
     trs = "".join(
         f"<tr><td><b><a href='https://dexscreener.com/robinhood/{esc(t['address'])}' target='_blank' rel='noopener'>{esc(t.get('symbol') or '?')}</a></b></td>"
         f"<td>{t.get('score', t['start_score'])}</td><td>{_money(t['start_mcap'])}</td><td>{_money(t.get('high_mcap'))} ({hi:+.0f}%)</td>"
         f"<td>{_money(t.get('now_mcap'))}</td><td>{esc((t.get('high_at') or '')[:16].replace('T', ' '))} UTC</td></tr>" for t, hi in out)
-    return (f"<h2 style='margin:22px 0 6px'>Possible misses ({len(out)})</h2>"
+    return (f"<h3>Possible misses ({len(out)})</h3>"
             f"<p class='muted'>Tokens hidden from the page (score under {show_at}) whose value at least doubled to {_money(MISS_MCAP)}+. "
             f"Each one is worth asking Claude: did the score miss something, or was it pumped? Biggest first.{left}</p>"
             "<table class='sum'><tr><th>Token</th><th>Score</th><th>Start</th><th>Highest</th><th>Now</th><th>Highest at</th></tr>"
             + trs + "</table>")
 
 
-def section(db, esc, show_at=61, skip=frozenset()):
-    """Possible misses first, then the full table (closed): every scored token, its score and what the price did."""
-    rows = [t for t in db.values() if t.get("start_mcap")]
+def section(db, esc, show_at=61, skip=frozenset(), only=None):
+    """Possible misses first, then the full table (closed): every scored token, its score and what the price did.
+    only: addresses of one list (GitHub or Site check). Labels use the page cut-off and today's score (6 Nov)."""
+    rows = [t for t in db.values() if t.get("start_mcap") and (only is None or (t.get("address") or "").lower() in only)]
     if not rows:
         return ""
     rows.sort(key=lambda t: _pct(t["start_mcap"], t.get("high_mcap")) or 0, reverse=True)
     trs = []
     for t in rows:
         ch, hi = _pct(t["start_mcap"], t.get("now_mcap")), _pct(t["start_mcap"], t.get("high_mcap"))
-        verdict = ""
-        if t["start_score"] < 40 and (hi or 0) >= 100:
-            verdict = "⚠️ Low score but doubled: look at what we missed"
-        elif t["start_score"] >= 60 and (ch or 0) <= -50:
-            verdict = "⚠️ High score but halved"
-        elif t["start_score"] >= 60 and (hi or 0) >= 100:
-            verdict = "✅ High score and doubled"
-        elif t["start_score"] < 40 and (ch or 0) <= -50:
-            verdict = "✅ Low score and halved"
+        verdict, shown = "", t.get("score", t["start_score"]) >= show_at
+        if not shown and (hi or 0) >= 100:
+            verdict = "⚠️ Hidden but doubled"
+        elif shown and (ch or 0) <= -50:
+            verdict = "⚠️ Shown but halved"
+        elif shown and (hi or 0) >= 100:
+            verdict = "✅ Shown and doubled"
+        elif not shown and (ch or 0) <= -50:
+            verdict = "✅ Hidden and halved"
         sc = f"{t['start_score']}" + (f" → {t['score']}" if t.get("score") != t["start_score"] else "")
         trs.append(f"<tr><td><b>{esc(t.get('symbol') or '?')}</b></td><td>{esc(sc)}</td><td>{_money(t['start_mcap'])}</td>"
                    f"<td>{_money(t.get('now_mcap'))}</td><td>{'?' if ch is None else f'{ch:+.0f}%'}</td>"
                    f"<td>{_money(t.get('high_mcap'))} ({'?' if hi is None else f'{hi:+.0f}%'})</td><td>{verdict}</td></tr>")
-    return (misses(db, esc, show_at, skip) + "<details class='card'><summary><b>Full price record: every scored token since first tracked</b></summary>"
+    return (misses(db, esc, show_at, skip, only) + "<details class='card'><summary><b>Full price record: every token on this list since first tracked</b></summary>"
             "<p class='sub'>Every scored token, high or low, is priced each run. Score = the score when first tracked (→ now, if it changed). "
-            "Biggest rise first. Full record: data/price_log.csv. Scores marked against prices from 4 Nov 2026.</p>"
+            f"Shown = scores {show_at}+ today. Biggest rise first. Full record: data/price_log.csv.</p>"
             "<table class='sum'><tr><th>Token</th><th>Score</th><th>Start</th><th>Now</th><th>Change</th><th>Highest</th><th></th></tr>"
             + "".join(trs) + "</table></details>")

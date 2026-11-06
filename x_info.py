@@ -32,7 +32,11 @@ def _dt(s):
 
 def _lookup(handle, fetch_json, now):
     u = fetch_json(f"https://api.fxtwitter.com/{handle}")
-    if not u or u.get("code") != 200 or not u.get("user"):
+    # Only a clear "no such account" (404) means gone. No answer, a rate limit or an error means we couldn't check:
+    # keep the last result (6 Nov: failed lookups marked OAK, ORBIO and others "X account gone" while they were live).
+    if not u or u.get("code") not in (200, 404):
+        raise RuntimeError(f"no answer from fxtwitter (code {(u or {}).get('code')})")
+    if u.get("code") != 200 or not u.get("user"):
         return {"handle": handle, "found": False, "checked": now.isoformat(timespec="seconds")}
     u = u["user"]
     joined = _dt(u.get("joined") or "")
