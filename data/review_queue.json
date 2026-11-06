@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06T13:20:33+00:00",
+ "updated": "2026-11-06T13:45:17+00:00",
  "tokens": [
   {
    "address": "0x49877f7a758269b4f3d813abf4e2aa37361c995d",
    "symbol": "HCAT",
    "name": "HookCat",
    "score": 70,
-   "mcap": 4055.7018950071947,
+   "mcap": 3766.6791975818696,
    "tags": [
     "AI"
    ],
@@ -16,11 +16,25 @@
    "why": "not reviewed yet"
   },
   {
+   "address": "0x3585df71e28a48eed265fafbc27334e30ff6d1ff",
+   "symbol": "UUAgent",
+   "name": "UU Agent",
+   "score": 65,
+   "mcap": 3753.2764045559998,
+   "tags": [
+    "AI agents"
+   ],
+   "website": "https://u2u.xyz/",
+   "twitter": "https://x.com/u2u_xyz",
+   "github": "unicornultrafoundation/go-u2u",
+   "why": "not reviewed yet"
+  },
+  {
    "address": "0x1aa89c4ab9884cb65b759a3cc3a1690744d687a6",
    "symbol": "xTOPAZ",
    "name": "Liquid Wrapped veTOPAZ",
    "score": 75,
-   "mcap": 87466.0,
+   "mcap": 87317.0,
    "tags": [
     "DeFi",
     "Public dev"
