@@ -182,4 +182,6 @@ A line like "Is there a BLACKPOOL token? Token details are TBA" no longer counts
 `"review": {"What it does": ..., "Unique?": ..., "Scalable?": ..., "Narrative fit": ..., "How it makes money": ..., "Token today": ..., "Watch for": ...}` in reviews.json shows as a "Hand review" block at the top of the card's Details, with a 📝 hand review badge on the closed card. Information only, no score change. First one: LETRO.
 
 ## Hand review queue (6 Nov)
-Tokens scoring 60+ (and not marked maybe-not-official) without a hand review, or with one more than 7 days old, go in data/review_queue.json and a collapsed "📝 Hand review queue" list at the bottom of the Shortlist tab, AI projects first, then by score and value. Reviews are written by Claude when asked ("do the reviews"); the scanner itself doesn't write them.
+Tokens launched from 6 Nov 03:30 UTC on that score 60+ (and aren't marked maybe-not-official) without a hand review go in data/review_queue.json and a collapsed "📝 Hand review queue" list at the bottom of the Shortlist tab, AI projects first, then by score and value. Reviews are written by Claude when asked ("do the reviews"); the scanner itself doesn't write them.
+
+Older tokens are not queued and reviews are not redone (user, 6 Nov).

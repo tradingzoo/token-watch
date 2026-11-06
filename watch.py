@@ -1181,7 +1181,7 @@ def winner_signs(r, sc):
 
 
 REVIEW_AT = 60            # tokens at this score or more get a hand review (user, 6 Nov)
-REVIEW_STALE_DAYS = 7     # a review older than this goes back in the queue
+REVIEW_FROM = "2026-11-06T03:30"  # only projects launched from here on (user, 6 Nov: no going back over older ones)
 REVIEW_QUEUE = os.path.join(HERE, "data", "review_queue.json")
 
 
@@ -1193,7 +1193,7 @@ def review_queue_html(q, e):
                    + (f" · {e(', '.join(x['tags']))}" if x["tags"] else "") + f" <span class='muted'>({e(x['why'])})</span></li>"
                    for x in q[:60])
     return (f"<details class='dups' style='margin-top:24px'><summary>📝 Hand review queue ({len(q)}): tokens at {REVIEW_AT}+ "
-            f"without a review, AI projects first</summary><ul style='margin:8px 0 0'>{rows}</ul></details>")
+            f"launched since 6 Nov without a review, AI projects first</summary><ul style='margin:8px 0 0'>{rows}</ul></details>")
 
 
 def shortlist_live(picks):
@@ -1453,13 +1453,13 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         if (sc["score"] > 0 and not unclaimed and not unoff and not sc.get("flags")
                 and r["address"].lower() not in {p[0]["address"].lower() for p in builders}):
             builders.append((r, sc, warn_items, build_activity(a_, ship), (site_cards if is_site else cards)[-1][2]))
-        rvw = reviews.get(a_.lower(), {})
-        stale = hand and rvw.get("checked") and days_between(NOW, iso(rvw["checked"] + "T00:00:00+00:00")) > REVIEW_STALE_DAYS
-        if sc["score"] >= REVIEW_AT and not unoff and (not hand or stale) and a_.lower() not in {q["address"] for q in review_q}:
+        launched_at = r.get("launched") or r["first_seen"]
+        if (sc["score"] >= REVIEW_AT and not unoff and not hand and launched_at >= REVIEW_FROM
+                and a_.lower() not in {q["address"] for q in review_q}):
             review_q.append({"address": a_.lower(), "symbol": r.get("symbol") or "?", "name": r.get("name") or "",
                              "score": sc["score"], "mcap": (pdb.get(a_.lower()) or {}).get("now_mcap") or r.get("mcap") or 0,
                              "tags": tags, "website": r.get("website"), "twitter": r.get("twitter"),
-                             "github": None if is_site else sc.get("repo"), "why": "out of date" if hand else "not reviewed yet"})
+                             "github": None if is_site else sc.get("repo"), "why": "not reviewed yet"})
         if sc["score"] > 0 and not unclaimed and not warn_items and r["address"].lower() not in {p[0]["address"].lower() for p in picks}:
             picks.append((r, sc, warn_items, (pdb.get(a_.lower()) or {}).get("market") or {}, winner_signs(r, sc),
                           (site_cards if is_site else cards)[-1][2]))
