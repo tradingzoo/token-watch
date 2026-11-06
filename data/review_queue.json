@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06T17:00:14+00:00",
+ "updated": "2026-11-06T17:21:55+00:00",
  "tokens": [
   {
    "address": "0x49877f7a758269b4f3d813abf4e2aa37361c995d",
    "symbol": "HCAT",
    "name": "HookCat",
    "score": 70,
-   "mcap": 3694.5698285043004,
+   "mcap": 3690.1502129187725,
    "tags": [
     "AI"
    ],
@@ -16,11 +16,26 @@
    "why": "not reviewed yet"
   },
   {
+   "address": "0x93d3c50624cec6a7f5056512374bf0d85810fb6f",
+   "symbol": "CFESS",
+   "name": "Chainfess",
+   "score": 70,
+   "mcap": 3642.2934341738433,
+   "tags": [
+    "AI agents",
+    "Dev tools"
+   ],
+   "website": "https://chainfess.pro",
+   "twitter": "https://x.com/chainfesspro",
+   "github": "chainfess/chainfess",
+   "why": "not reviewed yet"
+  },
+  {
    "address": "0x3585df71e28a48eed265fafbc27334e30ff6d1ff",
    "symbol": "UUAgent",
    "name": "UU Agent",
    "score": 65,
-   "mcap": 3746.8039621320004,
+   "mcap": 3742.3218616560002,
    "tags": [
     "AI agents"
    ],
@@ -34,7 +49,7 @@
    "symbol": "xTOPAZ",
    "name": "Liquid Wrapped veTOPAZ",
    "score": 75,
-   "mcap": 86630.0,
+   "mcap": 86788.0,
    "tags": [
     "DeFi",
     "Public dev"
@@ -49,7 +64,7 @@
    "symbol": "KYTE",
    "name": "Kyte",
    "score": 70,
-   "mcap": 58589.0,
+   "mcap": 55195.0,
    "tags": [
     "DeFi"
    ],
@@ -63,7 +78,7 @@
    "symbol": "YARD",
    "name": "Yardkeeper",
    "score": 65,
-   "mcap": 693178.0,
+   "mcap": 697154.0,
    "tags": [],
    "website": "https://tickeryard.com",
    "twitter": "https://x.com/TickerYardHQ",
