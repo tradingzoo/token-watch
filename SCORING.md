@@ -188,3 +188,6 @@ Older tokens are not queued and reviews are not redone (user, 6 Nov).
 
 ## Quick read (6 Nov)
 Every card scoring 60+ gets a row of key-word chips on the closed card and a "Quick read" block in Details (what it does, narrative, money, theirs?, built, watch for). Built only from facts the scanner already has: green = good, amber = claimed/guessed/unchecked, red = risk. No judgement: it's for deciding fast; ask Claude for a deep dive. On these cards the old one-line verdict is hidden (the chips cover it).
+
+## Key points on every card (6 Nov)
+The closed card shows up to 3 written-out key points taken from the score's own lines, then the top warning: 1) is it theirs (where the address is posted, or that it isn't), 2) the money signal (takes payments, or fees go back to the token, or earns fees), 3) activity (commits over days and recent building days; or private code; or plug-in tools; or a working app). On 60+ cards the Quick read chips follow, without anything the key points already say. Full scoring stays in Details.

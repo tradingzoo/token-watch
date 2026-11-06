@@ -1330,6 +1330,41 @@ def quick_read(r, sc, tags, warn_items, act):
     return chips, rows
 
 
+def key_points(sc, act):
+    """Up to 3 written-out key points for the closed card (user, 6 Nov): is it theirs, the money claim, the
+    GitHub/product activity. Each is (icon, text) taken from the score's own lines, shortened."""
+    lines = sum(sc.get("reasons", {}).values(), [])
+    def pick(pat):
+        return next((x for x in lines if re.search(pat, x)), None)
+    def tidy(x):
+        x = re.sub(r"\s*\(\+\d+\)$", "", x)
+        x = x.replace(" — claimed, not checked on chain", " — claimed").replace(" — guess from their text, needs a look", " — a guess")
+        x = re.sub(r"\b1 days\b", "1 day", x)
+        x = re.sub(r" \(website links no X account to check\)", "", x)
+        return x[2:].strip() if x[:1] in "✅❌🟡" else x
+    out = []
+    t = pick(r"Token's address is posted by") or pick(r"Token's address isn't")
+    if t:
+        out.append(("✅" if t.startswith("✅") else "❌", tidy(t)))
+    m = pick(r"✅ Takes real payments") or pick(r"Says (?:fees|money) go(?:es)? back to the token") or pick(r"Looks like it earns fees|Maybe earns fees")
+    if m:
+        out.append(("✅" if m.startswith("✅") else "🟡", tidy(re.sub(r" \(“[^”]*”\)", "", m))))
+    c = pick(r"\d+ changes over \d+ days")
+    if c and not c.startswith("❌"):
+        txt = tidy(c) + (f" · building {act[0]} of last 8 days" if act and act[0] >= 3 else "")
+        out.append(("✅" if c.startswith("✅") else "🟡", txt))
+    elif pick(r"Code is private"):
+        out.append(("🔒", "Code is private"))
+    else:
+        tools = [n for p, n in ((r"✅ Site offers an MCP", "MCP"), (r"✅ Site offers an SDK", "SDK"), (r"✅ Site offers API keys", "API keys"),
+                                (r"✅ Has docs written for AI", "AI docs")) if pick(p)]
+        if tools:
+            out.append(("✅", "Plug-in tools: " + ", ".join(tools)))
+        elif pick(r"Has a working app"):
+            out.append(("✅", "Has a working app"))
+    return out[:3]
+
+
 def ago(ts):
     """'40 min ago', '5 h ago', '3 days ago'."""
     if not ts:
@@ -1480,16 +1515,29 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
                   + (" <span class='grp watch' title='Reviewed by hand: open Details'>📝 hand review</span>" if hand else ""))
         parts, plus, minus, cap = score_bits(sc)
         tags = narratives(r, sc, xdb)
-        qr_chips, qr_rows = quick_read(r, sc, tags, warn_items, build_activity(a_, ship)) if sc["score"] >= QUICK_AT else ([], [])
+        act = build_activity(a_, ship)
+        kps = key_points(sc, act)
+        qr_chips, qr_rows = quick_read(r, sc, tags, warn_items, act) if sc["score"] >= QUICK_AT else ([], [])
+        said_kp = " ".join(t for _, t in kps).lower()
+        def _shown(t):  # a chip the key points already say (user, 6 Nov: key points first, chips for the rest)
+            return ((t.startswith(("CA on", "CA not posted")) and ("address" in said_kp))
+                    or (t.startswith(("open code", "building:")) and "changes over" in said_kp)
+                    or (t == "private code" and "private" in said_kp)
+                    or (t == "buyback/burn claimed" and "go back" in said_kp)
+                    or (t == "takes payments" and "payments" in said_kp)
+                    or (t.startswith("earns fees?") and "earns fees" in said_kp)
+                    or (t in ("MCP", "SDK", "API keys", "AI-readable docs") and "plug-in tools" in said_kp)
+                    or (t == "live app" and "working app" in said_kp)
+                    or (bool(warn_items) and t == re.split(r"[:(—]", warn_items[0][0])[0].strip()[:42]))  # top warning has its own line
+        qr_chips = [(k, t) for k, t in qr_chips if not _shown(t)]
         qr_line = ("<p class='qr'>" + "".join(f"<span class='q{dict(g='g', a='a', r='x')[k]}'>{e(t)}</span>" for k, t in qr_chips) + "</p>") if qr_chips else ""
         qr_html = ("<h4>Quick read</h4><dl class='facts hand'>" + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in qr_rows)
                    + "</dl>") if qr_rows else ""
         top_plus = re.sub(r"\s*\(.*$", "", plus[0]) if plus else ""
         top_warn = re.split(r"[:(—]", warn_items[0][0])[0].strip()[:60] if warn_items else ""
-        verdict = " ".join(x for x in (
-            f"<span class='good'>✅ {e(top_plus)}</span>" if top_plus else "",
-            (f"<span class='bad'>⚠️ {e(top_warn)}" + (f" (+{len(warn_items) - 1} more)" if len(warn_items) > 1 else "") + "</span>")
-            if top_warn else "<span class='muted'>No warnings</span>") if x)
+        verdict = "".join(f"<span class='kp {'good' if i == '✅' else ('bad' if i == '❌' else 'mid')}'>{i} {e(t)}</span>" for i, t in kps) + (
+            (f"<span class='kp bad'>⚠️ {e(top_warn)}" + (f" (+{len(warn_items) - 1} more)" if len(warn_items) > 1 else "") + "</span>")
+            if top_warn else "<span class='kp muted'>No warnings</span>")
         warn_html = ("<h4>Warnings</h4>" + "".join(
             f"<div class='flag'>⚠️ {e(f if len(f) <= 170 else f[:167] + '…')}{f' <b>×{n}</b>' if n > 1 else ''}</div>" for f, n in warn_items)
                      ) if warn_items else ""
@@ -1508,7 +1556,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
       <h2>{e(r.get('symbol') or '?')} <span class="nm">· {e(r.get('name') or '')}</span>
         <button class="ca" data-ca="{e(a_)}" title="Copy the contract address">{e(a_[:6] + '…' + a_[-4:])} ⧉</button> {badges}</h2>
       <p class="sub">{e(money(r.get('mcap')))} · launched {e(ago(r.get('launched')) or '?')} · {e(r.get('where') or '')}</p>
-      <p class="verdict">{'' if qr_line else verdict}</p>
+      <p class="verdict">{verdict}</p>
       {('<p class="tags">' + ''.join(f'<span class="tag">{e(t)}</span>' for t in tags) + '</p>') if tags else ''}
       {qr_line}
       <p class="links">{" · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(t)}</a>' for u, t in links)}</p>
@@ -1601,7 +1649,7 @@ ul{{margin:0;padding-left:20px}} li{{margin:2px 0}}
 .sub,.meta{{color:var(--mute);margin:2px 0;font-size:13px;font-variant-numeric:tabular-nums}}
 .links{{margin:var(--s2) 0 0;font-size:13px;font-weight:550}}
 .verdict{{margin:var(--s2) 0 0;font-size:14px;display:flex;flex-wrap:wrap;gap:var(--s1) var(--s3)}}
-.verdict:empty{{display:none}} .verdict .good{{color:var(--hi)}} .verdict .bad{{color:var(--lo)}} .verdict .muted{{color:var(--mute)}}
+.verdict:empty{{display:none}} .verdict .kp{{display:block;width:100%}} .verdict .mid{{color:var(--mid)}} .verdict .good{{color:var(--hi)}} .verdict .bad{{color:var(--lo)}} .verdict .muted{{color:var(--mute)}}
 .signs{{margin:var(--s2) 0 0;font-size:13px;color:var(--hi);font-weight:600;background:var(--goodbg);border-radius:6px;padding:2px var(--s2);width:fit-content;max-width:100%}}
 .joined{{background:var(--accent);color:var(--card);border-radius:4px;padding:0 6px;margin-right:6px;font-weight:700}}
 .qr{{margin:var(--s2) 0 0;display:flex;gap:4px;flex-wrap:wrap;font-size:12px;font-weight:550}} .qr span{{border-radius:5px;padding:1px 7px}} .qg{{background:var(--goodbg);color:var(--hi)}} .qa{{background:color-mix(in oklab,var(--mid) 14%,transparent);color:var(--mid)}} .qx{{background:var(--flag);color:var(--lo)}}
