@@ -17,7 +17,7 @@ concurrency:          # one scan at a time; a late one waits instead of overlapp
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60   # a scan takes ~35 min now; 45 was too close
     steps:
       - uses: actions/checkout@v4
 

@@ -106,6 +106,7 @@ def pons_busy():
 
 CATCHUP = os.path.join(HERE, "data", "catchup.json")  # older launches still to check (one-time sweep, 5 Nov)
 CATCHUP_PER_RUN = 20
+CATCHUP_SITE_SLOTS = 15  # of the site check's new slots per run, reserved for catch-up tokens
 
 
 def catchup(state):
@@ -124,6 +125,8 @@ def catchup(state):
     if not_pons:
         got.update(dexpools.lookup(not_pons, fetch_json))
     out = [t for t in got.values() if t]
+    for t in out:
+        t["catchup"] = True  # gets reserved site-check slots (site_pass)
     plain |= {a for a, t in got.items() if t and not (t.get("website") or x_info.parse(t.get("twitter"))[0])}
     state["catchup_plain"] = sorted(plain & set(todo))
     gone = {a for a, t in got.items() if not t}  # not on Pons or DexScreener: nothing to check
@@ -1623,6 +1626,10 @@ def site_pass(toks, state, reviews):
                 continue
         todo.append((key, t))
     new = [x for x in todo if x[0] not in sites]
+    # 6 Nov: catch-up tokens kept losing their place to new launches (SEER, HMM never got checked),
+    # so up to CATCHUP_SITE_SLOTS of the slots go to them first; new launches get the rest
+    cu = [x for x in new if x[1].get("catchup")][:CATCHUP_SITE_SLOTS]
+    new = cu + [x for x in new if x not in cu]
     over = [k for k, _ in new[sitecheck.MAX_NEW_PER_RUN:] if k not in looked]
     if over:  # didn't fit this run: queue them for catch-up so a token seen only once isn't lost (5 Nov: HMM)
         q = json.load(open(CATCHUP, encoding="utf-8")) if os.path.exists(CATCHUP) else []
@@ -1690,7 +1697,7 @@ def main():
     for t in pons_busy():  # tokens taking off after they left the newest page (MERY, UPOCH, 5 Nov)
         toks.setdefault(t["address"].lower(), t)
     for t in catchup(state):  # older launches from the one-time sweep, a few a run
-        toks.setdefault(t["address"].lower(), t)
+        toks.setdefault(t["address"].lower(), t)["catchup"] = True
     try:  # every new token trading on Robinhood Chain, not only Pons ones (FOBO, 5 Nov)
         deployers.refresh_index(log)
         for t in dexpools.run(deployers.rpc, fetch_json, deployers.KNOWN, lambda a: a in state["seen"], NOW, log):
