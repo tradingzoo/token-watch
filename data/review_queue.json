@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06T16:06:32+00:00",
+ "updated": "2026-11-06T16:30:34+00:00",
  "tokens": [
   {
    "address": "0x49877f7a758269b4f3d813abf4e2aa37361c995d",
    "symbol": "HCAT",
    "name": "HookCat",
    "score": 70,
-   "mcap": 3674.852345425905,
+   "mcap": 3685.5250847747843,
    "tags": [
     "AI"
    ],
@@ -16,26 +16,11 @@
    "why": "not reviewed yet"
   },
   {
-   "address": "0x93d3c50624cec6a7f5056512374bf0d85810fb6f",
-   "symbol": "CFESS",
-   "name": "Chainfess",
-   "score": 70,
-   "mcap": 3627.1939614935536,
-   "tags": [
-    "AI agents",
-    "Dev tools"
-   ],
-   "website": "https://chainfess.pro",
-   "twitter": "https://x.com/chainfesspro",
-   "github": "chainfess/chainfess",
-   "why": "not reviewed yet"
-  },
-  {
    "address": "0x3585df71e28a48eed265fafbc27334e30ff6d1ff",
    "symbol": "UUAgent",
    "name": "UU Agent",
    "score": 65,
-   "mcap": 3726.8077116480003,
+   "mcap": 3737.631343068,
    "tags": [
     "AI agents"
    ],
@@ -64,7 +49,7 @@
    "symbol": "YARD",
    "name": "Yardkeeper",
    "score": 65,
-   "mcap": 686250.0,
+   "mcap": 690218.0,
    "tags": [],
    "website": "https://tickeryard.com",
    "twitter": "https://x.com/TickerYardHQ",
