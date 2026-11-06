@@ -192,7 +192,8 @@ def dex_tokens():
 
 def market(addr):
     """Symbol, market cap and where it trades now."""
-    pairs = fetch_json(f"https://api.dexscreener.com/tokens/v1/robinhood/{addr}")
+    pairs = [p for p in fetch_json(f"https://api.dexscreener.com/tokens/v1/robinhood/{addr}") or []
+             if ((p.get("liquidity") or {}).get("usd") or 0) >= prices.JUNK_LIQ]  # trap pools give fake prices
     if pairs:
         best = max(pairs, key=lambda p: (p.get("liquidity") or {}).get("usd") or 0)
         return {"symbol": best["baseToken"]["symbol"], "name": best["baseToken"]["name"],

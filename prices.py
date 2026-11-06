@@ -16,6 +16,11 @@ LOGCSV = os.path.join(HERE, "data", "price_log.csv")
 LOG_EVERY_MIN = 30
 
 
+# 6 Nov: a pool with almost no money in it gives a fake price (LETRO: a $0.34 "trap" pool said $13.7k while
+# the real trading was still on the Pons curve). Pools under this are ignored; the Pons page is used instead.
+JUNK_LIQ = 500
+
+
 def _dex_batch(addrs, fetch_json):
     """Market cap for up to 30 tokens per DexScreener call. Returns {addr_lower: (mcap, where)}."""
     out = {}
@@ -26,7 +31,7 @@ def _dex_batch(addrs, fetch_json):
         for p in pairs:
             a = ((p.get("baseToken") or {}).get("address") or "").lower()
             liq = (p.get("liquidity") or {}).get("usd") or 0
-            if a and (a not in best or liq > best[a][0]):
+            if a and liq >= JUNK_LIQ and (a not in best or liq > best[a][0]):
                 best[a] = (liq, p.get("marketCap") or p.get("fdv"), p)
         for a, (liq, m, p) in best.items():
             if m:

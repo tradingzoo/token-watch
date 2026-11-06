@@ -99,5 +99,16 @@
   "notes": [
    "Searched github.com/Capafy/Capafy-skills on 5 Nov: no contract address anywhere"
   ]
+ },
+ "0xa2753fd0bc86b8ceb55ffd2698679c7f214785f1": {
+  "symbol": "LETRO",
+  "checked": "2026-11-06",
+  "notes": [
+   "Devs are real, long-standing accounts: wweziza (since 2022, 964 commits) and kosuxyz (since 2021, 1,334 commits); 2,298 commits since 18 Sep, 15.8 MB of original Rust (only Zed's open-source UI kit is borrowed, credited), 4 signed releases with installers",
+   "Same team's earlier token $AILE (Solana, pump.fun, launched 11 Sep) went from ~$20k to a $543k peak on 6 Oct, then faded to ~$90k (down 83%) with almost no trading by November",
+   "Their own roadmap still lists the token launch as 'later, not started' and public buybacks as 'next': the 50% usage buyback isn't running yet",
+   "The company's other product AILE resells shared ChatGPT/Claude subscriptions, which the AI providers' terms generally don't allow; if Letronna's cheap model prices come from it, that access could be cut",
+   "Launch wallet bought 0.62% and moved it to a second wallet that still holds it (not sold, as of 6 Nov). Graduated from the Pons curve on 6 Nov"
+  ]
  }
 }

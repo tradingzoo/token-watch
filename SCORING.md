@@ -168,3 +168,6 @@ The page plays a short chime when a token newly scores 60+ on the GitHub or Site
 
 ## Every exchange DexScreener shows (6 Nov)
 DexScreener's Robinhood page can't be read by a script (it has a bot check), so the pool feed reads the same thing from the chain: every new pool on Uniswap v4, v2-style exchanges (this includes the flap.sh launchpad, ~580 launches a day), v3-style and Aerodrome-style exchanges. Tokens worth $25k+ with $5k+ liquidity (checked about 1h, 1 day, 3 days and 7 days after their first pool) go to the GitHub and site checks. On 6 Nov the last 24h held ~1,100 tokens outside Uniswap v4, of which 1 had a website: so this is a safety net, not a big source.
+
+## Junk pools ignored for prices (6 Nov)
+A DexScreener pool with under $500 of liquidity is ignored when reading a token's value: tiny "trap" pools give fake prices (LETRO showed $13.7k from a $0.34 pool while it really traded at ~$40k; EXPO showed $26k from a $1 pool while worth $3.7k on Pons). The Pons page is used instead. Highs already recorded from such pools before 6 Nov may be too high.
