@@ -1,52 +1,31 @@
 Pons: 50 tokens on the newest page
 DexScreener: 5 Robinhood Chain tokens in profiles/boosts
 Pons: 79 tokens on the market-cap and volume pages
-Catch-up: 20 older tokens added this run, 254 left
-Wallets: 2 new Pons launches (total 725,388)
-Pool feed: 114 new non-Pons tokens, 165 value checks (0 wait), 26 worth a look, 3285 being followed
-Launch dates: set for 12 listed tokens
-  NEW GITHUB: ANGUSK -> AngusKit/JMock score 30
-  RESCORED: PILOT -> Pfed-prog/EVMExplorer-Blockscout score 25 RED FLAG
-  RESCORED: NYMRA -> Nymrasi/plugin score 45
-  RESCORED: FAIRND -> amiran11/fairround score 60
+Catch-up: 20 older tokens added this run, 245 left
+Wallets: 4 new Pons launches (total 725,399)
+Pool feed: 116 new non-Pons tokens, 224 value checks (0 wait), 39 worth a look, 3341 being followed
+Launch dates: set for 13 listed tokens
+  NEW GITHUB: LIUSTACK -> liustack/tifa score 30
   RESCORED: PILOT -> pilot-protocol/pilotprotocol score 25 RED FLAG
   RESCORED: APT -> S4viour1/astropad score 0 RED FLAG
-  RESCORED: NEPSEQ -> nlethetech/Himmy-personal-agent score 30
-  RESCORED: YTIMESY -> y-times-y/y score 30
-  RESCORED: FUPA -> FupaFinance/Fupa-Whitepaper score 45
-  RESCORED: MERCURY -> cosmicstack-labs/mercury-agent score 25 RED FLAG
-  RESCORED: AKERU -> opencoredev/akeru-bot score 0 RED FLAG
-  RESCORED: RAKAZO -> elie222/rakazo score 25 RED FLAG
-  RESCORED: SAIBOT92 -> tobiasguerrero9-debug/Saibot92 score 10
-  RESCORED: PLUG -> mejango/plugin score 25
-  RESCORED: ZHOOK -> zerohooktrade/zhook-leak-check score 65
-  RESCORED: STONKBROKER -> Clutch-L4bs/stonkbrokers score 70
-  RESCORED: WTH -> cryptoevakristina-bot/what-the-hook-contracts score 65
-  RESCORED: STATICS -> EqualFiLabs/statics score 80
   RESCORED: FLORA -> Coinsult/Audits score 0 RED FLAG
+  RESCORED: EGO -> citrolabs/ego-lite score 50
+  RESCORED: NYMRA -> Nymrasi/plugin score 35
   RESCORED: NYMRA -> Nymrasi/plugin score 45
   RESCORED: SERVER -> Server4Agent/server4agent-go score 35
   RESCORED: NPC -> NOVAPLAYERSCLUB/ score 10
   RESCORED: Agentic -> pons-labs/ score 10
-  RESCORED: WOOD -> sherwoodagent/sherwood-protocol score 75
-  RESCORED: HI -> jacksondavidprice-ui/lalime score 0 RED FLAG
-  RESCORED: HI -> pons-labs/ score 10
-  RESCORED: MI -> pons-labs/ score 10 RED FLAG
-  RESCORED: MI -> pons-labs/ score 10 RED FLAG
   RESCORED: LL -> lacunalabs/lacunalabs.github.io score 0 RED FLAG
   RESCORED: HLABS -> hermes-labs-ai/hermeneutic score 50
-  NEW GITHUB: gulp -> pons-labs/ score 10
-  NEW GITHUB: STARSHIELD -> pons-labs/ score 10
-  NEW GITHUB: IOU-NOTHING -> pons-labs/ score 10
+  RESCORED: ASSTRONAUT -> pons-labs/ score 10
+  NEW GITHUB: SECURTITTIES -> pons-labs/ score 10
+  NEW GITHUB: applecat -> pons-labs/ score 10
+  NEW GITHUB: HORMIES -> bradcush/hormies score 0 RED FLAG
+  NEW GITHUB: STEVE -> Ivwerra/steve-the-microduck score 0 RED FLAG
   NEW GITHUB: 0xZAPS -> 0pen-Zaps/openzaps score 80
   NEW GITHUB: W0G -> 0gfoundation/0gchain-Aristotle score 0 RED FLAG
-Site check: 8 tokens didn't fit this run, queued for catch-up
+Site check: 3 tokens didn't fit this run, queued for catch-up
   SITE RESCORED: RAETO https://raeto.cc score 85 (3 plug-in tools)
-  SITE RESCORED: TRILLET https://trillet.ai score 25 (4 plug-in tools)
-  SITE RESCORED: TRILLET https://trillet.ai score 25 (4 plug-in tools)
-  SITE RESCORED: TRILLET https://trillet.ai score 25 (4 plug-in tools)
-  SITE RESCORED: signalbound https://signalbound.art/ score 45 (2 plug-in tools)
-  SITE RESCORED: DEXTER https://edinetdb.jp score 55 (4 plug-in tools)
   SITE RESCORED: ORYLIA https://orylia.ai score 30 (2 plug-in tools)
   SITE RESCORED: NEBULIX https://nebulixlabs.xyz score 30 (2 plug-in tools)
   SITE RESCORED: DEPTH https://v4depth.xyz score 65 (2 plug-in tools)
@@ -63,11 +42,14 @@ Site check: 8 tokens didn't fit this run, queued for catch-up
   NEW SITE: REALM https://www.realm.trade/ score 60 (3 plug-in tools)
   NEW SITE: RIP https://stockrip.com score 50 (0 plug-in tools)
   NEW SITE: KITSU https://kitsudog.xyz/ score 45 (1 plug-in tools)
+  NEW SITE: OPSIN http://opsinlab.io score 30 (2 plug-in tools)
+  NEW SITE: Fone https://pump.fun score 40 (4 plug-in tools)
   NEW SITE: STARTER https://starterlaunch.net score 40 (3 plug-in tools)
-Site check: 59 sites checked, 7 newly listed, 164 listed in all
-X: refreshed 72 accounts
-Wallets: 7 new Pons launches (total 725,395)
-Shipping: 57 green, 15 amber, 106 red, 206 grey, 29 changes
-Prices: 377 of 378 tokens priced, 377 rows logged
-Done 2026-11-06 03:30 UTC: 214 tokens with GitHub on the page
+Site check: 53 sites checked, 9 newly listed, 166 listed in all
+X: refreshed 22 accounts
+Wallets: 2 new Pons launches (total 725,401)
+Shipping: 55 green, 13 amber, 112 red, 209 grey, 14 changes
+Prices: repaired the high of EGO (merge mix-up)
+Prices: 382 of 383 tokens priced, 382 rows logged
+Done 2026-11-06 04:01 UTC: 217 tokens with GitHub on the page
 Live site: page copied, the workflow pushes it
