@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06T20:32:54+00:00",
+ "updated": "2026-11-06T20:50:29+00:00",
  "tokens": [
   {
    "address": "0x346212384cde8ee3df97c762fbe7e70d617e953f",
    "symbol": "RIG",
    "name": "AgentRig",
    "score": 70,
-   "mcap": 3950.444131385645,
+   "mcap": 3945.2738343242745,
    "tags": [
     "AI agents"
    ],
@@ -20,7 +20,7 @@
    "symbol": "HCAT",
    "name": "HookCat",
    "score": 70,
-   "mcap": 3693.11683821314,
+   "mcap": 3688.2833282327792,
    "tags": [
     "AI"
    ],
@@ -30,11 +30,25 @@
    "why": "not reviewed yet"
   },
   {
+   "address": "0x3585df71e28a48eed265fafbc27334e30ff6d1ff",
+   "symbol": "UUAgent",
+   "name": "UU Agent",
+   "score": 65,
+   "mcap": 3740.4285827999997,
+   "tags": [
+    "AI agents"
+   ],
+   "website": "https://u2u.xyz/",
+   "twitter": "https://x.com/u2u_xyz",
+   "github": "unicornultrafoundation/go-u2u",
+   "why": "not reviewed yet"
+  },
+  {
    "address": "0x1aa89c4ab9884cb65b759a3cc3a1690744d687a6",
    "symbol": "xTOPAZ",
    "name": "Liquid Wrapped veTOPAZ",
    "score": 75,
-   "mcap": 89537.0,
+   "mcap": 89574.0,
    "tags": [
     "DeFi",
     "Public dev"
@@ -49,7 +63,7 @@
    "symbol": "KYTE",
    "name": "Kyte",
    "score": 70,
-   "mcap": 71931.0,
+   "mcap": 72555.0,
    "tags": [
     "DeFi"
    ],
