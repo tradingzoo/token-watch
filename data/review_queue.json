@@ -1,12 +1,27 @@
 {
- "updated": "2026-11-06T14:02:21+00:00",
+ "updated": "2026-11-06T14:23:53+00:00",
  "tokens": [
+  {
+   "address": "0x93d3c50624cec6a7f5056512374bf0d85810fb6f",
+   "symbol": "CFESS",
+   "name": "Chainfess",
+   "score": 70,
+   "mcap": 3729.5823481479856,
+   "tags": [
+    "AI agents",
+    "Dev tools"
+   ],
+   "website": "https://chainfess.pro",
+   "twitter": "https://x.com/chainfesspro",
+   "github": "chainfess/chainfess",
+   "why": "not reviewed yet"
+  },
   {
    "address": "0x49877f7a758269b4f3d813abf4e2aa37361c995d",
    "symbol": "HCAT",
    "name": "HookCat",
    "score": 70,
-   "mcap": 3762.640038906251,
+   "mcap": 3675.7771294095023,
    "tags": [
     "AI"
    ],
@@ -20,7 +35,7 @@
    "symbol": "UUAgent",
    "name": "UU Agent",
    "score": 65,
-   "mcap": 3749.2516182239997,
+   "mcap": 3727.745570304,
    "tags": [
     "AI agents"
    ],
