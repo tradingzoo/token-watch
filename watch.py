@@ -1092,7 +1092,8 @@ NARRATIVES = [
     ("Gaming / NFT", r"\bgames?\b|\bgaming\b|\bNFTs?\b|\barena\b"),
     ("Dev tools", r"\bSDK\b|\bAPI\b|\bdevelopers?\b|\binfrastructure\b|\bRPC\b|\bCLI\b|\bopen[- ]source\b"),
 ]
-MEME = r"\bmeme\b|\bdog\b|\bcat\b|\bpepe\b|\bfrog\b|\binu\b|\bwojak\b|\bmoon\b|\bape\b|\bcommunity token\b"
+MEME = (r"\bmeme\b|\bdog\b|\bdoge\b|\bcat\b|\bpepe\b|\bfrog\b|\binu\b|\bwojak\b|\bmoon\b|\bape\b|\bcommunity token\b"
+        r"|\bmascot\b|\bparody\b")  # mascot, doge, parody added 6 Nov (FLORA, COGE)
 
 
 def narratives(r, sc, xdb):
@@ -1113,6 +1114,15 @@ def narratives(r, sc, xdb):
     if owner and h and gh_x.lower() == h.lower() and m and int(m.group(1)) >= 180:
         tags.append("Public dev")
     return tags
+
+
+def is_meme(r, tags):
+    """Meme coin, for leaving it out of Possible misses (user, 6 Nov: ignore memes for now). Meme words in the name,
+    description or website address (flora.meme), and no AI tag: an AI project is never called a meme."""
+    if any("AI" in t for t in tags):
+        return False
+    return "Meme" in tags or bool(re.search(MEME, " ".join([r.get("name") or "", r.get("description") or "",
+                                                              domain(r.get("website") or "")]), re.I))
 
 
 CHECK_AGE_DAYS = 3        # score check: tokens at least this old...
@@ -1532,6 +1542,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
     cards, site_cards, picks, builders, review_q = [], [], [], [], []
     reviews = json.load(open(REVIEWS, encoding="utf-8")) if os.path.exists(REVIEWS) else {}
     copies = copy_addresses(state, reviews)
+    memes = {r["address"].lower() for r in rows + site_rows if is_meme(r, narratives(r, r["scoring"], xdb))}
     for r in rows + site_rows:
         sc = r["scoring"]
         if sc["score"] < SHOW_AT:  # hidden from the page (user, 6 Nov); still scored and priced
@@ -1806,7 +1817,7 @@ Prices are tracked so we can see whether this works.</p>
 </section>
 <section class="tab" id="status">{shipping.alerts_html(ship, NOW) if ship else '<p>No status data yet.</p>'}</section>
 <section class="tab" id="test">{test_html or '<p>The 30-day test section is refreshed about twice a day.</p>'}</section>
-<section class="tab" id="scores">{score_check_html(state, pdb, e)}{prices.section(pdb, e, SHOW_AT)}</section>
+<section class="tab" id="scores">{score_check_html(state, pdb, e)}{prices.section(pdb, e, SHOW_AT, memes)}</section>
 <section class="tab" id="github">
 <h2 style="margin:22px 0 10px">New tokens with a public GitHub</h2>
 <div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="flag">Red flags</button></div>
