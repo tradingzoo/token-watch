@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06T16:30:34+00:00",
+ "updated": "2026-11-06T16:45:20+00:00",
  "tokens": [
   {
    "address": "0x49877f7a758269b4f3d813abf4e2aa37361c995d",
    "symbol": "HCAT",
    "name": "HookCat",
    "score": 70,
-   "mcap": 3685.5250847747843,
+   "mcap": 3697.2256305987607,
    "tags": [
     "AI"
    ],
@@ -16,11 +16,26 @@
    "why": "not reviewed yet"
   },
   {
+   "address": "0x93d3c50624cec6a7f5056512374bf0d85810fb6f",
+   "symbol": "CFESS",
+   "name": "Chainfess",
+   "score": 70,
+   "mcap": 3649.2770922562813,
+   "tags": [
+    "AI agents",
+    "Dev tools"
+   ],
+   "website": "https://chainfess.pro",
+   "twitter": "https://x.com/chainfesspro",
+   "github": "chainfess/chainfess",
+   "why": "not reviewed yet"
+  },
+  {
    "address": "0x3585df71e28a48eed265fafbc27334e30ff6d1ff",
    "symbol": "UUAgent",
    "name": "UU Agent",
    "score": 65,
-   "mcap": 3737.631343068,
+   "mcap": 3749.4973121760004,
    "tags": [
     "AI agents"
    ],
@@ -42,6 +57,20 @@
    "website": "https://www.topazdex.com",
    "twitter": "https://x.com/TopazDex",
    "github": "topazdex/agent-skill",
+   "why": "not reviewed yet"
+  },
+  {
+   "address": "0x072d88c2f31f568c0f4b8f613692eb489541ed45",
+   "symbol": "KYTE",
+   "name": "Kyte",
+   "score": 70,
+   "mcap": 69627.0,
+   "tags": [
+    "DeFi"
+   ],
+   "website": "https://kyte.sh",
+   "twitter": "https://x.com/useKyte",
+   "github": null,
    "why": "not reviewed yet"
   },
   {
