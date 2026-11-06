@@ -1,12 +1,12 @@
 Pons: 50 tokens on the newest page
 DexScreener: 5 Robinhood Chain tokens in profiles/boosts
 Pons: 79 tokens on the market-cap and volume pages
-Catch-up: 20 older tokens added this run, 242 left
-Wallets: 6 new Pons launches (total 725,407)
-Pool feed: 112 new non-Pons tokens, 0 value checks (0 wait), 0 worth a look, 3397 being followed
-Launch dates: set for 13 listed tokens
+Catch-up: 20 older tokens added this run, 227 left
+Wallets: 3 new Pons launches (total 725,416)
+Pool feed: 131 new non-Pons tokens, 116 value checks (0 wait), 30 worth a look, 3472 being followed
+Launch dates: set for 16 listed tokens
   RESCORED: OAK -> OakAgentKit/oak score 65
-  NEW GITHUB: LIUSTACK -> liustack/tifa score 30
+  NEW GITHUB: CAVEMAN -> JuliusBrussee/caveman score 60
   RESCORED: CUBE -> collabs-inc/cube-releases score 0 RED FLAG
   RESCORED: LMNI -> lemniscatedev/lemniscate score 40
   RESCORED: AGAV -> prapaa-ai/agav score 40
@@ -31,18 +31,18 @@ Launch dates: set for 13 listed tokens
   RESCORED: Perpets -> perpetsdev/ score 35
   RESCORED: PKL -> PMDCollab/SpriteCollab score 0 RED FLAG
   RESCORED: CHARITY -> ponscharity/ponscharity score 50
-  RESCORED: NYMRA -> Nymrasi/plugin score 35
+  RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
   RESCORED: DARE -> loodev3/dictator-dares score 40
   RESCORED: DARE -> loodev3/dictator-dares score 40
-  RESCORED: NYMRA -> Nymrasi/plugin score 35
-  RESCORED: NYMRA -> Nymrasi/plugin score 35
-  RESCORED: NYMRA -> Nymrasi/plugin score 35
+  RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
+  RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
+  RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
   RESCORED: RACKS -> RacksHq/ score 45
-  RESCORED: NYMRA -> Nymrasi/plugin score 35
-  RESCORED: NYMRA -> Nymrasi/plugin score 35
+  RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
+  RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
   RESCORED: CUBE -> collabs-inc/cube-releases score 25 RED FLAG
-  RESCORED: NYMRA -> Nymrasi/plugin score 35
-  RESCORED: NYMRA -> Nymrasi/plugin score 45
+  RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
+  RESCORED: NYMRA -> Nymrasi/plugin score 0 RED FLAG
   RESCORED: SEO -> iannuttall/seo score 25 RED FLAG
   RESCORED: CBROWS -> alexandriashai/cbrowser score 50
   RESCORED: DESICT -> xiazhi88/Desic-Terminal score 50
@@ -58,36 +58,30 @@ Launch dates: set for 13 listed tokens
   RESCORED: SBOR -> sborxyz/sbor score 65
   RESCORED: DI -> pons-labs/ score 10
   RESCORED: KROMT -> kromtxyz/kromt-rpcsh score 50
-  RESCORED: EGO -> citrolabs/ego-lite score 50
-  RESCORED: NYMRA -> Nymrasi/plugin score 35
   RESCORED: FRONG -> perlacompute/perla-compute score 0 RED FLAG
   RESCORED: OMAR -> omar-os/omar score 25 RED FLAG
   RESCORED: BLACKPOOL -> blackpooldev/blackpool score 65
   RESCORED: OMAR -> omar-os/omar score 25 RED FLAG
   RESCORED: TEST -> EtchydotFun/etchy-zero score 50
   RESCORED: RAXOL -> DROOdotFOO/raxol score 65
-  RESCORED: ASSTRONAUT -> pons-labs/ score 10
-  RESCORED: BROW -> alexverify/eyebrow score 65
+  RESCORED: BROW -> alexverify/eyebrow score 0 RED FLAG
   RESCORED: OCLI -> officecli/officecli score 30
   RESCORED: UTILITY -> pons-labs/ score 10
   RESCORED: VEX -> Vex-Foundation/Vex score 70
   NEW GITHUB: Nautilo -> agentsea/nautilo score 65
   NEW GITHUB: SYK -> stryke-xyz/sdk score 40
   NEW GITHUB: GLOAM -> cryptoduke01/gloam score 80
-  SITE RESCORED: ZENO https://zenomarkets.tech score 45 (0 plug-in tools)
-  SITE RESCORED: M69 https://money2069.org/ score 55 (2 plug-in tools)
+Site check: 3 tokens didn't fit this run, queued for catch-up
   SITE RESCORED: VESP https://vespora.xyz score 30 (2 plug-in tools)
   SITE RESCORED: XORA https://neuxora.me score 60 (3 plug-in tools)
+  SITE RESCORED: ZENO https://zenomarkets.tech score 45 (0 plug-in tools)
   NEW SITE: SZR https://sazare.io score 60 (1 plug-in tools)
   NEW SITE: ALFA https://alfaclub.app/ score 65 (2 plug-in tools)
-  NEW SITE: OPSIN http://opsinlab.io score 30 (2 plug-in tools)
-  NEW SITE: Fone https://pump.fun score 40 (4 plug-in tools)
-  NEW SITE: ICOIN http://icoin.world score 40 (0 plug-in tools)
-Site check: 44 sites checked, 5 newly listed, 169 listed in all
-X: refreshed 11 accounts
-Wallets: 6 new Pons launches (total 725,413)
-Shipping: 60 green, 14 amber, 107 red, 212 grey, 6 changes
-Prices: repaired the high of EGO (merge mix-up)
-Prices: 386 of 387 tokens priced, 386 rows logged
-Done 2026-11-06 04:27 UTC: 218 tokens with GitHub on the page
+  NEW SITE: RAETO http://raeto.cc score 60 (3 plug-in tools)
+Site check: 45 sites checked, 3 newly listed, 169 listed in all
+X: refreshed 30 accounts
+Wallets: 8 new Pons launches (total 725,424)
+Shipping: 57 green, 25 amber, 93 red, 221 grey, 29 changes
+Prices: 389 of 390 tokens priced, 389 rows logged
+Done 2026-11-06 05:11 UTC: 221 tokens with GitHub on the page
 Live site: page copied, the workflow pushes it
