@@ -73,10 +73,10 @@
   },
   "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": {
    "symbol": "AUTONOMO",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-05T23:26:47+00:00"
+   "left": null
   },
   "0xa3b6b325f7937f97b3df9f7ee654d7463c2382da": {
    "symbol": "LOT",
@@ -312,15 +312,15 @@
   "0x8ff92566f2e81bdd68edfaa8cde73942a723796b": {
    "symbol": "VEX",
    "in": true,
-   "joined": "2026-11-06T11:58:49+00:00",
-   "first": "2026-11-06T11:58:49+00:00",
+   "joined": "2026-11-06T11:33:20+00:00",
+   "first": "2026-11-06T11:33:20+00:00",
    "left": null
   },
   "0x7168563b0e70124f0c7c0cf2f13a8d1861baf4a5": {
    "symbol": "BACKED",
    "in": true,
-   "joined": "2026-11-06T12:40:38+00:00",
-   "first": "2026-11-06T12:40:38+00:00",
+   "joined": "2026-11-06T12:59:42+00:00",
+   "first": "2026-11-06T12:59:42+00:00",
    "left": null
   }
  }
