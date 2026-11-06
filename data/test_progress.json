@@ -1,14 +1,14 @@
 {
- "checked": "2026-11-06T15:00:59+00:00",
- "day": 2.1,
+ "checked": "2026-11-06T15:29:34+00:00",
+ "day": 2.2,
  "tokens": [
   {
    "symbol": "LMNI",
    "group": "watch",
    "address": "0x63b5C2B1eB93Ad62EA06560370f4f317eE1b97D3",
    "day0": 127078,
-   "now": 4016,
-   "high": 207594.96906876084,
+   "now": 3969,
+   "high": 207569.54102699802,
    "passing": false
   },
   {
@@ -16,8 +16,8 @@
    "group": "watch",
    "address": "0x6511c233790Ec10f7d673c64DC82C3F941D57828",
    "day0": 596825,
-   "now": 727575,
-   "high": 972666.3998465248,
+   "now": 742864,
+   "high": 972732.2157664939,
    "passing": true
   },
   {
@@ -25,7 +25,7 @@
    "group": "watch",
    "address": "0x2e4edef92d5cf2b2e08b18f240e896c71bfcac8c",
    "day0": 4565.185489065411,
-   "now": 3636.0104139493,
+   "now": 3626.2290545168303,
    "high": 4565.185489065411,
    "passing": false
   },
@@ -34,7 +34,7 @@
    "group": "watch",
    "address": "0x257bd594a54f04c3a5d77f87971233b13236c091",
    "day0": 3803.220887229837,
-   "now": 3631.0871087408,
+   "now": 3621.3189936647423,
    "high": 3964.0241726576623,
    "passing": false
   },
@@ -43,7 +43,7 @@
    "group": "watch",
    "address": "0x837ccf4a9f150458b624ccde0caad4b67e8bdd75",
    "day0": 3886.351688047719,
-   "now": 3710.4554094888995,
+   "now": 3700.473782956939,
    "high": 4050.6698116319735,
    "passing": false
   },
@@ -52,8 +52,8 @@
    "group": "benchmark",
    "address": "0x18E674231A58c239Dc7DaeDcffE15Ec3A24cff5c",
    "day0": 20664651,
-   "now": 23750184,
-   "high": 30826352.619947065,
+   "now": 23743616,
+   "high": 30817827.73929739,
    "passing": true
   },
   {
@@ -61,8 +61,8 @@
    "group": "benchmark",
    "address": "0xb8Fa8010833463Aac5595b55B9045479239EfF79",
    "day0": 6249324,
-   "now": 6745272,
-   "high": 6987395.351295622,
+   "now": 6661677,
+   "high": 6988612.469400651,
    "passing": true
   },
   {
@@ -70,17 +70,17 @@
    "group": "benchmark",
    "address": "0xeDBf91223639800BCd5756815CAf908Df3b890bE",
    "day0": 11978359,
-   "now": 12402546,
-   "high": 15253629.274399357,
-   "passing": true
+   "now": 11930147,
+   "high": 15250685.917563325,
+   "passing": false
   },
   {
    "symbol": "FOBO",
    "group": "benchmark",
    "address": "0x000DE658153f47f23e92973C8EB1e89762703676",
    "day0": 3301443,
-   "now": 3179453,
-   "high": 3915594.1361238314,
+   "now": 3276239,
+   "high": 3915685.437676017,
    "passing": false
   },
   {
@@ -88,8 +88,8 @@
    "group": "benchmark",
    "address": "0x72bE1277E198D0C476869253Cb4E62807e14533c",
    "day0": 2735240,
-   "now": 3237180,
-   "high": 3676818.776206398,
+   "now": 3263706,
+   "high": 3677409.8223451925,
    "passing": true
   },
   {
@@ -97,8 +97,8 @@
    "group": "faded",
    "address": "0xfed6b187f6da04e2eae5d3ea89b57129da62b28a",
    "day0": 3106117,
-   "now": 2579289,
-   "high": 3107329.74652976,
+   "now": 2585259,
+   "high": 3106777.130288892,
    "passing": false
   },
   {
@@ -106,7 +106,7 @@
    "group": "faded",
    "address": "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725",
    "day0": 6611868,
-   "now": 4700113,
+   "now": 4688667,
    "high": 6611868,
    "passing": false
   },
@@ -115,8 +115,8 @@
    "group": "faded",
    "address": "0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3",
    "day0": 31506408,
-   "now": 29383907,
-   "high": 37007578.717392,
+   "now": 29122213,
+   "high": 37013056.13740937,
    "passing": false
   },
   {
@@ -124,7 +124,7 @@
    "group": "faded",
    "address": "0xdee52f2ab639b6942b0d0f0565400b93b7a0fbe5",
    "day0": 2099933,
-   "now": 2187016,
+   "now": 2201987,
    "high": 2893048,
    "passing": true
   },
@@ -133,7 +133,7 @@
    "group": "faded",
    "address": "0x451b42a15100c340ca12f7c66de06fac5ea2d751",
    "day0": 4136838,
-   "now": 3265236,
+   "now": 3296568,
    "high": 4240215,
    "passing": false
   },
@@ -142,7 +142,7 @@
    "group": "faded",
    "address": "0x5173b8ea6923c2d40267890d45c46a3480954773",
    "day0": 1497201,
-   "now": 1210164,
+   "now": 1209970,
    "high": 1601272,
    "passing": false
   }

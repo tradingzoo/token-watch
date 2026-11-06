@@ -45,17 +45,17 @@
   },
   "0xb8fa8010833463aac5595b55b9045479239eff79": {
    "symbol": "WTH",
-   "in": false,
-   "joined": null,
-   "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-06T08:31:43+00:00"
-  },
-  "0xe934e36a439c94017b64a3fece66af12099abf50": {
-   "symbol": "STONKBROKER",
    "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
    "left": null
+  },
+  "0xe934e36a439c94017b64a3fece66af12099abf50": {
+   "symbol": "STONKBROKER",
+   "in": false,
+   "joined": null,
+   "first": "2026-11-05T15:12:26+00:00",
+   "left": "2026-11-06T15:05:47+00:00"
   },
   "0xf44702b17d9abd53815f703e772f35e9c71a53af": {
    "symbol": "RAXOL",
@@ -73,10 +73,10 @@
   },
   "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": {
    "symbol": "AUTONOMO",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-06T14:02:21+00:00"
+   "left": null
   },
   "0xa3b6b325f7937f97b3df9f7ee654d7463c2382da": {
    "symbol": "LOT",
@@ -220,24 +220,24 @@
   },
   "0x2d8d6f4a93acd7a916a5a654ec8b690ba3b3eadd": {
    "symbol": "STATICS",
+   "in": false,
+   "joined": "2026-11-05T23:26:47+00:00",
+   "first": "2026-11-05T23:26:47+00:00",
+   "left": "2026-11-06T15:05:47+00:00"
+  },
+  "0x2a13008cc2f5a853f6fb21cbd90841806c64b247": {
+   "symbol": "TROLL",
    "in": true,
    "joined": "2026-11-05T23:26:47+00:00",
    "first": "2026-11-05T23:26:47+00:00",
    "left": null
   },
-  "0x2a13008cc2f5a853f6fb21cbd90841806c64b247": {
-   "symbol": "TROLL",
-   "in": false,
-   "joined": "2026-11-05T23:26:47+00:00",
-   "first": "2026-11-05T23:26:47+00:00",
-   "left": "2026-11-06T09:45:09+00:00"
-  },
   "0xfc5a5c521c80d8e1d6b5aee6454b8c9483c91bff": {
    "symbol": "LLL",
-   "in": false,
+   "in": true,
    "joined": "2026-11-06T02:03:39+00:00",
    "first": "2026-11-06T02:03:39+00:00",
-   "left": "2026-11-06T14:43:35+00:00"
+   "left": null
   },
   "0xbc9e7b1c5c0081f4ae85e71ec95703d3dec9ffad": {
    "symbol": "Bucket",
@@ -248,10 +248,10 @@
   },
   "0xc72f232a6869e6cf34dc06129affd07f8a2a246a": {
    "symbol": "MANCER",
-   "in": false,
+   "in": true,
    "joined": "2026-11-06T02:03:39+00:00",
    "first": "2026-11-06T02:03:39+00:00",
-   "left": "2026-11-06T14:43:35+00:00"
+   "left": null
   },
   "0xc60ba256b44334a0cd2c7242e98b88f031abb006": {
    "symbol": "V4",
@@ -318,10 +318,10 @@
   },
   "0x7168563b0e70124f0c7c0cf2f13a8d1861baf4a5": {
    "symbol": "BACKED",
-   "in": true,
+   "in": false,
    "joined": "2026-11-06T12:59:42+00:00",
    "first": "2026-11-06T12:59:42+00:00",
-   "left": null
+   "left": "2026-11-06T15:05:47+00:00"
   }
  }
 }
