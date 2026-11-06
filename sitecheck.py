@@ -34,7 +34,7 @@ OTHER = {
     "access": r"\b(?:holders? of|holding|hold) (?:at least |over )?\d[\d,.]*\s*(?:k|m|thousand|million)?\s*\$?[A-Za-z]{2,}"
               r"|\btoken[- ]gated\b|\bholder'?s? (?:api )?keys?\b|\bavailable (?:only )?to holders\b",
     "rh": r"stock tokens?|tokeni[sz]ed (?:stock|equit)|\bUSDG\b",
-    "app": r"launch (?:app|console)|open app|connect wallet|\bdashboard\b",
+    "app": r"launch (?:the )?(?:app|console)|open (?:the )?app|connect wallet|\bdashboard\b",
     "audit": r"\baudit(?:ed)?\b",
     "agents": r"\bAI agents?\b|\bagents? (?:can|pay|that)\b|\byour agents?\b|\bfor agents\b|\bagent[- ]native\b",
     "winners": r"hookr\.fun|orbio\.so|raeto\.cc|priors\.trade|harmonicagent|whatthehook|fobo\.fun|deltaliquidity|ubik\.gold",
@@ -138,7 +138,8 @@ def score(tok, review, w):
     # --- Plug-in tools (40): the four the study found ---
     n_tools = 0
     for name, rx, words in TOOLS:
-        ok = bool(re.search(rx, text, re.I))
+        # a tool counts only if not denied: "MCP... no API key" had scored API keys (MERY, 6 Nov)
+        ok = any(not w.said_not(text, m.start()) for m in re.finditer(rx, text, re.I))
         n_tools += ok
         add("Plug-in tools", 10 if ok else 0, ("Site offers " if ok else "No sign of ") + words)
     n_tools += bool(llms)
@@ -209,7 +210,7 @@ def score(tok, review, w):
     add("Live product", 5 if (ag or ag_x) else 0,
         "Made for AI agents to use" if ag else (f"Made for AI agents to use (says so on their X @{ox['official']})" if ag_x
                                                  else "Not aimed at AI agents"))
-    au = bool(re.search(OTHER["audit"], text, re.I))
+    au = w.says_audited(text)  # "not audited" / "unaudited" do not count (6 Nov)
     add("Live product", 5 if au else 0, "Mentions an audit — not checked" if au else "No audit mentioned", "🟡" if au else "❌")
     pay = re.search(OTHER["pay"], text, re.I)
     add("Money and Robinhood Chain", 5 if pay else 0, f"Takes real payments (“{pay.group(0)}”): a service with paying customers" if pay

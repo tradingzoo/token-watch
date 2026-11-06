@@ -133,22 +133,30 @@
  },
  "0x134e52ed8ee01cbb1fb714098b606c57366369fd": {
   "symbol": "MERY",
-  "checked": "2026-11-06",
+  "checked": "2026-11-06 (deep dive 07:30 UTC)",
   "notes": [
-   "Site (meryalraven.sbs) posts the CA and links 3 contracts on Blockscout (pool, public vault, sealed vault). Says: 'Live beta, not audited… Use small amounts.' ZK proofs use a setup run by the operator until a public ceremony (roadmap step 1).",
-   "Borrowing runs through Morpho's NVDA/USDG market at Morpho's rate; liquidation at 58%. Only NVDA so far; TSLA, AAPL listed as next after an audit.",
-   "Token: relayers and approvers bond $MERYAL and lose it on a provable fault. Site says 'No fee is redistributed: there is no buyback, no burn tax and no revenue share.' The scanner's 'says money goes back to the token (buyback)' (+10) is a misread of that sentence.",
-   "Says Apache 2.0 (open source) but no public GitHub was found. Contract use couldn't be checked (Blockscout blocks automated checks).",
-   "Market 6 Nov: ~$57k value, $189k traded in 24h (1,848 trades) on ~$21k liquidity: big swings ($74k → $23k → $57k since 5 Nov). X @Meryal_Raven made 28 Oct, 216 followers. Launch wallet: first and only token."
+   "Deep dive 6 Nov 07:26-07:30 UTC (checklist in CLAUDE.md). Sources: their pages meryalraven.sbs/, /token, /developers, /borrow, /credit, /sealed; their API /api/v1/models and /api/live?what=config; Robinhood Chain event logs for the contracts that config lists; npm registry; GitHub search.",
+   "Token (/token): 'Keepers and relayers bond $MERY to run Meryal... a fault a contract can check costs 10% of it. No trading fee is redistributed: no buyback, no burn tax, no revenue share.' Bonds contract 0xf822a1Bb: 0 events.",
+   "Usage since contracts went live 5 Nov 07:09 UTC: pool 0x4FFCAD6a 5 transactions, all from their operator 0x499923aa; vault, sealed, credit, bonds, registry, settler: 0 events. Older contracts: pool 10 tx all operator; vault 4 tx from 2 wallets (1 operator).",
+   "Paid AI API (/api/v1/models): one model 'meryal/sandbox' ('answers about Meryal, deterministic, for the demo'); payment 'verified, not settled (no facilitator configured)'.",
+   "SDK shown on /developers and /agents (@meryal/rx402) is not on npm. No public GitHub found, though the site says Apache 2.0. 'Live beta. Not audited.' Proof setup run by the operator until a public ceremony.",
+   "Scanner corrections: 'buyback' (+10) misread of 'no buyback' (fixed 6 Nov); 'API keys' (+10) misread of 'no API key' (fixed 6 Nov); 'no working app' is wrong: app pages exist (/borrow, /credit), but nobody outside the team uses them.",
+   "Trading 6 Nov ~05:30 UTC: a bot (157k transactions) plus 5 near-new wallets holding identical 0.4950 ETH balances bought in the same seconds; this looks manufactured, not demand (GeckoTerminal trades + RPC).",
+   "Domain is new (in the ShortDot new-domain list for 29-30 Oct, github.com/phishdestroy/shortdot-evidence); .sbs is a cheap ending often used for scams: context, not an accusation."
   ],
   "review": {
-   "What it does": "Borrow against tokenized stocks, spend privately from addresses nobody can link, and let AI agents pay per request or on credit.",
-   "Unique?": "Rare combination: private spending plus agent credit, backed by Robinhood Chain stocks. Built from known parts (Morpho, x402, ZK proofs).",
-   "Scalable?": "Unproven: live beta, not audited, one stock (NVDA) so far.",
-   "Narrative fit": "Strong: AI agents that pay, tokenized stocks, privacy. Uses Robinhood Chain's own assets.",
-   "How it makes money": "Not stated. Borrowing goes through Morpho at Morpho's rate.",
-   "Token today": "A bond: operators stake it and lose it if they cheat. No buyback, burn or revenue share (their words).",
-   "Watch for": "Not audited, 'use small amounts' · operator holds the proof setup until a public ceremony · thin pool ($21k), big swings · no public code"
+   "What it does": "Borrow against NVDA stock tokens into a private pool, spend privately, let AI agents pay on credit. Not for US persons.",
+   "Unique?": "Rare mix (private borrowing + agent credit on stock tokens), built from known parts (Morpho, x402, ZK proofs).",
+   "In use?": "No outside users yet: every pool transaction is their own operator's; 0 borrows, 0 credit lines, 0 bonds (on-chain, 6 Nov).",
+   "How it makes money": "None yet: the paid AI API is a demo model and its payments are 'verified, not settled'.",
+   "Token today": "Only an operator bond, and no bonds posted yet. No buyback, burn or revenue share (their words).",
+   "Team": "Anonymous. X made 28 Oct, domain 29-30 Oct, token 3 Nov, contracts 5 Nov.",
+   "Watch for": "Outside wallets borrowing · bonds posted · npm SDK published · real AI models on the gateway · public code"
+  },
+  "token_use": {
+   "none": true,
+   "text": "only an operator bond (10% cut on a proven fault, 14-day unbond), and no bonds posted yet; their site says no buyback, no burn tax and no revenue share",
+   "source": "meryalraven.sbs/token and homepage, read 6 Nov 07:26 UTC; bonds contract 0xf822a1Bb, 0 events (Robinhood Chain RPC)"
   }
  }
 }

@@ -434,7 +434,7 @@ def score_private(tok, full, owner, user, found_on, symbol_counts, review, reaso
     ok = age >= 90 or (user.get("followers") or 0) >= 10
     add("Team", 10 if ok else 0, f"GitHub account {age:.0f} days old, {user.get('followers', 0)} followers")
     # Safety (10): only what their own pages say
-    sec = [x for x in ("audit", "timelock") if x in text]
+    sec = [x for x in ("audit", "timelock") if (says_audited(text) if x == "audit" else x in text)]
     add("Safety", 5 if sec else 0, ("Their docs mention: " + ", ".join(sec)) if sec else "No audit or timelock info on their pages")
     if symbol_counts.get(tok.get("symbol"), 0) >= 3:
         flags.append(f"{tok.get('symbol')} was launched {symbol_counts[tok.get('symbol')]} times on Pons")
@@ -632,6 +632,15 @@ NEG_BEFORE = re.compile(r"\b(?:no|not|never|without|zero|nor|don'?t|doesn'?t|won
 def said_not(text, start):
     """True if the words just before position `start` deny it ("there is no buyback")."""
     return bool(NEG_BEFORE.search(text[max(0, start - 60):start]))
+
+
+AUDIT_RE = re.compile(r"\b(un)?audit(?:ed|s)?\b", re.I)
+
+
+def says_audited(text):
+    """An audit is mentioned and not denied: "not audited", "no audit", "unaudited" don't count (6 Nov: EXPO and
+    OFFROUTER only say they are NOT audited; 44 of 55 shown tokens 'mentioned an audit')."""
+    return any(not m.group(1) and not said_not(text, m.start()) for m in AUDIT_RE.finditer(text))
 
 
 def back_hits(text):
@@ -995,7 +1004,7 @@ def score(tok, full, found_on, symbol_counts, review):
     if not has_addr and gh_where and gh_where != ["README"]:  # note only, no points (user, 6 Nov)
         reasons["Safety"].append(f"ℹ️ The token's address is in the {' and '.join(gh_where)}, just not in the README")
     sec = [x for x, ok in (("SECURITY file", any(p.lower().endswith("security.md") for p in tree)),
-                           ("audit", "audit" in text or any("audit" in p.lower() for p in tree)),
+                           ("audit", says_audited(text) or any("audit" in p.lower() for p in tree)),
                            ("timelock", "timelock" in text)) if ok]
     add("Safety", 5 if sec else 0, ("Safety info: " + ", ".join(sec)) if sec else "No security, audit or timelock info")
     if any("audit" in p.lower() for p in tree) and "ai" in " ".join(p.lower() for p in tree if "audit" in p.lower()):
@@ -1531,7 +1540,23 @@ def quick_read(r, sc, tags, warn_items, act, xdb=None):
     return chips, rows
 
 
-def key_points(sc, act):
+def token_use(sc, hand=None):
+    """(icon, text) for what the TOKEN does for holders, kept apart from what the product earns (user, 6 Nov, after
+    MERY: its token is only an operator bond and the card must say so). hand = reviews.json "token_use"."""
+    if hand:
+        return ("❌" if hand.get("none") else "🟡",
+                ("Token has no use for holders: " if hand.get("none") else "Token: ") + hand.get("text", ""))
+    lines = sum(sc.get("reasons", {}).values(), [])
+    back = next((x for x in lines if re.search(r"🟡 Says (?:fees|money) go(?:es)? back to the token", x)), None)
+    if back:
+        m = re.search(r"\(([^)]*)\)", back)
+        return ("🟡", "Token: fees go back to holders, claimed" + (f" ({m.group(1)})" if m else ""))
+    if any(re.search(r"Holding the token unlocks", x) for x in lines):
+        return ("🟡", "Token: holding it unlocks the product, claimed")
+    return ("❌", "Token has no use for holders: no buyback, fee share or unlock found")
+
+
+def key_points(sc, act, tu=None):
     """Up to 3 written-out key points for the closed card (user, 6 Nov): is it theirs, the money claim, the
     GitHub/product activity. Each is (icon, text) taken from the score's own lines, shortened."""
     lines = sum(sc.get("reasons", {}).values(), [])
@@ -1547,7 +1572,8 @@ def key_points(sc, act):
     t = pick(r"Token's address is posted by") or pick(r"Token's address isn't")
     if t:
         out.append(("✅" if t.startswith("✅") else "❌", tidy(t)))
-    m = pick(r"✅ Takes real payments") or pick(r"Says (?:fees|money) go(?:es)? back to the token") or pick(r"Looks like it earns fees|Maybe earns fees")
+    out.append(tu or token_use(sc))  # what the token does for holders: always shown (6 Nov)
+    m = pick(r"✅ Takes real payments") or pick(r"Looks like it earns fees|Maybe earns fees")  # what the product earns
     if m:
         out.append(("✅" if m.startswith("✅") else "🟡", tidy(re.sub(r" \(“[^”]*”\)", "", m))))
     c = pick(r"\d+ changes over \d+ days")
@@ -1563,7 +1589,7 @@ def key_points(sc, act):
             out.append(("✅", "Plug-in tools: " + ", ".join(tools)))
         elif pick(r"Has a working app"):
             out.append(("✅", "Has a working app"))
-    return out[:3]
+    return out[:4]
 
 
 def ago(ts):
@@ -1700,8 +1726,11 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         parts, plus, minus, cap = score_bits(sc)
         tags = narratives(r, sc, xdb)
         act = build_activity(a_, ship)
-        kps = key_points(sc, act)
+        tu = token_use(sc, reviews.get(a_.lower(), {}).get("token_use"))
+        kps = key_points(sc, act, tu)
         qr_chips, qr_rows = quick_read(r, sc, tags, warn_items, act, xdb) if sc["score"] >= QUICK_AT else ([], [])
+        if qr_rows:
+            qr_rows.insert(2, ("Token", tu[1].replace("Token: ", "").replace("Token has no use for holders: ", "No use for holders: ")))
         said_kp = " ".join(t for _, t in kps).lower()
         def _shown(t):  # a chip the key points already say (user, 6 Nov: key points first, chips for the rest)
             return ((t.startswith(("CA on", "CA not posted")) and ("address" in said_kp))

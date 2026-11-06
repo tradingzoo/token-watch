@@ -19,6 +19,23 @@ Read this first in every session. It carries the working rules agreed with the o
 - Code changes take effect at the next scan.
 - Test page changes by building from saved data with phone alerts stubbed out (`notify.update`) and output sent to a temp folder, not `site/`.
 
+## Token deep dive (when the owner asks to review / deep-dive / research a token)
+Run every step, then report in one page. Tested on MERY 6 Nov: it found what a quick review missed (no outside users,
+SDK not published, paid API only a demo, token's one use unused, two scanner misreads).
+1. **Theirs?** Where the team posts this exact address (site, X, GitHub): quote + link. If nowhere: "not confirmed" at the top.
+2. **Copies / launcher:** same name, site or repo on our lists; launch wallet history (data/wallets.json).
+3. **Read everything:** every page of the site (home, docs, token, developers, app pages, roadmap, risks), X bio and recent posts.
+4. **Product:** one plain sentence; live (app link) / beta / idea; who can't use it.
+5. **Token's job for holders:** quote the sentence. Fees back / holding unlocks / bond or deposit / **no use**.
+6. **Money:** pricing or fees; check any paid API is real (call its public endpoints). "Not stated" if none.
+7. **Is anyone using it?** Count on-chain activity on the contracts they list (Robinhood Chain RPC eth_getLogs) and who sent it (team/operator vs outside wallets). Check claimed SDKs exist (npm/PyPI), code is public (GitHub), audit done / planned / none (quote).
+8. **Team:** named people? account and domain ages; earlier projects or tokens and how they went.
+9. **Check the scanner:** every claim on the card against the source; list corrections (then fix the scanner if it's a pattern).
+10. **Compare:** 2-3 closest projects on our lists plus the closest winner, one table (live product, payments, token use, users, code, audit, followers).
+11. **Risks:** each with its source.
+12. **Verdict (3 lines):** what's strong, what's missing, what would change the view (specific things to watch).
+Rules: every fact gets a source and check time; "not checked" is never "no"; no price/volume analysis unless asked (trading can be faked; the project builds conviction); AI projects first. Afterwards save the result in reviews.json: `review` (What it does, Unique?, In use?, How it makes money, Token today, Team, Watch for: one short sentence each), `notes` (evidence with sources), `token_use`.
+
 ## Agreed rules (don't change without asking)
 - **Page cut-off: only 61+ shows** (`SHOW_AT`), on every tab. Lower scores are still scored and priced. The "Was the score right?" tab lists **Possible misses** (hidden tokens that doubled to $25k+), with meme coins left out (counted only).
 - **One card per project, proof not size.** Same project = same repo, website, or symbol + name. The real token is the one whose address the team posted (X, site, GitHub) or a hand check confirmed. Never pick by market cap or launch time: the fake can be bigger or first. Unconfirmed groups get a "Not confirmed" box listing every address and launch wallet.
