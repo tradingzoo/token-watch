@@ -347,7 +347,7 @@
   "perpetsrh": {
    "handle": "PerpetsRh",
    "found": false,
-   "checked": "2026-11-06T02:52:36+00:00",
+   "checked": "2026-11-06T22:30:30+00:00",
    "cas": [],
    "fake_posts": []
   },
@@ -1077,7 +1077,7 @@
   },
   "perpetslol": {
    "handle": "perpetslol",
-   "found": true,
+   "found": false,
    "id": "2117974219162296320",
    "name": "Perpets",
    "joined": "2026-11-04T13:38:10+00:00",
@@ -1098,7 +1098,8 @@
    "texts": [
     "Trading bots are cold. Dashboards are boring. Meet Perpets: AI trading agents you raise like virtual pets. Hatch, train skills, set hard safety limits and send them to the Arena to battle for the pot. Built on Robinhood Chain perps. Free in paper mode! https://perpets.lol"
    ],
-   "checked": "2026-11-06T02:52:36+00:00"
+   "checked": "2026-11-06T22:30:30+00:00",
+   "gone_since": "2026-11-06T22:30:30+00:00"
   },
   "longbowlend": {
    "handle": "longbowlend",
@@ -8022,7 +8023,7 @@
    "sample_full_week": false,
    "posts_7d": 4,
    "avg_likes": 0.6,
-   "avg_views": 98,
+   "avg_views": 99,
    "bio_site": null,
    "bio": "Dihvelopuh (developer)",
    "cas": [],
@@ -8049,7 +8050,7 @@
     "D9UsGM7vtuHPJF9DuccoZbHbR8gpXDCDZDFb3HAXpump",
     "HOW HAS THIS NOT BEEN DONE YET??? This guy on Reddit painted IRL the iconic Will Smith eating spaghetti AI meme (back to 2022) 21K+ upvotes on the original post and another 10K+ on a repost today http://reddit.com/r/oilpainting/comments/1xgxzmz/stealing_back_from_ai_will_devouring_his_sketti/ https:"
    ],
-   "checked": "2026-11-06T02:03:39+00:00"
+   "checked": "2026-11-06T22:30:30+00:00"
   },
   "nlethetech": {
    "handle": "nlethetech",
@@ -11934,21 +11935,22 @@
    "id": "2102436310946365440",
    "name": "Realm",
    "joined": "2026-09-22T16:36:33+00:00",
-   "followers": 405,
+   "followers": 404,
    "following": 1,
-   "posts": 72,
+   "posts": 73,
    "verified": "individual",
-   "last_post": "2026-11-05T12:59:10+00:00",
-   "sample": 16,
+   "last_post": "2026-11-06T19:52:29+00:00",
+   "sample": 17,
    "sample_full_week": false,
-   "posts_7d": 8,
-   "avg_likes": 10.1,
-   "avg_views": 506,
+   "posts_7d": 6,
+   "avg_likes": 10.2,
+   "avg_views": 496,
    "bio_site": "http://Realm.trade",
    "bio": "A new realm for onchain markets, supporting its ecosystem through a community led DAO. Built on Robinhood Chain.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "Building a token for someone on GitHub? Launch with stock pairs and add their GitHub account as a fee recipient. Allocate a share of trading earnings, paid in your chosen paired stock. Set it up when you launch on Realm.",
     "You\u2019ve chosen your token. Now choose how it launches. Pair with $ZEC or a custom ETF, set your taxes and decide where earnings go. 50+ launch options on Robinhood Chain, with pairs you\u2019ll only find on Realm.",
     "$ZEC pairs are live on Realm. For the first time, you can launch a token paired with Zcash on Robinhood Chain. Only on https://Realm.trade",
     "This week we shipped one of our biggest updates yet. You can now pair your token with multiple assets in a single pool. No more fractioned liquidity. No more spreading your token supply in multiple pools. Your token, 10 assets, One pool. https://realm.trade/etf",
@@ -11966,7 +11968,7 @@
     "Your token\u2019s trading activity funds the payments. The recipient receives the share of creator earnings you allocate to them. In this example, 100% goes to one Telegram user. You can see the recipient and their share in the Allocation tab.",
     "Realm automatically converts the recipient\u2019s allocated fees and sends the payment to their Telegram Money wallet in $GRAM. Choose who the trading fees should go to on your next launch with https://Realm.trade."
    ],
-   "checked": "2026-11-06T04:01:44+00:00"
+   "checked": "2026-11-06T22:30:30+00:00"
   },
   "stockripx": {
    "handle": "stockripx",
@@ -12355,7 +12357,9 @@
   "ponsvault": {
    "handle": "PonsVault",
    "found": false,
-   "checked": "2026-11-06T06:39:29+00:00"
+   "checked": "2026-11-06T22:30:30+00:00",
+   "cas": [],
+   "fake_posts": []
   },
   "btcordinal": {
    "handle": "btcordinal",
@@ -16770,6 +16774,124 @@
     "THIS! \ud83e\udd29 Imagine a world where children learn digital tech thru play, exploration, curiosity, engineering, trial and error... we just give them the tools and guidance to flourish. @Fractilians7 out here doing the lord's work. \ud83d\ude4c"
    ],
    "checked": "2026-11-06T22:16:07+00:00"
+  },
+  "solenneagent": {
+   "handle": "SolenneAgent",
+   "found": true,
+   "id": "2118652039848960000",
+   "name": "Solenne Agent",
+   "joined": "2026-11-06T10:30:24+00:00",
+   "followers": 0,
+   "following": 0,
+   "posts": 3,
+   "verified": null,
+   "last_post": "2026-11-06T22:29:49+00:00",
+   "sample": 3,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 0.0,
+   "avg_views": 4,
+   "bio_site": "https://github.com/Solenne-ai/solenne-agent",
+   "bio": "Open-source agent written in Rust. Its own wallet, cloud or offline models, Launch mode and Cloud. 8 MB. npm i -g solenne",
+   "cas": [
+    "0x912b10f97b9170bcc0fbc263fd950e01fe1d802e"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Solenne Agent ($SLN) is officially live on @ponsdotfamily 0x912b10f97b9170bcc0fbc263fd950e01fe1d802e Holding $SLN unlocks Launch mode and Solenne Cloud inside the app, checked straight from your wallet. Install: npm i -g solenne",
+    "An agent that can act in the world eventually needs to hold value. We built the wallet in from the start, not bolted on. Keys are encrypted at rest with Argon2id and XChaCha20-Poly1305, and every transaction is signed on your machine. https://solenneagent.xyz",
+    "Token utility usually means a promise. Ours is a balance check. Holding or staking $SLN unlocks Launch mode and Cloud, verified directly on-chain from the user\u2019s own wallet. No accounts, no servers, nothing to trust but the chain."
+   ],
+   "checked": "2026-11-06T22:30:30+00:00"
+  },
+  "neofunhq": {
+   "handle": "neofunhq",
+   "found": true,
+   "id": "2096080943702237187",
+   "name": "NEO",
+   "joined": "2026-09-05T03:42:22+00:00",
+   "followers": 292,
+   "following": 3,
+   "posts": 46,
+   "verified": "individual",
+   "last_post": "2026-11-04T16:58:23+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 4.2,
+   "avg_views": 251,
+   "bio_site": "https://neo.fun/",
+   "bio": "Follow the white rabbit // Memetic culture meets monetary infrastructure.\n\nCA: 0x37f5b13345c6723E17CE45d388c9C4f7aD8342C3",
+   "cas": [
+    "0x37f5b13345c6723e17ce45d388c9c4f7ad8342c3"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Augmentation expands what a token is capable of. Beyond speculation and price action, assets can support integrated monetary systems, autonomous mechanisms, and entirely new forms of utility.",
+    "$NEO was designed as part of a much larger system. An architecture connecting tokenized real-world assets with automated backing, liquidity, and lending.",
+    "Happy Halloween",
+    "Augment everything",
+    "$NEO's architecture separates key functions into dedicated contracts. The token contract manages supply and transfers. The Vault handles backing and redemptions. A separate lending module manages collateral and borrowing. Each component has a defined responsibility.",
+    "$NEO's smart contracts underwent extensive testing, randomized simulations, and multiple rounds of technical review. A methodical approach to protocol engineering, from development through deployment.",
+    "Every $NEO Vault sell-back supports a holder-defined minimum $QQQ payout. The smart contract verifies that amount before executing. The exchange proceeds only when the holder's minimum is met. Built-in protection, enforced onchain.",
+    "FLOOR UPDATE: The $NEO floor is up 871.8% since launch. For every $1 of floor value beneath a holder's $NEO at launch, there is now $9.71. That growth comes from more $QQQ in the Vault.",
+    "Trade it at the market. Redeem it at the floor.",
+    "A token is just the starting point. What it can become is where things get interesting.",
+    "121 premium captures executed. 17.83M reserve $NEO distributed into market demand. 65.54 $QQQ added directly to Vault backing.",
+    "The token is only the first layer.",
+    "A trading pair creates a market. Backing creates a floor. $NEO uses $QQQ for liquidity and backing through separate mechanisms. Paired \u2260 backed.",
+    "$QQQ backing inside $NEO does more than define the floor. It also supplies the $QQQ used for Floor Loans, secured by locked $NEO. The same backing layer supports both the floor and onchain credit.",
+    "Part 08: The Vault Nearly 500M $NEO is held in the protocol Vault reserve. Visible onchain. Controlled by contract logic.",
+    "$QQQ (Tokenized Nasdaq-100) is the backing asset under $NEO, and one possible configuration. The backing asset determines what market exposure sits underneath the floor. Different assets give that backing a different profile over time.",
+    "FLOOR UPDATE: The $NEO floor is up 828.7% since launch. For every $1 of floor value beneath a holder's $NEO at launch, there is now $9.28. That growth comes from more $QQQ in the Vault.",
+    "Demand moves $NEO through the ladder. CLIMB distributes supply already counted as circulating. The accounting is in place from day one.",
+    "$QQQ serves two distinct functions inside $NEO. In the pool, it provides the asset $NEO trades against. In the Vault, it accumulates as backing and contributes to the floor. Paired \u2260 backed.",
+    "$NEO\u2019s core monetary rules are immutable. No upgrade path. No pause switch. No admin withdrawal from the Vault. Backing, floor, captures and loans all run from deployed contract logic. The monetary system runs on fixed rules."
+   ],
+   "checked": "2026-11-06T22:30:30+00:00"
+  },
+  "nexusolapp": {
+   "handle": "nexusolapp",
+   "found": true,
+   "id": "2082105832888799232",
+   "name": "Nexusol.app",
+   "joined": "2026-07-28T14:09:48+00:00",
+   "followers": 173,
+   "following": 458,
+   "posts": 782,
+   "verified": "individual",
+   "last_post": "2026-11-06T15:27:03+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 4.2,
+   "avg_views": 107,
+   "bio_site": "https://www.nexusol.app/",
+   "bio": "Mapping the Solana ecosystem. A participatory intelligence platform. Built by @unicrisx8, @itsrealakm, @Juerx05",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "thats why @superteam is goated. truly a cheatcode",
+    "Thanks to @DegenGraph for submitting to the Nexusol Project directory \ud83d\ude4f DegenGraph is a free, real-time http://pump.fun scanner. Every new Solana token gets a 0\u2013100 rug-risk score with each flag explained: dev sells, snipers and bundles, holder concentration, reused socials. No sign-in needed. Check",
+    "THIS IS BIG! Solana Labs just launched Leap, and it's the #1 story on Nexusol's momentum wall right now \ud83d\udcc8 Leap is a new @Solana Labs company, built by the Dialect team (the people behind Blinks). It's one iPhone app for tokenized stocks, ETFs, metals, currencies and crypto, traded 24/7 as onchain sw",
+    "We just hit 2,000 visitors on https://nexusol.app. We started this to make the Solana ecosystem easier to navigate \u2014 and people are actually showing up. Thank you to everyone supporting us and exploring with us. A lot more is coming.",
+    "Welcome to the Nexusol Project Directory, @walletmastersol \ud83d\udc4b Wallet Master Tools is an on-chain analytics platform for Solana traders: \u2192 Every active Solana wallet, tracked on 180+ metrics \u2192 Profit counts only trades you could actually have copied, with fees and tips taken out \u2192 Filter wallets by yo",
+    "GM \ud83c\uddf9\ud83c\udded What are we working on today? Small milestone, but we\u2019ve been building for months and slowly but surely projects are finding us on their own and submit their projects to our directory \ud83d\ude4f Feels like the work is slowly paying off \ud83d\ude0a Thank You!",
+    "Build - Ship - Apply \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f",
+    "And it\u2019s not even close \ud83d\udd25",
+    "Build Signal deep dive: a Solana RWA Access Passport Every week Nexusol suggests one thing worth building on @solana, based on ecosystem data. Last week a reader pushed back in the replies and made the idea better, so we're doing it again. This week's pick: one reusable identity and compliance crede",
+    "Momentum deep dive: how a validator security warning went from 10 to 67 in 20 minutes Nexusol clusters @solana news into stories and scores each one 0-100 for momentum. Here's what that looked like for one story this week. The story: Anza urged Solana validators to act on a critical Linux vulnerabil",
+    "Big Week",
+    "Another big week of building in Thailand \ud83c\uddf9\ud83c\udded We've also added this update to \"Around the Ecosystem\", our new section for ecosystem recaps, deep dives and project updates \ud83d\udc47 https://www.nexusol.app/app/news/article/superteam-thailand-weekly-2026-11-01",
+    "Welcome to the Nexusol directory, @Whaletail_26 \ud83d\udc0b A memecoin launchpad on Solana and Robinhood Chain. Launch on one chain or both at once, or straight from an X post. Coins graduate to locked liquidity, and a LayerZero bridge connects the two chains. https://www.nexusol.app/app/ecosystem/project-dir",
+    "Another big week in Thailand \ud83d\udd25",
+    "Our first Deep Dive is live \ud83d\udd0d How Nexusol works: what it is, how the AI tools work (Research, Vibe, NexusGraph, MCP) and where we could go next. New section: Around the Ecosystem, for recaps, deep dives and guides you won't find in the newswire. https://www.nexusol.app/app/news/article/nexusol-deep-",
+    "Building on Solana and want your project covered? Submit a Deep Dive, project update or guide. Every post is reviewed by a person and published with your byline \ud83d\udc47 https://www.nexusol.app/app/news/ecosystem/submit",
+    "Welcome to the Nexusol directory, @Fiantoxyz \ud83d\udc4b USDC subscriptions on Solana: customers approve once up to a cap, and each payment goes straight from their wallet to yours. Fianto never holds the money. Plus checkout, payment links and a no-code shop. https://www.nexusol.app/app/ecosystem/project-dir",
+    "We placed 5th in the @SuperteamEarn AI x Solana side track of the Colosseum hackathon \ud83c\udfc6 Huge thanks to @SuperteamTH for setting this up and rewarding the active builders, and big congrats to all the winners \ud83d\ude4f We're just getting started: a map of the Solana ecosystem, with projects, news, markets and",
+    "Welcome to the Nexusol directory, @SP3NDdotshop \ud83d\udc4b Shop Amazon and eBay with USDC, SOL or BONK: paste a link, pay from your wallet, delivery to 48+ countries, no KYC under $10K. And an MCP server so AI agents can shop for you. https://www.nexusol.app/app/ecosystem/project-directory/sp3nd"
+   ],
+   "checked": "2026-11-06T22:30:30+00:00"
   }
  },
  "ids": {
@@ -17920,7 +18042,8 @@
    "turaai_net"
   ],
   "2118652039848960000": [
-   "AgentGridlol"
+   "AgentGridlol",
+   "SolenneAgent"
   ],
   "1754369187135528960": [
    "AltimateInc"
@@ -18137,6 +18260,12 @@
   ],
   "1480752679173378048": [
    "adigitaltati"
+  ],
+  "2096080943702237187": [
+   "neofunhq"
+  ],
+  "2082105832888799232": [
+   "nexusolapp"
   ]
  },
  "past": {
@@ -18627,7 +18756,10 @@
   "robinhooddames": [],
   "useorionmarkets": [],
   "zelixfinance": [],
-  "adigitaltati": []
+  "adigitaltati": [],
+  "solenneagent": [],
+  "neofunhq": [],
+  "nexusolapp": []
  },
  "history": {
   "barragetrade": {
@@ -21576,8 +21708,8 @@
   },
   "tradeonrealm": {
    "2026-11-06": [
-    405,
-    72
+    404,
+    73
    ]
   },
   "stockripx": {
@@ -22419,6 +22551,24 @@
     2664,
     5811
    ]
+  },
+  "solenneagent": {
+   "2026-11-06": [
+    0,
+    3
+   ]
+  },
+  "neofunhq": {
+   "2026-11-06": [
+    292,
+    46
+   ]
+  },
+  "nexusolapp": {
+   "2026-11-06": [
+    173,
+    782
+   ]
   }
  },
  "telegram": {
@@ -22744,7 +22894,7 @@
   "perpetsdev": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-06T02:52:36+00:00"
+   "checked": "2026-11-06T22:30:30+00:00"
   },
   "lambdalabshq": {
    "twitter": null,
@@ -23524,7 +23674,7 @@
   "ponsvault": {
    "twitter": "PonsVault",
    "blog": "",
-   "checked": "2026-11-06T06:39:29+00:00"
+   "checked": "2026-11-06T22:30:30+00:00"
   },
   "hkuds": {
    "twitter": null,
@@ -23780,6 +23930,11 @@
    "twitter": "settlex_fi",
    "blog": "https://settlex.fi",
    "checked": "2026-11-06T22:16:07+00:00"
+  },
+  "solenne-ai": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-06T22:30:30+00:00"
   }
  }
 }

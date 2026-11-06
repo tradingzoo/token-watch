@@ -6673,5 +6673,25 @@
    }
   ],
   "wallet_txs": 66
+ },
+ "0x912b10f97b9170bcc0fbc263fd950e01fe1d802e": {
+  "checked": "2026-11-06T22:31:51+00:00",
+  "pons": true,
+  "wallet": "0x16fedbd6d02686c970fbc1c057351bba820175ed",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
+ },
+ "0x960182929a8259598c92ec4cf43518ef85483b4a": {
+  "checked": "2026-11-06T22:31:51+00:00",
+  "pons": true,
+  "wallet": "0x2bac86271984a1511854387484a16916f1eb8955",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 5
  }
 }

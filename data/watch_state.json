@@ -4357,7 +4357,18 @@
   "0xb899fa3b639f28a23661ed61e699db667a3b586f": "2026-11-06T22:16:07+00:00",
   "0xbb98b9013d374c27f7c60f8d8cc2af22282ce002": "2026-11-06T22:16:07+00:00",
   "0xbd07e08540e5099a4847715466a1a05b33a01f89": "2026-11-06T22:16:07+00:00",
-  "0xfaad27abaa76180c9d41c7b5ce2bc7ae85d89596": "2026-11-06T22:16:07+00:00"
+  "0xfaad27abaa76180c9d41c7b5ce2bc7ae85d89596": "2026-11-06T22:16:07+00:00",
+  "0x912b10f97b9170bcc0fbc263fd950e01fe1d802e": "2026-11-06T22:30:30+00:00",
+  "0x8d08ec10ebed92a23ca695ca178ff62e63a4d479": "2026-11-06T22:30:30+00:00",
+  "0x7f6a1d3085404947dc7e43c55200b6db39181628": "2026-11-06T22:30:30+00:00",
+  "0x068070d87425d0de94a60643dcfaf82d897d3aae": "2026-11-06T22:30:30+00:00",
+  "0x1754882daf1612143d6fe9efb35d58d8f088a059": "2026-11-06T22:30:30+00:00",
+  "0x960182929a8259598c92ec4cf43518ef85483b4a": "2026-11-06T22:30:30+00:00",
+  "0x3111a3ab4c6e20c9d0d0e61d84fa85f646c19f6a": "2026-11-06T22:30:30+00:00",
+  "0x939bbd03c4a3abbd54b75a8e82a28323b5fa582d": "2026-11-06T22:30:30+00:00",
+  "0x00a2576a825175a993591c53088aa582a83fdfd6": "2026-11-06T22:30:30+00:00",
+  "0x0fc67fa5345d5d300c62fb6e26a2a2eae40442e4": "2026-11-06T22:30:30+00:00",
+  "0x0a9658e85ec279d326672ce8df3d6eb0b2975eab": "2026-11-06T22:30:30+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -24190,10 +24201,81 @@
      "pushed": "2026-01-03",
      "people": 2
     }
+   },
+   "launched_src": "pons"
+  },
+  "0x912b10f97b9170bcc0fbc263fd950e01fe1d802e": {
+   "address": "0x912b10f97b9170bcc0fbc263fd950e01fe1d802e",
+   "symbol": "SLN",
+   "name": "Solenne Agent",
+   "description": "Open-source agent written in Rust. Its own wallet, cloud or offline models, Launch mode and Cloud. 8 MB. npm i -g solenne",
+   "website": "https://solenneagent.xyz",
+   "twitter": "https://x.com/SolenneAgent",
+   "launched": "2026-11-06T22:29:40+00:00",
+   "mcap": 3965.439390293737,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-06T22:30:30+00:00",
+   "scored_at": "2026-11-06T22:30:30+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Solenne-ai/solenne-agent",
+    "score": 0,
+    "raw_score": 40,
+    "capped": true,
+    "not_theirs": true,
+    "flags": [
+     "Repo is empty"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Maybe earns fees (launchpad) \u2014 guess from their text, needs a look (+10)",
+      "\ud83d\udfe1 Says fees go back to the token (staking) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u26d4 Score set to 0: this GitHub is not their own work (see the warning above)",
+      "\u2705 Token's address is posted by their website (+10)",
+      "\ud83d\udfe1 Their X @SolenneAgent posts the address, but the account is brand new (made 06 Nov 2026) \u2014 names can change hands, so it doesn't count (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2705 Their website mentions the token: its contract address \u2014 \u201cve = !!C.ca; set(\".ca-full\", (e) => (e.textContent = live ? C.ca : \"0x912b10f97b9170bcc0fbc263fd950e01fe1d802e\")); set(\".ca-short\", (e) => (e.textContent = live ? C.ca.slice(0, 4\u201d (https://solenneagent.xyz)",
+      "\u2705 Their website mentions the token: $SLN \u2014 \u201c>Launch Cloud $SLN GitHub <div class=\"ca\" id=\u201d (https://solenneagent.xyz)",
+      "\u2705 Their docs mentions the token: its contract address \u2014 \u201cve = !!C.ca; set(\".ca-full\", (e) => (e.textContent = live ? C.ca : \"0x912b10f97b9170bcc0fbc263fd950e01fe1d802e\")); set(\".ca-short\", (e) => (e.textContent = live ? C.ca.slice(0, 4\u201d (https://solenneagent.xyz#token)",
+      "\u2705 Their docs mentions the token: $SLN \u2014 \u201c>Launch Cloud $SLN GitHub <div class=\"ca\" id=\u201d (https://solenneagent.xyz#token)"
+     ],
+     "Real code": [
+      "\u274c 1 changes over 0 days (+0)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f One person, new account, no outside interest: account 1 days old, 1 people, 0 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": null,
+    "sources_read": [
+     "https://solenneagent.xyz",
+     "https://solenneagent.xyz",
+     "https://solenneagent.xyz#token"
+    ],
+    "facts": {
+     "commits": 1,
+     "stars": 0,
+     "created": "2026-11-06",
+     "pushed": "2026-11-06",
+     "people": 1
+    }
    }
   }
  },
- "checked_total": 4347,
+ "checked_total": 4358,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -26617,9 +26699,26 @@
    "ignored": [
     "madler/zlib"
    ]
+  },
+  {
+   "when": "2026-11-06T22:30:30+00:00",
+   "address": "0x0fc67fa5345d5d300c62fb6e26a2a2eae40442e4",
+   "symbol": "milly",
+   "website": "https://gmgn.ai/robinhood/token/0xd69f73a7e99e5cd51f5cf7370974a46e19bc15be",
+   "used": null,
+   "ignored": [
+    "uuidjs/uuid",
+    "zloirock/core-js"
+   ]
   }
  ],
  "symbol_counts": {
+  "SLN": 1,
+  "BAGEL": 1,
+  "WOW": 1,
+  "SPLITY": 1,
+  "CAUGHT": 2,
+  "NEXSOL": 1,
   "FOROG": 1,
   "RIG": 1,
   "TOKABU": 1,
@@ -26630,7 +26729,6 @@
   "ZELIX": 1,
   "CHAMELEON": 1,
   "EQUIX": 1,
-  "CAUGHT": 1,
   "SEASHELL": 2,
   "GRAFFITI": 1,
   "\u26a1\ud83d\udc51": 1,
@@ -26652,19 +26750,21 @@
   "p/acc": 1,
   "OFC": 1,
   "RAGENT": 1,
+  "HMM": 4,
+  "PONS": 1,
+  "WIF": 1,
+  "UBIK": 1,
+  "CHARLIE": 1,
+  "ROBINCAT": 1,
+  "DELTA": 1,
+  "microduck": 1,
+  "HARMONIC": 1,
   "ITSALLRISK": 1,
   "888": 1,
   "HOTPOTATO": 1,
   "terrorfab": 1,
   "TERVN": 1,
   "CATBRAIN": 1,
-  "HMM": 4,
-  "WIF": 1,
-  "UBIK": 1,
-  "DELTA": 1,
-  "PONS": 1,
-  "HARMONIC": 1,
-  "CHARLIE": 1,
   "BOW": 1,
   "ROBINHOOD": 1,
   "HITO": 1,
@@ -26734,14 +26834,12 @@
   "PURRE": 1,
   "ARROWSTACK": 1,
   "DEPLOYR": 1,
-  "ROBINCAT": 1,
   "RAETO": 2,
   "HUHCAT": 1,
   "GRAFFY": 1,
   "MAXXING": 2,
   "PRINT": 1,
   "ORBIO": 1,
-  "microduck": 1,
   "MAEVYR": 1,
   "STRTOS": 1,
   "D\u2022T": 1,
@@ -27569,7 +27667,6 @@
   "AUREN": 1,
   "SIMEON": 1,
   "YUASK": 1,
-  "WOW": 1,
   "AFI": 1,
   "HIGHER": 1,
   "SENDOOOR": 1,
@@ -47694,7 +47791,8 @@
      "contract_addresses": 7,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x6d2ea8cc72a5fc84dffab13bf4dd1b5a4a0a027b": {
    "address": "0x6d2ea8cc72a5fc84dffab13bf4dd1b5a4a0a027b",
@@ -47761,6 +47859,78 @@
      "tools": 2,
      "dev_pages": [],
      "contract_addresses": 15,
+     "winners_linked": []
+    }
+   },
+   "launched_src": "pons"
+  },
+  "0x960182929a8259598c92ec4cf43518ef85483b4a": {
+   "address": "0x960182929a8259598c92ec4cf43518ef85483b4a",
+   "symbol": "NEXSOL",
+   "name": "Nexusol",
+   "description": "Nexusol pulls the Solana ecosystem into one living map. News, onchain data and the conversation on X are cross-referenced.",
+   "website": "https://nexusol.app",
+   "twitter": "https://x.com/nexusolapp",
+   "site_via_x": null,
+   "launched": "2026-11-06T22:16:46+00:00",
+   "mcap": 4648.813605265358,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-06T22:30:30+00:00",
+   "scored_at": "2026-11-06T22:30:30+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 30,
+    "raw_score": 30,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u2705 Site offers an MCP connection for AI agents (+5)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u2705 Built on Robinhood Chain's own assets (Tokenized Equit) (+10)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app with 7 sections (/app, /app/ai/research, /app/changelog, /app/earn, /app/ecosystem)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f No audit mentioned"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://nexusol.app",
+     "https://nexusol.app",
+     "https://nexusol.app/llms-full.txt",
+     "https://nexusol.app/llms.txt",
+     "https://nexusol.app/docs",
+     "https://nexusol.app/docs/data-sources",
+     "https://nexusol.app/docs"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [
+      "https://nexusol.app/docs"
+     ],
+     "contract_addresses": 0,
      "winners_linked": []
     }
    }
@@ -47835,7 +48005,7 @@
   "0x7f434bfd5397a76692115c24d0e1eea8be15192e": "2026-11-05T08:30:28+00:00",
   "0x60f2341f0605870769513b62d80a5233af35d6f6": "2026-11-05T08:30:28+00:00",
   "0x07bb78f6f8d5121fbc03ad4c8b1a22f5a95227e6": "2026-11-05T08:30:28+00:00",
-  "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691": "2026-11-06T22:16:07+00:00",
+  "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691": "2026-11-06T22:30:30+00:00",
   "0x4e00b96443a2af7b741aa4b9cbfde3de5fd11ac2": "2026-11-05T09:18:38+00:00",
   "0xd20073c027624c37a22d8df415ab271f57b9f446": "2026-11-05T09:18:38+00:00",
   "0xc4315b4191bd7fc290dc4906afaf110d1ded1055": "2026-11-06T19:57:21+00:00",
@@ -49817,7 +49987,13 @@
   "0x6d2ea8cc72a5fc84dffab13bf4dd1b5a4a0a027b": "2026-11-06T22:16:07+00:00",
   "0x77fea89018e2b41e23590b633bb994140d6e28c5": "2026-11-06T22:16:07+00:00",
   "0x07ce5b4a04178615fe07757e355a35ed6640940b": "2026-11-06T22:16:07+00:00",
-  "0x73437eed7061aff03232281ac15f13650b350093": "2026-11-06T22:16:07+00:00"
+  "0x73437eed7061aff03232281ac15f13650b350093": "2026-11-06T22:16:07+00:00",
+  "0x7f6a1d3085404947dc7e43c55200b6db39181628": "2026-11-06T22:30:30+00:00",
+  "0x068070d87425d0de94a60643dcfaf82d897d3aae": "2026-11-06T22:30:30+00:00",
+  "0x1754882daf1612143d6fe9efb35d58d8f088a059": "2026-11-06T22:30:30+00:00",
+  "0x960182929a8259598c92ec4cf43518ef85483b4a": "2026-11-06T22:30:30+00:00",
+  "0x00a2576a825175a993591c53088aa582a83fdfd6": "2026-11-06T22:30:30+00:00",
+  "0x0fc67fa5345d5d300c62fb6e26a2a2eae40442e4": "2026-11-06T22:30:30+00:00"
  },
  "catchup_plain": []
 }
