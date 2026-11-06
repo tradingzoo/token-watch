@@ -38,6 +38,13 @@ def _logs(rpc, a, b):
         return _logs(rpc, a, m) + _logs(rpc, m + 1, b)
 
 
+def first_trade(pairs):
+    """ISO time of the earliest DexScreener pool, or None when DexScreener gives no pool dates.
+    (6 Nov: a 9e12 stand-in used to leak through as 14 Mar 2255 for xTOPAZ, YARD and others.)"""
+    ts = [p["pairCreatedAt"] for p in pairs if p.get("pairCreatedAt")]
+    return datetime.datetime.fromtimestamp(min(ts) / 1000, datetime.timezone.utc).isoformat(timespec="seconds") if ts else None
+
+
 def dex_tok(pairs):
     """A token record (same shape as Pons/DexScreener ones) from its DexScreener pairs."""
     best = max(pairs, key=lambda p: (p.get("liquidity") or {}).get("usd") or 0)
@@ -48,8 +55,7 @@ def dex_tok(pairs):
             "source": "dex pool", "description": "", "links": webs + socials,
             "website": webs[0] if webs else None,
             "twitter": next((u for u in socials if "x.com" in u.lower() or "twitter.com" in u.lower()), None),
-            "launched": datetime.datetime.fromtimestamp(min(p.get("pairCreatedAt") or 9e12 for p in pairs) / 1000,
-                                                        datetime.timezone.utc).isoformat(timespec="seconds"),
+            "launched": first_trade(pairs),
             "mcap": best.get("marketCap") or best.get("fdv"), "liq": (best.get("liquidity") or {}).get("usd") or 0,
             "quote": (best.get("quoteToken") or {}).get("symbol")}
 

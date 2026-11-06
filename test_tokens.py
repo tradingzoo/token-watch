@@ -6,7 +6,7 @@ Links come from DexScreener (token info) and the Pons token page, saved in data/
 and refreshed once a day. Nothing here touches the day-30 rule, baseline or snapshots.
 """
 import csv, json, os, re, datetime, html, statistics
-import x_info, deployers
+import x_info, deployers, dexpools
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FILE = os.path.join(HERE, "data", "test_links.json")
@@ -31,8 +31,7 @@ def load(fetch, fetch_json, now):
             c["links"] += webs
             site = next((w for w in webs if "github.com" not in w and "npmjs" not in w), None)
             if pairs:
-                c["launched"] = datetime.datetime.fromtimestamp(min(p.get("pairCreatedAt") or 9e12 for p in pairs) / 1000,
-                                                                datetime.timezone.utc).isoformat(timespec="seconds")
+                c["launched"] = dexpools.first_trade(pairs)
             s = (fetch(f"https://ponsfamily.com/launchpad/{a.lower()}") or "").replace('\\"', '"')
             i = s.find('{"address":"%s"' % a.lower())
             if i >= 0:

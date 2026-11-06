@@ -261,8 +261,7 @@ def market(addr):
         return {"symbol": best["baseToken"]["symbol"], "name": best["baseToken"]["name"],
                 "mcap": best.get("marketCap") or best.get("fdv"), "where": "exchange",
                 "quote": (best.get("quoteToken") or {}).get("symbol"),
-                "launched": datetime.datetime.fromtimestamp(min(p.get("pairCreatedAt") or 9e12 for p in pairs) / 1000,
-                                                            datetime.timezone.utc).isoformat(timespec="seconds")}
+                "launched": dexpools.first_trade(pairs)}
     s = fetch(f"https://ponsfamily.com/launchpad/{addr.lower()}")
     if s:
         s = s.replace('\\"', '"')
@@ -2034,6 +2033,8 @@ def fix_launch_dates(state):
     n = 0
     for sec in ("github", "sites"):
         for a, r in state.get(sec, {}).items():
+            if r.get("launched") and iso(r["launched"]) > NOW + datetime.timedelta(days=1):
+                r["launched"] = r["launched_src"] = None  # a date in the future is the old 2255 stand-in: look it up again
             if r.get("launched_src"):
                 continue
             when, src = launch_date(r["address"])
