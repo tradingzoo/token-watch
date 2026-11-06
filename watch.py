@@ -12,7 +12,7 @@ Hand-checked findings go in reviews.json and replace the script's guesses.
 import csv, json, os, re, subprocess, shutil, sys, time, datetime, html, urllib.request, urllib.parse
 from collections import Counter
 import statistics
-import x_info, deployers, test_tokens, prices, shipping, sitecheck, dexpools, notify, test61, tiers
+import x_info, deployers, test_tokens, prices, shipping, sitecheck, dexpools, notify, test61, tiers, dexvolume
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "data", "watch_state.json")
@@ -1933,6 +1933,7 @@ svg.chart{{width:100%;height:auto;display:block;margin:var(--s2) 0}} svg.chart .
 svg.chart .target{{stroke:var(--mute);stroke-width:1.5;stroke-dasharray:4 4}} svg.chart .ax{{fill:var(--mute);font-size:11px;font-variant-numeric:tabular-nums}}
 svg.chart .bar rect:first-child{{fill:var(--chart)}} svg.chart .hit{{fill:transparent}} svg.chart .bar:hover rect:first-child{{opacity:.75}}
 .hbars{{display:grid;gap:6px;margin:var(--s3) 0;max-width:620px}} .hrow{{display:grid;grid-template-columns:140px 1fr 40px;align-items:center;gap:var(--s2);font-size:14px}}
+{dexvolume.CSS}
 .hl{{color:var(--mute)}} .ht{{background:var(--soft);border-radius:4px;height:14px;overflow:hidden}} .hb{{display:block;height:100%;background:var(--chart);border-radius:4px;min-width:2px}}
 .hv{{font-variant-numeric:tabular-nums;font-weight:600}} details.tv>summary{{font-size:13px}}
 table.sc{{border-collapse:collapse;margin:var(--s2) 0 var(--s3);font-size:14px;font-variant-numeric:tabular-nums}}
@@ -1966,6 +1967,7 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <a href="#status" data-tab="status">Status changes</a>
 <a href="#scores" data-tab="scores">Was the score right?</a>
 <a href="#health" data-tab="health">Scanner health</a>
+<a href="#dexvol" data-tab="dexvol">DEX volume season</a>
 </nav>
 <p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · showing only projects scoring {SHOW_AT}+, one card per project ({len(cards)} GitHub, {len(site_cards)} site check, of {len(rows) + len(site_rows)} scored) · {state.get('checked_total',0)} tokens checked in all. Lower scores are still tracked: see <a href="#scores">Was the score right?</a> for any that took off. Scoring rules: SCORING.md.</p>
 <section class="tab" id="building">{building_html(builders, e)}</section>
@@ -1979,6 +1981,7 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <section class="tab" id="test">{test61.html(t61, NOW, e, money)}{test_html or '<p>The first test section is refreshed about twice a day.</p>'}</section>
 <section class="tab" id="scores">{scores_html}</section>
 <section class="tab" id="health">{health or '<p>Scanner health appears after the next scan.</p>'}</section>
+<section class="tab" id="dexvol">{dexvolume.html(e)}</section>
 <section class="tab" id="github">
 <h2 style="margin:22px 0 10px">New tokens with a public GitHub</h2>
 <div class="bar"><button data-f="all">All</button><button class="on" data-f="new">New (24h)</button><button data-f="flag">Red flags</button></div>
