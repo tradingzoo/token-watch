@@ -107,7 +107,7 @@
    "Devs are real, long-standing accounts: wweziza (since 2022, 964 commits) and kosuxyz (since 2021, 1,334 commits); 2,298 commits since 18 Sep, 15.8 MB of original Rust (only Zed's open-source UI kit is borrowed, credited), 4 signed releases with installers",
    "Same team's earlier token $AILE (Solana, pump.fun, launched 11 Sep) went from ~$20k to a $543k peak on 6 Oct, then faded to ~$90k (down 83%) with almost no trading by November",
    "Their own roadmap still lists the token launch as 'later, not started' and public buybacks as 'next': the 50% usage buyback isn't running yet",
-   "The company's other product AILE resells shared ChatGPT/Claude subscriptions, which the AI providers' terms generally don't allow; if Letronna's cheap model prices come from it, that access could be cut",
+   "The company's other product AILE (aile.sh, same company Gadlus LLC per gadl.us) is a market where people share their AI subscriptions and API keys, which the AI providers' terms generally don't allow. Letronna's code (685 files, checked 6 Nov) never mentions AILE; its hosted models go through its own server (api.letronna.ai), so where its cheap prices come from can't be seen. A possibility, not a finding",
    "Launch wallet bought 0.62% and moved it to a second wallet that still holds it (not sold, as of 6 Nov). Graduated from the Pons curve on 6 Nov"
   ],
   "review": {
@@ -117,7 +117,7 @@
    "Narrative fit": "Strong: AI agents that pay for things. Weak Robinhood Chain link: only the token lives here.",
    "How it makes money": "Subscriptions ($20/month), a cut on AI models it resells, and hosting.",
    "Token today": "Does nothing yet. Buybacks and paying with LETRO aren't switched on.",
-   "Watch for": "Buybacks starting · X followers (169 now) · team's last token fell 83% · cheap AI prices may break providers' rules"
+   "Watch for": "Buybacks starting · X followers (193 now) · team's last token fell 83% · unclear where its cheap AI prices come from (could be the team's AILE sharing market)"
   }
  },
  "0xd2501da2a96ca85a702cb414ea7dd2ddee451a21": {
