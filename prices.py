@@ -141,8 +141,35 @@ def card_line_plain(t):
             f"{_money(t['start_mcap'])} → now {_money(t.get('now_mcap'))} ({sign(ch)}) · highest {_money(t.get('high_mcap'))} ({sign(hi)})</p>")
 
 
-def section(db, esc):
-    """Table: every scored token, its score and what the price did. Biggest moves first."""
+MISS_MCAP = 25_000  # a hidden token must reach this value (and double) to count as a possible miss
+
+
+def misses(db, esc, show_at):
+    """Hidden tokens (score under the page cut-off) whose value at least doubled to $25k+: what the score may have missed.
+    User, 6 Nov: low scores are off the page, but they must still be watched in case the system isn't good enough yet."""
+    out = []
+    for t in db.values():
+        now_sc = t.get("score", t.get("start_score", 0))
+        hi = _pct(t.get("start_mcap"), t.get("high_mcap"))
+        if t.get("start_mcap") and now_sc < show_at and (hi or 0) >= 100 and (t.get("high_mcap") or 0) >= MISS_MCAP:
+            out.append((t, hi))
+    out.sort(key=lambda x: x[0].get("high_mcap") or 0, reverse=True)
+    if not out:
+        return (f"<h2 style='margin:22px 0 6px'>Possible misses</h2><p class='muted'>No hidden token (score under {show_at}) "
+                f"has doubled to {_money(MISS_MCAP)}+ yet.</p>")
+    trs = "".join(
+        f"<tr><td><b><a href='https://dexscreener.com/robinhood/{esc(t['address'])}' target='_blank' rel='noopener'>{esc(t.get('symbol') or '?')}</a></b></td>"
+        f"<td>{t.get('score', t['start_score'])}</td><td>{_money(t['start_mcap'])}</td><td>{_money(t.get('high_mcap'))} ({hi:+.0f}%)</td>"
+        f"<td>{_money(t.get('now_mcap'))}</td><td>{esc((t.get('high_at') or '')[:16].replace('T', ' '))} UTC</td></tr>" for t, hi in out)
+    return (f"<h2 style='margin:22px 0 6px'>Possible misses ({len(out)})</h2>"
+            f"<p class='muted'>Tokens hidden from the page (score under {show_at}) whose value at least doubled to {_money(MISS_MCAP)}+. "
+            f"Each one is worth asking Claude: did the score miss something, or was it pumped? Biggest first.</p>"
+            "<table class='sum'><tr><th>Token</th><th>Score</th><th>Start</th><th>Highest</th><th>Now</th><th>Highest at</th></tr>"
+            + trs + "</table>")
+
+
+def section(db, esc, show_at=61):
+    """Possible misses first, then the full table (closed): every scored token, its score and what the price did."""
     rows = [t for t in db.values() if t.get("start_mcap")]
     if not rows:
         return ""
@@ -163,7 +190,7 @@ def section(db, esc):
         trs.append(f"<tr><td><b>{esc(t.get('symbol') or '?')}</b></td><td>{esc(sc)}</td><td>{_money(t['start_mcap'])}</td>"
                    f"<td>{_money(t.get('now_mcap'))}</td><td>{'?' if ch is None else f'{ch:+.0f}%'}</td>"
                    f"<td>{_money(t.get('high_mcap'))} ({'?' if hi is None else f'{hi:+.0f}%'})</td><td>{verdict}</td></tr>")
-    return ("<details class='card' open><summary><b>Was the score right? Price since each token was first tracked</b></summary>"
+    return (misses(db, esc, show_at) + "<details class='card'><summary><b>Full price record: every scored token since first tracked</b></summary>"
             "<p class='sub'>Every scored token, high or low, is priced each run. Score = the score when first tracked (→ now, if it changed). "
             "Biggest rise first. Full record: data/price_log.csv. Scores marked against prices from 4 Nov 2026.</p>"
             "<table class='sum'><tr><th>Token</th><th>Score</th><th>Start</th><th>Now</th><th>Change</th><th>Highest</th><th></th></tr>"

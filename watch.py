@@ -1180,9 +1180,101 @@ def winner_signs(r, sc):
     ) if ok]
 
 
-REVIEW_AT = 60            # tokens at this score or more get a hand review (user, 6 Nov)
 REVIEW_FROM = "2026-11-06T03:15"  # only projects launched from here on (user, 6 Nov: no going back over older ones)
 REVIEW_QUEUE = os.path.join(HERE, "data", "review_queue.json")
+# Page cut-off (user, 6 Nov): 60 and below are not shown anywhere on the page. They are still scored and priced every run,
+# and the 'Was the score right?' tab lists hidden tokens whose price doubled, in case the score missed something.
+SHOW_AT = 61
+REVIEW_AT = SHOW_AT
+NOT_PROJECT_SITES = NOT_A_SITE | {"ponsfamily.com", "dexscreener.com", "vercel.app", "netlify.app", "github.io", "gitbook.io"}
+
+
+def copy_addresses(state, reviews):
+    """Addresses known to be copies or not the team's token: copycat flag, or a hand check saying so."""
+    out = set()
+    for sec in ("github", "sites"):
+        for a, r in state.get(sec, {}).items():
+            if any(f.startswith(COPYCAT) for f in r.get("scoring", {}).get("flags", [])):
+                out.add(a.lower())
+    for a, v in reviews.items():
+        if isinstance(v, dict) and (v.get("unofficial") or any("not the team's token" in f for f in v.get("flags", []))):
+            out.add(a.lower())
+    return out
+
+
+def wallet_note(addr, wallets, copies):
+    """(serial?, short text) about the wallet that launched this token."""
+    w = (wallets or {}).get(addr.lower())
+    if not w:
+        return False, "launch wallet not checked yet"
+    if not w.get("pons"):
+        return False, "not launched on Pons"
+    if w["launches"] > deployers.BOT_WALLET:
+        return False, f"shared launch wallet ({w['launches']:,} tokens)"
+    bad = [o.get("symbol") or "?" for o in w.get("others", []) if (o.get("address") or "").lower() in copies]
+    if bad:
+        return True, f"serial launcher: this wallet made {w['launches']} tokens, including copies ({', '.join(bad[:4])})"
+    if w["launches"] == 1:
+        return False, "only token from its wallet"
+    return False, f"its wallet made {w['launches']} tokens"
+
+
+def group_projects(ents, wallets, copies, e):
+    """One card per project (user, 6 Nov: 'just show me the legit project').
+    Same project = same GitHub repo, same website, or same symbol + name. Proof, not size: if the team posted one token's
+    address (or a hand check confirms it), only that one shows. If none is confirmed, one card shows with a 'Not confirmed'
+    box listing every address, because the biggest or first token can just as easily be the fake.
+    Returns (html cards in page order, entries shown, entries in unconfirmed groups)."""
+    parent = list(range(len(ents)))
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+    first = {}
+    for i, x in enumerate(ents):
+        r, sc = x["r"], x["sc"]
+        keys = [("n", (r.get("symbol") or "?").strip().lower(), (r.get("name") or "").strip().lower())]
+        repo = (sc.get("repo") or "").lower().strip("/")
+        if sc.get("kind") != "site" and "/" in repo and not repo.startswith("pons-labs/"):  # launchpad's own account isn't a project
+            keys.append(("repo", repo))
+        d = domain(r.get("website") or "")
+        if d and d not in NOT_PROJECT_SITES:  # foo.vercel.app is a project's own address; vercel.app alone is not
+            keys.append(("site", d))
+        for k in keys:
+            if k in first:
+                parent[find(i)] = find(first[k])
+            else:
+                first[k] = i
+    groups = {}
+    for i in range(len(ents)):
+        groups.setdefault(find(i), []).append(i)
+    out, shown, unconfirmed = [], [], []
+    for root in sorted(groups, key=lambda g: min(groups[g])):  # page order = first member's place
+        g = [ents[i] for i in groups[root]]
+        if len(g) == 1:
+            out.append(g[0]["html"]); shown.append(g[0])
+            continue
+        real = [x for x in g if x["proof"] and x["r"]["address"].lower() not in copies]
+        if real:
+            for x in real:
+                out.append(x["html"]); shown.append(x)
+            continue
+        pick = next((x for x in g if not wallet_note(x["r"]["address"], wallets, copies)[0]), g[0])
+        lines = []
+        for x in g:
+            serial, note = wallet_note(x["r"]["address"], wallets, copies)
+            a = x["r"]["address"]
+            lines.append(f"<li{' class=bad' if serial else ''}><code>{e(a[:6] + '…' + a[-4:])}</code> {e(x['r'].get('symbol') or '?')}"
+                         f" · score {x['sc']['score']} · {e(money(x['r'].get('mcap')))} · launched {e(ago(x['r'].get('launched')) or '?')}"
+                         f" · {'⚠️ ' if serial else ''}{e(note)}</li>")
+        box = (f"<div class='unconf'><b>⚠️ Not confirmed:</b> {len(g)} tokens claim this project and the team hasn't posted any of "
+               f"their addresses. Any of them could be fake. Below is one of them; when the team posts an address the page "
+               f"switches to it by itself.<ul>{''.join(lines)}</ul></div>")
+        out.append(pick["html"].replace("<header>", box + "<header>", 1))
+        shown.append(pick)
+        unconfirmed.extend(g)
+    return out, shown, unconfirmed
 
 
 def review_queue_html(q, e):
@@ -1427,30 +1519,6 @@ def quick_facts(r, sc, xdb, wallets, pdb, ship, e):
     return "<dl class='facts'>" + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in rows) + "</dl>"
 
 
-def fold_copies(cards, e):
-    """Same-name tokens (copies, relaunches): show the best one, fold the rest under it (5 Nov). Order kept."""
-    groups, order = {}, []
-    for sym, score, html_ in cards:
-        k = sym.strip().lower()
-        if k not in groups:
-            groups[k] = []
-            order.append(k)
-        groups[k].append((score, html_))
-    out = []
-    for k in order:
-        g = groups[k]
-        if len(g) == 1:
-            out.append(g[0][1])
-            continue
-        best = max(range(len(g)), key=lambda i: (g[i][0], -i))
-        rest = [h for i, (s, h) in enumerate(g) if i != best]
-        zeros = sum(1 for i, (s, h) in enumerate(g) if i != best and s == 0)
-        what = "copies" if zeros == len(rest) else "copies or relaunches"
-        out.append(g[best][1] + f"<details class='dups'><summary>+{len(rest)} more token{'s' if len(rest) > 1 else ''} named {e(k.upper())} ({what})</summary>"
-                   + "".join(rest) + "</details>")
-    return out
-
-
 def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=None, ship=None):
     pdb = pdb or {}
     rows = sorted(state["github"].values(), key=lambda r: r.get("launched") or r["first_seen"], reverse=True)  # newest launch first
@@ -1463,8 +1531,11 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         return re.sub(r"`([^`]+)`", r"<code>\1</code>", e(s))
     cards, site_cards, picks, builders, review_q = [], [], [], [], []
     reviews = json.load(open(REVIEWS, encoding="utf-8")) if os.path.exists(REVIEWS) else {}
+    copies = copy_addresses(state, reviews)
     for r in rows + site_rows:
         sc = r["scoring"]
+        if sc["score"] < SHOW_AT:  # hidden from the page (user, 6 Nov); still scored and priced
+            continue
         is_site = sc.get("kind") == "site"
         new = days_between(NOW, iso(r.get("launched") or r["first_seen"])) < 1  # launched in the last day
         links = [(f"https://ponsfamily.com/launchpad/{r['address'].lower()}", "Pons"),
@@ -1482,6 +1553,9 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
                 groups.append(f"<h4>{e(g)}</h4><ul>" + "".join(f"<li>{md(i)}</li>" for i in items) + "</ul>")
         xline, xwarn = x_info.facts(r, all_rows, xdb, NOW)
         wline, wwarn = deployers.facts(r, wallets)
+        serial, snote = wallet_note(r["address"], wallets, copies)
+        if serial:  # its launcher also made known copies (user, 6 Nov)
+            wwarn = wwarn + [snote[0].upper() + snote[1:]]
         xline = xline + wline  # status and price are in Quick facts
         allw = sc.get("flags", []) + xwarn + wwarn
         seen_w = Counter(allw)  # the same warning twice is shown once with ×2 (user, 5 Nov)
@@ -1548,7 +1622,10 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
                       + "".join(f"<li class='m'>{e(x)}</li>" for x in minus) + "</ul>")
         about = (r.get("description") or "").strip()
         about = about if len(about) <= 220 else about[:217].rsplit(" ", 1)[0] + "…"
-        (site_cards if is_site else cards).append((r.get("symbol") or "?", sc["score"], f"""
+        proof = (bool(re.search(r"✅ Token's address is posted", said))
+                 or (not unoff and (bool(hand) or reviews.get(a_.lower(), {}).get("official") is True)))
+        (site_cards if is_site else cards).append(dict(r=r, sc=sc, proof=proof, unclaimed=unclaimed, unoff=unoff, hand=hand,
+                                                       warn_items=warn_items, act=act, tags=tags, is_site=is_site, html=f"""
 <article class="card" data-score="{sc['score']}" data-new="{int(new)}" data-addr="{e(a_.lower())}">
   <header>
     <div class="score {band}" style="--p:{sc['score']}">{sc['score']}<small>/ 100</small></div>
@@ -1572,9 +1649,17 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
   {meta_html}</details>
   </details>
 </article>"""))
-        if (sc["score"] > 0 and not unclaimed and not unoff and not sc.get("flags")
+    cards, gh_shown, gh_unconf = group_projects(cards, wallets, copies, e)
+    site_cards, site_shown, site_unconf = group_projects(site_cards, wallets, copies, e)
+    not_sure = {x["r"]["address"].lower() for x in gh_unconf + site_unconf}  # never on the Shortlist or Still building
+    for x in gh_shown + site_shown:
+        r, sc, unclaimed, unoff, hand, warn_items, card_html = (x["r"], x["sc"], x["unclaimed"], x["unoff"], x["hand"],
+                                                                x["warn_items"], x["html"])
+        a_, tags, is_site = r["address"], x["tags"], x["is_site"]
+        sure = a_.lower() not in not_sure
+        if (sure and sc["score"] > 0 and not unclaimed and not unoff and not sc.get("flags")
                 and r["address"].lower() not in {p[0]["address"].lower() for p in builders}):
-            builders.append((r, sc, warn_items, build_activity(a_, ship), (site_cards if is_site else cards)[-1][2]))
+            builders.append((r, sc, warn_items, x["act"], card_html))
         launched_at = r.get("launched") or r["first_seen"]
         if (sc["score"] >= REVIEW_AT and not unoff and not hand and launched_at >= REVIEW_FROM
                 and a_.lower() not in {q["address"] for q in review_q}):
@@ -1582,9 +1667,9 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
                              "score": sc["score"], "mcap": (pdb.get(a_.lower()) or {}).get("now_mcap") or r.get("mcap") or 0,
                              "tags": tags, "website": r.get("website"), "twitter": r.get("twitter"),
                              "github": None if is_site else sc.get("repo"), "why": "not reviewed yet"})
-        if sc["score"] > 0 and not unclaimed and not warn_items and r["address"].lower() not in {p[0]["address"].lower() for p in picks}:
-            picks.append((r, sc, warn_items, (pdb.get(a_.lower()) or {}).get("market") or {}, winner_signs(r, sc),
-                          (site_cards if is_site else cards)[-1][2]))
+        if (sure and sc["score"] > 0 and not unclaimed and not warn_items
+                and r["address"].lower() not in {p[0]["address"].lower() for p in picks}):
+            picks.append((r, sc, warn_items, (pdb.get(a_.lower()) or {}).get("market") or {}, winner_signs(r, sc), card_html))
     try:  # phone alert for tokens joining the Shortlist (notify.py); never stops the page
         joined = notify.update([{"address": p[0]["address"], "symbol": p[0].get("symbol") or "?", "name": p[0].get("name") or "",
                                  "score": p[1]["score"], "mcap": (pdb.get(p[0]["address"].lower()) or {}).get("now_mcap") or p[0].get("mcap"),
@@ -1597,7 +1682,6 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         json.dump({"updated": NOW.isoformat(timespec="seconds"), "tokens": review_q}, open(REVIEW_QUEUE, "w", encoding="utf-8"), indent=1)
     except Exception as ex:
         print(f"Review queue: not saved ({ex})")
-    cards, site_cards = fold_copies(cards, e), fold_copies(site_cards, e)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Token Watch</title>
 <style>
@@ -1674,6 +1758,7 @@ ul.pm{{list-style:none;padding-left:0;margin:var(--s2) 0;font-size:14px}} ul.pm 
 ul.pm li.p::before{{content:"+";display:inline-block;width:18px;text-indent:0;color:var(--hi);font-weight:700}} ul.pm li.m::before{{content:"\\2013";display:inline-block;width:18px;text-indent:0;color:var(--lo);font-weight:700}}
 .desc{{margin:0;max-width:68ch}}
 .why{{border-left:2px solid var(--line);padding:var(--s1) 0 var(--s1) var(--s3);margin:var(--s2) 0}} .why ul{{margin:var(--s1) 0 0;font-size:14px}}
+.unconf{{background:var(--flag);border-radius:8px;padding:var(--s2) var(--s3);margin:0 0 var(--s3);font-size:14px}} .unconf ul{{margin:var(--s1) 0 0;font-size:13px}} .unconf li.bad{{color:var(--lo);font-weight:600}}
 .dups{{margin:calc(-1*var(--s1)) 0 var(--s4) var(--s4)}} .dups>summary{{margin-bottom:var(--s2)}} .dups .card{{opacity:.88}}
 .xline{{margin:var(--s2) 0 0;font-size:13px;color:var(--mute)}} .ship{{color:var(--ink)}}
 .muted{{color:var(--mute);font-size:13px}}
@@ -1694,7 +1779,7 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 @media (max-width:600px){{.toast{{bottom:64px}}}}
 @media (max-width:600px){{main{{padding:var(--s5) var(--s4) var(--s7)}} h1{{font-size:var(--t2)}} .card{{padding:var(--s4)}} .card header{{gap:var(--s3)}} .score{{width:52px;height:52px;font-size:var(--t0)}} .score small{{display:none}} .dups{{margin-left:0}}}}
 </style></head><body>
-<button id="sound" class="sound" title="Play a sound when a token newly scores 60+ on the GitHub or Site check list">🔕 Sound off</button>
+<button id="sound" class="sound" title="Play a sound when a token newly scores {SHOW_AT}+ on the GitHub or Site check list">🔕 Sound off</button>
 <div id="toast" class="toast" role="status" hidden></div>
 <main>
 <h1>Token Watch</h1>
@@ -1703,13 +1788,13 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <nav class="tabs" id="tabs">
 <a href="#short" data-tab="short">Shortlist <span class="cnt">{sum(1 for p in picks if len(p[4]) >= SHORT_SIGNS and (p[3].get('trades24') or 0) >= SHORT_TRADES and (p[3].get('liq') or 0) >= SHORT_LIQ)}</span></a>
 <a href="#building" data-tab="building">Still building</a>
-<a href="#github" data-tab="github">GitHub <span class="cnt">{len(rows)}</span></a>
-<a href="#sites" data-tab="sites">Site check <span class="cnt">{len(site_rows)}</span></a>
+<a href="#github" data-tab="github">GitHub <span class="cnt">{len(cards)}</span></a>
+<a href="#sites" data-tab="sites">Site check <span class="cnt">{len(site_cards)}</span></a>
 <a href="#test" data-tab="test">30-day test</a>
 <a href="#status" data-tab="status">Status changes</a>
 <a href="#scores" data-tab="scores">Was the score right?</a>
 </nav>
-<p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md.</p>
+<p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · showing only projects scoring {SHOW_AT}+, one card per project ({len(cards)} GitHub, {len(site_cards)} site check, of {len(rows) + len(site_rows)} scored) · {state.get('checked_total',0)} tokens checked in all. Lower scores are still tracked: see <a href="#scores">Was the score right?</a> for any that took off. Scoring rules: SCORING.md.</p>
 <section class="tab" id="short">{shortlist_html(picks, e, joined)}{review_queue_html(review_q, e)}</section>
 <section class="tab" id="building">{building_html(builders, e)}</section>
 <section class="tab" id="sites">
@@ -1717,15 +1802,15 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <p class="top">No GitHub needed. Listed when their own website has at least {sitecheck.LIST_AT} of API key, SDK, MCP and llms.txt.
 Why: on 5 Nov, 32% of tokens worth $2M+ had 3 or more of these, against 2% of random tokens that went nowhere. Rules: SCORING.md.
 Prices are tracked so we can see whether this works.</p>
-{''.join(site_cards) if site_cards else '<p>No tokens have passed the site check yet.</p>'}
+{''.join(site_cards) if site_cards else f'<p>No site-check projects score {SHOW_AT}+ right now.</p>'}
 </section>
 <section class="tab" id="status">{shipping.alerts_html(ship, NOW) if ship else '<p>No status data yet.</p>'}</section>
 <section class="tab" id="test">{test_html or '<p>The 30-day test section is refreshed about twice a day.</p>'}</section>
-<section class="tab" id="scores">{score_check_html(state, pdb, e)}{prices.section(pdb, e)}</section>
+<section class="tab" id="scores">{score_check_html(state, pdb, e)}{prices.section(pdb, e, SHOW_AT)}</section>
 <section class="tab" id="github">
 <h2 style="margin:22px 0 10px">New tokens with a public GitHub</h2>
-<div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="60">60+</button><button data-f="flag">Red flags</button></div>
-{''.join(cards) if cards else '<p>No tokens with a public GitHub yet.</p>'}
+<div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="flag">Red flags</button></div>
+{''.join(cards) if cards else f'<p>No GitHub projects score {SHOW_AT}+ right now.</p>'}
 {skipped_html(state)}
 </section>
 </main><script>

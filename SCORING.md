@@ -89,7 +89,7 @@ Both scores give a **+5 bonus** when the project works with a token that already
 
 ## Card layout (5 Nov)
 
-Closed, each card is four lines: score, name, a **click-to-copy contract address**, badges; value · launched how long ago · where it trades; one ✅ main plus and one ⚠️ main warning (+N more); links. **Details** opens, always in this order: Quick facts (market, X, GitHub or website, launch wallet, status), Warnings (each once, ×N for repeats), Score (points per part, cap, top pluses and misses), About, and Full evidence (every reason line). NEW means launched in the last 24 hours. **Narrative tags** under the warnings line (display only, never scored): up to 3 of AI agents, AI, Privacy, Stocks / RWA, DeFi, Launchpad, Payments, Prediction, Gaming / NFT, Dev tools, Meme — from the project's own words (name, description, X bio) — plus **Public dev** when a GitHub account at least 6 months old names the project's X. Same-name tokens are folded under the best-scoring one.
+Closed, each card is four lines: score, name, a **click-to-copy contract address**, badges; value · launched how long ago · where it trades; one ✅ main plus and one ⚠️ main warning (+N more); links. **Details** opens, always in this order: Quick facts (market, X, GitHub or website, launch wallet, status), Warnings (each once, ×N for repeats), Score (points per part, cap, top pluses and misses), About, and Full evidence (every reason line). NEW means launched in the last 24 hours. **Narrative tags** under the warnings line (display only, never scored): up to 3 of AI agents, AI, Privacy, Stocks / RWA, DeFi, Launchpad, Payments, Prediction, Gaming / NFT, Dev tools, Meme — from the project's own words (name, description, X bio) — plus **Public dev** when a GitHub account at least 6 months old names the project's X. One card per project (see "What the page shows" below).
 
 ## Score refinement (5 Nov): two parts shown, not scored
 
@@ -191,3 +191,11 @@ Every card scoring 60+ gets a row of key-word chips on the closed card and a "Qu
 
 ## Key points on every card (6 Nov)
 The closed card shows up to 3 written-out key points taken from the score's own lines, then the top warning: 1) is it theirs (where the address is posted, or that it isn't), 2) the money signal (takes payments, or fees go back to the token, or earns fees), 3) activity (commits over days and recent building days; or private code; or plug-in tools; or a working app). On 60+ cards the Quick read chips follow, without anything the key points already say. Full scoring stays in Details.
+
+## What the page shows (6 Nov)
+**Cut-off: only projects scoring 61+ are shown**, on every tab (GitHub, Site check, Shortlist, Still building, review queue). Tokens at 60 and below are still scored and priced every run (data/price_track.json, data/price_log.csv). The *Was the score right?* tab opens with **Possible misses**: hidden tokens whose value at least doubled to $25k+, so anything the score missed still shows up. The full price record sits below it, closed.
+
+**One card per project; proof, not size.** Tokens are the same project when they share a GitHub repo, a website, or the same symbol and name. Size and launch order don't decide which is real, because a copy can be bigger or first. If the team posted one token's address on their X, website or GitHub, or a hand check confirms it (`reviews.json`: a hand `review`, or `"official": true`), only that token shows; the copies are not shown. If none is confirmed, one card shows with a **Not confirmed** box listing every address, its score, value, age and launch wallet, and none of them can reach the Shortlist or Still building. When the team posts an address, the page switches to it by itself, and the copycat check flags the rest.
+
+**Serial launcher** (red): the token's launch wallet also launched known copies (copycat flag, or marked not official by hand). Shown in the Not confirmed box and as a warning on the card.
+
