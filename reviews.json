@@ -130,5 +130,25 @@
    "Little use yet: 8 events on the Robinhood ETH pool in the 25h to 6 Nov",
    "Privacy pools are mixer-like, which has drawn sanctions before (Tornado Cash); their roadmap plans proofs of non-association with sanctioned addresses"
   ]
+ },
+ "0x134e52ed8ee01cbb1fb714098b606c57366369fd": {
+  "symbol": "MERY",
+  "checked": "2026-11-06",
+  "notes": [
+   "Site (meryalraven.sbs) posts the CA and links 3 contracts on Blockscout (pool, public vault, sealed vault). Says: 'Live beta, not audited… Use small amounts.' ZK proofs use a setup run by the operator until a public ceremony (roadmap step 1).",
+   "Borrowing runs through Morpho's NVDA/USDG market at Morpho's rate; liquidation at 58%. Only NVDA so far; TSLA, AAPL listed as next after an audit.",
+   "Token: relayers and approvers bond $MERYAL and lose it on a provable fault. Site says 'No fee is redistributed: there is no buyback, no burn tax and no revenue share.' The scanner's 'says money goes back to the token (buyback)' (+10) is a misread of that sentence.",
+   "Says Apache 2.0 (open source) but no public GitHub was found. Contract use couldn't be checked (Blockscout blocks automated checks).",
+   "Market 6 Nov: ~$57k value, $189k traded in 24h (1,848 trades) on ~$21k liquidity: big swings ($74k → $23k → $57k since 5 Nov). X @Meryal_Raven made 28 Oct, 216 followers. Launch wallet: first and only token."
+  ],
+  "review": {
+   "What it does": "Borrow against tokenized stocks, spend privately from addresses nobody can link, and let AI agents pay per request or on credit.",
+   "Unique?": "Rare combination: private spending plus agent credit, backed by Robinhood Chain stocks. Built from known parts (Morpho, x402, ZK proofs).",
+   "Scalable?": "Unproven: live beta, not audited, one stock (NVDA) so far.",
+   "Narrative fit": "Strong: AI agents that pay, tokenized stocks, privacy. Uses Robinhood Chain's own assets.",
+   "How it makes money": "Not stated. Borrowing goes through Morpho at Morpho's rate.",
+   "Token today": "A bond: operators stake it and lose it if they cheat. No buyback, burn or revenue share (their words).",
+   "Watch for": "Not audited, 'use small amounts' · operator holds the proof setup until a public ceremony · thin pool ($21k), big swings · no public code"
+  }
  }
 }
