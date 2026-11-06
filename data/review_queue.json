@@ -1,19 +1,18 @@
 {
- "updated": "2026-11-06T08:53:29+00:00",
+ "updated": "2026-11-06T09:20:29+00:00",
  "tokens": [
   {
-   "address": "0x1aa89c4ab9884cb65b759a3cc3a1690744d687a6",
-   "symbol": "xTOPAZ",
-   "name": "Liquid Wrapped veTOPAZ",
-   "score": 75,
-   "mcap": 82375.0,
+   "address": "0x072d88c2f31f568c0f4b8f613692eb489541ed45",
+   "symbol": "KYTE",
+   "name": "Kyte",
+   "score": 70,
+   "mcap": 17448.1405415433,
    "tags": [
-    "DeFi",
-    "Public dev"
+    "DeFi"
    ],
-   "website": "https://www.topazdex.com",
-   "twitter": "https://x.com/TopazDex",
-   "github": "topazdex/agent-skill",
+   "website": "https://kyte.sh",
+   "twitter": "https://x.com/useKyte",
+   "github": null,
    "why": "not reviewed yet"
   }
  ]
