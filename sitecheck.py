@@ -31,14 +31,16 @@ TOOLS = [
 # (88% vs 47%): 5 -> 15 points. Address on site AND official X (32% vs 7%): +5. Tested: tokens at 61+ that took off
 # 10 -> 18 of 41, that died 1 -> 1 of 15. Notes in SCORING.md.
 TOOL_POINTS = {"API key": 0, "SDK": 10, "MCP": 5}
-SITE_VERSION = 2  # scores made before this version are re-done first (at most 20 a run), so the change reaches every token in hours
+SITE_VERSION = 3  # 3: burn/stake must be about their own token (6 Nov, RAETO). scores made before this version are re-done first (at most 20 a run), so the change reaches every token in hours
 OTHER = {
     "money": r"buy ?backs?|buy-backs?|\bburn(?:ed|s)?\b|\bstak(?:e|ing|ers)\b|revenue share|holders.{0,25}(?:share|earn|receive)",
     # takes real payments (5 Nov test: winners 41%, losers 5%; pricing pages alone didn't separate them)
     "pay": r"\b(?:pay|paid|pays) (?:by|with) (?:card|credit card)|\bcredit card\b|\bdebit card\b|\bstripe\b|apple pay"
            r"|\btop[- ]?ups?\b|\bbuy credits\b",
     # holding the token unlocks the product (UBIK, 5 Nov: "a wallet holding 200,000 UBIK" gets a key)
-    "access": r"\b(?:holders? of|holding|hold) (?:at least |over )?\d[\d,.]*\s*(?:k|m|thousand|million)?\s*\$?[A-Za-z]{2,}"
+    # a time isn't a token: "Hold at least 7 days" had scored as holding "days" (RAETO, 6 Nov)
+    "access": r"\b(?:holders? of|holding|hold) (?:at least |over )?\d[\d,.]*\s*(?:k|m|thousand|million)?\s*"
+              r"(?!(?:days?|hours?|hrs?|weeks?|months?|years?|minutes?|mins?|seconds?|secs?|blocks?)\b)\$?[A-Za-z]{2,}"
               r"|\btoken[- ]gated\b|\bholder'?s? (?:api )?keys?\b|\bavailable (?:only )?to holders\b",
     "rh": r"stock tokens?|tokeni[sz]ed (?:stock|equit)|\bUSDG\b",
     "app": r"launch (?:the )?(?:app|console)|open (?:the )?app|connect wallet|\bdashboard\b",
@@ -46,6 +48,38 @@ OTHER = {
     "agents": r"\bAI agents?\b|\bagents? (?:can|pay|that)\b|\byour agents?\b|\bfor agents\b|\bagent[- ]native\b",
     "winners": r"hookr\.fun|orbio\.so|raeto\.cc|priors\.trade|harmonicagent|whatthehook|fobo\.fun|deltaliquidity|ubik\.gold",
 }
+# "burn" and "stake" have other meanings ("burns credits", "burn rCREDIT", "stake your NFT"), so they count only
+# when the project's own token is named close by (6 Nov, RAETO: the site's burns are its rCREDIT credit token, not
+# $RAETO, which has no use today; 72 scored tokens had earned this point from "burn" anywhere on the page).
+LOOSE_MONEY = re.compile(r"\bburn|\bstak", re.I)
+OWN_TOKEN_NEAR = 120  # characters either side
+OWN_TOKEN_WORDS = (r"\btoken ?holders?\b|\bholders\b|\btokenomics\b|\b(?:total|circulating) supply\b|\bsupply\b"
+                   r"|\bdeflationary\b|\b(?:our|the|native|governance|utility|project) token\b")
+
+
+def money_hit(text, tok, w):
+    """First 'money goes back to the token' match that isn't denied ("no buyback") and, for burn/stake words, is
+    about the project's own token: its $SYMBOL, the symbol as written in capitals, or words like holders/supply."""
+    sym = (tok.get("symbol") or "").strip()
+    own = [re.compile(OWN_TOKEN_WORDS, re.I),
+           re.compile(r'href="(?:https?://[^"]*)?/stak(?:e|ing)\b', re.I)]  # their own Stake page (DWRK)
+    for n in {sym, (tok.get("name") or "").strip()} - {""}:  # "tools for Upoch stakers" (UPOCH)
+        own.append(re.compile(r"\b" + re.escape(n) + r"\s+(?:token\s+)?(?:stakers|holders)\b", re.I))
+    if sym:
+        own.append(re.compile(r"\$" + re.escape(sym) + r"\b", re.I))
+        if sym.upper() == sym and len(sym) >= 2:  # "RAETO" counts, "Raeto" (the brand) doesn't
+            own.append(re.compile(r"\b" + re.escape(sym) + r"\b"))
+    for x in re.finditer(OTHER["money"], text, re.I):
+        if w.said_not(text, x.start()):
+            continue
+        if LOOSE_MONEY.match(x.group(0)):
+            near = text[max(0, x.start() - OWN_TOKEN_NEAR):x.end() + OWN_TOKEN_NEAR]
+            if not any(r.search(near) for r in own):
+                continue
+        return x
+    return None
+
+
 WINNER_NAMES = {"hookr.fun": "Hookr", "orbio.so": "Orbio", "raeto.cc": "Raeto", "priors.trade": "Priors",
                 "harmonicagent": "Harmonic", "whatthehook": "WTH", "fobo.fun": "Fobo", "deltaliquidity": "Delta",
                 "ubik.gold": "UBIK"}  # UBIK added 5 Nov ($23M peak, $6M now)
@@ -148,7 +182,11 @@ def score(tok, review, w):
         # a tool counts only if not denied: "MCP... no API key" had scored API keys (MERY, 6 Nov)
         ok = any(not w.said_not(text, m.start()) for m in re.finditer(rx, text, re.I))
         n_tools += ok
-        add("Plug-in tools", TOOL_POINTS[name] if ok else 0, ("Site offers " if ok else "No sign of ") + words)
+        # found but worth 0 points by design (API keys): ℹ️, not ❌, which read as "not offered" (RAETO, 6 Nov)
+        free = ok and not TOOL_POINTS[name]
+        add("Plug-in tools", TOOL_POINTS[name] if ok else 0,
+            ("Site offers " if ok else "No sign of ") + words + (" (counted, no points)" if free else ""),
+            "ℹ️" if free else None)
     n_tools += bool(llms)
     add("Plug-in tools", 10 if llms else 0,
         f"Has docs written for AI to read ({urllib.parse.urlparse(llms[0]).path})" if llms else "No llms.txt (docs for AI to read)")
@@ -183,7 +221,7 @@ def score(tok, review, w):
                          + ", ".join("@" + h for h in ox["site"]) + " — may be someone copying the project's links")
 
     # --- Money and Robinhood Chain (20) ---
-    m = next((x for x in re.finditer(OTHER["money"], text, re.I) if not w.said_not(text, x.start())), None)  # not "no buyback"
+    m = money_hit(text, tok, w)
     a = None if m else re.search(OTHER["access"], text, re.I)
     add("Money and Robinhood Chain", 10 if (m or a) else 0,
         f"Says money goes back to the token ({m.group(0).lower()}) — claimed, not checked on chain" if m

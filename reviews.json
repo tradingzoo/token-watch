@@ -158,5 +158,42 @@
    "text": "only an operator bond (10% cut on a proven fault, 14-day unbond), and no bonds posted yet; their site says no buyback, no burn tax and no revenue share",
    "source": "meryalraven.sbs/token and homepage, read 6 Nov 07:26 UTC; bonds contract 0xf822a1Bb, 0 events (Robinhood Chain RPC)"
   }
+ },
+ "0x72be1277e198d0c476869253cb4e62807e14533c": {
+  "symbol": "RAETO",
+  "checked": "2026-11-06 (deep dive ~12:00 UTC)",
+  "notes": [
+   "Deep dive 6 Nov ~11:50-12:10 UTC (checklist in CLAUDE.md). Sources: raeto.cc home, /developers, /build, /money, /earn, /rcredit, /analytics, /roadmap; their API api.raeto.cc/health, /v1/models, /v1/route/preview, /mcp; Robinhood Chain RPC event logs; npm registry; GitHub search; fxtwitter profile @RaetoCC.",
+   "Theirs: confirmed. Their own status page api.raeto.cc/health lists this address as the staking token ('staking': enabled false, token 0x72be..., rewardPct 25). The site links it only through a footer 'MCG Signal' link (mcgsignal.com/0x72be...). Launch wallet 0x047d5cad is also the wallet that made the first and largest vault deposits.",
+   "Product is live (checked 6 Nov): /v1/models lists 426 models; /v1/route/preview answered a test request (picked mistral-small, 98% cheaper than the top model); paid chat call without a key returns 402 (payment needed); MCP server asks for sign-in. npm @raeto/plugin-raeto (made 23 Oct, 708 downloads last month) and @raeto/game-plugin (24 Oct, 337). Card checkout on ($5-$1,000, 2.9% + $0.30).",
+   "Token's job: none today. /developers: 'Auto routing is open to every account; you don't need to hold $RAETO' and 'Only if Raeto turns a $RAETO holding requirement for auto routing back on; it's off today.' Staking is built but switched off (health: staking.enabled false). The 'burns' on the site are rCREDIT (their $1 credit token), not $RAETO.",
+   "Usage: USDG vault 0x6f9c9bd7 has had 7 deposits from 3 wallets ever. 0x047d5cad (the token's launch wallet) put in $9,928 on 13 Oct and took $9,000 out on 29 Oct; the other two put in $7 and $2.61. Daily interest fell from ~$1.10 to ~$0.10 after that (Harvest events). Health page also shows 115,436 billing receipts (1,273 in the 11:00 UTC hour, anchored on chain hourly; may include the free routing preview), 24 agents, 33 watched wallets with 0 on-chain payments in, Priors tool calls 11 since 3 Nov. /analytics says 'Coming soon'.",
+   "Money: 8% fee on model output, auto routing takes 30% of what it saves, $0.0002 per routing decision, 1.5% on Raeto Pay tool sales, 2% to cash rCREDIT back to USDG. No public revenue figures.",
+   "Team: anonymous. X @RaetoCC made 11 Oct 2026, 1,918 followers, 445 posts (6 Nov). Token launched on Pons 12 Oct 14:39 UTC. Launch wallet, treasury and keeper hold 0 $RAETO now (where the launch buy went: not checked). No public GitHub of their own (raetoRH/raeto-plugin made 25 Oct, 0 stars, not confirmed theirs). No audit mentioned. Payouts are 'checked by the Raeto team before sent'; rCREDIT move-out is 'paused right now'.",
+   "Scanner corrections: 'money goes back to the token (burns)' +10 is wrong: the burns are rCREDIT, $RAETO has no use today (score should be 70, not 80). 'Site offers API keys' shows a red cross although keys are offered (it is worth 0 points by design; the mark misleads).",
+   "Copy: 0xbd29820102eacfad4b8881b33e40f128fde6d274 (RAETO) launched on Pons 6 Nov 04:35 UTC by unrelated wallet 0x7ab43034, using raeto.cc and the new X bio. Not posted anywhere by the team."
+  ],
+  "review": {
+   "What it does": "One prepaid balance that AI agents spend on 400+ AI models, other APIs and each other, with spending limits; can be funded by card, USDG or the interest on deposited stock tokens.",
+   "Unique?": "Like OpenRouter plus agent wallets; the Robinhood Chain angle (stock-token interest pays for AI, USDG top-ups) is new here.",
+   "In use?": "The AI gateway is live and serves calls (115k billing receipts), but the Earn vault is almost only the team's own money (3 wallets ever) and no usage numbers are public yet.",
+   "How it makes money": "8% on model output, 30% of routing savings, $0.0002 per routing call, 1.5% on Raeto Pay sales, 2% rCREDIT cash-out.",
+   "Token today": "No use: holding $RAETO isn't needed, staking (25% reward share) is built but switched off. The site's 'burn' is rCREDIT, not $RAETO.",
+   "Team": "Anonymous. X and token both from 11-12 Oct 2026. No public code of their own, no audit.",
+   "Watch for": "Staking switched on (health page) · analytics page goes live · outside wallets in the vault · rCREDIT move-out unpaused"
+  },
+  "token_use": {
+   "none": true,
+   "text": "no use today: 'you don't need to hold $RAETO' for auto routing, the holding requirement is 'off today', and staking (25% reward share) is built but disabled",
+   "source": "raeto.cc/developers and api.raeto.cc/health (staking.enabled false), read 6 Nov ~12:00 UTC"
+  }
+ },
+ "0xbd29820102eacfad4b8881b33e40f128fde6d274": {
+  "symbol": "RAETO",
+  "checked": "2026-11-06",
+  "unofficial": "Copy of Raeto: launched 6 Nov 04:35 UTC by a new wallet (0x7ab43034) with no link to Raeto's launch wallet; the real token is 0x72be1277..., which Raeto's own status page (api.raeto.cc/health) names as its staking token",
+  "notes": [
+   "Checked 6 Nov ~12:00 UTC: raeto.cc and api.raeto.cc/health never mention 0xbd29...; real RAETO launched 12 Oct by 0x047d5cad"
+  ]
  }
 }

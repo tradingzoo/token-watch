@@ -24,7 +24,7 @@ Run every step, then report in one page. Tested on MERY 6 Nov: it found what a q
 SDK not published, paid API only a demo, token's one use unused, two scanner misreads).
 1. **Theirs?** Where the team posts this exact address (site, X, GitHub): quote + link. If nowhere: "not confirmed" at the top.
 2. **Copies / launcher:** same name, site or repo on our lists; launch wallet history (data/wallets.json).
-3. **Read everything:** every page of the site (home, docs, token, developers, app pages, roadmap, risks), X bio and recent posts.
+3. **Read everything:** every page of the site (home, docs, token, developers, app pages, roadmap, risks), X bio and recent posts. Also their API's own status or config page (try `/health`, `/status`, `/api/config` on the API host): on RAETO (6 Nov) it was the best source, naming the token address, the staking switch (built, off) and live usage counts; MERY's `/api/live?what=config` listed its contracts.
 4. **Product:** one plain sentence; live (app link) / beta / idea; who can't use it.
 5. **Token's job for holders:** quote the sentence. Fees back / holding unlocks / bond or deposit / **no use**.
 6. **Money:** pricing or fees; check any paid API is real (call its public endpoints). "Not stated" if none.
