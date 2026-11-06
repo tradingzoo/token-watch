@@ -1,25 +1,25 @@
 {
- "time": "2026-11-06T07:16:28+00:00",
- "active": 272,
- "resting": 137,
- "woken_7d": 8,
+ "time": "2026-11-06T07:35:19+00:00",
+ "active": 271,
+ "resting": 135,
+ "woken_7d": 7,
  "graduation": {
   "buckets": {
-   "Within 6 hours": 13,
+   "Within 6 hours": 11,
    "6\u201324 hours": 0,
    "1\u20132 days": 1,
    "2\u20137 days": 1,
    "7+ days": 0
   },
-  "never": 20,
+  "never": 18,
   "late": [
    {
     "symbol": "OSTRA",
     "days": 2.8,
     "score": 85,
-    "now": 298700.0
+    "now": 294127.0
    }
   ],
-  "total": 35
+  "total": 31
  }
 }
