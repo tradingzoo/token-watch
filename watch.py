@@ -1653,6 +1653,7 @@ ul{{margin:0;padding-left:20px}} li{{margin:2px 0}}
 .signs{{margin:var(--s2) 0 0;font-size:13px;color:var(--hi);font-weight:600;background:var(--goodbg);border-radius:6px;padding:2px var(--s2);width:fit-content;max-width:100%}}
 .joined{{background:var(--accent);color:var(--card);border-radius:4px;padding:0 6px;margin-right:6px;font-weight:700}}
 .qr{{margin:var(--s2) 0 0;display:flex;gap:4px;flex-wrap:wrap;font-size:12px;font-weight:550}} .qr span{{border-radius:5px;padding:1px 7px}} .qg{{background:var(--goodbg);color:var(--hi)}} .qa{{background:color-mix(in oklab,var(--mid) 14%,transparent);color:var(--mid)}} .qx{{background:var(--flag);color:var(--lo)}}
+.key{{display:flex;flex-wrap:wrap;gap:4px 14px;margin:0 0 var(--s1);font-size:13px;color:var(--mute)}} .key .qg,.key .qa,.key .qx{{border-radius:5px;padding:0 7px;font-size:12px;font-weight:550}}
 .tags{{margin:var(--s2) 0 0;display:flex;gap:var(--s1);flex-wrap:wrap}}
 .tag{{font-size:var(--t-1);font-weight:550;border-radius:999px;padding:1px 10px;background:var(--soft);color:var(--mute)}}
 .new{{font-size:11px;font-weight:700;letter-spacing:.04em;background:var(--accent);color:var(--card);border-radius:999px;padding:1px 8px}}
@@ -1697,6 +1698,8 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <div id="toast" class="toast" role="status" hidden></div>
 <main>
 <h1>Token Watch</h1>
+<p class="key"><span>✅ checked</span><span>🟡 claimed or guessed, not checked</span><span>❌ missing</span><span>⚠️ warning</span><span>🔒 private code</span>
+<span class="qg">green chip = good</span><span class="qa">amber = claimed / unchecked</span><span class="qx">red = risk</span></p>
 <nav class="tabs" id="tabs">
 <a href="#short" data-tab="short">Shortlist <span class="cnt">{sum(1 for p in picks if len(p[4]) >= SHORT_SIGNS and (p[3].get('trades24') or 0) >= SHORT_TRADES and (p[3].get('liq') or 0) >= SHORT_LIQ)}</span></a>
 <a href="#building" data-tab="building">Still building</a>
@@ -1706,7 +1709,7 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <a href="#status" data-tab="status">Status changes</a>
 <a href="#scores" data-tab="scores">Was the score right?</a>
 </nav>
-<p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
+<p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md.</p>
 <section class="tab" id="short">{shortlist_html(picks, e, joined)}{review_queue_html(review_q, e)}</section>
 <section class="tab" id="building">{building_html(builders, e)}</section>
 <section class="tab" id="sites">
