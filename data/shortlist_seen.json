@@ -108,10 +108,10 @@
   },
   "0x000050e18ffa3f8f7ad170eb9cef160eb3ed1111": {
    "symbol": "TORCH",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-06T04:01:44+00:00"
+   "left": null
   },
   "0x61e0deba0a6bd1d0df92af816739449c861e3cce": {
    "symbol": "SYNTHS",
@@ -305,8 +305,8 @@
   "0x96f455a90a80dcf0c2df6703ea4ba3bedf286e43": {
    "symbol": "VERDEX",
    "in": true,
-   "joined": "2026-11-06T10:18:22+00:00",
-   "first": "2026-11-06T10:18:22+00:00",
+   "joined": "2026-11-06T10:41:21+00:00",
+   "first": "2026-11-06T10:41:21+00:00",
    "left": null
   }
  }
