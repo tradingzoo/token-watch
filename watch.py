@@ -1181,7 +1181,7 @@ def winner_signs(r, sc):
 
 
 REVIEW_AT = 60            # tokens at this score or more get a hand review (user, 6 Nov)
-REVIEW_FROM = "2026-11-06T03:30"  # only projects launched from here on (user, 6 Nov: no going back over older ones)
+REVIEW_FROM = "2026-11-06T03:15"  # only projects launched from here on (user, 6 Nov: no going back over older ones)
 REVIEW_QUEUE = os.path.join(HERE, "data", "review_queue.json")
 
 
