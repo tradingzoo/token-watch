@@ -1180,6 +1180,22 @@ def winner_signs(r, sc):
     ) if ok]
 
 
+REVIEW_AT = 60            # tokens at this score or more get a hand review (user, 6 Nov)
+REVIEW_STALE_DAYS = 7     # a review older than this goes back in the queue
+REVIEW_QUEUE = os.path.join(HERE, "data", "review_queue.json")
+
+
+def review_queue_html(q, e):
+    """Tokens at 60+ still waiting for a hand review (written by Claude when asked; see SCORING.md)."""
+    if not q:
+        return ""
+    rows = "".join(f"<li><b>{e(x['symbol'])}</b> {x['score']} · {e(money(x['mcap']))}"
+                   + (f" · {e(', '.join(x['tags']))}" if x["tags"] else "") + f" <span class='muted'>({e(x['why'])})</span></li>"
+                   for x in q[:60])
+    return (f"<details class='dups' style='margin-top:24px'><summary>📝 Hand review queue ({len(q)}): tokens at {REVIEW_AT}+ "
+            f"without a review, AI projects first</summary><ul style='margin:8px 0 0'>{rows}</ul></details>")
+
+
 def shortlist_live(picks):
     """(live, early): the Shortlist proper and the riskier 'passes everything but trading' list."""
     good = [p for p in picks if len(p[4]) >= SHORT_SIGNS]
@@ -1341,7 +1357,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
     e = html.escape
     def md(s):  # `code` only
         return re.sub(r"`([^`]+)`", r"<code>\1</code>", e(s))
-    cards, site_cards, picks, builders = [], [], [], []
+    cards, site_cards, picks, builders, review_q = [], [], [], [], []
     reviews = json.load(open(REVIEWS, encoding="utf-8")) if os.path.exists(REVIEWS) else {}
     for r in rows + site_rows:
         sc = r["scoring"]
@@ -1437,6 +1453,13 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         if (sc["score"] > 0 and not unclaimed and not unoff and not sc.get("flags")
                 and r["address"].lower() not in {p[0]["address"].lower() for p in builders}):
             builders.append((r, sc, warn_items, build_activity(a_, ship), (site_cards if is_site else cards)[-1][2]))
+        rvw = reviews.get(a_.lower(), {})
+        stale = hand and rvw.get("checked") and days_between(NOW, iso(rvw["checked"] + "T00:00:00+00:00")) > REVIEW_STALE_DAYS
+        if sc["score"] >= REVIEW_AT and not unoff and (not hand or stale) and a_.lower() not in {q["address"] for q in review_q}:
+            review_q.append({"address": a_.lower(), "symbol": r.get("symbol") or "?", "name": r.get("name") or "",
+                             "score": sc["score"], "mcap": (pdb.get(a_.lower()) or {}).get("now_mcap") or r.get("mcap") or 0,
+                             "tags": tags, "website": r.get("website"), "twitter": r.get("twitter"),
+                             "github": None if is_site else sc.get("repo"), "why": "out of date" if hand else "not reviewed yet"})
         if sc["score"] > 0 and not unclaimed and not warn_items and r["address"].lower() not in {p[0]["address"].lower() for p in picks}:
             picks.append((r, sc, warn_items, (pdb.get(a_.lower()) or {}).get("market") or {}, winner_signs(r, sc),
                           (site_cards if is_site else cards)[-1][2]))
@@ -1447,6 +1470,11 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
     except Exception as ex:
         print(f"Alert: skipped ({ex})")
         joined = {}
+    review_q.sort(key=lambda q: (not any("AI" in t for t in q["tags"]), -q["score"], -(q["mcap"] or 0)))  # AI first (user, 6 Nov)
+    try:
+        json.dump({"updated": NOW.isoformat(timespec="seconds"), "tokens": review_q}, open(REVIEW_QUEUE, "w", encoding="utf-8"), indent=1)
+    except Exception as ex:
+        print(f"Review queue: not saved ({ex})")
     cards, site_cards = fold_copies(cards, e), fold_copies(site_cards, e)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Token Watch</title>
@@ -1556,7 +1584,7 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <a href="#scores" data-tab="scores">Was the score right?</a>
 </nav>
 <p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · {len(rows)} GitHub tokens · {len(site_rows)} site-check tokens · {state.get('checked_total',0)} tokens checked in all. Scoring rules: SCORING.md. 🟡 = partial, guessed or not switched on yet.</p>
-<section class="tab" id="short">{shortlist_html(picks, e, joined)}</section>
+<section class="tab" id="short">{shortlist_html(picks, e, joined)}{review_queue_html(review_q, e)}</section>
 <section class="tab" id="building">{building_html(builders, e)}</section>
 <section class="tab" id="sites">
 <h2 style="margin:22px 0 6px">Site check: tokens whose website lets developers and AI agents plug in</h2>
