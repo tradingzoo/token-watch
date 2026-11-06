@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06T21:02:30+00:00",
+ "updated": "2026-11-06T21:19:55+00:00",
  "tokens": [
   {
    "address": "0x346212384cde8ee3df97c762fbe7e70d617e953f",
    "symbol": "RIG",
    "name": "AgentRig",
    "score": 70,
-   "mcap": 3947.0870690818747,
+   "mcap": 3940.069826098566,
    "tags": [
     "AI agents"
    ],
@@ -20,13 +20,27 @@
    "symbol": "HCAT",
    "name": "HookCat",
    "score": 70,
-   "mcap": 3689.9784510068807,
+   "mcap": 3683.4183029937503,
    "tags": [
     "AI"
    ],
    "website": "https://hookcat.app",
    "twitter": "https://x.com/renthookcat",
    "github": null,
+   "why": "not reviewed yet"
+  },
+  {
+   "address": "0x3585df71e28a48eed265fafbc27334e30ff6d1ff",
+   "symbol": "UUAgent",
+   "name": "UU Agent",
+   "score": 65,
+   "mcap": 3735.4947754319996,
+   "tags": [
+    "AI agents"
+   ],
+   "website": "https://u2u.xyz/",
+   "twitter": "https://x.com/u2u_xyz",
+   "github": "unicornultrafoundation/go-u2u",
    "why": "not reviewed yet"
   },
   {
@@ -49,7 +63,7 @@
    "symbol": "KYTE",
    "name": "Kyte",
    "score": 70,
-   "mcap": 77384.0,
+   "mcap": 85286.0,
    "tags": [
     "DeFi"
    ],
