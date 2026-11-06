@@ -12,7 +12,7 @@ Hand-checked findings go in reviews.json and replace the script's guesses.
 import csv, json, os, re, subprocess, shutil, sys, time, datetime, html, urllib.request, urllib.parse
 from collections import Counter
 import statistics
-import x_info, deployers, test_tokens, prices, shipping, sitecheck, dexpools, notify, test61
+import x_info, deployers, test_tokens, prices, shipping, sitecheck, dexpools, notify, test61, tiers
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "data", "watch_state.json")
@@ -22,7 +22,31 @@ REVIEWS = os.path.join(HERE, "reviews.json")
 LOG = os.path.join(HERE, "last_watch.txt")
 UA = "Mozilla/5.0 (robinhood-scan research script)"
 NOW = datetime.datetime.now(datetime.timezone.utc)
-RESCORE_HOURS = 6
+RESCORE_HOURS = 6       # projects shown on the page (61+)
+RESCORE_HIDDEN_HOURS = 24  # hidden (1-60) but still active (young): user, 6 Nov, to cut scan time
+RESCORE_RESTING_HOURS = 72  # resting tokens (tiers.py): hidden and older
+RESCORE_ZERO_HOURS = 168    # score 0 (copies, not their own code)
+MAX_RESCORES = 20          # per list per run, most overdue first, so a batch due at once can't pile up
+BUDGET_MIN = 12            # after this many minutes a scan skips optional work (re-scores, resting slice); next scan does it
+START = time.time()
+RESTING = set()            # addresses resting this run (tiers.py), filled in main()
+
+
+def over_budget():
+    return (time.time() - START) / 60 > BUDGET_MIN
+
+
+def rescore_hours(g):
+    score = g["scoring"]["score"]
+    if score >= SHOW_AT:
+        return RESCORE_HOURS
+    if score == 0:
+        return RESCORE_ZERO_HOURS
+    return RESCORE_RESTING_HOURS if (g.get("address") or "").lower() in RESTING else RESCORE_HIDDEN_HOURS
+
+
+def rescore_due(g):
+    return days_between(NOW, iso(g["scored_at"])) * 24 >= rescore_hours(g)
 COPY_CACHE = {}  # repo@last-push -> (flags, notes); saved in the state file
 GH = shutil.which("gh") or r"C:\Users\zacha\AppData\Local\Programs\GitHub CLI\gh.exe"
 CURL = shutil.which("curl") or r"C:\Windows\System32\curl.exe"
@@ -190,6 +214,42 @@ def dex_tokens():
     return list(out.values())
 
 
+PONS_TIMES = {}  # address -> createdAt / graduatedAt / stage seen on its Pons page this run (saved by tiers.py)
+RUN_STATS = {}   # counts for data/runs.csv
+
+
+def pons_times(addr):
+    """Launch and graduation time from a token's own Pons page (for tokens priced on an exchange, whose page
+    the price check doesn't open)."""
+    s = fetch(f"https://ponsfamily.com/launchpad/{addr}")
+    if not s:
+        return
+    s = s.replace('\\"', '"')
+    i = s.find('{"address":"%s"' % addr)
+    if i < 0:
+        return
+    try:
+        o, _ = json.JSONDecoder().raw_decode(s, i)
+        o = o.get("launch") or o
+        PONS_TIMES[addr] = {k: o.get(k) for k in ("createdAt", "graduatedAt", "stage")}
+    except Exception:
+        pass
+
+
+def test_keep():
+    """Addresses (lower case) of both 30-day tests' tokens: always fully checked."""
+    keep = set()
+    try:
+        keep |= {t["address"].lower() for t in csv.DictReader(open(os.path.join(HERE, "tokens.csv"), encoding="utf-8"))}
+    except Exception:
+        pass
+    try:
+        keep |= set(json.load(open(test61.FILE, encoding="utf-8")).get("tokens", {}))
+    except Exception:
+        pass
+    return keep
+
+
 def market(addr):
     """Symbol, market cap and where it trades now."""
     pairs = [p for p in fetch_json(f"https://api.dexscreener.com/tokens/v1/robinhood/{addr}") or []
@@ -209,6 +269,7 @@ def market(addr):
             try:
                 o, _ = json.JSONDecoder().raw_decode(s, i)
                 o = o.get("launch") or o
+                PONS_TIMES[addr.lower()] = {k: o.get(k) for k in ("createdAt", "graduatedAt", "stage")}  # tiers.py
                 return {"symbol": o.get("symbol"), "name": o.get("name"), "mcap": o.get("marketCapUsd"),
                         "where": f"Pons launchpad ({o.get('stage')})"}
             except Exception:
@@ -1567,7 +1628,7 @@ def quick_facts(r, sc, xdb, wallets, pdb, ship, e):
     return "<dl class='facts'>" + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in rows) + "</dl>"
 
 
-def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=None, ship=None):
+def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=None, ship=None, health=""):
     pdb = pdb or {}
     rows = sorted(state["github"].values(), key=lambda r: r.get("launched") or r["first_seen"], reverse=True)  # newest launch first
     # newest project first: by launch time (when found, if the launch time isn't known)
@@ -1759,12 +1820,12 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
    - Numbers in tabular figures so columns line up; ink only where it carries data (Tufte)
    - Score ring: the arc is the score, so the shape carries the number
    - Nested corners: inner radius = outer radius minus padding */
-:root{{--bg:#f5f7f9;--card:#fff;--ink:#171b20;--mute:#5f646a;--line:#dfe1e5;--soft:#edf0f4;--accent:#3263c3;--hi:#007e46;--mid:#9a6100;--lo:#ba3630;--flag:#ffece9;--goodbg:#e3f8e9;
+:root{{--chart:#3263c3;--bg:#f5f7f9;--card:#fff;--ink:#171b20;--mute:#5f646a;--line:#dfe1e5;--soft:#edf0f4;--accent:#3263c3;--hi:#007e46;--mid:#9a6100;--lo:#ba3630;--flag:#ffece9;--goodbg:#e3f8e9;
 --t-1:12px;--t0:15px;--t1:18.75px;--t2:23.4px;--t3:29.3px;
 --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--r:12px;
 --shadow:0 1px 2px rgb(16 24 40/.05),0 1px 3px rgb(16 24 40/.06)}}
-@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#0d1013;--card:#15191d;--ink:#e8ebef;--mute:#a0a5ac;--line:#2a2e34;--soft:#1e2226;--accent:#7daafd;--hi:#5ccb89;--mid:#eeb154;--lo:#f47c70;--flag:#381f1c;--goodbg:#132a1b;--shadow:none}}}}
-:root[data-theme="dark"]{{--bg:#0d1013;--card:#15191d;--ink:#e8ebef;--mute:#a0a5ac;--line:#2a2e34;--soft:#1e2226;--accent:#7daafd;--hi:#5ccb89;--mid:#eeb154;--lo:#f47c70;--flag:#381f1c;--goodbg:#132a1b;--shadow:none}}
+@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--chart:#5f8ff0;--bg:#0d1013;--card:#15191d;--ink:#e8ebef;--mute:#a0a5ac;--line:#2a2e34;--soft:#1e2226;--accent:#7daafd;--hi:#5ccb89;--mid:#eeb154;--lo:#f47c70;--flag:#381f1c;--goodbg:#132a1b;--shadow:none}}}}
+:root[data-theme="dark"]{{--chart:#5f8ff0;--bg:#0d1013;--card:#15191d;--ink:#e8ebef;--mute:#a0a5ac;--line:#2a2e34;--soft:#1e2226;--accent:#7daafd;--hi:#5ccb89;--mid:#eeb154;--lo:#f47c70;--flag:#381f1c;--goodbg:#132a1b;--shadow:none}}
 *{{box-sizing:border-box}}
 body{{margin:0;background:var(--bg);color:var(--ink);font:var(--t0)/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}}
 main{{max-width:880px;margin:0 auto;padding:var(--s6) var(--s4) var(--s7)}}
@@ -1828,6 +1889,15 @@ ul.pm li.p::before{{content:"+";display:inline-block;width:18px;text-indent:0;co
 .xline{{margin:var(--s2) 0 0;font-size:13px;color:var(--mute)}} .ship{{color:var(--ink)}}
 .muted{{color:var(--mute);font-size:13px}}
 .answer{{background:var(--soft);border-radius:8px;padding:var(--s2) var(--s3);margin:var(--s2) 0;font-size:15px}}
+.tiles{{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--s3);margin:var(--s3) 0 var(--s4)}}
+.tile{{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:var(--s3) var(--s4);display:flex;flex-direction:column;gap:2px}}
+.tile b{{font-size:var(--t2);font-variant-numeric:tabular-nums;line-height:1.1}} .tile span{{font-size:13px;font-weight:600}} .tile small{{font-size:12px;color:var(--mute)}}
+svg.chart{{width:100%;height:auto;display:block;margin:var(--s2) 0}} svg.chart .grid{{stroke:var(--line);stroke-width:1}}
+svg.chart .target{{stroke:var(--mute);stroke-width:1.5;stroke-dasharray:4 4}} svg.chart .ax{{fill:var(--mute);font-size:11px;font-variant-numeric:tabular-nums}}
+svg.chart .bar rect:first-child{{fill:var(--chart)}} svg.chart .hit{{fill:transparent}} svg.chart .bar:hover rect:first-child{{opacity:.75}}
+.hbars{{display:grid;gap:6px;margin:var(--s3) 0;max-width:620px}} .hrow{{display:grid;grid-template-columns:140px 1fr 40px;align-items:center;gap:var(--s2);font-size:14px}}
+.hl{{color:var(--mute)}} .ht{{background:var(--soft);border-radius:4px;height:14px;overflow:hidden}} .hb{{display:block;height:100%;background:var(--chart);border-radius:4px;min-width:2px}}
+.hv{{font-variant-numeric:tabular-nums;font-weight:600}} details.tv>summary{{font-size:13px}}
 table.sc{{border-collapse:collapse;margin:var(--s2) 0 var(--s3);font-size:14px;font-variant-numeric:tabular-nums}}
 table.sc td,table.sc th{{border-bottom:1px solid var(--line);padding:6px var(--s4) 6px 0;text-align:left}} table.sc th{{color:var(--mute);font-weight:550;font-size:13px}}
 .test h2{{margin:0 0 var(--s1)}}
@@ -1859,6 +1929,7 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <a href="#test" data-tab="test">30-day test</a>
 <a href="#status" data-tab="status">Status changes</a>
 <a href="#scores" data-tab="scores">Was the score right?</a>
+<a href="#health" data-tab="health">Scanner health</a>
 </nav>
 <p class="top">New Robinhood Chain tokens (Pons + DexScreener). Checked about every 15 minutes. Last run {NOW:%Y-%m-%d %H:%M} UTC · showing only projects scoring {SHOW_AT}+, one card per project ({len(cards)} GitHub, {len(site_cards)} site check, of {len(rows) + len(site_rows)} scored) · {state.get('checked_total',0)} tokens checked in all. Lower scores are still tracked: see <a href="#scores">Was the score right?</a> for any that took off. Scoring rules: SCORING.md.</p>
 <section class="tab" id="short">{shortlist_html(picks, e, joined)}{review_queue_html(review_q, e)}</section>
@@ -1872,6 +1943,7 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <section class="tab" id="status">{shipping.alerts_html(ship, NOW, keep) if ship else '<p>No status data yet.</p>'}</section>
 <section class="tab" id="test">{test61.html(t61, NOW, e, money)}{test_html or '<p>The first test section is refreshed about twice a day.</p>'}</section>
 <section class="tab" id="scores">{scores_html}</section>
+<section class="tab" id="health">{health or '<p>Scanner health appears after the next scan.</p>'}</section>
 <section class="tab" id="github">
 <h2 style="margin:22px 0 10px">New tokens with a public GitHub</h2>
 <div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="flag">Red flags</button></div>
@@ -1961,7 +2033,7 @@ def site_pass(toks, state, reviews):
             continue
         g = sites.get(key)
         if g:
-            if days_between(NOW, iso(g["scored_at"])) * 24 >= RESCORE_HOURS:
+            if rescore_due(g):
                 todo.append((key, t))
             continue
         last = looked.get(key)
@@ -1984,7 +2056,9 @@ def site_pass(toks, state, reviews):
         json.dump(q, open(CATCHUP, "w", encoding="utf-8"))
         log(f"Site check: {len(over)} tokens didn't fit this run, queued for catch-up")
     new = new[:sitecheck.MAX_NEW_PER_RUN]
-    todo = [x for x in todo if x[0] in sites] + new
+    again = sorted([x for x in todo if x[0] in sites], key=lambda x: sites[x[0]]["scored_at"])[:0 if over_budget() else MAX_RESCORES]  # most overdue first; none if over the time budget
+    todo = again + new
+    RUN_STATS["rescored"] = RUN_STATS.get("rescored", 0) + len(again)
     n_listed = 0
     for key, t in todo:
         looked[key] = NOW.isoformat(timespec="seconds")
@@ -2026,6 +2100,14 @@ def main():
     reviews = json.load(open(REVIEWS, encoding="utf-8")) if os.path.exists(REVIEWS) else {}
     COPY_CACHE.update({k: tuple(v) for k, v in state.get("copy_cache", {}).items()})
     state.setdefault("skipped", [])
+    # active vs resting (tiers.py, 6 Nov): resting = hidden and older; checked once a day, woken when they move
+    global RESTING
+    tdb = tiers.load()
+    pdb0 = {k.lower(): v for k, v in (json.load(open(prices.FILE, encoding="utf-8")) if os.path.exists(prices.FILE) else {}).items()}
+    keep = test_keep()
+    scored = list(state["github"].values()) + list(state.get("sites", {}).values())
+    symbols = {r["address"].lower(): r.get("symbol") or "?" for r in scored}
+    active, RESTING = tiers.split(tdb, scored, NOW, keep, SHOW_AT, pdb0)
     ptoks = pons_tokens()
     seed = os.path.join(HERE, "data", "raw_2026-11-04", "pons.html")
     if not state["seen"] and os.path.exists(seed):  # first run: also check the 4 Nov list
@@ -2042,7 +2124,11 @@ def main():
             toks[key] = {k: g.get(k) for k in ("address", "symbol", "name", "description", "website", "twitter", "launched", "site_via_x")}
             toks[key].update({"links": [], "source": "earlier"})
     for t in pons_busy():  # tokens taking off after they left the newest page (MERY, UPOCH, 5 Nov)
-        toks.setdefault(t["address"].lower(), t)
+        a = t["address"].lower()
+        if a in RESTING:  # a resting token on Pons's top market-cap / volume list wakes now, not at its daily check
+            tiers.wake(tdb, a, "on Pons's top market-cap / volume list", t.get("mcap"), NOW, symbols)
+            RESTING.discard(a)
+        toks.setdefault(a, t)
     for t in catchup(state):  # older launches from the one-time sweep, a few a run
         toks.setdefault(t["address"].lower(), t)["catchup"] = True
     try:  # every new token trading on Robinhood Chain, not only Pons ones (FOBO, 5 Nov)
@@ -2053,14 +2139,18 @@ def main():
         log(f"Pool feed: failed ({ex})")
     fix_launch_dates(state)
 
-    queue = list(toks.items())
+    # new tokens first, then re-scores, most overdue first; at most MAX_RESCORES re-scores a run
+    queue = sorted(toks.items(), key=lambda kv: (kv[0] in state["github"], (state["github"].get(kv[0]) or {}).get("scored_at", "")))
+    rescored = 0
     while queue:
         key, t = queue.pop(0)
         g = state["github"].get(key)
         if key in state["seen"] and not g:
             continue  # already checked, no GitHub
-        if g and days_between(NOW, iso(g["scored_at"])) * 24 < RESCORE_HOURS:
+        if g and (not rescore_due(g) or rescored >= MAX_RESCORES or over_budget()):
             continue
+        rescored += bool(g)
+        RUN_STATS["rescored"] = RUN_STATS.get("rescored", 0) + bool(g)
         if key not in state["seen"]:
             state["checked_total"] = state.get("checked_total", 0) + 1
         state["seen"][key] = NOW.isoformat(timespec="seconds")
@@ -2130,8 +2220,16 @@ def main():
         log(f"Test tokens: skipped ({ex})")
         trows = []
     allrows = list(state["github"].values()) + list(state.get("sites", {}).values()) + trows
+    # active tokens (incl. ones added this run) get every check; resting ones only in today's slice (tiers.py)
+    scored = list(state["github"].values()) + list(state.get("sites", {}).values())
+    symbols.update({r["address"].lower(): r.get("symbol") or "?" for r in scored})
+    active, RESTING = tiers.split(tdb, scored, NOW, keep, SHOW_AT, pdb0)
+    slice_ = [] if over_budget() else tiers.due_resting(tdb, RESTING, NOW)
+    look = active | set(slice_)
+    checkrows = [r for r in allrows if "scoring" not in r or r["address"].lower() in look]
+    log(f"Tiers: {len(active)} active, {len(RESTING)} resting, {len(slice_)} resting checked this run")
     try:
-        xdb = x_info.update(allrows, fetch_json, NOW, log, fetch=fetch, gh_user=lambda o: gh(f"users/{o}"))
+        xdb = x_info.update(checkrows, fetch_json, NOW, log, fetch=fetch, gh_user=lambda o: gh(f"users/{o}"))
     except Exception as ex:
         log(f"X: skipped ({ex})")
         xdb = json.load(open(x_info.FILE, encoding="utf-8")) if os.path.exists(x_info.FILE) else {}
@@ -2141,7 +2239,7 @@ def main():
         log(f"Wallets: skipped ({ex})")
         wallets = json.load(open(deployers.FILE, encoding="utf-8")) if os.path.exists(deployers.FILE) else {}
     try:
-        ship = shipping.update(allrows, fetch, fetch_json, xdb, GH, NOW, log)
+        ship = shipping.update(checkrows, fetch, fetch_json, xdb, GH, NOW, log)
     except Exception as ex:
         log(f"Shipping: skipped ({ex})")
         ship = json.load(open(shipping.FILE, encoding="utf-8")) if os.path.exists(shipping.FILE) else None
@@ -2151,11 +2249,39 @@ def main():
         log(f"Test section: skipped ({ex})")
         test_html = ""
     try:
-        pdb = prices.update(state, fetch_json, market, NOW, log)
+        pdb = prices.update(state, fetch_json, market, NOW, log, pons_for=look)
     except Exception as ex:
         log(f"Prices: skipped ({ex})")
         pdb = json.load(open(prices.FILE, encoding="utf-8")) if os.path.exists(prices.FILE) else {}
-    build_site(state, xdb, wallets, test_html, allrows, pdb, ship)
+    health = ""
+    try:  # launch/graduation times, wake-ups, run log, daily study (tiers.py). Never stops the page.
+        pdb_l = {k.lower(): v for k, v in pdb.items()}
+        # first: tokens we saw on the curve that now trade on an exchange = they graduated; get the exact time
+        grad = [a for a, t in tdb["times"].items() if t.get("stage") == "curve" and a not in PONS_TIMES
+                and "exchange" in ((pdb_l.get(a) or {}).get("where") or "")]
+        missing = grad + [r["address"].lower() for r in scored if r["address"].lower() in deployers.KNOWN
+                          and r["address"].lower() not in tdb["times"] and r["address"].lower() not in PONS_TIMES]
+        for a in missing[:tiers.TIMES_PER_RUN]:  # small and capped, so it runs even over the time budget
+            pons_times(a)
+        for a, o in PONS_TIMES.items():
+            tiers.record_times(tdb, a, o, NOW)
+        pdb_l = {k.lower(): v for k, v in pdb.items()}
+        woke = tiers.wake_check(tdb, RESTING, slice_, pdb_l, NOW, symbols)
+        for a in woke:
+            log(f"  WOKE: {symbols.get(a)} ({tdb['woken'][a]['why']})")
+        week = (NOW - datetime.timedelta(days=7)).isoformat()
+        study = {"time": NOW.isoformat(timespec="seconds"), "active": len(active), "resting": len(tdb["resting"]),
+                 "woken_7d": sum(1 for w in tdb["woken"].values() if w["at"] >= week),
+                 "graduation": tiers.graduation_study(tdb, scored, pdb_l, NOW)}
+        tiers.save(tdb)
+        tiers.save_study(study)
+        tiers.log_run({"time": NOW.isoformat(timespec="seconds"), "minutes": round((time.time() - START) / 60, 1),
+                       "active": len(active), "resting": len(tdb["resting"]), "resting_checked": len(slice_),
+                       "rescored": RUN_STATS.get("rescored", 0), "woken": len(woke), "listed": len(scored)})
+        health = tiers.html(tdb, study, tiers.read_runs(60), html.escape, money)
+    except Exception as ex:
+        log(f"Tiers: skipped ({ex})")
+    build_site(state, xdb, wallets, test_html, allrows, pdb, ship, health=health)
     log(f"Done {NOW:%Y-%m-%d %H:%M} UTC: {len(state['github'])} tokens with GitHub on the page")
     try:
         import publish_site

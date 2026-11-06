@@ -47,7 +47,9 @@ def _dex_batch(addrs, fetch_json):
 BAD_HIGHS = {"0xdcf5ca8f5254bd86cc05fd3479eddcaea7536116": (3831.47, "2026-11-05T14:50:31+00:00")}
 
 
-def update(state, fetch_json, market, now, log=print):
+def update(state, fetch_json, market, now, log=print, pons_for=None):
+    """pons_for: tokens (lower case) allowed the slow one-page-per-token Pons lookup this run; None = all.
+    Every listed token still gets the cheap batch exchange price every run (tiers.py, 6 Nov)."""
     rows = {**state.get("github", {}), **state.get("sites", {})}  # GitHub tokens and site-check tokens
     db = json.load(open(FILE, encoding="utf-8")) if os.path.exists(FILE) else {}
     for a, (hi, at) in BAD_HIGHS.items():
@@ -58,13 +60,13 @@ def update(state, fetch_json, market, now, log=print):
     stamp = now.isoformat(timespec="seconds")
     got = _dex_batch(list(rows), fetch_json)
     for key, r in rows.items():
-        if key not in got:  # still on the Pons launchpad: one page per token
+        if key.lower() not in got and (pons_for is None or key.lower() in pons_for):  # on the Pons curve: one page each
             try:
                 mk = market(r["address"])
             except Exception:
                 mk = {}
             if mk.get("mcap"):
-                got[key] = (float(mk["mcap"]), mk.get("where") or "Pons launchpad", {})
+                got[key.lower()] = (float(mk["mcap"]), mk.get("where") or "Pons launchpad", {})
     new_rows = []
     for key, r in rows.items():
         score = r["scoring"]["score"]
@@ -76,9 +78,9 @@ def update(state, fetch_json, market, now, log=print):
         if t["scores"][-1][1] != score:
             t["scores"].append([stamp, score])
         t["score"] = score
-        if key not in got:
+        if key.lower() not in got:
             continue
-        m, where, mkt = got[key]
+        m, where, mkt = got[key.lower()]
         t["market"] = mkt  # 24h volume, liquidity, trades: for the ghost-market warning
         if t["start_mcap"] is None:
             t["start_mcap"], t["start_at"] = m, stamp

@@ -27,4 +27,6 @@ Read this first in every session. It carries the working rules agreed with the o
 - **Few checks early:** don't propose a new check after every deep dive. Do deep dives as reports. Suggest a check only for a clear, tested gap, or when asked.
 - **Looks unofficial?** Add `"unofficial": "why"` to `reviews.json` without asking. It shows a ❓ badge and keeps the token off the Shortlist; the score doesn't change.
 - **A pullback is still a winner.** In "what winners share" studies, group by how far a token ran (e.g. ORBIO, HARMONIC are winners).
+- **Active vs resting (tiers.py):** tokens are fully checked for 2 days, then hidden ones rest (daily slow checks, priced every scan, woken when they move). Change the windows only with data (notes/2026-11-06_tracking_study.md, the Scanner health tab).
+- **Show changes and wait for the owner's OK before pushing.**
 - **30-day test:** day 0 = `data/baseline.json` (4 Nov 2026). Never overwrite it or change the rule in README after the fact. Day-30 check: 4 Dec 2026.

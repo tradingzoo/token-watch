@@ -84,6 +84,15 @@ def money(x):
 
 def main():
     now = datetime.datetime.now(datetime.timezone.utc)
+    # once an hour: skip if the last snapshot is under 50 minutes old (6 Nov: it ran every scan, 5 min each,
+    # because the outside trigger counts as a manual start). "--force" runs it anyway.
+    snap_dir = os.path.join(HERE, "data", "snapshots")
+    last = sorted(os.listdir(snap_dir))[-1] if os.path.isdir(snap_dir) and os.listdir(snap_dir) else None
+    if last and "--force" not in sys.argv:
+        t_last = datetime.datetime.strptime(last[:15], "%Y-%m-%dT%H%M").replace(tzinfo=datetime.timezone.utc)
+        if (now - t_last).total_seconds() < 50 * 60:
+            print(f"Not due: last check {last[:15]} UTC (runs once an hour)")
+            return
     tokens = list(csv.DictReader(open(os.path.join(HERE, "tokens.csv"), encoding="utf-8")))
     snap = {"taken_utc": now.isoformat(timespec="seconds"), "tokens": {}}
     for t in tokens:

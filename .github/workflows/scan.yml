@@ -47,11 +47,10 @@ jobs:
       # 30-day test check, once an hour (more runs = better record of each token's highest point)
       - name: 30-day test check (scan.py)
         run: |
-          if [ "$(date -u +%M)" -lt 15 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python -X utf8 scan.py > last_run.txt 2>&1 || cat last_run.txt
-          else
-            echo "not this run (once an hour)"
-          fi
+          # scan.py decides itself: it runs if its last check is 50+ minutes old (the outside trigger made
+          # every run look "manual", so the old minute rule let it run every scan)
+          python -X utf8 scan.py > last_run.txt 2>&1 || cat last_run.txt
+          tail -1 last_run.txt
 
       - name: Save Pons launch list
         if: always()
