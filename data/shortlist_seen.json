@@ -17,10 +17,10 @@
   },
   "0x3ba500f1ababbcf0f0247d06d1c56fd7e6c4c09d": {
    "symbol": "WORM",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-05T21:45:05+00:00"
+   "left": null
   },
   "0x81e770ba8343232b6f200209bf9a2c1430c2dea1": {
    "symbol": "VEYA",
@@ -227,10 +227,10 @@
   },
   "0x2a13008cc2f5a853f6fb21cbd90841806c64b247": {
    "symbol": "TROLL",
-   "in": true,
+   "in": false,
    "joined": "2026-11-05T23:26:47+00:00",
    "first": "2026-11-05T23:26:47+00:00",
-   "left": null
+   "left": "2026-11-06T09:45:09+00:00"
   },
   "0xfc5a5c521c80d8e1d6b5aee6454b8c9483c91bff": {
    "symbol": "LLL",
@@ -293,6 +293,13 @@
    "in": true,
    "joined": "2026-11-06T05:11:23+00:00",
    "first": "2026-11-06T05:11:23+00:00",
+   "left": null
+  },
+  "0xb067269b44a5a27f2eb6ca7a1ec5a426d4cc566c": {
+   "symbol": "BORESCOPE",
+   "in": true,
+   "joined": "2026-11-06T09:45:09+00:00",
+   "first": "2026-11-06T09:45:09+00:00",
    "left": null
   }
  }
