@@ -756,13 +756,19 @@ def score(tok, full, found_on, symbol_counts, review):
 
     # --- Really theirs (20) ---
     addr = tok["address"].lower()
-    in_repo = addr in repo_text
-    if not in_repo and n_commits:
+    # 6 Nov (LETRO): say exactly where on GitHub the address is: the About line, the README, the owner's
+    # profile bio or the code. Any of them shows the repo's owner claims the token.
+    gh_where = [w for w, ok in (("repo's About line", addr in (repo.get("description") or "").lower()),
+                                ("README", addr in readme.lower()),
+                                ("GitHub profile bio", addr in (user.get("bio") or "").lower())) if ok]
+    if not gh_where and n_commits:
         sc = gh(f"search/code?q={addr}+repo:{full}")
-        in_repo = bool(sc and sc.get("total_count"))
+        if sc and sc.get("total_count"):
+            gh_where = ["repo's files"]
+    in_repo = bool(gh_where)
     ox = official_x(tok, srcs)
     in_site = any(addr in t.lower() for w, u, t in srcs)
-    where = [w for w, ok in (("repo", in_repo), ("website", in_site),
+    where = [w for w, ok in ((" and ".join(gh_where), in_repo), ("website", in_site),
                              (f"official X @{ox['official']}", ox["posted"])) if ok]
     add("Really theirs", 10 if where else 0,
         ("Token's address is posted by their " + ", ".join(where)) if where
@@ -880,6 +886,8 @@ def score(tok, full, found_on, symbol_counts, review):
     # --- Safety (10) ---
     has_addr = bool(re.search(r"0x[0-9a-fA-F]{40}", readme))
     add("Safety", 5 if has_addr else 0, "Contract addresses listed in the README" if has_addr else "No contract addresses in the README")
+    if not has_addr and gh_where and gh_where != ["README"]:  # note only, no points (user, 6 Nov)
+        reasons["Safety"].append(f"ℹ️ The token's address is in the {' and '.join(gh_where)}, just not in the README")
     sec = [x for x, ok in (("SECURITY file", any(p.lower().endswith("security.md") for p in tree)),
                            ("audit", "audit" in text or any("audit" in p.lower() for p in tree)),
                            ("timelock", "timelock" in text)) if ok]

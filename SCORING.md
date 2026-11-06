@@ -171,3 +171,6 @@ DexScreener's Robinhood page can't be read by a script (it has a bot check), so 
 
 ## Junk pools ignored for prices (6 Nov)
 A DexScreener pool with under $500 of liquidity is ignored when reading a token's value: tiny "trap" pools give fake prices (LETRO showed $13.7k from a $0.34 pool while it really traded at ~$40k; EXPO showed $26k from a $1 pool while worth $3.7k on Pons). The Pons page is used instead. Highs already recorded from such pools before 6 Nov may be too high.
+
+## Where on GitHub the address is (6 Nov)
+"Token's address is posted by their ..." now names the exact place on GitHub: the repo's About line, the README, the owner's profile bio, or the repo's files. The profile bio counts too (it's the repo owner's own account). If the address is in the About line or bio but not the README, Safety adds an ℹ️ note saying so (no points change: the +5 is for listing contract addresses in the README).
