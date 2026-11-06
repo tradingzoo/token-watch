@@ -45,10 +45,10 @@
   },
   "0xb8fa8010833463aac5595b55b9045479239eff79": {
    "symbol": "WTH",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-06T08:15:24+00:00"
   },
   "0xe934e36a439c94017b64a3fece66af12099abf50": {
    "symbol": "STONKBROKER",
@@ -185,17 +185,17 @@
   },
   "0x134e52ed8ee01cbb1fb714098b606c57366369fd": {
    "symbol": "MERY",
-   "in": true,
+   "in": false,
    "joined": "2026-11-05T19:33:27+00:00",
    "first": "2026-11-05T19:33:27+00:00",
-   "left": null
+   "left": "2026-11-06T08:15:24+00:00"
   },
   "0x2142d4816e259fd7c119f61c772e39ae0cdaafde": {
    "symbol": "BROW",
-   "in": true,
+   "in": false,
    "joined": "2026-11-05T22:03:57+00:00",
    "first": "2026-11-05T22:03:57+00:00",
-   "left": null
+   "left": "2026-11-06T08:15:24+00:00"
   },
   "0xb63d07cef74be747231d601bb2faa6b252c68106": {
    "symbol": "FABLES",
@@ -255,10 +255,10 @@
   },
   "0xc60ba256b44334a0cd2c7242e98b88f031abb006": {
    "symbol": "V4",
-   "in": false,
+   "in": true,
    "joined": "2026-11-06T02:52:36+00:00",
    "first": "2026-11-06T02:52:36+00:00",
-   "left": "2026-11-06T07:49:08+00:00"
+   "left": null
   },
   "0xa3b6aee90017b72c0812dc1e013de70eb2917ba3": {
    "symbol": "EARN",
