@@ -429,6 +429,29 @@ def project_sources(tok):
     return out
 
 
+# A page saying there is no token yet, or that other tokens are fake (BLACKPOOL, 6 Nov: its FAQ said
+# "Token details are TBA ... treat anything else as unofficial" while a $BLACKPOOL token traded on Pons).
+DISCLAIM = re.compile(r"(?:\bare|\bis|:)\s*\**\s*TBA\b|to be announced|there is no (?:official )?token|(?:we )?(?:do not|don't) have (?:a|an official) token|no official token|not (?:yet )?launched (?:a|any|our) token"
+                      r"|haven'?t launched|has not launched|anything else as unofficial|any token will be announced"
+                      r"|(?:fake|unofficial|unaffiliated) tokens?|not affiliated with any token|beware of (?:fake|scam)", re.I)
+
+
+def token_disclaimer(tok, sources):
+    """The project's own page saying there's no official token yet, as a short quote, or None."""
+    for where, url, text in sources:
+        for m in re.finditer(r"\btoken\b", text, re.I):
+            off = max(0, m.start() - 200)
+            d = DISCLAIM.search(text[off:m.end() + 250])
+            if d:
+                q = text[max(0, off + d.start() - 90):off + d.end() + 110]
+                q = html.unescape(re.sub(r"<[^>]+>", " ", q))
+                q = re.sub(r'"?(?:@type|acceptedAnswer|name|text)"?\s*:|"?(?:Question|Answer)"?\s*,|[{}"\[\]]', " ", q)
+                q = re.sub(r"\s+", " ", q).strip(" ,:")
+                q = re.sub(r"^[^A-Z]{0,20}(?=[A-Z])", "", q)  # start at a sentence, not mid-word
+                return where, url, q[:200]
+    return None
+
+
 def token_mentions(tok, sources):
     """Evidence that the project's own pages mention this token."""
     addr = tok["address"].lower()
@@ -443,6 +466,8 @@ def token_mentions(tok, sources):
     for where, url, text in sources:
         for label, rx in pats:
             m = rx.search(text)
+            if m and label != "its contract address" and DISCLAIM.search(text[max(0, m.start() - 300):m.end() + 300]):
+                continue  # "Is there a BLACKPOOL token? Token details are TBA": not a claim (6 Nov)
             if m:
                 a, b = max(0, m.start() - 70), m.end() + 70
                 snip = re.sub(r"<[^>]+>", " ", text[a:b])
@@ -847,6 +872,10 @@ def score(tok, full, found_on, symbol_counts, review):
                                             (f" — “{m['snippet']}”" if m["snippet"] else "") + f" ({m['url']})")
     else:
         reasons["Really theirs"].append(f"❌ Their website, docs and GitHub never mention the token (read: {read})")
+    disc = None if (in_repo or in_site) else token_disclaimer(tok, srcs)
+    if disc:  # their own page says no token yet, and doesn't post this one's address: note it (6 Nov, BLACKPOOL)
+        reasons["Really theirs"].append(f"⚠️ Their {disc[0]} says there's no official token yet: “{disc[2]}” ({disc[1]}) "
+                                        "— and it doesn't post this token's address")
     token_mentioned = bool(ment)
     # A big, older project whose dev never posts or mentions the token: anyone can launch a token on
     # Pons named after a popular repo and point it at the real links (SEO, OMHER, 5 Nov). Cap at 25

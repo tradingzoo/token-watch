@@ -174,3 +174,6 @@ A DexScreener pool with under $500 of liquidity is ignored when reading a token'
 
 ## Where on GitHub the address is (6 Nov)
 "Token's address is posted by their ..." now names the exact place on GitHub: the repo's About line, the README, the owner's profile bio, or the repo's files. The profile bio counts too (it's the repo owner's own account). If the address is in the About line or bio but not the README, Safety adds an ℹ️ note saying so (no points change: the +5 is for listing contract addresses in the README).
+
+## "No token yet" pages (6 Nov)
+A line like "Is there a BLACKPOOL token? Token details are TBA" no longer counts as the project mentioning the token. If the project's own pages say there's no official token yet (TBA, "treat anything else as unofficial", "there is no official token", "beware of fake tokens"...) and they don't post this token's address, the card shows a ⚠️ line quoting it. No points change.

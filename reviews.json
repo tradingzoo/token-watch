@@ -110,5 +110,16 @@
    "The company's other product AILE resells shared ChatGPT/Claude subscriptions, which the AI providers' terms generally don't allow; if Letronna's cheap model prices come from it, that access could be cut",
    "Launch wallet bought 0.62% and moved it to a second wallet that still holds it (not sold, as of 6 Nov). Graduated from the Pons curve on 6 Nov"
   ]
+ },
+ "0xd2501da2a96ca85a702cb414ea7dd2ddee451a21": {
+  "symbol": "BLACKPOOL",
+  "checked": "2026-11-06",
+  "unofficial": "Blackpool's own FAQ and roadmap still say 'Token details are TBA ... treat anything else as unofficial', and the team edited the site 10 times on 6 Nov, after this token launched, without changing that. The X that posts this address (@BlackPoolCash, made 3 Nov) isn't linked from their site or repo. It may be the team's X and they haven't updated the site, but it isn't confirmed",
+  "notes": [
+   "Product is real: zero-knowledge privacy pools live on Robinhood Chain, Base, Arbitrum and BNB Chain, a CLI on npm, an MCP server in the official MCP registry; pool contracts are upgradeable, run by a 2-of-3 Safe",
+   "Very new and one account: GitHub user made 2 Nov, 43 commits over 3 days, 156 of 178 files in the first commit (likely moved from a private repo)",
+   "Little use yet: 8 events on the Robinhood ETH pool in the 25h to 6 Nov",
+   "Privacy pools are mixer-like, which has drawn sanctions before (Tornado Cash); their roadmap plans proofs of non-association with sanctioned addresses"
+  ]
  }
 }
