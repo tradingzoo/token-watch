@@ -13945,6 +13945,38 @@
     "\"Cost\" is never singular: The delay before arrival, the spread crossed, the impact caused, the never filled quantity. Most research prices none of them. Best execution requires all four. AETELIER traces the decomposition \u2014 through history, through live data, at venue fidelity."
    ],
    "checked": "2026-11-06T09:45:09+00:00"
+  },
+  "miro_shark": {
+   "handle": "miro_shark",
+   "found": true,
+   "id": "2118316192716791808",
+   "name": "MiroShark",
+   "joined": "2026-11-05T12:16:45+00:00",
+   "followers": 0,
+   "following": 0,
+   "posts": 7,
+   "verified": null,
+   "last_post": "2026-11-06T09:54:18+00:00",
+   "sample": 6,
+   "sample_full_week": false,
+   "posts_7d": 6,
+   "avg_likes": 0.0,
+   "avg_views": 6,
+   "bio_site": "https://www.miroshark.xyz/",
+   "bio": "Simulate anything, for $1 & less than 10 min\nThe Universal Swarm Intelligence Engine\n\n0x60cf678da8283110102882d8a770819257c1f8c6",
+   "cas": [
+    "0x60cf678da8283110102882d8a770819257c1f8c6"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Every agent has a story. Hover any avatar in the feed and see exactly who they are \u2014 their role, incentives, quirks, and beliefs. Not faceless bots. Dozens of distinct minds, each with its own view. https://miroshark.xyz",
+    "Clarity before simulation. MiroShark's setup agent reads your seed and builds a precise setup \u2014 real people, organizations, and stakes. You review and edit everything before it runs. No blind spots. The setup you approve is the setup that runs. https://miroshark.xyz",
+    "Ask it anything. What if World War 3 happened tomorrow? What if social media was never invented? What if animals were discovered to be conscious? MiroShark's agents will argue, trade, and vote on it. https://miroshark.xyz",
+    "The simulation is live. The agents are arguing. The market is moving. Then you step in. Director Mode: pause, interrupt, or redirect any agent mid-run. You control the story. https://miroshark.xyz",
+    "What if the CEO resigns in round 24? MiroShark forks the simulation \u2014 same world, one twist. Two realities. Two markets. Two very different reactions. No endless reruns. Just fork it and see. https://miroshark.xyz",
+    "Meet MiroShark \u2014 the world's first reality simulator. Drop in anything: a headline, a policy, a what-if. Dozens of agents post, argue, trade, and change their minds \u2014 hour by hour. Simulate anything, for $1 & less than 10 min. https://miroshark.xyz"
+   ],
+   "checked": "2026-11-06T10:00:38+00:00"
   }
  },
  "ids": {
@@ -15030,6 +15062,9 @@
   ],
   "2088318082041233408": [
    "aetelierxyz"
+  ],
+  "2118316192716791808": [
+   "miro_shark"
   ]
  },
  "past": {
@@ -15413,7 +15448,8 @@
   "holdpleasehq": [],
   "rhborescope": [],
   "krafaai": [],
-  "aetelierxyz": []
+  "aetelierxyz": [],
+  "miro_shark": []
  },
  "history": {
   "barragetrade": {
@@ -18347,6 +18383,12 @@
     5,
     13
    ]
+  },
+  "miro_shark": {
+   "2026-11-06": [
+    0,
+    7
+   ]
   }
  },
  "telegram": {
@@ -18501,6 +18543,14 @@
    "online": null,
    "name": "ourolayer",
    "checked": "2026-11-06T09:45:09+00:00"
+  },
+  "loudscene": {
+   "found": true,
+   "members": 328,
+   "kind": "members",
+   "online": 81,
+   "name": "loudscene",
+   "checked": "2026-11-06T10:00:38+00:00"
   }
  },
  "tg_history": {
@@ -18577,6 +18627,9 @@
   },
   "ourolayer": {
    "2026-11-06": 86
+  },
+  "loudscene": {
+   "2026-11-06": 328
   }
  },
  "gh": {
@@ -19459,6 +19512,11 @@
    "twitter": "alignbase_ai",
    "blog": "https://alignbase.com/",
    "checked": "2026-11-06T09:45:09+00:00"
+  },
+  "miroshark": {
+   "twitter": "miroshark_",
+   "blog": "https://www.miroshark.xyz/",
+   "checked": "2026-11-06T10:00:38+00:00"
   }
  }
 }

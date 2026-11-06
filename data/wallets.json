@@ -5087,5 +5087,84 @@
    }
   ],
   "wallet_txs": 832
+ },
+ "0x60cf678da8283110102882d8a770819257c1f8c6": {
+  "checked": "2026-11-06T10:12:50+00:00",
+  "pons": true,
+  "wallet": "0xcea40231c094ca89b53bfa356a2673e9be07d8ff",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 4
+ },
+ "0x4fe9f3823791c8b187b81ab8b7398d793fed28f6": {
+  "checked": "2026-11-06T10:12:50+00:00",
+  "pons": false
+ },
+ "0x8e7a9f9817ecf2649c0316b22fea274d522c7b9b": {
+  "checked": "2026-11-06T10:12:50+00:00",
+  "pons": false
+ },
+ "0x8b4c402b4a21a40968a37493f10f0f6987761e18": {
+  "checked": "2026-11-06T10:12:50+00:00",
+  "pons": false
+ },
+ "0xae2df3c1749daee721c1bfcbbfdde5d61ae7cb99": {
+  "checked": "2026-11-06T10:12:50+00:00",
+  "pons": false
+ },
+ "0x8e8266b11eaff21998b31c5ad258198e103e1fb0": {
+  "checked": "2026-11-06T10:12:50+00:00",
+  "pons": false
+ },
+ "0xc4f021c73a5b6ffae6c43515f0a4bbf615b31c7b": {
+  "checked": "2026-11-06T10:12:50+00:00",
+  "pons": false
+ },
+ "0x008dd62dd934f3ffdc0986ba5316c78ae51cb1c9": {
+  "checked": "2026-11-06T10:12:50+00:00",
+  "pons": false
+ },
+ "0xb45822d721b258ef38efd11041ffaae9da38871c": {
+  "checked": "2026-11-06T10:12:50+00:00",
+  "pons": true,
+  "wallet": "0xcd6fee7254ca8c88297e0aca98fbfea2a6bc9bb8",
+  "launches": 6,
+  "before": 5,
+  "after": 0,
+  "others": [
+   {
+    "address": "0x36a28ae4a6cb0399a8e35f57ec9561bd9f51bffa",
+    "symbol": "KYTE",
+    "mcap": 3651.9557295930886,
+    "launched": "2026-11-06T09:19:21+00:00"
+   },
+   {
+    "address": "0x27173b675a9a6bc08163c924b2acd36df653ec3f",
+    "symbol": "ARTE",
+    "mcap": 3633.6580978351753,
+    "launched": "2026-11-04T13:24:15+00:00"
+   },
+   {
+    "address": "0x37ba04ab1031cb8e3055322f2267bfe44e63ff32",
+    "symbol": "ACT",
+    "mcap": 3684.246824906103,
+    "launched": "2026-10-27T03:52:32+00:00"
+   },
+   {
+    "address": "0x974755dc61948d1baa53576e279380ca0ec5b7a3",
+    "symbol": "GATTAI",
+    "mcap": 3645.719135171164,
+    "launched": "2026-10-24T10:20:30+00:00"
+   },
+   {
+    "address": "0x08aef2e0b483946f17481fef005694447835d371",
+    "symbol": "ZHIELD",
+    "mcap": 3657.802226412598,
+    "launched": "2026-10-24T10:19:47+00:00"
+   }
+  ],
+  "wallet_txs": 657
  }
 }
