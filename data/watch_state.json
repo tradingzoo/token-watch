@@ -4420,7 +4420,39 @@
   "0x9efd78b5ce77de6a1ba4ece7c091cc03a985d15b": "2026-11-06T23:15:21+00:00",
   "0xb63f0eb44b0c138ec8cedb0187bcdc9f3541aa99": "2026-11-06T23:15:21+00:00",
   "0x57898eb59bc3e63db071fe8d41714b6379383ea1": "2026-11-06T23:15:21+00:00",
-  "0x21f5d53f445b89f22c4ef30e0ad2f5e6a199b33b": "2026-11-06T23:15:21+00:00"
+  "0x21f5d53f445b89f22c4ef30e0ad2f5e6a199b33b": "2026-11-06T23:15:21+00:00",
+  "0xd45a860a483743c8d2a6833777bceceadf12dcde": "2026-11-06T23:30:29+00:00",
+  "0x4560577263cb4941365aadde0dbf0a87963f37cc": "2026-11-06T23:30:29+00:00",
+  "0x4d89bc0b69bfaaa7a728c82396b28d08872ffca8": "2026-11-06T23:30:29+00:00",
+  "0x131a97cd056c501f68b359f6476a5c100bbbb6f4": "2026-11-06T23:30:29+00:00",
+  "0xdf52fe370f1872e274b0265db320a7bbc1394084": "2026-11-06T23:30:29+00:00",
+  "0xa074288bfa9bf193f67bffc032a0620d37037a5e": "2026-11-06T23:30:29+00:00",
+  "0x2742672ee7b1df6dd897d0e574e7d37126054813": "2026-11-06T23:30:29+00:00",
+  "0xe775dd5ab0e61abdc5b6071c1955da0f84b40b42": "2026-11-06T23:30:29+00:00",
+  "0x22ba569012a11cfff97a4eae794a1c02ffe3cd3b": "2026-11-06T23:30:29+00:00",
+  "0xd4c1d9f4fb2385a0e06d214381e0062c2c198df1": "2026-11-06T23:30:29+00:00",
+  "0x8f3a4dcc8b12bb54811b62bd69c64db4fb2186cd": "2026-11-06T23:30:29+00:00",
+  "0x6a84b9c10f18b36a50c05f824bef3ce15690342f": "2026-11-06T23:30:29+00:00",
+  "0x24e2e6257e5d3444dc799a12d9fa803288e80ee2": "2026-11-06T23:30:29+00:00",
+  "0x3e9d2fcbcefcb7974a74fba5e589f6bbb492922d": "2026-11-06T23:30:29+00:00",
+  "0x42022953f4ba264071c9de47d49a6c5cb4da1e18": "2026-11-06T23:30:29+00:00",
+  "0x45e8c76171fcdc0a1d3cb11085118a5ea591557e": "2026-11-06T23:30:29+00:00",
+  "0x57f0cd7cc1b6162eeaf6b93656dd46273954d1fd": "2026-11-06T23:30:29+00:00",
+  "0x5c10b012752555012a8dcf945024a91ef48bde12": "2026-11-06T23:30:29+00:00",
+  "0x9af6b8be6790806cb82c18580d3f2ad0ca7820dd": "2026-11-06T23:30:29+00:00",
+  "0x9d2e15ec669460845c9741219b1155498c00aecd": "2026-11-06T23:30:29+00:00",
+  "0xabcf16b3d97398e40cf8a761a401685cdec26f18": "2026-11-06T23:30:29+00:00",
+  "0xb38673804e0f2efbb130d8cb46288016134abb33": "2026-11-06T23:30:29+00:00",
+  "0xb96c47a4fdc11ed30442041462993e13c8b13b13": "2026-11-06T23:30:29+00:00",
+  "0xbe4186a34e7173bf807c849a657461354a5433dd": "2026-11-06T23:30:29+00:00",
+  "0xc64b7746d47b9596c287e7212b2672cd6275dfe7": "2026-11-06T23:30:29+00:00",
+  "0xd1baf549ba2b4b680b288c78ae8478c820a141a2": "2026-11-06T23:30:29+00:00",
+  "0xd20c9dbca1deb887a63098ce83454b5e005a5265": "2026-11-06T23:30:29+00:00",
+  "0xe10c1ae6a267e28a9654356c1344f5bb65d788a0": "2026-11-06T23:30:29+00:00",
+  "0xe2a63e4002dfb3ca9c6e9a9e1b04a19f08d61e18": "2026-11-06T23:30:29+00:00",
+  "0xf38d21a9f7b8fd50bdddfd1f3282fce7ba2e8888": "2026-11-06T23:30:29+00:00",
+  "0xf4200feee304d0a2eeda38b67858f80a5b7aefd8": "2026-11-06T23:30:29+00:00",
+  "0xc463484c5aacd6ae3df7df1c6fb069e974aa3557": "2026-11-06T23:30:29+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -24466,9 +24498,148 @@
     }
    },
    "launched_src": "pons"
+  },
+  "0xd45a860a483743c8d2a6833777bceceadf12dcde": {
+   "address": "0xd45a860a483743c8d2a6833777bceceadf12dcde",
+   "symbol": "LAYHOP",
+   "name": "LayerHop",
+   "description": "LayerHop lets people swap and bridge across 71 blockchains. It works from the user's own wallet, fees shown first.",
+   "website": "https://layerhop.com",
+   "twitter": "https://x.com/layerhop_com",
+   "launched": "2026-11-06T23:29:22+00:00",
+   "mcap": 3967.091319716385,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-06T23:30:29+00:00",
+   "scored_at": "2026-11-06T23:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "layerhop/layerhop-wordpress",
+    "score": 45,
+    "raw_score": 45,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (dex, exchange, fees, hook) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn, stake) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check: not enough of their own code to sample",
+      "\u2139\ufe0f 44 of 44 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (docs.layerhop.com), docs (docs.layerhop.com/llms-full.txt), docs (docs.layerhop.com/llms.txt), docs (layerhop.com/assets/tokens/sol.svg), docs (layerhop.com/assets/tokens/usdc.svg), docs (layerhop.com/docs), docs (layerhop.com/llms-full.txt), docs (layerhop.com/llms.txt), website (layerhop.com), website code (layerhop.com))",
+      "\u26a0\ufe0f Their docs says there's no official token yet: \u201cfer counts as sent before only when the user sent the transaction that emitted it, so a fake token's transfer log can't make a poisoned look-alike look familiar; an on-chain counterparty never stops t\u201d (https://docs.layerhop.com/llms-full.txt) \u2014 and it doesn't post this token's address"
+     ],
+     "Real code": [
+      "\u274c 1 changes over 0 days (+0)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f One person, new account, no outside interest: account 21 days old, 1 people, 0 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 2 updates shipped so far"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://layerhop.com",
+     "https://layerhop.com",
+     "https://layerhop.com/llms-full.txt",
+     "https://layerhop.com/llms.txt",
+     "https://docs.layerhop.com/llms-full.txt",
+     "https://docs.layerhop.com/llms.txt",
+     "https://layerhop.com/docs",
+     "https://layerhop.com/assets/tokens/usdc.svg",
+     "https://layerhop.com/assets/tokens/sol.svg",
+     "https://docs.layerhop.com"
+    ],
+    "facts": {
+     "commits": 1,
+     "stars": 0,
+     "created": "2026-10-18",
+     "pushed": "2026-10-18",
+     "people": 1
+    }
+   }
+  },
+  "0xe775dd5ab0e61abdc5b6071c1955da0f84b40b42": {
+   "address": "0xe775dd5ab0e61abdc5b6071c1955da0f84b40b42",
+   "symbol": "HMARK",
+   "name": "Hallmark",
+   "description": "Design skills for coding agents \u2014 helping Al build interfaces that feel designed, not generated",
+   "website": "https://www.usehallmark.com/",
+   "twitter": "https://x.com/usehallmark?s=11",
+   "launched": "2026-08-18T10:46:01+00:00",
+   "mcap": 3642.974215516514,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-06T23:30:29+00:00",
+   "scored_at": "2026-11-06T23:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Nutlope/hallmark",
+    "score": 0,
+    "raw_score": 50,
+    "capped": true,
+    "not_theirs": true,
+    "flags": [
+     "Copycat token: the project's X @usehallmark posts a different address with the same name: 0xc463484c5aacd6ae3df7df1c6fb069e974aa3557, launched 19 Aug 10:05 UTC. It never posts this one, so this is very likely someone copying the name and links",
+     "X account doesn't match the website: the token links @usehallmark, but its website links @nutlope, @YoussefUIUX \u2014 may be someone copying the project's links",
+     "Dev never mentions this token: Nutlope's GitHub is big and older than the token (49,598 stars, 8,901 followers), but its repo, website and X never post or mention the token. Likely launched by someone else using their project \u2014 capped at 25 until the dev claims it"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (hook, marketplace) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u26d4 Score set to 0: this token is a copy, the project's X posts a different address (see the warning above)",
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
+      "\u274c Their website, docs and GitHub never mention the token (read: website (www.usehallmark.com/), website code (www.usehallmark.com/))"
+     ],
+     "Real code": [
+      "\u2705 341 changes over 192 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 2396 days old, 11 people, 49598 stars, 2629 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "`ROADMAP.md`: 7 items"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": "0xc463484c5aacd6ae3df7df1c6fb069e974aa3557",
+    "sources_read": [
+     "https://www.usehallmark.com/",
+     "https://www.usehallmark.com/"
+    ],
+    "facts": {
+     "commits": 341,
+     "stars": 49598,
+     "created": "2026-04-27",
+     "pushed": "2026-11-05",
+     "people": 11
+    }
+   }
   }
  },
- "checked_total": 4410,
+ "checked_total": 4442,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -26965,9 +27136,42 @@
    "ignored": [
     "reown-com/appkit"
    ]
+  },
+  {
+   "when": "2026-11-06T23:30:29+00:00",
+   "address": "0x131a97cd056c501f68b359f6476a5c100bbbb6f4",
+   "symbol": "RIFT",
+   "website": "https://rift.eco",
+   "used": null,
+   "ignored": [
+    "DefiLlama/dimension-adapters",
+    "WICG/webcrypto-secure-curves",
+    "chainstacklabs/fomo-solana-rh-listeners",
+    "pumpfamily/pumpfamily",
+    "user",
+    "users",
+    "uuidjs/uuid"
+   ]
+  },
+  {
+   "when": "2026-11-06T23:30:29+00:00",
+   "address": "0xe775dd5ab0e61abdc5b6071c1955da0f84b40b42",
+   "symbol": "HMARK",
+   "website": "https://www.usehallmark.com/",
+   "used": "Nutlope/hallmark",
+   "ignored": [
+    "repos/Nutlope"
+   ]
   }
  ],
  "symbol_counts": {
+  "LAYHOP": 1,
+  "KLOB": 1,
+  "OTP": 1,
+  "RIFT": 1,
+  "SOI": 1,
+  "WANTEDPEPE": 1,
+  "ASH": 1,
   "VICEBONK": 1,
   "MRGA": 1,
   "PUFF": 1,
@@ -26996,21 +27200,22 @@
   "RIG": 1,
   "TOKABU": 1,
   "CALLOUTREW": 1,
+  "HMM": 4,
+  "WIF": 1,
+  "PONS": 1,
+  "RAETO": 2,
+  "ROBINHOOD": 1,
+  "CHARLIE": 1,
+  "POTATCHI": 1,
+  "TROLL": 1,
+  "GF": 1,
+  "ORBIO": 1,
   "GHOST": 1,
   "EQUITY": 1,
   "RECORD": 1,
   "CHAMELEON": 1,
   "EQUIX": 1,
-  "HMM": 4,
-  "PONS": 1,
-  "WIF": 1,
-  "CHARLIE": 1,
-  "RAETO": 2,
-  "POTATCHI": 1,
-  "TROLL": 1,
-  "ROBINHOOD": 1,
   "ROBINCAT": 1,
-  "GF": 1,
   "SEASHELL": 2,
   "GRAFFITI": 1,
   "\u26a1\ud83d\udc51": 1,
@@ -27111,7 +27316,6 @@
   "GRAFFY": 1,
   "MAXXING": 2,
   "PRINT": 1,
-  "ORBIO": 1,
   "MAEVYR": 1,
   "STRTOS": 1,
   "D\u2022T": 1,
@@ -29000,6 +29204,19 @@
    [],
    [
     "\u2139\ufe0f Copy check: not enough of their own code to sample"
+   ]
+  ],
+  "layerhop/layerhop-wordpress@2026-10-18": [
+   [],
+   [
+    "\u2139\ufe0f Copy check: not enough of their own code to sample",
+    "\u2139\ufe0f 44 of 44 files arrived in the very first change \u2014 could be copied, or moved over from a private repo"
+   ]
+  ],
+  "Nutlope/hallmark@2026-11-05": [
+   [],
+   [
+    "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo"
    ]
   ]
  },
@@ -48272,6 +48489,72 @@
     }
    },
    "launched_src": "pons"
+  },
+  "0xc463484c5aacd6ae3df7df1c6fb069e974aa3557": {
+   "address": "0xc463484c5aacd6ae3df7df1c6fb069e974aa3557",
+   "symbol": "HALLMARK",
+   "name": "Hallmark",
+   "description": "Hallmark is a design skill for coding agents that helps AI build better websites through intentional structure, distinctive visual systems, and an anti-slop approach to design.",
+   "website": "http://usehallmark.com",
+   "twitter": "https://x.com/usehallmark",
+   "site_via_x": "usehallmark",
+   "launched": "2026-08-19T10:05:32+00:00",
+   "mcap": 3682.340589280207,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-06T23:30:29+00:00",
+   "scored_at": "2026-11-06T23:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 10,
+    "raw_score": 10,
+    "capped": false,
+    "flags": [
+     "X account doesn't match the website: the token links @usehallmark, but its website links @nutlope, @YoussefUIUX \u2014 may be someone copying the project's links"
+    ],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2139\ufe0f Site offers API keys for developers (counted, no points) (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\u2139\ufe0f Pons lists no website: found http://usehallmark.com on their X @usehallmark, which posts the token's address",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u274c No use of stock tokens or USDG (+0)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f No app or wallet connect found",
+      "\u2139\ufe0f Made for AI agents to use (says so on their X @nutlope)",
+      "\u2139\ufe0f No audit mentioned"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "http://usehallmark.com",
+     "http://usehallmark.com"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
   }
  },
  "site_checked": {
@@ -48343,7 +48626,7 @@
   "0x7f434bfd5397a76692115c24d0e1eea8be15192e": "2026-11-05T08:30:28+00:00",
   "0x60f2341f0605870769513b62d80a5233af35d6f6": "2026-11-05T08:30:28+00:00",
   "0x07bb78f6f8d5121fbc03ad4c8b1a22f5a95227e6": "2026-11-05T08:30:28+00:00",
-  "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691": "2026-11-06T23:15:21+00:00",
+  "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691": "2026-11-06T23:30:29+00:00",
   "0x4e00b96443a2af7b741aa4b9cbfde3de5fd11ac2": "2026-11-05T09:18:38+00:00",
   "0xd20073c027624c37a22d8df415ab271f57b9f446": "2026-11-05T09:18:38+00:00",
   "0xc4315b4191bd7fc290dc4906afaf110d1ded1055": "2026-11-06T19:57:21+00:00",
@@ -50359,7 +50642,16 @@
   "0x9efd78b5ce77de6a1ba4ece7c091cc03a985d15b": "2026-11-06T23:15:21+00:00",
   "0xb63f0eb44b0c138ec8cedb0187bcdc9f3541aa99": "2026-11-06T23:15:21+00:00",
   "0x57898eb59bc3e63db071fe8d41714b6379383ea1": "2026-11-06T23:15:21+00:00",
-  "0x21f5d53f445b89f22c4ef30e0ad2f5e6a199b33b": "2026-11-06T23:15:21+00:00"
+  "0x21f5d53f445b89f22c4ef30e0ad2f5e6a199b33b": "2026-11-06T23:15:21+00:00",
+  "0x4560577263cb4941365aadde0dbf0a87963f37cc": "2026-11-06T23:30:29+00:00",
+  "0x4d89bc0b69bfaaa7a728c82396b28d08872ffca8": "2026-11-06T23:30:29+00:00",
+  "0x131a97cd056c501f68b359f6476a5c100bbbb6f4": "2026-11-06T23:30:29+00:00",
+  "0xdf52fe370f1872e274b0265db320a7bbc1394084": "2026-11-06T23:30:29+00:00",
+  "0x2742672ee7b1df6dd897d0e574e7d37126054813": "2026-11-06T23:30:29+00:00",
+  "0x22ba569012a11cfff97a4eae794a1c02ffe3cd3b": "2026-11-06T23:30:29+00:00",
+  "0xd4c1d9f4fb2385a0e06d214381e0062c2c198df1": "2026-11-06T23:30:29+00:00",
+  "0x6a84b9c10f18b36a50c05f824bef3ce15690342f": "2026-11-06T23:30:29+00:00",
+  "0xc463484c5aacd6ae3df7df1c6fb069e974aa3557": "2026-11-06T23:30:29+00:00"
  },
  "catchup_plain": []
 }

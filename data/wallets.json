@@ -5273,7 +5273,7 @@
   "wallet_txs": 48
  },
  "0xf6270a22b3131e8cd324ef73953d141ba1716788": {
-  "checked": "2026-11-06T11:27:21+00:00",
+  "checked": "2026-11-06T23:32:53+00:00",
   "pons": true,
   "wallet": "0x7f3cca46318b887b56d25cc80f63aceb4341ddf0",
   "launches": 6,
@@ -5283,38 +5283,38 @@
    {
     "address": "0x89808074ab1807b1b24f0c696bb7c3b3f7dea856",
     "symbol": "ANGUSK",
-    "mcap": 2999.93802,
+    "mcap": 2999.9288400000005,
     "launched": "2026-11-06T02:35:09+00:00"
    },
    {
     "address": "0x903014dcac316d4263254d90a902702502ae46ed",
     "symbol": "VELOCU",
-    "mcap": 2999.93802,
+    "mcap": 2999.9288400000005,
     "launched": "2026-11-06T02:15:52+00:00"
    },
    {
     "address": "0x9bd516edf4ccb06a31d5bbba06fa93271eb7c31e",
     "symbol": "AGENVO",
-    "mcap": 2999.93802,
+    "mcap": 2999.9288400000005,
     "launched": "2026-11-06T00:29:23+00:00"
    },
    {
     "address": "0xc8c867ef664c1a3199682dec6e405039143f5725",
     "symbol": "WIGOLO",
-    "mcap": 2999.93802,
+    "mcap": 2999.9288400000005,
     "launched": "2026-11-05T23:44:02+00:00"
    },
    {
     "address": "0xc3871aa2e4615c1b7e45fe221dcf4bf4ceb1572d",
     "symbol": "MODLEN",
-    "mcap": 2999.93802,
+    "mcap": 2999.9288400000005,
     "launched": "2026-11-05T23:29:48+00:00"
    }
   ],
-  "wallet_txs": 44
+  "wallet_txs": 45
  },
  "0xa8c7a02fa9d68a76645d160dc139d774894bdbba": {
-  "checked": "2026-11-06T11:27:21+00:00",
+  "checked": "2026-11-06T23:32:53+00:00",
   "pons": true,
   "wallet": "0xff48a4ae2615a68d78c52144f960e1ef36511ee9",
   "launches": 504,
@@ -5324,7 +5324,7 @@
   "wallet_txs": 2712
  },
  "0xf95edd7d5b1616315b4bf49cb222573d4a618888": {
-  "checked": "2026-11-06T11:27:21+00:00",
+  "checked": "2026-11-06T23:32:53+00:00",
   "pons": true,
   "wallet": "0x77af671da987e6a443dabe16e1e293c303c01e2e",
   "launches": 10,
@@ -5334,56 +5334,56 @@
    {
     "address": "0x50a3e7fceeeb16fbaa8b68a6d715e6d7f4df8888",
     "symbol": "MEOWZER",
-    "mcap": 3733.4600261597975,
+    "mcap": 3732.0549965749738,
     "launched": "2026-10-15T17:00:58+00:00"
    },
    {
     "address": "0xd46f2c0e32f9632b05183906064c37740f368888",
     "symbol": "MEOWZER",
-    "mcap": 3716.9871172106627,
+    "mcap": 3715.588286948788,
     "launched": "2026-10-15T16:53:01+00:00"
    },
    {
     "address": "0x0022977b6bae15f785610af874c152c9e7868888",
     "symbol": "POOTUS",
-    "mcap": 3680.2803458182093,
+    "mcap": 3678.8953295785573,
     "launched": "2026-10-02T12:58:48+00:00"
    },
    {
     "address": "0xa823aae4a70d87f5e29dae259c4c7bdf39b38888",
     "symbol": "TST",
-    "mcap": 3348.932360516496,
+    "mcap": 3347.6720419350377,
     "launched": "2026-10-01T18:52:35+00:00"
    },
    {
     "address": "0xffbfa642f3e885f7d36784859909ecb56d498888",
     "symbol": "TST",
-    "mcap": 3835.6870618219364,
+    "mcap": 3834.2435606829863,
     "launched": "2026-10-01T18:20:25+00:00"
    },
    {
     "address": "0x1d4be5e3169d7b9e91d1466c1703ea142bd18888",
     "symbol": "TST",
-    "mcap": 3511.8939523194585,
+    "mcap": 3510.572305678755,
     "launched": "2026-10-01T18:17:45+00:00"
    },
    {
     "address": "0xf9603f0c16a81ab8c6623620a9ee072937638888",
     "symbol": "TST",
-    "mcap": 3726.8203272497867,
+    "mcap": 3725.417796412328,
     "launched": "2026-10-01T18:06:11+00:00"
    },
    {
     "address": "0xfce1cbd28b7cfae402df61a18d4eb73136428888",
     "symbol": "POOCAT",
-    "mcap": 3457.1270170572097,
+    "mcap": 3455.8259811003695,
     "launched": "2026-10-01T15:05:18+00:00"
    }
   ],
   "wallet_txs": 12
  },
  "0x5b5ed7a90d63cb827d788d304c59bd8dd4dd2376": {
-  "checked": "2026-11-06T11:27:21+00:00",
+  "checked": "2026-11-06T23:32:53+00:00",
   "pons": true,
   "wallet": "0xfd4d99612a3bbbdd42fbb04f8f0257ead90c8e83",
   "launches": 1,
@@ -6723,5 +6723,66 @@
   "after": 0,
   "others": [],
   "wallet_txs": 29
+ },
+ "0xd45a860a483743c8d2a6833777bceceadf12dcde": {
+  "checked": "2026-11-06T23:32:53+00:00",
+  "pons": true,
+  "wallet": "0x4e592706b05e2ae7b3ec4c218574d06e52e1c164",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
+ },
+ "0xe775dd5ab0e61abdc5b6071c1955da0f84b40b42": {
+  "checked": "2026-11-06T23:32:53+00:00",
+  "pons": true,
+  "wallet": "0x04e48c5a18778255fc7fc99e07ae1467a4e6376c",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 11
+ },
+ "0xc463484c5aacd6ae3df7df1c6fb069e974aa3557": {
+  "checked": "2026-11-06T23:32:53+00:00",
+  "pons": true,
+  "wallet": "0x784aaa25eba2ab4b9093707382204fd0da43a86f",
+  "launches": 6,
+  "before": 5,
+  "after": 0,
+  "others": [
+   {
+    "address": "0xefb60902d69b826fa669a6948b791713c62cf4c4",
+    "symbol": "HARM",
+    "mcap": 3755.460760464,
+    "launched": "2026-08-18T19:28:15+00:00"
+   },
+   {
+    "address": "0x2813e9eb178ed155730d58e83cca64e1d20e588d",
+    "symbol": "HORIZON",
+    "mcap": 3720.092857067479,
+    "launched": "2026-08-18T19:26:34+00:00"
+   },
+   {
+    "address": "0x0255f05eb49e628115376042621660aa277fa02c",
+    "symbol": "GLOOBERS",
+    "mcap": 3720.092857067479,
+    "launched": "2026-08-18T19:23:36+00:00"
+   },
+   {
+    "address": "0x8bbad3e3776f2fccf618b1c7c441fde1efdf48a3",
+    "symbol": "FBC",
+    "mcap": 3755.460760464,
+    "launched": "2026-08-18T19:17:15+00:00"
+   },
+   {
+    "address": "0xb3bf78c82e31b5a0144efb15a3a64a781eee334d",
+    "symbol": "DEXTO",
+    "mcap": 3686.486832557517,
+    "launched": "2026-08-18T11:58:15+00:00"
+   }
+  ],
+  "wallet_txs": 14
  }
 }
