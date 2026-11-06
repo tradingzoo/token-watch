@@ -177,3 +177,6 @@ A DexScreener pool with under $500 of liquidity is ignored when reading a token'
 
 ## "No token yet" pages (6 Nov)
 A line like "Is there a BLACKPOOL token? Token details are TBA" no longer counts as the project mentioning the token. If the project's own pages say there's no official token yet (TBA, "treat anything else as unofficial", "there is no official token", "beware of fake tokens"...) and they don't post this token's address, the card shows a ⚠️ line quoting it. No points change.
+
+## Hand reviews (6 Nov)
+`"review": {"What it does": ..., "Unique?": ..., "Scalable?": ..., "Narrative fit": ..., "How it makes money": ..., "Token today": ..., "Watch for": ...}` in reviews.json shows as a "Hand review" block at the top of the card's Details, with a 📝 hand review badge on the closed card. Information only, no score change. First one: LETRO.

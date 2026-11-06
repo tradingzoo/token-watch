@@ -1382,13 +1382,17 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         # --- 5 Nov layout: closed card = 4 lines; Details = Quick facts, Warnings, Score, About, Full evidence ---
         a_ = r["address"]
         unoff = reviews.get(a_.lower(), {}).get("unofficial")  # hand note: probably not the team's token (no score change)
+        hand = reviews.get(a_.lower(), {}).get("review") or {}  # hand review (6 Nov): what it does, unique, scalable, money...
+        hand_html = ("<h4>Hand review" + (f" · {e(reviews[a_.lower()].get('checked', ''))}" if reviews[a_.lower()].get("checked") else "")
+                     + "</h4><dl class='facts hand'>" + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in hand.items()) + "</dl>") if hand else ""
         warn_items = ([(UNOFFICIAL + ": " + unoff, 1)] if unoff else []) + list(seen_w.items()) + ([(ghost_w, 1)] if ghost_w else [])
         has_unclaimed_flag = any(f.startswith(UNCLAIMED) for f in allw)
         badges = (("<span class='new'>NEW</span>" if new else "")
                   + (" <span class='grp'>🔒 private code</span>" if sc.get("private") else "")
                   + (" <span class='grp' title='Their repo, website and X never post the token address or mention the token.'>🤐 unclaimed</span>"
                      if unclaimed and not has_unclaimed_flag else "")
-                  + (f" <span class='grp' title='{e(unoff)}'>❓ maybe not official</span>" if unoff else ""))
+                  + (f" <span class='grp' title='{e(unoff)}'>❓ maybe not official</span>" if unoff else "")
+                  + (" <span class='grp watch' title='Reviewed by hand: open Details'>📝 hand review</span>" if hand else ""))
         parts, plus, minus, cap = score_bits(sc)
         tags = narratives(r, sc, xdb)
         top_plus = re.sub(r"\s*\(.*$", "", plus[0]) if plus else ""
@@ -1421,6 +1425,7 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
     </div>
   </header>
   <details class="more"><summary>Details</summary>
+  {hand_html}
   <h4>Quick facts</h4>{quick_facts(r, sc, xdb, wallets, pdb, ship, e)}
   {warn_html}
   {score_html}
@@ -1508,7 +1513,7 @@ summary{{cursor:pointer;color:var(--accent);font-weight:550;font-size:14px;list-
 summary::before{{content:"\\203A";display:inline-block;width:1em;transition:transform .15s}} details[open]>summary::before{{transform:rotate(90deg)}}
 .more{{margin-top:var(--s3);border-top:1px solid var(--line);padding-top:var(--s2)}}
 .more h4{{margin:var(--s5) 0 var(--s2);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--mute)}}
-.facts{{display:grid;grid-template-columns:max-content 1fr;gap:var(--s1) var(--s4);margin:0;font-size:14px;font-variant-numeric:tabular-nums}} .facts dt{{color:var(--mute)}} .facts dd{{margin:0}}
+.facts{{display:grid;grid-template-columns:max-content 1fr;gap:var(--s1) var(--s4);margin:0;font-size:14px;font-variant-numeric:tabular-nums}} .facts dt{{color:var(--mute)}} .facts.hand{{grid-template-columns:minmax(110px,max-content) 1fr;gap:var(--s2) var(--s4)}} .facts.hand dt{{font-weight:600}} .facts dd{{margin:0}}
 .flag{{background:var(--flag);border-radius:8px;padding:var(--s2) var(--s3);margin:var(--s2) 0 0;font-size:14px}}
 .chips{{display:flex;flex-wrap:wrap;gap:var(--s1);font-size:13px;font-variant-numeric:tabular-nums}}
 .chip{{background:var(--soft);border-radius:6px;padding:1px 8px;font-weight:550}} .chip.zero{{color:var(--mute);font-weight:450}}
