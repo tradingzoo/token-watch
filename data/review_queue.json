@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06T18:52:45+00:00",
+ "updated": "2026-11-06T19:16:38+00:00",
  "tokens": [
   {
    "address": "0x346212384cde8ee3df97c762fbe7e70d617e953f",
    "symbol": "RIG",
    "name": "AgentRig",
    "score": 70,
-   "mcap": 3947.007728155568,
+   "mcap": 3941.636660123816,
    "tags": [
     "AI agents"
    ],
@@ -20,7 +20,7 @@
    "symbol": "HCAT",
    "name": "HookCat",
    "score": 70,
-   "mcap": 3689.9042782553724,
+   "mcap": 3684.8830752899494,
    "tags": [
     "AI"
    ],
@@ -30,26 +30,11 @@
    "why": "not reviewed yet"
   },
   {
-   "address": "0x93d3c50624cec6a7f5056512374bf0d85810fb6f",
-   "symbol": "CFESS",
-   "name": "Chainfess",
-   "score": 70,
-   "mcap": 3642.546305099091,
-   "tags": [
-    "AI agents",
-    "Dev tools"
-   ],
-   "website": "https://chainfess.pro",
-   "twitter": "https://x.com/chainfesspro",
-   "github": "chainfess/chainfess",
-   "why": "not reviewed yet"
-  },
-  {
    "address": "0x3585df71e28a48eed265fafbc27334e30ff6d1ff",
    "symbol": "UUAgent",
    "name": "UU Agent",
    "score": 65,
-   "mcap": 3742.581677184,
+   "mcap": 3736.9802568000005,
    "tags": [
     "AI agents"
    ],
@@ -78,7 +63,7 @@
    "symbol": "KYTE",
    "name": "Kyte",
    "score": 70,
-   "mcap": 44495.0,
+   "mcap": 38802.0,
    "tags": [
     "DeFi"
    ],
