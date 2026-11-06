@@ -1099,7 +1099,11 @@ const ok=()=>{b.textContent='Copied ✓';setTimeout(()=>b.textContent=t,1500);};
 if(navigator.clipboard)navigator.clipboard.writeText(c).then(ok,()=>prompt('Copy:',c));else prompt('Copy:',c);});
 document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{b.closest('.bar').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
 const f=b.dataset.f;b.closest('section').querySelectorAll('article.card').forEach(c=>{const s=+c.dataset.score,n=c.dataset.new==='1',fl=!!c.querySelector('.flag');
-c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))?'':'none'})});
+c.style.display=(f==='all'||(f==='new'&&n)||(f==='60'&&s>=60)||(f==='flag'&&fl))?'':'none'});
+const sec=b.closest('section'),shown=[...sec.querySelectorAll('article.card')].some(c=>c.style.display!=='none');
+let m=sec.querySelector('p.nonew');if(!m){m=document.createElement('p');m.className='nonew muted';b.closest('.bar').after(m);}
+m.textContent=shown?'':(f==='new'?'Nothing new in the last 24 hours. Press All to see the full list.':'Nothing matches this filter.');m.style.display=shown?'none':'';});
+document.querySelectorAll('.bar button.on').forEach(b=>b.onclick());  // lists open on New (24h) (user, 6 Nov)
 TW_TIME();};
 window.addEventListener('hashchange',()=>{TW_SHOW();window.scrollTo(0,0);});
 
@@ -1968,7 +1972,7 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <section class="tab" id="sites">
 <h2 style="margin:22px 0 6px">Site check: websites developers and AI agents can plug into</h2>
 <p class="top">No GitHub needed: their own site has {sitecheck.LIST_AT}+ of API keys, SDK, MCP, llms.txt. Rules: SCORING.md.</p>
-<div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="flag">Red flags</button></div>
+<div class="bar"><button data-f="all">All</button><button class="on" data-f="new">New (24h)</button><button data-f="flag">Red flags</button></div>
 {''.join(site_cards) if site_cards else f'<p>No site-check projects score {SHOW_AT}+ right now.</p>'}
 </section>
 <section class="tab" id="status">{shipping.alerts_html(ship, NOW, keep) if ship else '<p>No status data yet.</p>'}</section>
@@ -1977,7 +1981,7 @@ button.wrong{{font:inherit;font-size:12px;border:1px solid var(--line);backgroun
 <section class="tab" id="health">{health or '<p>Scanner health appears after the next scan.</p>'}</section>
 <section class="tab" id="github">
 <h2 style="margin:22px 0 10px">New tokens with a public GitHub</h2>
-<div class="bar"><button class="on" data-f="all">All</button><button data-f="new">New (24h)</button><button data-f="flag">Red flags</button></div>
+<div class="bar"><button data-f="all">All</button><button class="on" data-f="new">New (24h)</button><button data-f="flag">Red flags</button></div>
 {''.join(cards) if cards else f'<p>No GitHub projects score {SHOW_AT}+ right now.</p>'}
 {skipped_html(state)}
 </section>
