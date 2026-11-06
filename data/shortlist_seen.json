@@ -122,10 +122,10 @@
   },
   "0x89b76dcdda801f2e456765742c64950eb2a0c93c": {
    "symbol": "BORRO",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-05T21:45:05+00:00"
+   "left": null
   },
   "0xe1838f0dff03a9327dea87b2a2285850791297ec": {
    "symbol": "SURPLUS",
@@ -300,6 +300,13 @@
    "in": true,
    "joined": "2026-11-06T09:45:09+00:00",
    "first": "2026-11-06T09:45:09+00:00",
+   "left": null
+  },
+  "0x96f455a90a80dcf0c2df6703ea4ba3bedf286e43": {
+   "symbol": "VERDEX",
+   "in": true,
+   "joined": "2026-11-06T10:18:22+00:00",
+   "first": "2026-11-06T10:18:22+00:00",
    "left": null
   }
  }
