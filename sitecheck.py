@@ -25,6 +25,13 @@ TOOLS = [
      "an SDK or install line"),  # terminal installs added 5 Nov (DARK, HARMONIC)
     ("MCP", r"\bMCP\b|mcp\.json", "an MCP connection for AI agents"),
 ]
+# Points per tool (6 Nov, from the "Is the score working?" data, 3+ day old tokens, took off 41 vs died 15):
+# API keys were MORE common among dead tokens (22% vs 47%) and MCP showed no difference (29% vs 33%), so they
+# score 0 and 5; both still count toward the 2-tool listing rule. Listing contract addresses was the strongest sign
+# (88% vs 47%): 5 -> 15 points. Address on site AND official X (32% vs 7%): +5. Tested: tokens at 61+ that took off
+# 10 -> 18 of 41, that died 1 -> 1 of 15. Notes in SCORING.md.
+TOOL_POINTS = {"API key": 0, "SDK": 10, "MCP": 5}
+SITE_VERSION = 2  # scores made before this version are re-done first (at most 20 a run), so the change reaches every token in hours
 OTHER = {
     "money": r"buy ?backs?|buy-backs?|\bburn(?:ed|s)?\b|\bstak(?:e|ing|ers)\b|revenue share|holders.{0,25}(?:share|earn|receive)",
     # takes real payments (5 Nov test: winners 41%, losers 5%; pricing pages alone didn't separate them)
@@ -141,7 +148,7 @@ def score(tok, review, w):
         # a tool counts only if not denied: "MCP... no API key" had scored API keys (MERY, 6 Nov)
         ok = any(not w.said_not(text, m.start()) for m in re.finditer(rx, text, re.I))
         n_tools += ok
-        add("Plug-in tools", 10 if ok else 0, ("Site offers " if ok else "No sign of ") + words)
+        add("Plug-in tools", TOOL_POINTS[name] if ok else 0, ("Site offers " if ok else "No sign of ") + words)
     n_tools += bool(llms)
     add("Plug-in tools", 10 if llms else 0,
         f"Has docs written for AI to read ({urllib.parse.urlparse(llms[0]).path})" if llms else "No llms.txt (docs for AI to read)")
@@ -155,11 +162,11 @@ def score(tok, review, w):
     on_site = any(addr in t.lower() for where, u, t in srcs)
     ox = w.official_x(tok, srcs)
     where = [x for x, ok in (("website or docs", on_site), (f"official X @{ox['official']}", ox["posted"])) if ok]
-    add("Really theirs", 15 if where else 0,
+    add("Really theirs", (20 if len(where) == 2 else 15) if where else 0,  # site AND official X: +5 (6 Nov study)
         ("Token's address is posted by their " + " and ".join(where)) if where
         else "Token's address isn't on their website, docs or official X")
     n_addr = len({a.lower() for a in re.findall(r"0x[0-9a-fA-F]{40}", text)})
-    add("Really theirs", 5 if n_addr >= 2 else 0, f"Lists {n_addr} contract addresses" if n_addr >= 2 else "Lists fewer than 2 contract addresses",
+    add("Really theirs", 15 if n_addr >= 2 else 0, f"Lists {n_addr} contract addresses" if n_addr >= 2 else "Lists fewer than 2 contract addresses",
         "✅" if n_addr >= 2 else "❌")
     wins, on_x = past_winners(tok, text, w.x_account(ox["official"]) if ox["official"] else None)
     if wins:  # a bonus only: not working with a past winner is never listed as a miss (user, 5 Nov)
@@ -229,7 +236,7 @@ def score(tok, review, w):
     elif not where:
         final = min(total, 60)
         reasons["Really theirs"].insert(0, "🟡 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs")
-    return {"kind": "site", "repo": None, "score": final, "raw_score": total, "capped": final < total, "flags": flags,
+    return {"kind": "site", "v": SITE_VERSION, "repo": None, "score": final, "raw_score": total, "capped": final < total, "flags": flags,
             "reasons": reasons, "roadmap": review.get("roadmap", []), "notes": review.get("notes", []),
             "tools": n_tools, "listed": not cc and (n_tools >= LIST_AT or final >= LIST_SCORE), "copy_of": cc["real"] if cc else None,
             "token_mentioned": on_site, "sources_read": [u for where, u, t in srcs],

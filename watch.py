@@ -46,6 +46,8 @@ def rescore_hours(g):
 
 
 def rescore_due(g):
+    if g["scoring"].get("kind") == "site" and g["scoring"].get("v", 1) < sitecheck.SITE_VERSION:
+        return True  # scored under older site-check weights
     return days_between(NOW, iso(g["scored_at"])) * 24 >= rescore_hours(g)
 COPY_CACHE = {}  # repo@last-push -> (flags, notes); saved in the state file
 GH = shutil.which("gh") or r"C:\Users\zacha\AppData\Local\Programs\GitHub CLI\gh.exe"
@@ -2154,7 +2156,8 @@ def main():
             toks[key].update({"links": [], "source": "earlier"})
     for t in pons_busy():  # tokens taking off after they left the newest page (MERY, UPOCH, 5 Nov)
         a = t["address"].lower()
-        if a in RESTING:  # a resting token on Pons's top market-cap / volume list wakes now, not at its daily check
+        if a in RESTING and ((tdb["resting"].get(a) or {}).get("value") or 0) < tiers.WAKE_VALUE:
+            # a SMALL resting token on Pons's top market-cap / volume list wakes now (big ones are always on it: 6 Nov)
             tiers.wake(tdb, a, "on Pons's top market-cap / volume list", t.get("mcap"), NOW, symbols)
             RESTING.discard(a)
         toks.setdefault(a, t)
