@@ -185,3 +185,6 @@ A line like "Is there a BLACKPOOL token? Token details are TBA" no longer counts
 Tokens launched from 6 Nov 03:15 UTC on that score 60+ (and aren't marked maybe-not-official) without a hand review go in data/review_queue.json and a collapsed "📝 Hand review queue" list at the bottom of the Shortlist tab, AI projects first, then by score and value. Reviews are written by Claude when asked ("do the reviews"); the scanner itself doesn't write them.
 
 Older tokens are not queued and reviews are not redone (user, 6 Nov).
+
+## Quick read (6 Nov)
+Every card scoring 60+ gets a row of key-word chips on the closed card and a "Quick read" block in Details (what it does, narrative, money, theirs?, built, watch for). Built only from facts the scanner already has: green = good, amber = claimed/guessed/unchecked, red = risk. No judgement: it's for deciding fast; ask Claude for a deep dive. On these cards the old one-line verdict is hidden (the chips cover it).

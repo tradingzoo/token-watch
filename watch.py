@@ -1261,6 +1261,75 @@ def building_html(picks, e):
             + ("".join(one(p) for p in ok) or "<p class='muted'>No token passes right now.</p>"))
 
 
+QUICK_AT = 60  # cards at this score or more get a Quick read (user, 6 Nov: key words to decide fast, deep dive later)
+
+
+def quick_read(r, sc, tags, warn_items, act):
+    """(chips, rows) built only from facts the scanner already has. chips: [(kind, text)] with kind g/a/r
+    (good / claimed-or-unknown / risk). rows: [(label, text)] for the Details block. No judgement, just key words."""
+    said = " ".join(sum(sc.get("reasons", {}).values(), []))
+    has = lambda pat: re.search(pat, said)
+    good, amber, risk = [], [], []
+    # proof it's theirs
+    m = has(r"✅ Token's address is posted by their ([^(]+?) \(")
+    if m:
+        w = m.group(1).lower()
+        where = [n for n, k in (("site", r"website|docs"), ("GitHub", r"repo|readme|about|bio|files"), ("X", r"official x")) if re.search(k, w)]
+        good.append("CA on " + "+".join(where or ["their pages"]))
+    elif has(r"Token's address isn't"):
+        risk.append("CA not posted by team")
+    if has(r"never mention the token"):
+        risk.append("team never mentions token")
+    # what's built
+    m = has(r"✅ (\d+) changes over (\d+) days")
+    if m:
+        good.append(f"open code · {m.group(1)} commits")
+    if has(r"Code is private"):
+        amber.append("private code")
+    if has(r"✅ Has smart contracts and tests"):
+        good.append("contracts + tests")
+    for pat, label in ((r"✅ Site offers an MCP", "MCP"), (r"✅ Site offers an SDK", "SDK"), (r"✅ Site offers API keys", "API keys"),
+                       (r"✅ Has docs written for AI", "AI-readable docs")):
+        if has(pat):
+            good.append(label)
+    if has(r"Has a working app"):
+        good.append("live app")
+    if has(r"Made for AI agents"):
+        good.append("built for AI agents")
+    if act and act[0] >= 3:
+        good.append(f"building: {act[0]} of last 8 days")
+    # money
+    if has(r"✅ Takes real payments"):
+        good.append("takes payments")
+    if has(r"Built on Robinhood Chain's own assets|Trades against"):
+        good.append("uses USDG / stock tokens")
+    m = has(r"Works with past winners: ([^(]+)")
+    if m:
+        good.append("works with " + m.group(1).strip().rstrip(","))
+    if has(r"Looks like it earns fees|Maybe earns fees"):
+        amber.append("earns fees? (guess)")
+    if has(r"Says (?:fees|money) go(?:es)? back to the token"):
+        amber.append("buyback/burn claimed")
+    if has(r"Holding the token unlocks"):
+        amber.append("holding unlocks product")
+    if has(r"Mentions an audit|Audit looks self-done"):
+        amber.append("audit unchecked")
+    if has(r"One person, new account"):
+        risk.append("1 dev, new account")
+    for f, _n in warn_items[:3]:
+        risk.append(re.split(r"[:(—]", f)[0].strip()[:42])
+    chips = [("g", x) for x in good] + [("a", x) for x in amber] + [("r", x) for x in risk]
+    about = (r.get("description") or "").strip().replace("\n", " ")
+    about = about if len(about) <= 200 else about[:197].rsplit(" ", 1)[0] + "…"
+    rows = [("What it does", about or "No description given"),
+            ("Narrative", ", ".join(tags) or "No clear tag"),
+            ("Money", ", ".join([x for x in good if x in ("takes payments", "uses USDG / stock tokens")] + amber[:3]) or "No money signs found"),
+            ("Theirs?", next((x for x in good if x.startswith("CA on")), None) or ", ".join(x for x in risk if "CA" in x or "mentions" in x) or "Not shown"),
+            ("Built", ", ".join(x for x in good if not x.startswith("CA on") and x not in ("takes payments", "uses USDG / stock tokens")) or "Nothing checked"),
+            ("Watch for", ", ".join(risk + [x for x in amber if x in ("private code", "audit unchecked")]) or "Nothing flagged")]
+    return chips, rows
+
+
 def ago(ts):
     """'40 min ago', '5 h ago', '3 days ago'."""
     if not ts:
@@ -1411,6 +1480,10 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
                   + (" <span class='grp watch' title='Reviewed by hand: open Details'>📝 hand review</span>" if hand else ""))
         parts, plus, minus, cap = score_bits(sc)
         tags = narratives(r, sc, xdb)
+        qr_chips, qr_rows = quick_read(r, sc, tags, warn_items, build_activity(a_, ship)) if sc["score"] >= QUICK_AT else ([], [])
+        qr_line = ("<p class='qr'>" + "".join(f"<span class='q{dict(g='g', a='a', r='x')[k]}'>{e(t)}</span>" for k, t in qr_chips) + "</p>") if qr_chips else ""
+        qr_html = ("<h4>Quick read</h4><dl class='facts hand'>" + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in qr_rows)
+                   + "</dl>") if qr_rows else ""
         top_plus = re.sub(r"\s*\(.*$", "", plus[0]) if plus else ""
         top_warn = re.split(r"[:(—]", warn_items[0][0])[0].strip()[:60] if warn_items else ""
         verdict = " ".join(x for x in (
@@ -1435,13 +1508,14 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
       <h2>{e(r.get('symbol') or '?')} <span class="nm">· {e(r.get('name') or '')}</span>
         <button class="ca" data-ca="{e(a_)}" title="Copy the contract address">{e(a_[:6] + '…' + a_[-4:])} ⧉</button> {badges}</h2>
       <p class="sub">{e(money(r.get('mcap')))} · launched {e(ago(r.get('launched')) or '?')} · {e(r.get('where') or '')}</p>
-      <p class="verdict">{verdict}</p>
+      <p class="verdict">{'' if qr_line else verdict}</p>
       {('<p class="tags">' + ''.join(f'<span class="tag">{e(t)}</span>' for t in tags) + '</p>') if tags else ''}
+      {qr_line}
       <p class="links">{" · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(t)}</a>' for u, t in links)}</p>
     </div>
   </header>
   <details class="more"><summary>Details</summary>
-  {hand_html}
+  {hand_html}{qr_html}
   <h4>Quick facts</h4>{quick_facts(r, sc, xdb, wallets, pdb, ship, e)}
   {warn_html}
   {score_html}
@@ -1527,9 +1601,10 @@ ul{{margin:0;padding-left:20px}} li{{margin:2px 0}}
 .sub,.meta{{color:var(--mute);margin:2px 0;font-size:13px;font-variant-numeric:tabular-nums}}
 .links{{margin:var(--s2) 0 0;font-size:13px;font-weight:550}}
 .verdict{{margin:var(--s2) 0 0;font-size:14px;display:flex;flex-wrap:wrap;gap:var(--s1) var(--s3)}}
-.verdict .good{{color:var(--hi)}} .verdict .bad{{color:var(--lo)}} .verdict .muted{{color:var(--mute)}}
+.verdict:empty{{display:none}} .verdict .good{{color:var(--hi)}} .verdict .bad{{color:var(--lo)}} .verdict .muted{{color:var(--mute)}}
 .signs{{margin:var(--s2) 0 0;font-size:13px;color:var(--hi);font-weight:600;background:var(--goodbg);border-radius:6px;padding:2px var(--s2);width:fit-content;max-width:100%}}
 .joined{{background:var(--accent);color:var(--card);border-radius:4px;padding:0 6px;margin-right:6px;font-weight:700}}
+.qr{{margin:var(--s2) 0 0;display:flex;gap:4px;flex-wrap:wrap;font-size:12px;font-weight:550}} .qr span{{border-radius:5px;padding:1px 7px}} .qg{{background:var(--goodbg);color:var(--hi)}} .qa{{background:color-mix(in oklab,var(--mid) 14%,transparent);color:var(--mid)}} .qx{{background:var(--flag);color:var(--lo)}}
 .tags{{margin:var(--s2) 0 0;display:flex;gap:var(--s1);flex-wrap:wrap}}
 .tag{{font-size:var(--t-1);font-weight:550;border-radius:999px;padding:1px 10px;background:var(--soft);color:var(--mute)}}
 .new{{font-size:11px;font-weight:700;letter-spacing:.04em;background:var(--accent);color:var(--card);border-radius:999px;padding:1px 8px}}
