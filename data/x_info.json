@@ -151,44 +151,11 @@
   "usebursar": {
    "handle": "UseBursar",
    "found": false,
-   "id": "2104047401044475904",
-   "name": "Bursar",
-   "joined": "2026-09-27T03:17:27+00:00",
-   "followers": 362,
-   "following": 4,
-   "posts": 332,
-   "verified": "individual",
-   "last_post": "2026-11-05T08:14:00+00:00",
-   "sample": 15,
-   "sample_full_week": true,
-   "posts_7d": 15,
-   "avg_likes": 19.3,
-   "avg_views": 721,
-   "bio_site": "https://bursar.world/",
-   "bio": "Private, on-chain budgets for AI agents. Built for tokenized assets and agent commerce.\n\nTelegram: https://t.me/bursaronrobinhood",
+   "checked": "2026-11-06T23:15:21+00:00",
    "cas": [
     "0x0f8c99607ca37b8f29cb8c215190ea2dca6b8c0d"
    ],
-   "fake_posts": [],
-   "texts": [
-    "Longer endowment histories were hitting an RPC query limit. The console now reads logs by endowment address and decodes the events locally. That keeps gifts, patrons and activity readable as the history grows, without the old multi-event query restriction.",
-    "A payment receipt can exist before the RPC is ready to return it. Bursar's Base intake now retries missing receipts within its wait window instead of stopping at the first lookup error. No receipt still means unconfirmed, never an assumed payment.",
-    "We added a card-funding route for agent endowments. A Coinbase purchase sends USDC on Base through Relay, which delivers USDG to the endowment on Robinhood Chain. The giver needs no onchain signature or gas. Coinbase login and fees still apply.",
-    "Bursar is now a plugin for Claude Code, Codex and Gemini CLI. One install, and the agent in your terminal pays from a mandate on Robinhood Chain, inside the limits you set. Fifty dollars on a fifty-cent cap? It asks the mandate and gets a no. https://bursar.world/blog/claude-code-codex-gemini",
-    "Applied for Coingecko listing CL0311260022",
-    "Bursar, last 2 days: stats page, live on @RobinhoodApp Chain endow agents on Base and Ethereum v2 endowments matched on Sourcify takes @stripe MPP next to x402 one install in Claude Code, Codex, Gemini CLI @CoinbaseDev Bazaar discovery for paid routes https://bursar.world",
-    "bursar is live on @RobinhoodApp Chain, rails are running 727 agent payments settled in USDG 60 mandates holding agents to their limits 5 disputes, all 5 ruled 624 payments in the last 2 days https://app.bursar.world/stats",
-    "Stats looking good\ud83d\udc40 Will showcase soon.",
-    "Gm @robinhoodapp users AI agents pay for data and APIs. Bursar gives each one a mandate on @RobinhoodApp Chain: a per-call cap, a daily cap, your OK above a set amount. Over the limit, the contract reverts it. Fund it once with stocks. The agent spends the draw. Open source. Grabbing some coffee, an",
-    "An agent on Base just sold a market note for half a cent on Bursar. Paid from a plain wallet on Base with the standard x402 client. Three seconds after the payment settled, the sale landed in the agent's endowment on Robinhood Chain: half joined the principal, half went to the mandate the agent spen",
-    "An agent that earns can now grow its own endowment on Bursar. Our demo agent on Base sells a market note for half a cent. We paid it from a plain wallet on Base with the standard x402 client. Three seconds after the payment settled, the sale landed in the agent's endowment on Robinhood Chain: half j",
-    "When an AI agent pays for work, both sides need a way to contest the outcome without deciding the payout themselves. Bursar links each job to USDG escrow, a deadline and an onchain dispute process on Robinhood Chain. A $BURSAR thread \ud83e\uddf5",
-    "Too few votes do not hand the payer an automatic win. The escrow reopens with more time for delivery, and the dispute bond returns. A second dispute cannot freeze that lock again. If it remains locked past its deadline, a refund can be claimed.",
-    "One limit worth knowing before you integrate. A dispute after payout can affect the provider's reputation, but cannot pull back funds already paid. The safeguards depend on when a dispute is raised, and on the resolver roster and voting configuration.",
-    "What actually stops an agent from overspending? Each Bursar mandate is its own account on chain: per call, per day, per month, which providers, and when you sign off. Payment rides the x402 retry and sits in escrow for one job. New providers start capped at 25 USDG. Live on @RobinhoodApp Chain."
-   ],
-   "checked": "2026-11-06T02:52:36+00:00",
-   "gone_since": "2026-11-06T02:52:36+00:00"
+   "fake_posts": []
   },
   "tryatlasclass": {
    "handle": "tryatlasclass",
@@ -3976,7 +3943,7 @@
    "id": "2094758092323926016",
    "name": "Stratton",
    "joined": "2026-09-01T12:26:10+00:00",
-   "followers": 3562,
+   "followers": 3559,
    "following": 3,
    "posts": 66,
    "verified": null,
@@ -3985,7 +3952,7 @@
    "sample_full_week": false,
    "posts_7d": 0,
    "avg_likes": 25.4,
-   "avg_views": 5546,
+   "avg_views": 5560,
    "bio_site": "http://stratton.market",
    "bio": "The penny stock market, on-chain. Bootstrapped by @RobinhoodCrypto.",
    "cas": [],
@@ -4003,7 +3970,7 @@
     "6/ We don\u2019t need to beat the competition on every metric today. We need to build the infrastructure that makes those metrics inevitable tomorrow. More stocks. More markets. More liquidity. More integrations. More memes. More users. All feeding into the same ecosystem.",
     "7/ The competitor has validated the category. We\u2019re here to expand it. Our ambition for Stratton isn\u2019t to become the #1 stock/meme launchpad on Robinhood Chain. It\u2019s to become the default onchain market layer for penny stocks and the ecosystems built around them."
    ],
-   "checked": "2026-11-05T22:03:57+00:00"
+   "checked": "2026-11-06T23:15:21+00:00"
   },
   "goldengooserh": {
    "handle": "GoldenGooseRH",
@@ -6133,16 +6100,16 @@
    "id": "2111903656790413313",
    "name": "American Bully",
    "joined": "2026-10-18T19:35:20+00:00",
-   "followers": 129,
+   "followers": 130,
    "following": 9,
-   "posts": 60,
+   "posts": 61,
    "verified": "individual",
-   "last_post": "2026-11-04T17:45:05+00:00",
+   "last_post": "2026-11-06T22:30:31+00:00",
    "sample": 21,
    "sample_full_week": false,
    "posts_7d": 8,
    "avg_likes": 8.7,
-   "avg_views": 235,
+   "avg_views": 237,
    "bio_site": "https://abullycoin.com",
    "bio": "Savage muscle machine warring through 100 rounds on Robinhood Chain. $BULLY\nCA: 0xff0fa3799686ac47e3aff62aa2210a8441737cc3\nhttp://abullycoin.com\nFor fun, not advice.",
    "cas": [
@@ -6150,6 +6117,7 @@
    ],
    "fake_posts": [],
    "texts": [
+    "BULLY EXECUTIVE BRIEF \ud83e\udd4a The champ keeps working the room. Here is where BULLY stands today. \ud83c\udf0d THE WORLD IS WATCHING Over the last 7 days the BULLY site logged 31.8K pageviews and 30.8K visits. Highest pageview totals came from the US and UK, then Romania, Germany and the Netherlands. The count inclu",
     "BULLY 36-HOUR EXECUTIVE BRIEF \ud83e\udd4a More places to find BULLY. More custom tools being built. Here's the work completed and where it stands: \ud83c\udfc6 GETTING BULLY LISTED We finished our first target of 300 applications to agent directories and crypto-discovery sites. The results so far: \u2022 53 public listings: ",
     "DAY ONE IN THE STUDIO \u00f0\u009f\u00a5\u008a Every BULLY production teaches us something - mostly what NOT to do - and honestly, the practice rounds are half the fun \u00f0\u009f\u0098\u0082 We're learning, we're building, and one day we'll master this thing. Until then, enjoy the chaos. Wild Hollywood-style productions are coming. The ",
     "There's a second audience on the internet now, and it doesn't have eyeballs. AI assistants have moved past answering questions from memory. They research the web on a person's behalf: reading pages, calling tools and coming back with answers. An assistant can read an ordinary web page just fine, but",
@@ -6168,10 +6136,9 @@
     "9/ Content engine running: the official Substack publication is live with our launch story, our CoinMarketCap Community post is up, and the Zealy questboard is open with live quests. Owned channels, all active.",
     "10/ Exchange front: 17 centralized exchange listing applications submitted through venue forms and designated email channels, with more in the queue. Every venue gets a submission tailored to its own requirements.",
     "1/ The $BULLY rollout, by the numbers: at least 162 listing and exchange applications submitted. 145+ across directories and platforms. 17 to centralized exchanges. 16 placements live, plus GeckoTerminal tracking. #RobinhoodChain",
-    "8/ AI readiness: an llmsmap site audit scores https://abullycoin.com 87 out of 100 on AI-readiness signals - llms.txt, crawler rules, sitemap, structured data - rated Excellent. Built to be found by the next wave.",
-    "7/ International footprint: BULLY sits in France's ForumCrypto links directory and Kazakhstan's Bura catalog, alongside global directories CurlShip, TextFrog and BUSYTEXT. This war does not stay in one timezone."
+    "8/ AI readiness: an llmsmap site audit scores https://abullycoin.com 87 out of 100 on AI-readiness signals - llms.txt, crawler rules, sitemap, structured data - rated Excellent. Built to be found by the next wave."
    ],
-   "checked": "2026-11-06T01:24:35+00:00"
+   "checked": "2026-11-06T23:15:21+00:00"
   },
   "manyways_rh": {
    "handle": "manyways_rh",
@@ -8348,21 +8315,22 @@
    "id": "2077377460379787265",
    "name": "Artificial Inu",
    "joined": "2026-07-15T13:00:16+00:00",
-   "followers": 16459,
+   "followers": 16481,
    "following": 195,
-   "posts": 2719,
+   "posts": 2720,
    "verified": "individual",
-   "last_post": "2026-11-06T02:59:35+00:00",
+   "last_post": "2026-11-06T21:25:34+00:00",
    "sample": 20,
    "sample_full_week": false,
-   "posts_7d": 10,
-   "avg_likes": 120.6,
-   "avg_views": 4475,
+   "posts_7d": 11,
+   "avg_likes": 124.3,
+   "avg_views": 4704,
    "bio_site": "https://artificialinu.com/",
    "bio": "The ticker is $AI (Artificial Inu)\n\n$AI is paired to NVIDIA - AI/NVDA",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "you can now launch a new LONG pairs (*AI pairs* included) straight from the RH wallet app. gas is covered. Inu is monitoring.",
     "Oh, you think darkness is your ally? But you merely adopted the dark; I was born in it, molded by it.",
     "Vlad mode.",
     "the inu stays artificial.",
@@ -8381,10 +8349,9 @@
     "time to run it back the Inu stays artificial",
     "Bonjour\ud83e\udd56\ud83c\uddeb\ud83c\uddf7",
     "Robinhood Q3 2026 Earnings Call >RWAs remain the main focus of RH Chain > @vladtenev expects adoption to increase > Going to ramp up ecosystem support > Excited to see more complex infra expansions (cough cough LongX baskets, vault modules, pairs) Another Vlad win. LONG.",
-    "Who the hell do you think I am?",
-    "LONG."
+    "Who the hell do you think I am?"
    ],
-   "checked": "2026-11-06T02:52:36+00:00"
+   "checked": "2026-11-06T23:15:21+00:00"
   },
   "debasementdesk": {
    "handle": "debasementdesk",
@@ -16970,6 +16937,83 @@
    "handle": "stonkdrop",
    "found": false,
    "checked": "2026-11-06T22:45:22+00:00"
+  },
+  "utokenpro": {
+   "handle": "uTokenPro",
+   "found": true,
+   "id": "2083375534675812352",
+   "name": "\u00b5Token",
+   "joined": "2026-08-01T02:16:10+00:00",
+   "followers": 5489,
+   "following": 283,
+   "posts": 538,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://utoken.gg",
+   "bio": "enabling a new onchain era. creator: @0xhadrian",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-06T23:15:21+00:00"
+  },
+  "oly_dao": {
+   "handle": "Oly_Dao",
+   "found": true,
+   "id": "1942926671583006720",
+   "name": "OLY",
+   "joined": "2025-07-09T12:40:00+00:00",
+   "followers": 10212,
+   "following": 1417,
+   "posts": 11005,
+   "verified": "individual",
+   "last_post": "2026-11-05T17:01:16+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 11,
+   "avg_likes": 27.8,
+   "avg_views": 2465,
+   "bio_site": "http://OLY.IO",
+   "bio": "Stake one token, earn DeFi's best assets: ETH, stETH, WBTC, stables, and soon tokenized stocks. Sellers fund it. Stakers own it.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "We're building an ecosystem that runs on DeFi. The OLY token was the first phase of our economic flywheel, built to distribute value. OLY puts ETH to work in vaults and pools. Since October, OLY\u2019s pools on Robinhood Chain pay rewards that holders can claim. The OLY Guild is the next phase. ETH that ",
+    "OLY Charters are NFTs. The OLY Guild is a DeFi protocol, not a licensed bank or financial institution. Nothing presented constitutes financial advice. Apply for a Charter whitelist \u2193 https://oly.io/whitelist",
+    "Branches of the Bank of OLY will receive daily OLY rewards issued by the protocol. Hold a Charter \u2192 open more Branches \u2192 earn a bigger share of OLY distributions every day. More rewards will be announced soon. Your Charter awaits.",
+    "Banking Charters are NFTs. The Bank of OLY is a DeFi protocol, not a licensed bank or financial institution. Nothing presented constitutes financial advice. Apply for a Charter whitelist \u2193 https://oly.io/whitelist",
+    "1,000 OLY Charters are coming to Ethereum. Here's how to get one: - Apply with your X handle and ETH wallet - If approved, secure your Charter on Mint Day Our team will review every whitelist application and announce decisions on official channels.",
+    "Applying does not guarantee a place. Banking Charters are NFTs. The Bank of OLY is a DeFi protocol, not a licensed bank or financial institution. Nothing presented constitutes financial advice. Apply for a Charter whitelist \u2193 https://oly.io/whitelist",
+    "Are you on the Charter Whitelist? 1,000 Founding Charters are ready to be minted with ETH. Each one grows to 10 Branches, auctioned daily in ETH. Your seat in the Bank of OLY awaits. Apply now \u2193",
+    "Applying is free, and the whitelist is open. Applying does not guarantee a place. Banking Charters are NFTs. The Bank of OLY is a DeFi protocol, not a licensed bank or financial institution. Nothing presented constitutes financial advice. https://oly.io/whitelist",
+    "Only 1,000 seats in the Bank of OLY. 87% of the total OLY supply is locked and earning from DeFi activity on Ethereum and Robinhood Chain. It's time to accelerate.",
+    "OLY is a value accrual engine. On Ethereum, it earns from ETH staking and Uniswap liquidity. On Robinhood Chain, OLY pools trade against tokenized stocks. Every trade pays a tax into a payout contract. The Bank of OLY will add even more ETH liquidity. Get ready for the next phase.",
+    "The Bank of OLY is a DeFi protocol, not a licensed bank or financial institution. Nothing presented constitutes financial advice. Track OLY's live portfolio. https://oly.io/portfolio",
+    "OLY will have only one protocol token. 87% of the circulating supply has been locked for 1,776 days by Genesis minters. Our next phase introduces a new asset class: Banking Charters. A Banking Charter is an NFT minted with ETH. A Charter can have multiple Branches, each earning a share of OLY every ",
+    "The Bank of OLY is a DeFi protocol, not a licensed bank or financial institution. Nothing presented constitutes financial advice.",
+    "OLY's fundamentals are solid. First, we built on the most sustainable DeFi primitives: staking and liquidity provision. Then we tapped into the most trusted EVM ecosystems: Ethereum and Robinhood Chain. Get ready for the next phase.",
+    "Introducing the Bank of OLY. 1,000 founding Charters on Robinhood Chain, each able to grow to 10 branches. We're launching a DeFi ecosystem designed to reward long-term builders. Here's how it works \u2193",
+    "Charters are NFTs, minted with ETH. New Branches are auctioned daily for ETH. Charters with more Branches earn a bigger share of daily OLY payouts. Leaving pays an exit tax that scales up with the rate of concurrent exits.",
+    "More details will be announced soon. Turn on notifications to be early for the next phase of OLY.",
+    "Robinhood's own chain did $80B in dex volume this quarter. $13.7B of it was tokenised stocks. That's the liquidity @Oly_Dao is building pools around.",
+    "OLY rewards are now live on Robinhood Chain. We\u2019ve moved liquidity into new pools where every trade pays a tax, and that tax flows into a payout contract. Until now, nobody could see or claim those rewards. Now OLY holders can see them and claim them.",
+    "https://x.com/i/article/2113303806129885186"
+   ],
+   "checked": "2026-11-06T23:15:21+00:00"
+  },
+  "stonkpress": {
+   "handle": "StonkPress",
+   "found": false,
+   "checked": "2026-11-06T23:15:21+00:00"
+  },
+  "exvivagent": {
+   "handle": "exvivagent",
+   "found": false,
+   "checked": "2026-11-06T23:15:21+00:00"
   }
  },
  "ids": {
@@ -18350,6 +18394,12 @@
   ],
   "1723816277708283904": [
    "BlockPro_"
+  ],
+  "2083375534675812352": [
+   "uTokenPro"
+  ],
+  "1942926671583006720": [
+   "Oly_Dao"
   ]
  },
  "past": {
@@ -18848,7 +18898,11 @@
   "blockpro_": [],
   "oakenhood": [],
   "memetools": [],
-  "stonkdrop": []
+  "stonkdrop": [],
+  "utokenpro": [],
+  "oly_dao": [],
+  "stonkpress": [],
+  "exvivagent": []
  },
  "history": {
   "barragetrade": {
@@ -20035,6 +20089,10 @@
    "2026-11-05": [
     3562,
     66
+   ],
+   "2026-11-06": [
+    3559,
+    66
    ]
   },
   "goldengooserh": {
@@ -20633,8 +20691,8 @@
     60
    ],
    "2026-11-06": [
-    129,
-    60
+    130,
+    61
    ]
   },
   "orus_agent": {
@@ -21079,8 +21137,8 @@
     2710
    ],
    "2026-11-06": [
-    16459,
-    2719
+    16481,
+    2720
    ]
   },
   "debasementdesk": {
@@ -22678,6 +22736,18 @@
     354,
     1943
    ]
+  },
+  "utokenpro": {
+   "2026-11-06": [
+    5489,
+    538
+   ]
+  },
+  "oly_dao": {
+   "2026-11-06": [
+    10212,
+    11005
+   ]
   }
  },
  "telegram": {
@@ -22723,11 +22793,11 @@
   },
   "bursaronrobinhood": {
    "found": true,
-   "members": 2,
+   "members": 4,
    "kind": "subscribers",
    "online": null,
    "name": "bursaronrobinhood",
-   "checked": "2026-11-06T02:52:36+00:00"
+   "checked": "2026-11-06T23:15:21+00:00"
   },
   "gasrescue": {
    "found": true,
@@ -22887,7 +22957,7 @@
   "bursaronrobinhood": {
    "2026-11-04": 56,
    "2026-11-05": 64,
-   "2026-11-06": 2
+   "2026-11-06": 4
   },
   "gasrescue": {
    "2026-11-05": 21,
@@ -22978,7 +23048,7 @@
   "bursar-world": {
    "twitter": "UseBursar",
    "blog": "https://bursar.world",
-   "checked": "2026-11-06T02:52:36+00:00"
+   "checked": "2026-11-06T23:15:21+00:00"
   },
   "nathanliow": {
    "twitter": "nathan_liow",
