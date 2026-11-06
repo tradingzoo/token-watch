@@ -73,10 +73,10 @@
   },
   "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": {
    "symbol": "AUTONOMO",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-05T23:26:47+00:00"
   },
   "0xa3b6b325f7937f97b3df9f7ee654d7463c2382da": {
    "symbol": "LOT",
@@ -150,10 +150,10 @@
   },
   "0xb33eb16782776b4d738c0fd643577cb0284db610": {
    "symbol": "HEY",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-05T23:26:47+00:00"
   },
   "0x18e674231a58c239dc7daedcffe15ec3a24cff5c": {
    "symbol": "HOOKR",
@@ -193,16 +193,16 @@
   "0x2142d4816e259fd7c119f61c772e39ae0cdaafde": {
    "symbol": "BROW",
    "in": true,
-   "joined": "2026-11-05T21:45:05+00:00",
-   "first": "2026-11-05T21:45:05+00:00",
+   "joined": "2026-11-05T22:03:57+00:00",
+   "first": "2026-11-05T22:03:57+00:00",
    "left": null
   },
   "0xb63d07cef74be747231d601bb2faa6b252c68106": {
    "symbol": "FABLES",
-   "in": true,
+   "in": false,
    "joined": "2026-11-05T21:45:05+00:00",
    "first": "2026-11-05T21:45:05+00:00",
-   "left": null
+   "left": "2026-11-05T23:26:47+00:00"
   },
   "0xfce34d21a92069100e3226638140706cf03a266e": {
    "symbol": "GLDSTN",
@@ -211,18 +211,25 @@
    "first": "2026-11-05T21:45:05+00:00",
    "left": null
   },
-  "0x2142d4816e259fd7c119f61c772e39ae0cdaafde": {
-   "symbol": "BROW",
-   "in": true,
-   "joined": "2026-11-05T22:03:57+00:00",
-   "first": "2026-11-05T22:03:57+00:00",
-   "left": null
-  },
   "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b": {
    "symbol": "GRASS",
    "in": true,
    "joined": "2026-11-05T22:03:57+00:00",
    "first": "2026-11-05T22:03:57+00:00",
+   "left": null
+  },
+  "0x2d8d6f4a93acd7a916a5a654ec8b690ba3b3eadd": {
+   "symbol": "STATICS",
+   "in": true,
+   "joined": "2026-11-05T23:26:47+00:00",
+   "first": "2026-11-05T23:26:47+00:00",
+   "left": null
+  },
+  "0x2a13008cc2f5a853f6fb21cbd90841806c64b247": {
+   "symbol": "TROLL",
+   "in": true,
+   "joined": "2026-11-05T23:26:47+00:00",
+   "first": "2026-11-05T23:26:47+00:00",
    "left": null
   }
  }
