@@ -5132,7 +5132,27 @@
   "0xe505b7c2d5b306fd6370be1baa382915aa5573ce": "2026-11-07T09:00:34+00:00",
   "0xea7518ecf21617d6dfb0e2f2dda87718de5e7674": "2026-11-07T09:00:34+00:00",
   "0xec450b2f2b836fc2f229f611351e03656dea7aed": "2026-11-07T09:00:34+00:00",
-  "0xf567b0d16695af14b00adc42739254263c3dea86": "2026-11-07T09:00:34+00:00"
+  "0xf567b0d16695af14b00adc42739254263c3dea86": "2026-11-07T09:00:34+00:00",
+  "0x5791684c1f76ca8fbf28fc72c38f3da1d40fc9a1": "2026-11-07T09:15:23+00:00",
+  "0x7289b41ab8c28aeb07cc4efb6a3edbf2c13b8ff3": "2026-11-07T09:15:23+00:00",
+  "0x18358f9af7dc1aca03797ca5b19e27dee45069a6": "2026-11-07T09:15:23+00:00",
+  "0x537466af44bc6eab2a638efe3454f4f57592d26f": "2026-11-07T09:15:23+00:00",
+  "0x7986b69d6e9d77572fa67f51b55a0171d4599897": "2026-11-07T09:15:23+00:00",
+  "0xbac789ca6b84e84d8045da03064259de8d375a18": "2026-11-07T09:15:23+00:00",
+  "0x9d5d3c74afa960797c666247df0c0a9bb71192cb": "2026-11-07T09:15:23+00:00",
+  "0x31f43ec9efb52f51a44a82048d8d55674d6d2383": "2026-11-07T09:15:23+00:00",
+  "0x717ae2d841c1ad16e2b8ce5f4640ce47b31c1cca": "2026-11-07T09:15:23+00:00",
+  "0x018aa7fad5f52cd425f929414dbe1f4959431175": "2026-11-07T09:15:23+00:00",
+  "0xbc603043007b5d58c299af579abebb39e70266e7": "2026-11-07T09:15:23+00:00",
+  "0xe92b44fa59a767f1357d4976e7e3076d70b7be38": "2026-11-07T09:15:23+00:00",
+  "0x24b665955a06c2173f26a78b9fdf3e2026175932": "2026-11-07T09:15:23+00:00",
+  "0x58381fc6cb60084c43007c35b020a8f22f5ca7de": "2026-11-07T09:15:23+00:00",
+  "0x88c0faad7c8a12f9d242209fe2a51ecf32d282fe": "2026-11-07T09:15:23+00:00",
+  "0x96c8cb994773c4c789b5512cedcfb025fc4cd038": "2026-11-07T09:15:23+00:00",
+  "0x40a6290bd7ef3de87ead6160e37cb217d02f7a3c": "2026-11-07T09:15:23+00:00",
+  "0xdffef0a7513aa8dee72d17496666a28a8a34b75d": "2026-11-07T09:15:23+00:00",
+  "0x4d094149f5206e52eb64ed3b490fb6398ed802be": "2026-11-07T09:15:23+00:00",
+  "0xa7cc6916ef0ded2281b4bf3e4391f26b36452937": "2026-11-07T09:15:23+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -27739,10 +27759,193 @@
      "pushed": "private",
      "commits": "private"
     }
+   },
+   "launched_src": "pons"
+  },
+  "0x5791684c1f76ca8fbf28fc72c38f3da1d40fc9a1": {
+   "address": "0x5791684c1f76ca8fbf28fc72c38f3da1d40fc9a1",
+   "symbol": "CHAT",
+   "name": "ChatFrom",
+   "description": "Turns a company's own website and documents into an AI chatbot that answers its customers. It goes live with one line of code, and ChatFrom escalates to a person only what it cannot answer.",
+   "website": "https://chatfrom.io",
+   "twitter": "https://x.com/ChatFrom_io",
+   "launched": "2026-11-07T09:06:36+00:00",
+   "mcap": 3674.2755848781167,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T09:15:23+00:00",
+   "scored_at": "2026-11-07T09:15:23+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "rouzbeh-abadi/chatbot-engine",
+    "score": 45,
+    "raw_score": 45,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (fees, hook, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (chatfrom.io/docs), docs (chatfrom.io/docs/agents), docs (chatfrom.io/docs/channels), docs (chatfrom.io/docs/connections), docs (chatfrom.io/docs/ios), docs (chatfrom.io/llms-full.txt), docs (chatfrom.io/llms.txt), website (chatfrom.io), website code (chatfrom.io))"
+     ],
+     "Real code": [
+      "\u2705 130 changes over 80 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 2849 days old, 1 people, 4 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://chatfrom.io",
+     "https://chatfrom.io",
+     "https://chatfrom.io/llms-full.txt",
+     "https://chatfrom.io/llms.txt",
+     "https://chatfrom.io/docs",
+     "https://chatfrom.io/docs/channels",
+     "https://chatfrom.io/docs/connections",
+     "https://chatfrom.io/docs/ios",
+     "https://chatfrom.io/docs/agents"
+    ],
+    "facts": {
+     "commits": 130,
+     "stars": 4,
+     "created": "2026-08-18",
+     "pushed": "2026-11-06",
+     "people": 1
+    }
+   }
+  },
+  "0xe92b44fa59a767f1357d4976e7e3076d70b7be38": {
+   "address": "0xe92b44fa59a767f1357d4976e7e3076d70b7be38",
+   "symbol": "CAT",
+   "name": "CatCoin",
+   "description": "",
+   "website": "https://www.ponsfamily.com/launchpad/0x3e694849ca396b182e40e7b9c7247e5fe3b5c614",
+   "twitter": "https://x.com/CryptoTezy/status/2096379715464384908",
+   "launched": "2026-09-05T23:31:51+00:00",
+   "mcap": 2999.9288400000005,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T09:15:23+00:00",
+   "scored_at": "2026-11-07T09:15:23+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pons-labs/",
+    "score": 10,
+    "capped": false,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/pons-labs has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u274c GitHub account pons-labs isn't named after the project (+0)"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f GitHub account 94 days old, 35 followers"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2026-08-05",
+     "pushed": "private",
+     "commits": "private"
+    }
+   }
+  },
+  "0x24b665955a06c2173f26a78b9fdf3e2026175932": {
+   "address": "0x24b665955a06c2173f26a78b9fdf3e2026175932",
+   "symbol": "FRONG",
+   "name": "frong",
+   "description": "frong",
+   "website": "https://frong.io/",
+   "twitter": "https://x.com/frongcommunity",
+   "launched": "2026-09-08T16:07:41+00:00",
+   "mcap": 3813.3596550781062,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T09:15:23+00:00",
+   "scored_at": "2026-11-07T09:15:23+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pondkeeper/frong-ledger",
+    "score": 40,
+    "raw_score": 40,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (dex, liquidity) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (website links no X account to check) (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (frong.io/docs), docs (frong.io/llms-full.txt), docs (frong.io/llms.txt), website (frong.io/), website code (frong.io/))"
+     ],
+     "Real code": [
+      "\u2705 7203 changes over 92 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 93 days old, 2 people, 1 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://frong.io/",
+     "https://frong.io/",
+     "https://frong.io/llms-full.txt",
+     "https://frong.io/llms.txt",
+     "https://frong.io/docs"
+    ],
+    "facts": {
+     "commits": 7203,
+     "stars": 1,
+     "created": "2026-08-06",
+     "pushed": "2026-11-07",
+     "people": 2
+    }
    }
   }
  },
- "checked_total": 5122,
+ "checked_total": 5142,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -30624,9 +30827,31 @@
     "ethereum/ERCs",
     "t0ll-xyz/toll-plugins"
    ]
+  },
+  {
+   "when": "2026-11-07T09:15:23+00:00",
+   "address": "0x5791684c1f76ca8fbf28fc72c38f3da1d40fc9a1",
+   "symbol": "CHAT",
+   "website": "https://chatfrom.io",
+   "used": "rouzbeh-abadi/chatbot-engine",
+   "ignored": [
+    "rouzbeh-abadi"
+   ]
+  },
+  {
+   "when": "2026-11-07T09:15:23+00:00",
+   "address": "0x717ae2d841c1ad16e2b8ce5f4640ce47b31c1cca",
+   "symbol": "Bambino",
+   "website": "https://www.stonkfun.xyz/token/Fxm7gGbzEqGaddaRLZzNnMf6nap2GtstFhMcjfsU7Wa7",
+   "used": null,
+   "ignored": [
+    "Effect-TS/effect"
+   ]
   }
  ],
  "symbol_counts": {
+  "CHAT": 1,
+  "BESTOW": 1,
   "NVK": 1,
   "INDICED": 1,
   "BARRAGE": 2,
@@ -30664,16 +30889,18 @@
   "TOOLS": 1,
   "CASHDOG": 2,
   "MBITE": 1,
-  "NOCTUALAI": 1,
-  "10YEARS": 1,
   "DELTA": 1,
-  "HMM": 4,
   "OAK": 2,
+  "HMM": 4,
   "BOW": 1,
   "WIF": 1,
   "GAGE": 1,
-  "CHARLIE": 1,
   "ROBINCAT": 1,
+  "CHARLIE": 1,
+  "PONS": 1,
+  "GF": 1,
+  "NOCTUALAI": 1,
+  "10YEARS": 1,
   "ZEAL": 1,
   "UNRUG": 1,
   "SHIFT": 1,
@@ -30681,7 +30908,6 @@
   "OD": 1,
   "MOON": 1,
   "HARMONIC": 1,
-  "PONS": 1,
   "GRANTLAYER": 1,
   "ARAGON": 1,
   "COFFEESHOP": 1,
@@ -30756,7 +30982,6 @@
   "10K": 1,
   "CAPITOLI": 1,
   "DCAT": 1,
-  "GF": 1,
   "HUMAN": 1,
   "EQUATOR": 3,
   "RELIC": 1,
@@ -31018,7 +31243,6 @@
   "PUMPEX": 1,
   "FOREVER": 1,
   "PHOOD": 1,
-  "CHAT": 1,
   "ROAT": 1,
   "NEON": 1,
   "401kinu": 1,
@@ -54356,7 +54580,8 @@
      "contract_addresses": 0,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   }
  },
  "site_checked": {
@@ -56790,7 +57015,23 @@
   "0xb1a98857578f697b28ed273a6b80ad1d990a52b0": "2026-11-07T09:00:34+00:00",
   "0x309263ca665b1d61026cba1e1186895709d1ab70": "2026-11-07T09:00:34+00:00",
   "0x4abf86cc9ad4ef1b054a5c038d1bbe2929f0e6a2": "2026-11-07T09:00:34+00:00",
-  "0x6e71c1579123f997851063b610fc302a52202bb5": "2026-11-07T09:00:34+00:00"
+  "0x6e71c1579123f997851063b610fc302a52202bb5": "2026-11-07T09:00:34+00:00",
+  "0x7289b41ab8c28aeb07cc4efb6a3edbf2c13b8ff3": "2026-11-07T09:15:23+00:00",
+  "0x18358f9af7dc1aca03797ca5b19e27dee45069a6": "2026-11-07T09:15:23+00:00",
+  "0x537466af44bc6eab2a638efe3454f4f57592d26f": "2026-11-07T09:15:23+00:00",
+  "0x7986b69d6e9d77572fa67f51b55a0171d4599897": "2026-11-07T09:15:23+00:00",
+  "0xbac789ca6b84e84d8045da03064259de8d375a18": "2026-11-07T09:15:23+00:00",
+  "0x9d5d3c74afa960797c666247df0c0a9bb71192cb": "2026-11-07T09:15:23+00:00",
+  "0x31f43ec9efb52f51a44a82048d8d55674d6d2383": "2026-11-07T09:15:23+00:00",
+  "0x717ae2d841c1ad16e2b8ce5f4640ce47b31c1cca": "2026-11-07T09:15:23+00:00",
+  "0x018aa7fad5f52cd425f929414dbe1f4959431175": "2026-11-07T09:15:23+00:00",
+  "0xbc603043007b5d58c299af579abebb39e70266e7": "2026-11-07T09:15:23+00:00",
+  "0x58381fc6cb60084c43007c35b020a8f22f5ca7de": "2026-11-07T09:15:23+00:00",
+  "0x88c0faad7c8a12f9d242209fe2a51ecf32d282fe": "2026-11-07T09:15:23+00:00",
+  "0x96c8cb994773c4c789b5512cedcfb025fc4cd038": "2026-11-07T09:15:23+00:00",
+  "0x40a6290bd7ef3de87ead6160e37cb217d02f7a3c": "2026-11-07T09:15:23+00:00",
+  "0xdffef0a7513aa8dee72d17496666a28a8a34b75d": "2026-11-07T09:15:23+00:00",
+  "0xa7cc6916ef0ded2281b4bf3e4391f26b36452937": "2026-11-07T09:15:23+00:00"
  },
  "catchup_plain": []
 }
