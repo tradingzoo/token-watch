@@ -5585,7 +5585,26 @@
   "0x7b7c3a24a3ac2506c2cdd4262824d972a5e300a0": "2026-11-07T13:31:06+00:00",
   "0x84af4a7ed9e164317ea5192f85377d8ae5207a21": "2026-11-07T13:31:06+00:00",
   "0x9dcd885037605cc882fca84b5c074401ccba0aea": "2026-11-07T13:31:06+00:00",
-  "0xcb8199253cdc47c23ab2e3108f3c2668f8cb8d3e": "2026-11-07T13:31:06+00:00"
+  "0xcb8199253cdc47c23ab2e3108f3c2668f8cb8d3e": "2026-11-07T13:31:06+00:00",
+  "0x5cbb5a5b43976d560002f553e3275fe687a4fbfa": "2026-11-07T13:45:23+00:00",
+  "0x4237fad9ad870cbaae487196fa39126ff347ad00": "2026-11-07T13:45:23+00:00",
+  "0x68c04d7fa802b0a4f13719dbb8ccb4506d984e1c": "2026-11-07T13:45:23+00:00",
+  "0x261f4778d7c2b60efbefe1b4022d59401a214d6b": "2026-11-07T13:45:23+00:00",
+  "0xb4e7a1f7ce8b78ffd32abf3801e2b9c740c824ec": "2026-11-07T13:45:23+00:00",
+  "0xb10ab321894cdbdf1e9f49bbaf61545ce5aed51d": "2026-11-07T13:45:23+00:00",
+  "0x5fbf351a0ce79cf923e0f0d4b4cf2334e91c2fac": "2026-11-07T13:45:23+00:00",
+  "0xca8811588ceb5ca3a761850315364b07733ce155": "2026-11-07T13:45:23+00:00",
+  "0x185f7aa471b7b1f908b37730a5534600c88fcb3d": "2026-11-07T13:45:23+00:00",
+  "0xc7e3c4f6824f46b2a534bc3251c85716a1e12326": "2026-11-07T13:45:23+00:00",
+  "0xbaea6cda0f30821e36a4a68180a2699effbb9888": "2026-11-07T13:45:23+00:00",
+  "0x3bbb573b4ad37f4a8a554581f345749574be626f": "2026-11-07T13:45:23+00:00",
+  "0x7284a45eff07aff852829317b5afc37ec43b5a48": "2026-11-07T13:45:23+00:00",
+  "0x3b00516c4194aa652b94b28e6aa1303cab00e3e3": "2026-11-07T13:45:23+00:00",
+  "0xffc9574a9aeffbf15375ec4568e9c81660ca03dd": "2026-11-07T13:45:23+00:00",
+  "0x34a139ad7785e923ff24a7121e3e7b62ca3c2a97": "2026-11-07T13:45:23+00:00",
+  "0xe9e0ab7eabe06a5c6017d2a8e11f46a63d4f87c5": "2026-11-07T13:45:23+00:00",
+  "0x863ff0639bf4601d20e4018b69dee1ac1ccd6482": "2026-11-07T13:45:23+00:00",
+  "0x92f670174913b19864ed73f5bceee4290331fd02": "2026-11-07T13:45:23+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -30123,9 +30142,72 @@
     }
    },
    "launched_src": "pons"
+  },
+  "0x4237fad9ad870cbaae487196fa39126ff347ad00": {
+   "address": "0x4237fad9ad870cbaae487196fa39126ff347ad00",
+   "symbol": "TAPMAP",
+   "name": "TapMap",
+   "description": "TapMap is a social network built on a map of places and friends. It answers where.",
+   "website": "https://tapmap.net",
+   "twitter": "https://x.com/TapMapOfficial",
+   "launched": "2026-11-07T13:44:20+00:00",
+   "mcap": 3993.811622395328,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T13:45:23+00:00",
+   "scored_at": "2026-11-07T13:45:23+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Psyhosoft/TapMap-App",
+    "score": 20,
+    "raw_score": 20,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Maybe earns fees (marketplace) \u2014 guess from their text, needs a look (+10)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check: not enough of their own code to sample",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (tapmap.net/llms.txt), website (tapmap.net), website code (tapmap.net))"
+     ],
+     "Real code": [
+      "\u274c 4 changes over 1 days (+0)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f One person, new account, no outside interest: account 40 days old, 0 people, 0 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://tapmap.net",
+     "https://tapmap.net",
+     "https://tapmap.net/llms.txt"
+    ],
+    "facts": {
+     "commits": 4,
+     "stars": 0,
+     "created": "2026-10-31",
+     "pushed": "2026-11-01",
+     "people": 0
+    }
+   }
   }
  },
- "checked_total": 5575,
+ "checked_total": 5594,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -33305,9 +33387,32 @@
    "ignored": [
     "Effect-TS/effect"
    ]
+  },
+  {
+   "when": "2026-11-07T13:45:23+00:00",
+   "address": "0x4237fad9ad870cbaae487196fa39126ff347ad00",
+   "symbol": "TAPMAP",
+   "website": "https://tapmap.net",
+   "used": "Psyhosoft/TapMap-App",
+   "ignored": [
+    "flutter/flutter"
+   ]
+  },
+  {
+   "when": "2026-11-07T13:45:23+00:00",
+   "address": "0x185f7aa471b7b1f908b37730a5534600c88fcb3d",
+   "symbol": "USA",
+   "website": "https://www.stonkfun.xyz/token/GxSnLqNpThoprCjUh61iLw5hXHtyXeXsrcMyKmGgR8wt",
+   "used": null,
+   "ignored": [
+    "Effect-TS/effect"
+   ]
   }
  ],
  "symbol_counts": {
+  "TAPMAP": 1,
+  "Wokjak": 1,
+  "ROOPS": 1,
   "SOXA": 1,
   "debtdog": 1,
   "NUSHI": 1,
@@ -33343,19 +33448,19 @@
   "LIQUIDLT": 1,
   "NXAI": 1,
   "MOKO": 1,
-  "VOWPAD": 1,
-  "PCG": 1,
-  "BTB": 1,
   "HMM": 4,
-  "PONS": 1,
   "OAK": 2,
   "DELTA": 1,
   "WIF": 1,
+  "PONS": 1,
   "HARMONIC": 1,
   "GAGE": 1,
   "DARWIN": 1,
   "RAETO": 2,
   "CHARLIE": 1,
+  "VOWPAD": 1,
+  "PCG": 1,
+  "BTB": 1,
   "OMH": 1,
   "YESTERDAY": 1,
   "UPPIES": 1,
@@ -35682,6 +35787,12 @@
    [],
    [
     "\u2139\ufe0f 1 of 3 sample lines also appears in older repo 4shen/webshell \u2014 could be shared library code"
+   ]
+  ],
+  "Psyhosoft/TapMap-App@2026-11-01": [
+   [],
+   [
+    "\u2139\ufe0f Copy check: not enough of their own code to sample"
    ]
   ]
  },
@@ -58308,7 +58419,8 @@
      "contract_addresses": 5,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x984e66883391867f11640e9ca8550cd4141859a1": {
    "address": "0x984e66883391867f11640e9ca8550cd4141859a1",
@@ -58379,7 +58491,8 @@
      "contract_addresses": 26,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xdf0e93dd83a6ebbf466e642f827e9d195423d45e": {
    "address": "0xdf0e93dd83a6ebbf466e642f827e9d195423d45e",
@@ -58450,7 +58563,8 @@
      "contract_addresses": 26,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   }
  },
  "site_checked": {
@@ -58601,7 +58715,7 @@
   "0xbaae066de6a793cad2b5a7c9d18220fc70c40612": "2026-11-05T09:45:24+00:00",
   "0x91ecaa7928ec333757abc055a2555022838124f1": "2026-11-05T09:45:24+00:00",
   "0xd09a74208665d7af61ccc01e9f358903a665b08b": "2026-11-07T11:15:22+00:00",
-  "0xa4e331ed89db2fae193c6c4216dd99aded105471": "2026-11-06T11:17:04+00:00",
+  "0xa4e331ed89db2fae193c6c4216dd99aded105471": "2026-11-07T13:45:23+00:00",
   "0x17b81af5e3623983fadbd2f6ad00cb4d66708caa": "2026-11-05T09:45:24+00:00",
   "0x8f5df1c535e34d414a8b98f0bbaa0a78e7c94ffa": "2026-11-05T09:45:24+00:00",
   "0x1f34b91ff60b9904e9cbb412cf057f564629ebdd": "2026-11-05T09:45:24+00:00",
@@ -61156,7 +61270,18 @@
   "0x70cde3c2cde88c46636495c9f0076c5137e66183": "2026-11-07T13:31:06+00:00",
   "0x17119800c97794adcd1451ed74f860d235fb995e": "2026-11-07T13:31:06+00:00",
   "0xa3446779a0c46be642ba5cdcbd3bbf1db4a9651e": "2026-11-07T13:31:06+00:00",
-  "0xfcf8dbc567c5cf67b078cb2d219301a9d4633712": "2026-11-07T13:31:06+00:00"
+  "0xfcf8dbc567c5cf67b078cb2d219301a9d4633712": "2026-11-07T13:31:06+00:00",
+  "0x5cbb5a5b43976d560002f553e3275fe687a4fbfa": "2026-11-07T13:45:23+00:00",
+  "0x261f4778d7c2b60efbefe1b4022d59401a214d6b": "2026-11-07T13:45:23+00:00",
+  "0xb4e7a1f7ce8b78ffd32abf3801e2b9c740c824ec": "2026-11-07T13:45:23+00:00",
+  "0xb10ab321894cdbdf1e9f49bbaf61545ce5aed51d": "2026-11-07T13:45:23+00:00",
+  "0xca8811588ceb5ca3a761850315364b07733ce155": "2026-11-07T13:45:23+00:00",
+  "0x185f7aa471b7b1f908b37730a5534600c88fcb3d": "2026-11-07T13:45:23+00:00",
+  "0xc7e3c4f6824f46b2a534bc3251c85716a1e12326": "2026-11-07T13:45:23+00:00",
+  "0xbaea6cda0f30821e36a4a68180a2699effbb9888": "2026-11-07T13:45:23+00:00",
+  "0x3bbb573b4ad37f4a8a554581f345749574be626f": "2026-11-07T13:45:23+00:00",
+  "0x34a139ad7785e923ff24a7121e3e7b62ca3c2a97": "2026-11-07T13:45:23+00:00",
+  "0x863ff0639bf4601d20e4018b69dee1ac1ccd6482": "2026-11-07T13:45:23+00:00"
  },
  "catchup_plain": []
 }
