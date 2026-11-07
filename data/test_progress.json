@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-07T15:24:20+00:00",
+ "checked": "2026-11-07T16:29:24+00:00",
  "day": 3.2,
  "tokens": [
   {
@@ -16,7 +16,7 @@
    "group": "watch",
    "address": "0x6511c233790Ec10f7d673c64DC82C3F941D57828",
    "day0": 596825,
-   "now": 838884,
+   "now": 774744,
    "high": 969588,
    "passing": true
   },
@@ -25,7 +25,7 @@
    "group": "watch",
    "address": "0x2e4edef92d5cf2b2e08b18f240e896c71bfcac8c",
    "day0": 4565.185489065411,
-   "now": 3657.729231317333,
+   "now": 3648.67955355338,
    "high": 4565.185489065411,
    "passing": false
   },
@@ -34,7 +34,7 @@
    "group": "watch",
    "address": "0x257bd594a54f04c3a5d77f87971233b13236c091",
    "day0": 3803.220887229837,
-   "now": 3652.776517951403,
+   "now": 3643.7390938172803,
    "high": 3964.0241726576623,
    "passing": false
   },
@@ -43,7 +43,7 @@
    "group": "watch",
    "address": "0x837ccf4a9f150458b624ccde0caad4b67e8bdd75",
    "day0": 3886.351688047719,
-   "now": 3732.6189057984134,
+   "now": 3723.3839416507403,
    "high": 4050.6698116319735,
    "passing": false
   },
@@ -52,8 +52,8 @@
    "group": "benchmark",
    "address": "0x18E674231A58c239Dc7DaeDcffE15Ec3A24cff5c",
    "day0": 20664651,
-   "now": 24173704,
-   "high": 30821755.116576083,
+   "now": 22931696,
+   "high": 30821018.231606018,
    "passing": true
   },
   {
@@ -61,8 +61,8 @@
    "group": "benchmark",
    "address": "0xb8Fa8010833463Aac5595b55B9045479239EfF79",
    "day0": 6249324,
-   "now": 5430318,
-   "high": 6987118.569701373,
+   "now": 5480945,
+   "high": 6988414.234202135,
    "passing": false
   },
   {
@@ -70,8 +70,8 @@
    "group": "benchmark",
    "address": "0xeDBf91223639800BCd5756815CAf908Df3b890bE",
    "day0": 11978359,
-   "now": 11580990,
-   "high": 15251801.801845351,
+   "now": 10996537,
+   "high": 15259569.204380583,
    "passing": false
   },
   {
@@ -79,8 +79,8 @@
    "group": "benchmark",
    "address": "0x000DE658153f47f23e92973C8EB1e89762703676",
    "day0": 3301443,
-   "now": 4566747,
-   "high": 5139444.378959415,
+   "now": 4769420,
+   "high": 5139772.631466084,
    "passing": true
   },
   {
@@ -88,17 +88,17 @@
    "group": "benchmark",
    "address": "0x72bE1277E198D0C476869253Cb4E62807e14533c",
    "day0": 2735240,
-   "now": 2948834,
-   "high": 3774820.545367957,
-   "passing": true
+   "now": 2430181,
+   "high": 3774034.0270763077,
+   "passing": false
   },
   {
    "symbol": "GF",
    "group": "faded",
    "address": "0xfed6b187f6da04e2eae5d3ea89b57129da62b28a",
    "day0": 3106117,
-   "now": 2397259,
-   "high": 3107126.1815133076,
+   "now": 2333463,
+   "high": 3107789.83892369,
    "passing": false
   },
   {
@@ -106,7 +106,7 @@
    "group": "faded",
    "address": "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725",
    "day0": 6611868,
-   "now": 4197566,
+   "now": 4219299,
    "high": 6611868,
    "passing": false
   },
@@ -115,25 +115,25 @@
    "group": "faded",
    "address": "0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3",
    "day0": 31506408,
-   "now": 32456266,
-   "high": 37011930.91035854,
-   "passing": true
+   "now": 31020675,
+   "high": 37010854.22239815,
+   "passing": false
   },
   {
    "symbol": "HARMONIC",
    "group": "faded",
    "address": "0xdee52f2ab639b6942b0d0f0565400b93b7a0fbe5",
    "day0": 2099933,
-   "now": 2179751,
+   "now": 2084609,
    "high": 2893048,
-   "passing": true
+   "passing": false
   },
   {
    "symbol": "BOW",
    "group": "faded",
    "address": "0x451b42a15100c340ca12f7c66de06fac5ea2d751",
    "day0": 4136838,
-   "now": 2981479,
+   "now": 2961764,
    "high": 4240215,
    "passing": false
   },
@@ -142,7 +142,7 @@
    "group": "faded",
    "address": "0x5173b8ea6923c2d40267890d45c46a3480954773",
    "day0": 1497201,
-   "now": 1488392,
+   "now": 1473079,
    "high": 1601272,
    "passing": false
   }

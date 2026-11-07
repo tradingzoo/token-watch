@@ -73,10 +73,10 @@
   },
   "0xe83c85e1ead16fcfe85401e2b337fb4fb5b5cc96": {
    "symbol": "AUTONOMO",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-07T16:01:54+00:00"
   },
   "0xa3b6b325f7937f97b3df9f7ee654d7463c2382da": {
    "symbol": "LOT",
@@ -94,10 +94,10 @@
   },
   "0x30de7ae4c9578d110a97367ede9f7765cdce06ea": {
    "symbol": "PANGEA",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-07T14:37:38+00:00"
+   "left": null
   },
   "0x72be1277e198d0c476869253cb4e62807e14533c": {
    "symbol": "RAETO",
@@ -255,10 +255,10 @@
   },
   "0xc60ba256b44334a0cd2c7242e98b88f031abb006": {
    "symbol": "V4",
-   "in": true,
+   "in": false,
    "joined": "2026-11-06T02:52:36+00:00",
    "first": "2026-11-06T02:52:36+00:00",
-   "left": null
+   "left": "2026-11-07T16:01:54+00:00"
   },
   "0xa3b6aee90017b72c0812dc1e013de70eb2917ba3": {
    "symbol": "EARN",
@@ -332,10 +332,10 @@
   },
   "0x6511c233790ec10f7d673c64dc82c3f941d57828": {
    "symbol": "OAK",
-   "in": true,
+   "in": false,
    "joined": "2026-11-07T06:15:23+00:00",
    "first": "2026-11-07T06:15:23+00:00",
-   "left": null
+   "left": "2026-11-07T16:01:54+00:00"
   },
   "0xfda080f64d84c989cfc50ff18253542cfe502db3": {
    "symbol": "WAFERMAP",
