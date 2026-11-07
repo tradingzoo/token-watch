@@ -1706,6 +1706,10 @@ def tldr(r, sc, xdb, pdb, tu, use_checked, posted, unoff, is_copy, hand, warn_it
     if liq:
         info.append(f"liquidity {money(liq)}")
     info.append(f"launched {ago(r.get('launched')) or '?'}")
+    # found long after launch: say when, so an old token under "New (24h)" makes sense (user, 7 Nov: RIPPLES)
+    if (r.get("first_seen") and days_between(NOW, iso(r["first_seen"])) < 1
+            and (not r.get("launched") or days_between(iso(r["first_seen"]), iso(r["launched"])) > 2)):
+        info[-1] += f", found by us {ago(r['first_seen'])}"
     h, _ = x_info.parse(r.get("twitter"))
     acct = ((xdb or {}).get("accounts") or {}).get((h or "").lower()) or {}
     if h and acct and acct.get("found") is not False:
