@@ -5604,7 +5604,24 @@
   "0x34a139ad7785e923ff24a7121e3e7b62ca3c2a97": "2026-11-07T13:45:23+00:00",
   "0xe9e0ab7eabe06a5c6017d2a8e11f46a63d4f87c5": "2026-11-07T13:45:23+00:00",
   "0x863ff0639bf4601d20e4018b69dee1ac1ccd6482": "2026-11-07T13:45:23+00:00",
-  "0x92f670174913b19864ed73f5bceee4290331fd02": "2026-11-07T13:45:23+00:00"
+  "0x92f670174913b19864ed73f5bceee4290331fd02": "2026-11-07T13:45:23+00:00",
+  "0xb35766fe86d8cdd6c4eda7a279ad331111e3a9ad": "2026-11-07T14:00:33+00:00",
+  "0x14a41f765cd8bab730bfa161719b94e88b804d98": "2026-11-07T14:00:33+00:00",
+  "0x07f4ab9ee4344285fff0368175a045a3608aeec2": "2026-11-07T14:00:33+00:00",
+  "0x3fada95ed4935d1e3e83df303afa780126aa11ed": "2026-11-07T14:00:33+00:00",
+  "0xec417ca52b154618c87887dcf6a65a8b05688b72": "2026-11-07T14:00:33+00:00",
+  "0x2815011f60b4b79e7baeb06a0d9e5cc95757af86": "2026-11-07T14:00:33+00:00",
+  "0xa1ac8cf6f835f09956c02313fb3a3f46f7b5adcd": "2026-11-07T14:00:33+00:00",
+  "0x67d884fda4c3cd0180d32ec8ca64ff7511236f56": "2026-11-07T14:00:33+00:00",
+  "0x5cd77ee8e6e987b67aa1204d7ed2a06ec36f926b": "2026-11-07T14:00:33+00:00",
+  "0x5f757ff8a66fa2036315211d59fb15fcd496960b": "2026-11-07T14:00:33+00:00",
+  "0xf5b84eba9442593f3a15b90a2211bdf5ee638695": "2026-11-07T14:00:33+00:00",
+  "0xf15c8d87d77fb4cb4ae75d18e5b92270aaafc289": "2026-11-07T14:00:33+00:00",
+  "0xb3c698f923ca34446b21516e31e103be0a91e91d": "2026-11-07T14:00:33+00:00",
+  "0x70fbcd1f8de4bbb842b29d9b6822651fa78a1804": "2026-11-07T14:00:33+00:00",
+  "0xa171cc4c16bf26abae042ac7b69a5f733cc9ab2d": "2026-11-07T14:00:33+00:00",
+  "0xc399417a8152f4beb5df975c1c9deeced1747f13": "2026-11-07T14:00:33+00:00",
+  "0x7e01d392b7ae9e698fe098f1d4654730ea573dd1": "2026-11-07T14:00:33+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -30204,10 +30221,11 @@
      "pushed": "2026-11-01",
      "people": 0
     }
-   }
+   },
+   "launched_src": "pons"
   }
  },
- "checked_total": 5594,
+ "checked_total": 5611,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -33407,9 +33425,59 @@
    "ignored": [
     "Effect-TS/effect"
    ]
+  },
+  {
+   "when": "2026-11-07T14:00:33+00:00",
+   "address": "0x14a41f765cd8bab730bfa161719b94e88b804d98",
+   "symbol": "COLONY",
+   "website": "https://colonyzero.site",
+   "used": null,
+   "ignored": [
+    "supabase/supabase-js"
+   ]
+  },
+  {
+   "when": "2026-11-07T14:00:33+00:00",
+   "address": "0x07f4ab9ee4344285fff0368175a045a3608aeec2",
+   "symbol": "MOLTEN",
+   "website": "https://moltenrock.com/",
+   "used": null,
+   "ignored": [
+    "Goldcote"
+   ]
+  },
+  {
+   "when": "2026-11-07T14:00:33+00:00",
+   "address": "0xa1ac8cf6f835f09956c02313fb3a3f46f7b5adcd",
+   "symbol": "OD",
+   "website": "https://oopsiedappsie.click",
+   "used": null,
+   "ignored": [
+    "supabase/supabase-js"
+   ]
+  },
+  {
+   "when": "2026-11-07T14:00:33+00:00",
+   "address": "0xb3c698f923ca34446b21516e31e103be0a91e91d",
+   "symbol": "Mlorp",
+   "website": "https://www.stonkfun.xyz/token/F5LvYqDTFHVt6Si3fjQdt9w3TzChiP4eiW3Xj1zBLSke",
+   "used": null,
+   "ignored": [
+    "Effect-TS/effect"
+   ]
   }
  ],
  "symbol_counts": {
+  "CASHDOG": 2,
+  "COLONY": 1,
+  "MOLTEN": 1,
+  "JUGGS": 1,
+  "VTA": 1,
+  "OD": 1,
+  "PONSSTEVE": 1,
+  "SHELLZERO": 1,
+  "CRABIN": 1,
+  "KURTOSIS": 1,
   "TAPMAP": 1,
   "Wokjak": 1,
   "ROOPS": 1,
@@ -33437,6 +33505,16 @@
   "CEVA": 1,
   "DIGGD": 1,
   "CIEN": 1,
+  "HMM": 4,
+  "OAK": 2,
+  "DELTA": 1,
+  "WIF": 1,
+  "DARWIN": 1,
+  "HARMONIC": 1,
+  "RAETO": 2,
+  "CHARLIE": 1,
+  "ROBINCAT": 1,
+  "PONS": 1,
   "ARCHY": 1,
   "WESTRA": 1,
   "TRESTLE": 1,
@@ -33448,16 +33526,7 @@
   "LIQUIDLT": 1,
   "NXAI": 1,
   "MOKO": 1,
-  "HMM": 4,
-  "OAK": 2,
-  "DELTA": 1,
-  "WIF": 1,
-  "PONS": 1,
-  "HARMONIC": 1,
   "GAGE": 1,
-  "DARWIN": 1,
-  "RAETO": 2,
-  "CHARLIE": 1,
   "VOWPAD": 1,
   "PCG": 1,
   "BTB": 1,
@@ -33549,8 +33618,6 @@
   "VERD": 1,
   "BUD": 1,
   "CLAI": 1,
-  "ROBINCAT": 1,
-  "SHELLZERO": 1,
   "BIBBLES": 1,
   "TARGO": 1,
   "GAYTECH": 1,
@@ -33574,14 +33641,12 @@
   "TAYCOIN": 1,
   "FALCON9": 1,
   "TOOLS": 1,
-  "CASHDOG": 2,
   "MBITE": 1,
   "NOCTUALAI": 1,
   "10YEARS": 1,
   "UNRUG": 1,
   "SHIFT": 1,
   "KITZY": 2,
-  "OD": 1,
   "MOON": 1,
   "GRANTLAYER": 1,
   "ARAGON": 1,
@@ -34440,7 +34505,6 @@
   "calling": 2,
   "trenches": 1,
   "DIESEL": 1,
-  "COLONY": 1,
   "WGW": 1,
   "VYSH": 1,
   "AGESIC": 1,
@@ -55424,10 +55488,10 @@
    "twitter": "https://x.com/GrayGooEx",
    "site_via_x": null,
    "launched": "2026-09-26T19:36:46+00:00",
-   "mcap": 2128323,
+   "mcap": 2110728,
    "where": "exchange",
    "first_seen": "2026-11-07T01:55:17+00:00",
-   "scored_at": "2026-11-07T08:00:20+00:00",
+   "scored_at": "2026-11-07T14:00:33+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -58565,6 +58629,76 @@
     }
    },
    "launched_src": "pons"
+  },
+  "0x07f4ab9ee4344285fff0368175a045a3608aeec2": {
+   "address": "0x07f4ab9ee4344285fff0368175a045a3608aeec2",
+   "symbol": "MOLTEN",
+   "name": "MoltenRock",
+   "description": "Keeps API keys sealed in an encrypted vault on the Mac while local AI agents do their work. Each agent in the MoltenRock suite of desktop apps gets scoped access. The raw key stays private",
+   "website": "https://moltenrock.com/",
+   "twitter": "https://x.com/MoltenRockAI",
+   "site_via_x": null,
+   "launched": "2026-11-07T13:57:46+00:00",
+   "mcap": 4064.3430511353854,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T14:00:33+00:00",
+   "scored_at": "2026-11-07T14:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 25,
+    "raw_score": 25,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2139\ufe0f Site offers API keys for developers (counted, no points) (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u2705 Site offers an MCP connection for AI agents (+5)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u274c No use of stock tokens or USDG (+0)",
+      "\u2705 Takes real payments (\u201cStripe\u201d): a service with paying customers (+5)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f Mentions an audit \u2014 not checked"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 3,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://moltenrock.com/",
+     "https://moltenrock.com/",
+     "https://moltenrock.com/llms.txt",
+     "https://moltenrock.com/docs",
+     "https://moltenrock.com/ai-for-confidential-documents-mac",
+     "https://moltenrock.com/docs"
+    ],
+    "facts": {
+     "tools": 3,
+     "dev_pages": [
+      "https://moltenrock.com/docs"
+     ],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
   }
  },
  "site_checked": {
@@ -59422,7 +59556,7 @@
   "0xd2cb188a3dec1b7543ace3a08d1f66952c8f8e7b": "2026-11-05T20:49:41+00:00",
   "0xaf780bd88c1155e69b4ffad20784efe504cf0e0b": "2026-11-05T20:49:41+00:00",
   "0xf76a456ed5593f0bfb92a71bd1be6766ca0e60a0": "2026-11-05T20:49:41+00:00",
-  "0x5ff40bf53b3000577a6f4a0192ebba3339d8c2ca": "2026-11-05T20:49:41+00:00",
+  "0x5ff40bf53b3000577a6f4a0192ebba3339d8c2ca": "2026-11-07T14:00:33+00:00",
   "0x058b1bb7735ed0ae4b2e501105286b7dccfede38": "2026-11-05T20:49:41+00:00",
   "0x1327d446efbd9000e5129a09619254e38e0e537c": "2026-11-05T21:23:30+00:00",
   "0xab1eaff2bccc7ce709902bdc6121b70502cb7907": "2026-11-05T21:23:30+00:00",
@@ -60182,7 +60316,7 @@
   "0xde29563f653b314fc50e94d84fb92011f715e073": "2026-11-06T13:20:33+00:00",
   "0x2df1e020c5b6c28ad240a312fa5fd7465ec23e22": "2026-11-06T13:20:33+00:00",
   "0x77a823428ba653368b34b55f91b85dc973a6ca38": "2026-11-06T13:20:33+00:00",
-  "0xdf325b761a26ab9656a5abecb8d2356f86be2171": "2026-11-06T13:20:33+00:00",
+  "0xdf325b761a26ab9656a5abecb8d2356f86be2171": "2026-11-07T14:00:33+00:00",
   "0x61cd30522e28be1ef0e8915c002887d30896da85": "2026-11-06T13:20:33+00:00",
   "0x5b90b9c52adf8c89e80961efe427ae4e1430742e": "2026-11-06T13:20:33+00:00",
   "0x06db2cdf9ec873bad20b37970916d610a26da506": "2026-11-06T13:20:33+00:00",
@@ -60726,7 +60860,7 @@
   "0x8d513ea3447a88734401a30dc8241732873af6fc": "2026-11-07T01:55:17+00:00",
   "0x085c52ea854e6597b60926df10744b5b93cc2302": "2026-11-07T01:55:17+00:00",
   "0x33f27ed3e7828500dff43915a09929f6601edfba": "2026-11-07T01:55:17+00:00",
-  "0x6572eade9fb17f4027baf92feac222b9aa746bd0": "2026-11-07T08:00:20+00:00",
+  "0x6572eade9fb17f4027baf92feac222b9aa746bd0": "2026-11-07T14:00:33+00:00",
   "0x2cd5e08df30827faf61730e44728ca95ccf5bf30": "2026-11-07T02:27:43+00:00",
   "0x9fe56540308aebf1940be7be94f8044ddc3dfdff": "2026-11-07T02:27:43+00:00",
   "0x2781337c01979edc1769ccc935d101cc424efc97": "2026-11-07T02:27:43+00:00",
@@ -61281,7 +61415,24 @@
   "0xbaea6cda0f30821e36a4a68180a2699effbb9888": "2026-11-07T13:45:23+00:00",
   "0x3bbb573b4ad37f4a8a554581f345749574be626f": "2026-11-07T13:45:23+00:00",
   "0x34a139ad7785e923ff24a7121e3e7b62ca3c2a97": "2026-11-07T13:45:23+00:00",
-  "0x863ff0639bf4601d20e4018b69dee1ac1ccd6482": "2026-11-07T13:45:23+00:00"
+  "0x863ff0639bf4601d20e4018b69dee1ac1ccd6482": "2026-11-07T13:45:23+00:00",
+  "0xb35766fe86d8cdd6c4eda7a279ad331111e3a9ad": "2026-11-07T14:00:33+00:00",
+  "0x14a41f765cd8bab730bfa161719b94e88b804d98": "2026-11-07T14:00:33+00:00",
+  "0x07f4ab9ee4344285fff0368175a045a3608aeec2": "2026-11-07T14:00:33+00:00",
+  "0x3fada95ed4935d1e3e83df303afa780126aa11ed": "2026-11-07T14:00:33+00:00",
+  "0xec417ca52b154618c87887dcf6a65a8b05688b72": "2026-11-07T14:00:33+00:00",
+  "0x2815011f60b4b79e7baeb06a0d9e5cc95757af86": "2026-11-07T14:00:33+00:00",
+  "0xa1ac8cf6f835f09956c02313fb3a3f46f7b5adcd": "2026-11-07T14:00:33+00:00",
+  "0x67d884fda4c3cd0180d32ec8ca64ff7511236f56": "2026-11-07T14:00:33+00:00",
+  "0x5cd77ee8e6e987b67aa1204d7ed2a06ec36f926b": "2026-11-07T14:00:33+00:00",
+  "0x5f757ff8a66fa2036315211d59fb15fcd496960b": "2026-11-07T14:00:33+00:00",
+  "0xf5b84eba9442593f3a15b90a2211bdf5ee638695": "2026-11-07T14:00:33+00:00",
+  "0xf15c8d87d77fb4cb4ae75d18e5b92270aaafc289": "2026-11-07T14:00:33+00:00",
+  "0xb3c698f923ca34446b21516e31e103be0a91e91d": "2026-11-07T14:00:33+00:00",
+  "0x70fbcd1f8de4bbb842b29d9b6822651fa78a1804": "2026-11-07T14:00:33+00:00",
+  "0xa171cc4c16bf26abae042ac7b69a5f733cc9ab2d": "2026-11-07T14:00:33+00:00",
+  "0xc399417a8152f4beb5df975c1c9deeced1747f13": "2026-11-07T14:00:33+00:00",
+  "0x7e01d392b7ae9e698fe098f1d4654730ea573dd1": "2026-11-07T14:00:33+00:00"
  },
  "catchup_plain": []
 }
