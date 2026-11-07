@@ -7398,5 +7398,119 @@
   "after": 0,
   "others": [],
   "wallet_txs": 1
+ },
+ "0xae542d5a14879c87bcb01ec906a4ca3786f4afb6": {
+  "checked": "2026-11-07T06:32:46+00:00",
+  "pons": true,
+  "wallet": "0x2ebf795b966c3271b0b44bb390823dd76fcf917e",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
+ },
+ "0x6277ab169a42a912bd959b17450d2a4031732992": {
+  "checked": "2026-11-07T06:32:46+00:00",
+  "pons": true,
+  "wallet": "0x7c62500840e95326951a7e76b821120b873a484c",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
+ },
+ "0x058aa1ea01e2b7e359de23f032f1d6572bc9b1e8": {
+  "checked": "2026-11-07T06:32:46+00:00",
+  "pons": true,
+  "wallet": "0xf7656eeec49cc7c2dbee3c08c9f203b25f093cdf",
+  "launches": 5,
+  "before": 4,
+  "after": 0,
+  "others": [
+   {
+    "address": "0x665d3803feb29b2f154e95738a62377698ab351b",
+    "symbol": "RALLY",
+    "mcap": 3655.524920458807,
+    "launched": "2026-10-01T17:27:20+00:00"
+   },
+   {
+    "address": "0x4b665a9f0730d27711e8f8ea9f10d4f45a86cbab",
+    "symbol": "ETHSCROLL",
+    "mcap": 3660.133800770161,
+    "launched": "2026-10-01T01:15:43+00:00"
+   },
+   {
+    "address": "0x10b6339bc806d1bf97e33866020e30379ac19e76",
+    "symbol": "ETHSCROLL",
+    "mcap": 3748.9487754805796,
+    "launched": "2026-10-01T01:14:31+00:00"
+   },
+   {
+    "address": "0x3003cefcb53df3cb2499e70dd04ad98953a0d5e9",
+    "symbol": "ETHSCROLL",
+    "mcap": 3727.8389945987806,
+    "launched": "2026-10-01T01:07:45+00:00"
+   }
+  ],
+  "wallet_txs": 180
+ },
+ "0x96fee8a2025449003ab75a09026e237781d1f981": {
+  "checked": "2026-11-07T06:32:46+00:00",
+  "pons": true,
+  "wallet": "0xf14ab289960a53eb053c726c684df5c32158aa20",
+  "launches": 17,
+  "before": 16,
+  "after": 0,
+  "others": [
+   {
+    "address": "0x1b90b6f29fb81b14157867bfad6cb9a0dd72cfe6",
+    "symbol": "LEEROY",
+    "mcap": 3905.7274588207665,
+    "launched": "2026-11-05T03:11:43+00:00"
+   },
+   {
+    "address": "0x3befb0b6fbb7de195ae992e16c14c687ec268053",
+    "symbol": "RAM",
+    "mcap": 2999.9288400000005,
+    "launched": "2026-11-04T05:07:06+00:00"
+   },
+   {
+    "address": "0xa8a039fefe7156726da86099a1b00f226eb9e8fd",
+    "symbol": "SSI",
+    "mcap": 3952.1958360846133,
+    "launched": "2026-11-03T12:27:55+00:00"
+   },
+   {
+    "address": "0x36f32ac496a7b27bdc822b2b8a45177bbeb8f837",
+    "symbol": "Shoggoth",
+    "mcap": 3740.9334819466108,
+    "launched": "2026-11-03T05:23:55+00:00"
+   },
+   {
+    "address": "0x9c36e6bab3f1046d09c82238b69ab746c24ab4e1",
+    "symbol": "WIF",
+    "mcap": 3731.4842646404827,
+    "launched": "2026-11-03T05:07:51+00:00"
+   },
+   {
+    "address": "0x1fee6b503a1ede9a0dd4c9694a33c11b03348e99",
+    "symbol": "Vitalik",
+    "mcap": 4261.485771985093,
+    "launched": "2026-11-03T04:59:25+00:00"
+   },
+   {
+    "address": "0xa95a6d92c89ebb86eaafbfe30a2d75887a8f6a9b",
+    "symbol": "AMERICA",
+    "mcap": 1524.2633181015412,
+    "launched": "2026-11-02T03:56:21+00:00"
+   },
+   {
+    "address": "0x8ecfc104ae9ec6dd4b1630afe866674f0ff961a3",
+    "symbol": "TREMP",
+    "mcap": 1529.2084737609869,
+    "launched": "2026-11-02T00:11:13+00:00"
+   }
+  ],
+  "wallet_txs": 461
  }
 }
