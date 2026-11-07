@@ -1,8 +1,8 @@
 {
- "time": "2026-11-07T08:08:14+00:00",
+ "time": "2026-11-07T08:19:14+00:00",
  "active": 371,
- "resting": 273,
- "woken_7d": 30,
+ "resting": 274,
+ "woken_7d": 31,
  "graduation": {
   "buckets": {
    "Within 6 hours": 70,
@@ -11,7 +11,7 @@
    "2\u20137 days": 3,
    "7+ days": 3
   },
-  "never": 193,
+  "never": 195,
   "late": [
    {
     "symbol": "ZOKI",
@@ -23,7 +23,7 @@
     "symbol": "OSTRA",
     "days": 2.8,
     "score": 85,
-    "now": 297816.0
+    "now": 297955.0
    },
    {
     "symbol": "MORROW",
@@ -50,6 +50,6 @@
     "now": 7096.0
    }
   ],
-  "total": 286
+  "total": 288
  }
 }
