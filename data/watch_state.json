@@ -5425,7 +5425,25 @@
   "0xccf31b5aaf0535aabadeab01c78ac8c2bd8b5662": "2026-11-07T11:30:27+00:00",
   "0x18d7e3b982bb88c2d712fab93521d25816f880be": "2026-11-07T11:30:27+00:00",
   "0x1fcb131574ebaa2a769e077a28072e980663d48e": "2026-11-07T11:30:27+00:00",
-  "0x0890854f73136a1d4f9a88de8d684031e224fdb3": "2026-11-07T11:30:27+00:00"
+  "0x0890854f73136a1d4f9a88de8d684031e224fdb3": "2026-11-07T11:30:27+00:00",
+  "0xc5a7e5c6b76c957ac414daaf106759aeb67de834": "2026-11-07T11:45:24+00:00",
+  "0xd758dfa77fbaa9c0acf42347ab44c166361d8468": "2026-11-07T11:45:24+00:00",
+  "0xc65dced9c702f2a5dc971bd42d971bf604a58132": "2026-11-07T11:45:24+00:00",
+  "0xd13df1d2527e4bf44e13b7733c81d5dd750ab6d3": "2026-11-07T11:45:24+00:00",
+  "0xd99dd769b30a729a4282aff64d9e620eff543823": "2026-11-07T11:45:24+00:00",
+  "0x0a85d631d7b53bb4644ad4582dc8d82baa710668": "2026-11-07T11:45:24+00:00",
+  "0x3c938c5b7831f427ab649ed0b2949c294026c5c8": "2026-11-07T11:45:24+00:00",
+  "0x03ba32670ca748abc87acab0d5d38e34f7461f49": "2026-11-07T11:45:24+00:00",
+  "0x7340685a52e6dc3a8a99f40e856a9c2909227b8c": "2026-11-07T11:45:24+00:00",
+  "0x124286a3322aaba16f67a913d89dcc4aa3c45d25": "2026-11-07T11:45:24+00:00",
+  "0x178e54df3d091ee4d0b2534742ef9e3692b76526": "2026-11-07T11:45:24+00:00",
+  "0x656a36c10069e814d394069a9e652d8fa40d4623": "2026-11-07T11:45:24+00:00",
+  "0x8aefc5817b5af89f9b1615dd9392de216bbab552": "2026-11-07T11:45:24+00:00",
+  "0xc12c704f625d482afbbcdc2aecf645d7505e93cb": "2026-11-07T11:45:24+00:00",
+  "0xcf171976e8e2ad5ee963191d14a3134fb68074c3": "2026-11-07T11:45:24+00:00",
+  "0xd3128f13c8fdf36063963d09ad02e1f45b36d6a2": "2026-11-07T11:45:24+00:00",
+  "0xd6f896bf2f88896e51e35c9d62b125498a70dbc4": "2026-11-07T11:45:24+00:00",
+  "0xfb0f81307fbbe9d8e51fc158645819bc4b701c95": "2026-11-07T11:45:24+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -29413,7 +29431,8 @@
      "pushed": "2026-11-06",
      "people": 14
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x92ac1f2c363811e785c6b36a0fe8fd91cf8da919": {
    "address": "0x92ac1f2c363811e785c6b36a0fe8fd91cf8da919",
@@ -29483,7 +29502,8 @@
      "pushed": "2026-05-18",
      "people": 20
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x1b16bfa7504b1944568f5f3441dabfb53198d359": {
    "address": "0x1b16bfa7504b1944568f5f3441dabfb53198d359",
@@ -29531,10 +29551,82 @@
      "pushed": "private",
      "commits": "private"
     }
+   },
+   "launched_src": "pons"
+  },
+  "0xc65dced9c702f2a5dc971bd42d971bf604a58132": {
+   "address": "0xc65dced9c702f2a5dc971bd42d971bf604a58132",
+   "symbol": "OMH",
+   "name": "Oh My Hermes",
+   "description": "The coding harness with Hermes Agent wired into IDE. Model routing, graph runs and 153 skills \u2014 you talk to Hermes, OMH routes the rest.",
+   "website": "https://omher.app",
+   "twitter": "https://x.com/ohmyhermesapp",
+   "launched": "2026-11-07T11:42:31+00:00",
+   "mcap": 3775.5345101171206,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T11:45:24+00:00",
+   "scored_at": "2026-11-07T11:45:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "rlaope/oh-my-hermes",
+    "score": 25,
+    "raw_score": 40,
+    "capped": true,
+    "not_theirs": false,
+    "flags": [
+     "X account doesn't match the website: the token links @ohmyhermesapp, but its website links @rlaope \u2014 may be someone copying the project's links",
+     "Dev never mentions this token: rlaope's GitHub is big and older than the token (5,226 stars, 502 followers), but its repo, website and X never post or mention the token. Likely launched by someone else using their project \u2014 capped at 25 until the dev claims it"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Maybe earns fees (options) \u2014 guess from their text, needs a look (+10)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (omher.app/docs), docs (omher.app/docs/), docs (omher.app/docs/model-routing/), docs (omher.app/llms-full.txt), docs (omher.app/llms.txt), website (omher.app), website code (omher.app))"
+     ],
+     "Real code": [
+      "\u2705 7266 changes over 157 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 1640 days old, 18 people, 5226 stars, 415 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)",
+      "\u2139\ufe0f Audit looks self-done or AI-done, not an outside firm"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 22 updates shipped so far"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://omher.app",
+     "https://omher.app",
+     "https://omher.app/llms-full.txt",
+     "https://omher.app/llms.txt",
+     "https://omher.app/docs",
+     "https://omher.app/docs/",
+     "https://omher.app/docs/model-routing/"
+    ],
+    "facts": {
+     "commits": 7266,
+     "stars": 5226,
+     "created": "2026-06-03",
+     "pushed": "2026-11-07",
+     "people": 18
+    }
    }
   }
  },
- "checked_total": 5415,
+ "checked_total": 5433,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -32607,9 +32699,52 @@
     "uuidjs/uuid",
     "zloirock/core-js"
    ]
+  },
+  {
+   "when": "2026-11-07T11:45:24+00:00",
+   "address": "0xC5a7E5C6B76C957Ac414daAf106759Aeb67dE834",
+   "symbol": null,
+   "website": "https://flyingcar.meme/",
+   "used": null,
+   "ignored": [
+    "partykit/partykit",
+    "uuidjs/uuid"
+   ]
+  },
+  {
+   "when": "2026-11-07T11:45:24+00:00",
+   "address": "0xc65dced9c702f2a5dc971bd42d971bf604a58132",
+   "symbol": "OMH",
+   "website": "https://omher.app",
+   "used": "rlaope/oh-my-hermes",
+   "ignored": [
+    "repos/rlaope",
+    "sionic-khope"
+   ]
+  },
+  {
+   "when": "2026-11-07T11:45:24+00:00",
+   "address": "0x178E54df3D091EE4D0B2534742eF9e3692b76526",
+   "symbol": "BNKR",
+   "website": "https://bankr.bot",
+   "used": null,
+   "ignored": [
+    "coinbase/cds",
+    "date-fns/date-fns",
+    "remarkjs/react-markdown",
+    "styled-components/styled-components",
+    "syntax-tree/hast-util-to-jsx-runtime"
+   ]
   }
  ],
  "symbol_counts": {
+  "BTB": 1,
+  "OMH": 1,
+  "YESTERDAY": 1,
+  "UPPIES": 1,
+  "ALCM": 1,
+  "HYPAWW": 1,
+  "AKIRA": 1,
   "AMLBOT": 1,
   "EVLOG": 1,
   "WRAPSYNC": 1,
@@ -32642,6 +32777,15 @@
   "CUBE": 1,
   "WAG": 1,
   "EVER": 1,
+  "HMM": 4,
+  "OAK": 2,
+  "WIF": 1,
+  "DELTA": 1,
+  "CHARLIE": 1,
+  "PONS": 1,
+  "BOW": 1,
+  "ROBINHOOD": 1,
+  "ORBIO": 1,
   "VAPID": 1,
   "CRISTIANO": 1,
   "HANDS": 1,
@@ -32649,15 +32793,6 @@
   "SHILLIO": 1,
   "IIO": 1,
   "STACK": 1,
-  "HMM": 4,
-  "DELTA": 1,
-  "WIF": 1,
-  "OAK": 2,
-  "PONS": 1,
-  "CHARLIE": 1,
-  "ORBIO": 1,
-  "BOW": 1,
-  "ROBINHOOD": 1,
   "HAUNT": 1,
   "ALICE": 1,
   "SUNPEAK": 2,
@@ -35470,10 +35605,10 @@
    "twitter": "https://x.com/vigilhqxyz",
    "site_via_x": null,
    "launched": "2026-11-05T09:07:18+00:00",
-   "mcap": 3735.139586410274,
+   "mcap": 3731.7797283524196,
    "where": "Pons launchpad (curve)",
    "first_seen": "2026-11-05T09:18:38+00:00",
-   "scored_at": "2026-11-07T05:45:23+00:00",
+   "scored_at": "2026-11-07T11:45:24+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -56862,6 +56997,210 @@
      "contract_addresses": 1,
      "winners_linked": []
     }
+   },
+   "launched_src": "pons"
+  },
+  "0xc5a7e5c6b76c957ac414daaf106759aeb67de834": {
+   "address": "0xC5a7E5C6B76C957Ac414daAf106759Aeb67dE834",
+   "symbol": "FLYING",
+   "name": "Flying Car",
+   "description": "Traffic is for NPCs",
+   "website": "https://flyingcar.meme/",
+   "twitter": "https://x.com/_FlyingCar",
+   "site_via_x": null,
+   "launched": "2026-11-06T10:46:06+00:00",
+   "mcap": 7667,
+   "where": "exchange",
+   "first_seen": "2026-11-07T11:45:24+00:00",
+   "scored_at": "2026-11-07T11:45:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 50,
+    "raw_score": 50,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u2705 Lists 2 contract addresses (+15)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (buybacks) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Trades against TSLA, a Robinhood Chain stock token (+10)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f No app or wallet connect found",
+      "\u2139\ufe0f Not aimed at AI agents",
+      "\u2139\ufe0f No audit mentioned"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 0,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://flyingcar.meme/",
+     "https://flyingcar.meme/",
+     "https://flyingcar.meme/llms-full.txt",
+     "https://flyingcar.meme/docs",
+     "https://flywheel.cash/v2/token/0xC5a7E5C6B76C957Ac414daAf106759Aeb67dE834"
+    ],
+    "facts": {
+     "tools": 0,
+     "dev_pages": [],
+     "contract_addresses": 2,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x7340685a52e6dc3a8a99f40e856a9c2909227b8c": {
+   "address": "0x7340685a52e6dc3a8a99f40e856a9c2909227b8c",
+   "symbol": "LUNARRAY",
+   "name": "Lunarray",
+   "description": "",
+   "website": "https://www.lunarray.fun/",
+   "twitter": null,
+   "site_via_x": null,
+   "launched": "2026-09-15T19:37:57+00:00",
+   "mcap": 5318.94515341856,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T11:45:24+00:00",
+   "scored_at": "2026-11-07T11:45:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u2705 Lists 5 contract addresses (+15)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (stake) \u2014 claimed, not checked on chain (+10)",
+      "\u274c No use of stock tokens or USDG (+0)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Not aimed at AI agents",
+      "\u2139\ufe0f No audit mentioned"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 1,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://www.lunarray.fun/",
+     "https://www.lunarray.fun/",
+     "https://www.lunarray.fun/docs",
+     "https://www.lunarray.fun/docs.html",
+     "https://www.lunarray.fun/docs.html#risks",
+     "https://www.lunarray.fun/docs"
+    ],
+    "facts": {
+     "tools": 1,
+     "dev_pages": [
+      "https://www.lunarray.fun/docs"
+     ],
+     "contract_addresses": 5,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x178e54df3d091ee4d0b2534742ef9e3692b76526": {
+   "address": "0x178E54df3D091EE4D0B2534742eF9e3692b76526",
+   "symbol": "BNKR",
+   "name": "Bankr",
+   "description": "",
+   "website": "https://bankr.bot",
+   "twitter": "https://x.com/bankrbot",
+   "site_via_x": null,
+   "launched": "2026-07-12T19:03:26+00:00",
+   "mcap": 373385,
+   "where": "exchange",
+   "first_seen": "2026-11-07T11:45:24+00:00",
+   "scored_at": "2026-11-07T11:45:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 80,
+    "raw_score": 80,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2139\ufe0f Site offers API keys for developers (counted, no points) (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+5)",
+      "\u2705 Has docs written for AI to read (/llms-full.txt) (+10)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website or docs (+15)",
+      "\u2705 Lists 71 contract addresses (+15)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (buyback) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (Tokenized equit) (+10)",
+      "\u2705 Takes real payments (\u201cTop up\u201d): a service with paying customers (+5)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f Mentions an audit \u2014 not checked"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 4,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": true,
+    "sources_read": [
+     "https://bankr.bot",
+     "https://bankr.bot",
+     "https://bankr.bot/llms-full.txt",
+     "https://bankr.bot/llms.txt",
+     "https://docs.bankr.bot/llms-full.txt",
+     "https://docs.bankr.bot/llms.txt",
+     "https://bankr.bot/docs"
+    ],
+    "facts": {
+     "tools": 4,
+     "dev_pages": [],
+     "contract_addresses": 71,
+     "winners_linked": []
+    }
    }
   }
  },
@@ -56934,7 +57273,7 @@
   "0x7f434bfd5397a76692115c24d0e1eea8be15192e": "2026-11-05T08:30:28+00:00",
   "0x60f2341f0605870769513b62d80a5233af35d6f6": "2026-11-05T08:30:28+00:00",
   "0x07bb78f6f8d5121fbc03ad4c8b1a22f5a95227e6": "2026-11-05T08:30:28+00:00",
-  "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691": "2026-11-07T05:45:23+00:00",
+  "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691": "2026-11-07T11:45:24+00:00",
   "0x4e00b96443a2af7b741aa4b9cbfde3de5fd11ac2": "2026-11-05T09:18:38+00:00",
   "0xd20073c027624c37a22d8df415ab271f57b9f446": "2026-11-05T09:18:38+00:00",
   "0xc4315b4191bd7fc290dc4906afaf110d1ded1055": "2026-11-06T19:57:21+00:00",
@@ -57496,7 +57835,7 @@
   "0xf00e9b78b59d2c728683a1bb8842795c94fc992a": "2026-11-05T17:04:37+00:00",
   "0xf1b089822f8653774f53806b3d6959e4b6b7bff5": "2026-11-05T17:04:37+00:00",
   "0x46d68e8b527f25631a4c9bf33bc07596c979cc11": "2026-11-05T17:04:37+00:00",
-  "0x1a055dce262ff5f5b1ba5b2bf5d6f7da94abeb36": "2026-11-05T17:04:37+00:00",
+  "0x1a055dce262ff5f5b1ba5b2bf5d6f7da94abeb36": "2026-11-07T11:45:24+00:00",
   "0x6fa16469c74f56b9c2592e20de250c40d3b999fd": "2026-11-05T17:04:37+00:00",
   "0x33124ef46106e654ff670d44688953a2f6096ee7": "2026-11-05T17:04:37+00:00",
   "0x38dba6c213816ed0ba0e6ab6f68810b48b2baa4c": "2026-11-05T17:04:37+00:00",
@@ -59484,7 +59823,16 @@
   "0xccf31b5aaf0535aabadeab01c78ac8c2bd8b5662": "2026-11-07T11:30:27+00:00",
   "0x18d7e3b982bb88c2d712fab93521d25816f880be": "2026-11-07T11:30:27+00:00",
   "0x1fcb131574ebaa2a769e077a28072e980663d48e": "2026-11-07T11:30:27+00:00",
-  "0x0890854f73136a1d4f9a88de8d684031e224fdb3": "2026-11-07T11:30:27+00:00"
+  "0x0890854f73136a1d4f9a88de8d684031e224fdb3": "2026-11-07T11:30:27+00:00",
+  "0xc5a7e5c6b76c957ac414daaf106759aeb67de834": "2026-11-07T11:45:24+00:00",
+  "0xd758dfa77fbaa9c0acf42347ab44c166361d8468": "2026-11-07T11:45:24+00:00",
+  "0xd13df1d2527e4bf44e13b7733c81d5dd750ab6d3": "2026-11-07T11:45:24+00:00",
+  "0xd99dd769b30a729a4282aff64d9e620eff543823": "2026-11-07T11:45:24+00:00",
+  "0x0a85d631d7b53bb4644ad4582dc8d82baa710668": "2026-11-07T11:45:24+00:00",
+  "0x3c938c5b7831f427ab649ed0b2949c294026c5c8": "2026-11-07T11:45:24+00:00",
+  "0x03ba32670ca748abc87acab0d5d38e34f7461f49": "2026-11-07T11:45:24+00:00",
+  "0x7340685a52e6dc3a8a99f40e856a9c2909227b8c": "2026-11-07T11:45:24+00:00",
+  "0x178e54df3d091ee4d0b2534742ef9e3692b76526": "2026-11-07T11:45:24+00:00"
  },
  "catchup_plain": []
 }
