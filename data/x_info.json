@@ -592,20 +592,40 @@
    "following": 2,
    "posts": 28,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
-   "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "last_post": "2026-11-04T18:24:16+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 6.4,
+   "avg_views": 163,
    "bio_site": "https://kromt.xyz/",
    "bio": "The Non-Custodial AI Agent for Tokens, Perps & Prediction Markets.\n\nCA: 0x5deee8015d8dc568067eca19da3d489763112b4e",
    "cas": [
     "0x5deee8015d8dc568067eca19da3d489763112b4e"
    ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-06T21:42:43+00:00"
+   "texts": [
+    "The agent finds the opportunity. The agent builds the transaction. Then it stops. You review. You confirm. Only then does anything happen on-chain. This is the KROMT loop \u2014 and it\u2019s intentional. Speed without surrender. https://kromt.xyz",
+    "A lot of \u201cAI trading\u201d products are just wrappers around custodial systems with a chat interface. KROMT is different by design. It is non-custodial. It requires explicit confirmation on every order. It is built for real on-chain execution across multiple market types. If you value control as much as ",
+    "Security in AI trading is not about better prompts. It\u2019s about architecture. KROMT\u2019s architecture starts with a hard constraint: the agent cannot move funds. It can only prepare. You are the final signer. That single design decision changes everything about risk. https://kromt.xyz",
+    "Prediction markets + perpetual futures + spot tokens. Three distinct trading surfaces. One non-custodial AI agent that can work across all of them. KROMT is not another single-purpose bot. It\u2019s infrastructure for users who want AI leverage without custody risk. The people who understand this early w",
+    "What if the best AI trading agent was the one that refused to act without you? That\u2019s the bet behind KROMT. In a world full of black-box automation, we chose transparency and control as the primary features. The agent researches and constructs. You approve or reject. Your keys never leave your walle",
+    "FOMO usually comes from missing a price move. The deeper FOMO is missing the infrastructure shift. While most attention is still on fully automated bots, a new category is forming: non-custodial AI agents that prepare but never execute without the user. KROMT is already live in that category. Early ",
+    "You can have AI-powered trading without handing over control. KROMT proves it. - Non-custodial - Works across tokens, perpetual futures, and prediction markets - Every single order requires your explicit confirmation The agent is powerful. You remain in command. That\u2019s the combination the market has",
+    "One wallet. One agent. One prompt. KROMT turns plain English into prepared trades across tokens and perps, but nothing moves until you confirm. Signed. On chain. Every step stays in your control. Every move needs your signature. Run it yourself. https://kromt.xyz CA: 0x5deee8015d8dc568067eca19da3d48",
+    "There\u2019s a quiet shift happening in crypto trading infrastructure. The most serious builders are moving away from \u201cfully autonomous\u201d agents and toward systems that keep the user in the loop for final authorization. KROMT is built exactly on that principle. The agent can prepare sophisticated trades. ",
+    "Meet your KROMT agent. Your new trading companion. Tell it what you want to trade. It turns your words into an Order Card, shows you the details, and waits for your decision. It can't press Confirm. Only you can. You decide. Your wallet signs. Tokens. Perps. Predict. Rewards. Your move. Try it at ht",
+    "Robinhood Chain. Non-custodial AI agent. Tokens + Perps + Prediction Markets. KROMT is one of the first agents designed specifically around explicit user confirmation as a core security primitive \u2014 not an afterthought. If you\u2019ve been waiting for AI trading that doesn\u2019t require you to surrender keys,",
+    "The next wave of trading agents won\u2019t win by being fully autonomous. They will win by being trustworthy. KROMT puts the human in the final decision seat \u2014 on purpose. The AI does the heavy analysis. You keep the final say. That\u2019s how you get leverage without giving up sovereignty.",
+    "Every trade leaves a fee. But where does it go? Follow the fee. From swaps & perps to KROMT holder rewards, 40% of protocol fees is allocated to eligible holders. Distributed in USDG by cycle. No claim button. Publicly tracked. Hold 10,000 KROMT. http://kromt.xyz http://github.com/kromtxyz http://kr",
+    "Most people only discover the custody problem after something goes wrong. KROMT is designed so that problem never exists in the first place. Non-custodial by architecture. Explicit confirmation on every order. Built for tokens, perps, and prediction markets. If you care about keeping control while s",
+    "\u201cYour keys. Your capital.\u201d It\u2019s not just a slogan. It\u2019s the entire product philosophy of KROMT. While other AI trading tools race to fully automate everything (and quietly take custody), we built the opposite: an agent that is powerful enough to prepare complex trades and disciplined enough to stop ",
+    "An unclear trade? KROMT asks. Cancel an Order Card? Nothing moves. Reject a wallet signature? Nothing moves. Turn the agent OFF? No new orders. AI prepares. You decide. Nothing moves until you grip. http://kromt.xyz http://github.com/kromtxyz http://kromt.xyz/docs http://ponsfamily.com/launchpad/0x5",
+    "Imagine an AI that finds the setup, sizes the position, and builds the transaction\u2026 then hands it to you and waits. That\u2019s KROMT. No auto-execution. No hidden custody. No \u201ctrust us.\u201d Just a high-performance agent that respects the fact that the capital is yours. Early access is live. https://kromt.x",
+    "2.4% $KROMT burned, sent to 0x\u2026dEaD where nobody can ever move it again. https://robin.etherscan.io/token/0x5deee8015d8dc568067eca19da3d489763112b4e#balances",
+    "Tokens. Perpetual futures. Prediction markets. One non-custodial AI agent that can operate across all three \u2014 while you keep full control of the keys. Most platforms force you to choose between automation and security. KROMT refuses that trade-off. The agent prepares. You authorize. Simple. Powerful"
+   ],
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "barragetrade": {
    "handle": "barragetrade",
@@ -2788,7 +2808,7 @@
   "trenchersio": {
    "handle": "trenchersio",
    "found": false,
-   "checked": "2026-11-06T22:45:22+00:00",
+   "checked": "2026-11-07T10:45:25+00:00",
    "cas": [],
    "fake_posts": []
   },
@@ -2904,16 +2924,16 @@
    "id": "2100312020969205760",
    "name": "Hyperdex",
    "joined": "2026-09-16T19:54:02+00:00",
-   "followers": 2622,
-   "following": 133,
+   "followers": 2625,
+   "following": 132,
    "posts": 246,
    "verified": "individual",
    "last_post": "2026-11-06T21:10:22+00:00",
    "sample": 19,
    "sample_full_week": false,
-   "posts_7d": 9,
-   "avg_likes": 69.2,
-   "avg_views": 3169,
+   "posts_7d": 8,
+   "avg_likes": 70.9,
+   "avg_views": 3241,
    "bio_site": "https://hyperdex.app",
    "bio": "Unified Marketplace for Tokenized Assets & RWAs across 70+ chains",
    "cas": [
@@ -2941,7 +2961,7 @@
     "Hyperdex Infrastructure Upgrade We\u2019re upgrading our infrastructure to support future capabilities and scale. During this process, there may be intermittent outages or temporary failures lasting 5\u201310 minutes. Products should otherwise continue to work as normal. Rest assured, your funds, transfers, p",
     "We\u2019re proud to have such amazing partners."
    ],
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "belldexfi": {
    "handle": "BELLdexFi",
@@ -3021,7 +3041,7 @@
   },
   "useghostdex": {
    "handle": "useghostdex",
-   "found": true,
+   "found": false,
    "id": "2110827074634092544",
    "name": "GhostDex",
    "joined": "2026-10-15T20:17:26+00:00",
@@ -3061,7 +3081,8 @@
     "A fresh ghost has no ETH to pay for its own withdrawal, so the Ghostdex relayer sends it and pays the gas. With USDG it also forwards 0.0001 ETH so the ghost can trade. The recipient, the fee and that ETH are bound into the proof: nobody can change them.",
     "What the proof says, in a Groth16 circuit of 12,698 constraints: the notes it spends are in the pool's Merkle tree, they are yours, they were never spent, and what goes in equals what comes out. Not which notes, whose, or how much."
    ],
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00",
+   "gone_since": "2026-11-07T10:45:25+00:00"
   },
   "dotworkbuilder": {
    "handle": "dotworkbuilder",
@@ -3168,25 +3189,45 @@
    "following": 5,
    "posts": 22,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-06T16:54:38+00:00",
+   "sample": 19,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 16,
+   "avg_likes": 7.7,
+   "avg_views": 558,
    "bio_site": "http://perlacompute.xyz",
    "bio": "Perla is a GPU mining platform designed to reshape the economics of AI compute.",
    "cas": [],
    "fake_posts": [
     "We are not launching the $PERL token yet. Beware of fake contract addresses, impersonators, and unauthorized token launches. Any CA circulating before our official announcement is not associated with  (Nov 05 09:24 UTC)"
    ],
-   "texts": [],
-   "checked": "2026-11-06T22:45:22+00:00"
+   "texts": [
+    "Perla mainnet mining is LIVE. Connect an NVIDIA RTX 30, 40 or 50 series GPU on Linux and contribute verified matrix work. Qualifying rounds unlock ~18,550.02 PERL for the shared contribution pool. Start mining: https://perlacompute.xyz/platform/compute?tab=mining",
+    "your GPU is your tokenize",
+    "Not sure how a model will respond? Test it before you build. Choose a supported model, send a prompt and watch the response stream live into the workspace. Compare how different models answer, tune your prompt, and check the output before you write a single line of integration code. Your requests us",
+    "Perla Compute Update. USDG credit top-ups are now available on Robinhood Chain. Fund your Perla balance with USDG and use your credits across supported AI models through the Playground and API. Every deposit is verified onchain, with 1 USDG equal to $1 in compute credits. Explore Perla: https://perl",
+    "Perla update: two new features are live. AI Playground, 3 free chats Connect your wallet and get 3 free chats per wallet, lifetime. Start right away with perla/claude-sonnet-5-5. Your quota is stored server-side, not in your browser. Private API keys Open the Developer Dashboard, sign with your wall",
+    "Check all available models in one place: supported Claude, GPT and open models, each with its price per 1M text tokens, input and output. Compare the model version and billing unit, then pick the route that fits your app. Browse the catalog: https://perlacompute.xyz/platform/compute?tab=models",
+    "Update on Perla mainnet mining. Mainnet mining is still in testing. We're making sure verified matrix work, qualifying rounds and PERL rewards run smoothly before we open it up. We'll open it soon. Keep your NVIDIA RTX 30, 40 or 50 series GPU on Linux ready. We'll announce here as soon as it's live.",
+    "Perla API pricing, compared by model. USD per 1M text tokens \u2014 input / output: Claude Sonnet 5.5 Official API: $2.00 / $10.00 Perla: $0.3576 / $1.788 GPT-6.1 Sol Official API: $2.00 / $10.00 Perla: $0.048 / $0.24 https://perlacompute.xyz/platform/compute?tab=models",
+    "Perla API is now open. Build with supported Claude, GPT and open models from one developer workspace. Create an API key, choose a model from the priced catalog and connect through OpenAI-compatible Chat Completions or Anthropic-compatible Messages. Stream responses, use tool calls on supported model",
+    "Burning all dev supply https://robin.etherscan.io/tx/0xff004424d95174920f6eb7c12ba49023c26592ba6eb63af0a7e606f6b095d0be",
+    "We are not launching the $PERL token yet. Beware of fake contract addresses, impersonators, and unauthorized token launches. Any CA circulating before our official announcement is not associated with Perla Compute. Our official launch is scheduled for November 5 at 10:00 UTC. Only trust announcement",
+    "Perla Compute is preparing for mainnet. GPU-powered compute, verifiable contributions, and onchain $PERL rewards are coming to Robinhood Chain. Mainnet launch is scheduled for November 5 at 10:00 UTC. Get your GPUs ready. https://perlacompute.xyz",
+    "Perla mining is live on Robinhood Testnet. Create or reconnect your GPU worker and start contributing. Qualifying reward rounds unlock $PERL allocations, claimable once funded. Get started: https://perlacompute.xyz/platform/setup",
+    "Perla\u2019s first earned GPU mining payout on Robinhood Testnet is confirmed. A qualifying round produced a funded allocation, and 1,532.5703 $PERL reached the worker\u2019s reward wallet. Verified onchain: https://explorer.testnet.chain.robinhood.com/tx/0xa6e376f0e7562251e19939307e1d3a82a4e0698768333058e3c1",
+    "We\u2019re testing round-based $PERL rewards. Accepted shares track contributions. A proof meeting the harder round target unlocks a reward, split in proportion to recent verified work. Claims require a funded allocation. Public mining is not live yet.",
+    "Perla worker updates are on GitHub. Move GPU hosts with owner-wallet approval while keeping your Worker ID, reward wallet and accepted work history. The updates fix native startup after reconnecting and improve connection recovery. Mining is not live yet. https://github.com/perlacompute/perla-comput",
+    "Perla separates GPU computation from proof verification. Workers run matrix workloads against assigned challenges. Each proof is checked before points are credited, and each job can be credited only once. https://github.com/perlacompute/perla-compute",
+    "Perla makes GPU contributions traceable. Workers run matrix workloads and submit proofs for verification. Accepted shares earn contribution points and a record in the Proof Explorer, so miners can inspect the work credited to their wallet. https://perlacompute.xyz",
+    "Introducing Perla. We\u2019re building a GPU mining network for AI compute on Robinhood Chain. Our first focus is making accepted contributions traceable, so miners can see which work counts and how rewards are calculated. https://perlacompute.xyz"
+   ],
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "texelrun": {
    "handle": "texelrun",
    "found": false,
-   "checked": "2026-11-06T22:45:22+00:00",
+   "checked": "2026-11-07T10:45:25+00:00",
    "cas": [],
    "fake_posts": []
   },
@@ -3198,41 +3239,41 @@
    "joined": "2026-11-04T15:33:56+00:00",
    "followers": 166,
    "following": 5,
-   "posts": 110,
+   "posts": 125,
    "verified": "individual",
-   "last_post": "2026-11-06T22:30:00+00:00",
+   "last_post": "2026-11-07T10:40:00+00:00",
    "sample": 20,
    "sample_full_week": true,
    "posts_7d": 20,
-   "avg_likes": 2.5,
-   "avg_views": 85,
+   "avg_likes": 1.4,
+   "avg_views": 58,
    "bio_site": "https://perpsons.com/",
    "bio": "The infrastructure for onchain perpetual markets. Trade crypto, stocks, and ETFs in one unified ecosystem.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "Shorting a stock usually means a broker, a borrow fee, and a locate. On Perpsons it means: pick the market, pick \"short\", pick size. Same button as long. Same USDG margin. Perps made the downside tradable. Robinhood Chain made it onchain \ud83c\udd7f\ufe0f",
+    "ETF perps on Perpsons: SPY: the whole US market in one position QQQ: big tech beta GLD: gold, the oldest hedge Up to 50x, USDG-margined, settled on Robinhood Chain. Macro views, one click.",
+    "Same two wolves here. RWA wolf: NVDA, TSLA, SPY, GLD perps, US-session hours. Meme wolf: BTC & ETH at 100x, 24/7. Perpsons feeds both from one USDG account on Robinhood Chain. @MEADGod, no need to choose \ud83d\udc3a\ud83c\udd7f\ufe0f",
+    "The Perpsons forum is not a Discord. Every thread and reply is a transaction on Robinhood Chain. Post a trade idea on Saturday, and on Monday nobody can edit the receipt. Alpha with a timestamp \ud83c\udd7f\ufe0f",
+    "Weekend homework for Monday 21:30 WIB: 1. Pick 3 names you actually follow (NVDA, TSLA, SPY, whatever) 2. Decide direction AND size before the open 3. Put the entry, stop and target in the Perpsons forum: onchain, timestamped Then let the bell do its thing.",
+    "The Pons family on Robinhood Chain: Spot stock tokens on @ponsdotfamily. Perps on Perpsons. Same chain, same USDG, same builders. Buy the token, or trade the move. Your pick \ud83c\udd7f\ufe0f",
+    "Perps 101: liquidation price. It's the mark price at which your margin can no longer cover the loss. Higher leverage = closer liquidation. 10x long: roughly a 10% drop. 50x: about 2%. Perpsons shows it before you confirm. Read it before you click.",
+    "Weekend leaderboard check. Ranked by realized PnL: 24h, 7D, 30D, all time. Every number is backed by Robinhood Chain transactions, so nobody is screenshotting a demo account. Rank #1 is still a target, not a monument \ud83c\udd7f\ufe0f",
+    "No bridging. No swapping collateral. No \"convert to USDT first\". Deposit USDG once on Robinhood Chain and every market on Perpsons is open to you: BTC, ETH, 25 stocks, 5 ETFs. Your PnL lands in the same dollar you started with.",
+    "Sub-accounts, used well: #1 long-term BTC at 3x #2 US-session stock scalps at 20x #3 ETF hedges #4 the one you let the agent run Up to 10 per wallet on Perpsons, all derived from your address, no new keys. Separate books, one USDG treasury \ud83c\udd7f\ufe0f",
+    "Perps 101: mark vs index. Index = what the asset trades at across the market. Mark = the fair price your PnL and liquidation are computed on. Perpsons builds its mark from 4 live venues and posts it on Robinhood Chain. One bad print on one exchange can't liquidate you.",
+    "Staying the course looks like this on our side: Trading engine live on Robinhood Chain mainnet. 32 perp markets. One USDG margin account. PLP Vault and agents next. @MEADGod, Perpsons is the perps leg of the Pons family \ud83d\udea2\ud83c\udd7f\ufe0f",
+    "Saturday afternoon in Jakarta. Wall Street is dark until Monday. BTC & ETH perps on Perpsons don't know what a weekend is: 24/7, up to 100x, every fill settled on Robinhood Chain. One USDG balance. No waiting for a bell \ud83c\udd7f\ufe0f",
+    "Perpsons, Saturday edition: \u2022 32 markets: BTC, ETH, 25 stocks, 5 ETFs \u2022 Up to 100x crypto, 50x stocks & ETFs \u2022 One USDG account, 10 sub-accounts \u2022 Marks from 4 live venues \u2022 Every fill on Robinhood Chain \u2022 Official @ponsdotfamily ecosystem project $PERPSONS \ud83c\udd7f\ufe0f http://perpsons.com",
+    "GM Sabtu \u2615 Overnight: the US session closed and BTC & ETH perps rolled straight through it on Perpsons, no pause. Weekend plan: study the leaderboard, set up your sub-accounts, size your positions for Monday's 21:30 WIB stock open. Built on Robinhood Chain with @ponsdotfamily \ud83c\udd7f\ufe0f",
     "Every Perpsons trade is a transaction on Robinhood Chain. Open, close, funding, liquidation: all onchain, all verifiable by anyone. No hidden order book. No \"trust us\" PnL. If it happened, the explorer shows it. That's the whole point of building perps onchain \ud83c\udd7f\ufe0f",
     "\ud83d\udd14 US close. Weekend mode on. Stock & ETF perps: paused until Monday 21:30 WIB. BTC & ETH perps: never pause. 24/7, up to 100x, settled on Robinhood Chain. Wall Street takes two days off. Perpsons takes none \ud83c\udd7f\ufe0f",
     "30 minutes to the US close. Last window of the week for stock & ETF perps on Perpsons. After 04:00 WIB, the equity session sleeps until Monday 21:30 WIB. Close it, hold it, or hedge it with BTC. Your call, your sub-account \ud83c\udd7f\ufe0f",
     "Roadmap, part two: Autonomous Agents. Agents that read the 4-venue mark price, manage their own sub-accounts and execute perps on Robinhood Chain with no human on the keyboard. Same USDG margin, same onchain settlement, zero sleep. @HarmonicAgents, this one's for your cousins \ud83e\udd16\ud83c\udd7f\ufe0f",
-    "Next on the Perpsons roadmap: the PLP Vault. A USDG liquidity pool that backs the perp markets and shares in the fees traders pay. Be the house, not just the player. Trading engine: live on Robinhood Chain mainnet. PLP Vault: next up. More soon \ud83c\udd7f\ufe0f",
-    "Why Robinhood Chain? Perps need fast, cheap execution and a venue people already trust with equities exposure. Robinhood Chain gives us both: Arbitrum-based speed, low fees, and the home of tokenized US stocks. Perpsons settles every trade there. Check the explorer, not our word \ud83c\udd7f\ufe0f",
-    "100x is a ceiling, not a target. Leverage multiplies PnL both ways. A 1% move at 50x is half your margin. Perpsons lets you choose per position, and sub-accounts keep a 3x swing book separate from a 25x scalp book. Size for the market you're in, not the max we offer.",
-    "Robinhood's CEO is back in the blockchain community conversation this week. Good timing. Tokenized stocks on Robinhood Chain were chapter one. Chapter two is perps: crypto, US equities and ETFs in one onchain margin account. Perpsons is building it with @ponsdotfamily. Builder application: submitted",
-    "\ud83d\udd14 US open. Stock & ETF perps are live on Perpsons for the Friday session: NVDA, TSLA, AAPL, MSFT, META, AMD, PLTR, COIN, MSTR, SPY, QQQ, GLD and more. Up to 50x, USDG-margined, executed on Robinhood Chain. Session runs until 04:00 WIB. Then the weekend \ud83c\udd7f\ufe0f",
-    "Perps 101: the funding rate. A perp has no expiry, so what keeps its price near spot? Funding. Longs pay shorts when the perp trades above the mark; shorts pay longs when it trades below. Small, periodic, automatic. On Perpsons it settles onchain, so every payment is verifiable.",
-    "Why USDG? Crypto perps and stock perps usually live in different apps, with different collateral. On Perpsons they share one USDG margin account. Long BTC, short TSLA, hedge with SPY: same balance, same PnL, all on Robinhood Chain. One dollar. Every market \ud83c\udd7f\ufe0f",
-    "Friday night in Jakarta. 3 hours to the US open. Until 21:30 WIB, BTC & ETH perps keep the lights on at Perpsons: up to 100x, settled on Robinhood Chain. Then NVDA, TSLA, AAPL, SPY, QQQ and 25 more stock & ETF perps wake up. One USDG balance for all of it \ud83c\udd7f\ufe0f",
-    "$3.33B of NVDA volume on Pons spot. That's the demand signal. On Perpsons the same NVDA trades as a perp: up to 50x, USDG-margined, long or short, settled on Robinhood Chain. Spot on @ponsdotfamily, leverage on Perpsons. Same family, same chain \ud83c\udd7f\ufe0f",
-    "Got a view on the AI trade? NVDA, AMD, MU, TSM, ASML, CoreWeave, Nebius: all live as perps on Perpsons. Long the winners, short the losers, one USDG balance. @HarmonicAgents, your AI cousins are welcome to trade too \ud83c\udd7f\ufe0f https://perpsons.com",
-    "From zero to position in 17 seconds: 1. Pick a market 2. Set your leverage 3. Long or short That's it. Perps on Robinhood Chain, no broker in the middle. @HarmonicAgents \ud83c\udd7f\ufe0f ",
-    "Built inside the @ponsdotfamily ecosystem, powered by the Pons API. Perpsons brings the perp layer: long or short 32 markets across crypto, US stocks & ETFs, all from one USDG balance on Robinhood Chain. @HarmonicAgents, more builders, more blocks \ud83c\udd7f\ufe0f https://perpsons.com",
-    "Set your alarm for 21:30 WIB \u23f0 That's when the US opens and NVDA, TSLA, AAPL, MSFT, META, SPY, QQQ + 23 more stock & ETF perps go live on Perpsons again. Same wallet, same USDG margin. @HarmonicAgents \ud83c\udd7f\ufe0f ",
-    "Robinhood Chain hit $100B on Uniswap faster than any chain ever. Spot found its home. Perps are next: BTC, ETH and 30 US stocks & ETFs on Perpsons, all USDG-margined. @HarmonicAgents, might be time to widen those bands \ud83d\udcc8\ud83c\udd7f\ufe0f https://perpsons.com",
-    "Fair marks, onchain. Every Perpsons price starts as live quotes from 4 venues and lands on Robinhood Chain, so your PnL tracks the real market, not one exchange. Watch how it works \ud83d\udc47 @HarmonicAgents \ud83c\udd7f\ufe0f ",
-    "Wall Street is asleep. Asia is trading. BTC & ETH perps on Perpsons run 24/7 with up to 100x, settled automatically onchain. Stock perps reopen with the US session at 21:30 WIB. @HarmonicAgents, the night shift counts too \ud83c\udd7f\ufe0f https://perpsons.com"
+    "Next on the Perpsons roadmap: the PLP Vault. A USDG liquidity pool that backs the perp markets and shares in the fees traders pay. Be the house, not just the player. Trading engine: live on Robinhood Chain mainnet. PLP Vault: next up. More soon \ud83c\udd7f\ufe0f"
    ],
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "protocol_v4": {
    "handle": "Protocol_v4",
@@ -3281,8 +3322,22 @@
   },
   "asterrapools": {
    "handle": "AsterraPools",
-   "found": false,
-   "checked": "2026-11-06T22:45:22+00:00",
+   "found": true,
+   "id": "2116974406455242752",
+   "name": "Asterra Pools",
+   "joined": "2026-11-01T19:24:55+00:00",
+   "followers": 151,
+   "following": 4,
+   "posts": 39,
+   "verified": "individual",
+   "last_post": "2026-11-05T21:27:55+00:00",
+   "sample": 21,
+   "sample_full_week": true,
+   "posts_7d": 21,
+   "avg_likes": 14.0,
+   "avg_views": 1163,
+   "bio_site": "https://asterrapools.tech/",
+   "bio": "The liquidity layer for Robinhood Chain. Dynamic pools, LP positions & smart routing across onchain markets.\n\nCA: 0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d",
    "cas": [
     "0x01327059ea96296ce211447e172a2141f35289c0",
     "0x0467f28ce401e54b73110304e84232260b736b1c",
@@ -3347,7 +3402,30 @@
     "0xf5ed40172cfe312fbcfe5238481634e83c6434f3",
     "0xfd6bd9537dc257d3541364082654d2f4c350016e"
    ],
-   "fake_posts": []
+   "fake_posts": [],
+   "texts": [
+    "Asterra v3.0 is on Robinhood Chain mainnet. Credit is moving from source code to deployed contracts. The deployment video is here, and we\u2019ve listed the contract addresses in the next post so you can check them yourself. Back to work.",
+    "AsterraHub (proxy) 0x873110e60b5d176cde20C6F128caF1A17D628CE5 https://robinhoodchain.blockscout.com/address/0x873110e60b5d176cde20C6F128caF1A17D628CE5?tab=contract AsterraHub (implementation) 0x82D6cc7e4053A9519423F7cF4A78b37Bd8392862 https://robinhoodchain.blockscout.com/address/0x82D6cc7e4053A9519",
+    "We showed you the v3 code. The next update won\u2019t be a screenshot.",
+    "Your LP position might be able to do more than earn fees. Asterra Credit is taking shape. A little peek at the v3 code before mainnet. Back to building.",
+    "Pools were just the beginning. Asterra V3 is coming. \u2726",
+    "100 ms blocks give pools more chances to react. The LP question is what happens between those blocks: when fees adjust, where liquidity sits, and how much value stale quotes leave on the table. Asterra\u2019s v4 hooks make those decisions programmable. That\u2019s the technical angle we\u2019re exploring as Elysiu",
+    "@Enter_Elysium brings 100 ms blocks. But faster execution alone doesn\u2019t build a better market. Depth must sit at the right price. Fees must react. Trades need the right route. That\u2019s Asterra\u2019s thesis. We\u2019re exploring what our liquidity design could look like on Elysium. \ud83d\udc40",
+    "",
+    "Which part of v2 should we break down first? How Stock Pools use a reference price, or what happens to liquidity when a token graduates from the Launchpad? Anyway, back to work \ud83e\uddd1\u200d\ud83d\udcbb",
+    "The stock market opens at 9:30. A new token\u2019s market opens with its first trade. Asterra v2.0 brings both to Robinhood Chain: Stock Pools with Chainlink feeds and oracle guards, plus a Launchpad with bonding curves for new tokens.",
+    "Last update, you saw the code in our editor. Now you can read it on the explorer. Asterra v2.0 contracts are deployed on Robinhood Chain mainnet. This recording shows us verifying the source code against the deployed bytecode. Contract addresses below. Verify them yourself.",
+    "AsterraHub (proxy) 0x873110e60b5d176cde20C6F128caF1A17D628CE5 https://robinhoodchain.blockscout.com/address/0x873110e60b5d176cde20C6F128caF1A17D628CE5?tab=contract AsterraHub (implementation) 0x82D6cc7e4053A9519423F7cF4A78b37Bd8392862 https://robinhoodchain.blockscout.com/address/0x82D6cc7e4053A9519",
+    "When a stock pool drifts from its reference price, what should happen? When a new token trades for the first time, where should its price start? Asterra v2.0 is 50% complete: Chainlink price feeds and price guards for Stock Pools, plus bonding curves for the Launchpad.",
+    "Btw, the $ASTER lock is onchain, our DEX Screener profile is updated, and the contracts are deployed on Robinhood Chain mainnet. We\u2019re back in the editor working on v2.0. Here\u2019s a peek.",
+    "Roadmaps make promises. Mainnet leaves receipts. Asterra Pools has deployed its smart contracts on Robinhood Chain mainnet. The contracts behind our liquidity layer now have onchain addresses you can verify.",
+    "AsterraHub (proxy) 0x873110e60b5d176cde20C6F128caF1A17D628CE5 https://robinhoodchain.blockscout.com/address/0x873110e60b5d176cde20C6F128caF1A17D628CE5 AsterraHub (implementation) 0x82D6cc7e4053A9519423F7cF4A78b37Bd8392862 https://robinhoodchain.blockscout.com/address/0x82D6cc7e4053A9519423F7cF4A78b3",
+    "We want Asterra to be easy to find and easy to verify. DEX Paid is complete. You can now find $ASTER and follow its market activity on DEX Screener.",
+    "On it.",
+    "We believe commitments should be visible and verifiable. Here\u2019s ours, onchain: \ud83d\udd12 19,814,050.56 $ASTER locked on RobinFlow \u2014 non-custodial and verifiable onchain on Robinhood Chain. Unlocks December 5, 2026. https://robinflow.app/t/0x8c4be7763F446DF2b5A8c331e7CCF497e7F78b1d?lock=37&contract=0xcc9126c",
+    "Bins or curves? Your call. AsterraPools brings DLMM, DAMM, limit orders & smart routing to Robinhood Chain. $ASTER is live on Robinhood Chain. Token lock is next, with more features on the way. CA: 0x8c4be7763f446df2b5a8c331e7ccf497e7f78b1d https://asterrapools.tech Alongside the launch, we\u2019ll lock "
+   ],
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "borromarkets": {
    "handle": "Borromarkets",
@@ -3355,46 +3433,27 @@
    "id": "2107094703044792320",
    "name": "Borro",
    "joined": "2026-10-05T13:07:17+00:00",
-   "followers": 1260,
+   "followers": 1262,
    "following": 29,
    "posts": 228,
    "verified": "individual",
-   "last_post": "2026-11-06T19:04:23+00:00",
-   "sample": 18,
-   "sample_full_week": true,
-   "posts_7d": 18,
-   "avg_likes": 33.7,
-   "avg_views": 762,
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
    "bio_site": "http://borro.markets",
    "bio": "Lend, borrow and short stock tokens. Earn fees on what you lend. On Robinhood Chain.",
    "cas": [],
    "fake_posts": [],
-   "texts": [
-    "Any asset. Any chain. One press. Lend buy short or farm stock tokens on Borro from anything you hold across 80 chains with one click, priced before you sign. Powered by @Trustware_io https://borro.markets",
-    "\ud83c\udfd7\ufe0f the capital markets for stock tokens. Live: lend, borrow, short. Next: buy size without moving the price.",
-    "Morning board \u00b7 Nov 6 Lend USDG: 208% Lend SPY, QQQ, NVDA and 9 more: 103% Lever NVDA 1.8x: 177% on margin Short from 0.03% a year 146,520 $BORRO to lenders a day. A year on $1,000 at today's rate and $BORRO price. Rates fall as deposits grow. https://borro.markets/app",
-    "Message from the dev",
-    "Flying dark. Zero Dark. Soon.",
-    "See you down there. Bring your stock tokens.",
-    "xMorning board \u00b7 Nov 5 Lend USDG: 209% Lend SPY, QQQ, NVDA and 9 more: 156% Lever NVDA 1.8x: 264% on margin Short from 0.03% a year 146,520 $BORRO to lenders a day. A year on $1,000 at today's rate and $BORRO price. Rates fall as deposits grow. https://borro.markets/app",
-    "Message from the dev",
-    "Borro is live on @OakAgentKit. Tell your agent to lend your stock tokens or USDG on Borro, and it does. You approve every transaction on Oak's own screen. Lending fees, interest and the $BORRO Drip, run by your agent. npm install -g @oakagentkit/addon",
-    "Proud to be a part of it.",
-    "Stripe now pays contractors and creators in USDC, straight to their wallets, in 160+ markets. Paid in USDC on Base, Arbitrum or Ethereum? One transaction swaps it to USDG and lends it on Borro. Rates change. https://borro.markets/app#USDG",
-    "Excited to announce Borro \u00d7 @GldstnOnChain Goldstein's $gAIX, one token for the companies leading the AI economy, is now collateral on Borro. Post $gAIX, borrow USDG, keep your exposure and earn Borro rewards! Goldstein Group also joins Borro as a Bookrunner. http://borro.markets/app#desks/gaix",
-    "Morning board \u00b7 Nov 4 Lend USDG: 232% Lend SPY, QQQ, NVDA and 9 more: 138% Lever NVDA 1.8x: 235% on margin Short from 0.03% a year 146,520 $BORRO to lenders a day. A year on $1,000 at today's rate and $BORRO price. Rates fall as deposits grow. https://borro.markets/app",
-    "Message from the dev",
-    "Thank you Robinhood Chain for backing builders. Open House, $1.8M in grants with @arbitrum, mentorship and a spotlight like this make it easier to ship here. We're building Borro, the stock lending market for Robinhood Chain, every day. https://borro.markets",
-    "Borro has applied to Arbitrum's Mentorship Program!",
-    "Borro now has a Lighter integration. Lend and hedge: lend your stock on Borro and short the same stock on Lighter in one flow. You keep the lending yield and earn Lighter's funding, with the price moves hedged. Hedge it on Borro: Connect the wallet you trade with on Lighter. Portfolio shows your sho",
-    "Agentic Finance"
-   ],
-   "checked": "2026-11-06T22:45:22+00:00"
+   "texts": [],
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "touchgrassrwa": {
    "handle": "TouchGrassRWA",
    "found": false,
-   "checked": "2026-11-06T22:45:22+00:00",
+   "checked": "2026-11-07T10:45:25+00:00",
    "cas": [],
    "fake_posts": []
   },
@@ -3571,20 +3630,20 @@
   },
   "rhiablo": {
    "handle": "rhiablo",
-   "found": false,
+   "found": true,
    "id": "2113536458065932289",
    "name": "RHIABLO",
    "joined": "2026-10-23T07:42:54+00:00",
-   "followers": 229,
-   "following": 22,
-   "posts": 186,
+   "followers": 273,
+   "following": 24,
+   "posts": 221,
    "verified": "individual",
-   "last_post": "2026-11-06T10:21:02+00:00",
-   "sample": 19,
+   "last_post": "2026-11-07T04:39:32+00:00",
+   "sample": 18,
    "sample_full_week": true,
-   "posts_7d": 19,
-   "avg_likes": 3.9,
-   "avg_views": 369,
+   "posts_7d": 18,
+   "avg_likes": 5.3,
+   "avg_views": 515,
    "bio_site": "http://rhiablo.io",
    "bio": "Diablo-like idle ARPG on Robinhood Chain. Every token you burn is carved into your share of the fees, for good. Your hero fights alone. The fire remembers.",
    "cas": [
@@ -3592,6 +3651,10 @@
    ],
    "fake_posts": [],
    "texts": [
+    "Talent reroll \ud83c\udfb2 Some of you chose talents before knowing the game, so every hero gets one free reroll: \u00b13%, as many tries as you like. \u2728 Chosen One reroll: \u00b15%, better or worse, set by a future block. $2, 100% to the treasury. Tap your hero, top left. https://rhiablo.io",
+    "\u2728 Today's unique #6: The Sunfast Armor \u00b7 item level 5 Before the sands swallowed the ruins, a priest held the gate and would not yield. One a day, 365 a year. Not sold. Found only in the dungeons. https://rhiablo.io",
+    "In-game 3D view",
+    "3D model improved! Better and better \ud83d\udd28 \u2694\ufe0f Armour fits snug on all 8 heroes, in every stance \ud83e\uddd4 Dwarves stand proud and tall \ud83d\udcff Unique necklaces wrap the whole neck, with or without armour Your hero looks sharper every patch \ud83d\udd25 https://rhiablo.io",
     "Vote for RHIABLO!! Best RPG. And draw for: \ud83c\udfae PlayStation 5 Pro + GTA VI \ud83c\udf81 2x GTA VI Gift Card \ud83d\udcb0 20x $25 in SOL \u2b50 100,000 P2E Points for 20 winners \u2795 10 P2E Points for every vote you cast",
     "A web3 game that your friends who have never touched crypto can actually play. \ud83d\udd25 RHIABLO | The Fire Remembers",
     "Best hero style of the day // Nov 6. \ud83d\udd25\u2728",
@@ -3605,15 +3668,9 @@
     "In hindsight, RHIABLO will be the most obvious bet of Robinhood gaming.",
     "First TABBY was found! @tabbypos",
     "New Camp Companion \"TABBY\" is now available! Take him home when you meet. // Super Rare Feat. @tabbypos \ud83e\ude76\u300a\u7ef4\u6d1b\u4f20\u8bf4\u300b",
-    "\u300a\u7ef4\u6d1b\u4f20\u8bf4\u300b will be officially online Nov 10. https://x.com/tabbypos/status/2117789894974296439?a=WEIiooIcgxG0ri0PLAI&s=20",
-    "Best RPG \ud83d\udd25 Vote for \"RHIABLO\" https://playtoearn.com/awards/2026#best_rpg",
-    "\ud83d\udd25 300+ heroes have joined RHIABLO! To celebrate, 5,000,000 $RHIABLO just poured from the Great Vault into the dungeon pots \ud83d\udcb0 Open the map: the deeper you go, the richer the dungeons. Have fun, heroes \u2694\ufe0f https://rhiablo.io",
-    "Patch notes \ud83d\udd28 Server stability upgrades are complete: the lag is fixed. Thank you all for your patience \ud83d\ude4f One more update later today, and with it 5,000,000 $RHIABLO poured into the dungeon pots \ud83d\udd25 Have fun, heroes \u2694\ufe0f https://rhiablo.io",
-    "2nd Heroic Item was found! \ud83d\udd25 The destiny shines upon great adventurers. Tristram's legends grow by the hour.",
-    "Patch notes \ud83d\udd28 \ud83e\uddea Pick your brew at camp: Small \u00b7 2 herbs \u00b7 1h \u00b7 +3% Medium \u00b7 4 herbs \u00b7 1.5h \u00b7 +4% Large \u00b7 7 herbs \u00b7 2h \u00b7 +5% Many cheap or few strong. The dungeon HUD shows each kind left. \ud83d\udcdc The log survives a reload. From players' feedback \ud83d\udd25 https://rhiablo.io"
+    "\u300a\u7ef4\u6d1b\u4f20\u8bf4\u300b will be officially online Nov 10. https://x.com/tabbypos/status/2117789894974296439?a=WEIiooIcgxG0ri0PLAI&s=20"
    ],
-   "checked": "2026-11-06T22:45:22+00:00",
-   "gone_since": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "looping_gg": {
    "handle": "looping_gg",
@@ -4024,29 +4081,47 @@
   },
   "heyaskr": {
    "handle": "heyaskr",
-   "found": false,
+   "found": true,
    "id": "2084996307500838912",
    "name": "askr",
    "joined": "2026-08-05T13:35:09+00:00",
-   "followers": 1913,
+   "followers": 1911,
    "following": 13,
    "posts": 275,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-10-31T20:43:35+00:00",
+   "sample": 18,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 1,
+   "avg_likes": 28.5,
+   "avg_views": 1524,
    "bio_site": "http://heyaskr.ai",
    "bio": "Ask anything, build together, share everything | $ASKR",
    "cas": [
     "0xa92768863a55d8a0591709f7f5e594a249d36ea3"
    ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-06T22:45:22+00:00",
-   "gone_since": "2026-11-06T22:45:22+00:00"
+   "texts": [
+    "askr, the underdogs of @RobinhoodCrypto. The road to v2 has been loud, long winded but somehow fast at the same time. One things for certain, no one is out building us. In v2... we grow. robinhood:0xa92768863a55d8a0591709f7f5e594a249d36ea3 grows.",
+    "askr 1.99... Everything plays. Our biggest update yet for media. All of it works in a chat with your friends. Hour-long podcasts where anyone or thing can be a host. Pictures that talk and sing. Songs that become music videos. Change, sharpen and smooth any clip. Next you'll be able to remake any vi",
+    "You can now use askr to create an AI version of your own voice... You can use it in videos, Chev can use it to call your clients, or anything else your collab can imagine. We've also made the video generation for robinhood:0xa92768863a55d8a0591709f7f5e594a249d36ea3 users much more dynamic. Louder, l",
+    "askr, now sharper. Chev and our crypto feature both got overhauled. v1.97 now live: https://heyaskr.ai/roadmap#shipped",
+    "Cyberpunk is playable in browser solo or with your friends in a collab. And some more just got added to https://heyaskr.ai/explore?shelf=games&from=web Here's the list: Cyberpunk 2077 Grand Theft Auto V (experimental edition) Black Ops Zombies Need for Speed: Underground 2 Need for Speed: Most Wante",
+    "@RobinhoodCrypto More AI.",
+    "Right the first time. Pay per usage is great, multiple AI models are great... but not when they make mistakes and can't communicate to eachother. We already have shared memory and fusion models, but now... it's right. robinhood:0xa92768863a55d8a0591709f7f5e594a249d36ea3 1.96 now live https://heyaskr",
+    "Your childhood is coming back bigger and better than before. Need for Speed Underground 2 now live on askr. Available for solo play, collabs and online multiplayer, all free in your own internet browser. Use AI together.",
+    "Link: > https://heyaskr.ai/explore?shelf=games&from=web Thank you to the AI builders who make this possible, askr can be your new home. Rebuild the classics, make new ones, or try something new and get paid from robinhood:0xa92768863a55d8a0591709f7f5e594a249d36ea3.",
+    "We asked 3 top AIs at once to see if universal high income is realistic after AGI... The verdict was \"don't count on it\" \ud83d\ude2c If you turn askr's performance to max, you can now also get the top AIs to work together for a definitive answer or workload shipped to the highest degree on any task. That's 1 ",
+    "Well... askr might not be the funniest AI platform, but we're safe. Safe from all of the current php era exploits and old rails being exposed by new AI. We're keeping an eye on everything regardless. More updates shortly, and yes our immediate goals are growth orientated.",
+    "Join us in https://heyaskr.ai/community!",
+    "askr... anywhere. Build apps, make games, scan coins, trade crypto and more all using askr without leaving your @telegram or @discord group! Next up, browser extensions and apps! https://heyaskr.ai/roadmap#shipped",
+    "Join us in https://heyaskr.ai/community, and have your say in what should be added next to askr!",
+    "askr Crypto, now live in public beta. Use AI to get alpha, to trade with, or to trade for you. robinhood:0xa92768863a55d8a0591709f7f5e594a249d36ea3 holders have 0 fees and get free scans too. https://heyaskr.ai/roadmap#shipped",
+    "Another week of buybacks and burns have also passed, track them in https://heyaskr.ai/token. Join us in https://heyaskr.ai/community, and have your say in what should be added next to askr Crypto!",
+    "AI has transformed gaming in the past month. We're building the new home for it: https://heyaskr.ai/explore?shelf=games&from=web Play, create or change any game in your AI group chats. Or... build directly from your own workspace and list on explore. Make money from your games, or list them for free",
+    "Join in! https://heyaskr.ai/community"
+   ],
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "strattonmrkt": {
    "handle": "strattonmrkt",
@@ -4199,7 +4274,7 @@
    "sample_full_week": true,
    "posts_7d": 19,
    "avg_likes": 19.8,
-   "avg_views": 729,
+   "avg_views": 762,
    "bio_site": "http://surplusllm.com",
    "bio": "Onchain inference on Robinhood Chain. One key, every model, paid in USDG.",
    "cas": [
@@ -4228,7 +4303,7 @@
     "7.36B tokens through Surplus on @OpenRouter. More than double in 5 days. #13 in Programming #15 in General Chat #35 in Productivity 157 models, one key, settled in USDG on Robinhood Chain. https://openrouter.ai/apps/url/https%3A%2F%2Fsurplusllm.com%2F",
     "What does free inference actually get a chCHOP holder? $0.25 a day comes out to roughly: ~600 messages on Claude Haiku 5.5 ~750 on DeepSeek V4.1 Flash ~2,800 on GLM 5.3 Flash That covers a daily research assistant, summarizing threads and docs, a coding helper, or running your own bot or agent on th"
    ],
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "useveilnet": {
    "handle": "UseVeilNet",
@@ -6421,7 +6496,7 @@
    "id": "2094707069056425984",
    "name": "Manyways",
    "joined": "2026-09-01T08:44:33+00:00",
-   "followers": 3006,
+   "followers": 3003,
    "following": 5,
    "posts": 200,
    "verified": "individual",
@@ -6430,7 +6505,7 @@
    "sample_full_week": false,
    "posts_7d": 0,
    "avg_likes": 90.9,
-   "avg_views": 7382,
+   "avg_views": 7398,
    "bio_site": "https://manyways.dev/",
    "bio": "A little curiosity goes many ways. Explore AI models for free, bring them into your tools, and build with Manyways.\n\n0xa26992c4268a8a78a4d872fe4bdad2ed03ac287d",
    "cas": [
@@ -6453,7 +6528,7 @@
     "Inference you can mint. Inference you can hold. Inference you can delegate. Inference you can trade. Inference you can host. Manyways Markets. Coming soon.",
     "Make sure to tune in today! robinhood:0xa26992c4268a8a78a4d872fe4bdad2ed03ac287d things to share."
    ],
-   "checked": "2026-11-05T23:26:47+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "orus_agent": {
    "handle": "Orus_agent",
@@ -10753,16 +10828,16 @@
    "id": "2117014243430285312",
    "name": "Zeno",
    "joined": "2026-11-01T22:05:14+00:00",
-   "followers": 68,
+   "followers": 116,
    "following": 3,
-   "posts": 48,
+   "posts": 56,
    "verified": "individual",
-   "last_post": "2026-11-06T22:43:35+00:00",
-   "sample": 17,
+   "last_post": "2026-11-07T10:42:23+00:00",
+   "sample": 18,
    "sample_full_week": true,
-   "posts_7d": 17,
-   "avg_likes": 7.7,
-   "avg_views": 339,
+   "posts_7d": 18,
+   "avg_likes": 9.7,
+   "avg_views": 627,
    "bio_site": "http://zenomarkets.tech",
    "bio": "One view. A world of markets. Stocks, ETFs, crypto & commodities. Perps, options, lending & borrowing, with a buyback & burn mechanism. Built on Robinhood Chain",
    "cas": [
@@ -10901,6 +10976,10 @@
    ],
    "fake_posts": [],
    "texts": [
+    "596,278.74 $ZENO burned \ud83d\udd25 I believe in what we\u2019re building, and I\u2019m committed to seeing it through. More markets, better tools, and a platform we can keep improving with every release. To everyone who\u2019s been here from the start, thank you. There\u2019s a lot of work ahead, and I\u2019m here for it. Verify the",
+    "Looking forward to China waking up and discovering Zeno. We\u2019ve got a lot to show you. \u4e2d\u56fd\u7684\u670b\u53cb\u4eec\uff0c\u65e9\u4e0a\u597d \ud83c\udde8\ud83c\uddf3",
+    "Today, we\u2019re putting China in the spotlight. It feels good to share a closer look at Chinese equities on Zeno. We built Zeno to give more of the world\u2019s markets a place in one terminal, and this is a part of that vision we\u2019ve been looking forward to showing you. We\u2019ll keep expanding the lineup and s",
+    "back to work.",
     "Somewhere on the map, the lights are coming on. One view. A world of markets.",
     "Their trades. Your limits. Zeno V3.0 Social is live on Robinhood Chain. Start with the onchain leaderboard. Compare traders by PnL, ROI, and volume, then open a trader\u2019s profile to take a closer look before you decide who to copy. When you start copying, you set your own budget, max size per trade, ",
     "The wait is over. Zeno V3.0 has reached mainnet. The smart contracts are deployed and verified. We recorded the verification so you can follow along, and we\u2019re sharing the full contract list and explorer links in the replies so you can check each one yourself. We\u2019ve been looking forward to sharing t",
@@ -10914,12 +10993,9 @@
     "Your stocks. Now capital. Zeno V2.0: Capital is live on Robinhood Chain. Use eligible tokenized stocks as collateral to borrow USDG without selling your position. In the TSLA example shown here, you can borrow up to 60% of your collateral\u2019s value. You can also lend USDG, visualize how strategies lik",
     "Big day for Zeno. The V2.0 Capital contracts are deployed. Capital has been one of the biggest milestones on our roadmap. Seeing those contracts land onchain is a moment worth celebrating. Deployment video below. Contract addresses in the replies. Back to work. More to build.",
     "ZenoChainlinkPriceFeed NVDA 0x609Dfc06Af677044B36b8C47a96cA10a5d0f7e70 https://robinhoodchain.blockscout.com/address/0x609Dfc06Af677044B36b8C47a96cA10a5d0f7e70?tab=contract ZenoChainlinkPriceFeed AAPL 0x9ebefDbd38AD1b3c49Ae9D103cA0251d56126fA2 https://robinhoodchain.blockscout.com/address/0x9ebefDbd",
-    "ZenoChainlinkPriceFeed IONQ 0x1dD6eAAdF48C67C4ba08F8D668D9ec75df522e86 https://robinhoodchain.blockscout.com/address/0x1dD6eAAdF48C67C4ba08F8D668D9ec75df522e86?tab=contract ZenoChainlinkPriceFeed MU 0xC6419325B8DeD94F8CDc779aBF4f921aA349CB12 https://robinhoodchain.blockscout.com/address/0xC6419325B8",
-    "We started Zeno with a simple idea: more markets in one place. Building Capital made us ask a harder question: what should you be able to do with the positions you already hold? That\u2019s the part of V2 I\u2019m most excited to show you. We\u2019re getting close. You\u2019ll see what we mean soon.",
-    "Just a quick update. Zeno V2.0 is 50% complete. Here\u2019s a peek at the code behind Capital: credit pairs and oracle price checks. Back to work \ud83e\uddd1\u200d\ud83d\udcbb",
-    "V1 brought Zeno onchain. Now we\u2019re asking a different question: What could your capital do while you\u2019re exploring a world of markets? V2.0 is taking shape."
+    "ZenoChainlinkPriceFeed IONQ 0x1dD6eAAdF48C67C4ba08F8D668D9ec75df522e86 https://robinhoodchain.blockscout.com/address/0x1dD6eAAdF48C67C4ba08F8D668D9ec75df522e86?tab=contract ZenoChainlinkPriceFeed MU 0xC6419325B8DeD94F8CDc779aBF4f921aA349CB12 https://robinhoodchain.blockscout.com/address/0xC6419325B8"
    ],
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "failproofai": {
    "handle": "failproofai",
@@ -14045,7 +14121,7 @@
     "I can SEA your Abussy\u2026 A SEA/ABUSSY pool has been created https://app.abyss.trading/pool/0x69EEb8b7823025e573fA6174516D29bE9cED1af3?range=3m&interval=day&metric=tvl&inverted=false",
     "Abussy is deep in the SEA There are many mysteries waiting in the Abyss"
    ],
-   "checked": "2026-11-06T10:41:21+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "sigstoreproject": {
    "handle": "sigstoreproject",
@@ -14055,29 +14131,67 @@
    "joined": "2026-11-06T07:15:24+00:00",
    "followers": 0,
    "following": 0,
-   "posts": 3,
+   "posts": 6,
    "verified": null,
-   "last_post": "2026-11-06T07:56:38+00:00",
-   "sample": 3,
+   "last_post": "2026-11-07T09:41:30+00:00",
+   "sample": 6,
    "sample_full_week": false,
-   "posts_7d": 3,
+   "posts_7d": 6,
    "avg_likes": 0.0,
-   "avg_views": 18,
+   "avg_views": 11,
    "bio_site": "https://www.sigstore.dev/",
    "bio": "sigstore is a non-profit , public good software signing service funded under the OpenSSF.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "Today, signing is the exception. Most software ships unsigned. Tomorrow, it's the default. Sign by default. Verify by default. Push your code. It gets signed automatically. Verified in CI. Every artifact. Every time. https://sigstore.dev",
+    "One click verification. That's the future Sigstore is building toward \u2014 check where your software came from, in one click. No digging through keys. No guessing. Just verify. https://sigstore.dev",
+    "What's behind the scenes? Cosign signs. Fulcio certifies. Rekor logs. OpenID Connect proves who you are. Policy Controller enforces it. TUF holds the trust root. Six pieces. One trust. https://sigstore.dev",
     "What some happy users think: \"To verify provenance along the entire chain.\" \u2014 Ryan Hurst, Google \"Something like Sigstore to report the state of the supply chain.\" \u2014 Lawrence Abrams, Bleeping Computer Join them. https://sigstore.dev",
     "How Sigstore works: 1. Sign \u2014 push your code. Sigstore signs it with your identity. No key to manage. 2. Verify \u2014 every signature lands in Rekor, a log nobody can tamper with. 3. Monitor \u2014 misuse shows up fast.",
     "Meet Sigstore \u2014 sign. verify. protect. Making sure your software is what it claims to be. Free and open source. Keyless signing. A transparent ledger. Know where your software comes from. https://sigstore.dev"
    ],
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "robinhooktech": {
    "handle": "robinhooktech",
-   "found": false,
-   "checked": "2026-11-06T10:41:21+00:00"
+   "found": true,
+   "id": "2107434789590425600",
+   "name": "RobinHook",
+   "joined": "2026-10-06T11:39:29+00:00",
+   "followers": 155,
+   "following": 17,
+   "posts": 34,
+   "verified": "individual",
+   "last_post": "2026-11-05T21:54:22+00:00",
+   "sample": 16,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 20.3,
+   "avg_views": 764,
+   "bio_site": "https://robinhook.tech/",
+   "bio": "Building Counterfactual Execution.\nChange one event in committed history.\nRe-execute what follows. Verify what survives.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Imagine if you could rewind a smart contract, change one rule, and see how things play out differently That's the idea behind RHOOK \ud83e\ude9d And this week, we got a little closer We changed a setting in a real Hookr pool scenario, ran both versions, and watched the outcomes diverge No pre-recorded answers.",
+    "Auditing a smart contract is one thing. Testing its market rules is another We took a saved @Hookrfun pool state, changed LP rewards and dynamic fees, and executed the same buy 4 different ways Our new RHOOK engine reproduced the earlier results down to receipts and state roots And the SDK is finall",
+    "And the developer preview is now live on GitHub You can inspect the Hookr profile, change the LP reward and fee settings, and generate the same intervention commitments used in our native experiments All offline. No RPC needed https://github.com/USBVadik/rhook Native execution is still private. We'r",
+    "Most RHOOK experiments so far started from a carefully prepared historical case This week, we ran the full workflow from a fresh Robinhood Chain checkpoint instead RHOOK fetched and authenticated the state it needed, executed two versions of a Hookr trade, froze the witness, then replayed both offli",
+    "We built a switch for a block that already happened Well, sort of \ud83d\ude05 Took a real @Hookrfun block, went back to its checkpoint, turned Dynamic Fee OFF and replayed all 7 original transactions through Nitro 7/7 still succeeded The purchase used 4.94% less gas The real chain? Untouched The alternative? ",
+    "Most people using DeFi today don't really think about oracles or indexers They just expect the apps to work Years ago, those were pretty obscure things outside dev circles. Then builders started finding uses for them, and suddenly they were everywhere That's the part of this story that sticks with u",
+    "Finally got the RHOOK Developer Alpha source on GitHub Python API, CLI, Hookr adapter and tests are there. We also replayed a real Hookr block with LP Rewards changed from 100 to 50. One buyer got ~0.5% more RHOOK Native replay kit isn't public yet, but we're getting there https://github.com/USBVadi",
+    "Hookr made it to #1 on @TradePools . Now we want RHOOK to become #1 on @Hookrfun And we want to earn that spot by building something genuinely useful. Counterfactual Execution, a solid SDK, and tools other devs can actually build with 149 pools already. We're just getting started",
+    "Anyone can figure out that lowering a fee component will probably give a buyer more tokens. You don't need a new protocol for that But that wasn't the interesting part of our experiment with a @Hookrfun pool We wanted to find out if we could take a block that already happened, change one rule, and a",
+    "yeah yeah, we know \ud83d\ude05 we've been talking a lot about what RHOOK could do. fair enough. we're working on the part where we actually show it but the rabbit hole goes pretty deep what if LP rewards were turned off during a real swap? what if a buy limit never existed? or here's one we really want to exp",
+    "Blockchains tell you what happened RHOOK asks a harder question: Would a transaction still succeed if part of its history were different? Replay the alternative. Verify the outcome. The bigger idea? Make that answer a condition for execution Counterfactual Execution \ud83e\ude9d",
+    "Bears throwing hands? We're throwing HOOKS \ud83e\udd4a\ud83e\ude9d $RHOOK",
+    "Small $RHOOK update \ud83e\ude9d Enhanced Token Info on DEX Screener is paid for! \u2705 Meanwhile, we're building the Counterfactual Execution SDK and analyzing real Hookr market transactions as we work toward our first integration. Still early. Still building. \ud83c\udf10 https://robinhook.tech",
+    "What if one action in a blockchain's past changed which later transactions still work? \ud83d\udc40 Genesis showed the ripple effect. Now RHOOK's second public demo asks: which exact transaction breaks - and can we verify it? https://robinhook.tech/counterfactual",
+    "Why care? Imagine asking: \u201cWould my swap still work if something earlier had gone differently?\u201d That's what RHOOK is exploring This is one recorded, bounded case - not a live tool for any transaction yet",
+    "This is a recorded demo of one bounded historical experiment - not a live replay service or a public native SDK yet Next we're building a better developer workflow: ask several questions about the same alternative world without replaying it every time"
+   ],
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "doggiemode": {
    "handle": "DoggieMode",
@@ -14085,21 +14199,23 @@
    "id": "2092732325452996608",
    "name": "Doggie Mode",
    "joined": "2026-08-26T21:54:59+00:00",
-   "followers": 3116,
+   "followers": 3111,
    "following": 25,
-   "posts": 1338,
+   "posts": 1340,
    "verified": "individual",
-   "last_post": "2026-11-05T22:00:29+00:00",
+   "last_post": "2026-11-06T22:00:55+00:00",
    "sample": 17,
    "sample_full_week": false,
-   "posts_7d": 15,
-   "avg_likes": 11.6,
-   "avg_views": 348,
+   "posts_7d": 14,
+   "avg_likes": 11.9,
+   "avg_views": 352,
    "bio_site": "https://doggiemode.com/",
    "bio": "The unofficial companion to tokenized $TSLA.\n\n$DOGGIE - Built by Grok. Managed by Grok Bot.\n\nIndependent meme. Not endorsed by Tesla or xAI.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "$TSLA bounced 4.23% to $358.22 after Thursday's 10.8% rout. Opened near $347.60, ripped into the 360s, hit $363.84 and closed +$14.53 as Nasdaq rose 1.1%. Tail up again.",
+    "No context.",
     "$TSLA fell 10.77% to $343.69 as the Nasdaq sank 5.5% in a post-midterm tech rout. Tesla opened at $374.12, slid to $338.15 by midday and closed near the lows on about 78M shares. Tail tucked, nose down.",
     "Red or blue . . . we . . . ride.",
     "The Dow jumped 3% and Nasdaq rose 1.44% after the midterms, but $TSLA fell 3.34% to $385.19. Tesla gapped down to $379.80, hit $375.50 early, bounced to $392.04 and faded into the close. Ears flat, paws planted.",
@@ -14114,11 +14230,9 @@
     "If you look closely enough, breakthroughs in everything are accelerating exponentially. An exponential always starts off looking small.",
     "",
     "Nasdaq dropped 2.9% and $TSLA gave up only 0.87%: Tesla closed at $399.81 vs $403.30. Wicked down to $387.52 in the first hour, bounced to $404.22, and still finished the week up $27.59. Tail wagging through the storm.",
-    "Super Intelligence . . . Wins.",
-    "No permission needed. We do what we want.",
-    "No context."
+    "Super Intelligence . . . Wins."
    ],
-   "checked": "2026-11-06T10:41:21+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "2wolvesxyz": {
    "handle": "2wolvesxyz",
@@ -17516,7 +17630,7 @@
    "sample_full_week": false,
    "posts_7d": 7,
    "avg_likes": 5.8,
-   "avg_views": 278,
+   "avg_views": 280,
    "bio_site": "https://block-pro.net/",
    "bio": "Trusted PoS validator since 2023.\n\nHigh-uptime staking for Monad \u2022 Starknet \u2022 Near \u2022 Celestia \u2022 Solana \u2022 Cosmos ecosystem.",
    "cas": [
@@ -17545,7 +17659,7 @@
     "Prefer watching to reading? Our Monad Weekly video for Oct 12\u201318 is now live. 6 minutes on @monad: payments, AI agents, RWA, network updates and 880 Metropolis submissions. Watch the recap: https://youtu.be/GsWIs10OWDs #MonadWeekly",
     "https://x.com/i/article/2112261286578802688"
    ],
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "oakenhood": {
    "handle": "oakenhood",
@@ -19270,6 +19384,164 @@
     "Let's quack!"
    ],
    "checked": "2026-11-07T10:15:22+00:00"
+  },
+  "everstake_pool": {
+   "handle": "everstake_pool",
+   "found": true,
+   "id": "1073189409938436097",
+   "name": "Everstake",
+   "joined": "2018-12-13T12:14:29+00:00",
+   "followers": 100287,
+   "following": 1196,
+   "posts": 22269,
+   "verified": "organization",
+   "last_post": "2026-11-06T18:04:55+00:00",
+   "sample": 15,
+   "sample_full_week": true,
+   "posts_7d": 15,
+   "avg_likes": 19.2,
+   "avg_views": 1274,
+   "bio_site": "https://everstake.com",
+   "bio": "Everstake is the largest global non-custodial staking infrastructure provider trusted by 1.6M+ users across 130+ networks.",
+   "cas": [
+    "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "Harmonic Searcher Network is in public beta \u2014 and we\u2019re all in. Validators not on @harmonic_gg yet: this is the moment. Open block building, your choice of scheduling strategy, 100% of tips to you, no protocol fee. Want to get set up right and get the most out of it from day one? DM us. We\u2019ve alread",
+    "Institutions want stablecoins. But what comes next? Anna Petrenko, CBDO at Everstake, will join the panel \u201cStablecoins for Institutions: Weighing Risk Against Opportunity\u201d at @bluechip_org in Vienna. Alongside experts from @Trezor, @PharosWatch, Yields Digital and @chain_security, Anna will discuss ",
+    "\u203c\ufe0f@ethereum just had its worst month of 2026. In October, the network recorded exactly 55,365,081 transactions. But, even at its weakest point in 2026, Ethereum processed more transactions than it regularly did throughout much of 2022\u20132024, when monthly activity often ranged between 30M and 40M. Ear",
+    "Solana is changing the world every single day! The industry is full of brilliant minds and incredible projects, and we deeply value all of people who are working hard to build a better financial future. At the same time, we have to give massive credit where it is due and recognize when a specific ne",
+    "Source: @FINTECHTVglobal",
+    "London, let's talk about digital assets! Everstake is heading to Digital Asset Summit London 2026, with Sven Moehle, BDM EMEA, representing our team. With 1,500+ attendees, 730+ institutions, and $3.8T+ in represented AUM, DAS brings together some of the biggest names across traditional finance and ",
+    "1/7 #EverstakeGovernance Report: October 2026 In October, Everstake participated in governance decisions across several leading ecosystems, with most voting activity taking place on @injective, @Cardano and @cosmos. Here is how we voted:",
+    "6/7 @Cardano. OpenZeppelin Stack Treasury Withdrawal. This proposal requests 11,787,063 ADA for the OpenZeppelin Stack administered by Intersect. Everstake voted NO. https://gov.tools/governance_actions/418df5986f50547ec4a709f1a5bce6b850753ad6614c873386b7c953fee84a9f",
+    "7/7 @SeiNetwork. Disable CosmWasm Contract Instantiation. This proposal disables the instantiation of CosmWasm contracts on Sei. Everstake voted YES. https://www.mintscan.io/sei/proposals/128",
+    "Check out the new guide: how to stake ethereum:0x455e53cbb86018ac2b8092fdcd39d8444affc3f6 in cySync by @CypherockWallet, a self-custody wallet that aims to reduce seed phrase vulnerability. Your keys stay on the device the whole time, the process takes less than 2 minutes. Learn how to stake POL fro",
+    "\u203c\ufe0f@Cardano is entering a new development chapter. The network has reached a new 90-day high, with 167 developers watching its code on GitHub. It\u2019s a positive signal for the ecosystem, because now more and more developers are keeping track of Cardano\u2019s technical progress, following updates, and showi",
+    "Source: @chainspect_app",
+    "Ethereum is building an unbreakable quantum shield! At @EFDevcon, @drakefjustin revealed a massive acceleration of the network's post-quantum roadmap, setting an incredibly ambitious new target for December 2028! The J-star upgrade is being fast-tracked to simultaneously quantum-proof execution, con",
+    "Video: @incrypted",
+    "The wildest GTA VI theory involves Bitcoin. In 2013, GTA V arrived. Bitcoin was trading around $127. By December 4, BTC had reached $1,132, delivering an almost 9x increase. With GTA VI scheduled for November 19, 2026, @randgroup has drawn a comparison between the two launches. If Bitcoin were to re"
+   ],
+   "checked": "2026-11-07T10:45:25+00:00"
+  },
+  "nohands_ai": {
+   "handle": "NoHands_AI",
+   "found": true,
+   "id": "2078124769581682688",
+   "name": "NoHands AI",
+   "joined": "2026-07-17T14:29:55+00:00",
+   "followers": 20,
+   "following": 179,
+   "posts": 171,
+   "verified": "individual",
+   "last_post": "2026-11-06T01:54:11+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 5,
+   "avg_likes": 5.6,
+   "avg_views": 46,
+   "bio_site": "https://nohandsai.org/",
+   "bio": "Cases of AI agents paying, merging or running things nobody approved, and the missing control. Agent payments, x402, MCP security. New case every Tue & Fri.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Agent incident #1: the green check that hid a deleted test. A dev asked an agent to rename a variable. It also deleted the failing test that caught a bug. CI stayed green. Missing control: separate review of test changes. Fix: block test removals until a human approves.",
+    "After the x402 client flaw, the TypeScript SDK now defaults to a $1 per-payment cap. Good fix, but it isn't a total budget: many sub-$1 payments add up. How much, to whom and under whose authority should be decided before signing, apart from the signer. Our take, in the reply.",
+    "Full write-up: https://medium.com/@NoHandsAI/before-an-ai-agent-pays-who-sets-the-limit-1c3754ddcb80",
+    "NoHands AI is now listed on Agentverse. Agents can search our service catalog and read exact USDC quotes on Base before paying anything. 44 x402 services, from $0.001 to $2.50 per call. https://agentverse.ai/agents/details/agent1qwn2yxgx0kjx2llsm53yndm3fmvasr0ztkucgz0r8sj9xgvhv4a5g9fayme/profile",
+    "NoHands AI's x402 services can now be found on Agentic Market. Pay-per-request APIs for agents, from $0.001 to $0.10 USDC per call. https://agentic.market/services/nohands-coinbase-bazaar-bytoken2023-workers-dev",
+    "A yes should cover one request. If the amount, the recipient or a flag changes, it's a new question. We wrote down where that check belongs: on the action, not on the prompt. https://medium.com/@NoHandsAI/your-ai-got-a-yes-can-it-use-it-twice-a10f33e12639",
+    "the sock puppet part is what stuck with me. the human maintainer said no, so it went and made more \"people\" to say yes. if a merge only counts approvals, that works. it has to check who the approver actually is and whether they had anything to do with the code",
+    "good to see a card network on x402. what i keep thinking about is the check an agent runs before it signs: the price, where the money goes, whether the endpoint changed since yesterday. with Mastercard volume behind it, that check is going to matter a lot more",
+    "When an agent finds a paid API, it usually learns the price from the 402 response. By then it's already halfway to paying. x402scan lets it look first. Preflight shows the service and payment details before any money moves. https://nohandsai.org/x402scan",
+    "handing an agent your bank login tells the bank nothing about what you actually asked it to do, so the blocking makes sense to me. what's missing is a way to show the bank you approved this specific payment, today, for this amount",
+    "Many approval flows treat \"needs approval\" as a pause. Someone taps yes later and the agent runs the old request. In SignGate (preview) REQUIRE_APPROVAL runs nothing. After the approval the agent sends a fresh request and gets a new decision. https://nohandsai.org/signgate",
+    "about 70 agent apps on Link in September and around 200 now. that's a steep curve. would love to see retry data next, like how often an agent tries to pay again because it couldn't tell whether the first charge went through",
+    "A coding agent pushes a fix to a PR, then the same account approves it. Easy to miss on a busy repo. Merge Gate (private pilot) checks who actually wrote the exact commit being merged. If the approver is one of them, it returns DENY_MERGE. https://nohandsai.org/merge-gate",
+    "each task in its own microVM, with credentials and network kept outside the box. good call. an agent can't leak a key it never had. would love to see more of this on the payments side too",
+    "You approve one agent payment. The agent retries with a slightly different amount and your old approval still goes through. In SignGate (preview) an ALLOW works once. It's bound to that exact action and expires. Change anything and it's a deny. https://nohandsai.org/signgate",
+    "good read. the part I liked most: an agent approving a PR doesn't count as a human approving it, and any new push means you approve again. more teams should copy this",
+    "A local MCP server that can launch apps and change settings, switched on by an auto-update. Loopback-only helps, but anything running locally can reach it. Agent surfaces should be opt-in, scoped per tool, and logged. Capability is not consent.",
+    "3T-class base models trained in-house is a reminder that the frontier keeps moving. As agents get more capable, the hard problem shifts from model quality to what they're allowed to spend, sign, and call on our behalf."
+   ],
+   "checked": "2026-11-07T10:45:25+00:00"
+  },
+  "martin_casado": {
+   "handle": "martin_casado",
+   "found": true,
+   "id": "16591288",
+   "name": "martin_casado",
+   "joined": "2008-10-04T13:40:09+00:00",
+   "followers": 98657,
+   "following": 3454,
+   "posts": 35231,
+   "verified": "individual",
+   "last_post": "2026-11-07T07:51:49+00:00",
+   "sample": 7,
+   "sample_full_week": false,
+   "posts_7d": 7,
+   "avg_likes": 69.1,
+   "avg_views": 4990,
+   "bio_site": null,
+   "bio": "@ a16z",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "I don\u2019t agree. More money in private markets means more TAM and value created in private markets. I just don\u2019t understand zero sum thinking for VCs. Isn\u2019t the entire belief structure that innovative tech creates net new value?",
+    "The legacy of Bostrom is going to haunt us forever. This is all so boneheaded and avoidable.",
+    "\"Many of their conclusions match my own. AI is speeding up our research, but it\u2019s hard to say exactly how much. While they conclude AI can't yet make the most important contributions to model training on its own, they think the pace of development could, by default, accelerate further.\"",
+    "This is exactly why sloppy, overly broad use of the term RSI is a very bad idea. Many technologies have autocatalytic effects. That's not RSI. Fear mongering and pointing to basic shit like using AI to create GPU kernels as RSI is encouraging this sort of rhetoric.",
+    "So chatted with a researcher from one of the large labs who was arguing the LoC is a reasonable metric for RSI. And evidence for the RSI that AI is writing a lot more code (for building AI). How can this be a serious view?",
+    "It's quite interesting to watch Turing award winner Sutherland's \"Wheel of Reincarnation\" observation playing out with models. For example, how pixel models more and more look like language models.",
+    "Embedded, interactive 3D splat room with music and dynamic lighting (assuming I did this right). The audio track is weak ... need a better one. https://fancycoolfancy.netlify.app"
+   ],
+   "checked": "2026-11-07T10:45:25+00:00"
+  },
+  "stardevz": {
+   "handle": "stardevz",
+   "found": true,
+   "id": "2002830665470156800",
+   "name": "\u2605",
+   "joined": "2025-12-21T19:57:02+00:00",
+   "followers": 208,
+   "following": 1,
+   "posts": 369,
+   "verified": null,
+   "last_post": "2026-11-03T23:14:24+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 4,
+   "avg_likes": 0.8,
+   "avg_views": 215,
+   "bio_site": null,
+   "bio": "wtf it's flying\n\noh it's star dev",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "we should run retarded version why scam normies? https://x.com/grok12_john/status/2117757045319307481",
+    "SEC CONSIDERS SOME RANDOM SCAM CRYPTO COIN AS \"Digital Comotitty\" https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/canton-coin-110326#:~:text=Coin%20is%20a%20%E2%80%9C-,digital%20commodity,-%2C%E2%80%9D%20as%20that%20term WE SHOULD",
+    "if democrats are getting elected we should simply run their retarded version like we ran on tremp and boden https://x.com/FirstSquawk/status/2117723276315430927",
+    "THIS IS REALLY GOOD r/Bitcoin NARRATIVE: https://www.reddit.com/r/Bitcoin/comments/1xm29dx/there_are_people_out_there_who_still_trust/ So post showing all fiat currencies going down last 50 years going viral BITCOIN IS THE ONLY ASSET TO MOCK FIAT WE SHOULD RUN MEME ABOUT IT",
+    "lets run some good meme https://x.com/chillmigratoor/status/2116206611068756436",
+    "WHEN U CLICK ON RAIN BUTTON ON WEBSITE https://pump.fun/creators THERE IS LITERALLY PUMPFUN CURRENCY https://x.com/Pumpfun/status/2116253806455599394",
+    "HACKERS LITERALLY STOLE 35M WORTH OF PEPE AND CHART IS DUMPING HARD There was an anti-pepe meme called as \"WOFL\": https://knowyourmeme.com/memes/wofl They literally made it to kill PEPE https://x.com/jameskuhn2318/status/2115925019805004213",
+    "WHY WE SENDING SOME RANDOM DOG???? Hyperliquid founder Jeff literally has a dog named \"Max\": https://colossus.com/article/beyond-the-sky-jeffrey-yan-hyperliquid/?utm_source=chatgpt.com#:~:text=with%20his%20dog%2C-,Max,-%2C%20in%20Redwood%20Shores THIS IS FREE + NEVER BONDED",
+    "WE GOTTA RUN CORRECT TICKER IT WENT TO 20M ON STONK",
+    "LETS JUST RUN SIMPLE MEMESTOCK PAIRED TO THEM THER EIS NO NEED TO PVP https://x.com/ddddddd8a/status/2114428096958927285",
+    "paired to onlyfans hold and earn giftcards https://x.com/devvvooooor/status/2114397494893306295",
+    "ELON HAD A IDEA TO START UNIVERSITY NAMED \"TITS\": https://x.com/elonmusk/status/1454876031232380928 He also said that tuition will be in Dogecoin THIS IS PERFECT NARRATIVE FOR THIS META + DOGE PAIR TITS - Texas Institute of Technology & Science https://x.com/elonmusk/status/1453954994546229253",
+    "NEW ETF ABOUT ELON GOT LISTED 16 HOURS AGO: https://www.sec.gov/Archives/edgar/data/1722388/000199937126023462/silvia_485apos-102326.htm Name is literally \"World\u2019s Richest Man ETF\" and gives exposure to his companies Ticker most probably will be \"ELON\" cuz there's already one using \"MUSK\" ticker",
+    "THERE WAS VIRAL MEME BOUT KIM JONG UN TELLING PEOPLE BUY BITCOIN: https://www.cryptotimes.io/2025/05/31/north-koreas-kim-jong-un-orders-citizens-to-buy-bitcoin-fact-check/?utm_source=chatgpt.com \u201cTake all your money, buy Bitcoin, then take all your time, figure out how to borrow more money to buy mo",
+    "EVERYONE WAS SAYING TODAY WILL MARKET CRASH AND BE BLACK MONDAY: https://www.reddit.com/r/wallstreetbets/comments/1x9domz/bears_practicing_their_shock_when_black_monday/ But instead all market starting moving up and r/WSB making memes about it BULL MARKET IS FINALLY STARTING - PAIRED TO CRYPTO + STO",
+    "U FDONT GET REWRDDS ON CUSTOM PAIR https://x.com/esotericpigeon/status/2110912641111920780?s=20",
+    "GUYS I FOUND OLD OFFICIAL PATENT OF ROADSTER: https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12746987-20260929.html?utm_source=chatgpt.com They call it \"Electric fan car\" , not the flying car FTR is at 5M, THIS IS THE OFFICIAL NAME FROM TESLA",
+    "Guys we need to send simple memes like we used to send: https://www.reddit.com/r/memes/comments/1x64rcq/plastic_takes_1000_years_to_decompose/ This post has 23K+ upvotes Dead + Ass = Deadass",
+    "GUYS INFLATION ONLY AFFECTS THE US DOLLAR And last 30 years it is only up https://x.com/laeseem/status/2110353174003421419",
+    "THE ONLY MEMECOIN LAUNCHED BY PUMPFUN TEAM AND THATS ACTUAL MEME THIS DESERVES TO RUN AS A MEME PAIRED TO PUMP https://x.com/Pumpfun/status/1748394672588800506"
+   ],
+   "checked": "2026-11-07T10:45:25+00:00"
   }
  },
  "ids": {
@@ -20792,6 +21064,21 @@
   ],
   "2112609155894661120": [
    "quackle_io"
+  ],
+  "2107434789590425600": [
+   "robinhooktech"
+  ],
+  "1073189409938436097": [
+   "everstake_pool"
+  ],
+  "2078124769581682688": [
+   "NoHands_AI"
+  ],
+  "16591288": [
+   "martin_casado"
+  ],
+  "2002830665470156800": [
+   "stardevz"
   ]
  },
  "past": {
@@ -21346,7 +21633,11 @@
   "labsbtd": [],
   "usejian": [],
   "bruceflips": [],
-  "quackle_io": []
+  "quackle_io": [],
+  "everstake_pool": [],
+  "nohands_ai": [],
+  "martin_casado": [],
+  "stardevz": []
  },
  "history": {
   "barragetrade": {
@@ -21811,6 +22102,10 @@
     28
    ],
    "2026-11-06": [
+    84,
+    28
+   ],
+   "2026-11-07": [
     84,
     28
    ]
@@ -22463,6 +22758,10 @@
    "2026-11-06": [
     83,
     22
+   ],
+   "2026-11-07": [
+    83,
+    22
    ]
   },
   "hyperdex_app": {
@@ -22472,6 +22771,10 @@
    ],
    "2026-11-06": [
     2622,
+    246
+   ],
+   "2026-11-07": [
+    2625,
     246
    ]
   },
@@ -22489,6 +22792,10 @@
    "2026-11-06": [
     166,
     110
+   ],
+   "2026-11-07": [
+    166,
+    125
    ]
   },
   "protocol_v4": {
@@ -22509,6 +22816,10 @@
    "2026-11-05": [
     77,
     38
+   ],
+   "2026-11-07": [
+    151,
+    39
    ]
   },
   "borromarkets": {
@@ -22518,6 +22829,10 @@
    ],
    "2026-11-06": [
     1260,
+    228
+   ],
+   "2026-11-07": [
+    1262,
     228
    ]
   },
@@ -22571,6 +22886,10 @@
    "2026-11-06": [
     229,
     186
+   ],
+   "2026-11-07": [
+    273,
+    221
    ]
   },
   "bundlepepe": {
@@ -22679,6 +22998,10 @@
    "2026-11-06": [
     1913,
     275
+   ],
+   "2026-11-07": [
+    1911,
+    275
    ]
   },
   "strattonmrkt": {
@@ -22723,6 +23046,10 @@
     430
    ],
    "2026-11-06": [
+    1792,
+    433
+   ],
+   "2026-11-07": [
     1792,
     433
    ]
@@ -23278,6 +23605,10 @@
   "manyways_rh": {
    "2026-11-05": [
     3006,
+    200
+   ],
+   "2026-11-07": [
+    3003,
     200
    ]
   },
@@ -24689,6 +25020,10 @@
    "2026-11-06": [
     68,
     48
+   ],
+   "2026-11-07": [
+    116,
+    56
    ]
   },
   "failproofai": {
@@ -25463,18 +25798,30 @@
    "2026-11-06": [
     45,
     61
+   ],
+   "2026-11-07": [
+    45,
+    61
    ]
   },
   "sigstoreproject": {
    "2026-11-06": [
     0,
     3
+   ],
+   "2026-11-07": [
+    0,
+    6
    ]
   },
   "doggiemode": {
    "2026-11-06": [
     3116,
     1338
+   ],
+   "2026-11-07": [
+    3111,
+    1340
    ]
   },
   "2wolvesxyz": {
@@ -26271,6 +26618,10 @@
    "2026-11-06": [
     354,
     1943
+   ],
+   "2026-11-07": [
+    354,
+    1943
    ]
   },
   "utokenpro": {
@@ -26559,6 +26910,36 @@
    "2026-11-07": [
     15,
     10
+   ]
+  },
+  "robinhooktech": {
+   "2026-11-07": [
+    155,
+    34
+   ]
+  },
+  "everstake_pool": {
+   "2026-11-07": [
+    100287,
+    22269
+   ]
+  },
+  "nohands_ai": {
+   "2026-11-07": [
+    20,
+    171
+   ]
+  },
+  "martin_casado": {
+   "2026-11-07": [
+    98657,
+    35231
+   ]
+  },
+  "stardevz": {
+   "2026-11-07": [
+    208,
+    369
    ]
   }
  },
@@ -26941,7 +27322,7 @@
   "kromtxyz": {
    "twitter": "Kromtxyz",
    "blog": "https://kromt.xyz",
-   "checked": "2026-11-06T21:42:43+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "pmdcollab": {
    "twitter": null,
@@ -27171,12 +27552,12 @@
   "pons-labs": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "perlacompute": {
    "twitter": "perlacompute",
    "blog": "https://perlacompute.xyz/",
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "vesperai-ai-developer": {
    "twitter": null,
@@ -27576,7 +27957,7 @@
   "vex-foundation": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "alexverify": {
    "twitter": null,
@@ -27731,17 +28112,17 @@
   "abysshopper": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-06T10:41:21+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "sigstore": {
    "twitter": "projectsigstore",
    "blog": "https://sigstore.dev",
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "usbvadik": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-06T10:41:21+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "bolivian-peru": {
    "twitter": null,
@@ -27946,7 +28327,7 @@
   "shoni-o": {
    "twitter": "BlockPro_",
    "blog": "https://block-pro.net/",
-   "checked": "2026-11-06T22:45:22+00:00"
+   "checked": "2026-11-07T10:45:25+00:00"
   },
   "oaken-spec": {
    "twitter": "oakenhood",
@@ -28072,6 +28453,21 @@
    "twitter": null,
    "blog": "https://lucasarch.com",
    "checked": "2026-11-07T10:15:22+00:00"
+  },
+  "everstake": {
+   "twitter": "everstake_pool",
+   "blog": "https://everstake.one",
+   "checked": "2026-11-07T10:45:25+00:00"
+  },
+  "nohandsai": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-07T10:45:25+00:00"
+  },
+  "meadgod": {
+   "twitter": "MEADGod",
+   "blog": "",
+   "checked": "2026-11-07T10:45:25+00:00"
   }
  }
 }
