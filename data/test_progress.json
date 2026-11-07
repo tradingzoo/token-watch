@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-07T02:07:49+00:00",
+ "checked": "2026-11-07T02:58:41+00:00",
  "day": 2.6,
  "tokens": [
   {
@@ -16,7 +16,7 @@
    "group": "watch",
    "address": "0x6511c233790Ec10f7d673c64DC82C3F941D57828",
    "day0": 596825,
-   "now": 468860,
+   "now": 564523,
    "high": 969588,
    "passing": false
   },
@@ -25,7 +25,7 @@
    "group": "watch",
    "address": "0x2e4edef92d5cf2b2e08b18f240e896c71bfcac8c",
    "day0": 4565.185489065411,
-   "now": 3663.805931149875,
+   "now": 3661.9572526661486,
    "high": 4565.185489065411,
    "passing": false
   },
@@ -34,7 +34,7 @@
    "group": "watch",
    "address": "0x257bd594a54f04c3a5d77f87971233b13236c091",
    "day0": 3803.220887229837,
-   "now": 3658.844989686517,
+   "now": 3656.9988143882524,
    "high": 3964.0241726576623,
    "passing": false
   },
@@ -43,7 +43,7 @@
    "group": "watch",
    "address": "0x837ccf4a9f150458b624ccde0caad4b67e8bdd75",
    "day0": 3886.351688047719,
-   "now": 3738.8200221865836,
+   "now": 3736.9334931892977,
    "high": 4050.6698116319735,
    "passing": false
   },
@@ -52,8 +52,8 @@
    "group": "benchmark",
    "address": "0x18E674231A58c239Dc7DaeDcffE15Ec3A24cff5c",
    "day0": 20664651,
-   "now": 23941111,
-   "high": 30816394.795045275,
+   "now": 23815328,
+   "high": 30820673.728015047,
    "passing": true
   },
   {
@@ -61,8 +61,8 @@
    "group": "benchmark",
    "address": "0xb8Fa8010833463Aac5595b55B9045479239EfF79",
    "day0": 6249324,
-   "now": 5977622,
-   "high": 6887494,
+   "now": 5968581,
+   "high": 6988069.755714587,
    "passing": false
   },
   {
@@ -70,8 +70,8 @@
    "group": "benchmark",
    "address": "0xeDBf91223639800BCd5756815CAf908Df3b890bE",
    "day0": 11978359,
-   "now": 12888559,
-   "high": 15260632.242886923,
+   "now": 12667823,
+   "high": 15259921.750492813,
    "passing": true
   },
   {
@@ -79,9 +79,9 @@
    "group": "benchmark",
    "address": "0x000DE658153f47f23e92973C8EB1e89762703676",
    "day0": 3301443,
-   "now": 3347110,
-   "high": 3915781.2572611184,
-   "passing": true
+   "now": 3215736,
+   "high": 3914856.10562841,
+   "passing": false
   },
   {
    "symbol": "RAETO",
@@ -97,8 +97,8 @@
    "group": "faded",
    "address": "0xfed6b187f6da04e2eae5d3ea89b57129da62b28a",
    "day0": 3106117,
-   "now": 2575484,
-   "high": 3107171.9449535524,
+   "now": 2576902,
+   "high": 3107774.343570672,
    "passing": false
   },
   {
@@ -106,7 +106,7 @@
    "group": "faded",
    "address": "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725",
    "day0": 6611868,
-   "now": 4432780,
+   "now": 4481384,
    "high": 6611868,
    "passing": false
   },
@@ -115,8 +115,8 @@
    "group": "faded",
    "address": "0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3",
    "day0": 31506408,
-   "now": 35281284,
-   "high": 37015232.67671161,
+   "now": 35495740,
+   "high": 37010965.772400364,
    "passing": true
   },
   {
@@ -124,7 +124,7 @@
    "group": "faded",
    "address": "0xdee52f2ab639b6942b0d0f0565400b93b7a0fbe5",
    "day0": 2099933,
-   "now": 2420327,
+   "now": 2371818,
    "high": 2893048,
    "passing": true
   },
@@ -133,7 +133,7 @@
    "group": "faded",
    "address": "0x451b42a15100c340ca12f7c66de06fac5ea2d751",
    "day0": 4136838,
-   "now": 3228188,
+   "now": 3236541,
    "high": 4240215,
    "passing": false
   },
@@ -142,7 +142,7 @@
    "group": "faded",
    "address": "0x5173b8ea6923c2d40267890d45c46a3480954773",
    "day0": 1497201,
-   "now": 1214972,
+   "now": 1214757,
    "high": 1601272,
    "passing": false
   }

@@ -248,10 +248,10 @@
   },
   "0xc72f232a6869e6cf34dc06129affd07f8a2a246a": {
    "symbol": "MANCER",
-   "in": false,
+   "in": true,
    "joined": "2026-11-06T02:03:39+00:00",
    "first": "2026-11-06T02:03:39+00:00",
-   "left": "2026-11-06T21:02:30+00:00"
+   "left": null
   },
   "0xc60ba256b44334a0cd2c7242e98b88f031abb006": {
    "symbol": "V4",
