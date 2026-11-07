@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T06:00:33+00:00",
+ "updated": "2026-11-07T06:15:23+00:00",
  "tokens": [
   {
    "address": "0x346212384cde8ee3df97c762fbe7e70d617e953f",
    "symbol": "RIG",
    "name": "AgentRig",
    "score": 70,
-   "mcap": 3979.3474336822887,
+   "mcap": 3974.2636377784725,
    "tags": [
     "AI agents"
    ],
@@ -20,7 +20,7 @@
    "symbol": "HCAT",
    "name": "HookCat",
    "score": 70,
-   "mcap": 3720.137413328642,
+   "mcap": 3715.384769921978,
    "tags": [
     "AI"
    ],
@@ -30,26 +30,11 @@
    "why": "not reviewed yet"
   },
   {
-   "address": "0x1aa89c4ab9884cb65b759a3cc3a1690744d687a6",
-   "symbol": "xTOPAZ",
-   "name": "Liquid Wrapped veTOPAZ",
-   "score": 75,
-   "mcap": 89708.0,
-   "tags": [
-    "DeFi",
-    "Public dev"
-   ],
-   "website": "https://www.topazdex.com",
-   "twitter": "https://x.com/TopazDex",
-   "github": "topazdex/agent-skill",
-   "why": "not reviewed yet"
-  },
-  {
    "address": "0x072d88c2f31f568c0f4b8f613692eb489541ed45",
    "symbol": "KYTE",
    "name": "Kyte",
    "score": 75,
-   "mcap": 69748.0,
+   "mcap": 66207.0,
    "tags": [
     "DeFi"
    ],

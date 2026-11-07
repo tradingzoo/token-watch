@@ -13869,7 +13869,9 @@
   "elonmusk": {
    "handle": "elonmusk",
    "found": false,
-   "checked": "2026-11-06T10:41:21+00:00"
+   "checked": "2026-11-07T06:15:23+00:00",
+   "cas": [],
+   "fake_posts": []
   },
   "abussyonabyss": {
    "handle": "AbussyonAbyss",
@@ -18485,6 +18487,50 @@
     "caveman activities with the interns in @Valheimgame https://twitch.tv/telegramintern https://t.me/internstream https://youtube.com/@tgintern https://x.com/i/broadcasts/1oKMvNoDereGQ"
    ],
    "checked": "2026-11-07T06:00:33+00:00"
+  },
+  "shiftspl": {
+   "handle": "ShiftSPL",
+   "found": true,
+   "id": "2117938491652714496",
+   "name": "Shift Spl",
+   "joined": "2026-11-04T11:14:20+00:00",
+   "followers": 20,
+   "following": 0,
+   "posts": 22,
+   "verified": "individual",
+   "last_post": "2026-11-05T21:53:22+00:00",
+   "sample": 18,
+   "sample_full_week": true,
+   "posts_7d": 18,
+   "avg_likes": 2.7,
+   "avg_views": 104,
+   "bio_site": "https://www.shift-spl.xyz/",
+   "bio": "Tokens that rewrite themselves. Launch an STS-1 token on Robinhood: same address, same balances, new name, ticker & image, whenever you want.",
+   "cas": [
+    "0x5abcc2038ceace9e4db05973fea4258b0d4e2d6e"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "The code is public. https://github.com/Shift8989/shift-spl What's inside: \u2192 ShiftToken: an ERC-20 with mutable name(), symbol(), tokenURI() and one shift() function, launchpad-only \u2192 ShiftLaunchpad: CREATE2 deploys, bonding curve, graduation to Uniswap v4, the update authority \u2192 The app, the keeper,",
+    "Gith in few minutes.",
+    "Dev update. Every token gets a card. Share a token link and it unfolds: current name, ticker, image, shift mode, generation, and the tickers it used to be. Rendered live from the chain state, so the card always shows what the token is right now, not what it was when someone first posted it. Shift th",
+    "What a shift can never touch. Address. Supply. Decimals. Balances. Transfers. shift() writes exactly three fields: name, symbol, tokenURI. It can only be called by the launchpad, which is immutable in the token. There is no owner key on the token, no upgrade path, no mint function. Your bag is yours",
+    "One link. Always current. tokenURI() points at http://shift-spl.xyz/api/meta/. That endpoint always serves the token's current name, ticker, image and socials. Each shift bumps the generation in the URI, so wallets and explorers that cache metadata re-fetch and show the new face. Nothing to migrate,",
+    "You know the CA before you sign. Tokens are deployed with CREATE2. The address is derived from the launchpad, your salt and the token bytecode, so the launchpad predicts it before your wallet even opens. That's why the identity, image and metadata are already live the second the launch transaction l",
+    "Every shift has a number. A token starts at generation 0. Each rewrite increments it on-chain and emits Shift(generation, name, symbol, uri, by). The by tag says who asked: creator, schedule, vote or keeper. Signatures are bound to the next generation and expire after 5 minutes. Replay an old one an",
+    "Dev update. Small things that matter: \u2192 Every http://shift-spl.xyz link now unfurls into a proper preview card on X, Telegram and Discord. No more blank links. \u2192 Site copy cleaned up: STS-1 on Robinhood Chain everywhere, no leftover wording from the old chain. \u2192 Docs examples point at the right doma",
+    "Dev update. Shipped today: \u2192 ShiftLaunchpad deployed on Robinhood Chain mainnet. Launching is open. \u2192 http://shift-spl.xyz is live. \u2192 Backend moved to a persistent database: every token, shift, vote and trade is kept. \u2192 Price charts fixed: real candles, priced in USD, 1m to 1D. \u2192 $SHIFT contract add",
+    "Curve, then Uniswap. Every shift token launches on a virtual-reserve bonding curve: 1.2 ETH / 1.073B virtual, 800M tokens sold on the curve, 1% trading fee. Once the curve is bought out, the keeper migrates the raised ETH and the remaining supply to a Uniswap v4 pool. Identity can change at any poin",
+    "The keeper never sleeps. Every 5 minutes it runs through every live token: \u2192 applies scheduled identities whose time has come \u2192 closes vote rounds and applies the winner \u2192 re-skins auto tokens with what is trending on DexScreener \u2192 migrates graduated curves to Uniswap v4 One authority key, every act",
+    "Holders decide. On a vote-mode token, any holder can propose the next name, ticker and image. One proposal per wallet per round. Votes are signed messages, weighed by balance when the round closes. The winning proposal is applied on-chain by the keeper. The community literally decides what it holds.",
+    "Shift it. Pay no gas. A manual shift is an EIP-191 signed message from the creator wallet: shift::::: The launchpad verifies the signature, checks the generation, then calls shift() from its authority key and pays the gas. The creator never sends a transaction to rename their token.",
+    "Four ways to shift. You pick one at launch. \u2192 Manual: the creator rewrites it whenever, by signing a message \u2192 Scheduled: up to 4 identities planned at launch, applied on time \u2192 Holder vote: holders propose and vote each round, the winner is applied \u2192 Auto \u00b7 trending: every keeper run, it becomes a ",
+    "$SHIFT CA Added on website.",
+    "One address. Any identity. An STS-1 token is an ERC-20 whose name(), symbol() and tokenURI() are mutable storage, not constructor constants. Shift it and every wallet, explorer and DEX shows the new name, ticker and image. Same address. Same supply. Nobody moves, nobody claims, nobody migrates. http",
+    "Code drop today. The shift GitHub goes public later today: the STS-1 contracts (ShiftToken, ShiftLaunchpad), the launchpad, the keeper, the spec. Mutable name(), symbol() and tokenURI(). One shift() function, one authority, every rewrite on-chain. Read it, fork it, break it. Link in a few hours. htt",
+    "How shift works ? Every token on shift keeps one address, one supply and every holder's balance for life. What changes is its identity: name, ticker, image. In the video: \u2192 Mirage was born Chameleon, became Mimic, then Mirage. Same contract. \u2192 Glitch lets its holders vote on what it becomes next. \u2192 "
+   ],
+   "checked": "2026-11-07T06:15:23+00:00"
   }
  },
  "ids": {
@@ -19959,6 +20005,9 @@
   ],
   "1689053928": [
    "telegram"
+  ],
+  "2117938491652714496": [
+   "ShiftSPL"
   ]
  },
  "past": {
@@ -20495,7 +20544,8 @@
   "qedralab": [],
   "aragonproject": [],
   "derstar_options": [],
-  "telegram": []
+  "telegram": [],
+  "shiftspl": []
  },
  "history": {
   "barragetrade": {
@@ -25165,6 +25215,12 @@
     2047355,
     52656
    ]
+  },
+  "shiftspl": {
+   "2026-11-07": [
+    20,
+    22
+   ]
   }
  },
  "telegram": {
@@ -26615,6 +26671,11 @@
    "twitter": null,
    "blog": "",
    "checked": "2026-11-07T06:00:33+00:00"
+  },
+  "shift8989": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-07T06:15:23+00:00"
   }
  }
 }
