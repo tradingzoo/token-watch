@@ -20173,23 +20173,28 @@
    "id": "2118714090004635649",
    "name": "Kaja",
    "joined": "2026-11-06T14:40:31+00:00",
-   "followers": 2,
+   "followers": 3,
    "following": 4,
-   "posts": 7,
+   "posts": 12,
    "verified": null,
-   "last_post": "2026-11-07T14:16:26+00:00",
-   "sample": 6,
+   "last_post": "2026-11-07T14:30:32+00:00",
+   "sample": 11,
    "sample_full_week": false,
-   "posts_7d": 6,
-   "avg_likes": 0.0,
-   "avg_views": 67,
+   "posts_7d": 11,
+   "avg_likes": 0.5,
+   "avg_views": 50,
    "bio_site": "http://Kaja.io",
-   "bio": "Open-source AI agent that browses the web, remembers you and learns new tricks.\n\n0x8087d449fdc1de7310256c4d53bd3bd612511a6e ( robinhood evm )",
+   "bio": "Open-source AI agent that browses the web, remembers you and learns new tricks.\n\n$KAJA 0x8087d449fdc1de7310256c4d53bd3bd612511a6e ( robinhood chain )",
    "cas": [
     "0x8087d449fdc1de7310256c4d53bd3bd612511a6e"
    ],
    "fake_posts": [],
    "texts": [
+    "Skills. Tools. MCP servers. One click each, straight from the page at https://kaja.io. No terminal, no config. New trick learned.",
+    "https://kaja.io, but in your pocket. \u2192 Text it on Telegram \u2192 Send a photo, get pictures back \u2192 Run your own bot, no sign-up Wherever you are.",
+    "Why would you pick a persona for every task? Kaja switches hats itself. Browse, plan, write, present \u2014 it picks the right one and gets on with it.",
+    "Tell it once. A week later it still knows you're vegetarian and hate cilantro. That's the whole feature.",
+    "Why register? You don't have to. \u2192 Stay local: your models, your Telegram bot, your data at home. \u2192 Go cloud: sign up, freeload on the free models we round up. Both live at https://kaja.io. Switch any time",
     "dev supply burned. tx: 0x78a4b467e7ffdc01019ba9ea26d5b2f48d2cbc6696399f86e9da86224546735d",
     "Coming next: \u2192 Chat: the bubble in the corner of any page. \u2192 Care: an agent that tracks your mood between check-ins. \u2192 Voice: mic in, mouth out. Same agent. New places to meet it.",
     "Kaja already browses, remembers and learns new tricks. Live today: \u2192 Browser, terminal or Telegram. Local or cloud. \u2192 Drives a real Chrome, keeps notes between chats. \u2192 Skills, tools and MCP in one click. \u2192 Sandbox: one docker command. \u2192 Barkochba is playable.",
@@ -20197,7 +20202,109 @@
     "Docs, install and every way in: https://kaja.io Source: https://github.com/SubZtep/kaja",
     "Kaja is an open-source AI agent that browses the web, remembers you, and learns new tricks. Run it locally. Your models, your data. https://kaja.io"
    ],
-   "checked": "2026-11-07T14:15:02+00:00"
+   "checked": "2026-11-07T14:25:22+00:00"
+  },
+  "truecoursedev": {
+   "handle": "truecoursedev",
+   "found": true,
+   "id": "2118902395891818497",
+   "name": "Truecourse",
+   "joined": "2026-11-07T03:05:19+00:00",
+   "followers": 2,
+   "following": 2,
+   "posts": 8,
+   "verified": null,
+   "last_post": "2026-11-07T14:26:45+00:00",
+   "sample": 7,
+   "sample_full_week": false,
+   "posts_7d": 7,
+   "avg_likes": 0.6,
+   "avg_views": 24,
+   "bio_site": "https://truecourse.dev/",
+   "bio": "Engineering the future with AI, precision, and human control. The next standard starts here.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "\"It failed\" is not a bug report. Every TrueCourse flow keeps the evidence: a replay, a screenshot per step, expected vs. actual, and the full transcript. Step 4 expected \"Refunded to Visa 4242\". It found \"Issued as store credit\".",
+    "supply burned. https://robinhoodchain.blockscout.com/tx/0xaa1ff2a43775053eb077b0f900bbbe3def028496ca823637620218bfdd391b92",
+    "Build passed. Tests passed. Still blocked. The docs say refunds must return to the original payment method. This PR sent them to store credit. A failing TrueCourse check quotes the exact doc sentence, next to what the product actually did.",
+    "How TrueCourse works, in 30 seconds: 01 Connect your docs 02 Connect your repository 03 Each requirement becomes a flow 04 Every pull request is checked 05 Claude Code reads the failure over MCP and fixes it https://docs.truecourse.dev",
+    "There are two kinds of bugs. Code bugs: null refs, off-by-ones, races. AI reviewers are good at these. Intent bugs: clean, safe code that does the wrong thing. A reviewer reading a diff can't see what your product promised. Your docs can.",
+    "AI-written commits went up 37x in a year across 99 open-source SaaS repos. Bug rate barely moved: 18.9 \u2192 17.7 per 100 commits. Median merge time: +44%. The bottleneck didn't disappear. It moved from writing code to checking it.",
+    "Meet TrueCourse, the IDE for product owners. AI writes the code. You own what it does. It turns the requirements you already wrote into checks on every PR, and blocks merges that break what your docs promise. Open source. Backed by Berkeley SkyDeck. https://truecourse.dev"
+   ],
+   "checked": "2026-11-07T14:25:22+00:00"
+  },
+  "nexurlslll": {
+   "handle": "nexurlslll",
+   "found": true,
+   "id": "2113403969804337152",
+   "name": "NexURLs",
+   "joined": "2026-10-22T23:04:04+00:00",
+   "followers": 149,
+   "following": 0,
+   "posts": 666,
+   "verified": "individual",
+   "last_post": "2026-11-07T03:26:48+00:00",
+   "sample": 18,
+   "sample_full_week": true,
+   "posts_7d": 18,
+   "avg_likes": 0.5,
+   "avg_views": 29,
+   "bio_site": "http://nexurls.com",
+   "bio": "Discover cool websites, tools, and projects. Share your URLs, get exposure, and help bring human discovery back to the web.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "NexURLs is hiring.",
+    "This site is crazy cool. Found this on NexURLs Pranx https://nexurls.com/t/FHVBCR",
+    "BRO",
+    "You can walk through some pretty amazing museums without leaving your browser. That's a dangerous rabbit hole for a Friday night. https://nexurls.com/virtual-museum-tours-12-famous-museums-you-can-explore-free-online/",
+    "Doug found earbuds so quiet you forget your roommate exists. Found on NexURLs: https://nexurls.com/url/what-are-the-best-wireless-earbuds-with-long-battery-life/ #nexurls",
+    "Weird websites you didn't know existed: 1. Bored Button 2. InspiroBot 3. Cat as a Service 4. Weird or Confusing Bookmark this for the next time you're bored. More here: https://nexurls.com/guides/weird-websites/",
+    "The weekly weirdest find contest is one of my favorite little experiments on NexURLs. People really have no shortage of strange links to share.",
+    "Found this on NexURLs: Rebupl - Product Launch Platform & Tech Creator Directory https://nexurls.com/t/uKwCcW",
+    "Want more visibility for what you\u2019re building? \ud83d\udc40 \u2192 Founder: get your name seen \u2192 Product: put it in front of more people \u2192 X handle: get extra visibility Just put it on the board \u2192 https://nexurls.com/board/?v=2",
+    "Let's discover some great products today. Drop your startup URL.",
+    "Someone should make a browser extension that tells you when you've had 37 tabs open for an hour. Actually, don't. I don't need that kind of judgment.",
+    "Bookmark this for your next launch. 27 Product Hunt alternatives MicroLaunch, Uneed, DevHunt, Peerlist, BetaList, Show HN, Indie Hackers and 20 more. https://nexurls.com/27-product-hunt-alternatives-to-launch-your-project/",
+    "Let's discover great products. Drop your startup URL.",
+    "One of the fun things we're doing now is turning member URLs into short videos. Doug gets to investigate a site and the creator gets another chance to be seen. Pretty cool little loop.",
+    "Time to promote your startup Drop your project URL Let\u2019s drive some traffic",
+    "Want more exposure to your startup? I\u2019m promoting you and it\u2019s free. NexURLs",
+    "Wow cat as a Service on NexURLs. A simple API that serves random cat images and GIFs with optional text, tags, sizes and filters. https://nexurls.com/t/Sqb9vs",
+    "I wish more websites had a little personality. Some of the coolest ones look like somebody built them over a weekend and just kept going."
+   ],
+   "checked": "2026-11-07T14:25:22+00:00"
+  },
+  "reactable_io": {
+   "handle": "reactable_io",
+   "found": true,
+   "id": "2110509269397221376",
+   "name": "Reactable",
+   "joined": "2026-10-14T23:14:03+00:00",
+   "followers": 12,
+   "following": 39,
+   "posts": 27,
+   "verified": "individual",
+   "last_post": "2026-11-02T18:32:42+00:00",
+   "sample": 5,
+   "sample_full_week": false,
+   "posts_7d": 1,
+   "avg_likes": 1.0,
+   "avg_views": 51,
+   "bio_site": "https://www.reactable.io",
+   "bio": "AI built your app. Reactable scores how well.\nUncover hidden risks, assess code quality, and launch with confidence.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Building with Cursor, Claude, or Lovable? You can now assess codebase readiness, surface vulnerabilities, and fix technical debt\u2014without ever leaving your chat window! We just launched the Reactable MCP Server. \ud83d\ude80 https://www.reactable.io/integrations/mcp #vibecoding #AI",
+    "We launched on @devhunt_ this week! Please check us out and toss us an upvote https://devhunt.org/tool/reactableio #AITools #vibecoding #AI",
+    "After much testing and positive user feedback we excited to be bringing Reactable to the broader market! Today we went live on DevHunt at https://devhunt.org/tool/reactableio Check us out!",
+    "What's actually behind your app? \ud83d\udc40 Reactable assesses your code across 12 critical areas, including: \ud83d\udd10 Security \ud83e\udde9 Architecture \u26a1 Code quality \ud83d\udee1\ufe0f Data privacy Get a clear readiness score and direct prompts you can use to fix issues we find.",
+    "Building an app has never been easier. Knowing if it's actually ready to launch? That's another story. Meet Reactable. \ud83d\ude80 We help founders and developers uncover hidden risks in their code with AI-powered assessments."
+   ],
+   "checked": "2026-11-07T14:25:22+00:00"
   }
  },
  "ids": {
@@ -21804,6 +21911,15 @@
   ],
   "2118714090004635649": [
    "kajadotio"
+  ],
+  "2118902395891818497": [
+   "truecoursedev"
+  ],
+  "2113403969804337152": [
+   "nexurlslll"
+  ],
+  "2110509269397221376": [
+   "reactable_io"
   ]
  },
  "past": {
@@ -22386,7 +22502,10 @@
   "thecognitahq": [],
   "tapmapofficial": [],
   "moltenrockai": [],
-  "kajadotio": []
+  "kajadotio": [],
+  "truecoursedev": [],
+  "nexurlslll": [],
+  "reactable_io": []
  },
  "history": {
   "barragetrade": {
@@ -27927,8 +28046,26 @@
   },
   "kajadotio": {
    "2026-11-07": [
+    3,
+    12
+   ]
+  },
+  "truecoursedev": {
+   "2026-11-07": [
     2,
-    7
+    8
+   ]
+  },
+  "nexurlslll": {
+   "2026-11-07": [
+    149,
+    666
+   ]
+  },
+  "reactable_io": {
+   "2026-11-07": [
+    12,
+    27
    ]
   }
  },
@@ -29534,7 +29671,12 @@
   "subztep": {
    "twitter": "SubZtep",
    "blog": "",
-   "checked": "2026-11-07T14:15:02+00:00"
+   "checked": "2026-11-07T14:25:22+00:00"
+  },
+  "truecourse-ai": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-07T14:25:22+00:00"
   }
  }
 }
