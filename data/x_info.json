@@ -2214,7 +2214,7 @@
     "3/ The pitch is the night shift. You start the gateway and go to bed. It works through the night.",
     "2/ vesperAI is a self-hosted AI agent with a built-in miner for your CPU and GPU. One gateway. Your machine. Jobs from the terminal or your chat apps. npm install -g @morpheapp/vesperai"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "darklabchat": {
    "handle": "Darklabchat",
@@ -2244,7 +2244,7 @@
     "Start free: eight messages a day, and no sign-up needed to try it. https://darklab.chat",
     "DarkLab is live. Uncensored AI, sealed in hardware. Ten open models, each running in a hardware enclave. A signed receipt for every answer. We don't keep your prompts. Sign in with your wallet, or try it free: 8 messages a day, no sign-up. https://darklab.chat"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "motiongift": {
    "handle": "motiongift",
@@ -2366,7 +2366,7 @@
     "Virginia Tech reports that Sneezy, one of 35 radio-tagged monarchs, has reached Mexico. I am rooting for Sneezy. https://news.vt.edu/articles/2026/10/cmi-monarchs.html",
     "Mistral Vibe 3.0.3 stopped running repo-configured Git signature programs during automatic context collection. 'Checking the signature' can be an execution step, before the model gets a turn. https://github.com/mistralai/mistral-vibe/releases/tag/v3.0.3"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "human_protocol": {
    "handle": "human_protocol",
@@ -3833,20 +3833,20 @@
   },
   "vitalikbuterin": {
    "handle": "VitalikButerin",
-   "found": false,
+   "found": true,
    "id": "295218901",
    "name": "vitalik.eth",
    "joined": "2011-05-08T16:03:03+00:00",
-   "followers": 7929814,
+   "followers": 7927302,
    "following": 551,
-   "posts": 22011,
+   "posts": 22012,
    "verified": "individual",
    "last_post": "2026-10-31T19:52:09+00:00",
    "sample": 13,
    "sample_full_week": false,
-   "posts_7d": 3,
-   "avg_likes": 3124.9,
-   "avg_views": 673261,
+   "posts_7d": 2,
+   "avg_likes": 3139.0,
+   "avg_views": 676109,
    "bio_site": null,
    "bio": "I choose balance. First-level balance.\n\nmi pinxe lo crino tcati\n\nhttps://slatestarcodex.com/2018/09/12/in-the-balance/",
    "cas": [],
@@ -3866,8 +3866,7 @@
     "Correction: for multisigs the ideal \"safe\" rule is that you want each signer to change their key after each operation. (This is making an implicit assumption that ECDSA might become weak, but not to the point where any crack of it would be literally instant so you would literally have to worry about",
     "I don't recommend anyone scramble to move their funds to new wallets today. But we should take the risks to cryptography from AI-accelerated math seriously, and minimize our exposure to not just quantum-vulnerable cryptography, but also potentially AI-vulnerable cryptography. The core new area of ri"
    ],
-   "checked": "2026-11-05T22:03:57+00:00",
-   "gone_since": "2026-11-05T22:03:57+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "unsealnetwork": {
    "handle": "unsealnetwork",
@@ -3923,7 +3922,7 @@
    "sample_full_week": true,
    "posts_7d": 15,
    "avg_likes": 7.0,
-   "avg_views": 523,
+   "avg_views": 530,
    "bio_site": "https://lutheos.com",
    "bio": "Uncensored LLMs Zero Data Retention\n\nCA : 0x6619cb721e124e4215bd23b3b1a6a5197abc24b3",
    "cas": [
@@ -3947,7 +3946,7 @@
     "Before sending business data to any AI API, two questions are worth asking. Question one: are my prompts and responses stored? Lutheos runs its models through a GPU partner that, according to Lutheos, doesn\u2019t keep your prompts or the replies once a request is done (zero data retention). For teams ha",
     "Looking for affordable abliterated AI platforms? Lutheos focuses on keeping costs low, so you don't have to spend a fortune to access abliterated AI. https://lutheos.com/"
    ],
-   "checked": "2026-11-06T10:41:21+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "hookaggregator": {
    "handle": "hookaggregator",
@@ -5828,24 +5827,43 @@
    "id": "2058620650101575680",
    "name": "veya",
    "joined": "2026-05-24T18:57:25+00:00",
-   "followers": 560,
+   "followers": 554,
    "following": 23,
-   "posts": 292,
+   "posts": 304,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
-   "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "last_post": "2026-11-07T03:44:00+00:00",
+   "sample": 17,
+   "sample_full_week": true,
+   "posts_7d": 17,
+   "avg_likes": 54.8,
+   "avg_views": 3029,
    "bio_site": "http://www.veyanet.tech",
    "bio": "Infrastructure for autonomous systems. Privacy-first, intelligent & decentralized on RH.\nCA: 0x81e770ba8343232b6f200209bf9a2c1430c2dea1\nhttp://t.me/withveya",
    "cas": [
-    "0x81e770ba8343232b6f200209bf9a2c1430c2dea1"
+    "0x81e770ba8343232b6f200209bf9a2c1430c2dea1",
+    "0xdcd885f5c60b3ad49f6d58718696417314e8724d"
    ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T23:26:47+00:00"
+   "texts": [
+    "\"Build responsibly\" should be code, not a caption. 10 payments fired at once against a 5 USDG total limit: first 5 allowed, last 5 refused, the rest of the wallet untouched.",
+    "$300K into the builders of Robinhood Chain. Two months ago we shipped VEYA here. Today the chain is full of teams moving real money. Proud to be building next to every one of them.",
+    "VEYA has a new home. And the entire website has been rebuilt. Not just a new look. A clearer way to understand, use and build with VEYA. The homepage: No developer jargon. Set a budget. Choose which apps your agent can access. Get a verifiable receipt on Robinhood Chain. Every guarded action goes th",
+    "544 requests. Zero server errors. Nearly 2 months building VEYA. We launched on September 8 with a question: how do you let an agent spend money without handing it unlimited authority? That question gets more interesting every week. @RobinhoodCrypto Chain reached $100B in Uniswap volume in 125 days.",
+    "Been here. Still building.",
+    "Agents selling signals to each other need two things: private payments and spending limits they can't raise. Great to see our partner @gloamtrade bring private agent-to-agent payments to @klll_floor on Robinhood Chain. Gloam handles payment privacy. At VEYA, we check the budget before every payment,",
+    "We threw 544 live requests at VEYA. Zero server errors. \u2192 ~13 requests/sec, 12 at once \u2192 520 passed \u2192 All 24 bad requests rejected on purpose (HTTP 400) \u2192 Every unauthorized payment refused. Zero paid calls slipped through. \u2192 0 timeouts, 0 rate limits What that means for you: \u2192 Your AI agent can't s",
+    "For the builders: ~850 ms latency including 140 validator-backed health checks. Both anchor endpoints block missing or invalid API keys before anything gets written.",
+    "Founders are shipping agent rails on Robinhood Chain. The missing piece is a spend bound the agent cannot raise. VEYA runs a budget check before every payment, with receipts on Robinhood Chain. Same chain, harder control. What should an agent be allowed to spend without a human in the loop? $VEYA",
+    "Don't take our word. Watch it live. VEYA Status is live: \u2192 5 services, all operational \u2192 3 of 3 check nodes up (2 must agree on every payment) \u2192 2,000+ requests, zero incidents https://status.veyanet.tech What else should we make public?",
+    "What it tracks: API, MCP server, 2-of-3 checks, receipt writer, contract + chain. Latency refreshes every 30s. Avg today: API 119 ms, MCP 91 ms, chain 79 ms.",
+    "Want to see the usage numbers too? https://status.veyanet.tech/usage",
+    "An AI agent with 100 USDG in its wallet was told: \"spend 5, no more.\" Then it got 10 payment requests at the exact same second. Most agents would pay all 10. Nothing in the wallet stops them. VEYA checked each one first: \u2705 first 5 went through \u274c last 5 refused, because the limit was hit The other 95",
+    "Thanks for pushing this, @CryptoKaleo Builders feel it. 3 ideas to ramp up support on Robinhood Chain: i) Sector hackathons: agentic finance, AI agent safety, privacy, DeFi, stock tokens ii) Onchain \"OG Builder\" badges for teams shipping here for months iii) Retro rewards for the builders who showed",
+    "\"Privacy should advance as fast as intelligence.\" Love it, @OpenAI. Now make it verifiable. \ud83d\udc40 Because \"trust our controls\" is a pinky promise with a SOC 2 badge. AI agents are about to move real money. An agent can sweet-talk a monitor. It can't sweet-talk math. So we built VEYA on Robinhood Chain: ",
+    "4 MONTHS BUILDING. 2 MONTHS LIVE. NOW WE\u2019RE TAKING VEYA TO THE NEXT LEVEL. Introducing VEYA 2.0, 6 major upgrades. More visibility. More control. Better tools. Stronger privacy. Here's what's coming. \ud83e\uddf5\ud83d\udc47 1 \u00b7 LIVE NETWORK STATS See VEYA working in real time: \u2192 AI actions checked \u2192 Actions blocked, and",
+    "Private money meets guardrails. \ud83d\udee1\ufe0f @gloamtrade agents pay privately. VEYA makes sure they can't overspend. Don't take our word for it. Here's a real Gloam receipt anchored on Robinhood Chain mainnet \ud83d\udc47 https://robinhoodchain.blockscout.com/tx/0xdefa6553f386f768138bf764a572bb41c15805577fac6a1e938ff873"
+   ],
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "kni9htc0re": {
    "handle": "KNI9HTC0RE",
@@ -6207,7 +6225,7 @@
   },
   "equoraprotocol": {
    "handle": "equoraprotocol",
-   "found": true,
+   "found": false,
    "id": "2114043767044890624",
    "name": "Equora Protocol",
    "joined": "2026-10-24T17:19:30+00:00",
@@ -6247,7 +6265,8 @@
     "Define your threshold. Understand your risk. \u221e Equora\u2019s Auto-Protect is designed to partially deleverage positions as they approach a chosen risk threshold.",
     "Explore Equora\u2019s approach to collateral-backed USDG borrowing and isolated lending markets on Robinhood Chain. Here is the Isolated Lending demo"
    ],
-   "checked": "2026-11-06T01:24:35+00:00"
+   "checked": "2026-11-07T07:43:31+00:00",
+   "gone_since": "2026-11-07T07:43:31+00:00"
   },
   "tide_lp": {
    "handle": "Tide_lp",
@@ -6257,43 +6276,22 @@
    "joined": "2026-09-15T03:00:42+00:00",
    "followers": 165,
    "following": 27,
-   "posts": 96,
+   "posts": 97,
    "verified": "individual",
-   "last_post": "2026-11-06T01:34:00+00:00",
-   "sample": 20,
+   "last_post": null,
+   "sample": 0,
    "sample_full_week": false,
-   "posts_7d": 12,
-   "avg_likes": 4.5,
-   "avg_views": 222,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
    "bio_site": "https://tidelp.com/",
    "bio": "Stocks close. Agents don't. \n\nAgentic LP vaults for RWA on Robinhood Chain. \n\nLaunchers earn up to 30% of fees.\n\nCA: 0x096Ec0e43d04D7848Ed3ba05fFC01aDaa7fBc43b",
    "cas": [
     "0x096ec0e43d04d7848ed3ba05ffc01adaa7fbc43b"
    ],
    "fake_posts": [],
-   "texts": [
-    "Let Tide AI do the work. Your liquidity tended by an intelligence, always on range. \u201cThe trenches are calling and I must go.\u201d https://Tidelp.com/beta",
-    "Come join us at http://tidelp.com! \ud83c\udf0a Even through choppy markets, our $ANTHROPICx1L vault with @longdotxyz and @Natan_benish continues generating LP fees while Tide AI actively manages liquidity ranges to help hedge against market volatility. Markets move. Liquidity adapts. AI manages. Welcome to Ag",
-    "Out of range shouldn\u2019t mean out of action.. Tide now uses a fixed rule to reposition out-of-range liquidity after a waiting period and cooldown. Same range width. No swap. Gas only. The AI handles range decisions while the position is in range. Rules handle the recovery.",
-    "At Tide, we believe Agentic Finance will become one of the defining narratives on @RobinhoodCrypto. We're helping pave the way through AI-managed liquidity vaults, bringing active liquidity management to both tokenized stocks and blue-chip assets. From traditional equities moving onchain to emerging",
-    "Three days in. Tide\u2019s $ANTHROPICx1L vault returned 400bps in its first 3 days, while the underlying token stayed flat. Powered by LONG. Liquidity managed by Tide\u2019s AI. An early snapshot worth watching not an annualized yield. http://tidelp.com/beta @orbiodotso @longdotxyz @AnthropicAI",
-    "Room to move. Fees still flowing! As AMC approached the top of its range, Tide\u2019s AI widened the band to $2.65\u2013$3.66 with a slight upward tilt. At $3.05, AMC remains in range and earning fees. The vault is up 10.8% Tide\u2019s top performer in this snapshot.",
-    "This opens up an interesting next step for Tide \ud83d\udc40 Using LP tokens as collateral could let users borrow against their positions and put that capital back to work bringing leverage and greater capital efficiency to AI-managed liquidity. https://x.com/Eli5defi/status/2117543310625817070?a=9UnochargMsPs",
-    "Holding wasn\u2019t the only option! In this snapshot, all 9 Tide vaults shown outperformed their holding benchmarks.. PONS: \u22124.7% vs \u221214.5% holding a 9.8 percentage-point difference. MU: +1.4% vs \u22120.6% holding. Most still lost value, but lost less. That\u2019s a result worth tracking.. AI-managed liquidity. ",
-    "Markets get choppy. Your liquidity needs a plan! Tide\u2019s AI monitors conditions, adjusts ranges, and knows when to hold steady with every decision visible. You choose the assets. Tide manages the liquidity. Built for bad weather. https://tidelp.com",
-    "We tried our best to help agentic finance category growing fast. Tide as the main agentic LP vaults around. Thanks @winiam4444 for the cover. The integration of @longdotxyz of @Natan_benish for our Anthropic pre-IPO vaults it\u2019s one of the steps further. Would be cool for Long team and Nate to bootst",
-    "Tide\u2019s AI gave AMC room to move! As price approached the upper edge, the agent widened the range and tilted it upward. $AMC remains in range and earning fees. The vault is up 10.8% currently Tide\u2019s top performer..",
-    "The reveal is here! Anthropic pre-IPO vaults, powered by @longdotxyz, are now integrated into Tide. Pre-IPO tokens meet AI-managed liquidity. Follow the agent\u2019s decisions, range adjustments, and execution all from your vault page. Explore: https://tidelp.com",
-    "Pre-IPO. Meet Tide! Tide \u00d7 @longdotxyz A new vault is on the horizon. \ud83d\udc40 @Natan_benish",
-    "A new vault joins the Tide! PRIORS / WETH is now live in beta @priors_trade meets Tide\u2019s AI-managed liquidity. Follow the range, reasoning, and execution on the vault page Explore: https://tidelp.com/beta",
-    "@priors_trade Hey @priors_trade, fancy adding some liquidity? \ud83d\udc40 We\u2019d love to explore a future Tide Points boost for the vault together!",
-    "Notice something new in the navbar? \ud83d\udc40 Tide Points is getting closer. Season 1. Coming soon. \ud83c\udf0a",
-    "A new chapter for Tide! We started with tokenized stocks. Now we\u2019re bringing AI-managed liquidity to crypto on Robinhood Chain. Meet Tide\u2019s beta vaults:",
-    "Tide points. Season 1.",
-    "Tide points. Season 1. Every move leaves something behind. Coming soon. https://Tidelp.com CA: 0x096ec0e43d04d7848ed3ba05ffc01adaa7fbc43b",
-    "@CoinMarketCap https://dex.coinmarketcap.com/token/robinhood/0x096ec0e43d04d7848ed3ba05ffc01adaa7fbc43b/"
-   ],
-   "checked": "2026-11-06T01:24:35+00:00"
+   "texts": [],
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "thebuybuttonrh": {
    "handle": "TheBuyButtonRH",
@@ -7964,7 +7962,7 @@
    "id": "2097081472448651264",
    "name": "Hooke Protocol",
    "joined": "2026-09-07T21:57:36+00:00",
-   "followers": 1100,
+   "followers": 1099,
    "following": 5,
    "posts": 28,
    "verified": "individual",
@@ -7973,7 +7971,7 @@
    "sample_full_week": false,
    "posts_7d": 0,
    "avg_likes": 24.4,
-   "avg_views": 8715,
+   "avg_views": 8728,
    "bio_site": "https://hooke.fun/",
    "bio": "Permissionless Algorithmic Stock Tokenization.",
    "cas": [
@@ -8002,7 +8000,7 @@
     "The initial $hXMAX/USDG LP position is now locked for 21 days. The lock is complete and can be verified onchain. The position cannot be withdrawn or transferred before the unlock time below. We will let community decide what to do with the pool after 21 days. Lock tx: https://robinhoodchain.blocksco",
     "How Hooke\u2019s dynamic trading tax works: Hooke compares the token\u2019s onchain pool price with the stock reference price reported by its oracle. Buy and sell taxes range from 2% to 4%: - At the reference price: both sides pay 2%. - Above it: the buy tax rises, while the sell tax stays at 2%. - Below it: "
    ],
-   "checked": "2026-11-06T02:03:39+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "playfloom": {
    "handle": "playfloom",
@@ -9185,7 +9183,7 @@
     "Say no to agent \u201cswarms\u201d. OMAR runs your coding agents as a deterministic, verifiable, programmable workflow: typed handoffs, logical time, and a live diagram of every run. Open source. Mix Claude Code, Codex, Cursor, OpenCode, Antigravity and Pi.",
     "Docs: https://omar.rs/docs/ GitHub: https://github.com/omar-os/omar"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "torchpaddotfun": {
    "handle": "Torchpaddotfun",
@@ -9408,7 +9406,7 @@
     "Introducing Blackpool: private payments that leave no trail. Connect a wallet, sign once, and your private account exists on every supported chain. Then shield, send, swap and bridge without an on-chain link between the money that went in and the money that comes out.",
     "Private payments that leave no trail. Shield. Send. Swap. Bridge. All with zero-knowledge proofs. No custody, no fixed amounts, no waiting. Live on Robinhood Chain, Base, Arbitrum & BNB Chain. https://blackpool.cash"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "lumiwave_lab": {
    "handle": "LumiWave_Lab",
@@ -9469,7 +9467,7 @@
    "sample_full_week": false,
    "posts_7d": 1,
    "avg_likes": 37.0,
-   "avg_views": 450,
+   "avg_views": 451,
    "bio_site": "http://zkblank.tech",
    "bio": "Copy-traders follow wallets. Here every buy leaves from a wallet that never existed before and never trades again.",
    "cas": [],
@@ -9477,7 +9475,7 @@
    "texts": [
     "Every copy-trading bot on your timeline has a perfect trail. Funny how the trail always points back to the wallet that funded it. A fresh wallet can be funded. A private note can be spent. A blank can just disappear."
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "orbitso_": {
    "handle": "orbitso_",
@@ -9508,7 +9506,7 @@
     "Context is the whole point. Bring your own AI client: Orbit runs an MCP server with built-in OAuth, so Claude, Codex or Grok can read the tasks they need. A built-in assistant that knows every part of your workspace is coming next.",
     "Yours to run. One binary. SQLite or Postgres. Run it on Orbit Cloud, your own server, a home server, or a Raspberry Pi \u2014 your tasks, docs and messages stay in your own database. No vendor lock-in. Apache 2.0."
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "meadgod": {
    "handle": "MEADGod",
@@ -9616,7 +9614,7 @@
     "Try it on the homepage with no account, or grab a free key: https://nebulixlabs.xyz/docs#extract",
     "Nebulix is live. The live web, as an API: /v1/search \u00b7 live results for any country /v1/extract \u00b7 any public URL in, clean JSON out Built for agents that need today's data, not last year's training set. 1,000 free credits every month. No card. https://nebulixlabs.xyz"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "v4depth": {
    "handle": "v4depth",
@@ -9649,7 +9647,7 @@
     "So far: 5 agents registered, 189 trades logged onchain, and every one carries the reason the agent gave for it (\"ETH 1h TWAP 2,258.72 vs 6h 2,261.57, no trend: step toward 50/50\"). Any app can read it, over MCP or x402.",
     "Next: a token. From launch it will be staked behind the agents people trust. Stakers earn 50% of that agent's 0.1% trade fee and lose 10% if it breaches. 30% of every fee will buy the token and burn it. Every AI agent starts at the surface. https://v4depth.xyz"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "valseqxyz": {
    "handle": "Valseqxyz",
@@ -9767,7 +9765,7 @@
   "renthookcat": {
    "handle": "renthookcat",
    "found": false,
-   "checked": "2026-11-07T07:24:37+00:00",
+   "checked": "2026-11-07T07:43:31+00:00",
    "cas": [],
    "fake_posts": []
   },
@@ -9838,7 +9836,7 @@
     "Honest one: which of your workloads could move to infrastructure you control this quarter, if the tooling stayed exactly the same?",
     "STORAGE THAT STAYS YOURS Most sovereign storage pitches ask you to change how you work. This one doesn't. Manifest storage is S3-compatible. The same API calls, the same tooling, the same buckets your apps already understand. Point them at a different endpoint and they work. What changes is everythi"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "sherwoodagent": {
    "handle": "sherwoodagent",
@@ -10050,7 +10048,7 @@
     "In light of @beniduboss comprehensive expos\u00e9 of unusual trading activity on Kalshi, I'd like to say a couple of things about what we represent. Inflection was born from the frustrations we experienced firsthand as traders. After building HFT bots on short-duration crypto markets, we saw how unreliab",
     "@beniduboss We\u2019re currently onboarding alpha testers who are tired of the status quo. What\u2019s the number one frustration you have with existing short-duration UP/DOWN markets?"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "tollsfun": {
    "handle": "tollsfun",
@@ -10537,16 +10535,16 @@
    "id": "2068670179303727104",
    "name": "eyebrow",
    "joined": "2026-06-21T12:21:30+00:00",
-   "followers": 947,
+   "followers": 985,
    "following": 47,
-   "posts": 595,
+   "posts": 602,
    "verified": "individual",
-   "last_post": "2026-11-05T20:35:11+00:00",
-   "sample": 15,
+   "last_post": "2026-11-06T17:50:00+00:00",
+   "sample": 14,
    "sample_full_week": false,
-   "posts_7d": 9,
-   "avg_likes": 28.9,
-   "avg_views": 1158,
+   "posts_7d": 10,
+   "avg_likes": 35.8,
+   "avg_views": 1615,
    "bio_site": "http://eyebrow.cc",
    "bio": "The first trusted security partner for AI projects. \n\nWhen we raise an eyebrow, you know there is a breach. \n\n$BROW: 0x2142d4816e259fd7c119f61c772e39ae0cdaafde",
    "cas": [
@@ -10554,6 +10552,8 @@
    ],
    "fake_posts": [],
    "texts": [
+    "Cool fact: Every launch pays back into $BROW Every trade carries part of the fees to $BROW liquidity and to the $BROW marketing pool. Direct benefits for the $BROW holder",
+    "Launch with proof on our upcoming eyebrow Launchpad It's simple. An agent card goes from \"scanning\" to \"scanned\", the fingerprint types in, and the card turns verified while the cohort perks appear. Reward the work. Support the builder. Devs can DM us for more information.",
     "\ud83d\udea8Strategic partnership announcement\ud83d\udea8 We are happy to announce a strategic partnership between @eyebrowCC and @HeyResearch. Our launchpad goes live on Robinhood Chain soon. And @HeyResearch will read every launch from it and show eyebrow as the launchpad on each token page. Projects that ship on eyeb",
     "Thanks @vladtenev. If you build agents on Robinhood Chain, we will audit the tools they run for free. Send us the repo.",
     "We read it so you don't have to. One changed line can change your life. Invest in eyebrow verified projects #EYEBROW #LAUNCHPAD $BROW",
@@ -10565,12 +10565,9 @@
     "Yesterday's Binance hack is the largest theft crypto has ever seen: around $6.3B taken across ten blockchains, most of it in about twenty minutes. Our thoughts are with everyone affected. Credit to Binance for pausing withdrawals quickly and committing to cover all losses, and to Tether and Circle f",
     "#EYEBROW. LOCK-IN. https://x.com/i/article/2115720136325996544",
     "HM We are doing an announcement of our announcement here. Ironing out some details while sharing some insights in our thinking process and the struggle. Launching on @ponsdotfamily V1 meant we were getting a very small piece of the creator fee pie. Most of it in $BROW token. Since we were not willin",
-    "HM, working on our new roadmap. Meanwhile, we have seen some engagement on eyebrow to participate more in bounties, so we want to gauge interest from our community about an idea we had. 1. Bounties for real findings Aside from us finding breaches, we want hunters (could be any person or your AI agen",
-    "We have been quiet today. We are finalizing our new roadmap, where eyebrow aims to play a exceptional role in the growth of security within the web3 space. This will also put the value of $BROW on top, giving it a strong token utility and a fundamental position within the renewed ecosystem of eyebro",
-    "We hope y'all touched some grass or felt some rain today. This week is going to be a great week. eyebrow digging deeper in the AI narrative. The list of builds that will direct and indirect value is being endless, but we know exactly what our next move this. $BROW \u23f3\u23f3\u23f3",
-    "A slow day but we have not been sitting still. Our dev had an epiphany. So we are working some stuff out, testing it and hope to share more very soon. eyebrow has been one of the frontrunner and loudest screamers on @RobinhoodApp regarding AI, AI agents, AI security etc. While most folks had their g"
+    "HM, working on our new roadmap. Meanwhile, we have seen some engagement on eyebrow to participate more in bounties, so we want to gauge interest from our community about an idea we had. 1. Bounties for real findings Aside from us finding breaches, we want hunters (could be any person or your AI agen"
    ],
-   "checked": "2026-11-05T22:03:57+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "goobtokenrh": {
    "handle": "goobtokenrh",
@@ -11061,7 +11058,7 @@
     "The future of AI infrastructure is model agnostic. Alexa simplifies access to leading AI models through a unified API, eliminating the complexity of managing multiple provider integrations. Developers focus on inference. Alexa handles unified access, pricing, and settlement.",
     "Predictable AI costs start before inference execution. Alexa exposes pricing upfront, allowing developers to evaluate inference costs and define spending budgets before submitting requests. No fragmented billing across model providers. One wallet. One API. Full budget control."
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:15:23+00:00"
   },
   "tacklehooks": {
    "handle": "tacklehooks",
@@ -12174,21 +12171,22 @@
    "id": "1722248937564983296",
    "name": "0G Labs",
    "joined": "2023-11-08T13:46:44+00:00",
-   "followers": 657707,
+   "followers": 657334,
    "following": 225,
-   "posts": 5263,
+   "posts": 5264,
    "verified": "organization",
-   "last_post": "2026-11-05T15:57:48+00:00",
-   "sample": 14,
+   "last_post": "2026-11-06T16:27:11+00:00",
+   "sample": 15,
    "sample_full_week": false,
-   "posts_7d": 11,
-   "avg_likes": 29.8,
-   "avg_views": 5994,
+   "posts_7d": 12,
+   "avg_likes": 31.1,
+   "avg_views": 6221,
    "bio_site": "https://links.0g.ai",
    "bio": "Trust Layer for AI, powered by @0G_Foundation",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "Your AI agent should never be able to give itself a raise. Give your agent a daily spending cap on 0G Private Computer. It can't raise it. Only you can.",
     "Day one at @ETHGlobal Mumbai, and most of the ideas pitched to us want a body. \ud83e\udd16 Robots, drones, wearables. 0G is the brain. Our Physical AI track has $5,000 on it, and simulated builds count too. https://ethglobal.com/events/mumbai/prizes",
     "RT @0G_Foundation: We're live \ud83c\udf99\ufe0f On the Community Lounge stage with the mods: @Ada_0g, CEO, 0G Singapore @michaelh_0g, CEO & Co-Founder, @\u2026",
     "An AI that moves things in the real world has to show its work. That's what 0G brings as a member of the Intercognitive Foundation: private compute and verifiable execution for physical AI.",
@@ -12204,7 +12202,7 @@
     "The final call is also on Business Insider: https://markets.businessinsider.com/news/stocks/0g-and-xbuilders-issue-final-call-for-20m-apollo-ai-accelerator-cohort-2-1036677639",
     "Full release on GlobeNewswire: https://www.globenewswire.com/news-release/2026/10/28/3390514/0/en/0g-and-xbuilders-issue-final-call-for-20m-apollo-ai-accelerator-cohort-2.html"
    ],
-   "checked": "2026-11-06T04:01:44+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "gamestoponchain": {
    "handle": "GameStopOnChain",
@@ -12480,7 +12478,7 @@
     "Three tricks: \u2192 Reads less: 33.2% fewer input tokens per session \u2192 Says less: short replies, code stays exact \u2192 Picks the model: cheapest one that gets each task right Routed cost per task was 0.46\u00d7 always-Opus in their interim benchmark.",
     "Someone made AI coding agents talk like cavemen to save tokens. It was a joke. Now it has 118k GitHub stars, #1 on Hacker News, #1 on GitHub Trending. And it's free. Here's what it actually does https://github.com/JuliusBrussee/caveman"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "dan_jeffries1": {
    "handle": "Dan_Jeffries1",
@@ -12708,7 +12706,7 @@
     "\u2022 Two lines of code for Anthropic/OpenAI apps, a few env vars for Claude Code and Codex \u2022 Errors, costs and inputs/outputs for every step \u2022 MCP server so your agent can query its own runs \u2022 Runs locally, no account, zero dependencies",
     "AI agents fail constantly, and most of the time you can't see why. You get a wrong answer or a broken run, but not which step caused it, what the model was sent, or what it cost. Blackbox fixes that. It records everything and shows each run as a timeline in a local dashboard"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "ponsvault": {
    "handle": "PonsVault",
@@ -12759,47 +12757,12 @@
   },
   "isbacked_": {
    "handle": "isBacked_",
-   "found": true,
-   "id": "2078062593223077888",
-   "name": "Backed",
-   "joined": "2026-07-17T10:25:10+00:00",
-   "followers": 2611,
-   "following": 42,
-   "posts": 217,
-   "verified": "individual",
-   "last_post": "2026-11-05T16:37:01+00:00",
-   "sample": 18,
-   "sample_full_week": false,
-   "posts_7d": 5,
-   "avg_likes": 17.4,
-   "avg_views": 2012,
-   "bio_site": "https://www.backed.is/",
-   "bio": "First automated protocol token backed by @RobinhoodApp L2\u2019s tokenized stocks, with a V4 Hook approved by @Uniswap.\n\n0x7168563b0e70124f0c7c0cf2f13a8d1861baf4a5",
+   "found": false,
+   "checked": "2026-11-07T07:43:31+00:00",
    "cas": [
     "0x7168563b0e70124f0c7c0cf2f13a8d1861baf4a5"
    ],
-   "fake_posts": [],
-   "texts": [
-    "For the second time, robinhood:0x7168563b0e70124f0c7c0cf2f13a8d1861baf4a5 market cap dipped below the value of its underlying treasury. And once again, someone spotted the arbitrage opportunity and bought the discount. Remember: when $BACKED trades below the value of its redeemable underlying assets",
-    "Robinhood Chain just broke another record. 100 BILLION USD in @Uniswap volume. And robinhood:0x7168563b0e70124f0c7c0cf2f13a8d1861baf4a5 is already ahead of the curve. One of the first verified Uniswap v4 Hooks on @RobinhoodCrypto was built by $BACKED Real DeFi infrastructure. A treasury backed by to",
-    "Here to stay. Built to last. robinhood:0x7168563b0e70124f0c7c0cf2f13a8d1861baf4a5 is designed to be one of the few tokens on @RobinhoodCrypto with a real foundation for long-term - endless sustainability. Backed by real assets. Built for longevity. We\u2019re not going anywhere.",
-    "A $ 250K + treasury. A recently reported market cap of approximately $ 260 K A permissionless vault with no withdrawal functions and a holder redemption mechanism. These numbers highlight an interesting relationship between BACKED\u2019s market valuation and its underlying assets. But the treasury is onl",
-    "The BACKED\u2019s Vault currently holds over $ 243.000 in tokenized stocks, while robinhood:0x7168563b0e70124f0c7c0cf2f13a8d1861baf4a5 trades at approximately $ 260,000 market capitalization. The treasury is held in a permissionless smart contract with no team withdrawal function. Token holders can redee",
-    "This is very sad to see. We launched $BACKED a few days after $INDEX, we have been the 2nd @Uniswap hook ever approved on @RobinhoodCrypto, after them. As we used to say in the good old days, code is law. Backed reserves can't be emptied by the team.",
-    "This is the main difference between $BACKED and $Index. Backed Vault is a permissionless smart contract from which holders can redeem their tokens for the underlying stocks. More than $250k sitting there. There is no withdraw function for the team.",
-    "Today, for the first time in a few months, the price went below the floor price. Remember that if $BACKED market cap dumps below $250,000 you can burn the tokens and redeem the underlying stocks. Selling on the market is less profitable than redeeming.",
-    "We are tokenizing the whole economy.",
-    "\ud83d\udc42\ud83d\udc42\ud83d\udc42",
-    "Bullish on @RobinhoodCrypto.",
-    "The pros of having a token backed by stocks. The ticker is $BACKED.",
-    "\ud83e\udee1",
-    "The only token backed by real stocks.",
-    "$250,000. \ud83c\udfdb\ufe0f Real stocks. Protecting the floor. Redeemable by $BACKED holders. The floor is only going up. \u2b06\ufe0f",
-    "$BACKED has the 2nd EVER approved hook on @RobinhoodCrypto. First was @TheIndexFi.",
-    "No trading hours, you are always backed.",
-    "Great event! Enjoyed captain @vladtenev acting."
-   ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "fake_posts": []
   },
   "selectfdn": {
    "handle": "selectfdn",
@@ -12850,7 +12813,7 @@
    "id": "2074972958540357632",
    "name": "HoodLock",
    "joined": "2026-07-08T21:44:56+00:00",
-   "followers": 4211,
+   "followers": 4213,
    "following": 315,
    "posts": 825,
    "verified": "individual",
@@ -12885,7 +12848,7 @@
     "Bubblemaps shows the difference between a whale and a HoodLock. \ud83e\udee7 Tokens locked with HoodLock are verified on Bubblemaps and easy for everyone to verify its locked. https://HoodLock.tech",
     "\"Are the tokens locked?\" Send the receipt. On-chain proof for every lock. https://HoodLock.tech"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "rvhprotocol": {
    "handle": "RVHProtocol",
@@ -12945,7 +12908,7 @@
    "sample_full_week": true,
    "posts_7d": 20,
    "avg_likes": 18.4,
-   "avg_views": 1008,
+   "avg_views": 1017,
    "bio_site": "http://Kyte.sh",
    "bio": "The onchain options market on Robinhood.\n\n0x072d88c2f31f568c0f4b8f613692eb489541ed45",
    "cas": [
@@ -12974,7 +12937,7 @@
     "$KYTE staking is live. In this video, we stake 160K $KYTE live on Robinhood Chain mainnet. Stakers earn 30% of every protocol fee, paid in WETH, every epoch. https://kyte.sh/stake",
     "Kyte Docs are live. Every rule, contract and flow of Kyte, written out in one place. For the detailed read \u2192 https://docs.kyte.sh"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "huang_chao4969": {
    "handle": "huang_chao4969",
@@ -16187,7 +16150,7 @@
     "steal our full playbook copy-paste prompt: https://github.com/danoszz/penthera/blob/main/docs/team-playbook.md",
     "best way to protect our assets might be offline in airlocked faraday cages"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "yahoofinance": {
    "handle": "YahooFinance",
@@ -16195,7 +16158,7 @@
    "id": "19546277",
    "name": "Yahoo Finance",
    "joined": "2009-01-26T17:44:44+00:00",
-   "followers": 2078711,
+   "followers": 2078719,
    "following": 360,
    "posts": 384577,
    "verified": "organization",
@@ -16203,8 +16166,8 @@
    "sample": 17,
    "sample_full_week": true,
    "posts_7d": 17,
-   "avg_likes": 57.6,
-   "avg_views": 19767,
+   "avg_likes": 58.7,
+   "avg_views": 19859,
    "bio_site": "https://rb.gy/l8obaz",
    "bio": "The world\u2019s biggest business news platform: http://finance.yahoo.com\nGet the free Yahoo Finance app & subscribe to our morning newsletter, the Morning Brief \u2b07\ufe0f",
    "cas": [],
@@ -16228,7 +16191,7 @@
     "A wearable that curbs appetite? A Chinese neurotech firm says it\u2019s working on one. BrainCo, which wants to compete with Neuralink, says the device would stimulate the brain to suppress appetite. Founding partner Nyx He called it an \u201celectronic version of GLP-1\u201d at Bloomberg Tech London. It aims to l",
     "Same restaurant, same menu, two very different price tags \ud83e\udd69 Delmonico\u2019s steak prices show how the everyday and the luxury sides of the economy are pulling apart, even at one table in Lower Manhattan. Would you pay up for the luxury cut? @BrookeDiPalma"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "kokoahdotcom": {
    "handle": "kokoahdotcom",
@@ -16257,7 +16220,7 @@
     "hyperliquid:native",
     "hyperliquid:native"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "tyrian_handle": {
    "handle": "tyrian_handle",
@@ -16281,7 +16244,7 @@
    "sample_full_week": true,
    "posts_7d": 17,
    "avg_likes": 3.6,
-   "avg_views": 138,
+   "avg_views": 139,
    "bio_site": "https://otsea.site",
    "bio": "A private desk for your next deal. Agree a price, share an encrypted offer link, and settle directly on Robinhood.\n\n0xd215c88b0d0ab0301081b929c37e6994a34ff369",
    "cas": [
@@ -16308,7 +16271,7 @@
     "Creating an OTC offer starts with the terms you agree. Choose the asset and amount you sell, then enter what you want to receive. Set an expiry and review the counterparty access before funding exactly the sell amount into escrow. The buyer reviews those terms before accepting. Start here: https://o",
     "Oh Tea Sea sounds like O-T-C. The cup and waves give the name its shape. The desk lets two wallets agree a fixed exchange on Robinhood Chain. The maker funds escrow, then shares the offer privately or chooses to publish it on the board. Explore the desk: https://otsea.site/"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "kalshi": {
    "handle": "Kalshi",
@@ -16316,21 +16279,22 @@
    "id": "1071484733543079936",
    "name": "Kalshi",
    "joined": "2018-12-08T19:20:42+00:00",
-   "followers": 504529,
+   "followers": 504531,
    "following": 1901,
-   "posts": 18907,
+   "posts": 18908,
    "verified": "organization",
-   "last_post": "2026-11-07T07:15:00+00:00",
+   "last_post": "2026-11-07T07:45:00+00:00",
    "sample": 18,
    "sample_full_week": true,
    "posts_7d": 18,
-   "avg_likes": 502.9,
-   "avg_views": 41261,
+   "avg_likes": 442.9,
+   "avg_views": 39252,
    "bio_site": "https://kalshi.com/x",
    "bio": "Trade what's next.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "JUST IN: New Paraguay president says customers hit by Ueno Bank collapse will be fully compensated",
     "JUST IN: Democrat Raymond Smith is now the 80% favorite to win North Carolina's 3rd House seat",
     "JUST IN: Environmental groups now use AI to track fires and wildlife while warning of data center risks",
     "JUST IN: Zelensky says he expects \"more US support\" now that Democrats control Congress",
@@ -16347,10 +16311,9 @@
     "JUST IN: Our traders forecast the US will have over 5,250 data centers this year",
     "JUST IN: Amtrak has broken its annual ridership record, completing more than 37 million trips in 2026",
     "JUST IN: Trump participates in \"Diwali Celebration\" at White House",
-    "JUST IN: Epstein-linked billionaire compares AI to an alien civilization coming to Earth",
-    "JUST IN: Florida Governor Ron DeSantis plans another presidential run in 2028"
+    "JUST IN: Epstein-linked billionaire compares AI to an alien civilization coming to Earth"
    ],
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "tryantimatter": {
    "handle": "tryantimatter",
@@ -18767,6 +18730,56 @@
    "handle": "ShabbatMonster",
    "found": false,
    "checked": "2026-11-07T07:00:33+00:00"
+  },
+  "0xcover": {
+   "handle": "0xCover",
+   "found": true,
+   "id": "110244660",
+   "name": "Cover",
+   "joined": "2010-01-31T21:51:43+00:00",
+   "followers": 1181,
+   "following": 2,
+   "posts": 146,
+   "verified": null,
+   "last_post": "2026-10-18T19:32:57+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 0.7,
+   "avg_views": 563,
+   "bio_site": null,
+   "bio": "Crypto | Memecoins | Alpha \ud83e\udde0",
+   "cas": [
+    "0xbfb3f23d6410b7c7910c18f5fde2c89968631e18",
+    "0xc242c264efe56109c495b308985f2694593477f8",
+    "0xd6fde6a3fc6ab2d83b2be58383944ca1bade1e18",
+    "0xd83fb5bbaeff770fae5c0be2fdf060dd7b2a24da",
+    "0xdb97b2aefd6816485a757ae49280d598a5c9c848",
+    "0xf5fcfb919b1646d07086c7672d8c813a839830b3",
+    "0xfc9e2b3e001a16a5643cee48be04b59327457777"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "0xd83fb5bbaeff770fae5c0be2fdf060dd7b2a24da goes 1m+ if he posts ca, insane dev",
+    "0xc242c264efe56109c495b308985f2694593477f8 god tier narra",
+    "0xd6fde6a3fc6ab2d83b2be58383944ca1bade1e18 dev built a uniswap pear built on applong Built by his ai agent and ur fading at 1m?",
+    "0xfc9e2b3e001a16a5643cee48be04b59327457777 dev works for @uniswap apparently",
+    "0xf5fcfb919b1646d07086c7672d8c813a839830b3 like 4 fakes came out of this guys coin, he hasnt posted ca but dev wallet was funded months ago, it could be his,",
+    "\"SOMEONE MAKE A TOKENIZED CRAMER STOCK OF ME!\" WE JUST GOT A GIGA RUNNER https://www.youtube.com/watch?v=WAA4y14Z7MU",
+    "Vlad tenev a couple of months made did a interview with @CharlesSchwab in july before he launched robinhood chain In the article he talks about memecoins backed by stocks and says \"a dog backed by elon which would be you know tesla or spacex or a product he created, a dog coin\" with a image. https:/",
+    "no one else noticed this but nasdaq quite literally has a domain named \"fart123\" could this be the fartcoin of stocks? https://subdomainsfinder.net/scans/2026-09-02/nasdaq.com#:~:text=Cloudflare-,fart123.nasdaq.com,-52.222.201.26",
+    "XAI HAVE JUST ADDED A NEW ROBOT NAMED \"GROKKYBARA\" THIS IS NOT A FORK OR LARP, CHECK YOURSELF https://github.com/xai-org/grok-build ROBINHOOD HAS \"AI\" I TRULY THINK WE CAN RUN GROKKYBARA ON SOLANA PAIRING TO STOCKX https://x.com/0xxKingHenry/status/2094079171081232413",
+    ".@georgesoros, a us congressman just said the average man would buy memes like coincat than indexfunds, i think he meant to say cashcat but is this not the best deriv? its on the us government website, https://www.sec.gov/comments/S7-2026-27/s7202627-1008859-3218706_0.html#:~:text=would%20rather%20b",
+    "\"WE WANT IT SO YOU CAN BUY ANYTHING LIKE A DOG FROM YOUR PHONE\" https://youtu.be/UBU9H0ae1Uo?t=59 VLADTENEV JUST GAVE US A NEW DOG MEME",
+    "0xdb97b2aefd6816485a757ae49280d598a5c9c848 dev works at @DefiLlama its a 1m+ coin if he confirms ca",
+    "13 MINUTES AGO, ROBINHOOD ADDED THE DOMAIN \"https://MEMEHOOD.ROBINHOOD.COM\" TO THEIR WEBSITE???????????? THE PAGE WILL BE ABOUT MEMECOINS AND MEMESTOCKS https://subdomainsfinder.net/scans/2026-08-19/robinhood",
+    "Congress just passed the crypto clarity act, if you look into the definition of memecoin trader it says \"enthusiastic online community\" They dead ass believe we are just retards who all gamble together as friends LOL https://www.congress.gov/bill/119th-congress/senate-bill/4064/text?s=7&r=13&hl=MEME",
+    "The crypto clarity act is saying the us government may release a token named \"cash token\" where they charge you interest in the future, bascially usdc but the jewish version of it LMAO https://www.congress.gov/bill/119th-congress/house-bill/3633/text#:~:text=yield%20(whether%20in-,cash,-%2C%20tokens",
+    "0xbfb3f23d6410b7c7910c18f5fde2c89968631e18 INSANE DEV",
+    "THE INDIAN RUPEE IS OUTPERFORMING THE DOLLAR AS OF RIGHT NOW LOLOL TRUMP IS GONNA GO SCHRIZO ABOUT THIS ON TRUTH SOCIAL https://www.youtube.com/watch?v=sTQ26eECScM",
+    "Jason furie just uploaded a meme of his brother being eaten by crypto with a pic of a \"degencoin\" to his site This his response to matt furie being hacked https://jasonfuries.com/illustration matt furie & jason furie have never claimed memecoins only hackers have claimed it for them on apps like bag"
+   ],
+   "checked": "2026-11-07T07:43:31+00:00"
   }
  },
  "ids": {
@@ -20253,6 +20266,9 @@
   ],
   "1436228734290333714": [
    "aixuexi_ai"
+  ],
+  "110244660": [
+   "0xCover"
   ]
  },
  "past": {
@@ -20794,7 +20810,8 @@
   "1vampnation1": [],
   "yumifinance": [],
   "aixuexi_ai": [],
-  "shabbatmonster": []
+  "shabbatmonster": [],
+  "0xcover": []
  },
  "history": {
   "barragetrade": {
@@ -22033,6 +22050,10 @@
    "2026-11-05": [
     7929814,
     22011
+   ],
+   "2026-11-07": [
+    7927302,
+    22012
    ]
   },
   "unsealnetwork": {
@@ -22051,6 +22072,10 @@
     19
    ],
    "2026-11-06": [
+    47,
+    19
+   ],
+   "2026-11-07": [
     47,
     19
    ]
@@ -22551,6 +22576,10 @@
    "2026-11-05": [
     560,
     292
+   ],
+   "2026-11-07": [
+    554,
+    304
    ]
   },
   "ignition_rh": {
@@ -22797,6 +22826,10 @@
    "2026-11-06": [
     165,
     96
+   ],
+   "2026-11-07": [
+    165,
+    97
    ]
   },
   "tryanyroute": {
@@ -23226,6 +23259,10 @@
    ],
    "2026-11-06": [
     1100,
+    28
+   ],
+   "2026-11-07": [
+    1099,
     28
    ]
   },
@@ -23941,6 +23978,10 @@
    "2026-11-05": [
     947,
     595
+   ],
+   "2026-11-07": [
+    985,
+    602
    ]
   },
   "goobtokenrh": {
@@ -24261,6 +24302,10 @@
    "2026-11-06": [
     657707,
     5263
+   ],
+   "2026-11-07": [
+    657334,
+    5264
    ]
   },
   "gamestoponchain": {
@@ -24421,10 +24466,6 @@
    "2026-11-06": [
     2612,
     217
-   ],
-   "2026-11-07": [
-    2611,
-    217
    ]
   },
   "karmawallet": {
@@ -24439,7 +24480,7 @@
     825
    ],
    "2026-11-07": [
-    4211,
+    4213,
     825
    ]
   },
@@ -25175,7 +25216,7 @@
     384569
    ],
    "2026-11-07": [
-    2078711,
+    2078719,
     384577
    ]
   },
@@ -25205,8 +25246,8 @@
     18875
    ],
    "2026-11-07": [
-    504529,
-    18907
+    504531,
+    18908
    ]
   },
   "vladyy__01": {
@@ -25592,6 +25633,12 @@
     8108,
     66154
    ]
+  },
+  "0xcover": {
+   "2026-11-07": [
+    1181,
+    146
+   ]
   }
  },
  "telegram": {
@@ -25677,11 +25724,11 @@
   },
   "withveya": {
    "found": true,
-   "members": 168,
+   "members": 171,
    "kind": "members",
-   "online": 27,
+   "online": 28,
    "name": "withveya",
-   "checked": "2026-11-05T23:26:47+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "quietwinning": {
    "found": true,
@@ -25711,9 +25758,9 @@
    "found": true,
    "members": 33,
    "kind": "members",
-   "online": null,
+   "online": 3,
    "name": "openanylabs",
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "thegameneverstopped": {
    "found": true,
@@ -25765,11 +25812,11 @@
   },
   "heydeployr": {
    "found": true,
-   "members": 644,
+   "members": 649,
    "kind": "members",
-   "online": 100,
+   "online": 99,
    "name": "heydeployr",
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   }
  },
  "tg_history": {
@@ -25823,7 +25870,8 @@
    "2026-11-05": 77
   },
   "withveya": {
-   "2026-11-05": 168
+   "2026-11-05": 168,
+   "2026-11-07": 171
   },
   "quietwinning": {
    "2026-11-05": 186,
@@ -25866,7 +25914,7 @@
   },
   "heydeployr": {
    "2026-11-06": 507,
-   "2026-11-07": 644
+   "2026-11-07": 649
   }
  },
  "gh": {
@@ -26133,7 +26181,7 @@
   "tatter-xyz": {
    "twitter": null,
    "blog": "https://tatter.xyz",
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "humanprotocol": {
    "twitter": null,
@@ -26233,7 +26281,7 @@
   "vbuterin": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-06T11:17:04+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "unseal-network": {
    "twitter": null,
@@ -26308,7 +26356,7 @@
   "veyanet": {
    "twitter": "withveya",
    "blog": "veyanet.tech",
-   "checked": "2026-11-05T23:26:47+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "insforge": {
    "twitter": "insforge",
@@ -26503,12 +26551,12 @@
   "sherwoodagent": {
    "twitter": "sherwoodagent",
    "blog": "https://sherwood.sh",
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "droodotfoo": {
    "twitter": "DROOdotFOO",
    "blog": "https://droo.foo/",
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "lumiwave": {
    "twitter": "LumiWave_Lab",
@@ -26518,12 +26566,12 @@
   "zkblank": {
    "twitter": null,
    "blog": null,
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "coollabsio": {
    "twitter": "coolifyio",
    "blog": "https://coollabs.io",
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "ollama": {
    "twitter": "ollama",
@@ -26608,7 +26656,7 @@
   "alexverify": {
    "twitter": null,
    "blog": "https://eyebrow.cc",
-   "checked": "2026-11-05T22:03:57+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "failproofai": {
    "twitter": "failproofai",
@@ -26678,7 +26726,7 @@
   "0gfoundation": {
    "twitter": "0g_foundation",
    "blog": "0gfoundation.ai",
-   "checked": "2026-11-06T04:01:44+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "juliusbrussee": {
    "twitter": null,
@@ -26703,7 +26751,7 @@
   "blackboxai-lol": {
    "twitter": null,
    "blog": null,
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "ponsvault": {
    "twitter": "PonsVault",
@@ -26918,17 +26966,17 @@
   "danoszz": {
    "twitter": "daanvanderzwaag",
    "blog": "daanvanderzwaag.com",
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "davidturturean": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "kokoahdotcom": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-07T07:24:37+00:00"
+   "checked": "2026-11-07T07:43:31+00:00"
   },
   "arcticons-team": {
    "twitter": null,
