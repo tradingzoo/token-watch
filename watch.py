@@ -1763,7 +1763,8 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         if sc["score"] < SHOW_AT:  # hidden from the page (user, 6 Nov); still scored and priced
             continue
         is_site = sc.get("kind") == "site"
-        new = days_between(NOW, iso(r.get("launched") or r["first_seen"])) < 1  # launched in the last day
+        # found by the scanner in the last day (user, 7 Nov: GOO launched 26 Sep, found 7 Nov, was hidden by the New filter)
+        new = days_between(NOW, iso(r["first_seen"])) < 1
         links = [(f"https://ponsfamily.com/launchpad/{r['address'].lower()}", "Pons"),
                  (f"https://dexscreener.com/robinhood/{r['address']}", "DexScreener")]
         if not is_site:
