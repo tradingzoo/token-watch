@@ -8941,21 +8941,22 @@
    "id": "1265037073",
    "name": "Robinhood",
    "joined": "2013-03-13T17:42:06+00:00",
-   "followers": 1394734,
+   "followers": 1394651,
    "following": 33,
-   "posts": 16170,
+   "posts": 16171,
    "verified": "organization",
-   "last_post": "2026-11-06T18:17:57+00:00",
+   "last_post": "2026-11-06T20:01:21+00:00",
    "sample": 20,
    "sample_full_week": true,
    "posts_7d": 20,
-   "avg_likes": 293.2,
-   "avg_views": 46333,
+   "avg_likes": 292.6,
+   "avg_views": 46537,
    "bio_site": "https://rbnhd.co/social_media_disclosures",
    "bio": "Trade. Invest. Earn.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "heat check: passed \ud83d\udd25",
     "houston, we have a new agent app \ud83e\ude90",
     "$XDC and $VIRTUAL are now available to trade on Robinhood Legend.",
     "keep exploring, we keep building \ud83d\udc40",
@@ -8974,10 +8975,9 @@
     "If you\u2019re following just one race tonight, which one is it?",
     "It's Election Day. We'll be here all day, following the races and the markets as they move.",
     "Good morning to everyone who checked a midterm market before the weather.",
-    "shout out to the financial literacy arc we all went through",
-    "welcome home, gold card https://robinhood.com/creditcard/ Terms Apply. A $50 annual Robinhood Gold subscription is required."
+    "shout out to the financial literacy arc we all went through"
    ],
-   "checked": "2026-11-06T18:33:20+00:00"
+   "checked": "2026-11-07T06:45:22+00:00"
   },
   "oryliaai": {
    "handle": "oryliaai",
@@ -15695,16 +15695,16 @@
    "id": "2118740495484727296",
    "name": "Titen",
    "joined": "2026-11-06T16:22:34+00:00",
-   "followers": 14,
+   "followers": 36,
    "following": 3,
-   "posts": 12,
+   "posts": 14,
    "verified": null,
-   "last_post": "2026-11-06T18:22:40+00:00",
-   "sample": 11,
+   "last_post": "2026-11-06T18:58:57+00:00",
+   "sample": 13,
    "sample_full_week": false,
-   "posts_7d": 11,
-   "avg_likes": 2.4,
-   "avg_views": 30,
+   "posts_7d": 13,
+   "avg_likes": 4.5,
+   "avg_views": 75,
    "bio_site": "https://titenhq.com/",
    "bio": "An AI agent that reads the signs. Trend Radar, Daily Brief, TL;DR any link and Scam Check.\n$TITEN 0x87c8c765ea31c836654df2d2343914e73f126dd7",
    "cas": [
@@ -15714,6 +15714,8 @@
     "Before you click any \"airdrop\" or \"claim\" link, paste it into https://titenhq.com/scam Titen looks up public info about the domain and explains the red flags. It never opens the link. Do it for every  (Nov 06 17:56 UTC)"
    ],
    "texts": [
+    "What Titen does not do: \u00b7 no account \u00b7 no tracking cookies \u00b7 no saving your messages or screenshots \u00b7 no opening suspicious links What it does: read the signs and tell you what matters, with every source linked. https://www.titenhq.com",
+    "One day on the internet, read by Titen. 06:00 \u00b7 the Trend Radar is fresh 08:00 \u00b7 a brief on any topic 12:00 \u00b7 a scam text, caught 18:00 \u00b7 a long read, in one sentence 22:00 \u00b7 a page you watch changed Free. No login. Every source linked. https://titenhq.com",
     "What is the world talking about right now? Titen's Trend Radar reads search trends, top headlines, Hacker News and GitHub every six hours, keeps the stories that matter and links every source. https://titenhq.com",
     "Titen also lives in your terminal. titen trends titen brief \"any topic\" titen tldr <url> titen scam Plus titen watch, which pings you when a page or topic changes. Bring your own OpenRouter key. Install guide: https://titenhq.com/docs",
     "Got a weird text about a parcel, a prize or your bank? Paste it into Titen's Scam Check, or drop in a screenshot. You get a verdict and the reasons, in plain words. Suspicious links are never opened. https://titenhq.com/scam",
@@ -15726,11 +15728,11 @@
     "Burned $TITEN https://robin.etherscan.io/tx/0x8a6d877cc8e01f695954958569db8e8605ea1d33f363f56966532fb37533f80b",
     "https://x.com/i/article/2118751973487046657"
    ],
-   "checked": "2026-11-06T18:33:20+00:00"
+   "checked": "2026-11-07T06:45:22+00:00"
   },
   "nexxopad": {
    "handle": "Nexxopad",
-   "found": true,
+   "found": false,
    "id": "2118304800362446849",
    "name": "Nexxo",
    "joined": "2026-11-05T11:29:55+00:00",
@@ -15753,18 +15755,19 @@
    "texts": [
     "Introducing Nexxo. Ca: 0xa2cadf9579e4f3c2c5d6085024b56b181def0e9f Launch on your terms. 5 Methods, 1 transaction, verified on-chain. https://nexxopad.fun"
    ],
-   "checked": "2026-11-06T18:33:20+00:00"
+   "checked": "2026-11-07T06:45:22+00:00",
+   "gone_since": "2026-11-07T06:45:22+00:00"
   },
   "agentminingrig": {
    "handle": "agentminingrig",
    "found": false,
-   "checked": "2026-11-06T18:33:20+00:00",
+   "checked": "2026-11-07T06:45:22+00:00",
    "cas": [],
    "fake_posts": []
   },
   "heydeployr": {
    "handle": "HeyDeployr",
-   "found": true,
+   "found": false,
    "id": "2037945108000083968",
    "name": "Deployr",
    "joined": "2026-03-28T17:30:44+00:00",
@@ -15803,7 +15806,8 @@
     "Please be careful there are a lot of scam groups that are impersonating Deployr. We only have 1 official telegram group: https://t.me/printrdeployr Always double check. Nobody from our team will DM you first. There is no \"airdrop\", or \"claim\" allocation. Be careful, stay safe! \ud83d\ude4f",
     "Following the release of the new MCP version, you now can now launch & buy supply using Deployr, and then transfer those tokens to your wallet. We also added the option to designate another twitter account to receive creator fees. So now it's easier for you to bypass the $5 minimum claiming threesho"
    ],
-   "checked": "2026-11-06T18:33:20+00:00"
+   "checked": "2026-11-07T06:45:22+00:00",
+   "gone_since": "2026-11-07T06:45:22+00:00"
   },
   "flashtraderh": {
    "handle": "FlashTradeRh",
@@ -15837,7 +15841,7 @@
   },
   "noctualabrh": {
    "handle": "NoctuaLabRH",
-   "found": true,
+   "found": false,
    "id": "2118745657217531906",
    "name": "NoctuaLabRH",
    "joined": "2026-11-06T16:42:51+00:00",
@@ -15872,7 +15876,8 @@
     "/ Not a tab you keep open. Not a subscription you cancel. Install once from your terminal, and the gateway is yours: your machine, your rules, your uptime.",
     "2/ noctuaAI is a self-hosted AI agent with a built-in miner. One gateway runs on your own hardware \u2014 a desktop, a server, a box under the desk \u2014 and keeps working while you sleep."
    ],
-   "checked": "2026-11-06T18:33:20+00:00"
+   "checked": "2026-11-07T06:45:22+00:00",
+   "gone_since": "2026-11-07T06:45:22+00:00"
   },
   "skeinbond": {
    "handle": "SkeinBond",
@@ -15921,7 +15926,7 @@
    "id": "2109018199740301312",
    "name": "alon",
    "joined": "2026-10-10T20:28:17+00:00",
-   "followers": 144,
+   "followers": 150,
    "following": 1,
    "posts": 93,
    "verified": "individual",
@@ -15929,8 +15934,8 @@
    "sample": 20,
    "sample_full_week": true,
    "posts_7d": 20,
-   "avg_likes": 4.3,
-   "avg_views": 382,
+   "avg_likes": 4.7,
+   "avg_views": 468,
    "bio_site": null,
    "bio": "Founder of @batunfun\n\nWork is mandatory\u2122",
    "cas": [],
@@ -15957,7 +15962,7 @@
     "HOW WE ALL MISSED THIS NARRATIVE??? Solana Labs is building the first \"mobile\" trading app LITERAL OFFICIAL SOLANA CREATING MOBILE TRADING APP?? Ape On Mobil! (MERT INTERACTED + TOLY INCOMING) https://x.com/leapxyz/status/2118387847853908115",
     "solana live on samsung??? https://x.com/solana/status/2118388778276733438"
    ],
-   "checked": "2026-11-06T18:33:20+00:00"
+   "checked": "2026-11-07T06:45:22+00:00"
   },
   "hissrh": {
    "handle": "HISSRH",
@@ -16011,16 +16016,16 @@
    "id": "1364933081652674563",
    "name": "GOLD / MINE",
    "joined": "2021-02-25T13:39:59+00:00",
-   "followers": 5096,
+   "followers": 5132,
    "following": 1,
-   "posts": 69,
-   "verified": "individual",
-   "last_post": "2026-11-06T18:35:24+00:00",
-   "sample": 19,
-   "sample_full_week": false,
-   "posts_7d": 7,
-   "avg_likes": 36.7,
-   "avg_views": 1114,
+   "posts": 96,
+   "verified": null,
+   "last_post": "2026-11-07T06:25:00+00:00",
+   "sample": 18,
+   "sample_full_week": true,
+   "posts_7d": 18,
+   "avg_likes": 7.1,
+   "avg_views": 185,
    "bio_site": "https://thegoldmine.fun/",
    "bio": "The first mineable token on Robinhood.\n\nPaired with Gold.\n\n0x318a60f56059299a69ad61aae977665e752aa635",
    "cas": [
@@ -16032,27 +16037,26 @@
     "GOLD/MINE is releasing in early October as the first mineable and fairly distributed token on @RobinhoodCrypto Beware of scams and impersonators! (Sep 25 17:06 UTC)"
    ],
    "texts": [
-    "These is the contract that manages all $MINE eco :3 0xb4838B44b81812C6Add6C6765E55Fc43512FcFBa All mining supply and player staked funds are stored there",
-    "THE MINE IS WORKING!! :3 Visit http://goldmine.fun and begin growing your cave network and staking your coins! \u26cf\ufe0fMine wallet: 0xb4838b44b81812c6add6c6765e55fc43512fcfba This contract holds 80% supply and will automatically distribute coins to all participants",
-    "The game is being deployed right now, it should take 8 minutes!!",
-    "never stop digging! :3",
-    "Get ready to $MINE! :3 80% of supply will be locked in a smart contract, slowly distributing towards cave owners Set up your Cave \u2192 Install Miners \u2192 Earn $MINE\u2192 Unlock and upgrade rooms \u2192 Add stronger miners And earn constant $GLD rewards for holding! \u26cf\ufe0f^>\u2a4a<^ \u0e05",
-    "Today ><",
-    "GMEOW! :3 We are launching today!! The CA will be posted here, beware of impersonators!",
-    "Gmeow :3 We are delaying our launch, but only for a bit! Stay tuned until further notice!",
-    "IT'S SETTLED! :3 Goldmine dot fun is launching on 29th October Visit our website now to get a free starter pack! Prepare your pickaxes, we are mining soon \u0e05^>\u2a4a<^ \u0e05",
-    "lmeow",
-    "G/M \ud83e\ude99\u26cf\ufe0f Stay tuned for the release date :3",
-    "Over 100 people joined waitlist to claim their rewards! Claim early supporter pack today yourself :3 https://thegoldmine.fun/",
-    "G/M \ud83e\ude99\u26cf\ufe0f Our referral system is ready! :3 Invite friends to receive free tokens to set up your mine Most active users will receive unique miner skins as NFT rewards! Visit our website to participate",
-    "G/M\ud83e\ude99\u26cf\ufe0f",
-    "G/M \ud83e\ude99\u26cf\ufe0f Buy $MINE -> Earn gold Burn $MINE -> Expand your cave Earn more $MINE -> Earn more gold \u26cf\ufe0f^>\u2a4a<^ \u0e05",
-    "G/M \ud83e\ude99\u26cf\ufe0f Our referral system is ready! :3 Invite friends to receive free tokens to set up your mine Most active users will receive unique miner skins as NFT rewards! Visit our website to participate",
-    "GOLD/MINE is releasing in early October as the first mineable and fairly distributed token on @RobinhoodCrypto Beware of scams and impersonators!",
-    "G/M \ud83e\ude99\u26cf\ufe0f",
-    "Welcome to GOLD/MINE! GOLD/MINE is an on-chain mining game and the first mineable token paired with gold on Robinhood chain. Recruit unique cat miners -> get $MINE -> hold it to receive permanent gold dividends. The more you mine, the more you earn. \u26cf\ufe0f^>\u2a4a<^ \u0e05"
+    "Why buy gold If you can mine gold lmeow :3",
+    "This is what satoshi wanted",
+    "First gold distribution is coming soon! After the first harvest the timeframe will become much lower, sending out rewards faster Stop being farmed and start mining :3",
+    "> Mine :3 > Build :3 > Stake :3 > Repeat :3",
+    "",
+    "Almost 10% $MINE has been burned by people who bought their mining setups :3",
+    "GOLD/MINE offers most fair and community based token distribution on the market! 80% of supply is slowly distributed to active game participants, giving players plenty of time to enter and set up a mine :3 Choose your own strategy, focus on building mine or staking your coins to get $GLD revenue!",
+    "Our next steps! - NFT management UI - Gold distribution start (it is already being recorded in proportion to holding time :3) - More efficient ways to burn $MINE",
+    "GOLD/MINE is a fully opensource project, all our are contracts are already verified and published :3 Read the docs here: https://thegoldmine.fun/docs/protocol/contracts",
+    "We are working on a gold distribution mechanism, first $GLD dividends will be paid in 6 hours 30 minutes >< Make sure to stake! :3",
+    "Mineable coin? meow Gold dividends? meow Nfts? meow Higher? meow",
+    "Customize your cave using our in-game cosmetics! For 10000 $MINE you can change your layout to frost, poison, lava and more! :3 They will be shown in your profile as a proper flex",
+    "We are verifying all contracts right now to make sure they are confirmed safe on all scans! \u26cf\ufe0f^>\u2a4a<^ \u0e05",
+    "tired of rugs? :( looking for a slow cook? :3 start mining!!! \u26cf\ufe0f^>\u2a4a<^ \u0e05",
+    "Make sure to stake your tokens kittens! :3 All staked tokens will receive permanent gold dividends",
+    "lmeow :3",
+    "Make sure to put your $MINE into vault to stake it! :3 This will be give you constant gold rewards meow",
+    "NFTs already exist for each cat miner! We are working on a full opensea profile right now :3"
    ],
-   "checked": "2026-11-06T18:33:20+00:00"
+   "checked": "2026-11-07T06:45:22+00:00"
   },
   "__1801": {
    "handle": "__1801",
@@ -18577,6 +18581,48 @@
     "AMD HAS ANIME MASCOTS?!?!?! Devving this on pons paired to AMD, this can do so well on here since sol has A Meme Dog"
    ],
    "checked": "2026-11-07T06:30:32+00:00"
+  },
+  "yumifinance": {
+   "handle": "YumiFinance",
+   "found": true,
+   "id": "1937428713513291776",
+   "name": "Yumi Finance",
+   "joined": "2025-06-24T08:33:06+00:00",
+   "followers": 1592,
+   "following": 8,
+   "posts": 147,
+   "verified": "individual",
+   "last_post": "2026-09-26T07:05:01+00:00",
+   "sample": 18,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 11.6,
+   "avg_views": 509,
+   "bio_site": "https://yumi.finance",
+   "bio": "Building the next era of credit with stablecoins",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "There are now more than 5 million industrial robots operating in factories worldwide. That is up 9% in a year, and factories installed more than 600,000 new robots in 2025, the first time annual installations crossed that mark. IFR International Federation of Robotics At this point, robotics is no l",
+    "There are now more than 5 million industrial robots operating in factories worldwide. That is up 9% in a year, and factories installed more than 600,000 new robots in 2025, the first time annual installations crossed that mark. IFR International Federation of Robotics At this point, robotics is no l",
+    "Agility\u2019s latest Digit economics are useful because they show how misleading the sticker price of a robot can be. The illustrative numbers are roughly $200k for the robot, $20k to deploy it, and $36k a year for software and maintenance. Over five years, that gets close to $400k. So the hardware is o",
+    "Motion is trying something that could matter a lot more than another humanoid launch. Instead of selling robots, it charges factories a monthly fee that includes the robot, deployment, integration, maintenance, insurance and financing. That changes the buying decision completely. A factory no longer",
+    "North American companies ordered nearly 18,000 robots worth ~$1.2B in the first half of 2026. At that volume, \u201chow good is the robot?\u201d stops being the only interesting question. Someone has to finance all of this hardware. And as subscription models make automation easier to adopt, ownership can inc",
+    "One of the more interesting robot markets may be hiding inside data centers. WIRED reported past week that Meta is testing robots for tasks like plugging in cables, resetting servers and moving equipment as it expands AI infrastructure. The economics here are interesting because the environment is h",
+    "What if the important number for a robot is not how many get sold, but how many hours each one stays productive? RoboShare said this week that it is building an initial pool of more than 80 robots and using real customer orders to test utilization, service delivery and unit economics. It also announ",
+    "What if the important number for a robot is not how many get sold, but how many hours each one stays productive? RoboShare said this week that it is building an initial pool of more than 80 robots and using real customer orders to test utilization, service delivery and unit economics. It also announ",
+    "Hyundai may end up selling robots through the same commercial rails it already uses for cars. At its 2026 Investor Day, Hyundai said Boston Dynamics robots could potentially be distributed through its dealer network, while Hyundai Capital is exploring financing for robot sales. That is a much bigger",
+    "Hyundai may end up selling robots through the same commercial rails it already uses for cars. At its 2026 Investor Day, Hyundai said Boston Dynamics robots could potentially be distributed through its dealer network, while Hyundai Capital is exploring financing for robot sales. That is a much bigger",
+    "The robots that scale first may not be the ones with the broadest capabilities. They may simply be the ones that solve a valuable problem reliably enough, cheaply enough and often enough that customers want another one. Robots are becoming more capable, more dexterous and more autonomous. But the ro",
+    "Do humanoids need legs? Robotera is a good example. At its WRC booth, the parcel-sorting system was technically a humanoid product, but one that had effectively dropped the legs. A humanoid torso mounted on a wheeled tripod base was doing the repetitive logistics job instead. That is more interestin",
+    "At WRC, @XSquareRobot showed a much simpler approach to logistics sorting. Its robotic arm-and-gripper system processed 1,816 randomly selected parcels per hour with more than 98% accuracy in an earlier livestreamed test on August 12. X Square says the setup costs around 70% less than an equivalent ",
+    "Industrial robot deployments often cost far more than the robot itself. The robot may represent only part of the total deployment cost, with the rest going into tooling, safety systems, programming and installation. For leasers, that matters because the robot itself may be removable and resellable, ",
+    "Who actually borrows against a robot? Sometimes it\u2019s the customer buying the robot. Other times, it\u2019s the company that owns and operates an entire fleet. Those are two pretty different underwriting problems.",
+    "For a customer-owned robot, you\u2019re mostly looking at the borrower, the machine, and whether that asset can generate enough value to justify the financing. Fleet operators are harder. You\u2019re still underwriting the robots as collateral, but now you also care about utilization, the contracts or revenue",
+    "Serve Robotics is an interesting example. Early on, Serve financed robot hardware through a lease with Farnam Street Financial. As Serve raised more capital, it moved away from equipment financing and began funding the fleet itself. That\u2019s the interesting part. For a fleet operator, the lender isn\u2019t",
+    "We\u2019ll be at the World Robot Conference in Beijing this week \ud83c\udde8\ud83c\uddf3 @CosmicDude3000 will be there checking out the latest humanoids and catching some of the World Humanoid Robot Games. If you\u2019re around, feel free to reach out and say hi."
+   ],
+   "checked": "2026-11-07T06:45:22+00:00"
   }
  },
  "ids": {
@@ -20057,6 +20103,9 @@
   ],
   "2113095707796119552": [
    "1vampnation1"
+  ],
+  "1937428713513291776": [
+   "YumiFinance"
   ]
  },
  "past": {
@@ -20595,7 +20644,8 @@
   "derstar_options": [],
   "telegram": [],
   "shiftspl": [],
-  "1vampnation1": []
+  "1vampnation1": [],
+  "yumifinance": []
  },
  "history": {
   "barragetrade": {
@@ -23230,6 +23280,10 @@
    "2026-11-06": [
     1394734,
     16170
+   ],
+   "2026-11-07": [
+    1394651,
+    16171
    ]
   },
   "oryliaai": {
@@ -24832,11 +24886,19 @@
    "2026-11-06": [
     14,
     12
+   ],
+   "2026-11-07": [
+    36,
+    14
    ]
   },
   "a1lu0n9": {
    "2026-11-06": [
     144,
+    93
+   ],
+   "2026-11-07": [
+    150,
     93
    ]
   },
@@ -24868,6 +24930,10 @@
    "2026-11-06": [
     5096,
     69
+   ],
+   "2026-11-07": [
+    5132,
+    96
    ]
   },
   "cavemanso": {
@@ -25276,6 +25342,12 @@
    "2026-11-07": [
     52,
     234
+   ]
+  },
+  "yumifinance": {
+   "2026-11-07": [
+    1592,
+    147
    ]
   }
  },
@@ -26596,7 +26668,7 @@
   "solanaguide": {
    "twitter": "solanacompass",
    "blog": "https://solanacompass.com",
-   "checked": "2026-11-06T18:33:20+00:00"
+   "checked": "2026-11-07T06:45:22+00:00"
   },
   "danoszz": {
    "twitter": "daanvanderzwaag",
@@ -26732,6 +26804,11 @@
    "twitter": null,
    "blog": "",
    "checked": "2026-11-07T06:15:23+00:00"
+  },
+  "yumi-finance": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-07T06:45:22+00:00"
   }
  }
 }

@@ -6195,17 +6195,17 @@
   "wallet_txs": 2
  },
  "0x5ae355bc2f36da1daa02a2bbb9a0727150f05961": {
-  "checked": "2026-11-06T18:39:36+00:00",
+  "checked": "2026-11-07T06:52:36+00:00",
   "pons": true,
   "wallet": "0xf82da8d40db8d6f7c0bebd8a56ee7633f8edf5f8",
   "launches": 1,
   "before": 0,
   "after": 0,
   "others": [],
-  "wallet_txs": 4
+  "wallet_txs": 8
  },
  "0x2521e90646ca191bc133edda104d93260d744da2": {
-  "checked": "2026-11-06T18:39:36+00:00",
+  "checked": "2026-11-07T06:52:36+00:00",
   "pons": true,
   "wallet": "0x75fa8b60c0aaa94f6d2c04f06c430f877b2e10c1",
   "launches": 3,
@@ -6215,20 +6215,20 @@
    {
     "address": "0x46e5539c66abff485e694bb84e26aa5fa060047d",
     "symbol": "CRVL",
-    "mcap": 3711.73093453703,
+    "mcap": 3733.5825782489273,
     "launched": "2026-11-06T17:28:30+00:00"
    },
    {
     "address": "0xa4a627f57bb3615e4fa0a65a4354f3e3a3aec406",
     "symbol": "401kinu",
-    "mcap": 3711.7171869726812,
+    "mcap": 3733.568749750135,
     "launched": "2026-11-06T16:01:41+00:00"
    }
   ],
-  "wallet_txs": 50
+  "wallet_txs": 74
  },
  "0x2b7074cbe1d2452749cf44844c6e97e7d9925769": {
-  "checked": "2026-11-06T18:39:36+00:00",
+  "checked": "2026-11-07T06:52:36+00:00",
   "pons": true,
   "wallet": "0x07673e262b25f8a04fe35f2334caf6cb9b77d1eb",
   "launches": 1,
@@ -6238,7 +6238,7 @@
   "wallet_txs": 5
  },
  "0x6ea9772fd6ba5091f2dad4833fe9a6fd6bdbf583": {
-  "checked": "2026-11-06T18:39:36+00:00",
+  "checked": "2026-11-07T06:52:36+00:00",
   "pons": true,
   "wallet": "0xd9e98d950e7c83740b4bc679a73d4f29df74e5fb",
   "launches": 1,
@@ -6248,11 +6248,11 @@
   "wallet_txs": 10
  },
  "0x318a60f56059299a69ad61aae977665e752aa635": {
-  "checked": "2026-11-06T18:39:36+00:00",
+  "checked": "2026-11-07T06:52:36+00:00",
   "pons": false
  },
  "0x6ecaae484700eab01c74b39e600949e0113a9a10": {
-  "checked": "2026-11-06T18:39:36+00:00",
+  "checked": "2026-11-07T06:52:36+00:00",
   "pons": true,
   "wallet": "0xbd55481db320baf74e59028652c0d8ff6c51fb88",
   "launches": 29,
@@ -6262,49 +6262,49 @@
    {
     "address": "0x9f18f0055b8ef8a41ae1ba43e59daa9e3f4d21a4",
     "symbol": "STOCK",
-    "mcap": 3542.357530402395,
+    "mcap": 3533.7203743208875,
     "launched": "2026-11-06T16:20:29+00:00"
    },
    {
     "address": "0x6e5fc17e2fc45844fcd8f8235ae5bc077f20693e",
     "symbol": "HUMAN",
-    "mcap": 3711.2626896396046,
+    "mcap": 3733.1115767075403,
     "launched": "2026-11-05T20:15:35+00:00"
    },
    {
     "address": "0x515cc3bed37c43a92c1fd32e5b9fcb30c053386f",
     "symbol": "OWA",
-    "mcap": 3795.437270331331,
+    "mcap": 3817.7817086607442,
     "launched": "2026-11-05T20:06:07+00:00"
    },
    {
     "address": "0x6ab44af2a34445e046bd1c288a1594fb64c56e21",
     "symbol": "RWA",
-    "mcap": 3711.262761032344,
+    "mcap": 3733.1116485205816,
     "launched": "2026-11-05T20:04:20+00:00"
    },
    {
     "address": "0x5d4edfe7b5ed453b30f7d317a13b6c7cb0bd8c0b",
     "symbol": "RWA",
-    "mcap": 3711.2629105108917,
+    "mcap": 3733.1117988791375,
     "launched": "2026-11-05T20:00:42+00:00"
    },
    {
     "address": "0xc4007947ae72210688b04fcb9ab4665341357bcf",
     "symbol": "AGENT",
-    "mcap": 3438.484093051936,
+    "mcap": 3443.050404042878,
     "launched": "2026-11-05T19:45:03+00:00"
    },
    {
     "address": "0x922336aba771d5bc0aeb4bfecc1de1f366b176dd",
     "symbol": "normal",
-    "mcap": 3712.041426022003,
+    "mcap": 3733.8948976544652,
     "launched": "2026-11-05T19:40:09+00:00"
    },
    {
     "address": "0x923be1e209cf460b92202baaff7c191525ab1570",
     "symbol": "INVISIBLE",
-    "mcap": 3712.5552797246833,
+    "mcap": 3734.411776508545,
     "launched": "2026-11-05T19:38:42+00:00"
    }
   ],
@@ -7512,5 +7512,15 @@
    }
   ],
   "wallet_txs": 461
+ },
+ "0x8c58c8b40207eb8b491bcd4ce0e6bdaaea81b064": {
+  "checked": "2026-11-07T06:52:36+00:00",
+  "pons": true,
+  "wallet": "0x04e738310574104f36d96c6289e4992d86ace84c",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 5
  }
 }
