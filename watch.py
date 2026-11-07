@@ -2110,7 +2110,10 @@ def launch_date(addr):
     if p and p.get("launched"):
         return p["launched"], "pons"
     m = market(addr) or {}
-    return (m.get("launched"), "first trade") if m.get("launched") else (None, None)
+    if m.get("launched"):
+        return m["launched"], "first trade"
+    when = deployers.created(addr)  # last resort: when the contract was made, from the chain (7 Nov)
+    return (when, "contract created") if when else (None, None)
 
 
 def keep_launch(r, g):

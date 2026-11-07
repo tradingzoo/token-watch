@@ -52,6 +52,32 @@ def _logs(a, b):
         raise
 
 
+def created(addr, step=10_000_000):
+    """ISO time of a contract's first log on Robinhood Chain (its creation: the first mint or 'ownership set' record),
+    or None. Last resort for launch dates when Pons and DexScreener have none (7 Nov: xTOPAZ, YARD, CLOCKIN, STRIKE,
+    HOLDPLEASE). Tested 7 Nov: matches Pons launch times to the minute (CUBE, LMNI, OAK, AGAV). The RPC keeps no old
+    state, so eth_getCode can't be used; logs are kept. Oldest windows first, 10M blocks each, split when too many."""
+    def first(a, b):
+        try:
+            lg = rpc("eth_getLogs", [{"address": addr, "fromBlock": hex(a), "toBlock": hex(b)}])
+        except ValueError:
+            if b - a < 1000:
+                raise
+            m = (a + b) // 2
+            return first(a, m) or first(m + 1, b)
+        return min(lg, key=lambda l: (int(l["blockNumber"], 16), int(l["logIndex"], 16))) if lg else None
+    try:
+        head = int(rpc("eth_blockNumber", []), 16)
+        for a in range(0, head + 1, step):
+            f = first(a, min(a + step - 1, head))
+            if f:
+                t = int(rpc("eth_getBlockByNumber", [f["blockNumber"], False])["timestamp"], 16)
+                return datetime.datetime.fromtimestamp(t, datetime.timezone.utc).isoformat(timespec="seconds")
+    except Exception:
+        return None
+    return None
+
+
 def save_json(path, obj):
     """Write to a temp file then swap it in, so a half-written file is never left behind."""
     os.makedirs(os.path.dirname(path), exist_ok=True)

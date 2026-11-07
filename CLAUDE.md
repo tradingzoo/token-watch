@@ -39,7 +39,7 @@ Rules: every fact gets a source and check time; "not checked" is never "no"; no 
 ## Agreed rules (don't change without asking)
 - **Page cut-off: only 61+ shows** (`SHOW_AT`), on every tab. Lower scores are still scored and priced. The "Was the score right?" tab lists **Possible misses** (hidden tokens that doubled to $25k+), with meme coins left out (counted only).
 - **One card per project, proof not size.** Same project = same repo, website, or symbol + name. The real token is the one whose address the team posted (X, site, GitHub) or a hand check confirmed. Never pick by market cap or launch time: the fake can be bigger or first. Unconfirmed groups get a "Not confirmed" box listing every address and launch wallet.
-- **Focus on AI projects.** Ignore DeFi and memes for now: don't propose scoring fixes for them; in miss checks only flag AI projects the scanner under-rated.
+- **AI first, DeFi second** (owner, 7 Nov; was "ignore DeFi"). On our lists DeFi did at least as well as AI (3+ days old: DeFi 11 of 35 reached $500k+, AI 14 of 72; small numbers). So DeFi gets hand reviews and possible-miss checks too, after the AI ones; propose DeFi scoring fixes only with evidence. Memes are still ignored.
 - **Wide net:** if a rule would hide a real project, prefer listing it with honest warnings over skipping it. Test changes against winners vs losers.
 - **Few checks early:** don't propose a new check after every deep dive. Do deep dives as reports. Suggest a check only for a clear, tested gap, or when asked.
 - **Looks unofficial?** Add `"unofficial": "why"` to `reviews.json` without asking. It shows a ❓ badge and keeps the token off the Shortlist; the score doesn't change.
