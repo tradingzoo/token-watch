@@ -1859,7 +1859,8 @@ def build_site(state, xdb=None, wallets=None, test_html="", all_rows=None, pdb=N
         proof = (bool(re.search(r"✅ Token's address is posted", said))
                  or (not unoff and (bool(hand) or reviews.get(a_.lower(), {}).get("official") is True)))
         tl = tldr_html(*tldr(r, sc, xdb, pdb, tu, bool(reviews.get(a_.lower(), {}).get("token_use")), proof, unoff, a_.lower() in copies, hand, warn_items, unclaimed), e)
-        (site_cards if is_site else cards).append(dict(r=r, sc=sc, proof=proof, unclaimed=unclaimed, unoff=unoff, hand=hand,
+        # GitHub tab = public code only; private-code tokens (scored by their website) go to Site check (user, 7 Nov)
+        (site_cards if is_site or sc.get("private") else cards).append(dict(r=r, sc=sc, proof=proof, unclaimed=unclaimed, unoff=unoff, hand=hand,
                                                        warn_items=warn_items, act=act, tags=tags, is_site=is_site, html=f"""
 <article class="card" data-score="{sc['score']}" data-new="{int(new)}" data-addr="{e(a_.lower())}">
   <header>
