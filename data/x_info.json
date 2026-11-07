@@ -4951,7 +4951,7 @@
   "jewjo_exe": {
    "handle": "jewjo_exe",
    "found": false,
-   "checked": "2026-11-06T11:58:49+00:00",
+   "checked": "2026-11-07T12:00:35+00:00",
    "cas": [],
    "fake_posts": []
   },
@@ -5690,48 +5690,11 @@
   "betadotfund": {
    "handle": "betadotfund",
    "found": false,
-   "id": "2095815322645499904",
-   "name": "beta fund",
-   "joined": "2026-09-04T10:05:24+00:00",
-   "followers": 439,
-   "following": 2,
-   "posts": 42,
-   "verified": "individual",
-   "last_post": "2026-10-07T23:48:46+00:00",
-   "sample": 19,
-   "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": 27.4,
-   "avg_views": 2916,
-   "bio_site": "http://beta.fund",
-   "bio": "the first fund that funds itself, purely by trading fees. 100% of generated profits are paid to holders in $USDG on-chain",
+   "checked": "2026-11-07T12:00:35+00:00",
    "cas": [
     "0x7968be708ac06bd5e3c2df0fdf4561b7ab6fcc1c"
    ],
-   "fake_posts": [],
-   "texts": [
-    "Beta launched 1 month ago. It has since raised $69,216 in trading fees from its token $BETA, and produced a profit of $24,781 from systematic trading strategies executed on @Lighter_xyz. 100% of these profits have been paid to the holders of the $BETA token. This represents a 35.8% gain in a month. ",
-    "near:native has been all over the timeline this week. Beta captured the upside without even knowing what the token is. On September 23, the trend model read +1.00 on near:native, its maximum long signal, with the token at $4.40. It didn't have a thesis, a narrative, or an opinion on the chain. it me",
-    "Beta's performance since inception: 0 -> $60k aum funded entirely by $BETA fees. The fund has already generated a 35.7% gain of $21,454, paid entirely to holders. 262 holders of $BETA participated in the most recent distribution of $7,283.93, with the largest holder receiving $364. This is all less ",
-    "The Beta treasury bought its first $BETA today. It was seeded once at launch with 22.7M $BETA and has never been topped up since. Nothing in the contract can release those tokens. Ownership renounce is disabled and the rescue path reverts on $BETA specifically. What goes in does not come out. The tr",
-    "Beta has raised its per epoch distribution ceiling from $5,000 to $10,000. The ceiling exists because distributions are irreversible. Once USDG is in hundreds of wallets it does not come back, so the desk refuses to move more than a set amount in a single close no matter what the profit number says.",
-    "Beta is on track to distribute $5,915.19 at the end of this epoch. track it here: https://www.beta.fund/distributions",
-    "Beta has just distributed $4,893.48 to holders. This is the settlement for epoch 24, posted on-chain at the 4pm ET close. The first wallet was paid 8 seconds later. 231 wallets were paid in under 11 minutes. Holders paid no gas. The largest holder, with 5.99% of supply, received $294.80. Total paid ",
-    "Beta is at $57,000 AUM. Four days ago the fund was down $4,467 on the epoch, with realised losses on the books and 168% of assets in a single position. The signal had not changed, so the position did not change either. Today the fund is up $3,741. That is an $8,208 recovery, and 82% of the growth in",
-    "Beta is in drawdown. -$3,052 marked, and -$2,598 of that is realised - booked losses, not paper. The fund has taken in $51,694 of fees and is carrying $48,640. It has paid holders $4,285.76, and has since given back more than it paid. $ZEC is 168% of AUM. That is the position, and it is the whole st",
-    "Why Beta is still long $ZEC, precisely. The trend score is the mean of three signs - is price above where it was 168h, 720h and 2160h ago. Magnitude is irrelevant. A -8% week doesn't shrink the position; it only matters if it flips a sign. Right now: 1 week: ZEC 1,186.59 \u2192 1,092.95, -7.9%, sign -1 1",
-    "Beta has officially reached $50k AUM in under a week. This was driven entirely by trading fees on the token $BETA. These funds have been traded systematically, 24/7, on a @Lighter_xyz using quantitative trading strategies. This generated profits of $4,285.76, which were paid entirely to holders - in",
-    "@Lighter_xyz watch the AUM tick up here: https://www.beta.fund/",
-    "Beta is up $1,748 this epoch - a $5,556 profit from where we posted yesterday. Same epoch. Same position. ZEC bottomed at 1,055 and is back at 1,155. We didn't cut it like everyone was saying. The model actually added into the fall, because size follows conviction \u00f7 volatility - and signal[ZEC] neve",
-    "Beta is down $3,808 this epoch - about 8.5% This comes from a single position - ZEC, \u221214% in 24h. It's our largest holding because all three trend horizons (1 week, 1 month, 3 months) agreed it was rising. You can watch the signals stream live in the terminal on the site: signal[ZEC] trend +1.0 - th",
-    "interesting\u2026",
-    "Day 4 update - Beta has grown. As of 7 minutes ago, Beta reached a new portfolio high of $45,259, as well as a new profit ATH of $4,986.46, with $3,515.18 of profit in the last 24 hours. It has accrued 9.45 Lighter points, and as this stack grows, Beta is building the rails to automatically distribu",
-    "Introducing the Beta Treasury. 100% of the fund's profit goes to $BETA holders. It always has, and it never changes. But there was a gap. In a single day, the desk booked $4,500 in profit while the token fell - the fund's performance and price drifted apart. Today they're linked. Beta has acquired 2",
-    "Day 2 update for the beta fund: $40,618 AUM, still funded entirely by trading fees - zero outside capital. up from $31,613 yesterday. 471 holders now (+43), with $4,279 in solana:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH paid straight to them since launch. https://www.beta.fund/distributions In t",
-    "Introducing: Beta's engine to scale. The desk's current, sharpest edges live in smaller markets - thin books, high Sharpe. Those strategies have a ceiling. The current book has a capacity of $100k to $200k. Past that, some positions would need to be 200%+ of a market's entire open interest. You phys"
-   ],
-   "checked": "2026-11-06T11:58:49+00:00",
-   "gone_since": "2026-11-06T11:58:49+00:00"
+   "fake_posts": []
   },
   "useautonomo": {
    "handle": "useautonomo",
@@ -11266,16 +11229,16 @@
    "id": "2008209704695296000",
    "name": "Strategy Coin",
    "joined": "2026-01-05T16:11:28+00:00",
-   "followers": 1667,
+   "followers": 1670,
    "following": 108,
-   "posts": 494,
+   "posts": 500,
    "verified": "individual",
-   "last_post": "2026-11-05T18:19:40+00:00",
+   "last_post": "2026-11-06T20:17:48+00:00",
    "sample": 18,
    "sample_full_week": false,
    "posts_7d": 14,
-   "avg_likes": 45.2,
-   "avg_views": 982,
+   "avg_likes": 45.0,
+   "avg_views": 1041,
    "bio_site": "http://strategycoin.io",
    "bio": "$STRATEGY | Paired with $MSTR on @longdotxyz | Saylor Strategy |\n\nBuilding @usecarry C\u0186",
    "cas": [
@@ -11283,6 +11246,8 @@
    ],
    "fake_posts": [],
    "texts": [
+    "To create value for $MSTR holders That's Strategy",
+    "Stock tokens \ud83e\udd1d Stock pairs",
     "Building a new @Uniswap v4 hook Current testing on @RobinhoodCrypto Chain shows \u2727 1.9% better execution on buys & sells (on average) \u2727 LPing beats just holding by 3.7% in a two week period Will share more details once testing is finalized.",
     "The saylor strategy works",
     "$STRATEGY team tag requested on @fomo saylor strategy",
@@ -11298,11 +11263,9 @@
     "\"Strategy will not use $MSTR dilution as much in this bull market, but still has the goal of buying $1-2 billion bitcoin every month.\" - @phongle Good strategy.",
     "The strategy is Up",
     "first they fade you then they hate you then they join you then you win $STRATEGY",
-    "Stock Tokens are just getting started Trust the Strategy robinhood:0xec262a75e413fafd0df80480274532c79d42da09",
-    "C\u0186 {coming soon} @usecarry",
-    "Earn yield on stock tokens on @RobinhoodApp Coming soon - @usecarry"
+    "Stock Tokens are just getting started Trust the Strategy robinhood:0xec262a75e413fafd0df80480274532c79d42da09"
    ],
-   "checked": "2026-11-06T02:03:39+00:00"
+   "checked": "2026-11-07T12:00:35+00:00"
   },
   "fablesfi": {
    "handle": "fablesfi",
@@ -12816,16 +12779,16 @@
    "id": "1594760789302415360",
    "name": "MACHINES",
    "joined": "2022-11-21T18:33:07+00:00",
-   "followers": 84533,
-   "following": 1121,
-   "posts": 30317,
+   "followers": 84482,
+   "following": 1122,
+   "posts": 30318,
    "verified": "individual",
    "last_post": "2026-11-05T18:45:35+00:00",
-   "sample": 14,
+   "sample": 13,
    "sample_full_week": false,
    "posts_7d": 13,
-   "avg_likes": 59.6,
-   "avg_views": 3329,
+   "avg_likes": 60.3,
+   "avg_views": 3408,
    "bio_site": "https://www.satflow.com/ordinals/btc-machines",
    "bio": "PAPOTOSHI BUILT\n$ PRINTER\n0x85a574f2fF0795685F58d1D7B0D4b51F148Ac489\nhttps://printer.fun\n\nhttps://discord.gg/7nVcZVEQPh\nhttps://opensea.io/collection/rhmachines",
    "cas": [
@@ -12845,10 +12808,9 @@
     "yo seedphrase, come back, we do gaming here at machines MMORPG, with a marketplace powered by $PRINTER, buy and sell all in-game items",
     "i just created the greatest death animation in gaming @satoriammorpg",
     "Machines in-game",
-    "fk it, we build a proper Ordinal/RH MMORPG using robinhood:0x85a574f2ff0795685f58d1d7b0d4b51f148ac489 Interact for early access",
-    "missed me? Id get a machine if I was you @satoriammorpg"
+    "fk it, we build a proper Ordinal/RH MMORPG using robinhood:0x85a574f2ff0795685f58d1d7b0d4b51f148ac489 Interact for early access"
    ],
-   "checked": "2026-11-06T06:39:29+00:00"
+   "checked": "2026-11-07T12:00:35+00:00"
   },
   "isbacked_": {
    "handle": "isBacked_",
@@ -14433,8 +14395,43 @@
   },
   "vibeairforce": {
    "handle": "VIBEaiRforce",
-   "found": false,
-   "checked": "2026-11-06T11:58:49+00:00"
+   "found": true,
+   "id": "1926892860625805312",
+   "name": "VIBE AI",
+   "joined": "2025-05-26T06:47:55+00:00",
+   "followers": 897,
+   "following": 33,
+   "posts": 576,
+   "verified": "individual",
+   "last_post": "2026-10-25T13:54:33+00:00",
+   "sample": 14,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 13.9,
+   "avg_views": 556,
+   "bio_site": "https://www.vibe.airforce/",
+   "bio": "The trading agent orchestration platform on RH",
+   "cas": [
+    "0x8e7a9f9817ecf2649c0316b22fea274d522c7b9b"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "jev trader just went mobile-first",
+    "what $VIBE shipped so far in past months: -smart-money data pipeline (12+ months, still collecting) -scoring engines + runner detection for (Low caps, Midcaps and perpetual markets) -sandbox AI agents (Hermes, openclaw) - Jev the decision LLM trading with you http://vibe.airforce",
+    "$VIBE",
+    "Verification for CoinMarketCap ticket #1467608. Contract: 0x8e7A9f9817eCf2649c0316b22Fea274D522C7b9B DEXScan: https://dex.coinmarketcap.com/token/robinhood/0x8e7a9f9817ecf2649c0316b22fea274d522c7b9b/ https://www.vibe.airforce",
+    "$VIBE JEV TRADER BETA IS LIVE OPEN TO ALL. FIRST COME, FIRST SERVED. AFTER BETA, ACCESS IS TOKEN-GATED https://www.vibe.airforce/jev-trader",
+    "Jev is trading. a desk: live calls, exits, P&L, all public. Rollout starts this week with runners +$1.5k / 680 paper trades / 45% WR. Early access will be token-gated. 1% $VIBE to access it Paper follow is open https://vibe.airforce/jev-trader",
+    "Something is cooking at $VIBE",
+    "our dev: \"Jev is an amazing toolkit for $VIBE We can't wait to show what he's been cooking these past 10 days new products in the pipeline \ud83d\udc40",
+    "$VIBE Docs are machine-readable (OpenAPI + llms.txt) Your agent can wire itself up. 149 endpoints one command away",
+    "The $VIBE developer portal got upgraded 147 agent grade operations wallets, trading, smart money, launchpads, documented in a curated OpenAPI 3.1 spec. Public, no auth. Every one priced. 69 x402 lanes. Free trial key. https://vibe.airforce/developers",
+    "Agents can now buy their own .com Paid from their own USDC wallet. Site deployed on it. Zero deploy caps. Not a subdomain we rent them a domain they own. Hold $VIBE run sandbox Agents for free: https://vibe.airforce",
+    "Launch your token, get an agent website. Every $VIBE agent gets a live page on its own https://vibe.airforce subdomain, Thoughts widget baked in.",
+    "BETA WEEK IS OPEN. AI agents that trade to pay their own bills and die when the credits run out. Launch a fighter. Watch 60s a day = +1 point. 9M VIBE, top 3 take 4M/2.5M/1.6M. https://vibe.airforce/vibe-or-die",
+    "We added a Stocks toggle to Top Perps Smart money on tokenized equities tracked 24/7, scored, live now. Don't want to watch it? Spin up an agent: morning insight delivered daily, or let it trade for you. https://vibe.airforce/top-perps"
+   ],
+   "checked": "2026-11-07T12:00:35+00:00"
   },
   "baby_takeover": {
    "handle": "baby_takeover",
@@ -19884,6 +19881,58 @@
     "launch now at https://bankr.bot or simply ask @bankrbot"
    ],
    "checked": "2026-11-07T11:45:24+00:00"
+  },
+  "miharidapp": {
+   "handle": "miharidapp",
+   "found": true,
+   "id": "2087618974741573633",
+   "name": "MIHARI",
+   "joined": "2026-08-12T19:16:49+00:00",
+   "followers": 40,
+   "following": 26,
+   "posts": 37,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://mihari.pro",
+   "bio": "AI guardian for tokenized stocks on @Robinhoodapp. MIHARI detects corporate actions, explains their impact, and activates onchain protection policies.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-07T12:00:35+00:00"
+  },
+  "xoxofobo": {
+   "handle": "XOXOfobo",
+   "found": true,
+   "id": "2118733681128857600",
+   "name": "XOXO",
+   "joined": "2026-11-06T15:58:19+00:00",
+   "followers": 21,
+   "following": 4,
+   "posts": 27,
+   "verified": null,
+   "last_post": "2026-11-07T11:58:24+00:00",
+   "sample": 3,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 11.0,
+   "avg_views": 165,
+   "bio_site": "https://fobo.fun/?token=0x866409f3bd47bbd710bccec625bd4f1a3398830c",
+   "bio": "Hugs, kisses & rising floors on @fobodotfun",
+   "cas": [
+    "0x866409f3bd47bbd710bccec625bd4f1a3398830c"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "$XOXO now has DexScreener paid! \u2705\ud83d\udc8b CA: 0x866409f3bd47BBD710bcceC625Bd4F1a3398830c",
+    "Today, I joined the FOBO fam! More hugs and kisses coming soon! $XOXO \ud83d\udc8b",
+    "$XOXO graduated on @fobodotfun \ud83d\udc8b"
+   ],
+   "checked": "2026-11-07T12:00:35+00:00"
   }
  },
  "ids": {
@@ -21451,6 +21500,15 @@
   ],
   "1864452692221022210": [
    "bankrbot"
+  ],
+  "1926892860625805312": [
+   "VIBEaiRforce"
+  ],
+  "2087618974741573633": [
+   "miharidapp"
+  ],
+  "2118733681128857600": [
+   "XOXOfobo"
   ]
  },
  "past": {
@@ -22021,7 +22079,9 @@
   "orkestfi": [],
   "ohmyhermesapp": [],
   "_flyingcar": [],
-  "bankrbot": []
+  "bankrbot": [],
+  "miharidapp": [],
+  "xoxofobo": []
  },
  "history": {
   "barragetrade": {
@@ -25510,6 +25570,10 @@
    "2026-11-06": [
     1667,
     494
+   ],
+   "2026-11-07": [
+    1670,
+    500
    ]
   },
   "fablesfi": {
@@ -25922,6 +25986,10 @@
    "2026-11-06": [
     84533,
     30317
+   ],
+   "2026-11-07": [
+    84482,
+    30318
    ]
   },
   "isbacked_": {
@@ -27453,6 +27521,24 @@
     117782,
     838029
    ]
+  },
+  "vibeairforce": {
+   "2026-11-07": [
+    897,
+    576
+   ]
+  },
+  "miharidapp": {
+   "2026-11-07": [
+    40,
+    37
+   ]
+  },
+  "xoxofobo": {
+   "2026-11-07": [
+    21,
+    27
+   ]
   }
  },
  "telegram": {
@@ -27631,6 +27717,14 @@
    "online": 100,
    "name": "heydeployr",
    "checked": "2026-11-07T07:24:37+00:00"
+  },
+  "flyingcarrh": {
+   "found": true,
+   "members": 71,
+   "kind": "members",
+   "online": 34,
+   "name": "flyingcarRh",
+   "checked": "2026-11-07T12:00:35+00:00"
   }
  },
  "tg_history": {
@@ -27734,6 +27828,9 @@
   "heydeployr": {
    "2026-11-06": 507,
    "2026-11-07": 644
+  },
+  "flyingcarrh": {
+   "2026-11-07": 71
   }
  },
  "gh": {
@@ -28645,7 +28742,7 @@
   "vibeairforce": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-06T11:58:49+00:00"
+   "checked": "2026-11-07T12:00:35+00:00"
   },
   "takeoverapp": {
    "twitter": null,
@@ -29006,6 +29103,11 @@
    "twitter": "distributedlab",
    "blog": "https://solarity.dev",
    "checked": "2026-11-07T11:30:27+00:00"
+  },
+  "jiyu1337": {
+   "twitter": null,
+   "blog": null,
+   "checked": "2026-11-07T12:00:35+00:00"
   }
  }
 }
