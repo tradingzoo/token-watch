@@ -5066,7 +5066,33 @@
   "0xb6eecc64433bb8f2a6ee19ddcf7f58f0b878511f": "2026-11-07T08:19:14+00:00",
   "0xc8831ac9c99df839242a84979304cd983b653410": "2026-11-07T08:19:14+00:00",
   "0xe94610eac8216acce3310327f2e4179bc446f956": "2026-11-07T08:19:14+00:00",
-  "0xf035cf79c2657486ca74f57a9f016792bdf562c4": "2026-11-07T08:19:14+00:00"
+  "0xf035cf79c2657486ca74f57a9f016792bdf562c4": "2026-11-07T08:19:14+00:00",
+  "0x7615c471fcf15c2a0ff3b434e2cdf5f11abfc2ca": "2026-11-07T08:30:29+00:00",
+  "0x0b9a6fe08df079379186de1e9e8c63244b437ccb": "2026-11-07T08:30:29+00:00",
+  "0x69d9029886ae89901fdbf891d87196754894ab40": "2026-11-07T08:30:29+00:00",
+  "0x1e14615675ed88007d6ea96889b283dd185f5a3e": "2026-11-07T08:30:29+00:00",
+  "0x7c9a309a227cde0614a2ef9c014c199e870b027c": "2026-11-07T08:30:29+00:00",
+  "0x00def2124be3eb2f4acd2ef33a6c56ee51f3cc7e": "2026-11-07T08:30:29+00:00",
+  "0x02d0ebf557a1486ae777bc6cf4caee7e60bac02a": "2026-11-07T08:30:29+00:00",
+  "0x6ffb075f8030c6ea7914c1ba90a8cf87c9a8686d": "2026-11-07T08:30:29+00:00",
+  "0x0823ed7f66190366c264e8357ae22e4baa150fee": "2026-11-07T08:30:29+00:00",
+  "0xdceea9ce92e7d2e5ae3ba1eef1ed887d4cbdab60": "2026-11-07T08:30:29+00:00",
+  "0x65525aa9d7abdcbcdb19f2c00bf2e1972b7db691": "2026-11-07T08:30:29+00:00",
+  "0xbc10ee263ff05fd93f07315c412f5e42d0ff43bc": "2026-11-07T08:30:29+00:00",
+  "0x16ec2bad77ef4cd5da89ce7630d61c8666035dea": "2026-11-07T08:30:29+00:00",
+  "0xfb4f5fe4d1c64fe72211b30cd77e1ada1043b15e": "2026-11-07T08:30:29+00:00",
+  "0xaca110caeac8ef7dcdcabe4a397c4f7089786b51": "2026-11-07T08:30:29+00:00",
+  "0x9eefda13dcb0fb5fd3ba4b552529ea68d81e4c53": "2026-11-07T08:30:29+00:00",
+  "0x6d3dbc7d10e31b1ac3e6c3839d7af3e6925f52ed": "2026-11-07T08:30:29+00:00",
+  "0xe523d45ef498bb64e9ac38505a9a13fe3697fea6": "2026-11-07T08:30:29+00:00",
+  "0x4833f873344b824ca1c8fd361bce7cbb8b8fec01": "2026-11-07T08:30:29+00:00",
+  "0x20a6dfb09801bbdcd2bb713b1532a2479204d6a2": "2026-11-07T08:30:29+00:00",
+  "0x33fd5d139ce628d04ff470ddf967b777293206c4": "2026-11-07T08:30:29+00:00",
+  "0x6e4dfbb3befe573aaaed7a7272b31846e2ca3df2": "2026-11-07T08:30:29+00:00",
+  "0x8656380254bad14f00f18697e0d1d6461952b013": "2026-11-07T08:30:29+00:00",
+  "0xd3ef37458d16155112dd0375f0db7be7dd1dfd96": "2026-11-07T08:30:29+00:00",
+  "0xdc0d68be02aa1a85bc21225785becafa4c7ca011": "2026-11-07T08:30:29+00:00",
+  "0xe8a3b1d5b1640e5558f4374758fe4af3794a8122": "2026-11-07T08:30:29+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -27390,9 +27416,108 @@
     }
    },
    "launched_src": "pons"
+  },
+  "0x7c9a309a227cde0614a2ef9c014c199e870b027c": {
+   "address": "0x7c9a309a227cde0614a2ef9c014c199e870b027c",
+   "symbol": "KWNT",
+   "name": "kwant",
+   "description": "kwant",
+   "website": "https://kwant.si/",
+   "twitter": "https://x.com/kwantagent",
+   "launched": "2026-11-07T08:21:27+00:00",
+   "mcap": 3709.3472644617304,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T08:30:29+00:00",
+   "scored_at": "2026-11-07T08:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "alexsergivan/kwant",
+    "score": 50,
+    "raw_score": 50,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (options, payments, vault) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (website links no X account to check) (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2705 Their docs mentions the token: 'KWNT token' \u2014 \u201c, as the user that runs kwnt, kwnt signin-link (or kwnt token ) prints a new one-time link, and cat ~/.kwnt/api-token</\u201d (https://kwant.si/docs/install#mac)",
+      "\u2705 Their docs mentions the token: 'KWNT token' \u2014 \u201c, as the user that runs kwnt, kwnt signin-link (or kwnt token ) prints a new one-time link, and cat ~/.kwnt/api-token</\u201d (https://kwant.si/docs/install#linux)"
+     ],
+     "Real code": [
+      "\u2705 821 changes over 24 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 4569 days old, 1 people, 218 stars, 14 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 30 updates shipped so far"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": null,
+    "sources_read": [
+     "https://kwant.si/",
+     "https://kwant.si/",
+     "https://kwant.si/llms-full.txt",
+     "https://kwant.si/llms.txt",
+     "https://kwant.si/docs",
+     "https://kwant.si/docs/quickstart",
+     "https://kwant.si/docs/install#mac",
+     "https://kwant.si/docs/install#linux"
+    ],
+    "facts": {
+     "commits": 821,
+     "stars": 218,
+     "created": "2026-10-22",
+     "pushed": "2026-11-07",
+     "people": 1
+    }
+   }
+  },
+  "0x4833f873344b824ca1c8fd361bce7cbb8b8fec01": {
+   "address": "0x4833f873344b824ca1c8fd361bce7cbb8b8fec01",
+   "symbol": "MOUSEMAZE",
+   "name": "Mouse Maze",
+   "description": "",
+   "website": "https://www.mousemaze.xyz/",
+   "twitter": "https://x.com/MouseMazeRH",
+   "launched": "2026-09-11T07:10:52+00:00",
+   "mcap": 3792.4004774539417,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T08:30:29+00:00",
+   "scored_at": "2026-11-07T08:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Mousemaze/mouse-maze",
+    "score": 0,
+    "capped": true,
+    "flags": [
+     "GitHub link is dead: github.com/Mousemaze doesn't exist"
+    ],
+    "private": true,
+    "reasons": {
+     "Really theirs": [
+      "\u274c github.com/Mousemaze doesn't exist"
+     ]
+    },
+    "roadmap": [],
+    "facts": {}
+   }
   }
  },
- "checked_total": 5056,
+ "checked_total": 5082,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -30243,9 +30368,25 @@
     "photonstorm/phaser",
     "photonstorm/phaser3-plugin-template"
    ]
+  },
+  {
+   "when": "2026-11-07T08:30:29+00:00",
+   "address": "0x65525aa9d7abdcbcdb19f2c00bf2e1972b7db691",
+   "symbol": "concern",
+   "website": "https://www.stonkfun.xyz/token/9itfe52Qe18gjEm7erioRZB9F41hoSCSjTtH31yroXxB",
+   "used": null,
+   "ignored": [
+    "Effect-TS/effect"
+   ]
   }
  ],
  "symbol_counts": {
+  "TARGO": 1,
+  "GEO": 1,
+  "GAYTECH": 1,
+  "SHELF": 1,
+  "KWNT": 1,
+  "BILLBORED": 1,
   "SUNPEAK": 2,
   "STONKA": 1,
   "1": 1,
@@ -30278,20 +30419,21 @@
   "GIGGS": 1,
   "LICHWARD": 1,
   "NACTO": 2,
+  "DELTA": 1,
+  "HMM": 4,
+  "OAK": 2,
+  "WIF": 1,
+  "CHARLIE": 1,
+  "ZEAL": 1,
+  "HARMONIC": 1,
+  "BOW": 1,
+  "GAGE": 1,
   "MMO": 1,
   "QUANTUM": 1,
   "PERPSONS": 1,
   "OBT": 1,
   "VEILED": 1,
   "QEDRA": 1,
-  "DELTA": 1,
-  "HMM": 4,
-  "OAK": 2,
-  "WIF": 1,
-  "BOW": 1,
-  "HARMONIC": 1,
-  "ZEAL": 1,
-  "CHARLIE": 1,
   "microduck": 1,
   "PONS": 1,
   "\u5bcc\u8d35": 1,
@@ -30351,7 +30493,6 @@
   "Corgi": 1,
   "CYBERTRUCK": 1,
   "DEPLOYR": 1,
-  "GAGE": 1,
   "DARWIN": 1,
   "10K": 1,
   "CAPITOLI": 1,
@@ -30706,7 +30847,6 @@
   "ANUBIS": 1,
   "AE": 2,
   "MOONTOK": 1,
-  "BILLBORED": 1,
   "AVANTARTE": 1,
   "401k": 1,
   "401K": 1,
@@ -30729,7 +30869,6 @@
   "THAW": 1,
   "TUBL": 1,
   "AUVR": 1,
-  "SHELF": 1,
   "WATERBEAR": 1,
   "OVFL": 1,
   "LACUNA": 1,
@@ -33891,10 +34030,10 @@
    "twitter": "https://x.com/Borromarkets",
    "site_via_x": "Borromarkets",
    "launched": "2026-10-05T19:11:00+00:00",
-   "mcap": 611632,
+   "mcap": 609845,
    "where": "exchange",
    "first_seen": "2026-11-05T09:30:29+00:00",
-   "scored_at": "2026-11-07T02:27:43+00:00",
+   "scored_at": "2026-11-07T08:30:29+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -34170,10 +34309,10 @@
    "twitter": "https://x.com/rhiablo",
    "site_via_x": null,
    "launched": "2026-10-31T07:03:06+00:00",
-   "mcap": 24879,
+   "mcap": 21944,
    "where": "exchange",
    "first_seen": "2026-11-05T09:30:29+00:00",
-   "scored_at": "2026-11-07T02:27:43+00:00",
+   "scored_at": "2026-11-07T08:30:29+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -44237,10 +44376,10 @@
    "twitter": "https://x.com/SazareProtocol",
    "site_via_x": null,
    "launched": "2026-07-23T21:27:02+00:00",
-   "mcap": null,
-   "where": "Pons launchpad (None)",
+   "mcap": 2423184,
+   "where": "exchange",
    "first_seen": "2026-11-06T05:11:23+00:00",
-   "scored_at": "2026-11-07T02:27:43+00:00",
+   "scored_at": "2026-11-07T08:30:29+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -44307,10 +44446,10 @@
    "twitter": "https://x.com/AlfaClubdotapp",
    "site_via_x": null,
    "launched": "2026-09-28T09:53:54+00:00",
-   "mcap": 363580,
+   "mcap": 367126,
    "where": "exchange",
    "first_seen": "2026-11-06T05:11:23+00:00",
-   "scored_at": "2026-11-07T02:27:43+00:00",
+   "scored_at": "2026-11-07T08:30:29+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -50760,10 +50899,10 @@
    "twitter": "https://x.com/capypadfun",
    "site_via_x": null,
    "launched": "2026-11-06T18:04:56+00:00",
-   "mcap": 2056,
+   "mcap": 1541,
    "where": "exchange",
    "first_seen": "2026-11-06T19:57:21+00:00",
-   "scored_at": "2026-11-07T02:27:43+00:00",
+   "scored_at": "2026-11-07T08:30:29+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -53736,7 +53875,8 @@
      "contract_addresses": 26,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   }
  },
  "site_checked": {
@@ -53875,7 +54015,7 @@
   "0x3f9108a3beca998c14c6dda822a7e8eaeb88e20d": "2026-11-05T09:36:41+00:00",
   "0x0473396ffb1354b13a6e10a92970a28fe86bdf22": "2026-11-05T09:36:41+00:00",
   "0xc0e6a1e1e37129b839ac8ec12a24ceedaf2b13f7": "2026-11-05T09:36:41+00:00",
-  "0x89b76dcdda801f2e456765742c64950eb2a0c93c": "2026-11-07T02:27:43+00:00",
+  "0x89b76dcdda801f2e456765742c64950eb2a0c93c": "2026-11-07T08:30:29+00:00",
   "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b": "2026-11-06T19:57:21+00:00",
   "0x440e339a46eaa3be8d723c2cbed2a30af74536d5": "2026-11-05T23:26:47+00:00",
   "0x54a557dc542676f56ce2b1b5807cc76bedca308a": "2026-11-06T19:57:21+00:00",
@@ -54311,7 +54451,7 @@
   "0x0830a9dd26a04e959657ab6788d45f5725590c32": "2026-11-05T14:50:31+00:00",
   "0xb0007d59fe4050a1636c2fa19038973d16481337": "2026-11-05T14:50:31+00:00",
   "0x62ed300a5916aed339a65e04754392763982a967": "2026-11-05T14:50:31+00:00",
-  "0xebaa0ca1a9d178550fb2f9ca4099a292375a403a": "2026-11-07T02:27:43+00:00",
+  "0xebaa0ca1a9d178550fb2f9ca4099a292375a403a": "2026-11-07T08:30:29+00:00",
   "0x1c7b762b0232eb6179271071b394ef0f21411c91": "2026-11-05T15:46:50+00:00",
   "0xf83a52e21c1c275efbf9f4cef3a9f307b37d2174": "2026-11-05T15:46:50+00:00",
   "0xfb832ecb020fe83e42b58d209a26840b701bc9ae": "2026-11-06T21:02:30+00:00",
@@ -54880,7 +55020,7 @@
   "0x60167e15ffefbe27ffa3782fa94ad1d16919b377": "2026-11-06T04:01:44+00:00",
   "0xfde368debe9e80f80785064a65719cec1f809dec": "2026-11-06T05:11:23+00:00",
   "0xed44a1b434d59b8c4f162d67a43eb198d4c64cb6": "2026-11-06T05:11:23+00:00",
-  "0xbed7c1660a01dbeee225bd893ac31727a91a5773": "2026-11-07T02:27:43+00:00",
+  "0xbed7c1660a01dbeee225bd893ac31727a91a5773": "2026-11-07T08:30:29+00:00",
   "0x262c134f2c375dce3d028dd4ef232ee30bd1936b": "2026-11-06T05:11:23+00:00",
   "0xfe7e19cbce2f896c6c528bc355baf5a768291e18": "2026-11-06T05:11:23+00:00",
   "0x8fd48edc40645a86ae73ce238f5cd840fd8e0087": "2026-11-06T05:11:23+00:00",
@@ -54890,7 +55030,7 @@
   "0x232cdfc415d10b673845d83dc02ba2eabe7e30d1": "2026-11-06T05:11:23+00:00",
   "0xc76b6020a3d7f4bb5cee85d44f8b0da6a6ee7616": "2026-11-06T05:11:23+00:00",
   "0x6376010d9d1f64de70d9e83c4093c8294515ac28": "2026-11-06T05:11:23+00:00",
-  "0x6d1f3baefb22d725b8068e60105b45c8a97da1fa": "2026-11-07T02:27:43+00:00",
+  "0x6d1f3baefb22d725b8068e60105b45c8a97da1fa": "2026-11-07T08:30:29+00:00",
   "0x4b3a3ff4ec9d289727e24a8152f406bada44264d": "2026-11-06T05:11:23+00:00",
   "0x12d5ee7917ca430073c3a638ee1e6f0648a98a01": "2026-11-06T05:11:23+00:00",
   "0x32b1b095bc15ac91a6e803742b1b272482e372cd": "2026-11-06T05:11:23+00:00",
@@ -55681,7 +55821,7 @@
   "0xfdd539e9c2bd71d2659d9c8aeb256e823172ed39": "2026-11-06T19:16:38+00:00",
   "0x406746281deecd1d09c6ce093b2f2bc89caba142": "2026-11-06T19:57:21+00:00",
   "0xf5deecb5d6314bbabe4bc071c491e48467fbd8ca": "2026-11-06T19:57:21+00:00",
-  "0xe96e9fc9a9f952f76af14fc585a9625d25ed8304": "2026-11-07T02:27:43+00:00",
+  "0xe96e9fc9a9f952f76af14fc585a9625d25ed8304": "2026-11-07T08:30:29+00:00",
   "0x557ed980e4cfb64c399efb4d9aad893630e4a9f8": "2026-11-06T19:57:21+00:00",
   "0x017e580b9e62a61350ed46635de4b0797d098091": "2026-11-06T19:57:21+00:00",
   "0xb2b39e80c765214b2df7a164d71d2be3df622eb7": "2026-11-06T19:57:21+00:00",
@@ -56128,7 +56268,24 @@
   "0x8562e6a52854dcd219652a2e42ea7d27e7e611fb": "2026-11-07T08:19:14+00:00",
   "0x47b4c8623aee40ea822415c7e26a6e1e8e1bbf50": "2026-11-07T08:19:14+00:00",
   "0xc3c686750071ddff3a1bff708e9fe1432f870c9a": "2026-11-07T08:19:14+00:00",
-  "0x492c51097c3d566a791b339397ff21b0ce745bbd": "2026-11-07T08:19:14+00:00"
+  "0x492c51097c3d566a791b339397ff21b0ce745bbd": "2026-11-07T08:19:14+00:00",
+  "0x7615c471fcf15c2a0ff3b434e2cdf5f11abfc2ca": "2026-11-07T08:30:29+00:00",
+  "0x0b9a6fe08df079379186de1e9e8c63244b437ccb": "2026-11-07T08:30:29+00:00",
+  "0x69d9029886ae89901fdbf891d87196754894ab40": "2026-11-07T08:30:29+00:00",
+  "0x1e14615675ed88007d6ea96889b283dd185f5a3e": "2026-11-07T08:30:29+00:00",
+  "0x00def2124be3eb2f4acd2ef33a6c56ee51f3cc7e": "2026-11-07T08:30:29+00:00",
+  "0x02d0ebf557a1486ae777bc6cf4caee7e60bac02a": "2026-11-07T08:30:29+00:00",
+  "0x6ffb075f8030c6ea7914c1ba90a8cf87c9a8686d": "2026-11-07T08:30:29+00:00",
+  "0x0823ed7f66190366c264e8357ae22e4baa150fee": "2026-11-07T08:30:29+00:00",
+  "0xdceea9ce92e7d2e5ae3ba1eef1ed887d4cbdab60": "2026-11-07T08:30:29+00:00",
+  "0x65525aa9d7abdcbcdb19f2c00bf2e1972b7db691": "2026-11-07T08:30:29+00:00",
+  "0xbc10ee263ff05fd93f07315c412f5e42d0ff43bc": "2026-11-07T08:30:29+00:00",
+  "0x16ec2bad77ef4cd5da89ce7630d61c8666035dea": "2026-11-07T08:30:29+00:00",
+  "0xfb4f5fe4d1c64fe72211b30cd77e1ada1043b15e": "2026-11-07T08:30:29+00:00",
+  "0xaca110caeac8ef7dcdcabe4a397c4f7089786b51": "2026-11-07T08:30:29+00:00",
+  "0x9eefda13dcb0fb5fd3ba4b552529ea68d81e4c53": "2026-11-07T08:30:29+00:00",
+  "0x6d3dbc7d10e31b1ac3e6c3839d7af3e6925f52ed": "2026-11-07T08:30:29+00:00",
+  "0xe523d45ef498bb64e9ac38505a9a13fe3697fea6": "2026-11-07T08:30:29+00:00"
  },
  "catchup_plain": []
 }

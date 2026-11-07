@@ -7691,5 +7691,25 @@
   "after": 0,
   "others": [],
   "wallet_txs": 1
+ },
+ "0x7c9a309a227cde0614a2ef9c014c199e870b027c": {
+  "checked": "2026-11-07T08:32:22+00:00",
+  "pons": true,
+  "wallet": "0x2621df4e414d1f30c4b778b23f7903018cefac6b",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 8
+ },
+ "0x4833f873344b824ca1c8fd361bce7cbb8b8fec01": {
+  "checked": "2026-11-07T08:32:22+00:00",
+  "pons": true,
+  "wallet": "0x3c93596b7d496ad583c53afa2507f4676279a8f6",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
  }
 }

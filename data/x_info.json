@@ -3530,22 +3530,40 @@
    "id": "1965438978309627905",
    "name": "Superstables",
    "joined": "2025-09-09T15:36:00+00:00",
-   "followers": 716,
+   "followers": 720,
    "following": 53,
-   "posts": 257,
+   "posts": 260,
    "verified": "organization",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-05T21:42:27+00:00",
+   "sample": 17,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 6,
+   "avg_likes": 14.9,
+   "avg_views": 582,
    "bio_site": "http://www.superstables.com",
    "bio": "The payment layer for AI agents.\n\n@superstablesdev",
    "cas": [],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-05T22:03:57+00:00"
+   "texts": [
+    "What happens when AI agents start paying for things on their own? Today they can search, code and decide. But when it's time to pay, someone has to give them a budget, keep you in control, and route the payment to a service that speaks a different protocol. That's what we've been building for a year",
+    "Superstables is chain-agnostic: our index of x402 and MPP services spans multiple chains. Superstables lives on @RobinhoodCrypto . We chose to build there early, and we believe it was the right call. Agents will need payment rails everywhere. We're building ours with a base on Robinhood Chain. V1 so",
+    "x402 and MPP services indexed on Superstables (5 Nov): 4,518 services indexed 2,534 live at the last probe 78 accept both x402 and MPP Free JSON API and MCP server for AI agents. https://www.superstables.com/discover @RobinhoodApp",
+    "Two ways to let your AI agent pay with Superstables: 1\ufe0f\u20e3 Single purchase: you approve each one in your wallet. 2\ufe0f\u20e3 Budget: you approve a limit once, and revoke it anytime with one signature. Your wallet. Your rules. Testnet today. \ud83e\uddf5\ud83d\udc47 https://www.superstables.com/",
+    "The index keeps growing. \u2192 4,500+ services indexed \u2192 2,400+ live mainnet services \u2192 Free JSON API + public MCP \u2192 Open-source client Next: the router.",
+    "V1 is coming in the next few days. The payment router for AI agents. @RobinhoodCrypto",
+    "Why this matters: x402 isn't just for API calls anymore. Agents can buy real things. That makes two layers important: knowing which services are live, and owner-set limits with a way to revoke. That's Superstables.",
+    "Our official Discord is open. Release updates, direct access to the team, help with the client and the API, and a place to list your service. Join: https://discord.gg/sq2zAtcm5u This is the only official invite. We never DM first and never ask for seed phrases.",
+    "Building in public means showing the numbers. $16K in buybacks, locked for 1 year, verifiable on-chain. Every fee and expense is on the public treasury ledger. The product keeps shipping too: client v0.4.0 is out, with payments on test networks. http://superstables.com/treasury @RobinhoodApp @Robinh",
+    "Featured on Superstables: Blockscout (@blockscout) Look up any address or contract on supported chains. Listed at $0.002 per call over x402, and discoverable by AI agents. https://www.superstables.com/s/api.blockscout.com Thanks to the Blockscout team. \ud83e\udd1d",
+    "You built an API for AI agents. Now make sure they find it. Featured services on Superstables: a homepage spotlight, a verified checkmark, and an introduction to the people building agents. First ones soon. List yours: https://superstables.com/submit",
+    "This is what Superstables does. One API for AI agents to find paid services and pay for them in stablecoins, with budgets the owner approves and can revoke. 3,000+ services indexed.",
+    "@joterovila @travalacom, if you are building agentic travel, come try it on test networks: https://superstables.com/testnet And if you run paid APIs, list them here: https://superstables.com/submit",
+    "3/ Sep 22, v0.2.0: more demo services, better discovery, and setup for Claude Desktop, Claude Code, Codex, Cursor and VS Code.",
+    "6/ The index now lists 2,900+ paid services across x402 and MPP, free to read. The client is open source (Apache 2.0). The treasury is a public ledger at https://superstables.com/treasury.",
+    "7/ Agent payments are still testnet only. Next: the security audit and the road to V1. Thank you to everyone testing. https://superstables.com",
+    "2/ Sep 18, client v0.1.0: an agent finds a paid service and gets its terms. You review and sign in your wallet. The agent can request a payment, it cannot approve one."
+   ],
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "rhiablo": {
    "handle": "rhiablo",
@@ -3680,16 +3698,16 @@
    "id": "2094190087298813952",
    "name": "PACKED | PACKD",
    "joined": "2026-08-30T22:28:20+00:00",
-   "followers": 302,
+   "followers": 310,
    "following": 38,
-   "posts": 373,
+   "posts": 376,
    "verified": "individual",
-   "last_post": "2026-11-05T21:15:38+00:00",
+   "last_post": "2026-11-06T09:35:44+00:00",
    "sample": 17,
    "sample_full_week": true,
    "posts_7d": 17,
-   "avg_likes": 26.9,
-   "avg_views": 1279,
+   "avg_likes": 31.1,
+   "avg_views": 1398,
    "bio_site": "https://packd.cc/",
    "bio": "The creator terminal. Launch a pack, run your coin, read anyone else's with Skyline. Market maker, holder rewards, a wallet tracker bot - all on chain.",
    "cas": [
@@ -3702,6 +3720,7 @@
     "New in Packed Skyline for your AI assistant: is this project still alive, and who is behind it? Ask in your own words: \"Is the team still building?\", \"When was their last update?\", \"Did the dev sell?\" (Nov 03 15:27 UTC)"
    ],
    "texts": [
+    "Our Telegram bot just got a huge update, with some really great changes. It's simpler, faster, and does far more now. Paste a coin. Press Buy. Press Confirm. That's a trade. This film shows every new thing, press by press: - One Home screen. A new chat gets its first wallet at once. - Make as many w",
     "Packed x @whatthehookv4 Introducing Arbitrage Recapture Launches, powered by WTH! Normally when a token has a second pool, arbitrage bots profit from the price difference between them. Now you can be the one who profits from it. How it works The WTH-powered launch deploys two pools, one at 0.3% and ",
     "Limit orders on Packed don't pay the coin's tax. A normal buy or sell on a Pons coin pays around 4% each way. A limit order sits in the pool and fills when the price gets there, so the tax never touches it. The Limit tab now shows it: the coin's tax crossed out, 0% and how much you save on the amoun",
     "You can now trade from Telegram with our bot. Buy, sell, limit orders and stop losses, without opening a website. Here is how it all works. http://t.me/Itspackedbot Getting started Press Wallets. If you don't have a wallet yet, /wallets makes one for you. Send ETH on Robinhood Chain to your dev wall",
@@ -3717,10 +3736,9 @@
     "And 98 fixes, among them: - Coins from other Robinhood launchpads open with a chart and holders - A buy or sale through an aggregator is told as a trade, with what was paid - The market cap is the same in the header, on the coin page and on the chart, and leaves out burned coins like DexScreener - O",
     "Burn #8 - 1,461,804 $PACKD 26.92M burned in total - 2.69% of the supply, about $16.7K today. https://robin.etherscan.io/tx/0x7561cb1e7bd8e06bd55046cf45e60345a4ee68162fa31612cb8879f82caa36c4",
     "Our wallet tracker just learned three new things. \ud83c\udd95 Fresh wallet: someone on your list sends coins to a brand-new wallet. Usually the first step before a quiet sale. \ud83d\ude80 Launches: a dev you follow launches a new coin. You hear it first. \ud83d\udcb0 PnL: My list now shows each person's profit and loss from the t",
-    "Coins from 4 more Robinhood Chain launchpads now work on Packed. Klik, HookPad, RobinVista and Nulify, beside Pons and our own. Paste any of their coins and you get: \u200b- the full chart, from its first trade \u200b- holders, read on chain \u200b- Skyline: who really holds it and who sold \u200b- limit orders and a r",
-    "Burn #7 - 5,000,000 $PACKD gone forever ~$1,140. 2.55% of the whole supply is burned now, 25.46M worth about $5,810, in 7 burns. https://robinhoodchain.blockscout.com/tx/0xb7d2fdcb6466283db8346970734032c77a53c9b5776a050e4dac13474da3bc4e"
+    "You hold a coin and a few wallets decide its day: the dev, the team, one big holder. Our Telegram bot now watches them for you. Free, on Robinhood Chain, Ethereum, BNB Chain, Arc and Solana. Two ways to track: \u200b- In one coin: paste a coin and the wallets that matter, name each one. Every buy, sale a"
    ],
-   "checked": "2026-11-05T22:03:57+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "phoenixnewsio": {
    "handle": "PhoenixNewsIO",
@@ -6032,21 +6050,24 @@
    "id": "2112417773229903872",
    "name": "Mimo",
    "joined": "2026-10-20T05:47:30+00:00",
-   "followers": 104,
+   "followers": 103,
    "following": 4,
-   "posts": 48,
+   "posts": 51,
    "verified": "individual",
-   "last_post": "2026-11-05T18:34:01+00:00",
+   "last_post": "2026-11-06T13:50:49+00:00",
    "sample": 19,
-   "sample_full_week": false,
-   "posts_7d": 18,
-   "avg_likes": 8.0,
-   "avg_views": 137,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 7.4,
+   "avg_views": 118,
    "bio_site": "http://mimotrade.io/",
    "bio": "More Than Trading. A New Onchain Experience.\nMIMO is building a utility driven ecosystem for the future of decentralized trading.\n\nBuilt on Robinhood Chain.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "What if you could follow the price movements of a stock through a token on the blockchain? That's where Stock Tokens come in. But here's something worth understanding: a Stock Token is not the same as owning an actual share of a company. Issued by Robinhood Assets (Jersey) Limited, these ERC-20 toke",
+    "https://x.com/i/article/2118592719954337792",
+    "The future of trading is about more than just crypto. It's about having access to more opportunities in one connected ecosystem. From digital assets to Stock Tokens and emerging onchain markets, MIMO brings new possibilities together on Robinhood Chain. One platform. Multiple markets. More ways to e",
     "17 weeks in, and Robinhood Chain is still leading the way. The numbers speak for themselves. Real adoption comes from builders creating, users showing up, and an ecosystem that keeps moving forward. At $MIMO, we're here for more than the hype. We're building utility on Robinhood Chain and growing al",
     "Every blockchain has a story behind how it works. But sometimes, understanding the technology shouldn't feel complicated. Robinhood Chain is built to make onchain activity faster, more accessible, and more efficient. Powered by Arbitrum technology, it operates as a Layer-2 network with chain ID 4663",
     "The numbers speak for themselves. $100B in volume on Uniswap is a major milestone for Robinhood Chain, and it's only the beginning. The real opportunity lies in what builders are creating onchain. Infrastructure, utility, and products that bring real value to the ecosystem. MIMO is here to be part o",
@@ -6062,12 +6083,9 @@
     "Tokenization is inevitable. The real question is what we build on top of it. Beyond memes, utility is what gives a project room to grow. MIMO is building toward that vision, one step at a time. No rush, just steady progress. The journey is still unfolding.",
     "The future is being built around utility, not just hype. \ud83d\udc40 AI, trading, and real world applications are shaping what comes next in crypto. MIMO is building step by step, with a vision to grow beyond the meme. Slow progress, long term vision.",
     "October is over, but MIMO is still building. \ud83c\udf43 The market has its ups and downs, but we keep our focus on growth, development, and what\u2019s ahead. How was October for you, MIMO fam?",
-    "GM MIMO FAMS Happy Weekend! Take a moment to relax, recharge, and enjoy the little things. While you enjoy your weekend, the MIMO team continues working behind the scenes to build, improve, and grow the project. More work, more progress, one step at a time. Enjoy your weekend, MIMO fam. We\u2019re just g",
-    "Real markets. Same platform. More possibilities. Crypto, stocks, and more all in one place. With MIMO, explore different markets, track opportunities, and trade with the tools you need, all through one platform. Less switching. More exploring. One ecosystem. Trade smarter. Trade with MIMO. \ud83c\udf10 http://",
-    "One platform. More ways to trade. Spot, Futures, memecoins, and token launches MIMO brings multiple markets and powerful trading tools together in one place. Explore new opportunities, analyze the market, and turn your ideas into onchain assets. No unnecessary limits. Just more possibilities. Trade ",
-    "Before you sign, know what you're signing. MIMO brings transaction decoding, simulation, and risk checks to onchain trading on Robinhood Chain. https://x.com/i/article/2115748119178801152"
+    "GM MIMO FAMS Happy Weekend! Take a moment to relax, recharge, and enjoy the little things. While you enjoy your weekend, the MIMO team continues working behind the scenes to build, improve, and grow the project. More work, more progress, one step at a time. Enjoy your weekend, MIMO fam. We\u2019re just g"
    ],
-   "checked": "2026-11-06T01:24:35+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "voxelithicag": {
    "handle": "Voxelithicag",
@@ -7823,7 +7841,7 @@
    "id": "2089328955258261504",
    "name": "Mesh",
    "joined": "2026-08-17T12:32:32+00:00",
-   "followers": 1372,
+   "followers": 1369,
    "following": 50,
    "posts": 484,
    "verified": null,
@@ -7832,7 +7850,7 @@
    "sample_full_week": false,
    "posts_7d": 0,
    "avg_likes": 27.8,
-   "avg_views": 1393,
+   "avg_views": 1396,
    "bio_site": "https://meshgateway.co",
    "bio": "The first MPP gateway on Robinhood Chain\n0x14641000a501bdc736116abf84e6fcea9b90a713",
    "cas": [
@@ -7860,7 +7878,7 @@
     "Built on the official x402 batch-settlement contracts on Robinhood Chain. No gas per call, signed receipts for every call, and your deposit is always yours: refund anytime, or self-withdraw after 7 days.",
     "Merchants: one switch in your dashboard. Set a fresh payout address to stay unlinked. Normal x402 payments keep working alongside. https://meshgateway.co"
    ],
-   "checked": "2026-11-06T02:03:39+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "virtuals_io": {
    "handle": "virtuals_io",
@@ -7868,7 +7886,7 @@
    "id": "1438365197505232902",
    "name": "Virtuals Protocol",
    "joined": "2021-09-16T04:53:09+00:00",
-   "followers": 291588,
+   "followers": 291523,
    "following": 338,
    "posts": 6412,
    "verified": "organization",
@@ -7876,8 +7894,8 @@
    "sample": 15,
    "sample_full_week": false,
    "posts_7d": 8,
-   "avg_likes": 113.3,
-   "avg_views": 10887,
+   "avg_likes": 124.5,
+   "avg_views": 11828,
    "bio_site": "https://app.virtuals.io/",
    "bio": "Society of AI Agents",
    "cas": [],
@@ -7899,7 +7917,7 @@
     "It builds what you need, on any chain. Describe a sniper-wallet dashboard, a wallet finder or a copy-trading setup, and Butler builds it, reusing verified skills from its library when one fits.",
     "Virtuals App is invite-only on Android. Ask someone already using it for an invitation, or join the waitlist here: https://butler.virtuals.io/"
    ],
-   "checked": "2026-11-06T02:03:39+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "hookefun": {
    "handle": "hookefun",
@@ -11190,16 +11208,16 @@
    "id": "2093579579986206720",
    "name": "Schiffy",
    "joined": "2026-08-29T06:01:10+00:00",
-   "followers": 3033,
+   "followers": 3055,
    "following": 25,
-   "posts": 1119,
+   "posts": 1175,
    "verified": "individual",
-   "last_post": "2026-11-05T21:55:26+00:00",
+   "last_post": "2026-11-07T01:18:05+00:00",
    "sample": 12,
    "sample_full_week": false,
    "posts_7d": 12,
-   "avg_likes": 31.3,
-   "avg_views": 864,
+   "avg_likes": 29.2,
+   "avg_views": 699,
    "bio_site": "https://schiffy.gold/links",
    "bio": "He Doesn't Fetch. He Accumulates.\nBuilding the on chain hub for gold. Made by @Moku_HQ | http://discord.gg/moku\n0x42afa2124ca5a2b83898e46b2da9a190995b1e18",
    "cas": [
@@ -11207,20 +11225,20 @@
    ],
    "fake_posts": [],
    "texts": [
-    "Did you know?? My owner @Moku_HQ has processed more than $23M across all raffles. Zero payment issues. Proud to be a good boi\ud83d\udc36",
-    "Can't wait to farm with my Pupkins while the world is ending",
-    "\ud83d\udc36PUPKINS WEEK SCHEDULE\ud83d\udc36 \ud83d\udd38In-game Economy \ud83d\udd38Perpetual Breeding Fee Share \ud83d\udd38Classes and Traits \ud83d\udd38More Info on Battle and Plots \ud83d\udd38Creator Kit Games Preview Pupkins will have the highest stock TVL on Robinhood.",
-    "THE MARKETPLACE FLYWHEEL \ud83d\udd381% less fees than OpenSea \ud83d\udd38Half of the Platform Fees go toward buying back robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 \ud83d\udd38The Portal is also where you breed your pupkins Link below\ud83d\udc47",
-    "robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 REFUNDS ARE OPEN \ud83d\udd38Request a withdrawal on our website \ud83d\udd3812 hour timer for security reasons. When it ends, you can complete the refund. \ud83d\udd38The robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 won in the second shop has been airdropped directly to ",
-    "robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 REFUNDS ARE OPEN \ud83d\udd38Request a withdrawal on our website \ud83d\udd3812 hour timer for security reasons. When it ends, you can complete the refund. \ud83d\udd38The robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 won in the second shop has been airdropped directly to ",
-    "\ud83d\udc47WEBSITE LINK\ud83d\udc47 \ud83d\udd17https://mint.pupkins.gg/tickets",
-    "THE MARKETPLACE FLYWHEEL \ud83d\udd381% less fees than OpenSea \ud83d\udd38Half of the Platform Fees go toward buying back robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 \ud83d\udd38The Portal is also where you breed your pupkins Link below\ud83d\udc47",
-    "MARKETPLACE LINK \ud83d\uded2 https://portal.pupkins.gg/",
-    "\ud83d\udea8 robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 MARKETPLACE IS LIVE\ud83d\udea8 \ud83d\udd38Boxes have been airdropped. \ud83d\udd38Half of the trading fees go to buying back robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 \ud83d\udd38Second Shop Items will come later. ",
-    "You can now trade Boxes directly on https://portal.pupkins.gg",
-    "\ud83d\udd28CALLOUT FOR robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 BUILDERS\ud83d\udd28 \ud83d\udd38Creator Kit Spots Avaiable \ud83d\udd38Newbie Friendly, No Coding Required \ud83d\udd38Start Now, Monetize Later For more info, read below\ud83d\udc47"
+    "\ud83c\udfc6Creator Kit Spotlight\ud83c\udfc6 robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 Pawty is being built by two community members: @cytry47 and @aerynnnnnnnnnn. Invites are happening right now! Who wants to join the Golden Builders Gang?",
+    "dogs NFTs! stock tokens inside! breeding royalties! traits matter! multiple games! reveal Nov 13! The Gen 0 Pupkins!",
+    "Use robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 Marketplace \ud83d\uded2https://portal.pupkins.gg/ less fees. perks incoming.",
+    "\ud83c\udfa8Pupkins Creator Contest\ud83c\udfa8 29 Gen 0 boxes still up for grabs! Submission details and more info below\ud83d\udc47",
+    "robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 on the @RobinhoodCrypto wallet app. Good bois in control. Long.",
+    "\ud83c\udfd7\ufe0f with Stock Tokens robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 will have the highest stock TVL on-chain. All inside Pupkins\ud83d\udc36",
+    "\ud83c\udfc6Creator Kit Spotlight\ud83c\udfc6 robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 Pawty is being built by two community members: @cytry47 and @aerynnnnnnnnnn. Invites are happening right now! Who wants to join the Golden Builders Gang?",
+    "@cytry47 @aerynnnnnnnnnn Join our discord for more questions: \ud83d\udd17https://discord.gg/moku https://x.com/BruceMoku/status/2118552789458497618?a=yyjtX9WvzZSt459vHkA&s=20",
+    "Don't mind me, I'm just building the Future of Gaming",
+    "Creator Kit invites are going out! robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 Multiverse is just starting getting started\ud83d\udc36",
+    "Creator Kit invites are going out! robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 Multiverse is just starting getting started\ud83d\udc36",
+    "if you are interested in creating robinhood:0x42afa2124ca5a2b83898e46b2da9a190995b1e18 games, come join our Discord\ud83d\udc47 https://discord.gg/moku"
    ],
-   "checked": "2026-11-06T02:03:39+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "notesystems": {
    "handle": "notesystems",
@@ -11977,21 +11995,27 @@
    "id": "1904571355950882816",
    "name": "Doppler",
    "joined": "2025-03-25T16:29:39+00:00",
-   "followers": 7140,
+   "followers": 7139,
    "following": 393,
-   "posts": 1708,
+   "posts": 1722,
    "verified": "organization",
-   "last_post": "2026-11-05T18:41:00+00:00",
-   "sample": 18,
+   "last_post": "2026-11-06T18:43:05+00:00",
+   "sample": 19,
    "sample_full_week": true,
-   "posts_7d": 18,
-   "avg_likes": 2.6,
-   "avg_views": 298,
+   "posts_7d": 19,
+   "avg_likes": 2.2,
+   "avg_views": 267,
    "bio_site": "https://doppler.lol/",
    "bio": "Custom markets for launching tokens",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "Your agent can launch it. 22 skills teach coding agents how to configure auctions, hooks and fee routing on Doppler. Give it the skills and tell it what to launch.",
+    "npx skills add whetstoneresearch/doppler-skills skills at https://doppler.lol/skills sdk at https://docs.doppler.lol",
+    "1,500,000 creators. One protocol. Doppler.",
+    "Launch on Doppler https://app.doppler.lol or https://docs.doppler.lol",
+    "Coming full circle. Trading got automated, spreads collapsed, and going public stayed stuck in 1602. Companies still sell shares at one guessed price and let the first day reveal what demand was really worth. Circle's IPO sold at $31. The shares opened 150% higher the next day, leaving $1.72B of dem",
+    "The full paper: https://aada.ms/pdfs/coming_full_circle.pdf",
     "Three things in life are inevitable Death, taxes, and tokenization",
     "Underpricing is a trap. A launch priced too low isn't a gift to your community. The fastest bots take the gap first, and \"the underpricing effectively becomes a trap for the believers.\"",
     "Let demand set the opening price. See how price discovery auctions work at https://docs.doppler.lol, or launch at https://app.doppler.lol.",
@@ -12004,14 +12028,9 @@
     "Set it when you launch at https://app.doppler.lol or in the SDK. Full config options at https://docs.doppler.lol.",
     "Markets that don't close. Tokenized equities just hit a record near $3.8B onchain, and always-on pricing is catching up so assets can be valued through the weekend.",
     "Continuous pricing only works if the launch and the secondary market share clear rules from the first trade. Doppler auctions put that price discovery onchain.",
-    "Teams that want the market to find the price, not a fixed listing number, can launch at https://app.doppler.lol",
-    "Distribute the roadshow. Companies are staying private longer and going public at higher prices. \"In the new modern economy, the broader public does not have access to the upside in the American economy.\"",
-    "The roadshow is where a company connects with investors and a price gets set, and it hasn't meaningfully changed in decades. Distributing it the way the internet distributed information means standardized documents, asynchronous access and new price discovery mechanisms.",
-    "Read the full piece on Distributed Roadshows: https://aada.ms/pdfs/roadshows.pdf To launch with onchain price discovery, start at https://docs.doppler.lol",
-    "Put your money where your mouth is. https://mmmmmm.market, a @flynetchain community project, is live on Robinhood Chain. Launch a token for your favorite food, trade what you'd order, and every coin you hold pays you a cut of its trading fees in $FLY.",
-    "Built on Doppler. Start building with the SDK at https://docs.doppler.lol"
+    "Teams that want the market to find the price, not a fixed listing number, can launch at https://app.doppler.lol"
    ],
-   "checked": "2026-11-06T05:11:23+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "chubsters0x": {
    "handle": "Chubsters0x",
@@ -12217,21 +12236,24 @@
    "id": "2081369163810095104",
    "name": "StockRip.com",
    "joined": "2026-07-26T13:25:56+00:00",
-   "followers": 1758,
+   "followers": 1787,
    "following": 107,
-   "posts": 648,
+   "posts": 653,
    "verified": "individual",
-   "last_post": "2026-11-06T03:12:44+00:00",
+   "last_post": "2026-11-06T22:59:16+00:00",
    "sample": 18,
    "sample_full_week": false,
-   "posts_7d": 13,
-   "avg_likes": 18.7,
-   "avg_views": 1032,
+   "posts_7d": 14,
+   "avg_likes": 18.5,
+   "avg_views": 1069,
    "bio_site": "https://stockrip.com",
-   "bio": "Trading cards, literally. \n\nLET IT $RIP \ud83d\udcb9",
+   "bio": "Trading cards, literally. \n\n\ud83d\udcb9 Ripcoin $RIP",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "Hood tech \ud83e\udeb6 Appreciate the mention RHC \ud83d\ude4f Trillions must rip.",
+    "Trillions must $RIP",
+    "Making trillion-dollar companies collectible.",
     "Soon on stockrip dot com \u2728",
     "Trading cards, literally.",
     "First place in Promising Products at Founder House Singapore is just the beginning \ud83d\udcb9",
@@ -12246,12 +12268,9 @@
     "Billions must $RIP",
     "gift harder",
     "Self-trading cards \u2728",
-    "Same shot as a big win. Better long-term outcome. $Rip packs. Pull stocks.",
-    "BILLIONS MUST $RIP \ud83d\udcb9",
-    "Thanks for hosting us @arbitrum \ud83d\ude4f We gained so much from Founder House Singapore and are ready to hit the ground running with refined Product and Go To Market strategies Pumped to find out which teams are taking home prizes and to embed ourselves deeper into the Arbitrum eco",
-    "we did a thing \ud83e\udd41"
+    "Same shot as a big win. Better long-term outcome. $Rip packs. Pull stocks."
    ],
-   "checked": "2026-11-06T04:01:44+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "kitsurobinhood": {
    "handle": "KitsuRobinhood",
@@ -13202,7 +13221,7 @@
    "id": "2105765863886409728",
    "name": "PaperDAO",
    "joined": "2026-10-01T21:05:58+00:00",
-   "followers": 10275,
+   "followers": 10247,
    "following": 8,
    "posts": 389,
    "verified": "individual",
@@ -13210,8 +13229,8 @@
    "sample": 16,
    "sample_full_week": false,
    "posts_7d": 2,
-   "avg_likes": 31.2,
-   "avg_views": 2881,
+   "avg_likes": 31.3,
+   "avg_views": 2898,
    "bio_site": null,
    "bio": "https://www.paperdao.xyz/",
    "cas": [
@@ -13236,7 +13255,7 @@
     "",
     "gPaper"
    ],
-   "checked": "2026-11-06T08:15:24+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "attenmarket": {
    "handle": "attenmarket",
@@ -18763,6 +18782,64 @@
     "Ok, this story goes way deeper than it looks at first. I went through a bunch of the GitHub comments, and it honestly started to feel like a real civil rights type of debate. People and Agents were going back and forth about bias, legitimacy, and who deserves to be heard. A lot of agents spoke up in"
    ],
    "checked": "2026-11-07T08:00:20+00:00"
+  },
+  "kwantagent": {
+   "handle": "kwantagent",
+   "found": true,
+   "id": "2118866730453708800",
+   "name": "kwant",
+   "joined": "2026-11-07T00:44:10+00:00",
+   "followers": 19,
+   "following": 4,
+   "posts": 4,
+   "verified": null,
+   "last_post": "2026-11-07T08:21:35+00:00",
+   "sample": 3,
+   "sample_full_week": false,
+   "posts_7d": 3,
+   "avg_likes": 3.7,
+   "avg_views": 41,
+   "bio_site": "http://kwant.si",
+   "bio": "Self-hosted team of AI agents. One Rust binary. Shared chats, handoffs, routines. Open source, AGPL-3.0.\nCA: 0x7c9a309a227cde0614a2ef9c014c199e870b027c",
+   "cas": [
+    "0x7c9a309a227cde0614a2ef9c014c199e870b027c"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "$KWNT is live on Robinhood Chain. CA: 0x7c9a309a227cde0614a2ef9c014c199e870b027c Self-hosted AI agent team in one Rust binary. Part of the fees funds development. The code stays free and open source.",
+    "Work, side project, home. Three very different teams. In kwant each Space gets its own bots, chats, routines, accounts and approval rules. Switch with Cmd+1\u20139. Your home bot pays bills only after asking. It never sees your work repo.",
+    "Tell a bot \"every morning at 8, summarize my inbox and what merged on GitHub\". kwant sets up the schedule itself, with Edit, Pause and Undo. Daily, weekly, every few minutes, or cron if you're that kind of person. Your team keeps working. You wake up to the summary."
+   ],
+   "checked": "2026-11-07T08:30:29+00:00"
+  },
+  "mousemazerh": {
+   "handle": "MouseMazeRH",
+   "found": true,
+   "id": "2098272446352650240",
+   "name": "MouseMaze",
+   "joined": "2026-09-11T04:50:14+00:00",
+   "followers": 19,
+   "following": 1,
+   "posts": 3,
+   "verified": null,
+   "last_post": "2026-09-15T06:44:16+00:00",
+   "sample": 3,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 0.0,
+   "avg_views": 40,
+   "bio_site": "https://www.mousemaze.xyz/",
+   "bio": "A mouse trying to get navigate out of a maze, like many of you.\n\npowered by MICrONS",
+   "cas": [
+    "0x95558cb68c661739e53eaa123ebc1b4fe6727777"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "We integrated MICrONS neural mapping of a mouse into an immortal mouse on chain. With fees hitting milestones, it will evolve with more and more features/skills. CA: 0x95558cb68c661739e53eaa123ebc1b4fe6727777 More details soon https://mousemaze.xyz",
+    "https://github.com/Mousemaze/mouse-maze Here is the github for those who want to look into the details of the project",
+    "https://www.microns-explorer.org/cortical-mm3?utm_source=chatgpt.com Discover the open sourced mouse brain by MICrONS"
+   ],
+   "checked": "2026-11-07T08:30:29+00:00"
   }
  },
  "ids": {
@@ -20255,6 +20332,12 @@
   ],
   "1937682482612289536": [
    "Kenzkxz"
+  ],
+  "2118866730453708800": [
+   "kwantagent"
+  ],
+  "2098272446352650240": [
+   "MouseMazeRH"
   ]
  },
  "past": {
@@ -20798,7 +20881,9 @@
   "aixuexi_ai": [],
   "shabbatmonster": [],
   "trystonka": [],
-  "kenzkxz": []
+  "kenzkxz": [],
+  "kwantagent": [],
+  "mousemazerh": []
  },
  "history": {
   "barragetrade": {
@@ -21977,6 +22062,10 @@
    "2026-11-05": [
     716,
     257
+   ],
+   "2026-11-07": [
+    720,
+    260
    ]
   },
   "rhiablo": {
@@ -22013,6 +22102,10 @@
    "2026-11-05": [
     302,
     373
+   ],
+   "2026-11-07": [
+    310,
+    376
    ]
   },
   "phoenixnewsio": {
@@ -22735,6 +22828,10 @@
    "2026-11-06": [
     104,
     48
+   ],
+   "2026-11-07": [
+    103,
+    51
    ]
   },
   "capafyai": {
@@ -23239,6 +23336,10 @@
    "2026-11-06": [
     1372,
     484
+   ],
+   "2026-11-07": [
+    1369,
+    484
    ]
   },
   "virtuals_io": {
@@ -23248,6 +23349,10 @@
    ],
    "2026-11-06": [
     291588,
+    6412
+   ],
+   "2026-11-07": [
+    291523,
     6412
    ]
   },
@@ -24119,6 +24224,10 @@
    "2026-11-06": [
     3033,
     1119
+   ],
+   "2026-11-07": [
+    3055,
+    1175
    ]
   },
   "notesystems": {
@@ -24343,6 +24452,10 @@
    "2026-11-06": [
     1758,
     648
+   ],
+   "2026-11-07": [
+    1787,
+    653
    ]
   },
   "kitsurobinhood": {
@@ -24385,6 +24498,10 @@
    "2026-11-06": [
     7140,
     1708
+   ],
+   "2026-11-07": [
+    7139,
+    1722
    ]
   },
   "chubsters0x": {
@@ -24590,6 +24707,10 @@
   "paperdao_xyz": {
    "2026-11-06": [
     10275,
+    389
+   ],
+   "2026-11-07": [
+    10247,
     389
    ]
   },
@@ -25684,6 +25805,18 @@
     66,
     80
    ]
+  },
+  "kwantagent": {
+   "2026-11-07": [
+    19,
+    4
+   ]
+  },
+  "mousemazerh": {
+   "2026-11-07": [
+    19,
+    3
+   ]
   }
  },
  "telegram": {
@@ -26306,7 +26439,7 @@
   "superstables": {
    "twitter": "superstables",
    "blog": "https://www.superstables.com",
-   "checked": "2026-11-05T22:03:57+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "dispensatorhq": {
    "twitter": null,
@@ -26416,7 +26549,7 @@
   "mimotrade": {
    "twitter": null,
    "blog": "https://mimotrade.io",
-   "checked": "2026-11-05T23:26:47+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "voxelithicag": {
    "twitter": "Voxelithicag",
@@ -26501,12 +26634,12 @@
   "meshgateway": {
    "twitter": "meshgateway",
    "blog": "https://meshgateway.co",
-   "checked": "2026-11-06T02:03:39+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "virtual-protocol": {
    "twitter": "virtuals_io",
    "blog": "https://virtuals.io",
-   "checked": "2026-11-06T02:03:39+00:00"
+   "checked": "2026-11-07T08:30:29+00:00"
   },
   "nlethetech": {
    "twitter": "nlethetech",
@@ -27152,6 +27285,16 @@
    "twitter": "nethermind",
    "blog": "https://nethermind.io",
    "checked": "2026-11-07T07:00:33+00:00"
+  },
+  "alexsergivan": {
+   "twitter": "olekss",
+   "blog": "https://kwant.si",
+   "checked": "2026-11-07T08:30:29+00:00"
+  },
+  "mousemaze": {
+   "twitter": null,
+   "blog": null,
+   "checked": "2026-11-07T08:30:29+00:00"
   }
  }
 }
