@@ -7176,5 +7176,84 @@
   "after": 398,
   "others": [],
   "wallet_txs": 34144
+ },
+ "0x31b31fe8f593e34bfbadf99f6e16909361b2cebc": {
+  "checked": "2026-11-07T05:31:37+00:00",
+  "pons": true,
+  "wallet": "0xf51bc38cb80c6dda5c289483f9d4bd1fe9889a7d",
+  "launches": 22,
+  "before": 5,
+  "after": 16,
+  "others": [
+   {
+    "address": "0x5fb590c9f4665b7822c7a10f2f11282183e0c062",
+    "symbol": "Hahayes",
+    "mcap": 3696.1457927654087,
+    "launched": "2026-09-22T12:16:31+00:00"
+   },
+   {
+    "address": "0x6cabc8016a9ca46b3fccc17df07ef8fbc3b776eb",
+    "symbol": "Haha",
+    "mcap": 3739.291995434251,
+    "launched": "2026-09-22T12:12:26+00:00"
+   },
+   {
+    "address": "0x0e8c3e013206821ae7d3ca544bf25e00e36f1b13",
+    "symbol": "ASS",
+    "mcap": 3178.130022673232,
+    "launched": "2026-09-14T09:26:07+00:00"
+   },
+   {
+    "address": "0xb521997da34b76d4a313b1cb7e0e1eae8700e8f3",
+    "symbol": "\u7231",
+    "mcap": 3071.1697263776155,
+    "launched": "2026-09-13T10:03:33+00:00"
+   },
+   {
+    "address": "0x695e9c7d0ccd500e66fe0c25ef806dfe426e90b3",
+    "symbol": "\u4e2d\u56fd\u4eba",
+    "mcap": 2999.9288400000005,
+    "launched": "2026-09-13T09:46:45+00:00"
+   },
+   {
+    "address": "0xb9dadc0b12d26aded9401804ad0b194b7ec58d5f",
+    "symbol": "\u4e2d\u56fd\u4eba",
+    "mcap": 2999.9288400000005,
+    "launched": "2026-09-13T09:46:44+00:00"
+   },
+   {
+    "address": "0x95f52f3736aa4c1c3034435e9d26720e45139cb6",
+    "symbol": "\u5148\u884c\u8005",
+    "mcap": 2999.9288400000005,
+    "launched": "2026-09-13T09:39:09+00:00"
+   },
+   {
+    "address": "0x0669186d77851a48aad9f8d61472fecca3321ea5",
+    "symbol": "\u4e2d\u6587\u65f6\u4ee3",
+    "mcap": 2999.9288400000005,
+    "launched": "2026-09-13T09:34:14+00:00"
+   }
+  ],
+  "wallet_txs": 220
+ },
+ "0x2b97b67c3e915be844d8c251be8e0d70009ca672": {
+  "checked": "2026-11-07T05:31:37+00:00",
+  "pons": true,
+  "wallet": "0x9938ee2c028dddb73c45b3fc249a46b00f54a896",
+  "launches": 977,
+  "before": 760,
+  "after": 216,
+  "others": [],
+  "wallet_txs": 20271
+ },
+ "0xff3f70ade922f7d47c1f74fa3de77f175eda760f": {
+  "checked": "2026-11-07T05:31:37+00:00",
+  "pons": true,
+  "wallet": "0x0116f6961fa52655abfdf873231f1167a9a3bba5",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 10
  }
 }

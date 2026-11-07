@@ -4826,7 +4826,28 @@
   "0x066d9bb2f64f05c8fade410e9df0565e77293cba": "2026-11-07T05:15:24+00:00",
   "0x6489a2e58afa5290915cc9e950b9c3cc6427c0b5": "2026-11-07T05:15:24+00:00",
   "0x92a780b629a21815ed941ab8b6c9764dd0064d6c": "2026-11-07T05:15:24+00:00",
-  "0xad715aabc82370cced39289dde411105d3dce586": "2026-11-07T05:15:24+00:00"
+  "0xad715aabc82370cced39289dde411105d3dce586": "2026-11-07T05:15:24+00:00",
+  "0xd012b197dcb3917d6edb222d931db39806434133": "2026-11-07T05:30:30+00:00",
+  "0x1397c7bdd5202f09be386fb15a639ca680320677": "2026-11-07T05:30:30+00:00",
+  "0x58e13ae782ff145b2d76d4a85a477cb66ca6f0c5": "2026-11-07T05:30:30+00:00",
+  "0x7f6817cdffb09e18804d1ec5871436f22ebccae5": "2026-11-07T05:30:30+00:00",
+  "0xff3f70ade922f7d47c1f74fa3de77f175eda760f": "2026-11-07T05:30:30+00:00",
+  "0x214f8ec2295a8898d3bf06a3538a8dbb0ed7e7fa": "2026-11-07T05:30:30+00:00",
+  "0x3ea1cc072de3a30e3c06b81874b1cdd21778c26c": "2026-11-07T05:30:30+00:00",
+  "0xe5256e6b600ed4405d8207700d34ad0c44cda869": "2026-11-07T05:30:30+00:00",
+  "0x570ef90b339ee82e49f08373abd214ce3136d466": "2026-11-07T05:30:30+00:00",
+  "0x597dae22abd24eef9f73e033b37b7a406e7f8ace": "2026-11-07T05:30:30+00:00",
+  "0x686569fcd931b4dce762c3f2a79d3b0a45d397b5": "2026-11-07T05:30:30+00:00",
+  "0x334370291d0835649a734fdfad32fdb9180765ee": "2026-11-07T05:30:30+00:00",
+  "0x96cbec1a450dc176479c9a9d1a662003bef66b55": "2026-11-07T05:30:30+00:00",
+  "0xb5f07adb30c92b501cdb9fdbc74f5824b4a111d9": "2026-11-07T05:30:30+00:00",
+  "0x1fa41eb963fa1dca93596bdc9972da591ff76ca3": "2026-11-07T05:30:30+00:00",
+  "0xc6e21e12883a9d0a037beef3d2f40205cfd640ef": "2026-11-07T05:30:30+00:00",
+  "0x31b31fe8f593e34bfbadf99f6e16909361b2cebc": "2026-11-07T05:30:30+00:00",
+  "0x60969b68ff9f091ca6b9ce882fb56bc1432020f9": "2026-11-07T05:30:30+00:00",
+  "0xfba8847dda8575b4a3b6f0df8cee6e2cd120a0b1": "2026-11-07T05:30:30+00:00",
+  "0x08908ee0f0bf1457ddc3097daab47895e3d570bd": "2026-11-07T05:30:30+00:00",
+  "0x2b97b67c3e915be844d8c251be8e0d70009ca672": "2026-11-07T05:30:30+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -26090,7 +26111,8 @@
      "pushed": "private",
      "commits": "private"
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xcc4b2c43b48763e6cf70cae23be71866c2a8e0ea": {
    "address": "0xcc4b2c43b48763e6cf70cae23be71866c2a8e0ea",
@@ -26138,7 +26160,8 @@
      "pushed": "private",
      "commits": "private"
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x8219c8d876449c029a6f7527441e00c07d3cbac1": {
    "address": "0x8219c8d876449c029a6f7527441e00c07d3cbac1",
@@ -26208,7 +26231,8 @@
      "pushed": "2026-09-21",
      "people": 1
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x6489a2e58afa5290915cc9e950b9c3cc6427c0b5": {
    "address": "0x6489a2e58afa5290915cc9e950b9c3cc6427c0b5",
@@ -26256,10 +26280,107 @@
      "pushed": "private",
      "commits": "private"
     }
+   },
+   "launched_src": "pons"
+  },
+  "0x31b31fe8f593e34bfbadf99f6e16909361b2cebc": {
+   "address": "0x31b31fe8f593e34bfbadf99f6e16909361b2cebc",
+   "symbol": "CATIPAL",
+   "name": "Catipal",
+   "description": "Catipal",
+   "website": "https://www.ponsfamily.com/launchpad/0xd6ea8f1cf3a1f5716f93f0a368fbc2574d203637",
+   "twitter": "https://x.com/WhaleInsider/status/2096920838301782244",
+   "launched": "2026-09-07T11:18:33+00:00",
+   "mcap": 3813.67104980424,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T05:30:30+00:00",
+   "scored_at": "2026-11-07T05:30:30+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pons-labs/",
+    "score": 10,
+    "capped": false,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/pons-labs has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u274c GitHub account pons-labs isn't named after the project (+0)"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f GitHub account 93 days old, 35 followers"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2026-08-05",
+     "pushed": "private",
+     "commits": "private"
+    }
+   }
+  },
+  "0x2b97b67c3e915be844d8c251be8e0d70009ca672": {
+   "address": "0x2b97b67c3e915be844d8c251be8e0d70009ca672",
+   "symbol": "C4T",
+   "name": "C4T",
+   "description": "-",
+   "website": "https://www.ponsfamily.com/launchpad/0xdd25a65c5ede29d5d91db888d608e73df134a5b8",
+   "twitter": "https://x.com/yvqex/status/2096919937642123336",
+   "launched": "2026-09-07T12:43:26+00:00",
+   "mcap": 3077.868071536704,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T05:30:30+00:00",
+   "scored_at": "2026-11-07T05:30:30+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pons-labs/",
+    "score": 10,
+    "capped": false,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/pons-labs has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u274c GitHub account pons-labs isn't named after the project (+0)"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f GitHub account 93 days old, 35 followers"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2026-08-05",
+     "pushed": "private",
+     "commits": "private"
+    }
    }
   }
  },
- "checked_total": 4816,
+ "checked_total": 4837,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -28984,6 +29105,10 @@
   }
  ],
  "symbol_counts": {
+  "PRIMAL": 2,
+  "XARIA": 2,
+  "MECHAZILLA": 1,
+  "PILLAR": 1,
   "DROSOPHILA": 1,
   "MTN": 1,
   "ORBITRALS": 1,
@@ -29017,18 +29142,20 @@
   "VELUM": 1,
   "PREDICTION": 1,
   "scamsem": 1,
-  "EVERFALL": 1,
-  "FLOAT": 1,
-  "OH": 2,
-  "Runner": 1,
   "OAK": 2,
   "WIF": 1,
   "PONS": 1,
   "HMM": 4,
-  "ORBIO": 1,
-  "DELTA": 1,
-  "CHARLIE": 1,
   "POTATCHI": 1,
+  "ORBIO": 1,
+  "CHARLIE": 1,
+  "DELTA": 1,
+  "RAETO": 2,
+  "ROBINCAT": 1,
+  "EVERFALL": 1,
+  "FLOAT": 1,
+  "OH": 2,
+  "Runner": 1,
   "HYDX": 1,
   "website": 1,
   "RHBNKR": 1,
@@ -29099,8 +29226,6 @@
   "RAMJAK": 1,
   "BONKALTMAN": 1,
   "GLARE": 2,
-  "RAETO": 2,
-  "ROBINCAT": 1,
   "Jos\u00e9": 2,
   "SWELL": 1,
   "XTEN": 1,
@@ -29370,7 +29495,6 @@
   "TRESTLE": 1,
   "JBEAN": 1,
   "ANYHOOD": 1,
-  "XARIA": 2,
   "ARKER": 1,
   "FIZZ": 1,
   "NOTCHD": 1,
@@ -51350,6 +51474,73 @@
     }
    },
    "launched_src": "pons"
+  },
+  "0xff3f70ade922f7d47c1f74fa3de77f175eda760f": {
+   "address": "0xff3f70ade922f7d47c1f74fa3de77f175eda760f",
+   "symbol": "PILLAR",
+   "name": "PILLAR",
+   "description": "The Super Intelligence Christians trust. Guidance grounded in Scripture, with Jesus at the center, for life between Sundays. Free forever.",
+   "website": "http://askpillar.ai",
+   "twitter": "https://x.com/askpillar",
+   "site_via_x": null,
+   "launched": "2026-11-07T05:23:40+00:00",
+   "mcap": 3707.64160002814,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T05:30:30+00:00",
+   "scored_at": "2026-11-07T05:30:30+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 25,
+    "raw_score": 25,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+5)",
+      "\u2705 Has docs written for AI to read (/llms-full.txt) (+10)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u274c No use of stock tokens or USDG (+0)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f No app or wallet connect found",
+      "\u2139\ufe0f Not aimed at AI agents",
+      "\u2139\ufe0f No audit mentioned"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 3,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "http://askpillar.ai",
+     "http://askpillar.ai",
+     "http://askpillar.ai/llms-full.txt",
+     "http://askpillar.ai/llms.txt",
+     "http://askpillar.ai/docs"
+    ],
+    "facts": {
+     "tools": 3,
+     "dev_pages": [],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
   }
  },
  "site_checked": {
@@ -51421,7 +51612,7 @@
   "0x7f434bfd5397a76692115c24d0e1eea8be15192e": "2026-11-05T08:30:28+00:00",
   "0x60f2341f0605870769513b62d80a5233af35d6f6": "2026-11-05T08:30:28+00:00",
   "0x07bb78f6f8d5121fbc03ad4c8b1a22f5a95227e6": "2026-11-05T08:30:28+00:00",
-  "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691": "2026-11-07T05:15:24+00:00",
+  "0xf28e3c40bb6e6bda0be68b01e2e5ecfadec78691": "2026-11-07T05:30:30+00:00",
   "0x4e00b96443a2af7b741aa4b9cbfde3de5fd11ac2": "2026-11-05T09:18:38+00:00",
   "0xd20073c027624c37a22d8df415ab271f57b9f446": "2026-11-05T09:18:38+00:00",
   "0xc4315b4191bd7fc290dc4906afaf110d1ded1055": "2026-11-06T19:57:21+00:00",
@@ -53620,7 +53811,23 @@
   "0x6b53f7e90def7804359064fa2474aea3e8576915": "2026-11-07T05:15:24+00:00",
   "0x066d9bb2f64f05c8fade410e9df0565e77293cba": "2026-11-07T05:15:24+00:00",
   "0x92a780b629a21815ed941ab8b6c9764dd0064d6c": "2026-11-07T05:15:24+00:00",
-  "0xad715aabc82370cced39289dde411105d3dce586": "2026-11-07T05:15:24+00:00"
+  "0xad715aabc82370cced39289dde411105d3dce586": "2026-11-07T05:15:24+00:00",
+  "0xd012b197dcb3917d6edb222d931db39806434133": "2026-11-07T05:30:30+00:00",
+  "0x58e13ae782ff145b2d76d4a85a477cb66ca6f0c5": "2026-11-07T05:30:30+00:00",
+  "0x7f6817cdffb09e18804d1ec5871436f22ebccae5": "2026-11-07T05:30:30+00:00",
+  "0xff3f70ade922f7d47c1f74fa3de77f175eda760f": "2026-11-07T05:30:30+00:00",
+  "0x214f8ec2295a8898d3bf06a3538a8dbb0ed7e7fa": "2026-11-07T05:30:30+00:00",
+  "0x3ea1cc072de3a30e3c06b81874b1cdd21778c26c": "2026-11-07T05:30:30+00:00",
+  "0xe5256e6b600ed4405d8207700d34ad0c44cda869": "2026-11-07T05:30:30+00:00",
+  "0x570ef90b339ee82e49f08373abd214ce3136d466": "2026-11-07T05:30:30+00:00",
+  "0x597dae22abd24eef9f73e033b37b7a406e7f8ace": "2026-11-07T05:30:30+00:00",
+  "0x686569fcd931b4dce762c3f2a79d3b0a45d397b5": "2026-11-07T05:30:30+00:00",
+  "0x334370291d0835649a734fdfad32fdb9180765ee": "2026-11-07T05:30:30+00:00",
+  "0x96cbec1a450dc176479c9a9d1a662003bef66b55": "2026-11-07T05:30:30+00:00",
+  "0xb5f07adb30c92b501cdb9fdbc74f5824b4a111d9": "2026-11-07T05:30:30+00:00",
+  "0xc6e21e12883a9d0a037beef3d2f40205cfd640ef": "2026-11-07T05:30:30+00:00",
+  "0x60969b68ff9f091ca6b9ce882fb56bc1432020f9": "2026-11-07T05:30:30+00:00",
+  "0xfba8847dda8575b4a3b6f0df8cee6e2cd120a0b1": "2026-11-07T05:30:30+00:00"
  },
  "catchup_plain": []
 }
