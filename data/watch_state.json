@@ -4899,7 +4899,22 @@
   "0xe06825e82df4156afc16348f1e0e9b075569d0fc": "2026-11-07T05:45:23+00:00",
   "0xee915415b0527b9c9b2740180195940f9f4369e8": "2026-11-07T05:45:23+00:00",
   "0xf90d13c1fa4b232748309e66e0d972b69083405d": "2026-11-07T05:45:23+00:00",
-  "0xfa32d662e2ec4e80d341cd719c705874734782e1": "2026-11-07T05:45:23+00:00"
+  "0xfa32d662e2ec4e80d341cd719c705874734782e1": "2026-11-07T05:45:23+00:00",
+  "0x05ab5974839cbef493a0958751185f1a45fb2a3b": "2026-11-07T06:00:33+00:00",
+  "0x329580a3b0b71e3c971de47945fc050db605ec4f": "2026-11-07T06:00:33+00:00",
+  "0x04c9124c94a853f4738a2aab24af3bfe7251ee78": "2026-11-07T06:00:33+00:00",
+  "0x958426ab7ede892b33a373c65b64a2a10f17c004": "2026-11-07T06:00:33+00:00",
+  "0xf04ba605a29493d67d67ed683dc25379b7554b87": "2026-11-07T06:00:33+00:00",
+  "0x9f9c383e1762cd6cdc2509a3255a45f84f5571ec": "2026-11-07T06:00:33+00:00",
+  "0x54125c37c5c27a89856b302ec14e69073e8d5c62": "2026-11-07T06:00:33+00:00",
+  "0x00d3d39c48fcc1e752c031a9848557a4df4985dd": "2026-11-07T06:00:33+00:00",
+  "0xd80d21347d45b649dc9e27c250492bdde65d145a": "2026-11-07T06:00:33+00:00",
+  "0x4ae9bfdc4cab6ce46ce1a0527aea6abd4fc08063": "2026-11-07T06:00:33+00:00",
+  "0x4927a0b6625bf9bdc4bff1cae0f272924bfa869d": "2026-11-07T06:00:33+00:00",
+  "0xe261c54ee1831b59c99822be261adbaeab856e82": "2026-11-07T06:00:33+00:00",
+  "0x829cecefca1ab90c106a4ab26e11a73e2ed7c72e": "2026-11-07T06:00:33+00:00",
+  "0x590d8ce888fcaa5175768ac3ec67238cf65ae4f3": "2026-11-07T06:00:33+00:00",
+  "0xaf8e1d0d6ab75248f612740ed5de4deb74dd8cc5": "2026-11-07T06:00:33+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -26497,7 +26512,8 @@
      "pushed": "2026-11-07",
      "people": 8
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x1c84934e24a4f91c3289491cb87c259c42c66d3d": {
    "address": "0x1c84934e24a4f91c3289491cb87c259c42c66d3d",
@@ -26545,7 +26561,8 @@
      "pushed": "private",
      "commits": "private"
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xe93bb02698cf65b3ff6fc5f2d141b3c04a7d8a9f": {
    "address": "0xe93bb02698cf65b3ff6fc5f2d141b3c04a7d8a9f",
@@ -26593,10 +26610,192 @@
      "pushed": "private",
      "commits": "private"
     }
+   },
+   "launched_src": "pons"
+  },
+  "0x04c9124c94a853f4738a2aab24af3bfe7251ee78": {
+   "address": "0x04c9124c94a853f4738a2aab24af3bfe7251ee78",
+   "symbol": "ARAGON",
+   "name": "Aragon Project",
+   "description": "Aragon powers protocols with products and services designed to manage access control, capital allocation, and ownership at scale. Build something worth owning.",
+   "website": "https://www.aragon.org/",
+   "twitter": "https://x.com/AragonProject",
+   "launched": "2026-11-07T05:54:44+00:00",
+   "mcap": 3660.5151901474023,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T06:00:33+00:00",
+   "scored_at": "2026-11-07T06:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "aragon/app-backend",
+    "score": 25,
+    "raw_score": 60,
+    "capped": true,
+    "not_theirs": false,
+    "flags": [
+     "Dev never mentions this token: aragon's GitHub is big and older than the token (1 stars, 356 followers), but its repo, website and X never post or mention the token. Likely launched by someone else using their project \u2014 capped at 25 until the dev claims it"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (borrow, dex, exchange, fees) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn, buyback, stake) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (blog.aragon.org/the-value-accrual-toolkit-tokenomic-primitives-for-network-incentive-alignment/), docs (docs.aragon.org/llms-full.txt), docs (www.aragon.org/docs), docs (www.aragon.org/llms-full.txt), docs (www.aragon.org/llms.txt), docs (www.aragon.org/tokenomics), website (www.aragon.org/), website code (www.aragon.org/))"
+     ],
+     "Real code": [
+      "\u2705 3427 changes over 972 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 3612 days old, 14 people, 1 stars, 4 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit, timelock (+5)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 27 updates shipped so far"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://www.aragon.org/",
+     "https://www.aragon.org/",
+     "https://www.aragon.org/llms-full.txt",
+     "https://www.aragon.org/llms.txt",
+     "https://docs.aragon.org/llms-full.txt",
+     "https://www.aragon.org/docs",
+     "https://www.aragon.org/tokenomics",
+     "https://blog.aragon.org/the-value-accrual-toolkit-tokenomic-primitives-for-network-incentive-alignment/"
+    ],
+    "facts": {
+     "commits": 3427,
+     "stars": 1,
+     "created": "2024-03-07",
+     "pushed": "2026-11-06",
+     "people": 14
+    }
+   }
+  },
+  "0xf04ba605a29493d67d67ed683dc25379b7554b87": {
+   "address": "0xf04ba605a29493d67d67ed683dc25379b7554b87",
+   "symbol": "DERSTAR",
+   "name": "Derstar",
+   "description": "Decentralized exchange for onchain options",
+   "website": "https://derstar.xyz",
+   "twitter": "https://x.com/Derstar_options",
+   "launched": "2026-11-07T05:49:26+00:00",
+   "mcap": 3700.399680981022,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T06:00:33+00:00",
+   "scored_at": "2026-11-07T06:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "derstarteam-a11y/derstar-contracts",
+    "score": 60,
+    "raw_score": 60,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, fees, liquidity, options) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 119 of 123 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u2705 Their website code mentions the token: 'DERSTAR token' \u2014 \u201cwill come only from official Derstar channels. Ignore DMs offering a Derstar token, a presale or a paid invite code: they are scams.\"],[\"What can I trad\u201d (https://derstar.xyz)"
+     ],
+     "Real code": [
+      "\u274c 11 changes over 1 days (+0)",
+      "\u2705 Has smart contracts and tests (+10)"
+     ],
+     "Team": [
+      "\u2139\ufe0f One person, new account, no outside interest: account 20 days old, 1 people, 0 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u2705 Contract addresses listed in the README (+5)",
+      "\u2705 Safety info: audit, timelock (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": null,
+    "sources_read": [
+     "https://derstar.xyz",
+     "https://derstar.xyz"
+    ],
+    "facts": {
+     "commits": 11,
+     "stars": 0,
+     "created": "2026-11-01",
+     "pushed": "2026-11-06",
+     "people": 1
+    }
+   }
+  },
+  "0x4ae9bfdc4cab6ce46ce1a0527aea6abd4fc08063": {
+   "address": "0x4ae9bfdc4cab6ce46ce1a0527aea6abd4fc08063",
+   "symbol": "fone",
+   "name": "fruitonfone",
+   "description": "",
+   "website": "https://ponsfamily.com/launchpad/0xa096c54f25a534ba124134502a65d64165fcb796",
+   "twitter": "https://x.com/telegram/status/2098436206300139906",
+   "launched": "2026-09-11T15:39:22+00:00",
+   "mcap": 2967.366533490079,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T06:00:33+00:00",
+   "scored_at": "2026-11-07T06:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pons-labs/",
+    "score": 10,
+    "capped": false,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/pons-labs has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u274c GitHub account pons-labs isn't named after the project (+0)"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f GitHub account 93 days old, 35 followers"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2026-08-05",
+     "pushed": "private",
+     "commits": "private"
+    }
    }
   }
  },
- "checked_total": 4889,
+ "checked_total": 4904,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -29369,7 +29568,13 @@
   }
  ],
  "symbol_counts": {
-  "NACTO": 1,
+  "GRANTLAYER": 1,
+  "ARAGON": 1,
+  "COFFEESHOP": 1,
+  "DERSTAR": 1,
+  "GIGGS": 1,
+  "LICHWARD": 1,
+  "NACTO": 2,
   "MMO": 1,
   "QUANTUM": 1,
   "PERPSONS": 1,
@@ -29400,6 +29605,15 @@
   "PALOMINO": 1,
   "ALIBI": 1,
   "TEG": 1,
+  "OAK": 2,
+  "HMM": 4,
+  "WIF": 1,
+  "UFG": 1,
+  "PONS": 1,
+  "POTATCHI": 1,
+  "CHARLIE": 1,
+  "RAETO": 2,
+  "HYDX": 1,
   "BLUECLAY": 1,
   "OBLIGRA": 1,
   "RG": 1,
@@ -29407,15 +29621,8 @@
   "HALLOFASH": 1,
   "BLUFFREAD": 1,
   "CAT": 1,
-  "OAK": 2,
-  "HMM": 4,
-  "WIF": 1,
-  "PONS": 1,
   "DELTA": 1,
   "ORBIO": 1,
-  "POTATCHI": 1,
-  "CHARLIE": 1,
-  "HYDX": 1,
   "ROBINCAT": 1,
   "Alice": 2,
   "DIVI": 1,
@@ -29424,7 +29631,6 @@
   "VELUM": 1,
   "PREDICTION": 1,
   "scamsem": 1,
-  "RAETO": 2,
   "EVERFALL": 1,
   "FLOAT": 1,
   "OH": 2,
@@ -29493,7 +29699,6 @@
   "ASH": 1,
   "VICEBONK": 1,
   "MRGA": 1,
-  "UFG": 1,
   "PUFF": 1,
   "RAMJAK": 1,
   "BONKALTMAN": 1,
@@ -51882,7 +52087,8 @@
      "contract_addresses": 324,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "first trade"
   },
   "0x576d96075eacb82b3441c5a610e5095860184271": {
    "address": "0x576d96075eacb82b3441c5a610e5095860184271",
@@ -51950,6 +52156,149 @@
       "https://qedralab.org/docs"
      ],
      "contract_addresses": 0,
+     "winners_linked": []
+    }
+   },
+   "launched_src": "pons"
+  },
+  "0x4927a0b6625bf9bdc4bff1cae0f272924bfa869d": {
+   "address": "0x4927a0b6625bf9bdc4bff1cae0f272924bfa869d",
+   "symbol": "PON",
+   "name": "Pon  by kicker",
+   "description": "The Mascot of Pons Family.",
+   "website": "https://kicker.markets/pot?k=0x2c89272ff8027505f5be904bdcd5d34f8824ffb6",
+   "twitter": null,
+   "site_via_x": null,
+   "launched": "2026-09-15T16:50:55+00:00",
+   "mcap": 3836.4489473422022,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T06:00:33+00:00",
+   "scored_at": "2026-11-07T06:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 50,
+    "raw_score": 50,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u2705 Lists 26 contract addresses (+15)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burns) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (tokenized stock) (+10)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f Mentions an audit \u2014 not checked"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 1,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://kicker.markets/pot?k=0x2c89272ff8027505f5be904bdcd5d34f8824ffb6",
+     "https://kicker.markets/pot?k=0x2c89272ff8027505f5be904bdcd5d34f8824ffb6",
+     "https://kicker.markets/llms.txt",
+     "https://kicker.markets/docs",
+     "https://kicker.markets/docs#security",
+     "https://www.ponsfamily.com/launchpad/${l.token}",
+     "https://kicker.markets/docs"
+    ],
+    "facts": {
+     "tools": 1,
+     "dev_pages": [
+      "https://kicker.markets/docs"
+     ],
+     "contract_addresses": 26,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x829cecefca1ab90c106a4ab26e11a73e2ed7c72e": {
+   "address": "0x829cecefca1ab90c106a4ab26e11a73e2ed7c72e",
+   "symbol": "ROI",
+   "name": "Retards On Internet by kicker",
+   "description": "Retards On Internet",
+   "website": "https://kicker.markets/pot?k=0x80ab737ae6f8a8f1ad08769a41594fb9205fd02b",
+   "twitter": null,
+   "site_via_x": null,
+   "launched": "2026-09-16T00:47:27+00:00",
+   "mcap": 3891.838375131615,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T06:00:33+00:00",
+   "scored_at": "2026-11-07T06:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 50,
+    "raw_score": 50,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u2705 Lists 26 contract addresses (+15)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burns) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (tokenized stock) (+10)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f Mentions an audit \u2014 not checked"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 1,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://kicker.markets/pot?k=0x80ab737ae6f8a8f1ad08769a41594fb9205fd02b",
+     "https://kicker.markets/pot?k=0x80ab737ae6f8a8f1ad08769a41594fb9205fd02b",
+     "https://kicker.markets/llms.txt",
+     "https://kicker.markets/docs",
+     "https://kicker.markets/docs#security",
+     "https://www.ponsfamily.com/launchpad/${l.token}",
+     "https://kicker.markets/docs"
+    ],
+    "facts": {
+     "tools": 1,
+     "dev_pages": [
+      "https://kicker.markets/docs"
+     ],
+     "contract_addresses": 26,
      "winners_linked": []
     }
    }
@@ -52826,7 +53175,7 @@
   "0x15ca428ddb05e47998d2495c7f6b67b22e2283d4": "2026-11-05T21:23:30+00:00",
   "0x9a7b664e373076aa2fa175d742bf7a14dc5984c1": "2026-11-05T21:23:30+00:00",
   "0xe96d1238ae62059ae2795bd4482176470e0ddc55": "2026-11-06T18:33:20+00:00",
-  "0x5031600a85a0176d440f2662bca3190e025f1a2f": "2026-11-05T21:23:30+00:00",
+  "0x5031600a85a0176d440f2662bca3190e025f1a2f": "2026-11-07T06:00:33+00:00",
   "0x9d5a3c4a5e0109c0d8431194d2b3b9418f96eef5": "2026-11-05T21:23:30+00:00",
   "0xc32c1f5078f657cb07e39f44539009e474044857": "2026-11-05T21:23:30+00:00",
   "0x8d6552467d8824e30ec9ef0cc2a5a9669b8ed10f": "2026-11-05T21:23:30+00:00",
@@ -53132,7 +53481,7 @@
   "0xb093e4e3cd980658b0b77df596e990e4db918c0a": "2026-11-06T05:11:23+00:00",
   "0x0eeaac66b7f5e62fbea48460d40efd3e0569cb3b": "2026-11-06T05:11:23+00:00",
   "0x057f973cd5e5cecd24dcecd1803dba2038950462": "2026-11-06T05:11:23+00:00",
-  "0x23a8ead67352c181823660908e146d20d388b769": "2026-11-06T05:11:23+00:00",
+  "0x23a8ead67352c181823660908e146d20d388b769": "2026-11-07T06:00:33+00:00",
   "0x0f9e9538769d4533b4e3bc90c16bbde8a36b5a4f": "2026-11-06T05:11:23+00:00",
   "0x5d6ef090a1461b11c9427ac319260122d1c61e18": "2026-11-06T06:39:29+00:00",
   "0xfd82d8db539b6ace0d50815845133767e24f1e18": "2026-11-06T06:39:29+00:00",
@@ -54266,7 +54615,19 @@
   "0x22688deca4544431ac07f934face38931ec9acf7": "2026-11-07T05:45:23+00:00",
   "0x1bb4bea808f7b09c6a2abd21f7248fbfb8dde2fe": "2026-11-07T05:45:23+00:00",
   "0xa1f3488de1ebe4adab7e61d18d2e9738a43941c6": "2026-11-07T05:45:23+00:00",
-  "0x41aff579b8ea5d26f293716a7af324bff423483f": "2026-11-07T05:45:23+00:00"
+  "0x41aff579b8ea5d26f293716a7af324bff423483f": "2026-11-07T05:45:23+00:00",
+  "0x05ab5974839cbef493a0958751185f1a45fb2a3b": "2026-11-07T06:00:33+00:00",
+  "0x329580a3b0b71e3c971de47945fc050db605ec4f": "2026-11-07T06:00:33+00:00",
+  "0x958426ab7ede892b33a373c65b64a2a10f17c004": "2026-11-07T06:00:33+00:00",
+  "0x9f9c383e1762cd6cdc2509a3255a45f84f5571ec": "2026-11-07T06:00:33+00:00",
+  "0x54125c37c5c27a89856b302ec14e69073e8d5c62": "2026-11-07T06:00:33+00:00",
+  "0x00d3d39c48fcc1e752c031a9848557a4df4985dd": "2026-11-07T06:00:33+00:00",
+  "0xd80d21347d45b649dc9e27c250492bdde65d145a": "2026-11-07T06:00:33+00:00",
+  "0x4927a0b6625bf9bdc4bff1cae0f272924bfa869d": "2026-11-07T06:00:33+00:00",
+  "0xe261c54ee1831b59c99822be261adbaeab856e82": "2026-11-07T06:00:33+00:00",
+  "0x829cecefca1ab90c106a4ab26e11a73e2ed7c72e": "2026-11-07T06:00:33+00:00",
+  "0x590d8ce888fcaa5175768ac3ec67238cf65ae4f3": "2026-11-07T06:00:33+00:00",
+  "0xaf8e1d0d6ab75248f612740ed5de4deb74dd8cc5": "2026-11-07T06:00:33+00:00"
  },
  "catchup_plain": []
 }

@@ -18363,6 +18363,128 @@
     ""
    ],
    "checked": "2026-11-07T05:45:23+00:00"
+  },
+  "aragonproject": {
+   "handle": "AragonProject",
+   "found": true,
+   "id": "828668619986964480",
+   "name": "Aragon.eth \ud83e\udd85",
+   "joined": "2017-02-06T18:16:09+00:00",
+   "followers": 103038,
+   "following": 281,
+   "posts": 7818,
+   "verified": "organization",
+   "last_post": "2026-11-05T16:46:24+00:00",
+   "sample": 14,
+   "sample_full_week": false,
+   "posts_7d": 4,
+   "avg_likes": 13.4,
+   "avg_views": 1371,
+   "bio_site": "https://aragon.org/",
+   "bio": "Aragon powers protocols with products and services designed to manage access control, capital allocation, and ownership at scale. Build something worth owning.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "A timely reminder to strengthen your onchain workflows: multi-step approvals, independent professional signers, and expert review where it matters.",
+    "Aragon Guardians have gone cross-chain on @makinafi. @SteakhouseFi vaults keep depositors in control across chains, allowing them to veto changes to how their vaults are managed, exit before changes take effect, and remain in full custody of their funds.",
+    "Makina gives Operators a generalized cross-chain execution engine instead of hard-coding integrations into a vault. The Operator can only execute instructions committed in the approved Merkle root. Making a root update is subject to a timelock, giving Guardians a window to veto changes to instructio",
+    "Vault architecture can separate active management from unilateral control over depositor capital. Together, Makina's architecture and Aragon Guardians preserve strict noncustodiality by extending Steakhouse depositor veto rights across chains. Learn more \u2193 https://github.com/aragon/crosschain-contro",
+    "Token value accrual should be legible and verifiable. The Ownership Token Framework evaluates whether buybacks and other value accrual mechanisms are active, programmatic, and verifiable onchain.",
+    "Explore the OTF and evaluate different token mechanics: https://otf.aragon.org/",
+    "Interested in designing and implementing automated buybacks? Get in touch. https://blog.aragon.org/introducing-automated-buybacks/",
+    "Open, verifiable, and interoperable identity infrastructure is essential to secure onchain operations. As longtime @ensdomains partners, we integrate ENS across Aragon products to make participants and roles easier to identify across onchain workflows. Congrats on ENSv2!",
+    "Aragon will steward the Mina Decentralized Treasury process, supporting the MINA community as they propose, evaluate, and vote on ecosystem funding. The deployment framework is now published, outlining the phased rollout, safeguards, and path toward full community autonomy.",
+    "aragon.isv2ready.eth",
+    "Visibility into permissions is essential for securing onchain systems.",
+    "Interfold governance is live on Aragon. FOLD holders can cast receipt-free secret ballots with publicly verifiable results, powered by @theInterfold CRISP protocol. Here's how it works \u2193",
+    "Two properties properties make CRISP's approach distinctive: \u2192 Threshold decryption: Ciphernode committees jointly decrypt the final tally, without relying on a single trusted operator. \u2192 Receipt-freeness: Vote masking adds cover without changing votes, making onchain activity unreliable as proof of",
+    "FOLD holders can lock and delegate tokens to activate voting power, create proposals, and vote on proposals: First, is the ratification of the Interfold Constitution. Second, is the ciphernode program. Learn more \u2193 https://blog.theinterfold.com/interfold-governance-is-live/"
+   ],
+   "checked": "2026-11-07T06:00:33+00:00"
+  },
+  "derstar_options": {
+   "handle": "Derstar_options",
+   "found": true,
+   "id": "2110840573808582656",
+   "name": "Derstar",
+   "joined": "2026-10-15T21:10:29+00:00",
+   "followers": 74,
+   "following": 4,
+   "posts": 77,
+   "verified": "individual",
+   "last_post": "2026-11-06T20:12:00+00:00",
+   "sample": 17,
+   "sample_full_week": false,
+   "posts_7d": 11,
+   "avg_likes": 5.8,
+   "avg_views": 188,
+   "bio_site": "https://derstar.xyz",
+   "bio": "Decentralized exchange for onchain options",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Weekend plan: Step 1: buy the dip Step 2: also buy the thing that saves you if the dip keeps dipping Most people skip step 2. Be the second guy \ud83e\udde0 Nov 16.",
+    "\ud83d\udea8 BLACK FRIDAY SALE \ud83d\udea8 (three weeks early, nobody asked, no refunds) This week's deals: \ud83c\udff7\ufe0f BTC - ~5% off \ud83c\udff7\ufe0f ETH - ~6% off \ud83c\udff7\ufe0f BNB - ~8% off No promo code. No email signup. Just one $6B hack and a Thursday. Now, every Black Friday has two types of shoppers. \ud83d\uded2 Shopper #1 runs into the store, grabs every",
+    "\"When your position lives on a centralized exchange, you don't really hold it. You hold a promise.\" We wrote about what the Binance hack shows about where your trades actually live, and the second loss nobody's talking about: liquidations. 5 min read \ud83d\udc47 https://x.com/i/article/2116879451485032449",
+    "Red day Perps traders: checking their liquidation price Option buyers: checking their expiry date Max loss = the premium you paid. No wick can take more Derstar private testnet: Nov 16.",
+    "Ok, a lot of you asked \"how do I get in?\" \ud83d\udc47 Three steps, takes 20 seconds: 1. Follow @Derstar_options 2. Turn on notifications \ud83d\udd14 3. Reply to this post: what's the first option you'd buy on Nov 16, and why? \"BTC call, because I'm a degen\" counts. \"BTC put, because I've seen things\" also counts. We're",
+    "Halloween's over. Costumes are back in the closet. \ud83c\udf83 But crypto Twitter still has the scariest ones walking around all year: \ud83d\udc7b \"100x long, no stop-loss\" \ud83e\udddf \"It's just a dip, I'll add more margin\" \ud83e\udddb \"Funds are SAFU\" (refreshes withdrawal page for the 40th time) \ud83d\udc80 \"I'll close it tomorrow\" We've all wor",
+    "DERSTAR \u00d7 @alphanodetech \u2014 TESTNET WL GIVEAWAY We\u2019re raffling 15 Derstar testnet whitelist spots for @alphanodetech community To enter: \u2192 Follow @Derstar_options \u2192 Follow @alphanodetech \u2192 Fill out the form: https://forms.gle/Jhnbsrgevsv55SUq6 Winners will be selected at random. Entering does not gua",
+    "We finally opened a Discord. Come talk options, ask us hard questions and catch testnet news first. Strikes and expiries welcome. Price predictions, less so https://discord.gg/YQKnJPeEz",
+    "Honest answer only \ud83d\udc47 Where were you when BTC dumped after the Binance hack? \u2022 Long with leverage \ud83d\udc80 \u2022 Spot, just watching the candles \u2022 Hedged and sipping coffee \ud83d\ude0e \u2022 Funds stuck on Binance, refreshing the app (Option 3 people, we want to hear your setup in the replies)",
+    "Last Thursday someone walked out of Binance with ~$6.3B. By Friday morning, a lot of traders had lost money without ever being hacked. \ud83e\uddf5 Here's how it went down for most people: 9:00 \u2014 \"Binance hack\" starts trending. Everyone says it's FUD. 10:30 \u2014 Withdrawals paused. Not FUD. 11:00 \u2014 BTC slides und",
+    "Options are the most honest trade in crypto. You know your worst case before you click buy. No liquidation price. No margin call at 3am. Just a strike, a date and a premium you chose. So why does almost none of it happen onchain? Crypto options trade ~$434B a quarter. Less than 2% of that is onchain",
+    "Derstar testnet is getting closer. Access starts with a whitelist. Our first WL spots will be raffled among X followers. Follow @Derstar_options and stay tuned for the entry details. Your first onchain option could start here.",
+    "What are we testing first in the Derstar Private Testnet? \ud83d\udd39 BTC & European cash-settled options on @arbitrum Stylus \ud83d\udd39 Full strike boards with live implied volatility (Black-Scholes) \ud83d\udd39 Instant ERC-1155 option tokenization in your wallet Built for speed. Native onchain. \u2699\ufe0f #Web3 #Stylus #Derivatives #",
+    "DERSTAR \u00d7 PIZZA ALIENS \u2014 TESTNET WL GIVEAWAY \ud83d\udc7d We\u2019re raffling 15 Derstar testnet whitelist spots for each community To enter: \u2192 Follow @Derstar_options \u2192 Follow @pizzaaliens_btc \u2192 Fill out the form: https://forms.gle/mX6GJtkKQqeTDVSt6 Winners will be selected at random. Entering does not guarantee a",
+    "Your next stop: Derstar testnet We\u2019ve teamed up with @irzhanskaya to raffle 15 whitelist spots for each community. Want in? \u2192 Follow @Derstar_options + @irzhanskaya \u2192 Submit your entry: https://forms.gle/adN96zh1AKE5izJx8 Access goes to randomly selected winners See you on testnet \ud83d\udc7e",
+    "We are approaching testnet really fast Stay tuned\ud83e\udd2b\ud83e\udd2b\ud83e\udd2b",
+    "Trader translation: \u201cI\u2019m bullish.\u201d \u2192 Direction. \u201cI expect a move this month.\u201d \u2192 Timeframe. \u201cI can lose this amount.\u201d \u2192 Risk budget. Three different sentences. One trade needs all three."
+   ],
+   "checked": "2026-11-07T06:00:33+00:00"
+  },
+  "telegram": {
+   "handle": "telegram",
+   "found": true,
+   "id": "1689053928",
+   "name": "Telegram Messenger",
+   "joined": "2013-08-21T19:47:05+00:00",
+   "followers": 2047355,
+   "following": 9,
+   "posts": 52656,
+   "verified": "organization",
+   "last_post": "2026-11-06T16:15:00+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 11,
+   "avg_likes": 12465.8,
+   "avg_views": 1136349,
+   "bio_site": "http://t.me/getpremium",
+   "bio": "",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "if your app doesn\u2019t have scheduled messages in the year 2026, what the fuck are your devs even doing?",
+    "people have been asking for merch for a long time, so here you go: https://internmerch.com code twitter10 for 10% off your order",
+    "*fulfilled and shipped by a third party, so sorry if purchases aren't available in your country **I priced these as low as possible with the manufacturer, the discount code means I will probably lose money on some orders but I don't care",
+    "i can\u2019t believe bill gates named that company after his penis",
+    "",
+    "I learned from the best @durov",
+    "when someone asks me if I have telegram",
+    "those @ray_ban pervert glasses are always listening btw",
+    "AI: \u274c Artificial Intelligence \u2705 An Intern",
+    "it's a good thing we don't have HR giving away telegram premium and merch codes https://twitch.tv/telegramintern https://t.me/internstream https://youtube.com/@tgintern",
+    "jumpscares and telegram premium https://x.com/i/broadcasts/2gqWMbezzLKbVv",
+    "hey @elonmusk when are you going to make a telegram channel? you can post your nudes in there and charge people $350 to see the photos and by people I mean me I would pay",
+    "If this gets a million views, should I post the uncensored photo?",
+    "i still think of her she was perfect in every way it's not too late @Microsoft",
+    "building a successful company is just about gathering the most powerful strains of autism under a common goal",
+    "it's like watching the mona lisa be painted in real time",
+    "Mini App names can now end in gay or agent, ai, app, game or bot if you're boring I guess",
+    "anyway starting a bsky too https://bsky.app/profile/telegramintern.bsky.social/post/3myrxegafok2v",
+    "caveman activities with the interns in @Valheimgame https://twitch.tv/telegramintern https://t.me/internstream https://youtube.com/@tgintern https://x.com/i/broadcasts/1oKMvNoDereGQ"
+   ],
+   "checked": "2026-11-07T06:00:33+00:00"
   }
  },
  "ids": {
@@ -19828,6 +19950,15 @@
   ],
   "2112818979810967552": [
    "QedraLab"
+  ],
+  "828668619986964480": [
+   "AragonProject"
+  ],
+  "2110840573808582656": [
+   "Derstar_options"
+  ],
+  "1689053928": [
+   "telegram"
   ]
  },
  "past": {
@@ -20361,7 +20492,10 @@
   "yvqex": [],
   "askpillar": [],
   "josememerh": [],
-  "qedralab": []
+  "qedralab": [],
+  "aragonproject": [],
+  "derstar_options": [],
+  "telegram": []
  },
  "history": {
   "barragetrade": {
@@ -25013,6 +25147,24 @@
     0,
     2
    ]
+  },
+  "aragonproject": {
+   "2026-11-07": [
+    103038,
+    7818
+   ]
+  },
+  "derstar_options": {
+   "2026-11-07": [
+    74,
+    77
+   ]
+  },
+  "telegram": {
+   "2026-11-07": [
+    2047355,
+    52656
+   ]
   }
  },
  "telegram": {
@@ -26453,6 +26605,16 @@
    "twitter": "quipnetwork",
    "blog": "https://quip.network",
    "checked": "2026-11-07T05:45:23+00:00"
+  },
+  "aragon": {
+   "twitter": "AragonProject",
+   "blog": "https://aragon.org",
+   "checked": "2026-11-07T06:00:33+00:00"
+  },
+  "derstarteam-a11y": {
+   "twitter": null,
+   "blog": "",
+   "checked": "2026-11-07T06:00:33+00:00"
   }
  }
 }
