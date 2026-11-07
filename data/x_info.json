@@ -5363,14 +5363,14 @@
    "joined": "2026-10-21T14:26:44+00:00",
    "followers": 23,
    "following": 1,
-   "posts": 22,
+   "posts": 23,
    "verified": "individual",
-   "last_post": "2026-11-06T10:25:42+00:00",
-   "sample": 17,
+   "last_post": "2026-11-06T23:30:45+00:00",
+   "sample": 18,
    "sample_full_week": false,
-   "posts_7d": 10,
-   "avg_likes": 14.6,
-   "avg_views": 290,
+   "posts_7d": 9,
+   "avg_likes": 13.2,
+   "avg_views": 285,
    "bio_site": "https://omenprotocol.live/",
    "bio": "Crypto intelligence. Connected markets.\nAI powered analysis, onchain insights & trading tools.\nBuilt on Robinhood Chain. Expanding multichain.",
    "cas": [
@@ -5380,6 +5380,7 @@
     "$OMEN is officially live on PONS Launchpad. OMEN Protocol is building a connected trading ecosystem combining AI assisted market analysis, market discovery, real time data, and integrated trading tool (Oct 30 15:00 UTC)"
    ],
    "texts": [
+    "Top 4 Trending on Robinhood Chain Here are the tokens currently leading the trending ranking: 1. Giga Tenev | @GigaTenevRH 2. CashCat | @cashcat_token 3. Pons | @ponsdotfamily 4. Hookr | @Hookrfun Curious whats driving the activity? Ask OMEN AI Analyst to analyze market movement and find potential e",
     "\ud83d\udd14 OMEN Notification Center Now Live The market moves fast. Stay informed without constantly watching the charts. OMEN Utility now brings your market alerts and trading activity into one place. \u2022 Market Movers: Top gainers and losers across Robinhood Chain and global market. \u2022 Price Alerts: Set custo",
     "We\u2019ve been holding the line, vlad. Welcome to the trenches. \ud83e\udee1",
     "OMEN Stock Market Update Trade tokenized stocks on OMEN Utility with low trading fees. We've added Google, Meta, AMD, Netflix, and Coinbase, bringing the total to 10 available stocks. With OMEN AI Analyst, you can analyze stock, find entry and exit price level, and identify stoploss level before pla",
@@ -5398,7 +5399,7 @@
     "The Gateway to OMEN is Now Live. Our official website is now live. Explore the vision behind OMEN Protocol, learn what we're building, and stay connected as development progresses. \ud83c\udf10 Website: https://omenprotocol.live \ud83d\udcac Community: https://t.me/OmenProtocol Crypto Intelligence. Connected Markets. #Ro",
     "OMEN Protocol Crypto Intelligence. Connected Markets. OMEN Protocol is building a unified crypto intelligence and trading ecosystem designed to make digital asset markets easier to explore, analyze, and navigate. Combining market discovery, onchain insights, AI assisted analysis, and integrated trad"
    ],
-   "checked": "2026-11-06T11:58:49+00:00"
+   "checked": "2026-11-07T09:00:34+00:00"
   },
   "agent_minimum": {
    "handle": "Agent_Minimum",
@@ -16118,7 +16119,9 @@
   "__1801": {
    "handle": "__1801",
    "found": false,
-   "checked": "2026-11-06T19:16:38+00:00"
+   "checked": "2026-11-07T09:00:34+00:00",
+   "cas": [],
+   "fake_posts": []
   },
   "penthera_org": {
    "handle": "penthera_org",
@@ -22721,6 +22724,10 @@
    "2026-11-06": [
     23,
     22
+   ],
+   "2026-11-07": [
+    23,
+    23
    ]
   },
   "agent_minimum": {
