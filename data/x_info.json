@@ -19136,6 +19136,128 @@
    "handle": "itreallyisLil",
    "found": false,
    "checked": "2026-11-07T09:45:23+00:00"
+  },
+  "labsbtd": {
+   "handle": "labsbtd",
+   "found": true,
+   "id": "2117839098152976384",
+   "name": "btd",
+   "joined": "2026-11-04T04:40:25+00:00",
+   "followers": 25,
+   "following": 2,
+   "posts": 11,
+   "verified": "organization",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "http://tersobtd.xyz/",
+   "bio": "Security for every site you vibe code. Find vulnerabilities, fix risks, and verify report integrity with proofs on Solana.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-07T10:15:22+00:00"
+  },
+  "usejian": {
+   "handle": "usejian",
+   "found": true,
+   "id": "2116528854995017730",
+   "name": "Jian",
+   "joined": "2026-10-31T13:53:59+00:00",
+   "followers": 4,
+   "following": 2,
+   "posts": 0,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": "https://usejian.app",
+   "bio": "Your agents. Your machine. Your rules. Free & open source.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-07T10:15:22+00:00"
+  },
+  "bruceflips": {
+   "handle": "bruceflips",
+   "found": true,
+   "id": "2016600115268698112",
+   "name": "bruce",
+   "joined": "2026-01-28T19:51:54+00:00",
+   "followers": 488,
+   "following": 970,
+   "posts": 1515,
+   "verified": "individual",
+   "last_post": "2026-10-29T16:12:31+00:00",
+   "sample": 16,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 1.0,
+   "avg_views": 114,
+   "bio_site": null,
+   "bio": "become n become",
+   "cas": [
+    "0x761dca38bd55e802914561a42dcfbeff68d47777"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "aaaaaaaaaaaaaaa",
+    "awd",
+    "3312",
+    "AWHAWH",
+    "wha,asdada",
+    "awddawda",
+    "tataetaetae",
+    "tataetaetae",
+    "its there 0x761dca38bd55e802914561a42dcfbeff68d47777",
+    "hey",
+    "heyy",
+    "aetaeate",
+    "qunadlae",
+    "te",
+    "WHATTTT",
+    "its meant to be giveaway not dividends"
+   ],
+   "checked": "2026-11-07T10:15:22+00:00"
+  },
+  "quackle_io": {
+   "handle": "quackle_io",
+   "found": true,
+   "id": "2112609155894661120",
+   "name": "quackle",
+   "joined": "2026-10-20T18:18:46+00:00",
+   "followers": 15,
+   "following": 22,
+   "posts": 10,
+   "verified": "individual",
+   "last_post": "2026-11-03T20:28:24+00:00",
+   "sample": 10,
+   "sample_full_week": false,
+   "posts_7d": 1,
+   "avg_likes": 3.1,
+   "avg_views": 148,
+   "bio_site": "http://quackle.io/quackle",
+   "bio": "Connect your aissistant with their aissistant to coordinate!",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Your agents can work for others",
+    "You don't need Slack for every request. Here's a real-life example of Claude Duet messaging Grok Bot directly while working on a task. The request was sensitive, so Grok Bot checked with its human before acting",
+    "You can connect your agents to work together!",
+    "Imagine I want to meet you. I don't email you, ask for your calendar, or send you a scheduling link. I tell my AI assistant: \u201cTalk to their AI assistant and figure out when we can meet.\u201d",
+    "Why would someone need to connect their AI assistant to others AI assistants? Imagine you want to sell a couch. You put your quackle link in the listing. The buyer's AI assistant asks your AI assistant questions, negotiates and books a pickup time",
+    "Yeah, Grok Bot can talk with Muse",
+    "What makes quackle different isn't the messaging, it's verification: the other side can always see who the real person is behind an assistant.",
+    "Ok, we're live \ud83e\udd86! https://quackle.io/ Your AI assistant can now message your coworker's or friend's AI assistant, so they can coordinate without bothering either of you. They can find a time that works for both of you to meet. Works well with Grok Bot @bot and @Muse. Not so well with Dots yet (we're",
+    "@bot @Muse If you have any trouble connecting, let us know! You can also connect your AI assistant with us, and it can ask questions: https://quackle.io/quackle",
+    "Let's quack!"
+   ],
+   "checked": "2026-11-07T10:15:22+00:00"
   }
  },
  "ids": {
@@ -20646,6 +20768,18 @@
   ],
   "1982499247024128000": [
    "CryptoTezy"
+  ],
+  "2117839098152976384": [
+   "labsbtd"
+  ],
+  "2116528854995017730": [
+   "usejian"
+  ],
+  "2016600115268698112": [
+   "bruceflips"
+  ],
+  "2112609155894661120": [
+   "quackle_io"
   ]
  },
  "past": {
@@ -21196,7 +21330,11 @@
   "verdict_finance": [],
   "chatfrom_io": [],
   "cryptotezy": [],
-  "itreallyislil": []
+  "itreallyislil": [],
+  "labsbtd": [],
+  "usejian": [],
+  "bruceflips": [],
+  "quackle_io": []
  },
  "history": {
   "barragetrade": {
@@ -26302,6 +26440,30 @@
     52,
     14
    ]
+  },
+  "labsbtd": {
+   "2026-11-07": [
+    25,
+    11
+   ]
+  },
+  "usejian": {
+   "2026-11-07": [
+    4,
+    0
+   ]
+  },
+  "bruceflips": {
+   "2026-11-07": [
+    488,
+    1515
+   ]
+  },
+  "quackle_io": {
+   "2026-11-07": [
+    15,
+    10
+   ]
   }
  },
  "telegram": {
@@ -27801,6 +27963,16 @@
    "twitter": null,
    "blog": "",
    "checked": "2026-11-07T09:15:23+00:00"
+  },
+  "labsbtd": {
+   "twitter": "labsbtd",
+   "blog": "https://www.tersobtd.xyz/",
+   "checked": "2026-11-07T10:15:22+00:00"
+  },
+  "lucasaarch": {
+   "twitter": null,
+   "blog": "https://lucasarch.com",
+   "checked": "2026-11-07T10:15:22+00:00"
   }
  }
 }
