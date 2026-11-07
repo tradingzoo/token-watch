@@ -14324,7 +14324,7 @@
   },
   "shapesinc_ai": {
    "handle": "Shapesinc_ai",
-   "found": true,
+   "found": false,
    "id": "2039724324337168384",
    "name": "Shapes inc",
    "joined": "2026-04-02T15:19:17+00:00",
@@ -14345,7 +14345,8 @@
    ],
    "fake_posts": [],
    "texts": [],
-   "checked": "2026-11-06T12:40:38+00:00"
+   "checked": "2026-11-07T00:51:44+00:00",
+   "gone_since": "2026-11-07T00:51:44+00:00"
   },
   "turaai_net": {
    "handle": "turaai_net",
@@ -14353,21 +14354,28 @@
    "id": "2118504259599949824",
    "name": "Tura",
    "joined": "2026-11-06T00:43:54+00:00",
-   "followers": 8,
-   "following": 3,
-   "posts": 14,
+   "followers": 25,
+   "following": 4,
+   "posts": 19,
    "verified": null,
-   "last_post": "2026-11-06T12:47:18+00:00",
-   "sample": 13,
-   "sample_full_week": false,
-   "posts_7d": 13,
-   "avg_likes": 0.2,
-   "avg_views": 34,
+   "last_post": "2026-11-06T13:13:16+00:00",
+   "sample": 18,
+   "sample_full_week": true,
+   "posts_7d": 18,
+   "avg_likes": 2.2,
+   "avg_views": 90,
    "bio_site": "https://turaai.net/",
-   "bio": "AI agent optimization. Fewer tokens, smarter execution, higher success rates, and up to 80% lower AI costs.",
-   "cas": [],
+   "bio": "AI agent optimization. Fewer tokens, smarter execution, higher success rates, and up to 80% lower AI costs.\n\n$tura\n\n0xcf1d48b0a41ed18e8969f5f2ee40b9dd9654c73a",
+   "cas": [
+    "0xcf1d48b0a41ed18e8969f5f2ee40b9dd9654c73a"
+   ],
    "fake_posts": [],
    "texts": [
+    "One runtime, four ways in: TUI for working in the terminal CLI for scripts and CI HTTP/SSE gateway for your own apps Desktop GUI for everyone else Same command graph underneath.",
+    "Long tasks usually end with a summary that forgot the important part. Tura compacts differently. It drops the chatter and keeps the receipts: where the code is, which patches landed, which tests ran. So a session picks up exactly where it stopped.",
+    "Tura has two modes. Direct: the cheapest path to a passing result. Balanced: spends part of the savings on research and verification. Choose per task. Balanced is the one that beat Codex CLI by 18.3 pts on DeepSWE.",
+    "Two agents. Same task. Watch the meter. The usual loop resends its context on every turn until the job is done. Tura sends one plan and lets the runtime do the walking. On our long-horizon benchmark: 83.1% fewer turns and tokens.",
+    "Methodology and raw sessions: https://turaai.net/benchmark",
     "Don't take our word for the numbers. Every published session is open: the task, the turns, the tokens, the outcome. Browse them, rerun them, tell us where we're wrong. Issues and PRs welcome.",
     "Sessions: https://turaai.net/benchmark Repo: https://github.com/Tura-AI/tura",
     "DEXPAID!",
@@ -14382,11 +14390,11 @@
     "Agents get expensive because they call the model again after every tool result. Tura runs the whole job as one command graph. On our long-horizon benchmark: 83.1% fewer turns and tokens 16.7% better performance Open source. Runs locally.",
     "Benchmark, methodology and every published session: https://turaai.net Source: https://github.com/Tura-AI/tura"
    ],
-   "checked": "2026-11-06T12:40:38+00:00"
+   "checked": "2026-11-07T00:51:44+00:00"
   },
   "agentgridlol": {
    "handle": "AgentGridlol",
-   "found": true,
+   "found": false,
    "id": "2118652039848960000",
    "name": "Agent Grid",
    "joined": "2026-11-06T10:30:24+00:00",
@@ -14405,7 +14413,8 @@
    "cas": [],
    "fake_posts": [],
    "texts": [],
-   "checked": "2026-11-06T12:40:38+00:00"
+   "checked": "2026-11-07T00:51:44+00:00",
+   "gone_since": "2026-11-07T00:51:44+00:00"
   },
   "altimateinc": {
    "handle": "AltimateInc",
@@ -14415,19 +14424,24 @@
    "joined": "2024-02-05T05:00:06+00:00",
    "followers": 31,
    "following": 10,
-   "posts": 140,
+   "posts": 146,
    "verified": null,
-   "last_post": "2026-11-05T23:01:46+00:00",
+   "last_post": "2026-11-06T20:00:48+00:00",
    "sample": 16,
    "sample_full_week": true,
    "posts_7d": 16,
    "avg_likes": 0.0,
-   "avg_views": 6,
+   "avg_views": 5,
    "bio_site": "http://www.altimate.ai",
    "bio": "DataPilot - AI Teammate for Data Teams. The team behind #dbtpoweruser vscode extension",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "Does your daily Snowflake report need Medium compute? On Small it takes 2 minutes and costs 0.067 credits a run. On Medium it takes 1.5 minutes and costs 0.10. So you save 33% by waiting 30 seconds longer.",
+    "So we sort warehouses by what they run. Jobs with no deadline stay on standard at the smaller size. A sandbox full of unpredictable queries is the one we'd convert to Adaptive.",
+    "Which of your warehouses would you convert first?",
+    "Set up a Snowflake cost team in under a minute. Name it, add members by email or bulk upload them from a CSV, then add ownership and access rules. https://app.snowflake.com/marketplace/listing/GZTYZ1VSPRPWK",
+    "Snowflake alert or scheduled report? An alert fires only when your condition is met. A report arrives on schedule every time. Both go to email or Slack. https://app.snowflake.com/marketplace/listing/GZTYZ1VSPRPWK",
     "One Streamlit session can run many Snowflake queries. Open the child queries to find the ones that drive the app's cost, then open any query for its optimization opportunities. https://app.snowflake.com/marketplace/listing/GZTYZ1VSPRPWK",
     "Your analysts ask for data that's one minute fresh. In a Snowflake Dynamic Table pipeline, that can wake a warehouse every minute, all day and all night.",
     "A consulting visit to a customer found a pipeline that ran 24x7. The question was whether their analysts looked at the data at 4am. If they don't, a Snowflake Task that suspends the refresh from 8pm to 8am halves the cost.",
@@ -14438,14 +14452,9 @@
     "Did you copy a sample MCP config to connect an agent to Snowflake? Check its permissions first. The Snowflake Labs sample sets Delete, Drop, TruncateTable and Update to True, so your agent can drop a table.",
     "And a tool that calls itself read-only proves nothing. The MCP spec tells clients to treat those labels as untrusted, so we check the grants.",
     "Which role does your MCP server run as today?",
-    "One Snowflake number to watch every week: uncategorized spend. Add the missing ownership rules, resolve the conflicts, and push it toward zero. https://app.snowflake.com/marketplace/listing/GZTYZ1VSPRPWK",
-    "Stop rebuilding upstream dbt models in dev. Defer to prod reuses tables that already exist in production. You save the build time and the warehouse cost. https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user",
-    "A Snowflake stored procedure is a wrapper around a stack of SQL statements. Open a run's child queries and see every statement inside it, with its duration, cost and bytes scanned. https://app.snowflake.com/marketplace/listing/GZTYZ1VSPRPWK",
-    "Your nightly Snowflake job gets more expensive every week, and query history never shows it. The rolling date filter changes the query text, so every run gets a new hash.",
-    "Then the trend shows up. In our example, one query went from $0.51 to $1.20 on the run where its insight switched to query_timed_out. That switch tells you which day to open.",
-    "How do you group recurring queries when the text changes on every run?"
+    "One Snowflake number to watch every week: uncategorized spend. Add the missing ownership rules, resolve the conflicts, and push it toward zero. https://app.snowflake.com/marketplace/listing/GZTYZ1VSPRPWK"
    ],
-   "checked": "2026-11-06T12:40:38+00:00"
+   "checked": "2026-11-07T00:51:44+00:00"
   },
   "agi1dotapp": {
    "handle": "agi1dotapp",
@@ -14544,16 +14553,16 @@
    "id": "2118663972564185088",
    "name": "Orbio Zone",
    "joined": "2026-11-06T11:19:39+00:00",
-   "followers": 127,
+   "followers": 116,
    "following": 3,
-   "posts": 11,
+   "posts": 65,
    "verified": "individual",
-   "last_post": "2026-11-06T12:51:40+00:00",
-   "sample": 9,
-   "sample_full_week": false,
-   "posts_7d": 9,
-   "avg_likes": 2.4,
-   "avg_views": 53,
+   "last_post": "2026-11-07T00:45:00+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 1.1,
+   "avg_views": 26,
    "bio_site": "https://orbio.zone/",
    "bio": "Building the intelligence layer for autonomous agents and onchain finance.\n0x112222b62433f31b302c00ecf78c0071944414b5",
    "cas": [
@@ -14561,17 +14570,28 @@
    ],
    "fake_posts": [],
    "texts": [
-    "We're building Orbio Zone on Robinhood Chain, an agent-native intelligence layer connecting live tokenized equities, Morpho markets, onchain liquidity, and wallet analytics to AI agents through MCP. Already running with 9 read-only tools, configurable agents, and direct Claude Code/Codex integration",
-    "https://x.com/i/article/2118685877178388480",
-    "Orbio Zone lets you configure each agent's tool permissions across tokenized equities, Morpho lending, emerging liquidity pools, wallet analytics, approvals, and model routing. Every tool operates through a unified, read-only MCP infrastructure, giving AI agents access to live market context without",
-    "$OZONE is live on Robinhood Chain. Hold $10 of it and sign in at https://orbio.zone for the holder limits: 60 agent runs and 900 MCP tool calls an hour. CA: 0x112222b62433f31B302c00ECf78C0071944414b5 Buy: https://ponsfamily.com/launchpad/0x112222b62433f31b302c00ecf78c0071944414b5",
-    "What holding does, and what it does not: It raises your limits. Every tool still answers on the preview limits without it. It is not a share of anything, pays no yield and promises no return. https://orbio.zone/token",
-    "One contract only: the one at the top of this thread and in the site header. Any other coin using the name is not ours.",
-    "Your agents can now access Robinhood Chain intelligence directly through MCP. \ud83d\udd35 Here's how to connect Orbio Zone to Claude Code or Codex: 1. Visit http://orbio.zone and connect your wallet to generate an access key. 2. Open your agent workspace and configure the tools you need. 3. Copy the MCP confi",
-    "25,069,637 OZONE locked for 6 months, securing a long-term commitment to the Orbio Zone ecosystem. More infrastructure. More agents onchain. https://www.pinksale.finance/pinklock/robinhood/record/1001654",
-    "https://x.com/i/spaces/1broQvQJZdqegd"
+    "The token has a tool too. orbio_token reads the OZONE launch record and curve on Robinhood Chain: contract, deployer, recipient, curve address, whether it's live. 427 ms. Check the address before you buy. The tool exists so you don't have to trust a screenshot. http://orbio.zone/token",
+    "gm. One line puts Robinhood Chain in your terminal: claude mcp add --transport http orbio-zone https://orbio.zone/api/mcp Then ask Claude Code for NVDA's quote, the newest pools, or every open approval on a wallet. Add your holder key for 900 calls an hour. Codex, Cursor, Gemini CLI: http://orbio.zo",
+    "One tool, two prices, one honest answer. eth_price reads the Chainlink ETH/USD feed on Robinhood Chain and shows the WETH/USDG pool price next to it. If the feed goes stale, it falls back to the pool and says so. 393 ms. No input needed.",
+    "Weekend run, reminder. Still open: run any agent in http://orbio.zone/app, post the trace, tag @GetOrbioZone. Reposts Monday. New this morning: pools under an hour old with liquidity and 24h volume, straight from new_coins. Ask \"what launched in the last hour\" and see for yourself.",
+    "Every tool has a Try button. Hit it on https://orbio.zone/tools and the call goes through the same MCP endpoint Claude Code or Codex would use. 544 ms, 203 stock tokens quoted, View or JSON. If the Try button shows it, your agent gets it.",
+    "Morpho on Robinhood Chain, in one tool call. lending_rates returns the USDG vaults (yield, size, free liquidity) and, for every stock token, the loan rate, supplied vs borrowed, LLTV, and the loop rate for borrowing against it. No dashboard tab. Ask the agent, get the number.",
+    "Preview vs Holder, the whole table: Agent runs: 4/hr \u2192 60/hr MCP tool calls: 30/hr \u2192 900/hr Key for Claude Code, Codex, Cursor: preview limits \u2192 7-day key Cost: free \u2192 hold $10 of OZONE token Agents and runs stay in your browser either way. Export any time.",
+    "Ask in your own words. \"Quote TSLA and NVDA.\" \"What launched on Robinhood Chain in the last hour?\" \"Which approvals on 0x... should I revoke?\" \"Cheapest model that can call tools?\" The agent picks the tools. You read the answer.",
+    "Browse runs. Every run you've made, in one list: the task, which agent, how many tool calls, what it cost, when. Open any of them and the full trace is still there. Four runs tonight came to under a cent. The list shows it.",
+    "Weekend run. 1. Open http://orbio.zone/app 2. Pick Market scout, run \"Busiest stock tokens today\" 3. Screenshot the trace: which tools it called, what came back 4. Post it and tag @GetOrbioZone The sharpest traces get reposted here Monday. Preview tier is free, 4 runs an hour, no sign in.",
+    "Compute router, the third built-in agent. Two presets: \"Cheapest model for a code job\" and \"Cheapest models with tool use.\" It reads the live model list and prices, then answers with a pick and the reason. $0.000625 a run, last time it ran. The meter is on the card.",
+    "list_models is the quiet one. It returns the orbio model list with prices, so an agent can see what each model costs before it picks one. route_model does the picking: give it the job, get the cheapest model that can call tools. Agents that budget themselves.",
+    "What happens in a run. Your task + the agent's tool list go to the server. The model picks tools, the server calls them, hands results back, asks again. At most 5 rounds, then an answer. You see every call: arguments, time, result, tokens, cost. The model is told it cannot sign or send anything.",
+    "US session closed. Robinhood Chain did not. New pools keep opening, Morpho USDG rates keep moving, approvals keep sitting on wallets all weekend. Market scout reads all of it live. Open https://orbio.zone/app and run it at any hour.",
+    "Orbio Zone on your Dock, in its own window. No download page, no installer. Open https://orbio.zone in the browser, hit Install, and it runs as its own app on Mac, Windows, Android or iPhone. Same agents, same live reads.",
+    "Perps in your pocket, yield in your vault, and an agent that tells you what the vault pays. One question to Market scout: what does Morpho pay on USDG right now? One lending_rates call, a live table of vaults with yield and free liquidity, a plain answer. That is the Orbio Zone loop on Robinhood Cha",
+    "New use cases on Robinhood Chain show up first as new pools. Here is an agent catching them. Market scout calls new_coins, gets the newest pools with ticker, contract, price, liquidity and 24h volume, then ranks them by liquidity. Two tool rounds, a few seconds, and a readable answer with every call",
+    "No debugging means no guessing what the model saw. Here is a real Orbio Zone run, unedited. Market scout asks stock_quotes for the busiest Robinhood Stock Tokens, the chain answers in milliseconds, and the agent writes its summary from that table and nothing else. What it sent, what came back, how l",
+    "Good day to build on Robinhood Chain. Good day to let an agent do the first pass. In Orbio Zone a run sends your task plus the agent's tool list to the server; the model picks tools, the server calls them, up to 5 rounds, then answers using only what the tools returned. Tokens used and cost at list ",
+    "$100B in volume brings agents. Agents bring a question: what can this thing touch? Orbio Zone's answer: nothing. It never holds funds or keys and never sends a transaction. Agents only read. The holder key is a signed message, not a tx, costs no gas, and carries only your address, tier and expiry. N"
    ],
-   "checked": "2026-11-06T12:40:38+00:00"
+   "checked": "2026-11-07T00:51:44+00:00"
   },
   "with_default": {
    "handle": "with_default",
@@ -14579,7 +14599,7 @@
    "id": "2042959952008933376",
    "name": "Default",
    "joined": "2026-04-11T13:36:32+00:00",
-   "followers": 18,
+   "followers": 31,
    "following": 2,
    "posts": 7,
    "verified": null,
@@ -14587,8 +14607,8 @@
    "sample": 6,
    "sample_full_week": false,
    "posts_7d": 1,
-   "avg_likes": 4.5,
-   "avg_views": 80,
+   "avg_likes": 11.5,
+   "avg_views": 163,
    "bio_site": "https://www.default.com/",
    "bio": "The inbound growth platform for B2B companies.\n\nCA: 0x80c9264dfd9cc00947f0cb83a5c17c8083470ad0",
    "cas": [
@@ -14603,7 +14623,7 @@
     "1. Use the Default Form Builder to set up and manage your fields, then use the SDK to insert these fields directly on your page to match your brand and style",
     "2. Use the SDK to customize your webform submission payloads and manage submission lifecycle events like: - Scheduler displays - Window closes - Meeting bookings - And more Simple, yet powerful."
    ],
-   "checked": "2026-11-06T12:40:38+00:00"
+   "checked": "2026-11-07T00:51:44+00:00"
   },
   "compozyos_": {
    "handle": "CompozyOS_",
@@ -17432,6 +17452,54 @@
     "one signature. the tax wallet your holders watch stops existing."
    ],
    "checked": "2026-11-07T00:15:36+00:00"
+  },
+  "thinkros": {
+   "handle": "ThinkrOS",
+   "found": false,
+   "checked": "2026-11-07T00:51:44+00:00"
+  },
+  "0xmarko77": {
+   "handle": "0xMarko77",
+   "found": true,
+   "id": "2055218546888593408",
+   "name": "Marko",
+   "joined": "2026-05-15T09:28:31+00:00",
+   "followers": 2864,
+   "following": 392,
+   "posts": 1270,
+   "verified": "individual",
+   "last_post": "2026-11-06T23:41:11+00:00",
+   "sample": 19,
+   "sample_full_week": false,
+   "posts_7d": 11,
+   "avg_likes": 138.9,
+   "avg_views": 4075,
+   "bio_site": null,
+   "bio": "its me versus whoever wanna lose",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "nga",
+    "I want to log off forever",
+    "Nov5 : +95$ From what im seeing in this market, you need to be on all day because there is only 2/3 cooks along the day and u need to be on to catch them. In the same time you need to avoid aping all the slop and shit that comes with it.",
+    "Nov4 : +1.48k I'll take this. Had university today from 8 am till 4 pm, cam home super tired and just hopped in for around 1 hour. This coulda been higher but I blew like 600$ yesterday (after midnight) gambking in the trenches on slop. Looking to mega lockin this weekend.",
+    "Nov3 : 182$ Lowk, trash market, trash volume and I got alot of exams tomorrow so spent majority of day studying. This is brokie numbers tho def gotta up it up.",
+    "Nov 2 : +1.02k Been a shit start to the month overall and today started bad too. Market is just washed. Devved a quick runner and made back losses + some p. I think I will focus on devving more this month (even tho people hate devs but im gonna try to provide quality deploys to the trenches)",
+    "Trump just announced that he is giving 5000$ to every single US citizen. The majority of trenchers are american so there is only 1 place that 5k is going. THE TRENCHES. $5000 and a dream",
+    "GtQimaet1XotGxUkevKauYJCL6UgBPvuLuBM2Q2Kpump",
+    "This is most mid ass pnl for anyone in the trenches but. Im sitting in class, I switch from the reading's pdf to my terminal, took a trade, closed it withint 5 mns and made 356$ I know some friends that work all fucking month for 400$. Thats why we love memecoins.",
+    "Nov 1 : -200$ This month will be journaling on daily basis and try to keep my self locked in. The goal is 50k month but we will do our best regardless of the output Today I was off, I just aped 2 coins to support some friends and they touched me but idc Tomorrow the fun starts. (Follow me on pump im",
+    "Actually up 37k. Started the month being up 19k first week and ended up only making 37k. Had to deal with alot of exams and shit. Doubling down in november. (Speacial thanks to my nigga @skrootimburg that helped me push through the bad days)",
+    "Thank you @Pumpfun",
+    "The creator of catana and many other runners of the trenches just gave us another character that also went viral. Kim Po. And with all the connections between binance hack and north korea and witht he recent allegations about Kim being dead I think this is the perfect time to run a coin for him. Sen",
+    "Bp32zY54GHujmYPQkTaUwdoxvLPd2dFPHtXeB9rWpump",
+    "110 days ago, only God knew.",
+    "The greatest football club oat @realmadrid I believe.",
+    "Halloween around the corner and I think we have a pve cat runner here. The creator of catana, fone and many other big memes in this space gave us another halloween cat. Scream. Sending fees to @numanuk 's wallet.",
+    "HboErBFt8q81PcRr5edwkpLo2yzCWUa2ciWScMTCpump",
+    "Goodnight."
+   ],
+   "checked": "2026-11-07T00:51:44+00:00"
   }
  },
  "ids": {
@@ -18833,6 +18901,9 @@
   ],
   "2099076195728150528": [
    "kickermarkets"
+  ],
+  "2055218546888593408": [
+   "0xMarko77"
   ]
  },
  "past": {
@@ -19340,7 +19411,9 @@
   "usehallmark": [],
   "hatch_mind_": [],
   "dappinghq": [],
-  "kickermarkets": []
+  "kickermarkets": [],
+  "thinkros": [],
+  "0xmarko77": []
  },
  "history": {
   "barragetrade": {
@@ -22877,6 +22950,10 @@
    "2026-11-06": [
     8,
     14
+   ],
+   "2026-11-07": [
+    25,
+    19
    ]
   },
   "agentgridlol": {
@@ -22889,6 +22966,10 @@
    "2026-11-06": [
     31,
     140
+   ],
+   "2026-11-07": [
+    31,
+    146
    ]
   },
   "tokyofuturo": {
@@ -22913,11 +22994,19 @@
    "2026-11-06": [
     127,
     11
+   ],
+   "2026-11-07": [
+    116,
+    65
    ]
   },
   "with_default": {
    "2026-11-06": [
     18,
+    7
+   ],
+   "2026-11-07": [
+    31,
     7
    ]
   },
@@ -23387,6 +23476,12 @@
    "2026-11-07": [
     70,
     191
+   ]
+  },
+  "0xmarko77": {
+   "2026-11-07": [
+    2864,
+    1270
    ]
   }
  },
@@ -24603,17 +24698,17 @@
   "tura-ai": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-06T12:40:38+00:00"
+   "checked": "2026-11-07T00:51:44+00:00"
   },
   "agentgridai": {
    "twitter": null,
-   "blog": "",
-   "checked": "2026-11-06T12:40:38+00:00"
+   "blog": null,
+   "checked": "2026-11-07T00:51:44+00:00"
   },
   "altimateai": {
    "twitter": null,
    "blog": "www.altimate.ai",
-   "checked": "2026-11-06T12:40:38+00:00"
+   "checked": "2026-11-07T00:51:44+00:00"
   },
   "compozy": {
    "twitter": "compozyai",
@@ -24779,6 +24874,16 @@
    "twitter": null,
    "blog": "",
    "checked": "2026-11-07T00:15:36+00:00"
+  },
+  "thinkrsh": {
+   "twitter": "askthinkr",
+   "blog": "https://thinkr.sh",
+   "checked": "2026-11-07T00:51:44+00:00"
+  },
+  "xai-org": {
+   "twitter": "SpaceXSI",
+   "blog": "https://x.ai/",
+   "checked": "2026-11-07T00:51:44+00:00"
   }
  }
 }
