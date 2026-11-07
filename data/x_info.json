@@ -18623,6 +18623,34 @@
     "We\u2019ll be at the World Robot Conference in Beijing this week \ud83c\udde8\ud83c\uddf3 @CosmicDude3000 will be there checking out the latest humanoids and catching some of the World Humanoid Robot Games. If you\u2019re around, feel free to reach out and say hi."
    ],
    "checked": "2026-11-07T06:45:22+00:00"
+  },
+  "aixuexi_ai": {
+   "handle": "aixuexi_ai",
+   "found": true,
+   "id": "1436228734290333714",
+   "name": "Engineer_AI",
+   "joined": "2021-09-10T07:23:21+00:00",
+   "followers": 8108,
+   "following": 6131,
+   "posts": 66154,
+   "verified": "individual",
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
+   "bio_site": null,
+   "bio": "\u6df1\u5ea6\u5b66\u4e60\u4eba\u5de5\u667a\u80fd\u77e5\u8bc6\uff0c\u70ed\u7231\u7956\u56fd\uff0c\u8fdc\u79bb\u4e00\u5207\u4e0d\u826f\u4fe1\u606f\nDeepSeek |  ChatGpt | Grok | Gemini",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [],
+   "checked": "2026-11-07T07:00:33+00:00"
+  },
+  "shabbatmonster": {
+   "handle": "ShabbatMonster",
+   "found": false,
+   "checked": "2026-11-07T07:00:33+00:00"
   }
  },
  "ids": {
@@ -20106,6 +20134,9 @@
   ],
   "1937428713513291776": [
    "YumiFinance"
+  ],
+  "1436228734290333714": [
+   "aixuexi_ai"
   ]
  },
  "past": {
@@ -20645,7 +20676,9 @@
   "telegram": [],
   "shiftspl": [],
   "1vampnation1": [],
-  "yumifinance": []
+  "yumifinance": [],
+  "aixuexi_ai": [],
+  "shabbatmonster": []
  },
  "history": {
   "barragetrade": {
@@ -25349,6 +25382,12 @@
     1592,
     147
    ]
+  },
+  "aixuexi_ai": {
+   "2026-11-07": [
+    8108,
+    66154
+   ]
   }
  },
  "telegram": {
@@ -26809,6 +26848,11 @@
    "twitter": null,
    "blog": "",
    "checked": "2026-11-07T06:45:22+00:00"
+  },
+  "nethermindeth": {
+   "twitter": "nethermind",
+   "blog": "https://nethermind.io",
+   "checked": "2026-11-07T07:00:33+00:00"
   }
  }
 }

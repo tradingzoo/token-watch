@@ -4984,7 +4984,33 @@
   "0x3e30ad5cdd339e3b18dbbdebddd7b5deb68633d8": "2026-11-07T06:45:22+00:00",
   "0xa5227dfa9a852c73a82a3076ab12051070969a31": "2026-11-07T06:45:22+00:00",
   "0x8d2a11ab62f6c22749c3a198da8ad39bf0735f26": "2026-11-07T06:45:22+00:00",
-  "0x627a3240d8aa299bc7b621112c9613c61afd8a09": "2026-11-07T06:45:22+00:00"
+  "0x627a3240d8aa299bc7b621112c9613c61afd8a09": "2026-11-07T06:45:22+00:00",
+  "0x8e884fe6babf2b6d2af83aa067b704816d83499c": "2026-11-07T07:00:33+00:00",
+  "0x11a08187680528d02c86425b22e24e82e0d76820": "2026-11-07T07:00:33+00:00",
+  "0x30164547735f640f60eeec8f97f131a2912abcff": "2026-11-07T07:00:33+00:00",
+  "0xe349cea383e5c9d088ba15da427527f21b0ee964": "2026-11-07T07:00:33+00:00",
+  "0x1439f46b7d948854a3e8d8daaeb98c886abd4f5d": "2026-11-07T07:00:33+00:00",
+  "0xefbc5c3a4c6a122451fe713b4dd828681fc6b58e": "2026-11-07T07:00:33+00:00",
+  "0x16fe2317826894fcfe5e3a38a41a425ff48ecbf7": "2026-11-07T07:00:33+00:00",
+  "0x9931304e7ff50bf6fb79cea72b12d09c2ceae215": "2026-11-07T07:00:33+00:00",
+  "0xf9b2b9cdeefbbb4e946676759dece825f2e05783": "2026-11-07T07:00:33+00:00",
+  "0x71478519ce99f03766d551ccbdc849031b1a7e8e": "2026-11-07T07:00:33+00:00",
+  "0x8c5284bdc17142cab0ea10ebb9b18ee1104a9cf3": "2026-11-07T07:00:33+00:00",
+  "0xd581a742b911eb4f3bfd1f4177c92e04290b0cbc": "2026-11-07T07:00:33+00:00",
+  "0xad0d9a0471603ab5e7b3b2f9881dca5b34e2c086": "2026-11-07T07:00:33+00:00",
+  "0x0adfa0eddf3aef4640b90d8324d1fed7d3af8f5b": "2026-11-07T07:00:33+00:00",
+  "0x0e90460c39dd84b5353bd4206f3098b1a42b0793": "2026-11-07T07:00:33+00:00",
+  "0x277e2188534e8fad3722c7e3d22100959fe5fb64": "2026-11-07T07:00:33+00:00",
+  "0x3b479623cdbeb4e5a10b516808251f039df97b1c": "2026-11-07T07:00:33+00:00",
+  "0x580fdf4343f6263747dc6e0dc986a80af038d6a2": "2026-11-07T07:00:33+00:00",
+  "0x7863594a9c611d3a3e0738ef6a40a152a7fb7131": "2026-11-07T07:00:33+00:00",
+  "0x7d708bdd8df5c379765c1b040b1fd6d51a04abf7": "2026-11-07T07:00:33+00:00",
+  "0xba786084c54ed0f48f456c414831ff4fd3966142": "2026-11-07T07:00:33+00:00",
+  "0x318949419d627767ce7630abc89518f6bd60f827": "2026-11-07T07:00:33+00:00",
+  "0x3423a89d455be66abd31250d25c71c46b3f64770": "2026-11-07T07:00:33+00:00",
+  "0x3d77038bf874706ae55cc2035cb4718efdb4b725": "2026-11-07T07:00:33+00:00",
+  "0x6aa4532f131c044d10ace149591e044c2f82efe0": "2026-11-07T07:00:33+00:00",
+  "0x8cf990441e61122ca4297b1d86d15e5909ed719c": "2026-11-07T07:00:33+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -27015,10 +27041,182 @@
      "pushed": "2026-05-11",
      "people": 2
     }
+   },
+   "launched_src": "pons"
+  },
+  "0x30164547735f640f60eeec8f97f131a2912abcff": {
+   "address": "0x30164547735f640f60eeec8f97f131a2912abcff",
+   "symbol": "VOICE",
+   "name": "VOICE",
+   "description": "Where opinions become assets: every take earns, right or wrong",
+   "website": "https://voice.cc/",
+   "twitter": "https://x.com/aixuexi_ai",
+   "launched": "2026-11-07T06:48:24+00:00",
+   "mcap": 3656.7229966958844,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T07:00:33+00:00",
+   "scored_at": "2026-11-07T07:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "NethermindEth/PublicAuditReports",
+    "score": 0,
+    "raw_score": 40,
+    "capped": true,
+    "not_theirs": true,
+    "flags": [
+     "X account doesn't match the website: the token links @aixuexi_ai, but its website links @voicecc \u2014 may be someone copying the project's links",
+     "Repo never mentions this token, its name or its website (repo's own site is nethermind.io) \u2014 may be someone else's project"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (exchange, launchpad, marketplace) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u26d4 Score set to 0: this GitHub is not their own work (see the warning above)",
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\ud83d\udfe1 Repo and website: website links the repo (+5)",
+      "\u2139\ufe0f Copy check: not enough of their own code to sample",
+      "\u2705 Their website mentions the token: $VOICE \u2014 \u201cOpinionFi platform where users vote on real-world opinions, allocate $VOICE tokens to signals, and earn participation rewards whether their take\u201d (https://voice.cc/)",
+      "\u2705 Their website mentions the token: 'VOICE token' \u2014 \u201crediction markets\",\"on-chain polls\",\"decentralized social platforms\",\"VOICE token\"],\"sameAs\":[\"https://voice.fun/\",\"https://discord.gg/voicecc\",\"https:\u201d (https://voice.cc/)",
+      "\u2705 Their docs mentions the token: $VOICE \u2014 \u201chub.com/NethermindEth/PublicAuditReports/blob/main/NM_0998_Voice.pdf. $VOICE token generation event (TGE) is planned for Q4 2026 per the on-site r\u201d (https://voice.cc/llms.txt)",
+      "\u2705 Their docs mentions the token: 'VOICE token' \u2014 \u201cub.com/NethermindEth/PublicAuditReports/blob/main/NM_0998_Voice.pdf. $VOICE token generation event (TGE) is planned for Q4 2026 per the on-site roadmap\u201d (https://voice.cc/llms.txt)",
+      "\u26a0\ufe0f Their docs says there's no official token yet: \u201cNethermindEth/PublicAuditReports/blob/main/NM_0998_Voice.pdf - Token: $VOICE (no official token before the TGE, targeted Q4 2026 per roadmap; tokens named VOICE on launchpads or trackers today are unr\u201d (https://voice.cc/llms.txt) \u2014 and it doesn't post this token's address"
+     ],
+     "Real code": [
+      "\u2705 214 changes over 1281 days (+10)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 2969 days old, 15 people, 64 stars, 11 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://voice.cc/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": null,
+    "sources_read": [
+     "https://voice.cc/",
+     "https://voice.cc/",
+     "https://voice.cc/llms-full.txt",
+     "https://voice.cc/llms.txt",
+     "https://voice.cc/docs",
+     "https://voice.cc/assets/TokenAmountInput-B20KWCES.js",
+     "https://voice.cc/assets/BackButton-BGDOCJAY.js"
+    ],
+    "facts": {
+     "commits": 214,
+     "stars": 64,
+     "created": "2023-04-19",
+     "pushed": "2026-10-21",
+     "people": 15
+    }
+   }
+  },
+  "0xf9b2b9cdeefbbb4e946676759dece825f2e05783": {
+   "address": "0xf9b2b9cdeefbbb4e946676759dece825f2e05783",
+   "symbol": "AMERICOIN",
+   "name": "AMERICOIN",
+   "description": "",
+   "website": "https://ponsfamily.com/launchpad/0x07c6d8f512ff34e8310801a2af57a8c00e5afbdc",
+   "twitter": "https://x.com/grok12_john/status/2098508895870124333",
+   "launched": "2026-09-11T20:28:12+00:00",
+   "mcap": 4132.005576818813,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T07:00:33+00:00",
+   "scored_at": "2026-11-07T07:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pons-labs/",
+    "score": 10,
+    "capped": false,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/pons-labs has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u274c GitHub account pons-labs isn't named after the project (+0)"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f GitHub account 93 days old, 35 followers"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2026-08-05",
+     "pushed": "private",
+     "commits": "private"
+    }
+   }
+  },
+  "0x71478519ce99f03766d551ccbdc849031b1a7e8e": {
+   "address": "0x71478519ce99f03766d551ccbdc849031b1a7e8e",
+   "symbol": "DIVIDEND",
+   "name": "The Trump Dividend",
+   "description": "",
+   "website": "https://www.ponsfamily.com/launchpad/0x71977d1ed253d66a9f99466af6f1531b1fdb8eff",
+   "twitter": "https://x.com/tradfi/status/2098234920825127218",
+   "launched": "2026-09-11T02:26:06+00:00",
+   "mcap": 4132.005535534486,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T07:00:33+00:00",
+   "scored_at": "2026-11-07T07:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "pons-labs/",
+    "score": 10,
+    "capped": false,
+    "flags": [],
+    "private": true,
+    "reasons": {
+     "Platform": [
+      "\u274c No sign it earns fees from other people using it (+0)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\ud83d\udd12 Private GitHub: github.com/pons-labs has no public repos. Code can't be checked, so the score is capped at 40",
+      "\u2705 Their website links this GitHub (+10)",
+      "\u274c GitHub account pons-labs isn't named after the project (+0)"
+     ],
+     "Real code": [
+      "\u274c Code is private: changes, contracts and tests can't be checked (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f GitHub account 93 days old, 35 followers"
+     ],
+     "Safety": [
+      "\u274c No audit or timelock info on their pages (+0)"
+     ]
+    },
+    "notes": [],
+    "roadmap": [],
+    "facts": {
+     "created": "2026-08-05",
+     "pushed": "private",
+     "commits": "private"
+    }
    }
   }
  },
- "checked_total": 4974,
+ "checked_total": 5000,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -29837,9 +30035,32 @@
     "pettinarip",
     "wackerow"
    ]
+  },
+  {
+   "when": "2026-11-07T07:00:33+00:00",
+   "address": "0x11a08187680528d02c86425b22e24e82e0d76820",
+   "symbol": "SCREAM",
+   "website": "https://www.screamers.fun",
+   "used": null,
+   "ignored": [
+    "ungap/url-search-params."
+   ]
+  },
+  {
+   "when": "2026-11-07T07:00:33+00:00",
+   "address": "0xad0d9a0471603ab5e7b3b2f9881dca5b34e2c086",
+   "symbol": "MEME",
+   "website": "https://www.bankless.com/read/news/pump-fun-launches-custom-pairs-for-tokenized-stocks?.tsrc=rss",
+   "used": null,
+   "ignored": [
+    "twbs/bootstrap"
+   ]
   }
  ],
  "symbol_counts": {
+  "FTSA": 1,
+  "SCREAM": 1,
+  "VOICE": 1,
   "YUMI": 1,
   "TAYCOIN": 1,
   "FALCON9": 1,
@@ -29874,18 +30095,18 @@
   "DROSOPHILA": 1,
   "MTN": 1,
   "ORBITRALS": 1,
+  "HMM": 4,
+  "OAK": 2,
+  "WIF": 1,
+  "UFG": 1,
+  "CHARLIE": 1,
+  "POTATCHI": 1,
+  "TROLL": 1,
+  "\u5bcc\u8d35": 1,
+  "PONS": 1,
   "BENTO": 1,
   "LATHE": 1,
   "TH90": 1,
-  "HMM": 4,
-  "UFG": 1,
-  "WIF": 1,
-  "OAK": 2,
-  "POTATCHI": 1,
-  "TROLL": 1,
-  "CHARLIE": 1,
-  "PONS": 1,
-  "\u5bcc\u8d35": 1,
   "DEMITASSE": 1,
   "RAETO": 2,
   "STACKPAD": 1,
@@ -30451,7 +30672,6 @@
   "BOTTOM": 1,
   "\u83b1\u7279\u5e01": 1,
   "Impeach": 1,
-  "SCREAM": 1,
   "ONE": 1,
   "INSART": 1,
   "SEALPLF": 1,
@@ -32047,6 +32267,12 @@
    ]
   ],
   "robinebers/openusage@2026-11-07": [
+   [],
+   [
+    "\u2139\ufe0f Copy check: not enough of their own code to sample"
+   ]
+  ],
+  "NethermindEth/PublicAuditReports@2026-10-21": [
    [],
    [
     "\u2139\ufe0f Copy check: not enough of their own code to sample"
@@ -52955,6 +53181,146 @@
     }
    },
    "launched_src": "pons"
+  },
+  "0xad0d9a0471603ab5e7b3b2f9881dca5b34e2c086": {
+   "address": "0xad0d9a0471603ab5e7b3b2f9881dca5b34e2c086",
+   "symbol": "MEME",
+   "name": "MEME",
+   "description": "",
+   "website": "https://www.bankless.com/read/news/pump-fun-launches-custom-pairs-for-tokenized-stocks?.tsrc=rss",
+   "twitter": "https://x.com/ShabbatMonster/status/2098125467731562598",
+   "site_via_x": null,
+   "launched": "2026-09-10T19:06:26+00:00",
+   "mcap": 3089.0454030602405,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T07:00:33+00:00",
+   "scored_at": "2026-11-07T07:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 55,
+    "raw_score": 55,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2139\ufe0f Site offers API keys for developers (counted, no points) (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u2705 Site offers an MCP connection for AI agents (+5)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Links to developer docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u2705 Lists 4 contract addresses (+15)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (buyback) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (Tokenized Stock) (+10)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f No app or wallet connect found",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f No audit mentioned"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 3,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://www.bankless.com/read/news/pump-fun-launches-custom-pairs-for-tokenized-stocks?.tsrc=rss",
+     "https://www.bankless.com/read/news/pump-fun-launches-custom-pairs-for-tokenized-stocks?.tsrc=rss",
+     "https://www.bankless.com/llms.txt",
+     "https://docs.bankless.com/llms-full.txt",
+     "https://docs.bankless.com/llms.txt",
+     "https://www.bankless.com/read/news/pump-fun-launches-custom-pairs-for-tokenized-stocks",
+     "https://www.bankless.com/docs/mcp"
+    ],
+    "facts": {
+     "tools": 3,
+     "dev_pages": [],
+     "contract_addresses": 4,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x0adfa0eddf3aef4640b90d8324d1fed7d3af8f5b": {
+   "address": "0x0adfa0eddf3aef4640b90d8324d1fed7d3af8f5b",
+   "symbol": "PACE",
+   "name": "Pace by kicker",
+   "description": "Limits and DCA infra for Robinhood",
+   "website": "https://kicker.markets/pot?k=0x4022c4e33e3a000cd9c23f328353fdb2cf1b1069",
+   "twitter": null,
+   "site_via_x": null,
+   "launched": "2026-09-14T23:13:54+00:00",
+   "mcap": 3732.9275584834395,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T07:00:33+00:00",
+   "scored_at": "2026-11-07T07:00:33+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 50,
+    "raw_score": 50,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u2705 Lists 26 contract addresses (+15)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burns) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (tokenized stock) (+10)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f Mentions an audit \u2014 not checked"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 1,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://kicker.markets/pot?k=0x4022c4e33e3a000cd9c23f328353fdb2cf1b1069",
+     "https://kicker.markets/pot?k=0x4022c4e33e3a000cd9c23f328353fdb2cf1b1069",
+     "https://kicker.markets/llms.txt",
+     "https://kicker.markets/docs",
+     "https://kicker.markets/docs#security",
+     "https://www.ponsfamily.com/launchpad/${l.token}",
+     "https://kicker.markets/docs"
+    ],
+    "facts": {
+     "tools": 1,
+     "dev_pages": [
+      "https://kicker.markets/docs"
+     ],
+     "contract_addresses": 26,
+     "winners_linked": []
+    }
+   }
   }
  },
  "site_checked": {
@@ -55316,7 +55682,17 @@
   "0xb4bb0598cb41f7eb5117d7801e7f7daced92cca8": "2026-11-07T06:45:22+00:00",
   "0x3e30ad5cdd339e3b18dbbdebddd7b5deb68633d8": "2026-11-07T06:45:22+00:00",
   "0xa5227dfa9a852c73a82a3076ab12051070969a31": "2026-11-07T06:45:22+00:00",
-  "0x8d2a11ab62f6c22749c3a198da8ad39bf0735f26": "2026-11-07T06:45:22+00:00"
+  "0x8d2a11ab62f6c22749c3a198da8ad39bf0735f26": "2026-11-07T06:45:22+00:00",
+  "0x8e884fe6babf2b6d2af83aa067b704816d83499c": "2026-11-07T07:00:33+00:00",
+  "0x11a08187680528d02c86425b22e24e82e0d76820": "2026-11-07T07:00:33+00:00",
+  "0xe349cea383e5c9d088ba15da427527f21b0ee964": "2026-11-07T07:00:33+00:00",
+  "0x1439f46b7d948854a3e8d8daaeb98c886abd4f5d": "2026-11-07T07:00:33+00:00",
+  "0xefbc5c3a4c6a122451fe713b4dd828681fc6b58e": "2026-11-07T07:00:33+00:00",
+  "0x9931304e7ff50bf6fb79cea72b12d09c2ceae215": "2026-11-07T07:00:33+00:00",
+  "0x8c5284bdc17142cab0ea10ebb9b18ee1104a9cf3": "2026-11-07T07:00:33+00:00",
+  "0xd581a742b911eb4f3bfd1f4177c92e04290b0cbc": "2026-11-07T07:00:33+00:00",
+  "0xad0d9a0471603ab5e7b3b2f9881dca5b34e2c086": "2026-11-07T07:00:33+00:00",
+  "0x0adfa0eddf3aef4640b90d8324d1fed7d3af8f5b": "2026-11-07T07:00:33+00:00"
  },
  "catchup_plain": []
 }
