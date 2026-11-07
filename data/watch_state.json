@@ -5092,7 +5092,24 @@
   "0x8656380254bad14f00f18697e0d1d6461952b013": "2026-11-07T08:30:29+00:00",
   "0xd3ef37458d16155112dd0375f0db7be7dd1dfd96": "2026-11-07T08:30:29+00:00",
   "0xdc0d68be02aa1a85bc21225785becafa4c7ca011": "2026-11-07T08:30:29+00:00",
-  "0xe8a3b1d5b1640e5558f4374758fe4af3794a8122": "2026-11-07T08:30:29+00:00"
+  "0xe8a3b1d5b1640e5558f4374758fe4af3794a8122": "2026-11-07T08:30:29+00:00",
+  "0x54538ce8839dac19bfa589bc6db992309153a0a5": "2026-11-07T08:45:24+00:00",
+  "0x6e21c5c9761e4c4c1fd134140b2715d495d583af": "2026-11-07T08:45:24+00:00",
+  "0x69a5a01b7e91b5750041f34e8270e70102167756": "2026-11-07T08:45:24+00:00",
+  "0xd5c92a7875ded7f86c6d3fc65847cf91512ba41f": "2026-11-07T08:45:24+00:00",
+  "0x5edc37d256d1d3521f7c458bcb0b1ab731f9b8cd": "2026-11-07T08:45:24+00:00",
+  "0x93bb310e36fb1b7a9e3ef002f2410f1956b425e1": "2026-11-07T08:45:24+00:00",
+  "0x7c3af5f4d1371307597701613f8825b27af25baa": "2026-11-07T08:45:24+00:00",
+  "0x804c2994510b62a92ac0bdad8674a8f4cb8fbee0": "2026-11-07T08:45:24+00:00",
+  "0x3049d1a08c783baaa67d159cdd08d366b4654ec7": "2026-11-07T08:45:24+00:00",
+  "0x94031d38be7d9bfbf9025b7dd67aa8d81cd0d177": "2026-11-07T08:45:24+00:00",
+  "0xdab892d9c432c8201971bf603ff43d6d251de7a6": "2026-11-07T08:45:24+00:00",
+  "0xac4e524e67e6cf7d9508aaf9771dd8c3fac51947": "2026-11-07T08:45:24+00:00",
+  "0x05d2c89bfec397f4fd917044aced40b469929e08": "2026-11-07T08:45:24+00:00",
+  "0xff9e86e6b21fd688027981bee4b64c8b6b804ed3": "2026-11-07T08:45:24+00:00",
+  "0x08e4a0bdbe6b7473094a8a428c139883c0c01c41": "2026-11-07T08:45:24+00:00",
+  "0xf9ff2daffc0d529686ba47818f869fd4901d4181": "2026-11-07T08:45:24+00:00",
+  "0x58c8734562a55e6b4cb9c8a1d2777f1664da3d0e": "2026-11-07T08:45:24+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -27484,7 +27501,8 @@
      "pushed": "2026-11-07",
      "people": 1
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x4833f873344b824ca1c8fd361bce7cbb8b8fec01": {
    "address": "0x4833f873344b824ca1c8fd361bce7cbb8b8fec01",
@@ -27514,10 +27532,146 @@
     },
     "roadmap": [],
     "facts": {}
+   },
+   "launched_src": "pons"
+  },
+  "0x5edc37d256d1d3521f7c458bcb0b1ab731f9b8cd": {
+   "address": "0x5edc37d256d1d3521f7c458bcb0b1ab731f9b8cd",
+   "symbol": "CLAI",
+   "name": "Clawby AI",
+   "description": "stocks and crypto have lived in separate worlds for too long. we're bringing them together. 1,500+ assets across stocks, etfs, commodities and real-world markets. launch coins around the markets you believe in, and bring communities together.",
+   "website": "https://www.openclawby.com",
+   "twitter": null,
+   "launched": "2026-11-07T08:39:32+00:00",
+   "mcap": 3767.929911340107,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T08:45:24+00:00",
+   "scored_at": "2026-11-07T08:45:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "openclawby/openclawby-skills",
+    "score": 45,
+    "raw_score": 45,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (dex, exchange, options, perps) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2139\ufe0f 146 of 187 files arrived in the very first change \u2014 could be copied, or moved over from a private repo",
+      "\u274c Their website, docs and GitHub never mention the token (read: website (www.openclawby.com), website code (www.openclawby.com))"
+     ],
+     "Real code": [
+      "\u2705 38 changes over 124 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 125 days old, 1 people, 9 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://www.openclawby.com",
+     "https://www.openclawby.com"
+    ],
+    "facts": {
+     "commits": 38,
+     "stars": 9,
+     "created": "2026-07-05",
+     "pushed": "2026-11-05",
+     "people": 1
+    }
+   }
+  },
+  "0xff9e86e6b21fd688027981bee4b64c8b6b804ed3": {
+   "address": "0xff9e86e6b21fd688027981bee4b64c8b6b804ed3",
+   "symbol": "TOLL",
+   "name": "Toll",
+   "description": "Every coin on Robinhood Chain, checked. Free token checks, dev records and the Toll launchpad.",
+   "website": "https://t0ll.xyz",
+   "twitter": "https://x.com/Tollxyz_",
+   "launched": "2026-10-04T20:45:22+00:00",
+   "mcap": 8335.338669938526,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T08:45:24+00:00",
+   "scored_at": "2026-11-07T08:45:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "t0ll-xyz/toll-mcp",
+    "score": 65,
+    "raw_score": 65,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (dex, fees, hook, launchpad) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn, buy back, buyback) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Works with past winners: Hookr (from their X posts) (+5)"
+     ],
+     "Really theirs": [
+      "\u2705 Token's address is posted by their website, official X @Tollxyz_ (+10)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Repo was created 12 days after the token launched",
+      "\u2139\ufe0f Copy check: not enough of their own code to sample",
+      "\u2705 Their website mentions the token: its contract address \u2014 \u201con type=\"button\" class=\"ag-link ag-ca\" title=\"Copy the $TOLL contract 0xff9e86e6b21fd688027981bee4b64c8b6b804ed3\" aria-label=\"Copy the $TOLL contract address\">$TOLL <span class=\"ag\u201d (https://t0ll.xyz)",
+      "\u2705 Their website mentions the token: $TOLL \u2014 \u201cricing <button type=\"button\" class=\"ag-link ag-ca\" title=\"Copy the $TOLL contract 0xff9e86e6b21fd688027981bee4b64c8b6b804ed3\" aria-label=\"Copy\u201d (https://t0ll.xyz)",
+      "\u2705 Their docs mentions the token: its contract address \u2014 \u201con type=\"button\" class=\"ag-link ag-ca\" title=\"Copy the $TOLL contract 0xff9e86e6b21fd688027981bee4b64c8b6b804ed3\" aria-label=\"Copy the $TOLL contract address\">$TOLL <span class=\"ag\u201d (https://t0ll.xyz/llms-full.txt)",
+      "\u2705 Their docs mentions the token: $TOLL \u2014 \u201cricing <button type=\"button\" class=\"ag-link ag-ca\" title=\"Copy the $TOLL contract 0xff9e86e6b21fd688027981bee4b64c8b6b804ed3\" aria-label=\"Copy\u201d (https://t0ll.xyz/llms-full.txt)"
+     ],
+     "Real code": [
+      "\ud83d\udfe1 8 changes over 20 days (+5)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f One person, new account, no outside interest: account 22 days old, 1 people, 0 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u2705 Contract addresses listed in the README (+5)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "Website has a roadmap page: https://t0ll.xyz/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": null,
+    "sources_read": [
+     "https://t0ll.xyz",
+     "https://t0ll.xyz",
+     "https://t0ll.xyz/llms-full.txt",
+     "https://t0ll.xyz/llms.txt",
+     "https://t0ll.xyz/docs",
+     "https://t0ll.xyz/docs#launchpad",
+     "https://t0ll.xyz/docs#buyback"
+    ],
+    "facts": {
+     "commits": 8,
+     "stars": 0,
+     "created": "2026-10-16",
+     "pushed": "2026-11-05",
+     "people": 1
+    }
    }
   }
  },
- "checked_total": 5082,
+ "checked_total": 5099,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -30378,9 +30532,38 @@
    "ignored": [
     "Effect-TS/effect"
    ]
+  },
+  {
+   "when": "2026-11-07T08:45:24+00:00",
+   "address": "0x05d2c89bfec397f4fd917044aced40b469929e08",
+   "symbol": "SENTI",
+   "website": "https://www.azuki.com/c/senti-",
+   "used": null,
+   "ignored": [
+    "zloirock/core-js"
+   ]
+  },
+  {
+   "when": "2026-11-07T08:45:24+00:00",
+   "address": "0xff9e86e6b21fd688027981bee4b64c8b6b804ed3",
+   "symbol": "TOLL",
+   "website": "https://t0ll.xyz",
+   "used": "t0ll-xyz/toll-mcp",
+   "ignored": [
+    "ethereum/ERCs",
+    "t0ll-xyz/toll-plugins"
+   ]
   }
  ],
  "symbol_counts": {
+  "SOTER": 1,
+  "ELY": 1,
+  "VERD": 1,
+  "BUD": 1,
+  "CLAI": 1,
+  "SHELLZERO": 1,
+  "WRAPSYNC": 1,
+  "BIBBLES": 1,
   "TARGO": 1,
   "GEO": 1,
   "GAYTECH": 1,
@@ -30412,6 +30595,15 @@
   "KITZY": 2,
   "OD": 1,
   "MOON": 1,
+  "DELTA": 1,
+  "HMM": 4,
+  "OAK": 2,
+  "BOW": 1,
+  "WIF": 1,
+  "ZEAL": 1,
+  "CHARLIE": 1,
+  "HARMONIC": 1,
+  "PONS": 1,
   "GRANTLAYER": 1,
   "ARAGON": 1,
   "COFFEESHOP": 1,
@@ -30419,14 +30611,6 @@
   "GIGGS": 1,
   "LICHWARD": 1,
   "NACTO": 2,
-  "DELTA": 1,
-  "HMM": 4,
-  "OAK": 2,
-  "WIF": 1,
-  "CHARLIE": 1,
-  "ZEAL": 1,
-  "HARMONIC": 1,
-  "BOW": 1,
   "GAGE": 1,
   "MMO": 1,
   "QUANTUM": 1,
@@ -30435,7 +30619,6 @@
   "VEILED": 1,
   "QEDRA": 1,
   "microduck": 1,
-  "PONS": 1,
   "\u5bcc\u8d35": 1,
   "PRIV": 1,
   "PRIMAL": 2,
@@ -31800,7 +31983,6 @@
   "AA": 1,
   "WHTKNK": 1,
   "SCRNR": 1,
-  "SHELLZERO": 1,
   "WARDEN": 1,
   "Ferris": 1,
   "LUNO": 1,
@@ -32603,6 +32785,12 @@
    ]
   ],
   "NethermindEth/PublicAuditReports@2026-10-21": [
+   [],
+   [
+    "\u2139\ufe0f Copy check: not enough of their own code to sample"
+   ]
+  ],
+  "t0ll-xyz/toll-mcp@2026-11-05": [
    [],
    [
     "\u2139\ufe0f Copy check: not enough of their own code to sample"
@@ -53877,11 +54065,155 @@
     }
    },
    "launched_src": "pons"
+  },
+  "0x69a5a01b7e91b5750041f34e8270e70102167756": {
+   "address": "0x69a5a01b7e91b5750041f34e8270e70102167756",
+   "symbol": "VERD",
+   "name": "Verdict",
+   "description": "Free security ratings for DeFi protocols and digital assets. On the Verdict marketplace, vetted firms bid to run audits, pen tests and onchain monitoring work for them.",
+   "website": "https://verdict.finance/",
+   "twitter": "https://x.com/Verdict_Finance",
+   "site_via_x": null,
+   "launched": "2026-11-07T08:39:50+00:00",
+   "mcap": 3680.4168513528,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T08:45:24+00:00",
+   "scored_at": "2026-11-07T08:45:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 30,
+    "raw_score": 30,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2139\ufe0f Site offers API keys for developers (counted, no points) (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+5)",
+      "\u2705 Has docs written for AI to read (/llms-full.txt) (+10)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u274c No use of stock tokens or USDG (+0)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f Mentions an audit \u2014 not checked"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 4,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://verdict.finance/",
+     "https://verdict.finance/",
+     "https://verdict.finance/llms-full.txt",
+     "https://verdict.finance/llms.txt",
+     "https://docs.verdict.finance/llms-full.txt",
+     "https://docs.verdict.finance/llms.txt",
+     "https://verdict.finance/docs",
+     "https://verdict.finance/pricing",
+     "https://verdict.finance/docs"
+    ],
+    "facts": {
+     "tools": 4,
+     "dev_pages": [
+      "https://verdict.finance/docs"
+     ],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x94031d38be7d9bfbf9025b7dd67aa8d81cd0d177": {
+   "address": "0x94031d38be7d9bfbf9025b7dd67aa8d81cd0d177",
+   "symbol": "CFPX",
+   "name": "CF Protocol X by kicker",
+   "description": "The Super DeFi Layer for Every Chain.",
+   "website": "https://kicker.markets/pot?k=0x02fd683d7d02127eb4b2ac4ff394352ecf2144d3",
+   "twitter": null,
+   "site_via_x": null,
+   "launched": "2026-09-15T11:06:28+00:00",
+   "mcap": 3735.3402394596,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T08:45:24+00:00",
+   "scored_at": "2026-11-07T08:45:24+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 50,
+    "raw_score": 50,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u274c No sign of API keys for developers (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Developer page: /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u2705 Lists 26 contract addresses (+15)"
+     ],
+     "Money and Robinhood Chain": [
+      "\ud83d\udfe1 Says money goes back to the token (burns) \u2014 claimed, not checked on chain (+10)",
+      "\u2705 Built on Robinhood Chain's own assets (tokenized stock) (+10)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f Mentions an audit \u2014 not checked"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 1,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://kicker.markets/pot?k=0x02fd683d7d02127eb4b2ac4ff394352ecf2144d3",
+     "https://kicker.markets/pot?k=0x02fd683d7d02127eb4b2ac4ff394352ecf2144d3",
+     "https://kicker.markets/llms.txt",
+     "https://kicker.markets/docs",
+     "https://kicker.markets/docs#security",
+     "https://www.ponsfamily.com/launchpad/${l.token}",
+     "https://kicker.markets/docs"
+    ],
+    "facts": {
+     "tools": 1,
+     "dev_pages": [
+      "https://kicker.markets/docs"
+     ],
+     "contract_addresses": 26,
+     "winners_linked": []
+    }
+   }
   }
  },
  "site_checked": {
   "0x70b66f507341d25ac76e20e8b7c65e1efd02ee12": "2026-11-06T10:41:21+00:00",
-  "0x0f58e1a3754dfc352ffae8e962c729ede06a8c5e": "2026-11-06T07:35:19+00:00",
+  "0x0f58e1a3754dfc352ffae8e962c729ede06a8c5e": "2026-11-07T08:45:24+00:00",
   "0x6104df5db9ee0bd9165ff480db2fa054113796f7": "2026-11-06T18:33:20+00:00",
   "0xc9675fe679c7d4e1b94416f66d61c96127eb964a": "2026-11-07T06:45:22+00:00",
   "0x38bb87cf3e7344a82be7cd671c191f015b97eee6": "2026-11-05T05:17:44+00:00",
@@ -54148,7 +54480,7 @@
   "0x9e3ff8380ee6af42a0f3e18453f16b8df8d62fea": "2026-11-05T10:45:25+00:00",
   "0x4b0a75170236192cc5b309f17e6a65c237dc10ee": "2026-11-05T10:45:25+00:00",
   "0x68ea02d3a63f68ae034b385a172238f1def89660": "2026-11-05T10:45:25+00:00",
-  "0x7c61259798bcf7dc7754d210621cae4e3b702525": "2026-11-05T10:45:25+00:00",
+  "0x7c61259798bcf7dc7754d210621cae4e3b702525": "2026-11-07T08:45:24+00:00",
   "0x56119d67abb162375f54581d31b1eab778100bc6": "2026-11-05T10:45:25+00:00",
   "0x366e7066933a7750f6153474cbea70b245931f49": "2026-11-05T10:45:25+00:00",
   "0xa9835291593e50b1ed014845e381ae1111742481": "2026-11-05T10:45:25+00:00",
@@ -56285,7 +56617,21 @@
   "0xaca110caeac8ef7dcdcabe4a397c4f7089786b51": "2026-11-07T08:30:29+00:00",
   "0x9eefda13dcb0fb5fd3ba4b552529ea68d81e4c53": "2026-11-07T08:30:29+00:00",
   "0x6d3dbc7d10e31b1ac3e6c3839d7af3e6925f52ed": "2026-11-07T08:30:29+00:00",
-  "0xe523d45ef498bb64e9ac38505a9a13fe3697fea6": "2026-11-07T08:30:29+00:00"
+  "0xe523d45ef498bb64e9ac38505a9a13fe3697fea6": "2026-11-07T08:30:29+00:00",
+  "0x54538ce8839dac19bfa589bc6db992309153a0a5": "2026-11-07T08:45:24+00:00",
+  "0x6e21c5c9761e4c4c1fd134140b2715d495d583af": "2026-11-07T08:45:24+00:00",
+  "0x69a5a01b7e91b5750041f34e8270e70102167756": "2026-11-07T08:45:24+00:00",
+  "0xd5c92a7875ded7f86c6d3fc65847cf91512ba41f": "2026-11-07T08:45:24+00:00",
+  "0x93bb310e36fb1b7a9e3ef002f2410f1956b425e1": "2026-11-07T08:45:24+00:00",
+  "0x7c3af5f4d1371307597701613f8825b27af25baa": "2026-11-07T08:45:24+00:00",
+  "0x804c2994510b62a92ac0bdad8674a8f4cb8fbee0": "2026-11-07T08:45:24+00:00",
+  "0x94031d38be7d9bfbf9025b7dd67aa8d81cd0d177": "2026-11-07T08:45:24+00:00",
+  "0xdab892d9c432c8201971bf603ff43d6d251de7a6": "2026-11-07T08:45:24+00:00",
+  "0xac4e524e67e6cf7d9508aaf9771dd8c3fac51947": "2026-11-07T08:45:24+00:00",
+  "0x05d2c89bfec397f4fd917044aced40b469929e08": "2026-11-07T08:45:24+00:00",
+  "0x08e4a0bdbe6b7473094a8a428c139883c0c01c41": "2026-11-07T08:45:24+00:00",
+  "0xf9ff2daffc0d529686ba47818f869fd4901d4181": "2026-11-07T08:45:24+00:00",
+  "0x58c8734562a55e6b4cb9c8a1d2777f1664da3d0e": "2026-11-07T08:45:24+00:00"
  },
  "catchup_plain": []
 }
