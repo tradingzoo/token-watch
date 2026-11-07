@@ -6784,5 +6784,35 @@
    }
   ],
   "wallet_txs": 14
+ },
+ "0x1d665d23cc76fbaeda3e9646683d0aca0fb942dc": {
+  "checked": "2026-11-07T00:09:30+00:00",
+  "pons": true,
+  "wallet": "0x6209e2a7c89a47bd87be4962c38fb8b6f17d7ac6",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 8
+ },
+ "0xb6e5958b0239299a433b321871735e6b5163537d": {
+  "checked": "2026-11-07T00:09:30+00:00",
+  "pons": true,
+  "wallet": "0x848b98b4f6938b78ae32a6d7e31e93b33523a233",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 48
+ },
+ "0x1fb90b66d081878c2ddeb27699cba769bdb2f19d": {
+  "checked": "2026-11-07T00:09:30+00:00",
+  "pons": true,
+  "wallet": "0x902e2830b6bcf8e24d3b9b1f08dfbaa7c4630925",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 5
  }
 }

@@ -3,10 +3,10 @@
  "tokens": {
   "0x68ff81dfff6eccefb74706fe1e0a86320cb2eb96": {
    "symbol": "OSTRA",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-07T00:00:36+00:00"
   },
   "0x47c5ea4d85c4c1a81f26124580a80b0b7a581cc0": {
    "symbol": "FACTOR",
@@ -136,10 +136,10 @@
   },
   "0xaead3b6b04882b56a2dc9abbf49af407fe1ad901": {
    "symbol": "MVA",
-   "in": true,
+   "in": false,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": null
+   "left": "2026-11-07T00:00:36+00:00"
   },
   "0xa4ddf89a40a35264e9d7f896a1ef01c59b1e977a": {
    "symbol": "ANYR",
