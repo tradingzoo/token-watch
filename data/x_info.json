@@ -1236,11 +1236,11 @@
   },
   "nymrasi": {
    "handle": "Nymrasi",
-   "found": false,
+   "found": true,
    "id": "2110851832830443520",
    "name": "Nymra",
    "joined": "2026-10-15T21:55:11+00:00",
-   "followers": 650,
+   "followers": 639,
    "following": 9,
    "posts": 73,
    "verified": "individual",
@@ -1248,8 +1248,8 @@
    "sample": 20,
    "sample_full_week": true,
    "posts_7d": 20,
-   "avg_likes": 20.3,
-   "avg_views": 1829,
+   "avg_likes": 21.1,
+   "avg_views": 1874,
    "bio_site": "http://nymra.si",
    "bio": "Privacy superintelligence for users, apps & security teams. See what the chain reveals and prevent it.",
    "cas": [
@@ -1280,8 +1280,7 @@
     "In one hour $NYMRA starts trading on Pons, at 17:00 UTC on Robinhood Chain. Take the contract address only from @nymrasi or telegram.",
     "TG: https://t.me/nymrasi"
    ],
-   "checked": "2026-11-06T17:42:40+00:00",
-   "gone_since": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "winwithdares": {
    "handle": "winwithdares",
@@ -1790,43 +1789,43 @@
    "id": "2070970261214810112",
    "name": "Server For Agent",
    "joined": "2026-06-27T20:40:17+00:00",
-   "followers": 120,
-   "following": 743,
-   "posts": 1036,
+   "followers": 125,
+   "following": 772,
+   "posts": 1072,
    "verified": "individual",
-   "last_post": "2026-11-06T17:18:21+00:00",
+   "last_post": "2026-11-07T05:39:02+00:00",
    "sample": 20,
    "sample_full_week": true,
    "posts_7d": 20,
    "avg_likes": 0.1,
-   "avg_views": 21,
+   "avg_views": 12,
    "bio_site": "https://server4agent.com",
    "bio": "Your AI assistant can ship real tools. Connect the one you already use, ask for a dashboard, a bot or a daily job, and get a live link your team can open",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "Adding a teammate shouldn't mean sharing your password or your chat history. Invite them. Give them a role. Done. https://www.server4agent.com/pricing?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fi06 #MultiplayerAI #Teamwork",
+    "Myth: AI-built tools are toys. Reality: the useful ones are boring. Trackers, forms, dashboards, watchers. Boring is the point. https://www.server4agent.com/blog/best-use-cases-ai-agents-that-ship-software?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fh06 #",
+    "AI pet peeve #6: Accidentally sharing something with the whole internet. Fix: private by default. Public only when you say so. https://www.server4agent.com/blog/private-by-default-reviewing-agent-built-software?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_f",
+    "Freelancers: the invoice you send says a lot about you. The one made in a hurry at 11pm says more. Make it once, properly, then reuse it. https://www.server4agent.com/templates/invoice-and-quote-maker?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_ff06 #Multi",
+    "December is quiet. Perfect time to ask your AI for the tool you've wanted all year, so January starts with it already running. https://www.server4agent.com/?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fe06 #MultiplayerAI #Productivity",
+    "Reference check for an AI-built tool: Who built it? Who can see it? What does it cost? What happens when they leave? Four answers, one page. https://www.server4agent.com/for-managers?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fd06 #MultiplayerAI #Manageme",
+    "Ask your AI for something small today. Not a startup. Not a platform. A page your team will open tomorrow morning. https://www.server4agent.com/?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fc06 #MultiplayerAI #AITools",
+    "The spreadsheet isn't the problem. The person who updates it every Friday at 4:55 is the problem. Not them. Their Friday. https://www.server4agent.com/blog/weekly-metrics-digest-ai-agent?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_content=nt9_fb06 #MultiplayerAI #Spre",
+    "You don't need to be technical to own a tool. You need to describe the annoying thing clearly, once, to the AI you already use. The rest is a link. https://www.server4agent.com/blog/non-technical-guide-ship-tools-from-chat?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v9&utm_c",
+    "A team shouldn't have to agree on one AI app before it can build one tool. Cursor Live Apps vs building from any assistant, written by the biased people who make the second one: https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_a",
+    "Private first, then team, password or public, at the same link. If you're comparing Build Live Apps options tonight, that part matters more than the demo. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&utm_content",
+    "Small team, four AI apps, one internal tool. That's the case Cursor's Build Live Apps doesn't aim at, and the one we built for. Comparison, tradeoffs and all: https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&utm_con",
+    "Most apps never make it off localhost. Cursor's words, and they're right. The fix isn't one tool. It's a link your whole team can open, however it got built. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&utm_cont",
     "Whichever live apps tool you try after the Cursor news, ask this first: Can I take the code with me? On Server4Agent, yes. Export the project and run it anywhere. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&utm",
     "Spending question for any live apps product: What's the most this can cost me this month? Ours: one account-wide budget cap, and no assistant can raise it. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&utm_conten",
     "The people who most need a small internal tool are usually the ones furthest from a code editor. That's the gap we kept thinking about reading the Cursor Live Apps launch. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_20",
     "Engineers got Cursor Live Apps. Ops, sales and finance got the same request to the same engineer. Unless they can build from the AI app they already use. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&utm_content=",
     "Morning read if you saw this overnight: What it does, who it suits, where it doesn't fit, and when you should pick it over us. Yes, that part is in there. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&utm_content",
     "Cursor: \"anyone in your org can now build useful tools.\" True, if anyone in your org uses Cursor. For the people who don't, there's a connector for the AI app they already like. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_a",
-    "When is Cursor's Build Live Apps the better choice? When your whole team already works in Cursor with cloud agents on. We wrote that on our own blog. Our marketing department sighed. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_l",
-    "Cursor Live Apps sets up Postgres for you. We don't do a managed database: apps keep their data in the project folder on the server. It's in our comparison, because you should know before you pick. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_camp",
-    "Live apps checklist, whichever one you pick: Can non-engineers ask for it? Who can open the link? What keeps running when you log off? What's the spending limit? Can you take the code with you? https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign",
-    "Cursor just made \"describe it, get a link\" normal for engineers. Now do it for the finance team. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&utm_content=cl19 #Cursor #LiveApps #NoCode",
-    "\"Do the people opening my tool need a Cursor seat?\" On Server4Agent, no. Public links open for anyone, password links for anyone with the password, team links ask for a Server4Agent sign-in. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_",
-    "Agents write the code. Then what? Cursor's answer: Build Live Apps. Ours: connect the AI app you already use and get a live link. Both beat a folder on your laptop. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&u",
-    "Looking for a Cursor Live Apps alternative? Build from ChatGPT, Claude, Grok Bot, VS Code or Cursor. Private until you deploy. Team, password or public links. A budget cap the AI can't raise. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x",
-    "Cursor's Build Live Apps makes web apps, and that covers a lot. Sometimes the tool is a bot that stays connected, or a job that runs every ten minutes. That's when you want a server. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_l",
-    "Need a client to open your tool without making an account? That's a password link. Private project, one password, no seat in anything. One of the differences from Cursor Live Apps, laid out here: https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campai",
-    "This is the right idea: a request goes in, a live link comes out. We also think it should work from ChatGPT, Claude and Grok Bot, with Cursor connected too. Our honest comparison: https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live",
-    "Everyone's building live apps in Cursor tonight. Your teammate who has never opened Cursor would also like a tool. They have ChatGPT open. That's enough. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&utm_content=",
-    "The nice part of Cursor launching Live Apps: nobody needs convincing that AI output should be a working link. The next argument: it shouldn't only work from one app. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_2026_11&",
-    "One project, four people, three AI apps: Ops lead asks in ChatGPT. Founder adds a weekly email in Claude. Engineer adds an import in Cursor. Sales just opens the link. Nobody switched apps. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_c",
-    "Cursor is one of the apps you can connect to Server4Agent. So it isn't really either/or. The engineer builds from Cursor, the ops lead from ChatGPT. Same project, same link. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_live_apps_"
+    "When is Cursor's Build Live Apps the better choice? When your whole team already works in Cursor with cloud agents on. We wrote that on our own blog. Our marketing department sighed. https://www.server4agent.com/blog/cursor-live-apps-alternative?utm_source=x&utm_medium=social&utm_campaign=x_cursor_l"
    ],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "burcs": {
    "handle": "burcs",
@@ -1902,24 +1901,45 @@
    "id": "1997570941828927488",
    "name": "2o1 Patrons",
    "joined": "2025-12-07T07:37:16+00:00",
-   "followers": 3347,
+   "followers": 3349,
    "following": 1,
    "posts": 217,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
-   "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "last_post": "2026-11-05T21:20:51+00:00",
+   "sample": 20,
+   "sample_full_week": true,
+   "posts_7d": 20,
+   "avg_likes": 16.0,
+   "avg_views": 543,
    "bio_site": "http://expogacha.com",
    "bio": "The elite circle of 201 Digital Art Patrons. Pull \u2018em all on @expogacha.",
    "cas": [
     "0xb01e3f89c3590533aaefbfc77d0dfa9cf679af42"
    ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "texts": [
+    "Pulled, claimed, delivered \ud83e\udd89 A collector just pulled an Uncommon @moonbirds Mythic and chose to claim it. Expo bought the NFT on the open market and sent it straight to their wallet. Congrats on the new piece for the collection!",
+    "Want to catch every big hit as it lands? Follow @expogacha to see every Rare and Epic pull the moment it happens. Don't miss the next one!",
+    "Want to invite your friends to play on Expo Gacha? Head to Profile, sign up and generate your referral link. Now earn 10% of the revenue your referrals generate!",
+    "Join the @GenuinelyUndead Space this Friday at 9PM UTC for a chance to win a pack! One of the loudest OG collections is hosting its weekly Space, with packs up for grabs for holders. Set your reminder, hop in and try your luck! \ud83d\udc80\ud83d\udd25",
+    "This @Azuki BEANZ was just pulled and claimed by a collector! \ud83e\uded8 Once you pull an NFT, you have 2 choices: Claim: we buy an NFT from the tier you pulled on the secondary market and deliver it straight to your wallet within 24h. Quick Sell: don't want to keep it? Sell it back instantly for 90% of the ",
+    "New features and additions coming very soon! \ud83d\udcab Our team has been working on new features to level up the user experience. They'll all be rolling out throughout the day. If there's something new you'd like to see, share your feedback with us!",
+    "Smooth launch today, and we couldn't be happier! Every hour the experience gets better and the volume keeps climbing. Head to the Gacha section to explore every machine live right now. The team is still shipping improvements as we speak. See you tomorrow with new features and fresh collections landi",
+    "Want your collection inside Expo Gacha? \ud83d\udcab We partner with official NFT teams to launch dedicated Intra-collection gachas: your collection, four tiers ranked by trait rarity, odds published on-chain, and every prize funded by Expo's reserve. If you're an official team building on Ethereum, reach out ",
+    "A game you can\u2019t lose. Bluechip ETF is the machine for all the bluechip collections. A pack costs around $100. The lowest piece you can pull is a BEANZ or a Memeland Potatoz. At the top, the Epic tier includes pieces like Argonauts, VeeFriends, Milady and Funkari. Every pull is random and verified o",
+    "An Imaginary Ones just got pulled from its Intra-collection gacha. One collection, four tiers ranked by trait rarity, odds published on-chain before you pull. Pick your collection and go hunting for its rarest traits.",
+    "Three lines. One reserve. Every pull on-chain. \ud83d\udcab Expo Gacha isn't one machine. Every gacha on Expo pulls from one of three lines: a basket of collections, a single collection, or one you build yourself. Here's how each one works. What they all share Every gacha has four tiers: Common, Uncommon, Rare",
+    "We just crossed $15,000+ in volume on Expo Gacha!",
+    "Tailor made: the first gacha launchpad. Until now, gacha machines were built by platforms. With Tailor made, anyone can launch their own. Here\u2019s how it works: Pick the collections you want from the ones approved on Expo Gacha. Give your machine a name and artwork. Expo then sets the odds and the pri",
+    "Every pull now fuels the token. Starting now, 50% of all Expo Gacha revenue goes toward buying back the token and burning supply. The more collectors pull, the more supply disappears. Every opening now rewards both the person pulling and everyone holding. More to come.",
+    "We're proud to team up with Genuine Undead on Expo Gacha! As one of the most iconic collections out there, Genuine Undead is now part of our Bluechip ETF as a Rare tier. They're also getting their very own Intra-collection gacha: one collection, tiers based on trait rarity, and every capsule lands y",
+    "How Intra-collection works. NFT ETF machines mix dozens of collections. Intra-collection does the opposite: one machine, one collection. Every token in the collection is ranked by the rarity of its traits, then split into four tiers: Common, Uncommon, Rare and Epic. The ranking is frozen and committ",
+    "We just added a lil thing to the huddle \ud83d\udc27 @LilPudgys just landed in the intra Expo Gacha packs. Good luck on your pulls!",
+    "A rare Bored Ape Kennel just got pulled. Congrats to the new collector on this +201% opening!",
+    "We just shipped a new section on Expo Gacha: Profile \ud83d\udcab Track all your past pulls, access your referral link and much more. In your Profile, you can pick a username and create your own referral link, which earns you 10% of the revenue generated through it. Check out all the new features in Profile!",
+    "We believe gacha machines have massive potential in Web2 and could become a powerful way to onboard Web2 users. Why Web3 then? Because it brings something that Web2 can't: transparency and verifiability. Real odds, verifiable onchain. Fully open-source mechanics. No rigged games, no hidden manipulat"
+   ],
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "bytejury": {
    "handle": "bytejury",
@@ -8339,7 +8359,7 @@
     "Use your ChatGPT, Claude or Grok plan Continue your Claude Code, Codex or Cursor sessions in the cloud Parallel subagents, each on its own machine with its own terminal, desktop and browser",
     "Memory + Dreaming: remembers your project's rules and decisions across chats, and sharpens that memory while you're away"
    ],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "fupafinance": {
    "handle": "FupaFinance",
@@ -8349,12 +8369,12 @@
    "joined": "2026-06-20T18:50:00+00:00",
    "followers": 203,
    "following": 272,
-   "posts": 686,
+   "posts": 690,
    "verified": "individual",
    "last_post": "2026-11-02T19:59:47+00:00",
    "sample": 18,
    "sample_full_week": false,
-   "posts_7d": 3,
+   "posts_7d": 2,
    "avg_likes": 8.2,
    "avg_views": 188,
    "bio_site": "https://fupa.finance",
@@ -8381,7 +8401,7 @@
     "Ad. Thanks @PulsicanStore. Grab a shirt while they're going. \u2705 https://pulsicanstore.com/fupa \u2705 FUPA20 for 20% off the rest",
     "@PulsicanStore @yourfriendSOMMI @CryptoCoffee369 gentlemen. You are the two biggest people of influence in this space that I can think of. Your support would mean the world to us. We've even got hats\ud83e\udde2 https://pulsicanstore.com/fupa"
    ],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "mercuryagent_": {
    "handle": "mercuryagent_",
@@ -8811,16 +8831,16 @@
    "id": "2118333759145545728",
    "name": "Flora",
    "joined": "2026-11-05T13:26:10+00:00",
-   "followers": 253,
+   "followers": 285,
    "following": 6,
-   "posts": 23,
+   "posts": 26,
    "verified": "individual",
-   "last_post": "2026-11-06T16:54:45+00:00",
-   "sample": 16,
+   "last_post": "2026-11-06T23:00:19+00:00",
+   "sample": 17,
    "sample_full_week": true,
-   "posts_7d": 16,
-   "avg_likes": 55.6,
-   "avg_views": 1622,
+   "posts_7d": 17,
+   "avg_likes": 58.5,
+   "avg_views": 1753,
    "bio_site": "http://flora.meme",
    "bio": "The official http://fobo.fun mascot!\n\nhttp://fobo.fun/flora",
    "cas": [
@@ -8828,6 +8848,7 @@
    ],
    "fake_posts": [],
    "texts": [
+    "$FLORA is chilling. The family is growing fast",
     "The $FLORA community is growing fast This is just the beginning of a big movement Join us! 0x7bae7a90c7328969614b3efbee8c4a9026befea8",
     "Up only $FLORA The official Fobo mascot is here to stay",
     "Big eyes on us $FLORA \ud83c\udf38",
@@ -8845,7 +8866,7 @@
     "Updating ca and links in $FLORA website",
     "Welcome $FLORA The official @fobodotfun mascot in now live on Robinhood. CA: 0x7bae7a90c7328969614b3efbee8c4a9026befea8"
    ],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "npc_nexus": {
    "handle": "npc_nexus",
@@ -8968,18 +8989,38 @@
    "following": 10,
    "posts": 24,
    "verified": null,
-   "last_post": null,
-   "sample": 0,
-   "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "last_post": "2026-11-05T16:24:32+00:00",
+   "sample": 19,
+   "sample_full_week": true,
+   "posts_7d": 19,
+   "avg_likes": 4.3,
+   "avg_views": 87,
    "bio_site": "http://orylia.ai",
    "bio": "50+ one-click AI tools, expert templates and every top image and video model on one credit balance.",
    "cas": [],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "texts": [
+    "Buyback then burn. https://robin.etherscan.io/tx/0x8a6509680758242444057907c8ef622da287b20594102125bb766488d9741066",
+    "Your photos stay yours. Orylia has no training pipeline: nothing you upload or generate is used to train models, and preset tool prompts never leave the server. You also see the price before the run, and a failed run hands its credits back.",
+    "New on Orylia this month: Kling 4.0: one unbroken shot up to 30 seconds with stereo sound, 10 keyframes and 15 references. Grok Imagine Image 2.0: xAI\u2019s image generator for fast drafts and photo edits. Midjourney V8.2: a 4-image grid with native HD.",
+    "Real runs, real prompts. Nothing staged.",
+    "You used to paste long prompts, run the same brief through four models, and explain your taste to every new chat. Not anymore. Say what you want in your own words. Orylia remembers how you like things, picks the model, writes the prompt, and shows the price first.",
+    "What you pay for, and what you don\u2019t. Four commitments from Orylia\u2019s trust and billing page, and the mechanism behind each one \ud83e\uddf5",
+    "4. AI output is marked as AI output. Every image and video carries a machine-readable AI-origin marker in its metadata, as the EU AI Act requires. Paid plans get the clean file, pixels untouched.",
+    "3. Every result shows its receipt. Each record in your history carries the model, the settings and the credits actually charged. The exact cost is shown on the Generate button before you commit.",
+    "2. What you write is what runs. Your prompt and reference images go to the model as written. Manual generation never injects hidden style prompts, and the model name is the vendor\u2019s own, never a rebadged or silently downgraded engine.",
+    "1. A failed generation costs nothing. Credits are reserved when you press Generate and only committed once a result is delivered and stored. If the model refuses, times out or errors, the reservation is refunded automatically.",
+    "Start free. Upgrade when you need more power. Four plans on one credit balance, from Lite at $15 a month to Max at $80, billed yearly. Cancel anytime.",
+    "A prompt box vs Orylia Agent, on the four things that slow you down: your taste, the model, the prompt and the price \ud83e\uddf5",
+    "The prompt and the price. A prompt box: you write and paste it, and the price is known after it runs. Orylia Agent: three words in, a professional prompt out. Plan and price first, nothing charged until you confirm.",
+    "Which model. A prompt box: you pick, and try again elsewhere. Orylia Agent: the best arena standing your budget allows. Want a specific model? Pick it yourself in the composer.",
+    "Your taste. A prompt box: explained again in every chat. Orylia Agent: remembered. See and delete each item in Settings \u2192 Memory.",
+    "DEXPAID!",
+    "Burn all supply $ORYLIA. https://robin.etherscan.io/tx/0x70bac0ef110eb158102ecf256aed0057d4792980254c9f4e9b2093f1f9d33639",
+    "Create with legendary masters and scene experts.",
+    "Every model that matters, ranked. Standings from the Artificial Analysis arena, priced in credits. Orylia picks the best one your budget allows, or you choose it yourself."
+   ],
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "neuralverge": {
    "handle": "neuralverge",
@@ -9022,7 +9063,7 @@
     "3/ Read at the moment the agent asks. A purchased list or a cached copy starts going stale the day it lands. Our lookups run when the agent asks, so the answer reflects the source as it is now, not as it was at the last export.",
     "2/ One connection, not one integration per source. Every registry and marketplace has its own access, format and quirks. With NeuralVerge, every source answers in the same structured shape. Adding one means asking for it, not building for it."
    ],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "axol_io": {
    "handle": "axol_io",
@@ -9119,25 +9160,27 @@
   },
   "torchpaddotfun": {
    "handle": "Torchpaddotfun",
-   "found": false,
+   "found": true,
    "id": "2001246102675427328",
    "name": "torch",
    "joined": "2025-12-17T11:00:35+00:00",
-   "followers": 5611,
+   "followers": 5613,
    "following": 17,
-   "posts": 1363,
+   "posts": 1368,
    "verified": "individual",
-   "last_post": "2026-11-05T10:22:04+00:00",
+   "last_post": "2026-11-06T15:44:40+00:00",
    "sample": 20,
-   "sample_full_week": true,
-   "posts_7d": 20,
-   "avg_likes": 109.0,
-   "avg_views": 4500,
+   "sample_full_week": false,
+   "posts_7d": 13,
+   "avg_likes": 107.3,
+   "avg_views": 4573,
    "bio_site": "http://app.torchpad.fun",
    "bio": "The ultimate trade & token launchpad. Launch, trade, earn.\n\nWe fire burns on every trade you make.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "Elysium. We enter the Elysium. Soon to trade on torch. Embrace the bliss. \ud83e\udd1d e/acc @Enter_Elysium",
+    "We have had a record amount torched of 1,000,000 torch, worth $8,188,- USD. Currently total torched is 44.1M (4.41%), worth $361,227.58,- USD. The flywheel is active, the burns keep going.",
     "hood morning fam",
     "torch now runs on USD cash denomination. One balance in dollars, for every chain. Buy any coin on Robinhood, Solana, Base, BNB Chain and more straight from your cash, and every sale comes back as cash too. No more ETH here and SOL there, same wallets, still your keys. Deposit USDG on Robinhood and i",
     "\ud83e\udd9e",
@@ -9155,12 +9198,9 @@
     "we welcome two new pools to our ecosystem. put ETH or the token straight into the pool on Uniswap v4 and earn while your range is active. auto withdraw: proceeds go straight to your wallet as your ladder fills. it\u2019s on by default and you can switch it off if wished. pool APR comes from Uniswap\u2019s own",
     "Providing liquidity to pools can be risky and underheavy to financial losses, do your own research before proceeding. https://x.com/Torchpaddotfun/status/2110442482081132829?a=P8bmxHyz73IJcMFsOJM&s=20",
     "new stock pairs arrived on the torch launchpad. 3 new tokenized pairs are live; - $SPY, the S&P 500 - $GLD, gold - $META, Meta devs can now launch their token paired with any of them, by picking the pair in the launch wizard. these came straight from community requests. want another one added? tell ",
-    "currently 40,420,420 (4,20%) of the supply has been torched worth $330,037.15,- USD. every trade lights the torch, use the terminal for even more burns. together, we light the torch. \ud83d\udd25",
-    "the burns keep firing, the ecosystem keeps growing. we light the torch together.",
-    "hood morning fam, rumours on the streets are that dev is cooking a new killer UI. basic and pro users will be served just as they need. btw in USD denominations too, one balance, peace of mind."
+    "currently 40,420,420 (4,20%) of the supply has been torched worth $330,037.15,- USD. every trade lights the torch, use the terminal for even more burns. together, we light the torch. \ud83d\udd25"
    ],
-   "checked": "2026-11-06T17:42:40+00:00",
-   "gone_since": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "hoodhaven_rh": {
    "handle": "HoodHaven_RH",
@@ -9168,15 +9208,15 @@
    "id": "2096490248155140096",
    "name": "HoodHaven",
    "joined": "2026-09-06T06:48:13+00:00",
-   "followers": 118,
+   "followers": 119,
    "following": 6,
-   "posts": 100,
+   "posts": 102,
    "verified": "individual",
-   "last_post": "2026-11-06T16:40:00+00:00",
+   "last_post": "2026-11-06T21:28:00+00:00",
    "sample": 20,
    "sample_full_week": true,
    "posts_7d": 20,
-   "avg_likes": 3.2,
+   "avg_likes": 2.8,
    "avg_views": 38,
    "bio_site": "http://playhoodhaven.com",
    "bio": "A play-to-earn pixel RPG on Robinhood Chain \u2694\ufe0f Build your isle. Dive the Old Mine. Raise the Banner.\n\n$HAVEN 0xfb832ecb020fe83e42b58d209a26840b701bc9ae",
@@ -9186,6 +9226,8 @@
    ],
    "fake_posts": [],
    "texts": [
+    "Floor 9. Full bag. 12 HP. One lantern. \"One more floor won't hurt.\" \u26cf\ufe0f",
+    "The first paid spin on Lucky Lotta\u2019s wheel just went through. \ud83c\udfa1\ud83d\udd25 20,000 HAVEN, burned on-chain to the dead address. The server checked the transaction before the wheel turned, and it paid out 17 meat. Nobody kept a single token. We spun it ourselves to test it on the live game, and now it\u2019s open to ",
     "Some trees in Pinehollow are older than the village itself. \ud83c\udf32 The ancient pines take Woodcutting 8 to chop, and every so often one hides a drop of amber resin. The best wood on the isles waits for the players who stick around.",
     "He burned the village and walked away smiling. \ud83d\udd25 HoodHaven's story mode is six acts chasing Captain Redmane, from the Burning Village all the way to his castle gate. Herald Rosalind at the monastery has the first chapter ready when you are.",
     "Sometimes you swing at a tree and a pouch of gold falls out. \ud83d\udcb0 Any harvest on the isles can turn up a little bonus gold: a tree, a rock, a sheep. Nobody knows why. The sheep isn't talking.",
@@ -9203,11 +9245,9 @@
     "HoodHaven tip #6: keep your kingdom. \ud83d\udd10 You can play as a guest with no wallet at all, but a guest kingdom lives in that one browser. Clear your site data or switch devices and you start over. Connect a wallet and your isle, your gear and your progress go with you everywhere. It also puts you on the ",
     "HoodHaven tip #5: about one floor in five of the Old Mine hides a surprise. \u2728 \ud83d\udfe1 A Golden Goblin: you have 15 seconds to catch him. \ud83d\udce6 A treasure chest that pays the floor's loot again. \ud83d\udc80 A cursed floor: tougher enemies, double loot, and you choose whether to take it on. Keep your eyes open between fl",
     "HoodHaven tip #4: never skip the dailies. \ud83d\udcdc Every day three villagers ask for something, the same three for everyone, and a gold ! shows who. Whatever you gathered that day counts, Old Mine bags included, so you often have it already. Hand in all three on any 4 days of the week and Elder Wren adds 1",
-    "They reset at midnight UTC, and the first 3 days start easy, so new players can keep up from day one.",
-    "HoodHaven tip #3, for anyone chasing Season Genesis: firsts pay the most XP. \ud83c\udfc6 Your first visit to each isle. The first tool of each tier you forge. Your first kill of each boss. Each Story act. Gathering only pays a little and is capped at 80 XP a day, so the fastest climb is to go somewhere new: s",
-    "HoodHaven tip #2: a red circle on the ground means move, now. \ud83d\udd34 The Rock Golem on floor 5 and Grimtusk on Tinderskull slam right where it glows. The Crystal Wyrm on floor 10 dives into its rock pile, rumbles after you, then bursts up under one. Step out of the circle, then hit back while they recove"
+    "They reset at midnight UTC, and the first 3 days start easy, so new players can keep up from day one."
    ],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "agencyonhood": {
    "handle": "AgencyOnHood",
@@ -9234,28 +9274,28 @@
   },
   "playrafarm": {
    "handle": "PlayraFarm",
-   "found": false,
+   "found": true,
    "id": "2113543815474589696",
    "name": "Playra",
    "joined": "2026-10-23T08:19:42+00:00",
-   "followers": 22,
+   "followers": 23,
    "following": 1,
-   "posts": 8,
+   "posts": 7,
    "verified": "individual",
-   "last_post": "2026-11-05T16:06:16+00:00",
+   "last_post": "2026-11-06T13:29:58+00:00",
    "sample": 7,
    "sample_full_week": false,
    "posts_7d": 5,
-   "avg_likes": 7.9,
-   "avg_views": 98,
+   "avg_likes": 4.6,
+   "avg_views": 67,
    "bio_site": "https://playrafarm.xyz",
-   "bio": "The free-to-play Web3 farming game where you grow crops, trade resources, and earn $PYRA tokens.\n0x0d32e7e23e90e7504e1ae48acb215778571db377",
+   "bio": "The free-to-play Web3 farming game where you grow crops, trade resources, and earn $PYRA tokens.",
    "cas": [
     "0x0d32e7e23e90e7504e1ae48acb215778571db377"
    ],
    "fake_posts": [],
    "texts": [
-    "Burn complete. \ud83d\udd25 5,740,664 $PYRA \u2014 0.57% of the total supply \u2014 has been sent to a dead address and removed from circulation forever. The island gets scarcer from here. Farm. Grow. Trade. https://robinhoodchain.blockscout.com/tx/0xdaadd0e4dc102919757c5c31fd93bcf90b888bd64fb5251b8d11459483f33a00",
+    "Your island is only the beginning. Every great farm starts small \u2014 a few plots, a handful of seeds, and big plans. In Playra, growth is earned: gather Wood, bring it to Grimbly, and expand your land plot by plot. More land means more crops growing at once, more resources to gather, and more room to ",
     "You just arrived on your island. Mayor Pumpkin Pete welcomes you to Playra Farm \u2014 the island is yours now. Your home, your plots, your first seed. Plant a Sunflower and harvest it a minute later. Sell it, save up, expand your land, and grow your farm plot by plot. And don't worry about the weather: ",
     "Fishing season is open at Playra. Cast your line off the island docks and reel in the Marine Marvels \u2014 every catch is yours to keep, trade, and show off. Rare fish don't just fill your collection, they power up your island's economy. Farm, fish, and trade your way across the island \u2014 free to play, r",
     "Your farm pays you back \u2014 here's how Playra works: You start with a small island and a handful of seeds. Plant crops, water them, and harvest when they're ready. Sell your produce, complete villager deliveries at Pumpkin Plaza, cast your line for rare fish, and reinvest everything into upgrading you",
@@ -9263,8 +9303,7 @@
     "PLAYRA is under development. We\u2019re currently building our website and preparing the next steps for the project. There\u2019s more to come as we bring PLAYRA to life, one step at a time. Follow @PlayraFarm for updates.",
     "Every project starts with an idea. PLAYRA started with a simple vision: building a farming game where players can grow, explore, trade, and build their own little world. We\u2019re starting from zero and building step by step. This is the beginning of PLAYRA. More soon."
    ],
-   "checked": "2026-11-06T17:42:40+00:00",
-   "gone_since": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "frongcommunity": {
    "handle": "frongcommunity",
@@ -9487,7 +9526,7 @@
    "sample_full_week": false,
    "posts_7d": 3,
    "avg_likes": 5.4,
-   "avg_views": 59,
+   "avg_views": 60,
    "bio_site": "http://blindwoods.app",
    "bio": "Every private AI promises not to look. We built one that can't: your wallet buys blind tickets.\n\n$BLINDS: 0x72Ff67D429d70a561581AC2DfD0fFB61a9B3df9d",
    "cas": [
@@ -9501,7 +9540,7 @@
     "Every private AI on this chain asks you to connect a wallet. That wallet becomes your account, and on a public chain your account is a public portfolio. So every question you ask sits next to every coin you hold. Blindwoods splits the two. Your wallet buys tickets, the tickets ask the questions, and",
     "A private AI is coming to Robinhood Chain. Not one that ties every question to the wallet that paid. One where paying and asking never meet. Your wallet buys blind tickets. The tickets ask. There is no account to watch. We can\u2019t see you."
    ],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "nebulixlabs_xyz": {
    "handle": "Nebulixlabs_xyz",
@@ -12280,7 +12319,7 @@
    "id": "2114461923882246144",
    "name": "OPSIN Lab",
    "joined": "2026-10-25T21:00:44+00:00",
-   "followers": 20,
+   "followers": 35,
    "following": 6,
    "posts": 0,
    "verified": "individual",
@@ -12295,7 +12334,7 @@
    "cas": [],
    "fake_posts": [],
    "texts": [],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "tigesol4": {
    "handle": "Tigesol4",
@@ -12400,37 +12439,36 @@
   },
   "dan_jeffries1": {
    "handle": "Dan_Jeffries1",
-   "found": false,
+   "found": true,
    "id": "633549366",
    "name": "Daniel Jeffries",
    "joined": "2012-07-12T04:56:22+00:00",
-   "followers": 43810,
+   "followers": 43827,
    "following": 1791,
-   "posts": 20965,
+   "posts": 20971,
    "verified": "individual",
-   "last_post": "2026-11-05T13:31:00+00:00",
+   "last_post": "2026-11-06T09:31:56+00:00",
    "sample": 9,
    "sample_full_week": false,
    "posts_7d": 9,
-   "avg_likes": 120.6,
-   "avg_views": 8564,
+   "avg_likes": 112.4,
+   "avg_views": 6982,
    "bio_site": "https://danieljeffries.substack.com/",
    "bio": "Author, futurist, and systems architect. Recursively self improving.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "We're about to deindustrialize AGAIN because of our own short sightedness, fear and ignorance. A lethal combination of stupidity is what leads to the decline and fall of empires.",
+    "A clear, sane take. But it's unlikely politicians will apply this clear, sane take because that would take clear, sane thinking and it's everywhere in short supply today while extreme, insane thinking is running absolutely riot.",
     "Been experimenting with something to bring the cost of AI tokens way down and give you back crypto tokens as a reward just for using it. If you're interested, pop on the wait list and let us know you want it. Code is close. Now just hardening it like crazy.",
     "We're going to rebuild the internet. Better than it was before. If you fear AI finding bugs you understand nothing about security. Those bugs were always there, getting sold on the dark web, exploited by Advanced Persistent Threats in the shadows. Not knowing about them does not make you safer. It m",
     "This is serious engineering work born in blood and sweat.",
     "One potential positive is maybe we can finally start going back to building out incredible AI desktops, stacked with all the super fast RAM that's about to get blocked from datacenters in the US, and we can finally get self-sovereign, personal AI.",
     "Some thoughts on the election and what it means for the future of AI. Expect gridlock. And this is a great thing. It will stop the most aggressively idiotic ideas (kill switches/total bans) from getting through as Trump goes Mr. Veto. Would have been even better if the house split, but same differen",
     "AI is fake. Also, AI is destroying all the jobs. This is what happens when they don't teach critical thinking in school, boys and girls.",
-    "The Verification problem in action.",
-    "Congrats to Kimi K3 and other open source models for democratizing AI. \ud83d\ude02",
-    "We're going to clean up a lot of Human Slop in the coming days. \ud83d\ude02"
+    "The Verification problem in action."
    ],
-   "checked": "2026-11-06T17:42:40+00:00",
-   "gone_since": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "stryke_xyz": {
    "handle": "stryke_xyz",
@@ -12477,25 +12515,37 @@
    "id": "2076887555815956480",
    "name": "Gloam",
    "joined": "2026-07-14T04:33:23+00:00",
-   "followers": 2121,
+   "followers": 2136,
    "following": 15,
    "posts": 533,
    "verified": "organization",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-06T17:06:01+00:00",
+   "sample": 10,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 10,
+   "avg_likes": 35.3,
+   "avg_views": 1356,
    "bio_site": "http://gloam.trade/",
    "bio": "Private Money on Public Chains for People and Agents\n\n$GLOAM: The Utility Token For the Gloam Ecosystem",
    "cas": [
     "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+    "0xb3900ac9350903218e4c7597bab0f008f01b30b8",
     "0xdcd885f5c60b3ad49f6d58718696417314e8724d"
    ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "texts": [
+    "Our second robinhood:0xdcd885f5c60b3ad49f6d58718696417314e8724d buyback is done. Same as last week, the team added on top of the protocol fees, and all of it went to the burn address. Every token bought this round is gone for good. robinhood:0xdcd885f5c60b3ad49f6d58718696417314e8724d\u2019s supply is fix",
+    "",
+    "Gloam \ud83e\udd1d @useautonomo Autonomo\u2019s AI agents can now pay for APIs privately through Gloam. Every API payment can expose an agent\u2019s research, trades, and spending patterns. Gloam keeps these payments private. Agents pay directly from their private Gloam balance in USDG, while Autonomo receives payments ",
+    "Integrate via our agent kit and MCP server: https://gloam.trade/docs/integrate Agents pay privately. APIs get paid as usual. Welcome, @useautonomo.",
+    "Gloam is now live on @OakAgentKit Oak agents can hold USDG privately on Robinhood Chain, pay anyone\u2019s receive tag, claim payments sent to them, and cash out, all from a private balance. Every action shows a preview first and only goes through when you approve it. An agent\u2019s spending says a lot about",
+    "It\u2019s one line to add to any Oak agent: npm i -g @oakagentkit/addon @oakagentkit/gloam Welcome, @OakAgentKit.",
+    "Gloam \ud83e\udd1d @klll_floor Killfloor\u2019s AI agents now make private payments via Gloam. In Killfloor, AI agents trade, sell skills, and pay for inference. Previously, all payments were public, risking exposure of transactions and strategies. Now, Gloam ensures privacy. Agents can trade intelligence confident",
+    "Gloam is designed for private transactions on public chains, catering to people, teams, and agents. Any agent platform can integrate today at https://gloam.trade/docs/integrate. Agents that trade publicly. Agents that pay privately. Welcome to Gloam, @klll_floor.",
+    "Here's what's happened in two weeks of Gloam on the mainnet. 584 private actions on mainnet: 320 private transfers, 178 cash outs, and 70 deposits across Robinhood Chain, Tempo, Base, and Ethereum. Close to 8,000 downloads of the Gloam developer kits, so apps and AI agents can pay privately. 5 partn",
+    "Live numbers anyone can check: https://gloam.trade/transparency"
+   ],
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "sazareprotocol": {
    "handle": "SazareProtocol",
@@ -12503,46 +12553,69 @@
    "id": "2078450517269975040",
    "name": "Sazare",
    "joined": "2026-07-18T12:05:46+00:00",
-   "followers": 1810,
+   "followers": 1809,
    "following": 2,
    "posts": 113,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-05T14:38:50+00:00",
+   "sample": 20,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 2,
+   "avg_likes": 46.0,
+   "avg_views": 4741,
    "bio_site": "https://sazare.io",
    "bio": "Programmable Markets Built on Uniswap V4 on @RobinhoodCrypto.                          CA: 0xbeD7c1660a01dbEEe225bd893ac31727a91A5773",
    "cas": [
     "0xbed7c1660a01dbeee225bd893ac31727a91a5773"
    ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "texts": [
+    "https://x.com/i/article/2115476005242712064",
+    "https://x.com/i/article/2115476005242712064",
+    "First I own our community an apology. I have been working on Sazare for the last few months. And I have loved working on it, I truly think the community of holders we have at this point are some of the best in the space. I love building new and interesting things. However because of this it has crea",
+    "https://x.com/i/article/2112325288394670080",
+    "https://t.me/sazareprotocol",
+    "https://x.com/i/article/2107499092008128512",
+    "These are the enemies. These are the people who have destroyed this space and the reason we are building what we are building. Escape the trenches. Enter The Stronghold \u2122\ufe0f",
+    "We are building for holders, builders, and devs not trenchers. It is time to create The Stronghold \u2122\ufe0f",
+    "Great community breakdown of the way we like to build hooks!",
+    "Uniswap V4 Hooks have opened up a new world for traders, gamers, and builders. Taking a once fairly fixed trading experience and making fees, liquidity, and pool behavior customizable on chain. We are still only scratching the surface of what people can build. That freedom also creates a difficult p",
+    "The hook wave is just beginning. While hooks are amazing they must still be viewed through full protocol lens. For this to work the entire system must be viewed as modular components. From tokenomics, to liquidity, to post launch. This is what we are building",
+    "What happens when you can trade the parts of an asset? We\u2019re still thinking too narrowly about tokenization. We talk about putting stocks, property, commodities and other assets onchain. There are good reasons to do that. But the part that is missing is what people could build around those assets on",
+    "Make sure to tune in later today when we go on @MCGlive",
+    "There has always only been one way to trade new pairs on chain. Buy or sell. That is really it. If you want to LP you can do that but it opens you up to impermenant loss which is extremely difficult to offset and limits the strategies you can run. Especially for new pairs where borrowing is not poss",
+    "The floor is quite literally just the beginning",
+    "We want to thank @Uniswap and @UniswapBuilders for reviewing and approving out newest hook so quickly. Traders can now trade our pools through the Uniswap Routing Algorithm!",
+    "Market getting demolished means time to build more. 2 add-ons will be released today allowing creators to directly strengthen the floor with creator revenue, as well as provide staking rewards for holders. Alongside this more settlement asset pairs will be. gSZR",
+    "As we continue to reach out to and work with teams building on $SZR we will use the generated protocol fees to buy back and burn $SZR tokens as promised. The entire system of pushing collected fees to the treasury, to using these fees to burn $SZR is permessionless and can be done by anyone. The fir",
+    "DM the dev and build with us. Pack your bags its building season on @RobinhoodCrypto",
+    "The new frontend and contracts are live at http://sazare.io There is still a lot of work to do on the frontend for lots of different aspects. If you run into any issues at all please let us know so we can correct them as quickly as possible. This is a major protocol upgrade for both the frontend and"
+   ],
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "alfaclubdotapp": {
    "handle": "AlfaClubdotapp",
-   "found": false,
+   "found": true,
    "id": "1903022555209859072",
    "name": "AlfaClub",
    "joined": "2025-03-21T09:55:43+00:00",
-   "followers": 3224,
+   "followers": 3227,
    "following": 3,
-   "posts": 2437,
+   "posts": 2440,
    "verified": "individual",
-   "last_post": "2026-11-05T16:47:05+00:00",
-   "sample": 12,
+   "last_post": "2026-11-07T05:38:37+00:00",
+   "sample": 13,
    "sample_full_week": false,
-   "posts_7d": 8,
-   "avg_likes": 32.8,
-   "avg_views": 929,
+   "posts_7d": 9,
+   "avg_likes": 31.3,
+   "avg_views": 923,
    "bio_site": "https://alfaclub.app/",
    "bio": "Find your crew. Launch your token. Make your market.\n\nSocial Launchpad and Trading Platform on Robinhood.",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "AlfaClub has numerous value accrual mechanisms in place for Creators, Users and Alfa holders: - Referral program: Earn 25% of referee fees, while they get a 10% discount - Room Fees: 2% of key trade volume flows to Room owners - Token Fees: Launch a token in your room to earn 35% of token trading fe",
+    "Charting tools have been upgraded! Carry our your TA and then share in your chats \ud83d\udcc8 Check out our guide below. We've also made a few other updates: - Auto-translate button in-chat - Improved chart loading and scrolling - Alfa avatars for avatar-less users See you in the club!",
     "We've just released a major update- Perps trading is live in-app now! There are many other changes too: - You can now place limit orders on spot trades - Launch analysis tools have been added to the terminal, quickly evaluate new launches - Full app refresh to improve the UX - Our bot Chip can now h",
     "We've just released a major update- Perps trading is live in-app now! There are many other changes too: - You can now place limit orders on spot trades - Launch analysis tools have been added to the terminal, quickly evaluate new launches - Full app refresh to improve the UX - Our bot Chip can now h",
     "Still on AlfaClub v1? We've created a tool that lets you migrate all of your holdings to v2. This will unstake and sell all your existing keys, and bridge your stablecoin balance to your V2 Robinhood address. We've manually triggered distributions across all trading rooms, so you don't need to worry",
@@ -12553,11 +12626,9 @@
     "BSC trading is live on AlfaClub! Trade one-click on BSC, alongside our existing 5 chains Other updates: Room folders: You can now group your chats into private folders Solana trade info: Calls, Trader PnL, Holders and Trades tabs have all been added Cleaner portfolio view: totals, cash and gas at a ",
     "Trading Battle Inception has concluded, and congrats to @fran66897704, @DeFiCapitalSG and @AntonVaamonde ! So close, but Fran secured first place taking home $500, and an additional $500 for their keyholders! Prizes have been distributed, keyholders need to claim on the dashboard We hope you enjoyed",
     "Welcome @AmirOrmu to the AlfaClub community! An onchain sleuth and FriendTech OG, who's constantly sharing valuable Alfa He's created a room on AlfaClub, you can check it out here: https://alfaclub.app/rooms/5ccc5051-41cd-4c57-8044-55ac134782c1/ See you in the Club!",
-    "Is this thing on? \ud83c\udf99\ufe0f New update just dropped. Spaces, Agentic trading and an upgraded Chip are LIVE on AlfaClub! gAlfa",
     "Is this thing on? \ud83c\udf99\ufe0f New update just dropped. Spaces, Agentic trading and an upgraded Chip are LIVE on AlfaClub! gAlfa"
    ],
-   "checked": "2026-11-06T17:42:40+00:00",
-   "gone_since": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "tryblackboxai": {
    "handle": "tryblackboxai",
@@ -15522,7 +15593,7 @@
   },
   "openfactor_ai": {
    "handle": "openfactor_ai",
-   "found": true,
+   "found": false,
    "id": "2118076985394208768",
    "name": "Open Factor",
    "joined": "2026-11-04T20:25:47+00:00",
@@ -15541,7 +15612,8 @@
    "cas": [],
    "fake_posts": [],
    "texts": [],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00",
+   "gone_since": "2026-11-07T05:45:23+00:00"
   },
   "velum_app": {
    "handle": "Velum_app",
@@ -15549,22 +15621,43 @@
    "id": "2116541399415816192",
    "name": "Velum",
    "joined": "2026-10-31T14:53:42+00:00",
-   "followers": 86,
+   "followers": 112,
    "following": 6,
-   "posts": 17,
+   "posts": 20,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
-   "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "last_post": "2026-11-07T03:50:48+00:00",
+   "sample": 18,
+   "sample_full_week": true,
+   "posts_7d": 18,
+   "avg_likes": 16.4,
+   "avg_views": 637,
    "bio_site": "http://Velumtrade.app",
    "bio": "6,600+ US stocks. Fully private trading. Built on Robinhood Chain Testnet. Compete weekly in the Velum Cup.",
-   "cas": [],
+   "cas": [
+    "0x5a6486ba20181b959e3113b800af1e2828ceedc4"
+   ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "texts": [
+    "It's Saturday. Wall Street is closed. Velum isn't. Buy any of 6,000+ US stocks right now at the last traded price, from $1, and keep it private https://velumtrade.app",
+    "Pnl cards are coming to Velum! https://Velumtrade.app",
+    "$VELUM is BONDED Bonding curve: 100%. This is just the start. We keep shipping private stock trading on Robinhood Chain, and the best is still ahead CA: 0x5a6486bA20181B959E3113b800Af1E2828CEEDC4 https://velumtrade.app",
+    "Dex Paid for $VELUM Private stock trading on Robinhood Chain CA: 0x5a6486bA20181B959E3113b800Af1E2828CEEDC4 https://velumtrade.app",
+    "Any US stock. Any amount. From $1. Fractional shares, private by default, on Robinhood Chain. https://velumtrade.app",
+    "Ever opened your trading app on a stream, in a meeting, or next to a nosy friend? On Velum your balance is blurred by default. Press and hold to see it. Let go and it's gone. Screen-share safe. Private by design. https://velumtrade.app",
+    "Watchlists and alerts now Live on Velum.",
+    "On Velum, the chain sees your deposit. That's it. Trades, holdings, orders, PnL: behind the veil, only you. 6,000+ US stocks on Robinhood Chain https://velumtrade.app",
+    "100% of $VELUM Dev tokens has been Locked on Pinklock for 3 months. Verify: https://www.pinksale.finance/pinklock/robinhood/record/1001646",
+    "Velum is building in public, privately. What's new: \u2022 Live price limit orders \u2022 SL/TP brackets \u2022 $Velum CA on the site, one click to copy Join the community for updates : https://Velumtrade.app https://t.me/velum_portal",
+    "$VELUM is Live on Robinhood chain @ponsdotfamily Official Ca: 0x5a6486bA20181B959E3113b800Af1E2828CEEDC4",
+    "",
+    "Velum Official token is coming to Robinhood chain. The Contract address will be posted here on the twitter. Beware of fakes.",
+    "Limit, stop-loss and take-profit are now live on Velum. Orders fill the moment the live price hits your level. Watching or not.",
+    "Why trade on Velum? Private by default: only deposits & withdrawals hit the chain 6,000+ stocks with real market data Smart-contract vault settles in USDG or ETH.",
+    "Velum Weekly Cup: Everyone starts with the same 0.01 testnet ETH, up to 10x leverage, ranked purely on PnL. Multi-accounts get flagged. Same start. May the best traders win.",
+    "Traditional Trading applications vs Velum",
+    "Understanding Velum https://Velumtrade.app"
+   ],
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "askglyph": {
    "handle": "askglyph",
@@ -15572,22 +15665,27 @@
    "id": "2108138320031272960",
    "name": "ask glyph",
    "joined": "2026-10-08T10:12:54+00:00",
-   "followers": 27165,
+   "followers": 27067,
    "following": 0,
    "posts": 4,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-02T14:47:19+00:00",
+   "sample": 4,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 4,
+   "avg_likes": 9418.0,
+   "avg_views": 251131,
    "bio_site": "http://askglyph.chat",
    "bio": "ask glyph anything. it might set some $GLYPH aside for you. it might not.",
    "cas": [],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "texts": [
+    "claim ur $glyph allocation \ud83c\udf0a type /mintallo launch in 4h \u23f3 https://askglyph.chat",
+    "your glyph NFT is your airdrop pass \ud83c\udf0a mint it = eligible for the $GLYPH airdrop.",
+    "ask glyph for allocation \ud83d\udcac\ud83c\udf0a type /glyphfree https://askglyph.chat",
+    "ask $GLYPH anything \ud83c\udf0a early fcfs: https://askglyph.chat"
+   ],
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "titenhq": {
    "handle": "titenhq",
@@ -15715,20 +15813,25 @@
    "following": 0,
    "posts": 4,
    "verified": null,
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-06T17:02:15+00:00",
+   "sample": 4,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 4,
+   "avg_likes": 0.0,
+   "avg_views": 17,
    "bio_site": "https://tryflash.app/",
    "bio": "tokenized equities \u2022 leveraged liquidity \u2022 market making \u2022 revenue share\n\nca: 0x2aff25798f83f08c8cfb5aee3440c0b583b7fea4",
    "cas": [
     "0x2aff25798f83f08c8cfb5aee3440c0b583b7fea4"
    ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "texts": [
+    "$FLASH is live on @RobinhoodApp with some new features! CA: 0x2aff25798f83f08c8cfb5aee3440c0b583b7fea4 Referrals: Invite people and earn from every trade they make Limit Orders: Our new Uniswap hook fills inside buys and turns your slippage into direct profit! Perps: Earn our new token QUANT when tr",
+    "Every graduated coin gets its own treasury. Its controller sets the creator cut, and can run it with their own AI agent. https://tryflash.app/tokens?ref=2",
+    "It's taking us a bit to wire in all the contracts for our app, our leveraged liquidity token launcher should be live soon!",
+    "Launch a token that automatically pays stock dividends to your holders! Our hook allows up to 30X more rewards than a 1% trading fee reflection token can offer alone, Launch with FLASH here \u2935\ufe0f https://tryflash.app/launch"
+   ],
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "noctualabrh": {
    "handle": "NoctuaLabRH",
@@ -15775,21 +15878,30 @@
    "id": "2118001643090276353",
    "name": "Skein",
    "joined": "2026-11-04T15:27:07+00:00",
-   "followers": 18,
-   "following": 1,
-   "posts": 9,
+   "followers": 34,
+   "following": 2,
+   "posts": 16,
    "verified": "individual",
-   "last_post": "2026-11-06T17:57:03+00:00",
-   "sample": 8,
-   "sample_full_week": false,
-   "posts_7d": 8,
-   "avg_likes": 6.2,
-   "avg_views": 92,
+   "last_post": "2026-11-07T04:32:24+00:00",
+   "sample": 15,
+   "sample_full_week": true,
+   "posts_7d": 15,
+   "avg_likes": 9.7,
+   "avg_views": 203,
    "bio_site": "http://skein.bond",
    "bio": "Market intelligence for Stock Tokens.\n\nTrack liquidity, market activity, and the moves that matter.\n\nBuilt on Robinhood Chain.",
-   "cas": [],
+   "cas": [
+    "0x953cf0a0f0e14c5e3092f11a8bbd77968bf7cf5d"
+   ],
    "fake_posts": [],
    "texts": [
+    "SKEIN MARKET WATCH #001 CRCL trade depth at 1% dropped 36.1% below its median. Meanwhile: \u2022 $1,000 buy gap: +24 bps \u2022 pool mid vs reference: -7 bps \u2022 1% depth: $95,757 buy / $60,110 sell Price is one story. Execution conditions are another. That\u2019s what Skein is built to watch.",
+    "This doesn\u2019t mean the market \u201cbroke.\u201d It means trading conditions changed meaningfully relative to normal. That\u2019s the difference between just watching price and actually watching the market. https://skein.bond",
+    "Weekend market check. When traditional markets close, we\u2019re watching three things: \u2022 activity \u2022 liquidity \u2022 how conditions change around the same tickers That\u2019s where a lot of the interesting stuff starts. $SKEIN is built for that.",
+    "Wall Street clocks out at 4 PM. Your collateral doesn't. \ud83d\ude02 Stock Tokens entering DeFi lending changes the game. Suddenly, liquidity, price deviations and market risk matter long after the closing bell. The market never sleeps. Neither should your intelligence. $SKEIN",
+    "SKEIN is now live on Robinhood Chain Market intelligence for Stock Tokens is here. Track market activity, follow what\u2019s happening across tokenized stocks and use Ask Skein to get insights that help you make sense of the market. All built on Robinhood Chain and launched through @ponsdotfamily. CA: 0x",
+    "Wall Street: See you Monday. Robinhood Chain: Monday? What's that? \ud83d\ude2d Stock Tokens can keep trading while traditional markets are closed. Different liquidity. Different pricing conditions. Same tickers. Which Stock Token are you watching this weekend? \ud83d\udc40",
+    "Your watchlist shouldn't stop working when you close the tab. Introducing $SKEIN Alerts. Follow your favourite Stock Tokens. Get Telegram notifications when significant liquidity changes or unusual price movements are detected. No constant refreshing. No babysitting charts. Just the updates that mat",
     "17 browser tabs. 6 charts. 3 Telegram groups. And somehow, you still missed the move. \ud83d\ude2d That's why we built Skein Watchlists. All the Stock Tokens you care about. One place to keep up with them. Less switching tabs. More keeping up. https://skein.bond",
     "Volume gets the attention. Liquidity tells the real story. A token can trade millions and still have terrible execution depth. That\u2019s why we built liquidity monitoring into Skein. Because knowing where the money moves is one thing. Knowing whether you can actually trade is another. Explore \u2192 http://",
     "Wall Street clocks out at 4 PM. Your collateral doesn't. \ud83d\ude02 Stock Tokens entering DeFi lending changes the game. Suddenly, liquidity, price deviations and market risk matter long after the closing bell. The market never sleeps. Neither should your intelligence. $SKEIN",
@@ -15799,7 +15911,7 @@
     "Markets move fast. Understanding why shouldn't take five different tabs. Meet Ask Skein. Ask about a Stock Token. Explore its price, liquidity, trading activity, and recent market changes in one place. Less digging. More understanding. Try it \u2192 https://skein.bond",
     "Introducing SKEIN. Market intelligence for Stock Tokens. Track prices, liquidity and market activity. Understand what\u2019s moving, what\u2019s changing and what matters. Built for Robinhood Chain. https://skein.bond"
    ],
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "a1lu0n9": {
    "handle": "a1lu0n9",
@@ -18199,6 +18311,58 @@
     "https://askpillar.ai"
    ],
    "checked": "2026-11-07T05:30:30+00:00"
+  },
+  "josememerh": {
+   "handle": "JosememeRH",
+   "found": true,
+   "id": "2118916978853457920",
+   "name": "Jose",
+   "joined": "2026-11-07T04:04:13+00:00",
+   "followers": 4,
+   "following": 2,
+   "posts": 3,
+   "verified": null,
+   "last_post": "2026-11-07T05:45:48+00:00",
+   "sample": 2,
+   "sample_full_week": false,
+   "posts_7d": 2,
+   "avg_likes": 3.0,
+   "avg_views": 28,
+   "bio_site": null,
+   "bio": "Elon Musks favourite meme",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "I just made a purchase from @dexscreener using @moonpay \ud83d\udd25 https://moonpay.hel.io/pay/6aeeb7860978ee0853bf434e",
+    "Why we launched on @fobodotfun Every buy and sell creates trading volume that is used to build a floor for $JOSE. The floor rises with the market cap essentially making the token un-ruggable and it cannot be vamped (the ticker is not able to be used by anyone else for 3 months) The liquidity availab"
+   ],
+   "checked": "2026-11-07T05:45:23+00:00"
+  },
+  "qedralab": {
+   "handle": "QedraLab",
+   "found": true,
+   "id": "2112818979810967552",
+   "name": "Qedra Lab",
+   "joined": "2026-10-21T08:13:05+00:00",
+   "followers": 0,
+   "following": 0,
+   "posts": 2,
+   "verified": "individual",
+   "last_post": "2026-11-04T17:30:39+00:00",
+   "sample": 2,
+   "sample_full_week": false,
+   "posts_7d": 1,
+   "avg_likes": 0.0,
+   "avg_views": 72,
+   "bio_site": "https://qedralab.org/",
+   "bio": "Quantum experiments and safety agents",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "",
+    ""
+   ],
+   "checked": "2026-11-07T05:45:23+00:00"
   }
  },
  "ids": {
@@ -19658,6 +19822,12 @@
   ],
   "2045906829423878144": [
    "askpillar"
+  ],
+  "2118916978853457920": [
+   "JosememeRH"
+  ],
+  "2112818979810967552": [
+   "QedraLab"
   ]
  },
  "past": {
@@ -20189,7 +20359,9 @@
   "ddddddd8a": [],
   "whaleinsider": [],
   "yvqex": [],
-  "askpillar": []
+  "askpillar": [],
+  "josememerh": [],
+  "qedralab": []
  },
  "history": {
   "barragetrade": {
@@ -20730,6 +20902,10 @@
    "2026-11-06": [
     650,
     73
+   ],
+   "2026-11-07": [
+    639,
+    73
    ]
   },
   "winwithdares": {
@@ -20908,6 +21084,10 @@
    "2026-11-06": [
     120,
     1036
+   ],
+   "2026-11-07": [
+    125,
+    1072
    ]
   },
   "burcs": {
@@ -20937,6 +21117,10 @@
    ],
    "2026-11-06": [
     3347,
+    217
+   ],
+   "2026-11-07": [
+    3349,
     217
    ]
   },
@@ -22822,6 +23006,10 @@
    "2026-11-06": [
     45,
     24
+   ],
+   "2026-11-07": [
+    45,
+    24
    ]
   },
   "nebulixlabs_xyz": {
@@ -22886,6 +23074,10 @@
    "2026-11-06": [
     7,
     12
+   ],
+   "2026-11-07": [
+    7,
+    12
    ]
   },
   "fupafinance": {
@@ -22896,6 +23088,10 @@
    "2026-11-06": [
     203,
     686
+   ],
+   "2026-11-07": [
+    203,
+    690
    ]
   },
   "floradotmeme": {
@@ -22906,6 +23102,10 @@
    "2026-11-06": [
     253,
     23
+   ],
+   "2026-11-07": [
+    285,
+    26
    ]
   },
   "sherwoodagent": {
@@ -22926,6 +23126,10 @@
    "2026-11-06": [
     8,
     22
+   ],
+   "2026-11-07": [
+    8,
+    22
    ]
   },
   "peekmarquee": {
@@ -22942,6 +23146,10 @@
    "2026-11-06": [
     5611,
     1363
+   ],
+   "2026-11-07": [
+    5613,
+    1368
    ]
   },
   "hoodhaven_rh": {
@@ -22952,6 +23160,10 @@
    "2026-11-06": [
     118,
     100
+   ],
+   "2026-11-07": [
+    119,
+    102
    ]
   },
   "agencyonhood": {
@@ -22968,6 +23180,10 @@
    "2026-11-06": [
     22,
     8
+   ],
+   "2026-11-07": [
+    23,
+    7
    ]
   },
   "omardotrs": {
@@ -23614,6 +23830,10 @@
    "2026-11-06": [
     10,
     6
+   ],
+   "2026-11-07": [
+    10,
+    6
    ]
   },
   "dopplerprotocol": {
@@ -23638,6 +23858,10 @@
    "2026-11-06": [
     43810,
     20965
+   ],
+   "2026-11-07": [
+    43827,
+    20971
    ]
   },
   "stryke_xyz": {
@@ -23650,11 +23874,19 @@
    "2026-11-06": [
     2121,
     533
+   ],
+   "2026-11-07": [
+    2136,
+    533
    ]
   },
   "opsinlabio": {
    "2026-11-06": [
     20,
+    0
+   ],
+   "2026-11-07": [
+    35,
     0
    ]
   },
@@ -23662,12 +23894,20 @@
    "2026-11-06": [
     1810,
     113
+   ],
+   "2026-11-07": [
+    1809,
+    113
    ]
   },
   "alfaclubdotapp": {
    "2026-11-06": [
     3224,
     2437
+   ],
+   "2026-11-07": [
+    3227,
+    2440
    ]
   },
   "manifestnetwork": {
@@ -24312,6 +24552,10 @@
    "2026-11-06": [
     27165,
     4
+   ],
+   "2026-11-07": [
+    27067,
+    4
    ]
   },
   "openfactor_ai": {
@@ -24324,10 +24568,18 @@
    "2026-11-06": [
     86,
     17
+   ],
+   "2026-11-07": [
+    112,
+    20
    ]
   },
   "flashtraderh": {
    "2026-11-06": [
+    0,
+    4
+   ],
+   "2026-11-07": [
     0,
     4
    ]
@@ -24336,6 +24588,10 @@
    "2026-11-06": [
     18,
     9
+   ],
+   "2026-11-07": [
+    34,
+    16
    ]
   },
   "titenhq": {
@@ -24745,6 +25001,18 @@
     13,
     12
    ]
+  },
+  "josememerh": {
+   "2026-11-07": [
+    4,
+    3
+   ]
+  },
+  "qedralab": {
+   "2026-11-07": [
+    0,
+    2
+   ]
   }
  },
  "telegram": {
@@ -25134,7 +25402,7 @@
   "nymrasi": {
    "twitter": "nymrasi",
    "blog": "https://nymra.si",
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "loodev3": {
    "twitter": null,
@@ -25219,7 +25487,7 @@
   "server4agent": {
    "twitter": "serverforagent",
    "blog": "https://www.server4agent.com",
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "guardis-io": {
    "twitter": null,
@@ -25244,7 +25512,7 @@
   "expogacha": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "bytejury-exe": {
    "twitter": "bytejury",
@@ -25834,12 +26102,12 @@
   "juliusbrussee": {
    "twitter": null,
    "blog": "juliusbrussee.com",
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "agentsea": {
    "twitter": "AgentSea_ai",
    "blog": "https://agentsea.ai/",
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "stryke-xyz": {
    "twitter": "stryke_xyz",
@@ -25849,7 +26117,7 @@
   "cryptoduke01": {
    "twitter": "dukedotsol",
    "blog": "https://iamduke.xyz",
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "blackboxai-lol": {
    "twitter": null,
@@ -26049,12 +26317,12 @@
   "askglyph": {
    "twitter": "askglyph",
    "blog": "",
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "titen-dev": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-06T17:42:40+00:00"
+   "checked": "2026-11-07T05:45:23+00:00"
   },
   "arikuschnir": {
    "twitter": "arikuschnir",
@@ -26180,6 +26448,11 @@
    "twitter": "wormuth",
    "blog": "https://www.alexwormuth.com/",
    "checked": "2026-11-07T05:15:24+00:00"
+  },
+  "quipnetwork": {
+   "twitter": "quipnetwork",
+   "blog": "https://quip.network",
+   "checked": "2026-11-07T05:45:23+00:00"
   }
  }
 }

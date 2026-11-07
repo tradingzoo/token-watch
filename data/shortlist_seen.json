@@ -108,10 +108,10 @@
   },
   "0x000050e18ffa3f8f7ad170eb9cef160eb3ed1111": {
    "symbol": "TORCH",
-   "in": false,
+   "in": true,
    "joined": null,
    "first": "2026-11-05T15:12:26+00:00",
-   "left": "2026-11-06T21:02:30+00:00"
+   "left": null
   },
   "0x61e0deba0a6bd1d0df92af816739449c861e3cce": {
    "symbol": "SYNTHS",
