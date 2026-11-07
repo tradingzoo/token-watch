@@ -195,5 +195,36 @@
   "notes": [
    "Checked 6 Nov ~12:00 UTC: raeto.cc and api.raeto.cc/health never mention 0xbd29...; real RAETO launched 12 Oct by 0x047d5cad"
   ]
+ },
+ "0x6572eade9fb17f4027baf92feac222b9aa746bd0": {
+  "symbol": "GOO",
+  "checked": "2026-11-07 (deep dive ~04:00 UTC)",
+  "notes": [
+   "Deep dive 7 Nov ~03:55-04:15 UTC (checklist in CLAUDE.md). Sources: goo.exchange home, /llms.txt, /llms-full.txt, /docs, /goo-token/, /flywheel/, /protocol/, /fees/, /agents/, sitemap; their API goo.exchange/api/public-data?kind=facts and MCP goo.exchange/api/mcp (tools/list answered); Robinhood Chain RPC (eth_getLogs, eth_call, getTransactionByHash); X @GrayGooEx posts in data/x_info.json.",
+   "Theirs: confirmed. Address 0x6572EADe… is on goo.exchange/llms.txt ('GOO is Grey Goo, 0x6572EADe9Fb17F4027baF92FEAC222B9AA746bd0'), /goo-token/, /protocol/, as 'giga' in their own API's deployment list, and in many @GrayGooEx posts. No copies on our lists.",
+   "Product: a Uniswap-V3-style DEX on Robinhood Chain with stock tokens, ETH and GOO; a Pool launchpad and a Curve pad (every launch pairs with GOO); curated arbitrage vaults; read-only API + MCP for AI agents (quotes, verified stock-token list). Planned: vault leverage, GOO lending (/flywheel/).",
+   "Token use, checked on chain: GOO is bought back and burned. Site: 'Half of collected DEX protocol fees goes to the FeeJar. A buyer of its auction pays GOO, which is burned' (/goo-token/). RPC 7 Nov 03:57 UTC: totalSupply 997,357,612 (2,642,388 burned vs the 1B mint, 0.26%); last 7 days 9 burns totalling 397,375 GOO, 8 of them by the FeeJar 0xb82028EB (about $850 at $2.13M market cap). No staking or fee share: 'no rebase, wrapper, stable-price target or staker revenue-share module' (/goo-token/).",
+   "Usage, checked on chain: main GOO/WETH pool 0x841f0021, last 24h: 279 swaps in 270 transactions signed by 150 different wallets, 146 of them with 1-3 swaps (look like people); one wallet 0x79680325 signed 59 (a bot, maybe their arbitrage). Last 7 days: 3,408 swaps, 217 different recipients. Launchpads quiet: Pool launchpad 0 events in 7 days, Curve launchpad 1 transaction. Vault zapper 6 deposits in 7 days.",
+   "Their own numbers (X weekly recap, not checked): 106 pools, $295.8K 7-day volume, $714.7K TVL, $3,385 7-day protocol revenue, 2.31M GOO burned.",
+   "Money: pool fee tiers 0.05%-20%; protocol takes a quarter of the swap fee, split half FeeJar (burn) / half development fund (/fees/). Vaults: 12.5% of arb profit burns GOO. Curve pad: 0.7% of each trade to the creator.",
+   "Team: anonymous (no names on any page read). X @GrayGooEx made 26 Sep 2026, the same day as the token's first trade; 392 followers, 416 posts, 11 posts in 7 days (x_info). Contact admin@ on the site, Discord discord.gg/gooex. Domain age: not checked (RDAP lookup failed).",
+   "Code: contracts verified on Sourcify (/docs), no public GitHub found. Audit: none for Goo's own contracts; the site says 'Verified source identifies code; it is not an independent security audit' (/protocol/). The only audit mentioned is for the Shielded Pools contracts, 'byte-identical to 0xbow's deployment', audited by Oxorio and Auditware (/docs).",
+   "Scanner corrections: (1) 'Mentions an audit' is the copied 0xbow privacy-pool audit, not Goo's own contracts. (2) 'Site offers an SDK or install line' (+10): no npm/pip/SDK install line on /docs, /llms-full.txt or /agents/; they offer a public API + MCP instead. (3) 'Made for AI agents': only the read-only quote tools are for agents; the product is a DEX (DeFi). Score without the SDK points would be 70.",
+   "Compare: FOBO (fobo.fun launchpad, ~$2.9M, X 1.4k, a benchmark winner) and xTOPAZ (ve(3,3) DEX, ~$90k, has GitHub) are the closest on our lists. GOO has the most careful public docs and an on-chain-checked burn; FOBO has more followers; neither GOO nor FOBO publishes code on GitHub."
+  ],
+  "review": {
+   "What it does": "A DEX and launchpad on Robinhood Chain for stock tokens, ETH and GOO, with arbitrage vaults and a read-only API/MCP for AI agents (DeFi, not an AI product).",
+   "Unique?": "A Robinhood-Chain-native Uniswap-V3-style exchange where every launch pairs with GOO and every product feeds one buyback-and-burn.",
+   "In use?": "Yes: 150 different wallets traded the main pool in the last 24h (146 with 1-3 trades), but the launchpads were nearly idle this week (1 Curve-pad transaction).",
+   "How it makes money": "A quarter of each swap fee goes to the protocol (half burns GOO, half to the dev fund), plus 12.5% of vault arbitrage profit.",
+   "Token today": "Buyback and burn, checked on chain: 397k GOO burned in the last 7 days (about $850), 2.64M since launch; no staking or fee share for holders.",
+   "Team": "Anonymous. X made 26 Sep 2026, the token's first-trade day; contracts verified on Sourcify, no audit of their own contracts, no public GitHub.",
+   "Watch for": "Launchpad use picking up · weekly burn growing · an audit of the exchange contracts · leverage/lending launch (adds risk)"
+  },
+  "token_use": {
+   "none": false,
+   "text": "buyback and burn from DEX fees, checked on chain (397k GOO burned in 7 days, 8 burns by the FeeJar); no staking or fee share",
+   "source": "goo.exchange/goo-token/ and /fees/, read 7 Nov ~04:00 UTC; Robinhood Chain RPC totalSupply + Transfer-to-0x0 logs, 7 Nov 03:57 UTC"
+  }
  }
 }
