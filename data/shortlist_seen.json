@@ -304,10 +304,10 @@
   },
   "0x96f455a90a80dcf0c2df6703ea4ba3bedf286e43": {
    "symbol": "VERDEX",
-   "in": false,
+   "in": true,
    "joined": "2026-11-06T10:18:22+00:00",
    "first": "2026-11-06T10:18:22+00:00",
-   "left": "2026-11-06T21:02:30+00:00"
+   "left": null
   },
   "0x8ff92566f2e81bdd68edfaa8cde73942a723796b": {
    "symbol": "VEX",
@@ -326,8 +326,8 @@
   "0x6572eade9fb17f4027baf92feac222b9aa746bd0": {
    "symbol": "GOO",
    "in": true,
-   "joined": "2026-11-07T01:55:17+00:00",
-   "first": "2026-11-07T01:55:17+00:00",
+   "joined": "2026-11-07T01:35:49+00:00",
+   "first": "2026-11-07T01:35:49+00:00",
    "left": null
   }
  }
