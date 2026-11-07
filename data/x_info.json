@@ -20166,6 +20166,38 @@
     "5,439 things your AI can now do to your business. Keys it holds: zero. MoltenRock 1.6 and MoltenRock Connect 1.2 are out. Your AI reads what you allow. When it wants to change something, a refund, a DNS record, a pull request, it files a card, and nothing happens until you approve it with Touch ID ("
    ],
    "checked": "2026-11-07T14:00:33+00:00"
+  },
+  "kajadotio": {
+   "handle": "kajadotio",
+   "found": true,
+   "id": "2118714090004635649",
+   "name": "Kaja",
+   "joined": "2026-11-06T14:40:31+00:00",
+   "followers": 2,
+   "following": 4,
+   "posts": 7,
+   "verified": null,
+   "last_post": "2026-11-07T14:16:26+00:00",
+   "sample": 6,
+   "sample_full_week": false,
+   "posts_7d": 6,
+   "avg_likes": 0.0,
+   "avg_views": 67,
+   "bio_site": "http://Kaja.io",
+   "bio": "Open-source AI agent that browses the web, remembers you and learns new tricks.\n\n0x8087d449fdc1de7310256c4d53bd3bd612511a6e ( robinhood evm )",
+   "cas": [
+    "0x8087d449fdc1de7310256c4d53bd3bd612511a6e"
+   ],
+   "fake_posts": [],
+   "texts": [
+    "dev supply burned. tx: 0x78a4b467e7ffdc01019ba9ea26d5b2f48d2cbc6696399f86e9da86224546735d",
+    "Coming next: \u2192 Chat: the bubble in the corner of any page. \u2192 Care: an agent that tracks your mood between check-ins. \u2192 Voice: mic in, mouth out. Same agent. New places to meet it.",
+    "Kaja already browses, remembers and learns new tricks. Live today: \u2192 Browser, terminal or Telegram. Local or cloud. \u2192 Drives a real Chrome, keeps notes between chats. \u2192 Skills, tools and MCP in one click. \u2192 Sandbox: one docker command. \u2192 Barkochba is playable.",
+    "Agents forget you the moment the chat ends. Kaja keeps notes between chats and picks up where you left off. It also: browses the web in a real Chrome switches persona per task learns new skills in one click. Open source. Runs locally.",
+    "Docs, install and every way in: https://kaja.io Source: https://github.com/SubZtep/kaja",
+    "Kaja is an open-source AI agent that browses the web, remembers you, and learns new tricks. Run it locally. Your models, your data. https://kaja.io"
+   ],
+   "checked": "2026-11-07T14:15:02+00:00"
   }
  },
  "ids": {
@@ -21769,6 +21801,9 @@
   ],
   "2023770058405613568": [
    "MoltenRockAI"
+  ],
+  "2118714090004635649": [
+   "kajadotio"
   ]
  },
  "past": {
@@ -22350,7 +22385,8 @@
   "doubleagent_so": [],
   "thecognitahq": [],
   "tapmapofficial": [],
-  "moltenrockai": []
+  "moltenrockai": [],
+  "kajadotio": []
  },
  "history": {
   "barragetrade": {
@@ -27888,6 +27924,12 @@
     78,
     1063
    ]
+  },
+  "kajadotio": {
+   "2026-11-07": [
+    2,
+    7
+   ]
   }
  },
  "telegram": {
@@ -29488,6 +29530,11 @@
    "twitter": null,
    "blog": "",
    "checked": "2026-11-07T13:45:23+00:00"
+  },
+  "subztep": {
+   "twitter": "SubZtep",
+   "blog": "",
+   "checked": "2026-11-07T14:15:02+00:00"
   }
  }
 }
