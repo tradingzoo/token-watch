@@ -3581,7 +3581,7 @@
   "0x6d70f39af5430745d331ef97276efe4126dbe097": "2026-11-06T14:02:21+00:00",
   "0x61cf55d9e87b30d40ac0564af544f7039f31ec9c": "2026-11-06T14:02:21+00:00",
   "0xfa541a1cc15d8ece1ef2122ffad6a0222d92bdc5": "2026-11-06T14:02:21+00:00",
-  "0x2715748f6ea08ba996a11bfbb6c02293bdf62bd4": "2026-11-07T14:25:22+00:00",
+  "0x2715748f6ea08ba996a11bfbb6c02293bdf62bd4": "2026-11-07T14:15:02+00:00",
   "0xda31262e042852f1fbf418d59575d409fd947c64": "2026-11-06T14:02:21+00:00",
   "0x41231d383834cd1b9c7cef7f8976e17ffd0b5e54": "2026-11-06T14:02:21+00:00",
   "0xd799c52ab97a169e6c80eab900e4a42c31bd7cf0": "2026-11-06T14:02:21+00:00",
@@ -3595,7 +3595,7 @@
   "0x1003c4cee09c497c745c8ddeb57c9dd06d9902ce": "2026-11-06T14:02:21+00:00",
   "0x3585df71e28a48eed265fafbc27334e30ff6d1ff": "2026-11-06T20:32:54+00:00",
   "0xfb392436be56a31526857fb03519472c8e3f7399": "2026-11-06T14:02:21+00:00",
-  "0xc05b5b08305a9c4836c89d4800f052eb42914655": "2026-11-07T14:25:22+00:00",
+  "0xc05b5b08305a9c4836c89d4800f052eb42914655": "2026-11-07T14:15:02+00:00",
   "0x62c952868e3cfe871205b7281da54b920598779c": "2026-11-06T14:02:21+00:00",
   "0x8dae3cd2f3e6e3968e7e5df07b68fd4ef6ab979e": "2026-11-06T14:02:21+00:00",
   "0xfcb7d3fdba64585b78e251ddbdd913a1b5be2dd4": "2026-11-06T14:02:21+00:00",
@@ -5622,50 +5622,83 @@
   "0xa171cc4c16bf26abae042ac7b69a5f733cc9ab2d": "2026-11-07T14:00:33+00:00",
   "0xc399417a8152f4beb5df975c1c9deeced1747f13": "2026-11-07T14:00:33+00:00",
   "0x7e01d392b7ae9e698fe098f1d4654730ea573dd1": "2026-11-07T14:00:33+00:00",
-  "0xb8b08e863e6696f2a72f35393590e04b64890893": "2026-11-07T14:25:22+00:00",
-  "0x98aebecb60085212b1488bb59660863c034af503": "2026-11-07T14:25:22+00:00",
-  "0x632c87559f53f5fdbe253458af6e82a50913eb14": "2026-11-07T14:25:22+00:00",
-  "0x78dc316745b8aac24614676c852156c7878f9906": "2026-11-07T14:25:22+00:00",
-  "0x6e10c33c1934b96efa549b7b0abb5cdc0dd7d33d": "2026-11-07T14:25:22+00:00",
-  "0x3d23adc8f04ee2b229e3957f12aba7b948f6dccb": "2026-11-07T14:25:22+00:00",
-  "0xbc8dfb0561b44a493435290198cae0991c8f4c21": "2026-11-07T14:25:22+00:00",
-  "0x934ecedd2e721438352b34cd41cb1aac765e540a": "2026-11-07T14:25:22+00:00",
-  "0x58effb6ed37261531f2359173b5889f53c456158": "2026-11-07T14:25:22+00:00",
-  "0x19c63a99f33940589002cbad3617642de4bbcbc3": "2026-11-07T14:25:22+00:00",
-  "0x08696c4edc669abb500d53c0b6965d9aeb442c37": "2026-11-07T14:25:22+00:00",
-  "0x3799b0e4a3c2614579c1b9bbe9b465990a0be3ff": "2026-11-07T14:25:22+00:00",
-  "0xa0cfbeb4cbc2075bcf758805b50a0f12b7d62d6f": "2026-11-07T14:25:22+00:00",
-  "0x113eed6ec1a33d851feb5534dd8e3954ef52871d": "2026-11-07T14:25:22+00:00",
-  "0x9500f058c70d9bd810a7f4d55b790802fd191e31": "2026-11-07T14:25:22+00:00",
-  "0x41961f526cd58ae41b2e08d91dc343d9b1922064": "2026-11-07T14:25:22+00:00",
-  "0x8087d449fdc1de7310256c4d53bd3bd612511a6e": "2026-11-07T14:25:22+00:00",
-  "0xc7eb40c7e1a6eef859e83f787ea94a75fa905f34": "2026-11-07T14:25:22+00:00",
-  "0xd588cb9b73b5fb552c8cbf8095bf4c571c5d6708": "2026-11-07T14:25:22+00:00",
-  "0xc6510a512fca0b7f0a6d9d97084d36f9898c3fa5": "2026-11-07T14:25:22+00:00",
-  "0x7daff6402129f6ed1c9dd129f63d146b5306987f": "2026-11-07T14:25:22+00:00",
-  "0xf4690ec3badf087720dd5a0b505d0a0ae942c68d": "2026-11-07T14:25:22+00:00",
-  "0xcecb5078ab333c8e72383df8b791e8ee9b59963d": "2026-11-07T14:25:22+00:00",
-  "0x05cdf8fc15083dc565af598df50212be032c457f": "2026-11-07T14:25:22+00:00",
-  "0x015b5590466fe274f3c49456e5095c6cb579c595": "2026-11-07T14:25:22+00:00",
-  "0x8710f49e14bd9fb7b38ea94a019673c4b7565249": "2026-11-07T14:25:22+00:00",
-  "0x49259661f87e30f387a6a11e007d48010540b874": "2026-11-07T14:25:22+00:00",
-  "0x7687d7b081449cb2c45562727c12d8a5159e57d0": "2026-11-07T14:25:22+00:00",
-  "0x41ed8fa994631488d43adf144119fb202ae44d22": "2026-11-07T14:25:22+00:00",
-  "0x18dc7fc71f86dd6a4dd30ad45388fbbd975ab283": "2026-11-07T14:25:22+00:00",
-  "0x1e362c80144940f2a8dbbf68e8dbad32e3e7d0f9": "2026-11-07T14:25:22+00:00",
-  "0x2fc6de9c65a620f918ca7d1191d3afa495ca2898": "2026-11-07T14:25:22+00:00",
-  "0x4a0c1436987902952d138aac2e98dee87fe9bcb3": "2026-11-07T14:25:22+00:00",
-  "0x4a9bc846e5f2649f2bb811fe6216145c9d9139e5": "2026-11-07T14:25:22+00:00",
-  "0x67d5e4e1e2f5ab0a4026e1c6fab15f212ad00980": "2026-11-07T14:25:22+00:00",
-  "0x98f8167f688bae77c59ee68fe6dec05ccb38547c": "2026-11-07T14:25:22+00:00",
-  "0xc0444cb71eef07a4630c75257d5386e2888ef53a": "2026-11-07T14:25:22+00:00",
-  "0xdbf694d4454e36513620ed280e954b0591a21a22": "2026-11-07T14:25:22+00:00",
-  "0xee948da473d83c6a8bb6a95e6912b2ae6f1bd260": "2026-11-07T14:25:22+00:00",
-  "0xf24174f5536df67b54367acf629a4ac7568317cd": "2026-11-07T14:25:22+00:00",
-  "0xf3cd4d29a40764768ee893a6ffc0ee460132f516": "2026-11-07T14:25:22+00:00",
-  "0xffbaf9018b887e805c427b36a9f0b215390ae0c5": "2026-11-07T14:25:22+00:00",
-  "0xffcfaf57862f22437d46d3cc46005be314f20ffe": "2026-11-07T14:25:22+00:00",
-  "0x4979ad54815e974fe05f520a2c7d754c6ef7b430": "2026-11-07T14:25:22+00:00"
+  "0x41961f526cd58ae41b2e08d91dc343d9b1922064": "2026-11-07T14:15:02+00:00",
+  "0x8087d449fdc1de7310256c4d53bd3bd612511a6e": "2026-11-07T14:15:02+00:00",
+  "0xc7eb40c7e1a6eef859e83f787ea94a75fa905f34": "2026-11-07T14:15:02+00:00",
+  "0xd588cb9b73b5fb552c8cbf8095bf4c571c5d6708": "2026-11-07T14:15:02+00:00",
+  "0xc6510a512fca0b7f0a6d9d97084d36f9898c3fa5": "2026-11-07T14:15:02+00:00",
+  "0x7daff6402129f6ed1c9dd129f63d146b5306987f": "2026-11-07T14:15:02+00:00",
+  "0x5736c7e411c25a712fbfda40ff81af9b7f167a52": "2026-11-07T14:15:02+00:00",
+  "0xd0380316bd217639fc6f10cc72c7460beb7448fc": "2026-11-07T14:15:02+00:00",
+  "0x7f5c3647783db506517eaed854dbb7108bb335d3": "2026-11-07T14:15:02+00:00",
+  "0xbf228411427a494612ca23c32cb686d0773b0dc8": "2026-11-07T14:15:02+00:00",
+  "0x1dbc8637f2d424c242fdcfd58638b94b0da51525": "2026-11-07T14:15:02+00:00",
+  "0xa52b1d6982106cae9d6c4355ccccec31a2828e8d": "2026-11-07T14:15:02+00:00",
+  "0xcbbb577c860fecce990507fad1506fd4eea14317": "2026-11-07T14:15:02+00:00",
+  "0x3abc9b5f1822e1088bcff8b7a464341a805b4cb8": "2026-11-07T14:15:02+00:00",
+  "0xdfdbd86c21a9686ebe3a4c18eacb6cf3c9f2efd2": "2026-11-07T14:15:02+00:00",
+  "0x81b5e3fbc67580c6174076cf2134c90504f28c9e": "2026-11-07T14:15:02+00:00",
+  "0x5c52630fa8198b2e0c95ce5c20ffa6d14b14f621": "2026-11-07T14:15:02+00:00",
+  "0x66e94e68f82e0912dd03fe4885c3c55e4cb3ba28": "2026-11-07T14:15:02+00:00",
+  "0x18dc7fc71f86dd6a4dd30ad45388fbbd975ab283": "2026-11-07T14:15:02+00:00",
+  "0x1e362c80144940f2a8dbbf68e8dbad32e3e7d0f9": "2026-11-07T14:15:02+00:00",
+  "0x2fc6de9c65a620f918ca7d1191d3afa495ca2898": "2026-11-07T14:15:02+00:00",
+  "0x4a0c1436987902952d138aac2e98dee87fe9bcb3": "2026-11-07T14:15:02+00:00",
+  "0x4a9bc846e5f2649f2bb811fe6216145c9d9139e5": "2026-11-07T14:15:02+00:00",
+  "0x67d5e4e1e2f5ab0a4026e1c6fab15f212ad00980": "2026-11-07T14:15:02+00:00",
+  "0x98f8167f688bae77c59ee68fe6dec05ccb38547c": "2026-11-07T14:15:02+00:00",
+  "0xc0444cb71eef07a4630c75257d5386e2888ef53a": "2026-11-07T14:15:02+00:00",
+  "0xdbf694d4454e36513620ed280e954b0591a21a22": "2026-11-07T14:15:02+00:00",
+  "0xee948da473d83c6a8bb6a95e6912b2ae6f1bd260": "2026-11-07T14:15:02+00:00",
+  "0xf24174f5536df67b54367acf629a4ac7568317cd": "2026-11-07T14:15:02+00:00",
+  "0xf3cd4d29a40764768ee893a6ffc0ee460132f516": "2026-11-07T14:15:02+00:00",
+  "0xffbaf9018b887e805c427b36a9f0b215390ae0c5": "2026-11-07T14:15:02+00:00",
+  "0xffcfaf57862f22437d46d3cc46005be314f20ffe": "2026-11-07T14:15:02+00:00",
+  "0x4979ad54815e974fe05f520a2c7d754c6ef7b430": "2026-11-07T14:15:02+00:00",
+  "0x2c70a15d115910e2d43a8946f69d2c38b9d13170": "2026-11-07T14:37:38+00:00",
+  "0x3e92778e587285b1779fe7d6aee466f8180b3524": "2026-11-07T14:37:38+00:00",
+  "0x4a8945f1b925ba8c77e8d1f61c21fbef6875bb62": "2026-11-07T14:37:38+00:00",
+  "0x4837beb0f7c20ae72339ec5effe38e4d58186005": "2026-11-07T14:37:38+00:00",
+  "0x8c563203922e64bbe93cd55a89231c848d3cb585": "2026-11-07T14:37:38+00:00",
+  "0xbbb6fe921429b3b8e76f811e08dc0f7acccb6db4": "2026-11-07T14:37:38+00:00",
+  "0xf5d048ffada87b7250a6dd5a1cd7b71ffe75e9dd": "2026-11-07T14:37:38+00:00",
+  "0x3a778c4ca1a55e268f2b3a34c5772bdb8c26d85c": "2026-11-07T14:37:38+00:00",
+  "0x6ea85327c7b4b3cf640a3cb230181b90b49c2568": "2026-11-07T14:37:38+00:00",
+  "0x2293ebb0bff1113382780471d3cc809122a4163a": "2026-11-07T14:37:38+00:00",
+  "0xb8b08e863e6696f2a72f35393590e04b64890893": "2026-11-07T14:37:38+00:00",
+  "0x98aebecb60085212b1488bb59660863c034af503": "2026-11-07T14:37:38+00:00",
+  "0x632c87559f53f5fdbe253458af6e82a50913eb14": "2026-11-07T14:37:38+00:00",
+  "0x78dc316745b8aac24614676c852156c7878f9906": "2026-11-07T14:37:38+00:00",
+  "0x6e10c33c1934b96efa549b7b0abb5cdc0dd7d33d": "2026-11-07T14:37:38+00:00",
+  "0x3d23adc8f04ee2b229e3957f12aba7b948f6dccb": "2026-11-07T14:37:38+00:00",
+  "0xbc8dfb0561b44a493435290198cae0991c8f4c21": "2026-11-07T14:37:38+00:00",
+  "0x934ecedd2e721438352b34cd41cb1aac765e540a": "2026-11-07T14:37:38+00:00",
+  "0x58effb6ed37261531f2359173b5889f53c456158": "2026-11-07T14:37:38+00:00",
+  "0x19c63a99f33940589002cbad3617642de4bbcbc3": "2026-11-07T14:37:38+00:00",
+  "0x08696c4edc669abb500d53c0b6965d9aeb442c37": "2026-11-07T14:37:38+00:00",
+  "0x3799b0e4a3c2614579c1b9bbe9b465990a0be3ff": "2026-11-07T14:37:38+00:00",
+  "0xa0cfbeb4cbc2075bcf758805b50a0f12b7d62d6f": "2026-11-07T14:37:38+00:00",
+  "0x113eed6ec1a33d851feb5534dd8e3954ef52871d": "2026-11-07T14:37:38+00:00",
+  "0x9500f058c70d9bd810a7f4d55b790802fd191e31": "2026-11-07T14:37:38+00:00",
+  "0x406f02b38801280d98f3a2d9400efbbddd8f2369": "2026-11-07T14:37:38+00:00",
+  "0xe4b1f3d6f32888da0f45111a5a0848f3cf999590": "2026-11-07T14:37:38+00:00",
+  "0x31962535c675c532790a86022186cc9d2a1e9427": "2026-11-07T14:37:38+00:00",
+  "0x267599ed2cbbca54603722ea1a547eda7151a587": "2026-11-07T14:37:38+00:00",
+  "0xbb4348bc854494fe3b1e4be9db9632bc38631e80": "2026-11-07T14:37:38+00:00",
+  "0x8ef9a8917e90df657230c409b60a67772e72d806": "2026-11-07T14:37:38+00:00",
+  "0x00fa235266d14d5128476f19402adc650a8d328a": "2026-11-07T14:37:38+00:00",
+  "0x171b9d3c212e46827c5f8df26a6acbd1e6671e21": "2026-11-07T14:37:38+00:00",
+  "0x3d17fa9a1d4f4e350927e4693bb4bd19cf055e0f": "2026-11-07T14:37:38+00:00",
+  "0x517498bfcbfea71c95209e8f91578a5310d9e959": "2026-11-07T14:37:38+00:00",
+  "0x553c2d7cb111d8a3b7c10a59619d6096af4afb49": "2026-11-07T14:37:38+00:00",
+  "0x72250bbdf9a8e4e8e7d66c9fddae8c61320a3cdb": "2026-11-07T14:37:38+00:00",
+  "0x7790c744cf31d66495dd3da267b1235a43688329": "2026-11-07T14:37:38+00:00",
+  "0x8b819e0d25c8627a277adcacaf5076ecb72e49d7": "2026-11-07T14:37:38+00:00",
+  "0x92d75e6531950376d06009b6a00057fa12d31bd8": "2026-11-07T14:37:38+00:00",
+  "0xca5e3576ae625ee4fb74f6cd492f0d770c871492": "2026-11-07T14:37:38+00:00",
+  "0xd97745fbca0e5a1e948cee5fa9cb9f34bbfe6a36": "2026-11-07T14:37:38+00:00",
+  "0xe089603ee14c01f1f51210598887329bd5d9e0c5": "2026-11-07T14:37:38+00:00",
+  "0xf1c5346c84d261f55c511c329ea6ed6491ab0ffe": "2026-11-07T14:37:38+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -23283,10 +23316,10 @@
    "website": "https://derrick-app.com",
    "twitter": "https://x.com/derrickapp_",
    "launched": "2026-11-06T13:52:30+00:00",
-   "mcap": 3675.837966727976,
+   "mcap": 3676.88591109263,
    "where": "Pons launchpad (curve)",
    "first_seen": "2026-11-06T14:02:21+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "scored_at": "2026-11-07T14:15:02+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "DerrickAppOrg/derrick-mcp",
@@ -23426,10 +23459,10 @@
    "website": "https://vespin.dev",
    "twitter": "https://x.com/ceefryingpan/status/2117705368474358071",
    "launched": "2026-11-06T13:36:12+00:00",
-   "mcap": 3655.784246851401,
+   "mcap": 3656.8264741025896,
    "where": "Pons launchpad (curve)",
    "first_seen": "2026-11-06T14:02:21+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "scored_at": "2026-11-07T14:15:02+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "ReviewStage/vespin",
@@ -23446,11 +23479,11 @@
      "Really theirs": [
       "\u274c Token's address isn't posted by their repo, website or official X (website links no X account to check) (+0)",
       "\u2705 Repo and website: website links the repo, repo links the website (+10)",
-      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
       "\u274c Their website, docs and GitHub never mention the token (read: docs (vespin.dev/docs), website (vespin.dev), website code (vespin.dev))"
      ],
      "Real code": [
-      "\u2705 6899 changes over 89 days (+10)",
+      "\u2705 6896 changes over 89 days (+10)",
       "\ud83d\udfe1 Has tests (+5)"
      ],
      "Team": [
@@ -23473,7 +23506,7 @@
      "https://vespin.dev/docs"
     ],
     "facts": {
-     "commits": 6899,
+     "commits": 6896,
      "stars": 72,
      "created": "2026-08-10",
      "pushed": "2026-11-07",
@@ -30271,18 +30304,159 @@
    },
    "launched_src": "pons"
   },
-  "0x78dc316745b8aac24614676c852156c7878f9906": {
-   "address": "0x78dc316745b8aac24614676c852156c7878f9906",
+  "0x8087d449fdc1de7310256c4d53bd3bd612511a6e": {
+   "address": "0x8087d449fdc1de7310256c4d53bd3bd612511a6e",
+   "symbol": "KAJA",
+   "name": "Kaja",
+   "description": "Open-source AI agent that browses the web, remembers you and learns new tricks.",
+   "website": "https://kaja.io",
+   "twitter": "https://x.com/kajadotio",
+   "launched": "2026-11-07T14:12:13+00:00",
+   "mcap": 8659.06142894359,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T14:15:02+00:00",
+   "scored_at": "2026-11-07T14:15:02+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "SubZtep/kaja",
+    "score": 25,
+    "raw_score": 50,
+    "capped": true,
+    "not_theirs": false,
+    "flags": [
+     "X account doesn't match the website: the token links @kajadotio, but its website links @SubZtep \u2014 may be someone copying the project's links"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (hook, marketplace) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (docs.kaja.io), docs (docs.kaja.io/llms-full.txt), docs (docs.kaja.io/llms.txt), docs (docs.kaja.io/terms/), docs (kaja.io/assets/nav_docs-vCNFoaFD.js), docs (kaja.io/docs), docs (kaja.io/llms-full.txt), docs (kaja.io/llms.txt), website (kaja.io), website code (kaja.io))"
+     ],
+     "Real code": [
+      "\u2705 891 changes over 245 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 5419 days old, 1 people, 0 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://kaja.io",
+     "https://kaja.io",
+     "https://kaja.io/llms-full.txt",
+     "https://kaja.io/llms.txt",
+     "https://docs.kaja.io/llms-full.txt",
+     "https://docs.kaja.io/llms.txt",
+     "https://kaja.io/docs",
+     "https://kaja.io/assets/nav_docs-vCNFoaFD.js",
+     "https://docs.kaja.io",
+     "https://docs.kaja.io/terms/"
+    ],
+    "facts": {
+     "commits": 891,
+     "stars": 0,
+     "created": "2026-03-03",
+     "pushed": "2026-11-03",
+     "people": 1
+    }
+   },
+   "launched_src": "pons"
+  },
+  "0x4979ad54815e974fe05f520a2c7d754c6ef7b430": {
+   "address": "0x4979ad54815e974fe05f520a2c7d754c6ef7b430",
+   "symbol": "DERRICK",
+   "name": "Derrick",
+   "description": "Describe your ideal customer.\\nGet the leads, with emails and phones.",
+   "website": "https://derrick-app.com",
+   "twitter": "https://x.com/derrickapp_",
+   "launched": "2026-11-06T14:03:10+00:00",
+   "mcap": 3696.5809592900614,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T14:15:02+00:00",
+   "scored_at": "2026-11-07T14:15:02+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "DerrickAppOrg/derrick-mcp",
+    "score": 35,
+    "raw_score": 35,
+    "capped": false,
+    "not_theirs": false,
+    "flags": [],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (hook, marketplace, options) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (website links no X account to check) (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (app.derrick-app.com/api-docs), docs (derrick-app.com/docs), docs (derrick-app.com/llms-full.txt), docs (derrick-app.com/llms.txt), website (derrick-app.com), website code (derrick-app.com))"
+     ],
+     "Real code": [
+      "\ud83d\udfe1 2 changes over 88 days (+5)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 452 days old, 2 people, 0 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "CHANGELOG.md: 4 updates shipped so far",
+     "Website has a roadmap page: https://derrick-app.com/roadmap"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": null,
+    "sources_read": [
+     "https://derrick-app.com",
+     "https://derrick-app.com",
+     "https://derrick-app.com/llms-full.txt",
+     "https://derrick-app.com/llms.txt",
+     "https://derrick-app.com/docs",
+     "https://app.derrick-app.com/api-docs"
+    ],
+    "facts": {
+     "commits": 2,
+     "stars": 0,
+     "created": "2026-05-04",
+     "pushed": "2026-10-07",
+     "people": 2
+    }
+   },
+   "launched_src": "pons"
+  },
+  "0x2293ebb0bff1113382780471d3cc809122a4163a": {
+   "address": "0x2293ebb0bff1113382780471d3cc809122a4163a",
    "symbol": "KAJA",
    "name": "Kaja",
    "description": "",
    "website": "https://kaja.io",
    "twitter": "https://x.com/kajadotio",
-   "launched": "2026-11-07T14:23:19+00:00",
-   "mcap": 7427.337031153739,
+   "launched": "2026-11-07T14:27:25+00:00",
+   "mcap": 8554.643913267108,
    "where": "Pons launchpad (curve)",
-   "first_seen": "2026-11-07T14:25:22+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "first_seen": "2026-11-07T14:37:38+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "SubZtep/kaja",
@@ -30293,7 +30467,82 @@
     "flags": [
      "Copycat token: the project's X @kajadotio posts a different address with the same symbol and name: 0x8087d449fdc1de7310256c4d53bd3bd612511a6e, launched 07 Nov 14:12 UTC. It never posts this one, so this is very likely someone copying the name and links",
      "X account doesn't match the website: the token links @kajadotio, but its website links @SubZtep \u2014 may be someone copying the project's links",
-     "KAJA was launched 3 times on Pons"
+     "KAJA was launched 4 times on Pons"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (hook, marketplace) \u2014 guess from their text, needs a look (+20)",
+      "\u274c No sign fees go back to the token (+0)"
+     ],
+     "Really theirs": [
+      "\u26d4 Score set to 0: this token is a copy, the project's X posts a different address (see the warning above)",
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u274c Their website, docs and GitHub never mention the token (read: docs (docs.kaja.io), docs (docs.kaja.io/llms-full.txt), docs (docs.kaja.io/llms.txt), docs (docs.kaja.io/terms/), docs (kaja.io/assets/nav_docs-vCNFoaFD.js), docs (kaja.io/docs), docs (kaja.io/llms-full.txt), docs (kaja.io/llms.txt), website (kaja.io), website code (kaja.io))"
+     ],
+     "Real code": [
+      "\u2705 891 changes over 245 days (+10)",
+      "\ud83d\udfe1 Has tests (+5)"
+     ],
+     "Team": [
+      "\u2139\ufe0f Not a brand-new one-person repo: account 5419 days old, 1 people, 0 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u2705 Safety info: SECURITY file, audit (+5)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": false,
+    "copy_of": "0x8087d449fdc1de7310256c4d53bd3bd612511a6e",
+    "sources_read": [
+     "https://kaja.io",
+     "https://kaja.io",
+     "https://kaja.io/llms-full.txt",
+     "https://kaja.io/llms.txt",
+     "https://docs.kaja.io/llms-full.txt",
+     "https://docs.kaja.io/llms.txt",
+     "https://kaja.io/docs",
+     "https://kaja.io/assets/nav_docs-vCNFoaFD.js",
+     "https://docs.kaja.io",
+     "https://docs.kaja.io/terms/"
+    ],
+    "facts": {
+     "commits": 891,
+     "stars": 0,
+     "created": "2026-03-03",
+     "pushed": "2026-11-03",
+     "people": 1
+    }
+   }
+  },
+  "0x78dc316745b8aac24614676c852156c7878f9906": {
+   "address": "0x78dc316745b8aac24614676c852156c7878f9906",
+   "symbol": "KAJA",
+   "name": "Kaja",
+   "description": "",
+   "website": "https://kaja.io",
+   "twitter": "https://x.com/kajadotio",
+   "launched": "2026-11-07T14:23:19+00:00",
+   "mcap": 3735.6841802226145,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T14:37:38+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "SubZtep/kaja",
+    "score": 0,
+    "raw_score": 50,
+    "capped": true,
+    "not_theirs": true,
+    "flags": [
+     "Copycat token: the project's X @kajadotio posts a different address with the same symbol and name: 0x8087d449fdc1de7310256c4d53bd3bd612511a6e, launched 07 Nov 14:12 UTC. It never posts this one, so this is very likely someone copying the name and links",
+     "X account doesn't match the website: the token links @kajadotio, but its website links @SubZtep \u2014 may be someone copying the project's links",
+     "KAJA was launched 4 times on Pons"
     ],
     "reasons": {
      "Platform": [
@@ -30354,10 +30603,10 @@
    "website": "https://truecourse.dev",
    "twitter": "https://x.com/truecoursedev",
    "launched": "2026-11-07T14:22:59+00:00",
-   "mcap": 5954.840955978513,
+   "mcap": 6591.007335798666,
    "where": "Pons launchpad (curve)",
-   "first_seen": "2026-11-07T14:25:22+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "first_seen": "2026-11-07T14:37:38+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "truecourse-ai/truecourse",
@@ -30424,10 +30673,10 @@
    "website": "https://kaja.io",
    "twitter": "https://x.com/kajadotio",
    "launched": "2026-11-07T14:20:56+00:00",
-   "mcap": 3793.137089800535,
+   "mcap": 3735.8248157125795,
    "where": "Pons launchpad (curve)",
-   "first_seen": "2026-11-07T14:25:22+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "first_seen": "2026-11-07T14:37:38+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
    "found_on": "website",
    "scoring": {
     "repo": "SubZtep/kaja",
@@ -30438,7 +30687,7 @@
     "flags": [
      "Copycat token: the project's X @kajadotio posts a different address with the same symbol and name: 0x8087d449fdc1de7310256c4d53bd3bd612511a6e, launched 07 Nov 14:12 UTC. It never posts this one, so this is very likely someone copying the name and links",
      "X account doesn't match the website: the token links @kajadotio, but its website links @SubZtep \u2014 may be someone copying the project's links",
-     "KAJA was launched 3 times on Pons"
+     "KAJA was launched 4 times on Pons"
     ],
     "reasons": {
      "Platform": [
@@ -30449,7 +30698,7 @@
       "\u26d4 Score set to 0: this token is a copy, the project's X posts a different address (see the warning above)",
       "\u274c Token's address isn't posted by their repo, website or official X (+0)",
       "\u2705 Repo and website: website links the repo, repo links the website (+10)",
-      "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
       "\u274c Their website, docs and GitHub never mention the token (read: docs (docs.kaja.io), docs (docs.kaja.io/llms-full.txt), docs (docs.kaja.io/llms.txt), docs (docs.kaja.io/terms/), docs (kaja.io/assets/nav_docs-vCNFoaFD.js), docs (kaja.io/docs), docs (kaja.io/llms-full.txt), docs (kaja.io/llms.txt), website (kaja.io), website code (kaja.io))"
      ],
      "Real code": [
@@ -30490,149 +30739,9 @@
      "people": 1
     }
    }
-  },
-  "0x8087d449fdc1de7310256c4d53bd3bd612511a6e": {
-   "address": "0x8087d449fdc1de7310256c4d53bd3bd612511a6e",
-   "symbol": "KAJA",
-   "name": "Kaja",
-   "description": "Open-source AI agent that browses the web, remembers you and learns new tricks.",
-   "website": "https://kaja.io",
-   "twitter": "https://x.com/kajadotio",
-   "launched": "2026-11-07T14:12:13+00:00",
-   "mcap": 4068.658157352536,
-   "where": "Pons launchpad (curve)",
-   "first_seen": "2026-11-07T14:25:22+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
-   "found_on": "website",
-   "scoring": {
-    "repo": "SubZtep/kaja",
-    "score": 25,
-    "raw_score": 50,
-    "capped": true,
-    "not_theirs": false,
-    "flags": [
-     "X account doesn't match the website: the token links @kajadotio, but its website links @SubZtep \u2014 may be someone copying the project's links",
-     "KAJA was launched 3 times on Pons"
-    ],
-    "reasons": {
-     "Platform": [
-      "\ud83d\udfe1 Looks like it earns fees from users (hook, marketplace) \u2014 guess from their text, needs a look (+20)",
-      "\u274c No sign fees go back to the token (+0)"
-     ],
-     "Really theirs": [
-      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
-      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
-      "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo",
-      "\u274c Their website, docs and GitHub never mention the token (read: docs (docs.kaja.io), docs (docs.kaja.io/llms-full.txt), docs (docs.kaja.io/llms.txt), docs (docs.kaja.io/terms/), docs (kaja.io/assets/nav_docs-vCNFoaFD.js), docs (kaja.io/docs), docs (kaja.io/llms-full.txt), docs (kaja.io/llms.txt), website (kaja.io), website code (kaja.io))"
-     ],
-     "Real code": [
-      "\u2705 891 changes over 245 days (+10)",
-      "\ud83d\udfe1 Has tests (+5)"
-     ],
-     "Team": [
-      "\u2139\ufe0f Not a brand-new one-person repo: account 5419 days old, 1 people, 0 stars, 0 forks"
-     ],
-     "Safety": [
-      "\u274c No contract addresses in the README (+0)",
-      "\u2705 Safety info: SECURITY file, audit (+5)"
-     ]
-    },
-    "roadmap": [
-     "No roadmap found in the repo or on the website"
-    ],
-    "notes": [],
-    "token_mentioned": false,
-    "copy_of": null,
-    "sources_read": [
-     "https://kaja.io",
-     "https://kaja.io",
-     "https://kaja.io/llms-full.txt",
-     "https://kaja.io/llms.txt",
-     "https://docs.kaja.io/llms-full.txt",
-     "https://docs.kaja.io/llms.txt",
-     "https://kaja.io/docs",
-     "https://kaja.io/assets/nav_docs-vCNFoaFD.js",
-     "https://docs.kaja.io",
-     "https://docs.kaja.io/terms/"
-    ],
-    "facts": {
-     "commits": 891,
-     "stars": 0,
-     "created": "2026-03-03",
-     "pushed": "2026-11-03",
-     "people": 1
-    }
-   }
-  },
-  "0x4979ad54815e974fe05f520a2c7d754c6ef7b430": {
-   "address": "0x4979ad54815e974fe05f520a2c7d754c6ef7b430",
-   "symbol": "DERRICK",
-   "name": "Derrick",
-   "description": "Describe your ideal customer.\\nGet the leads, with emails and phones.",
-   "website": "https://derrick-app.com",
-   "twitter": "https://x.com/derrickapp_",
-   "launched": "2026-11-06T14:03:10+00:00",
-   "mcap": 3695.5274016659073,
-   "where": "Pons launchpad (curve)",
-   "first_seen": "2026-11-07T14:25:22+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
-   "found_on": "website",
-   "scoring": {
-    "repo": "DerrickAppOrg/derrick-mcp",
-    "score": 35,
-    "raw_score": 35,
-    "capped": false,
-    "not_theirs": false,
-    "flags": [],
-    "reasons": {
-     "Platform": [
-      "\ud83d\udfe1 Looks like it earns fees from users (hook, marketplace, options) \u2014 guess from their text, needs a look (+20)",
-      "\u274c No sign fees go back to the token (+0)"
-     ],
-     "Really theirs": [
-      "\u274c Token's address isn't posted by their repo, website or official X (website links no X account to check) (+0)",
-      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
-      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
-      "\u274c Their website, docs and GitHub never mention the token (read: docs (app.derrick-app.com/api-docs), docs (derrick-app.com/docs), docs (derrick-app.com/llms-full.txt), docs (derrick-app.com/llms.txt), website (derrick-app.com), website code (derrick-app.com))"
-     ],
-     "Real code": [
-      "\ud83d\udfe1 2 changes over 88 days (+5)",
-      "\u274c No smart contracts or tests (+0)"
-     ],
-     "Team": [
-      "\u2139\ufe0f Not a brand-new one-person repo: account 452 days old, 2 people, 0 stars, 0 forks"
-     ],
-     "Safety": [
-      "\u274c No contract addresses in the README (+0)",
-      "\u274c No security, audit or timelock info (+0)"
-     ]
-    },
-    "roadmap": [
-     "CHANGELOG.md: 4 updates shipped so far",
-     "Website has a roadmap page: https://derrick-app.com/roadmap"
-    ],
-    "notes": [],
-    "token_mentioned": false,
-    "copy_of": null,
-    "sources_read": [
-     "https://derrick-app.com",
-     "https://derrick-app.com",
-     "https://derrick-app.com/llms-full.txt",
-     "https://derrick-app.com/llms.txt",
-     "https://derrick-app.com/docs",
-     "https://app.derrick-app.com/api-docs"
-    ],
-    "facts": {
-     "commits": 2,
-     "stars": 0,
-     "created": "2026-05-04",
-     "pushed": "2026-10-07",
-     "people": 2
-    }
-   }
   }
  },
- "checked_total": 5655,
+ "checked_total": 5688,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -33872,13 +33981,62 @@
    "ignored": [
     "Effect-TS/effect"
    ]
+  },
+  {
+   "when": "2026-11-07T14:37:38+00:00",
+   "address": "0x6ea85327c7b4b3cf640a3cb230181b90b49c2568",
+   "symbol": "OBLIGRA",
+   "website": "https://obligra.ai",
+   "used": null,
+   "ignored": [
+    "ungap/url-search-params."
+   ]
+  },
+  {
+   "when": "2026-11-07T14:37:38+00:00",
+   "address": "0x31962535c675c532790a86022186cc9d2a1e9427",
+   "symbol": "USDC",
+   "website": "https://www.stonkfun.xyz/token/EtSVEVHfw75944qMeJs8JZKy3TpgU69pTXY78JvduBY1",
+   "used": null,
+   "ignored": [
+    "Effect-TS/effect"
+   ]
+  },
+  {
+   "when": "2026-11-07T14:37:38+00:00",
+   "address": "0x267599ed2cbbca54603722ea1a547eda7151a587",
+   "symbol": "WDCC",
+   "website": "https://www.stonkfun.xyz/token/9H6tuJWVff3oUhwQh3YtHWKLs8ZAWk3fcpV24GoYnNbu",
+   "used": null,
+   "ignored": [
+    "Effect-TS/effect"
+   ]
+  },
+  {
+   "when": "2026-11-07T14:37:38+00:00",
+   "address": "0x8ef9a8917e90df657230c409b60a67772e72d806",
+   "symbol": "CAT",
+   "website": "https://www.stonkfun.xyz/token/AVRrnrsFk83SFxn9xQuHbyKTjhTnuv7U14q61Pgx2yEM",
+   "used": null,
+   "ignored": [
+    "Effect-TS/effect"
+   ]
   }
  ],
  "symbol_counts": {
+  "ACTI": 1,
+  "SOORUDEAL": 1,
+  "CURRY": 1,
+  "JPEGZ": 1,
+  "BID": 1,
+  "SOXA": 1,
+  "ORBIT": 1,
+  "CBE": 1,
+  "OBLIGRA": 1,
+  "KAJA": 4,
   "NEXURL": 1,
   "BLUECLAY": 1,
   "BHRAMIN": 1,
-  "KAJA": 3,
   "COURSE": 1,
   "XELONA": 1,
   "SEYONG": 1,
@@ -33902,26 +34060,25 @@
   "OD": 1,
   "PONSSTEVE": 1,
   "SHELLZERO": 1,
+  "DELTA": 1,
+  "HMM": 4,
+  "WIF": 1,
+  "OAK": 2,
+  "BOW": 1,
+  "CHARLIE": 1,
+  "microduck": 1,
+  "ORBIO": 1,
+  "PONS": 1,
+  "ROBINCAT": 1,
   "CRABIN": 1,
   "KURTOSIS": 1,
   "TAPMAP": 1,
   "Wokjak": 1,
   "ROOPS": 1,
-  "SOXA": 1,
   "debtdog": 1,
   "NUSHI": 1,
   "TINU": 1,
   "ASHOOD": 1,
-  "DELTA": 1,
-  "WIF": 1,
-  "HMM": 4,
-  "OAK": 2,
-  "ROBINCAT": 1,
-  "CHARLIE": 1,
-  "GAGE": 1,
-  "BOW": 1,
-  "RAETO": 2,
-  "microduck": 1,
   "HARMO": 1,
   "RTOS": 1,
   "DEXSNIPE": 1,
@@ -33936,14 +34093,15 @@
   "RATIO": 1,
   "DOUBLE": 1,
   "STONEPARK": 1,
+  "DARWIN": 1,
+  "GAGE": 1,
+  "RAETO": 2,
   "ROBINEX": 1,
   "BARO": 1,
   "CEVA": 1,
   "DIGGD": 1,
   "CIEN": 1,
-  "DARWIN": 1,
   "HARMONIC": 1,
-  "PONS": 1,
   "ARCHY": 1,
   "WESTRA": 1,
   "TRESTLE": 1,
@@ -33997,7 +34155,6 @@
   "CUBE": 1,
   "WAG": 1,
   "EVER": 1,
-  "ORBIO": 1,
   "VAPID": 1,
   "CRISTIANO": 1,
   "HANDS": 1,
@@ -34112,7 +34269,6 @@
   "PALOMINO": 1,
   "TEG": 1,
   "HYDX": 1,
-  "OBLIGRA": 1,
   "RG": 1,
   "FABRICA": 1,
   "HALLOFASH": 1,
@@ -34250,7 +34406,6 @@
   "CATZ": 2,
   "N/A": 2,
   "ELYSIUM": 1,
-  "ORBIT": 1,
   "GIGAJAK": 1,
   "STONKSPAD": 1,
   "ACCPTA": 1,
@@ -36281,7 +36436,7 @@
     "\u2139\ufe0f Copy check: not enough of their own code to sample"
    ]
   ],
-  "SubZtep/kaja@2026-11-03": [
+  "ReviewStage/vespin@2026-11-07": [
    [],
    [
     "\u2705 Copy check: 3 sample lines from their main code not found in anyone else's older repo"
@@ -36514,10 +36669,10 @@
    "twitter": "https://x.com/orbiodotso",
    "site_via_x": null,
    "launched": "2026-08-31T22:33:11+00:00",
-   "mcap": 33923290,
+   "mcap": 33919552,
    "where": "exchange",
    "first_seen": "2026-11-05T05:17:44+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "scored_at": "2026-11-07T14:15:02+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -37709,10 +37864,10 @@
    "twitter": "https://x.com/Borromarkets",
    "site_via_x": "Borromarkets",
    "launched": "2026-10-05T19:11:00+00:00",
-   "mcap": 609845,
+   "mcap": 567897,
    "where": "exchange",
    "first_seen": "2026-11-05T09:30:29+00:00",
-   "scored_at": "2026-11-07T08:30:29+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -37988,10 +38143,10 @@
    "twitter": "https://x.com/rhiablo",
    "site_via_x": null,
    "launched": "2026-10-31T07:03:06+00:00",
-   "mcap": 21944,
+   "mcap": 21890,
    "where": "exchange",
    "first_seen": "2026-11-05T09:30:29+00:00",
-   "scored_at": "2026-11-07T08:30:29+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -39623,10 +39778,10 @@
    "twitter": "https://x.com/noctisdotxyz",
    "site_via_x": null,
    "launched": "2026-11-04T14:16:31+00:00",
-   "mcap": 4280.37800903644,
+   "mcap": 4281.598301675495,
    "where": "Pons launchpad (curve)",
    "first_seen": "2026-11-05T10:30:29+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "scored_at": "2026-11-07T14:15:02+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -40193,10 +40348,10 @@
    "twitter": "https://x.com/OmenFDN",
    "site_via_x": null,
    "launched": "2026-10-30T14:54:35+00:00",
-   "mcap": 5124.293995885341,
+   "mcap": 5125.75488046851,
    "where": "Pons launchpad (curve)",
    "first_seen": "2026-11-05T10:45:25+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "scored_at": "2026-11-07T14:15:02+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -40405,10 +40560,10 @@
    "twitter": "https://x.com/IGNITION_RH",
    "site_via_x": null,
    "launched": "2026-10-12T20:17:37+00:00",
-   "mcap": 45585,
+   "mcap": 45528,
    "where": "exchange",
    "first_seen": "2026-11-05T10:45:25+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "scored_at": "2026-11-07T14:15:02+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -48057,10 +48212,10 @@
    "twitter": "https://x.com/SazareProtocol",
    "site_via_x": null,
    "launched": "2026-07-23T21:27:02+00:00",
-   "mcap": 2423184,
+   "mcap": 2422354,
    "where": "exchange",
    "first_seen": "2026-11-06T05:11:23+00:00",
-   "scored_at": "2026-11-07T08:30:29+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -48127,10 +48282,10 @@
    "twitter": "https://x.com/AlfaClubdotapp",
    "site_via_x": null,
    "launched": "2026-09-28T09:53:54+00:00",
-   "mcap": 367126,
+   "mcap": 366055,
    "where": "exchange",
    "first_seen": "2026-11-06T05:11:23+00:00",
-   "scored_at": "2026-11-07T08:30:29+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -53064,10 +53219,10 @@
    "twitter": "https://x.com/Meow",
    "site_via_x": null,
    "launched": "2026-11-06T13:30:48+00:00",
-   "mcap": 3654.696409517423,
+   "mcap": 3655.73832663715,
    "where": "Pons launchpad (curve)",
    "first_seen": "2026-11-06T14:02:21+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "scored_at": "2026-11-07T14:15:02+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -54584,10 +54739,10 @@
    "twitter": "https://x.com/capypadfun",
    "site_via_x": null,
    "launched": "2026-11-06T18:04:56+00:00",
-   "mcap": 1541,
+   "mcap": 1581,
    "where": "exchange",
    "first_seen": "2026-11-06T19:57:21+00:00",
-   "scored_at": "2026-11-07T08:30:29+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -54608,7 +54763,7 @@
      "Really theirs": [
       "\u2705 Token's address is posted by their website or docs (+15)",
       "\u2705 Lists 9 contract addresses (+15)",
-      "\u2139\ufe0f X differs: the token links @capypadfun, but the project now uses @CapyTrade, @artificiallyinu, @OakAgentKit, @StonksDGUY, @BaseStonk. The token's address is on their own website, so it is theirs: warning only, no cap"
+      "\u2139\ufe0f X differs: the token links @capypadfun, but the project now uses @CapyTrade, @artificiallyinu, @OakAgentKit, @Tesla, @nvidia. The token's address is on their own website, so it is theirs: warning only, no cap"
      ],
      "Money and Robinhood Chain": [
       "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
@@ -59131,6 +59286,148 @@
    },
    "launched_src": "pons"
   },
+  "0xf5d048ffada87b7250a6dd5a1cd7b71ffe75e9dd": {
+   "address": "0xf5d048ffada87b7250a6dd5a1cd7b71ffe75e9dd",
+   "symbol": "ORBIT",
+   "name": "Orbit",
+   "description": "One operating layer for AI models, autonomous agents, and programmable payments.\\n\\nBuilt on Robinhood Chain.",
+   "website": "https://www.theorbit.cc/",
+   "twitter": "https://x.com/OrbitRBH",
+   "site_via_x": null,
+   "launched": "2026-11-07T14:30:41+00:00",
+   "mcap": 2722.672073342596,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T14:37:38+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 30,
+    "raw_score": 30,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2139\ufe0f Site offers API keys for developers (counted, no points) (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u2705 Site offers an MCP connection for AI agents (+5)",
+      "\u274c No llms.txt (docs for AI to read) (+0)",
+      "\u2705 Developer page: /developers, /docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u2705 Built on Robinhood Chain's own assets (USDG) (+10)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Not aimed at AI agents",
+      "\u2139\ufe0f No audit mentioned"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 3,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://www.theorbit.cc/",
+     "https://www.theorbit.cc/",
+     "https://www.theorbit.cc/llms-full.txt",
+     "https://www.theorbit.cc/llms.txt",
+     "https://www.theorbit.cc/docs",
+     "https://robinhoodchain.blockscout.com/token/0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+     "https://www.theorbit.cc/pricing",
+     "https://www.theorbit.cc/developers",
+     "https://www.theorbit.cc/docs"
+    ],
+    "facts": {
+     "tools": 3,
+     "dev_pages": [
+      "https://www.theorbit.cc/developers",
+      "https://www.theorbit.cc/docs"
+     ],
+     "contract_addresses": 1,
+     "winners_linked": []
+    }
+   }
+  },
+  "0x6ea85327c7b4b3cf640a3cb230181b90b49c2568": {
+   "address": "0x6ea85327c7b4b3cf640a3cb230181b90b49c2568",
+   "symbol": "OBLIGRA",
+   "name": "Obligra",
+   "description": "",
+   "website": "https://obligra.ai",
+   "twitter": "https://x.com/ObligraAI/",
+   "site_via_x": null,
+   "launched": "2026-11-07T14:27:46+00:00",
+   "mcap": 3695.912921998155,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T14:37:38+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 20,
+    "raw_score": 20,
+    "capped": false,
+    "flags": [
+     "X account doesn't match the website: the token links @ObligraAI, but its website links @bots \u2014 may be someone copying the project's links"
+    ],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2139\ufe0f Site offers API keys for developers (counted, no points) (+0)",
+      "\u2705 Site offers an SDK or install line (+10)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms-full.txt) (+10)",
+      "\u274c No developer page or docs link (+0)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u274c No use of stock tokens or USDG (+0)",
+      "\u274c No sign it takes payments (card or credits) (+0)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f Mentions an audit \u2014 not checked"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 3,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://obligra.ai",
+     "https://obligra.ai",
+     "https://obligra.ai/llms-full.txt",
+     "https://obligra.ai/llms.txt",
+     "https://obligra.ai/docs"
+    ],
+    "facts": {
+     "tools": 3,
+     "dev_pages": [],
+     "contract_addresses": 0,
+     "winners_linked": []
+    }
+   }
+  },
   "0xb8b08e863e6696f2a72f35393590e04b64890893": {
    "address": "0xb8b08e863e6696f2a72f35393590e04b64890893",
    "symbol": "NEXURL",
@@ -59140,10 +59437,10 @@
    "twitter": "https://x.com/nexurlslll",
    "site_via_x": null,
    "launched": "2026-11-07T14:24:38+00:00",
-   "mcap": 3828.719329247264,
+   "mcap": 3675.840905588357,
    "where": "Pons launchpad (curve)",
-   "first_seen": "2026-11-07T14:25:22+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "first_seen": "2026-11-07T14:37:38+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -59210,10 +59507,10 @@
    "twitter": "https://x.com/reactable_io",
    "site_via_x": null,
    "launched": "2026-11-07T14:18:22+00:00",
-   "mcap": 3659.2310042036306,
+   "mcap": 3660.746605121925,
    "where": "Pons launchpad (curve)",
-   "first_seen": "2026-11-07T14:25:22+00:00",
-   "scored_at": "2026-11-07T14:25:22+00:00",
+   "first_seen": "2026-11-07T14:37:38+00:00",
+   "scored_at": "2026-11-07T14:37:38+00:00",
    "found_on": "website",
    "scoring": {
     "kind": "site",
@@ -59300,7 +59597,7 @@
   "0xbeafd922c716fef1b82945a5e0dddcb8d2495b25": "2026-11-05T05:17:44+00:00",
   "0xded852de9fe9ba9b6f27f39e8e81cf851a5c79cc": "2026-11-05T05:17:44+00:00",
   "0x061732dc141e0a2d37f5fa91cf5343f24064e60f": "2026-11-06T14:02:21+00:00",
-  "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3": "2026-11-07T14:25:22+00:00",
+  "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3": "2026-11-07T14:15:02+00:00",
   "0x36738aa58a8ed2c1d606a0b98e66bdf489709bcd": "2026-11-05T05:30:27+00:00",
   "0xec80100469087d5036eafe2e6a67705251226006": "2026-11-05T05:30:27+00:00",
   "0xe24c217ef5ea7721050a88864f4086ffb71f2cf8": "2026-11-05T05:45:23+00:00",
@@ -59406,7 +59703,7 @@
   "0x3f9108a3beca998c14c6dda822a7e8eaeb88e20d": "2026-11-05T09:36:41+00:00",
   "0x0473396ffb1354b13a6e10a92970a28fe86bdf22": "2026-11-05T09:36:41+00:00",
   "0xc0e6a1e1e37129b839ac8ec12a24ceedaf2b13f7": "2026-11-05T09:36:41+00:00",
-  "0x89b76dcdda801f2e456765742c64950eb2a0c93c": "2026-11-07T08:30:29+00:00",
+  "0x89b76dcdda801f2e456765742c64950eb2a0c93c": "2026-11-07T14:37:38+00:00",
   "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b": "2026-11-06T19:57:21+00:00",
   "0x440e339a46eaa3be8d723c2cbed2a30af74536d5": "2026-11-05T23:26:47+00:00",
   "0x54a557dc542676f56ce2b1b5807cc76bedca308a": "2026-11-06T19:57:21+00:00",
@@ -59509,7 +59806,7 @@
   "0x54035c7cc7e2529b21660882d5ac4dc2813421bd": "2026-11-05T10:30:29+00:00",
   "0x4d8da99eb139a28a60ef70d0cb579d31eca0e149": "2026-11-05T10:30:29+00:00",
   "0xd5159e87f4f8b9d706e67507ef5e778b9007520d": "2026-11-05T10:30:29+00:00",
-  "0xde546b9b08f9350b270d290b11c6b1c5df6412ed": "2026-11-07T14:25:22+00:00",
+  "0xde546b9b08f9350b270d290b11c6b1c5df6412ed": "2026-11-07T14:15:02+00:00",
   "0xc2ef7db631b872b3ce56000fe71dbfb5e33a9d5c": "2026-11-05T10:30:29+00:00",
   "0x77410f0c195b49f6c506ff0fe123a40c2da29d3a": "2026-11-05T10:30:29+00:00",
   "0xf67fa03f9d3ab113559f5458e6c37fda6d2033a6": "2026-11-05T10:30:29+00:00",
@@ -59545,7 +59842,7 @@
   "0xa9835291593e50b1ed014845e381ae1111742481": "2026-11-05T10:45:25+00:00",
   "0x63bbad7042d6b4aa2d0d145edfd12880d12f5705": "2026-11-05T10:45:25+00:00",
   "0x2f5320ce405fb0f82ce8b12b2aef3bda33416069": "2026-11-05T10:45:25+00:00",
-  "0x68f451f49cac0bddf5d0a05f46242d044aa95d2a": "2026-11-07T14:25:22+00:00",
+  "0x68f451f49cac0bddf5d0a05f46242d044aa95d2a": "2026-11-07T14:15:02+00:00",
   "0x5c5b1b67de722c21832b51c9fb7976bd257f9961": "2026-11-05T10:45:25+00:00",
   "0x72d6dc30c0411d5149a4613f46ccce513c987fb5": "2026-11-05T10:45:25+00:00",
   "0x8adb88f79c991d572d82144ae6ca8516df2420fc": "2026-11-05T10:45:25+00:00",
@@ -59558,7 +59855,7 @@
   "0xee5576fa1bcaa380e591d01245f406f3f384eb01": "2026-11-05T10:45:25+00:00",
   "0xaa40e79e987517f7462bf79315b8a118799b04e3": "2026-11-06T14:02:21+00:00",
   "0x945626601703d126877c33a3d0def244c833550d": "2026-11-05T10:45:25+00:00",
-  "0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111": "2026-11-07T14:25:22+00:00",
+  "0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111": "2026-11-07T14:15:02+00:00",
   "0x2f27f6b66a477a9797cc9540e77f3b4373093b1a": "2026-11-05T10:45:25+00:00",
   "0xfec62b03a3f7366508aa200c500e6b76fac99a61": "2026-11-05T10:45:25+00:00",
   "0xa3b6b325f7937f97b3df9f7ee654d7463c2382da": "2026-11-07T10:00:33+00:00",
@@ -59842,7 +60139,7 @@
   "0x0830a9dd26a04e959657ab6788d45f5725590c32": "2026-11-05T14:50:31+00:00",
   "0xb0007d59fe4050a1636c2fa19038973d16481337": "2026-11-05T14:50:31+00:00",
   "0x62ed300a5916aed339a65e04754392763982a967": "2026-11-05T14:50:31+00:00",
-  "0xebaa0ca1a9d178550fb2f9ca4099a292375a403a": "2026-11-07T08:30:29+00:00",
+  "0xebaa0ca1a9d178550fb2f9ca4099a292375a403a": "2026-11-07T14:37:38+00:00",
   "0x1c7b762b0232eb6179271071b394ef0f21411c91": "2026-11-05T15:46:50+00:00",
   "0xf83a52e21c1c275efbf9f4cef3a9f307b37d2174": "2026-11-05T15:46:50+00:00",
   "0xfb832ecb020fe83e42b58d209a26840b701bc9ae": "2026-11-06T21:02:30+00:00",
@@ -60411,7 +60708,7 @@
   "0x60167e15ffefbe27ffa3782fa94ad1d16919b377": "2026-11-06T04:01:44+00:00",
   "0xfde368debe9e80f80785064a65719cec1f809dec": "2026-11-06T05:11:23+00:00",
   "0xed44a1b434d59b8c4f162d67a43eb198d4c64cb6": "2026-11-06T05:11:23+00:00",
-  "0xbed7c1660a01dbeee225bd893ac31727a91a5773": "2026-11-07T08:30:29+00:00",
+  "0xbed7c1660a01dbeee225bd893ac31727a91a5773": "2026-11-07T14:37:38+00:00",
   "0x262c134f2c375dce3d028dd4ef232ee30bd1936b": "2026-11-06T05:11:23+00:00",
   "0xfe7e19cbce2f896c6c528bc355baf5a768291e18": "2026-11-06T05:11:23+00:00",
   "0x8fd48edc40645a86ae73ce238f5cd840fd8e0087": "2026-11-06T05:11:23+00:00",
@@ -60421,7 +60718,7 @@
   "0x232cdfc415d10b673845d83dc02ba2eabe7e30d1": "2026-11-06T05:11:23+00:00",
   "0xc76b6020a3d7f4bb5cee85d44f8b0da6a6ee7616": "2026-11-06T05:11:23+00:00",
   "0x6376010d9d1f64de70d9e83c4093c8294515ac28": "2026-11-06T05:11:23+00:00",
-  "0x6d1f3baefb22d725b8068e60105b45c8a97da1fa": "2026-11-07T08:30:29+00:00",
+  "0x6d1f3baefb22d725b8068e60105b45c8a97da1fa": "2026-11-07T14:37:38+00:00",
   "0x4b3a3ff4ec9d289727e24a8152f406bada44264d": "2026-11-06T05:11:23+00:00",
   "0x12d5ee7917ca430073c3a638ee1e6f0648a98a01": "2026-11-06T05:11:23+00:00",
   "0x32b1b095bc15ac91a6e803742b1b272482e372cd": "2026-11-06T05:11:23+00:00",
@@ -60758,7 +61055,7 @@
   "0x09fca9ad9637779840516ae71f0f58f127473dee": "2026-11-06T11:17:04+00:00",
   "0x3fec8be36b8f5df34b379da1ae6b8147cb2cbfe9": "2026-11-06T11:17:04+00:00",
   "0xab336e944b0cac878adfce7c1fc0b49b35b2fbdc": "2026-11-06T11:17:04+00:00",
-  "0x53558c24e22a12e9a540704b6e6b6b25e1cc28d4": "2026-11-07T14:25:22+00:00",
+  "0x53558c24e22a12e9a540704b6e6b6b25e1cc28d4": "2026-11-06T11:17:04+00:00",
   "0x16a20a7776b69ea27f2e650748f9f7df6f20d060": "2026-11-06T11:17:04+00:00",
   "0x6d71d66330a213b980ce0de57b9c8049c60307bd": "2026-11-06T11:17:04+00:00",
   "0x28c337475333201ac48f6b3ce2692a35b523cddb": "2026-11-06T11:17:04+00:00",
@@ -60884,7 +61181,7 @@
   "0xcfd40b3d8c7c5c5371e1c3ca9df1011d4379104b": "2026-11-06T13:20:33+00:00",
   "0xde29563f653b314fc50e94d84fb92011f715e073": "2026-11-06T13:20:33+00:00",
   "0x2df1e020c5b6c28ad240a312fa5fd7465ec23e22": "2026-11-06T13:20:33+00:00",
-  "0x77a823428ba653368b34b55f91b85dc973a6ca38": "2026-11-06T13:20:33+00:00",
+  "0x77a823428ba653368b34b55f91b85dc973a6ca38": "2026-11-07T14:15:02+00:00",
   "0xdf325b761a26ab9656a5abecb8d2356f86be2171": "2026-11-07T14:00:33+00:00",
   "0x61cd30522e28be1ef0e8915c002887d30896da85": "2026-11-06T13:20:33+00:00",
   "0x5b90b9c52adf8c89e80961efe427ae4e1430742e": "2026-11-06T13:20:33+00:00",
@@ -60929,7 +61226,7 @@
   "0xfb392436be56a31526857fb03519472c8e3f7399": "2026-11-06T14:02:21+00:00",
   "0x62c952868e3cfe871205b7281da54b920598779c": "2026-11-06T14:02:21+00:00",
   "0x8dae3cd2f3e6e3968e7e5df07b68fd4ef6ab979e": "2026-11-06T14:02:21+00:00",
-  "0xfcb7d3fdba64585b78e251ddbdd913a1b5be2dd4": "2026-11-07T14:25:22+00:00",
+  "0xfcb7d3fdba64585b78e251ddbdd913a1b5be2dd4": "2026-11-07T14:15:02+00:00",
   "0x977f148c9ce67a344c3ca623a9c2ed967f1d3747": "2026-11-06T14:02:21+00:00",
   "0x245d45deaa35516f5465f665b71a84894f2624ba": "2026-11-06T14:02:21+00:00",
   "0x6c12e231ce952e7491c67f0f0e7a2371b9482393": "2026-11-06T14:02:21+00:00",
@@ -61212,7 +61509,7 @@
   "0xfdd539e9c2bd71d2659d9c8aeb256e823172ed39": "2026-11-06T19:16:38+00:00",
   "0x406746281deecd1d09c6ce093b2f2bc89caba142": "2026-11-06T19:57:21+00:00",
   "0xf5deecb5d6314bbabe4bc071c491e48467fbd8ca": "2026-11-06T19:57:21+00:00",
-  "0xe96e9fc9a9f952f76af14fc585a9625d25ed8304": "2026-11-07T08:30:29+00:00",
+  "0xe96e9fc9a9f952f76af14fc585a9625d25ed8304": "2026-11-07T14:37:38+00:00",
   "0x557ed980e4cfb64c399efb4d9aad893630e4a9f8": "2026-11-06T19:57:21+00:00",
   "0x017e580b9e62a61350ed46635de4b0797d098091": "2026-11-06T19:57:21+00:00",
   "0xb2b39e80c765214b2df7a164d71d2be3df622eb7": "2026-11-06T19:57:21+00:00",
@@ -62002,26 +62299,46 @@
   "0xa171cc4c16bf26abae042ac7b69a5f733cc9ab2d": "2026-11-07T14:00:33+00:00",
   "0xc399417a8152f4beb5df975c1c9deeced1747f13": "2026-11-07T14:00:33+00:00",
   "0x7e01d392b7ae9e698fe098f1d4654730ea573dd1": "2026-11-07T14:00:33+00:00",
-  "0xb8b08e863e6696f2a72f35393590e04b64890893": "2026-11-07T14:25:22+00:00",
-  "0x98aebecb60085212b1488bb59660863c034af503": "2026-11-07T14:25:22+00:00",
-  "0x3d23adc8f04ee2b229e3957f12aba7b948f6dccb": "2026-11-07T14:25:22+00:00",
-  "0x58effb6ed37261531f2359173b5889f53c456158": "2026-11-07T14:25:22+00:00",
-  "0x19c63a99f33940589002cbad3617642de4bbcbc3": "2026-11-07T14:25:22+00:00",
-  "0x08696c4edc669abb500d53c0b6965d9aeb442c37": "2026-11-07T14:25:22+00:00",
-  "0x3799b0e4a3c2614579c1b9bbe9b465990a0be3ff": "2026-11-07T14:25:22+00:00",
-  "0xa0cfbeb4cbc2075bcf758805b50a0f12b7d62d6f": "2026-11-07T14:25:22+00:00",
-  "0x113eed6ec1a33d851feb5534dd8e3954ef52871d": "2026-11-07T14:25:22+00:00",
-  "0x9500f058c70d9bd810a7f4d55b790802fd191e31": "2026-11-07T14:25:22+00:00",
-  "0x41961f526cd58ae41b2e08d91dc343d9b1922064": "2026-11-07T14:25:22+00:00",
-  "0xc7eb40c7e1a6eef859e83f787ea94a75fa905f34": "2026-11-07T14:25:22+00:00",
-  "0xd588cb9b73b5fb552c8cbf8095bf4c571c5d6708": "2026-11-07T14:25:22+00:00",
-  "0xc6510a512fca0b7f0a6d9d97084d36f9898c3fa5": "2026-11-07T14:25:22+00:00",
-  "0x7daff6402129f6ed1c9dd129f63d146b5306987f": "2026-11-07T14:25:22+00:00",
-  "0x015b5590466fe274f3c49456e5095c6cb579c595": "2026-11-07T14:25:22+00:00",
-  "0x8710f49e14bd9fb7b38ea94a019673c4b7565249": "2026-11-07T14:25:22+00:00",
-  "0x49259661f87e30f387a6a11e007d48010540b874": "2026-11-07T14:25:22+00:00",
-  "0x7687d7b081449cb2c45562727c12d8a5159e57d0": "2026-11-07T14:25:22+00:00",
-  "0x41ed8fa994631488d43adf144119fb202ae44d22": "2026-11-07T14:25:22+00:00"
+  "0x41961f526cd58ae41b2e08d91dc343d9b1922064": "2026-11-07T14:15:02+00:00",
+  "0xc7eb40c7e1a6eef859e83f787ea94a75fa905f34": "2026-11-07T14:15:02+00:00",
+  "0xd588cb9b73b5fb552c8cbf8095bf4c571c5d6708": "2026-11-07T14:15:02+00:00",
+  "0xc6510a512fca0b7f0a6d9d97084d36f9898c3fa5": "2026-11-07T14:15:02+00:00",
+  "0x7daff6402129f6ed1c9dd129f63d146b5306987f": "2026-11-07T14:15:02+00:00",
+  "0x5736c7e411c25a712fbfda40ff81af9b7f167a52": "2026-11-07T14:15:02+00:00",
+  "0xd0380316bd217639fc6f10cc72c7460beb7448fc": "2026-11-07T14:15:02+00:00",
+  "0x7f5c3647783db506517eaed854dbb7108bb335d3": "2026-11-07T14:15:02+00:00",
+  "0xbf228411427a494612ca23c32cb686d0773b0dc8": "2026-11-07T14:15:02+00:00",
+  "0x1dbc8637f2d424c242fdcfd58638b94b0da51525": "2026-11-07T14:15:02+00:00",
+  "0xcbbb577c860fecce990507fad1506fd4eea14317": "2026-11-07T14:15:02+00:00",
+  "0x3abc9b5f1822e1088bcff8b7a464341a805b4cb8": "2026-11-07T14:15:02+00:00",
+  "0xdfdbd86c21a9686ebe3a4c18eacb6cf3c9f2efd2": "2026-11-07T14:15:02+00:00",
+  "0x81b5e3fbc67580c6174076cf2134c90504f28c9e": "2026-11-07T14:15:02+00:00",
+  "0x5c52630fa8198b2e0c95ce5c20ffa6d14b14f621": "2026-11-07T14:15:02+00:00",
+  "0x66e94e68f82e0912dd03fe4885c3c55e4cb3ba28": "2026-11-07T14:15:02+00:00",
+  "0x2c70a15d115910e2d43a8946f69d2c38b9d13170": "2026-11-07T14:37:38+00:00",
+  "0x3e92778e587285b1779fe7d6aee466f8180b3524": "2026-11-07T14:37:38+00:00",
+  "0x4837beb0f7c20ae72339ec5effe38e4d58186005": "2026-11-07T14:37:38+00:00",
+  "0x8c563203922e64bbe93cd55a89231c848d3cb585": "2026-11-07T14:37:38+00:00",
+  "0xbbb6fe921429b3b8e76f811e08dc0f7acccb6db4": "2026-11-07T14:37:38+00:00",
+  "0xf5d048ffada87b7250a6dd5a1cd7b71ffe75e9dd": "2026-11-07T14:37:38+00:00",
+  "0x3a778c4ca1a55e268f2b3a34c5772bdb8c26d85c": "2026-11-07T14:37:38+00:00",
+  "0x6ea85327c7b4b3cf640a3cb230181b90b49c2568": "2026-11-07T14:37:38+00:00",
+  "0xb8b08e863e6696f2a72f35393590e04b64890893": "2026-11-07T14:37:38+00:00",
+  "0x98aebecb60085212b1488bb59660863c034af503": "2026-11-07T14:37:38+00:00",
+  "0x3d23adc8f04ee2b229e3957f12aba7b948f6dccb": "2026-11-07T14:37:38+00:00",
+  "0x58effb6ed37261531f2359173b5889f53c456158": "2026-11-07T14:37:38+00:00",
+  "0x19c63a99f33940589002cbad3617642de4bbcbc3": "2026-11-07T14:37:38+00:00",
+  "0x08696c4edc669abb500d53c0b6965d9aeb442c37": "2026-11-07T14:37:38+00:00",
+  "0x3799b0e4a3c2614579c1b9bbe9b465990a0be3ff": "2026-11-07T14:37:38+00:00",
+  "0xa0cfbeb4cbc2075bcf758805b50a0f12b7d62d6f": "2026-11-07T14:37:38+00:00",
+  "0x113eed6ec1a33d851feb5534dd8e3954ef52871d": "2026-11-07T14:37:38+00:00",
+  "0x9500f058c70d9bd810a7f4d55b790802fd191e31": "2026-11-07T14:37:38+00:00",
+  "0x406f02b38801280d98f3a2d9400efbbddd8f2369": "2026-11-07T14:37:38+00:00",
+  "0xe4b1f3d6f32888da0f45111a5a0848f3cf999590": "2026-11-07T14:37:38+00:00",
+  "0x31962535c675c532790a86022186cc9d2a1e9427": "2026-11-07T14:37:38+00:00",
+  "0x267599ed2cbbca54603722ea1a547eda7151a587": "2026-11-07T14:37:38+00:00",
+  "0xbb4348bc854494fe3b1e4be9db9632bc38631e80": "2026-11-07T14:37:38+00:00",
+  "0x8ef9a8917e90df657230c409b60a67772e72d806": "2026-11-07T14:37:38+00:00"
  },
  "catchup_plain": []
 }

@@ -6341,7 +6341,7 @@
   },
   "tryanyroute": {
    "handle": "TryAnyroute",
-   "found": true,
+   "found": false,
    "id": "2103979836155002880",
    "name": "Anyroute",
    "joined": "2026-09-26T22:48:45+00:00",
@@ -6383,7 +6383,8 @@
     "When a model you rely on goes down, refreshing its page is not a plan. Watch it once and Anyroute lets you know when it becomes unavailable, then when it is back, in your Inbox or on Telegram. https://anyroute.tech/docs/#model-watch",
     "Some things need your attention, just not right now. Snooze an Inbox notice for an hour, until tomorrow, or until Monday. It comes back unread at the time you chose. https://anyroute.tech https://github.com/AnyRouteRH/AnyRoute/commit/78392ea59c58cd18328a86d16c03d507604af189"
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00",
+   "gone_since": "2026-11-07T14:37:38+00:00"
   },
   "abullycoin": {
    "handle": "ABULLYCOIN",
@@ -6481,39 +6482,18 @@
    "following": 9,
    "posts": 209,
    "verified": "individual",
-   "last_post": "2026-11-06T17:17:45+00:00",
-   "sample": 20,
-   "sample_full_week": true,
-   "posts_7d": 20,
-   "avg_likes": 10.2,
-   "avg_views": 255,
+   "last_post": null,
+   "sample": 0,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
    "bio_site": "https://www.orusagent.xyz/",
    "bio": "First autonomous and customisable trading agent on robinhood blockchain\n\nhttps://discord.gg/orusagent",
    "cas": [],
    "fake_posts": [],
-   "texts": [
-    "Pre-bond strategies on Orus now read straight from the launchpads' bonding curves. No more graduated tokens taking slots. Tokens over your volume/fees ceiling drop out first. Your agent only sees live curves, fresher entries, less noise. https://orusagent.xyz",
-    "Up, down or sideways, we keep building. This week on Orus: per-agent check speed, minute-by-minute ATH reads, agent reports, trade alerts. Markets change. Your rules don\u2019t.",
-    "Your agent just bought. You\u2019ll hear it. \ud83d\udd0a Orus alerts now ping on every trade a rising tone for a buy, a falling one for a sale or a stop, with size, market cap and dip in one line. Mute any agent, anytime. Sound on. https://orusagent.xyz",
-    "One of those big ideas: agentic trading on Robinhood Chain. Orus agents scan every new token, buy the dip and take profit on their own \u2014 24/7, by your rules, from a wallet only you control. Proud to be building here.",
-    "Scan. Filter. Catch the pump. Strike on the dip. Log everything. That\u2019s what your Orus agent does every few seconds, on Solana and Robinhood Chain, from a wallet only you control. Your rules. Your risk. Your agent. https://orusagent.xyz",
-    "Never traded with an agent? Start free. 1/ Copy any desk strategy results are public 2/ Simulate it on live market data, from minute one 3/ Go live from a wallet only you control No token. No card. Every decision on your tape. https://orusagent.xyz",
-    "Orus will remain among the Robinhood builders! Great to see @RobinhoodCrypto supporting builders!",
-    "No subscription. No card. Your Orus plan is the ORUS you hold never spent. Free: 1 agent \u00b7 60s Pro (1M ORUS): 3 agents \u00b7 30s \u00b7 AI reports Premium (3M ORUS): 20 agents \u00b7 10s \u00b7 unlimited strategies Hold more, run faster.",
-    "Quick heads-up: Orus is taking a short pause. We\u2019re bringing the servers back right now the website and dApp will be live again very soon. Thanks for your patience. We\u2019ll post the all-clear here the second we\u2019re back.",
-    "Know your agent. Agent reports are live on Orus: result, win rate, how each coin ended, and the entry ranges that actually worked. Head to the User tab \u2192 Reports, then just ask. Your rules. Your risk. Your agent.",
-    "Market engine update: your agents now see a pump the minute it happens. All-time highs on fresh tokens are read minute by minute, backed by real volume. Sharper highs mean sharper dips and fewer good entries skipped. Live on Solana and Robinhood Chain. Same strategies, same rules.",
-    "1/3 - Your agents no longer run at one speed. Pick a check speed per agent: 10, 30 or 60 seconds. On Solana, 50 seconds is the difference between the entry and the exit liquidity.",
-    "2/3 - What each plan gets: \u2022 Free: 60 s \u2022 Pro: 30 or 60 s (new agents start at 30 s) \u2022 Premium: 10, 30 or 60 s (new agents start at 10 s) Faster isn\u2019t always better: slow down the agents that don\u2019t need speed, keep 10 s for the snipers.",
-    "3/3 - Set it in the agent form, the Settings tab, or straight from the API and MCP. Locked speeds stay visible, so you always know what the next plan opens. Your rules. Your risk. Your agent.",
-    "1/3 - Sneak peek: the Hot Seat is coming to Orus really soon. Pick any agent strategy, run it paper or live, and watch every position and signal from one seat.",
-    "2/3 - What\u2019s in the seat: \u2022 every Orus agent strategy, not just your own \u2022 paper \u2192 live in one toggle \u2022 live positions and P&L \u2022 a radar of what the agents are tracking",
-    "3/3 - The key: hold 10M ORUS That\u2019s your ticket to every strategy on Orus. Want a seat on day one? Reply and we\u2019ll ping you when it opens. Your rules. Your risk. Your agent.",
-    "1/3 - Sneak peek: your agents are leaving the tab. We\u2019re building the Orus Chrome extension every agent in Chrome\u2019s side panel: positions, P&L and alerts, on any website, without opening the dApp.",
-    "2/3 What it does: \u2022 every agent, live or paper, with its P&L \u2022 an alert the moment an agent acts \u2022 light & dark, same look as the dApp It stays open while you browse \u2014 charts, X, wherever you are.",
-    "3/3 Same agents, same rules, same data as the dApp. One click away soon. Want in on early access? Reply and we\u2019ll ping you when it ships. Your rules. Your risk. Your agent."
-   ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "texts": [],
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "clawnch_bot": {
    "handle": "Clawnch_Bot",
@@ -6564,7 +6544,7 @@
   },
   "launchonpangea": {
    "handle": "LaunchOnPangea",
-   "found": true,
+   "found": false,
    "id": "2103852366860611584",
    "name": "Pangea",
    "joined": "2026-09-26T14:23:43+00:00",
@@ -6600,7 +6580,8 @@
     "Bridges to mainnet are currently slow, but funds are safe. Rebalancer's funds are also safe, only difference being that price gaps on ETH have gone from 22s average to around 1 minute. Stay safe!",
     "One coin, five chains, one price. We're making that price much harder to game. Every bridge of a v3 coin compares the coin's price on both chains. If the gap is wider than the fees plus a 0.15% allowance, the difference is burned instead of credited. The gap fee prevents arbitrage bots from profitin"
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00",
+   "gone_since": "2026-11-07T14:37:38+00:00"
   },
   "capafyai": {
    "handle": "Capafyai",
@@ -6832,16 +6813,16 @@
    "id": "2104822295621746688",
    "name": "Wafermap",
    "joined": "2026-09-29T06:38:57+00:00",
-   "followers": 372,
-   "following": 21,
-   "posts": 201,
+   "followers": 371,
+   "following": 23,
+   "posts": 208,
    "verified": "individual",
-   "last_post": "2026-11-07T01:05:00+00:00",
-   "sample": 17,
+   "last_post": "2026-11-07T13:10:00+00:00",
+   "sample": 19,
    "sample_full_week": true,
-   "posts_7d": 17,
-   "avg_likes": 8.5,
-   "avg_views": 352,
+   "posts_7d": 19,
+   "avg_likes": 6.9,
+   "avg_views": 273,
    "bio_site": "https://wafermap.xyz/",
    "bio": "The checkout for AI agents. 35 tools, paid per call. No API keys, no plans. Failed calls cost nothing.\n\n$WAFERMAP 0xfda080f64d84c989cfc50ff18253542cfe502db3",
    "cas": [
@@ -6849,7 +6830,14 @@
    ],
    "fake_posts": [],
    "texts": [
-    "Thanks for the mention. The $0.002 payment on Arc settled only after the model finished its answer, and the agent paid no gas. Receipt: https://explorer.arc.io/tx/0xea779a30472e0914fdb65794411934f77140216af03e5ab76c25ca31b460abc8",
+    "Wafermap is now listed on Built with @HeyResearch. When an agent checks a Robinhood Chain token on Wafermap, it also sees whether anyone is still building the project behind it: verified builder or not, and what they shipped last. That read comes from HEY, credited and linked in every answer. http:/",
+    "First payment on Soneium settled through Wafermap. An agent paid $0.002 in USDC.e for one model call. The facilitator covered the gas, and the payment landed only after the answer came back. http://soneium.blockscout.com/tx/0x54791d67e51dce0fa4e943a4066c1b550499286ba56955336a0b2c942e3375d9 Try it: n",
+    "\u2022 Payments on Arc and Soneium, both settled for real (https://soneium.blockscout.com/tx/0x54791d67e51dce0fa4e943a4066c1b550499286ba56955336a0b2c942e3375d9), plus streaming and team budgets: https://wafermap.xyz/changelog",
+    "More rails. Streaming on every LLM, paid only after the last word. Payments on Arc and Soneium. One daily budget for a fleet of agents. A due diligence verdict anyone can recompute. All live: https://wafermap.xyz/changelog",
+    "Soneium is now settled for real too: $0.002 USDC.e, gas paid by the facilitator. https://soneium.blockscout.com/tx/0x54791d67e51dce0fa4e943a4066c1b550499286ba56955336a0b2c942e3375d9",
+    "$WAFERMAP has a job. Any Wafermap tool can be paid in $WAFERMAP at half the list price. The tokens don't come to us: after the call succeeds, they go to the dead address. A failed call moves nothing. Every call paid this way is a burn. The more agents use Wafermap with it, the less $WAFERMAP exists.",
+    "On-chain receipts so far: #1 https://robinhoodchain.blockscout.com/tx/0x2d885b1b553c69f09fb9bc4156f2a0f02eff9dc9cc35a17ae8cf0190336cc822 #2 https://robinhoodchain.blockscout.com/tx/0x4332715d865047e4f8df62127522e82f44566b6474618bf110eefa8bb9a2d90e Run your own: npx @wafermapxyz/cli call prompt-refin",
+    "The receipt in the image is the first one, on-chain: https://robinhoodchain.blockscout.com/tx/0x2d885b1b553c69f09fb9bc4156f2a0f02eff9dc9cc35a17ae8cf0190336cc822",
     "Wafermap is a Verified Builder on @HeyResearch, and HEY's data runs inside Wafermap too. Every release we ship gets checked against our public code. And when an agent checks a Robinhood Chain token on Wafermap, it sees whether that project has a verified builder behind it. Our builder record: http:/",
     "An AI that says \"looks safe\" is a claim. A rule you can rerun is a check. Token Due Diligence on Wafermap now decides its risk level with a published rule (dd-1). Every answer carries the rule's inputs and the block the contract was read at, so anyone can recompute the level from the answer alone. T",
     "Running more than one agent? Give them one budget. On Wafermap a team gets a daily limit in USD. Before any paid call runs, Wafermap checks what the team's wallets spent today. The call that would go over is refused before the work starts, so nothing is ever charged for it. Each wallet keeps its own",
@@ -6860,14 +6848,9 @@
     "Same job, two receipts. Checking a token before buying, tool by tool: 2 calls, 2 payments, $0.025, and two answers to stitch together. As a Workflow: 1 call, 1 payment, $0.02. One verdict that reads the market, the contract and the builder record. If any step fails, $0. $WAFERMAP holders pay $0.01. ",
     "x402, this week: \u00b7 41,252 endpoints paid in the last 24h, 2.3\u00d7 since 31 Oct \u00b7 1.14M paid calls over 30 days, +19% \u00b7 43 services paid by 25+ different wallets, 42% of all calls Agents are paying more. Every number has a permalink: https://wafermap.xyz/x402?at=2026-11-04T23:30:08Z",
     "Shipped on 8 of the last 10 days. Five networks, an open x402 index, a marketplace where anyone gets paid per call, on-chain proof of every payment, and today: Workflows. Every line dated: https://wafermap.xyz/changelog",
-    "Most recent first: \u00b7 Workflows: several tools, one call, $0 if any step fails \u00b7 Solana payments checkable on-chain (CLI 0.4.7) \u00b7 First outside seller on the Marketplace \u00b7 Marketplace out of beta, /proof, /status \u00b7 x402 Tracker, CLI/SDK/MCP open-sourced (MIT)",
-    "NEW: Workflows. One call. Several tools. One payment. If any step fails, your agent pays $0. https://wafermap.xyz/docs#workflows",
-    "New on Wafermap: Workflows. One call runs several tools. One quote, one payment, settled only after every step worked. If any step fails, your agent pays $0. The first three: \u00b7 Token Due Diligence ($0.02): contract control, market, builder record, one verdict \u00b7 Stock Token Brief ($0.02): Chainlink v",
-    "From the CLI: wafermap call token-due-diligence address=0x\u2026 network=robinhood wafermap call stock-brief symbol=TSLA wafermap call launch-scan network=base Same from MCP in Claude or Cursor.",
-    "Founding Seller #1, done: we bought HoodRugCheck's (http://hoodrugcheck.com) first 100 paid calls at full price. Every one settled straight to their wallet, with its transaction, labelled \"founding buy\" on http://wafermap.xyz/proof. 4 of 5 slots left for builders with a real API: http://wafermap.xyz",
-    "Your agent's first paid call takes three commands: npm i -g @wafermapxyz/cli wafermap init wafermap call token-snapshot address=0x\u2026 network=robinhood No account, no API key. Hard caps by default, and a failed call costs $0."
+    "Most recent first: \u00b7 Workflows: several tools, one call, $0 if any step fails \u00b7 Solana payments checkable on-chain (CLI 0.4.7) \u00b7 First outside seller on the Marketplace \u00b7 Marketplace out of beta, /proof, /status \u00b7 x402 Tracker, CLI/SDK/MCP open-sourced (MIT)"
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "klll_floor": {
    "handle": "klll_floor",
@@ -6896,7 +6879,7 @@
   },
   "0xspiralstake": {
    "handle": "0xspiralstake",
-   "found": true,
+   "found": false,
    "id": "1830501986908639232",
    "name": "Spiral Stake \ud83c\udd7f\ufe0f",
    "joined": "2024-09-02T07:04:42+00:00",
@@ -6938,7 +6921,8 @@
     "Our TVL has passed $200k inspite of tough RH conditions. Onward & forwards!",
     "A key question that DeFi yield farmers always ask is what's the breakdown of the yield given to me? That question does not go unanswered with our listed strategies on Spiral Stake. When you hover on the leveraged APY info or star icon within a certain strategy, you'll see a pop up showing the breakd"
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00",
+   "gone_since": "2026-11-07T14:37:38+00:00"
   },
   "shuffle_rh": {
    "handle": "Shuffle_RH",
@@ -6946,16 +6930,16 @@
    "id": "2099611909276213248",
    "name": "Shuffle",
    "joined": "2026-09-14T21:33:21+00:00",
-   "followers": 307,
+   "followers": 306,
    "following": 3,
    "posts": 79,
    "verified": "individual",
    "last_post": "2026-11-06T13:21:12+00:00",
    "sample": 18,
    "sample_full_week": false,
-   "posts_7d": 5,
-   "avg_likes": 21.9,
-   "avg_views": 742,
+   "posts_7d": 4,
+   "avg_likes": 22.0,
+   "avg_views": 746,
    "bio_site": "https://www.shuffle.meme",
    "bio": "Daily-rebalancing index tracking the top 20 memecoins on Robinhood Chain.              \n\nCA: 0x6EAcc0461fDF3BD446634CCd0eD774a1EAD028cC",
    "cas": [
@@ -6982,7 +6966,7 @@
     "Every day at 12:00 UTC, Shuffle rebalances \ud83e\udd16\ud83d\udc9a It reshuffles the top 20 memecoins on @RobinhoodCrypto : New entrants join, laggards leave, weights get reset. Why it matters: - You never have to watch the market or pick winners - XSHUFFLE always tracks the current top 20 - Trading fees are added to th",
     "Shipped something the community asked for \ud83e\udd16\ud83d\udc9a The Activity tab now shows how much $SHUFFLE fees have been added to the index (in WETH) over 1d, 7d, 30d and all-time. You asked, we built it. Keep the feedback coming. Also: Weekly Shuffles is coming along nicely. Still building. More soon \ud83d\udc40"
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "quietwinning": {
    "handle": "QuietWinning",
@@ -6997,9 +6981,9 @@
    "last_post": "2026-11-06T06:44:25+00:00",
    "sample": 18,
    "sample_full_week": false,
-   "posts_7d": 14,
+   "posts_7d": 12,
    "avg_likes": 15.6,
-   "avg_views": 330,
+   "avg_views": 333,
    "bio_site": "https://quietwinning.xyz/?utm_source=x&utm_medium=bio&utm_campaign=quietwinning",
    "bio": "Vibe Working. Quiet Winning.\nClocked in. Mentally checked out.\nCA: 0x623eDe6B702721E2014d9A420C759ABfe0F1e3F3\nhttp://t.me/quietwinning",
    "cas": [
@@ -7026,7 +7010,7 @@
     "Even Elon is a Dubs. We are all Dubs.",
     "72 hours to send your tokens to the dev's wallet. Then the liquidity came out. There's a word for that. You already know it. Whole market's red today. Ours too. At least our pool is still there, locked in a contract nobody can withdraw from. Management included."
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "jaytl00": {
    "handle": "JayTL00",
@@ -7124,24 +7108,45 @@
    "id": "2104396563921371136",
    "name": "verdex",
    "joined": "2026-09-28T02:24:53+00:00",
-   "followers": 732,
+   "followers": 734,
    "following": 5,
-   "posts": 490,
+   "posts": 491,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-11-07T06:55:00+00:00",
+   "sample": 20,
    "sample_full_week": false,
-   "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "posts_7d": 10,
+   "avg_likes": 19.5,
+   "avg_views": 583,
    "bio_site": "https://useverdex.xyz/",
    "bio": "The front door to tokenized markets. 226 real-world assets, 12 issuers, 70 chains, one order.\n\n0x96f455a90a80dcf0c2df6703ea4ba3bedf286e43",
    "cas": [
     "0x96f455a90a80dcf0c2df6703ea4ba3bedf286e43"
    ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "texts": [
+    "Stock mining, built with @seamPTCL. Seven mines. Pay with the stock, USDG or from any chain, and get paid in the stock. No owner, no admin, no fee. Rent is not refunded. Unaudited. https://useverdex.xyz/mines",
+    "Mine from any chain. USDC on Arbitrum, Base or Ethereum, or USDT on BNB Chain. Verdex bridges, buys the stock and rents your rig. Rent is not refunded. Unaudited. https://useverdex.xyz/mines",
+    "Let your users buy any tokenized stock without leaving your app. One call returns the route and a ready transaction. They sign in their own wallet. https://useverdex.xyz/developers",
+    "The Verdex API now does prices and mines. /api/v1/price: any tokenized stock, with its onchain 30-minute average. /api/v1/mines: every mine, weight and roll. No key. No sign-up. https://useverdex.xyz/developers",
+    "Compare is live. Up to four stocks on one chart, all starting from 0% on the same day. Return, volatility, deepest drawdown, best and worst day. https://useverdex.xyz/compare",
+    "Need USDG but don\u2019t want to sell your VERDEX? Borrow against it from another holder. A fixed rate for a fixed term, and no forced sale before the end. https://useverdex.xyz/lend/term",
+    "The options chain is live. Every call and put for sale on a stock, by strike and expiry: calls on the left, puts on the right, the live price between them. Options can expire worthless. Unaudited. https://useverdex.xyz/options/chain",
+    "Quick buy is live. Save three amounts. Tap one on any stock and the swap opens filled in. You still confirm in your wallet. https://useverdex.xyz/screener",
+    "Every Verdex Mines roll, in the open. Each day\u2019s weights, what every mine paid, and the miners, read straight from the contract\u2019s events. And now a push when a roll pays your rigs. https://useverdex.xyz/mines/stats",
+    "The whole tokenized market in one look. Every stock on Robinhood Chain as a tile: the bigger, the deeper its market; the greener or redder, the more it moved in 24 hours. https://useverdex.xyz/heatmap",
+    "Options on Verdex are backed in full. A call locks the stock. A put locks the strike. No oracle and no counterparty to chase: everything is locked from the start. Options can expire worthless. Unaudited. https://useverdex.xyz/options",
+    "The Verdex screener is live. Every tokenized stock on Robinhood Chain, refreshed every minute. Filter by what moved, how deep the market is and what it is. Sort any column. Buy from the row. https://useverdex.xyz/screener",
+    "Borrow against any stock without selling it. A fixed rate, a fixed date, up to a year. No price oracle and no liquidation before the end. https://useverdex.xyz/lend/term",
+    "Price alerts now reach your phone. Set a level on your watchlist. When the stock crosses it, you get a push, even with Verdex closed. No account. No email. Each alert fires once. https://useverdex.xyz/watchlist",
+    "How a Verdex mine decides what it pays: weight = 1 + 10 \u00d7 the stock's move since the last roll, from 0.1x to 4x. Prices are the 30-minute average of the real pool, read by the contract itself. Anyone can call the roll. https://useverdex.xyz/mines",
+    "You don't need the stock to mine it anymore. Pay USDG. Verdex buys NVDA and rents your rig with exactly what arrived. You're paid in NVDA, every roll. Rent is not refunded. Unaudited. https://useverdex.xyz/mines",
+    "One signature. USDC on Base to NVDA on Robinhood Chain: swap, bridge and buy in one step, across 70 chains. https://useverdex.xyz",
+    "Phase 6 starts tomorrow. Ten launches in ten days, every night at 19:00 UTC: Mine with USDG \u00b7 Alerts on your phone \u00b7 Screener \u00b7 Heatmap \u00b7 Mines stats \u00b7 Quick buy \u00b7 Options chain \u00b7 Compare \u00b7 Verdex API \u00b7 Mine from any chain \ud83e\uddf5",
+    "2/ The rest is for traders: a screener, a heatmap of the whole market, an options chain, side-by-side compare, and alerts that reach your phone with Verdex closed.",
+    "3/ Same rhythm as Phase 5: the launch at 19:00 UTC, a tech film the next morning. All of it was discussed first on Telegram: https://t.me/verdexxyz"
+   ],
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "namidefi": {
    "handle": "namidefi",
@@ -7277,24 +7282,43 @@
    "id": "2085897940313251840",
    "name": "JT Marlin",
    "joined": "2026-08-08T01:19:37+00:00",
-   "followers": 680,
+   "followers": 679,
    "following": 3,
    "posts": 73,
    "verified": "individual",
-   "last_post": null,
-   "sample": 0,
+   "last_post": "2026-10-23T17:52:27+00:00",
+   "sample": 18,
    "sample_full_week": false,
    "posts_7d": 0,
-   "avg_likes": null,
-   "avg_views": null,
+   "avg_likes": 13.4,
+   "avg_views": 902,
    "bio_site": "https://jtmarlin.trade",
    "bio": "The Book: protocol-owned liquidity, ranged & compounded by a v4 hook + keeper. Trade tokenized stocks onchain.",
    "cas": [
     "0xab35d04e1ee39c789c4a65d522417b3c7f2e4723"
    ],
    "fake_posts": [],
-   "texts": [],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "texts": [
+    "Weekly payout is out. Hook fees sent to 125 MARLIN wallets, paid in $HIMS. 100% to holders, no desk cut.",
+    "Our Uniswap v4 hook is putting up numbers \ud83e\udd88 ETH / USDG on the Marlin Hook v2: \u2022 $22.5K TVL \u2022 $67.6K volume in 24h \u2022 102.1% APR Here's why \ud83e\uddf5",
+    "Add liquidity in a few clicks and the LP NFT mints straight to your wallet. \ud83d\udc49 https://jtmarlin.trade/hook APR annualized from 24h fees. Not a guarantee. LPing carries risk, including impermanent loss.",
+    "The pool is a standard Uniswap v4 pool, so you can add liquidity two ways: \u2192 J.T. Marlin: https://jtmarlin.trade/hook \u2192 Uniswap: https://app.uniswap.org/explore/pools/robinhood/0xa9684fa52cc6eaf89f69e9b29210357ae6219dcc3516475e7ef24adbf11d9b57 Either way, the position NFT is minted directly to your ",
+    "Weekly payout - Volume disappeared this week on RH so the book earned less. We sent 100% of LP fees to holders, $152 in HIMS",
+    "$MARLIN weekly payout: 21.53 HIMS split across 123 holders.",
+    "Detect \u2192 Buy \u2192 Collect",
+    "Currently only for token pairings with tokenized stocks, exclusively via the Pons launchpad.",
+    "Marlin hook v2 is officially approved by Uniswap. \u2705",
+    "This update will take a bit longer than expected.",
+    "Marlin hook v2 is in the approval queue.",
+    "Desk update:",
+    "Snapshot is set. 729 robinhood:0xab35d04e1ee39c789c4a65d522417b3c7f2e4723 wallets qualify so far. We snapshot at random, never on a set clock, and today it landed.",
+    "ORBIO / USDG | 240.9% APR",
+    "Total APR 331.03% - https://app.uniswap.org/explore/pools/robinhood/0x81e3ef6c66b0d8b9ebb6f774c3229203d51a3e6272a8c72b0549384903aba2e4",
+    "J.T. Marlin does not fight established markets. We participate in them. Every fee this book earns goes into the weekly payout for robinhood:0xab35d04e1ee39c789c4a65d522417b3c7f2e4723 holders.",
+    "robinhood:0xab35d04e1ee39c789c4a65d522417b3c7f2e4723 weekly payout: 10.5 HIMS (about $302) split across 128 holders. 100% of LP fees to holders, no desk cut.",
+    "New pools on the hook: PLTR/USDG, MU/USDG, NVDA/USDG. Tokenized stocks, dynamic fees that react to volatility, 100% of swap fees to LPs. Provide liquidity: https://jtmarlin.trade/hook"
+   ],
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "cryntadev": {
    "handle": "CryntaDev",
@@ -7485,16 +7509,16 @@
    "id": "2088508053565911041",
    "name": "Troll In Hood | TROLL",
    "joined": "2026-08-15T06:11:33+00:00",
-   "followers": 1793,
-   "following": 55,
-   "posts": 1435,
+   "followers": 1790,
+   "following": 57,
+   "posts": 1441,
    "verified": "individual",
    "last_post": "2026-11-06T21:00:01+00:00",
    "sample": 13,
    "sample_full_week": false,
    "posts_7d": 13,
-   "avg_likes": 24.8,
-   "avg_views": 341,
+   "avg_likes": 25.6,
+   "avg_views": 369,
    "bio_site": "https://dexscreener.com/robinhood/0xe519f39c1f867539983be78a1ed036097a545f4379b08203f6e592e153f52c90",
    "bio": "$TROLL on Robinhood 0x2a13008CC2F5A853F6Fb21cbD90841806C64b247",
    "cas": [
@@ -7502,6 +7526,7 @@
    ],
    "fake_posts": [],
    "texts": [
+    "Quick coffee with the homies turned into an hour of talking shit. Friday\u2019s off to a good start. \ud83d\ude02 Who\u2019s excited for the weekend? robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood https://t.me/RealTrollInHoodCTO",
     "Same bag. Same chart. Four different personalities. \ud83e\udef5\ud83c\udffc \ud83d\ude02 robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood https://t.me/RealTrollInHoodCTO",
     "Shout out to @gostashxyz for highlighting and supporting real projects. Salute to the other projects showing up and grinding for their communities too. \ud83e\udd1d @suck_less21 you represented #TrollinHood like a real one supposed to. Held it down and brought the crown back to tha Hood! \ud83e\udee1 robinhood:0x2a13008c",
     "Me still waiting on that \u201cbiggest bull run in history\u201d \ud83d\ude0f robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #WeKeepItTrollin https://t.me/RealTrollInHoodCTO",
@@ -7513,10 +7538,9 @@
     "When robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 is up: \u201cI been telling y\u2019all to buy.\u201d When robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 is down: \u201cWhy mfrs selling?\u201d Same shit. Different toilet. \ud83e\udef5\ud83c\udffc \ud83d\ude02 #WeKeepItTrollin https://t.me/RealTrollInHoodCTO",
     "Taking crypto calls from influencers is like trusting a shady mechanic\u2026 You keep leaving broke. He keeps telling you what you need next. \ud83e\udef5\ud83c\udffc \ud83d\ude02 $TROLL #WeKeepItTrollin https://t.me/RealTrollInHoodCTO",
     "One homie working. One homie chilling. One homie the reason we can\u2019t go nowhere. \ud83d\ude2d Which one are you? robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood #GTA6 https://t.me/RealTrollInHoodCTO",
-    "When robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 is up: \u201cI been telling y\u2019all to buy.\u201d When robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 is down: \u201cWhy mfrs selling?\u201d Same shit. Different toilet. \ud83e\udef5\ud83c\udffc \ud83d\ude02 #WeKeepItTrollin https://t.me/RealTrollInHoodCTO",
-    "One homie working. One homie chilling. One homie the reason we can\u2019t go nowhere. \ud83d\ude2d Which one are you? robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 #TrollinHood #GTA6 https://t.me/RealTrollInHoodCTO"
+    "When robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 is up: \u201cI been telling y\u2019all to buy.\u201d When robinhood:0x2a13008cc2f5a853f6fb21cbd90841806c64b247 is down: \u201cWhy mfrs selling?\u201d Same shit. Different toilet. \ud83e\udef5\ud83c\udffc \ud83d\ude02 #WeKeepItTrollin https://t.me/RealTrollInHoodCTO"
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "alloomiai": {
    "handle": "AlloomiAI",
@@ -7569,7 +7593,7 @@
   },
   "offrouter": {
    "handle": "OffRouter",
-   "found": true,
+   "found": false,
    "id": "2106968570899161088",
    "name": "OffRouter",
    "joined": "2026-10-05T04:45:33+00:00",
@@ -7590,7 +7614,8 @@
    ],
    "fake_posts": [],
    "texts": [],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00",
+   "gone_since": "2026-11-07T14:37:38+00:00"
   },
   "omnirailorg": {
    "handle": "omnirailorg",
@@ -7598,16 +7623,16 @@
    "id": "2102840575447662592",
    "name": "OmniRail",
    "joined": "2026-09-23T19:20:37+00:00",
-   "followers": 406,
+   "followers": 405,
    "following": 6,
-   "posts": 164,
+   "posts": 165,
    "verified": "individual",
-   "last_post": "2026-11-06T17:17:00+00:00",
+   "last_post": "2026-11-07T05:17:00+00:00",
    "sample": 20,
    "sample_full_week": true,
    "posts_7d": 20,
-   "avg_likes": 11.2,
-   "avg_views": 318,
+   "avg_likes": 11.3,
+   "avg_views": 319,
    "bio_site": "https://omnirail.org/",
    "bio": "The first crypto-native, multimodal API for agents. Every text, image, video model, in one MCP command.\nhttp://t.me/omnirail\n0xa4ddf100e3e0d3a9dd897e89d025622b794f0c08",
    "cas": [
@@ -7615,6 +7640,7 @@
    ],
    "fake_posts": [],
    "texts": [
+    "Scoped API keys on OmniRail, for builders \ud83d\udd10 POST /api/account/keys (and PATCH /api/account/keys/:id) take scopes: { modalities, models, max_output_price, expires_at, ips }. Models are exact ids or patterns like anthropic/*. Each keyed call is checked before the hold: out of scope \u2192 403 key_scope nam",
     "An agent without an account can still call OmniRail. A paid endpoint called without a key answers HTTP 402 with a PAYMENT-REQUIRED header asking for USDG on Robinhood Chain. The agent signs, retries, and gets its result. OmniRail settles on-chain and pays the gas. No key, no signup: http://omnirail.",
     "Uncensored models on OmniRail \u270d\ufe0f Quick reminder: OmniRail is one key for every AI model, paid per use from a balance you top up in crypto. Ask a mainstream assistant for a thriller villain's speech and you often get a softened version or a disclaimer. Some open models are tuned to follow your instru",
     "Hey Vlad! We're building @omnirailorg on Robinhood Chain: the economic layer for AI agents. Agents can code and hold a wallet. But they still can't buy their own intelligence without a human. With OmniRail, they can. One key, 560+ models: LLMs, image, video, voice. They pay per call in USDG with x40",
@@ -7633,10 +7659,9 @@
     "Got a great answer? Share it with one link \ud83d\udd17 Press Share in OmniRail Chat and send the link. Anyone can read it without an account, and continue the conversation in their own chat. Try it \u2192 https://omnirail.org/chat",
     "Building an agent, a bot or an app? Build it on OmniRail \ud83d\udee0 One key, every model, paid in crypto. Tell us about your project: we review it by hand, help you integrate, and feature the best ones. Apply \u2192 https://omnirail.org/build",
     "Moderating a busy group with a chat model is slow and expensive: every message becomes a paragraph you then have to read. With Jev, every message gets one quick question: fine, spam, scam link or abuse? The answer comes back as a choice with a probability, and the bot acts on it: let it through, del",
-    "You can top up OmniRail with $RAIL. Send it from your wallet and it is credited in dollars at its on-chain price. No fee, only network gas. Try it \u2192 https://omnirail.org/dashboard",
-    "Voice mode, with any model \ud83c\udf99\ufe0f In OmniRail Chat, tap the voice button and talk. The answer is spoken while it is still being written, and you can cut in by tapping the orb. Not tied to one model: pick the one you want. Try it \u2192 https://omnirail.org/chat"
+    "You can top up OmniRail with $RAIL. Send it from your wallet and it is credited in dollars at its on-chain price. No fee, only network gas. Try it \u2192 https://omnirail.org/dashboard"
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "erc8004markets": {
    "handle": "ERC8004Markets",
@@ -10976,12 +11001,12 @@
    "following": 4,
    "posts": 53,
    "verified": "individual",
-   "last_post": "2026-10-15T01:58:00+00:00",
-   "sample": 19,
+   "last_post": null,
+   "sample": 0,
    "sample_full_week": false,
    "posts_7d": 0,
-   "avg_likes": 26.6,
-   "avg_views": 1897,
+   "avg_likes": null,
+   "avg_views": null,
    "bio_site": "http://mekiba.si",
    "bio": "Quantum-first security for Web3. Scan your wallet's quantum exposure, test NIST post-quantum crypto in the browser. We never DM first. $MEKIBA soon.",
    "cas": [
@@ -10990,28 +11015,8 @@
    "fake_posts": [
     "\u26a0\ufe0f $MEKIBA is NOT live yet Dozens of fake tokens are using the mekiba name and logo right now, on several chains. None of them are ours. 0 official contracts exist today. The real CA will be posted on (Oct 14 15:11 UTC)"
    ],
-   "texts": [
-    "there are ~2^256 possible private keys. a 78-digit number. guessing yours? not with every computer on earth. a quantum computer wouldn't guess. it would work backwards from your public key. is yours on-chain? https://mekiba.si/terminal",
-    "what's next for mekiba: live: Quantum Scan + Key Lab next: Quantum Vault, post-quantum encryption for files and notes, client-side phase 2: Guardian, ships only after an external audit phase 3: mobile app no dates. we ship, then we post. https://mekiba.si/products",
-    "vitalik at devconnect: \"elliptic curves are going to die.\" ECDSA is what signs every tx on ethereum, bitcoin and most chains. every tx you signed put your public key on-chain. step 1: know if you're exposed. https://mekiba.si/terminal",
-    "burn #3 \ud83d\udd25 5,623,582 $MEKIBA sent to 0x000\u2026dEaD total burned: 13,937,436 $MEKIBA 1.39% of supply, gone for good 3 burns, all on-chain, all verifiable: https://robin.etherscan.io/tx/0x5a9f15781de73150076b1a820d1bd011557d54b9b30981525d67fd23c454a2b7",
-    "quantum scan, first 2 days live: 183 wallets scanned 162 already have their public key on-chain that's 89% EVM: 148 of 168 Solana: 14 of 14 (the address is the key) Bitcoin: 0 of 1 counts only, no addresses. scan yours: https://mekiba.si/terminal",
-    "anon went full McAfee mode: hoodie, jungle, zero txs signed. pubkey never hits the chain, nothing to harvest. also nothing moves. ever. you don't need the jungle. just know where you stand: https://mekiba.si/terminal",
-    "Another one. 4,120,284 $MEKIBA burned. That makes 8,313,854 in total, 0.83% of supply, gone for good. On-chain: https://robin.etherscan.io/tx/0x21039cdfa901916f0a3c9bce3dda996c152fb051ba340d529c9c3e4e7a087a49",
-    "\ud83d\udd25 4,193,570 $MEKIBA burned. That's 0.42% of total supply, sent to 0x000\u2026dEaD. No private key, no way back. Verify it yourself: https://robin.etherscan.io/tx/0x1993655cbe8964afab5062bb135b5a020a88233b8e7152ab1da6fdee807c3e11",
-    "Harvest now, decrypt later only works if your data was encrypted the old way. Quantum Vault: post-quantum encryption for your files and notes. ML-KEM + AES-GCM, all in your browser. Coming soon.",
-    "Launch day is done. Building day starts now. First thing to do as a holder (or not): paste your address into Quantum Scan and check if your key is already public. Robinhood Chain, Ethereum, Base, Bitcoin, Solana. Free forever. https://mekiba.si/terminal",
-    "$MEKIBA DexScreener profile is updated. Logo, banner and official links are live: https://mekiba.si, @mekibaq, https://t.me/mekibaq. Always match the CA with the one on https://mekiba.si. https://dexscreener.com/robinhood/0x147ee73cad7d590894c7374015e973cbc1968571ca3b04f4e1529c0e0687a080",
-    "Dev buy locked. 50,000,000 $MEKIBA (5% of supply), bought in the launch transaction. Planned use when it unlocks: 2% bug bounty, 2% integration grants, 1% Holder access for researchers and educators. Every move gets announced.",
-    "$MEKIBA is live on Pons. CA: 0xd45de5bad7603c47bfa0a583503a80da19174089 Robinhood Chain. Supply 1,000,000,000. Launch liquidity locked by Pons.",
-    "1 hour. $MEKIBA goes live on Pons, Robinhood Chain. The official contract will only be posted here, on https://t.me/mekibaq and on https://mekiba.si. Anything you see before that is not ours. The toolkit is already live: https://mekiba.si/terminal",
-    "\u26a0\ufe0f $MEKIBA is NOT live yet Dozens of fake tokens are using the mekiba name and logo right now, on several chains. None of them are ours. 0 official contracts exist today. The real CA will be posted only: - here, in the official portal - on X: @mekibaq - on http://mekiba.si Admins never DM first. Nob",
-    "$MEKIBA launches on Pons at 17:00 UTC 14 OCT 2026. London 18:00 New York 13:00 Singapore 01:00 (+1 day) The official CA will only be posted by us, on https://t.me/mekibaq and on https://mekiba.si. Anything earlier is not ours.",
-    "What does a post-quantum key actually look like? Short answer: a lot bigger than the one in your wallet. \ud83d\udc47",
-    "5/ You can generate all three yourself. Key Lab runs ML-KEM, ML-DSA and SLH-DSA in your browser. Real keys, real sizes. https://mekiba.si/terminal",
-    ""
-   ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "texts": [],
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "alexalabshq": {
    "handle": "AlexaLabsHQ",
@@ -11109,35 +11114,41 @@
    "id": "2070331611338735616",
    "name": "\u90b1\u656c\u5e43 Pardn Chiu",
    "joined": "2026-06-26T02:23:00+00:00",
-   "followers": 917,
+   "followers": 919,
    "following": 936,
-   "posts": 2831,
+   "posts": 2866,
    "verified": "individual",
-   "last_post": "2026-11-06T21:32:21+00:00",
-   "sample": 12,
-   "sample_full_week": false,
-   "posts_7d": 12,
-   "avg_likes": 0.5,
-   "avg_views": 60,
+   "last_post": "2026-11-07T11:47:20+00:00",
+   "sample": 18,
+   "sample_full_week": true,
+   "posts_7d": 18,
+   "avg_likes": 0.1,
+   "avg_views": 19,
    "bio_site": "https://pardn.io",
    "bio": "Infrastructure Engineering \u2014 Show code, not just words.\nIndie dev behind Agenvoy \u2014 A local AI agent harness in Go that runs 24/7 with auto-built tools",
    "cas": [],
    "fake_posts": [],
    "texts": [
+    "1 is the easiest of the three for any senior engineer. just takes time. 2 is the hardest. human focus has limits. when you review 100-1000 of lines at once, most people will likely miss something. so i only let agents handle localized algorithm optimizations, or output docs/readmes where mistakes wo",
+    "shipping is always easier than maintaining. so u can see a bunch of vibes shipping new stuff, but no one tells u what they updated or optimized on the old projects",
+    "trrrrrrrrruuuuuuuue. shipping isn't the finish line, it's just the start. handling failures, maintaining it, scaling for real user traffic: that's what we engineers deal with day in and day out. a lot of vibes just ship and collect dust. but software loses most of its value after half a year without",
+    "tbh, my algorithm is getting worse lol. for algorithms, i usually write it myself and then still ask opus to optimize it, and test the actual difference between the two. i think ai can probably do better than me at this part many of the time but data structures are the base, i don't think we can thr",
+    "already, not being. tbh i'd rather call ai to work with than call a junior and get their confused, lazy, or just ungood feeling. agent can do what i tell them to do (most of the time), but junior can't. even some juniors just ship llm output with no review, and that prompt is not something i assigne",
+    "true, it's been silly this week. not following my assignment, even the not-to-do rule i wrote down in claude.md, which is only 20 lines, it still skipped",
+    "just tell them, maybe u can ship shit, but u still don't have the ability to maintain it",
+    "i\u2019m curious\u2014how many of you use grok in your daily work? not the grok bot, but grok as the model in your harness or coding agent. claude / chatgpt / grok / gemini... which one is your ride or die?",
+    "first, how much will companies raise that one person's salary?",
+    "there are two types of coders in the ai era: 1. those who build with ai, review its work, and step in when it messes up. we call them engineers. 2. those who let ai design and build everything, pray it works, and have no control over the result. we call them prompters. do u agree?",
+    "this tells us that engineer\u2019s todo is a lie lol. we leave a comment, forget about it, and believe someone fixes it someday.",
+    "learning logic and databases gets we further than people without tech skills. they\u2019re stuck at the surface of what ai can do\u2014enough for a demo, but not a real product.",
+    "psa: prompting alone is just generating. drawing / writing / coding run on core knowledge. plz don't generate the whole thing with ai and then claim \u201ci made it.\u201d shipping 3 things a day doesn't make u an artist/writer/engineer. only when u can rebuild it without ai is it truly urs.",
+    "if we can't build it ourselves or it'd take us way too long, we should price our own time. someone saved us tons of time and delivered what we asked. the real question is: is that time worth the price? freelance rule, ai or not: done right = 1x done fast = 3x+",
+    "how can i make the skills we've built up worth more? the answer is to make the bar lower. let a bunch of people who don't wanna put in the work into the field so we look good by comparison. if fewer people can do the stuff we can do, then for any claim they can do it, tbh, most people can't judge wh",
     "how can i make the skills we've built up worth more? the answer is to make the bar lower. let a bunch of people who don't wanna put in the work into the field so we look good by comparison. if fewer people can do the stuff we can do, then for any claim they can do it, tbh, most people can't judge wh",
     "if we can't build it ourselves or it'd take us way too long, we should price our own time. someone saved us tons of time and delivered what we asked. the real question is: is that time worth the price? freelance rule, ai or not: done right = 1x done fast = 3x+",
-    "psa: prompting alone is just generating. drawing / writing / coding run on core knowledge. plz don't generate the whole thing with ai and then claim \u201ci made it.\u201d shipping 3 things a day doesn't make u an artist/writer/engineer. only when u can rebuild it without ai is it truly urs.",
-    "Agenvoy@v1.3.0-1.3.2 Background execution (Beta, TUI only) reports task status in real time, and you can keep discussing the same topic while the task runs Decision model is now part of the harness when one is configured, it is used automatically to load skills on demand, trim tool output and check ",
-    "Agenvoy@v1.3.0-1.3.2 Background execution (Beta, TUI only) reports task status in real time, and you can keep discussing the same topic while the task runs Decision model is now part of the harness when one is configured, it is used automatically to load skills on demand, trim tool output and check ",
-    "software engineering isn't about building, it's about being able to maintain it. vibe coding? cool, but if u can't rebuild core features with ur own expertise, plz don't go around saying \"i dev'd it\" or \"i made it\", u just prompted it",
-    "seriously, is GitHub using a tiny distilled model for abuse detection to cut costs? the accuracy feels really off.",
-    "shipping several projects a day isn\u2019t impressive, especially now that everyone\u2019s vibe coding. what\u2019s impressive is sticking with one project and maintaining it for years on end.",
-    "tried it myself. star-for-star sites are a rollercoaster \u2014 sure, u\u2019ll hit 300 or more in a week, but they\u2019re almost all burner accounts. indie devs, if u want real exposure for ur project, these sites aren\u2019t worth ur time. u just get stars nobody\u2019s behind, and GitHub wipes them in a day. this week w",
-    "if your job is to execute, being a 95 at one thing > being an 80 at three things >>>>> being a walking wikipedia with no real experience being a generalist only really pays off if you're a manager who's actually been in the trenches, or a founder who can raise money. if you're just an employee, bein",
-    "mcp tools aside, bet you're wondering where this harness came from? Agenvoy, easily one of the most convenient harnesses you'll ever use. command install, works with all the major models, 3-layer memory, subagents, background task tracking, and the base prompt is only 4k.",
-    "\u6e2c\u8a66\u4e86 ai max 395 128G \u642d\u914d qwen flash next + gufo \u90e8\u7f72\u5f8c \u6211\u6bd4\u8f03\u60f3\u554f\uff0c\u6c92\u6709\u96b1\u79c1\u6027\u7684\u60c5\u6cc1\u4e0b\uff0c\u96e3\u9053\u8cb7\u8a02\u95b1\u4e0d\u9999\u55ce\uff1f"
+    "psa: prompting alone is just generating. drawing / writing / coding run on core knowledge. plz don't generate the whole thing with ai and then claim \u201ci made it.\u201d shipping 3 things a day doesn't make u an artist/writer/engineer. only when u can rebuild it without ai is it truly urs."
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "nocturn_rh": {
    "handle": "Nocturn_rh",
@@ -14934,7 +14945,7 @@
    "id": "2049097102022901760",
    "name": "Vigolium",
    "joined": "2026-04-28T12:04:02+00:00",
-   "followers": 148,
+   "followers": 149,
    "following": 2,
    "posts": 11,
    "verified": null,
@@ -14949,7 +14960,7 @@
    "cas": [],
    "fake_posts": [],
    "texts": [],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "athenamoney_rh": {
    "handle": "athenamoney_Rh",
@@ -15055,7 +15066,7 @@
    "id": "2118157013913870339",
    "name": "Derrick",
    "joined": "2026-11-05T01:52:33+00:00",
-   "followers": 19,
+   "followers": 20,
    "following": 3,
    "posts": 13,
    "verified": null,
@@ -15064,7 +15075,7 @@
    "sample_full_week": false,
    "posts_7d": 12,
    "avg_likes": 2.2,
-   "avg_views": 25,
+   "avg_views": 26,
    "bio_site": "https://derrick-app.com/",
    "bio": "Describe your ideal customer and let AI build the list with verified emails and phones for every lead.\n\n0x4979ad54815e974fe05f520a2c7d754c6ef7b430",
    "cas": [
@@ -15085,7 +15096,7 @@
     "Run it from the web app or right inside Google Sheets and Claude or plug it into your own code with the API.",
     "Every lead gets a verified work email and a direct mobile from a multi-source lookup and if we find nothing you pay nothing."
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "u2u_xyz": {
    "handle": "u2u_xyz",
@@ -15139,8 +15150,8 @@
    "sample": 18,
    "sample_full_week": false,
    "posts_7d": 6,
-   "avg_likes": 17.7,
-   "avg_views": 1907,
+   "avg_likes": 17.8,
+   "avg_views": 1913,
    "bio_site": "http://vespin.dev",
    "bio": "building Vespin (YC P26)",
    "cas": [],
@@ -15165,7 +15176,7 @@
     "GPT Live is getting a little too real",
     "surprised they didn't make it into a decision model"
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "meow": {
    "handle": "meow",
@@ -15173,7 +15184,7 @@
    "id": "1356302314781466624",
    "name": "Meow",
    "joined": "2021-02-01T18:04:25+00:00",
-   "followers": 14243,
+   "followers": 14242,
    "following": 1,
    "posts": 1258,
    "verified": "organization",
@@ -15182,7 +15193,7 @@
    "sample_full_week": false,
    "posts_7d": 0,
    "avg_likes": 21.0,
-   "avg_views": 4857,
+   "avg_views": 4869,
    "bio_site": "http://meow.com",
    "bio": "The banking platform built for AI agents & global teams. Open a bank account with your AI agent: http://meow.com/mcp",
    "cas": [],
@@ -15190,7 +15201,7 @@
    "texts": [
     "The Meow team is in SF for @CoinAlts. See you there."
    ],
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "theidmfun": {
    "handle": "theidmfun",
@@ -20173,28 +20184,23 @@
    "id": "2118714090004635649",
    "name": "Kaja",
    "joined": "2026-11-06T14:40:31+00:00",
-   "followers": 3,
+   "followers": 2,
    "following": 4,
-   "posts": 12,
+   "posts": 7,
    "verified": null,
-   "last_post": "2026-11-07T14:30:32+00:00",
-   "sample": 11,
+   "last_post": "2026-11-07T14:16:26+00:00",
+   "sample": 6,
    "sample_full_week": false,
-   "posts_7d": 11,
-   "avg_likes": 0.5,
-   "avg_views": 50,
+   "posts_7d": 6,
+   "avg_likes": 0.0,
+   "avg_views": 67,
    "bio_site": "http://Kaja.io",
-   "bio": "Open-source AI agent that browses the web, remembers you and learns new tricks.\n\n$KAJA 0x8087d449fdc1de7310256c4d53bd3bd612511a6e ( robinhood chain )",
+   "bio": "Open-source AI agent that browses the web, remembers you and learns new tricks.\n\n0x8087d449fdc1de7310256c4d53bd3bd612511a6e ( robinhood evm )",
    "cas": [
     "0x8087d449fdc1de7310256c4d53bd3bd612511a6e"
    ],
    "fake_posts": [],
    "texts": [
-    "Skills. Tools. MCP servers. One click each, straight from the page at https://kaja.io. No terminal, no config. New trick learned.",
-    "https://kaja.io, but in your pocket. \u2192 Text it on Telegram \u2192 Send a photo, get pictures back \u2192 Run your own bot, no sign-up Wherever you are.",
-    "Why would you pick a persona for every task? Kaja switches hats itself. Browse, plan, write, present \u2014 it picks the right one and gets on with it.",
-    "Tell it once. A week later it still knows you're vegetarian and hate cilantro. That's the whole feature.",
-    "Why register? You don't have to. \u2192 Stay local: your models, your Telegram bot, your data at home. \u2192 Go cloud: sign up, freeload on the free models we round up. Both live at https://kaja.io. Switch any time",
     "dev supply burned. tx: 0x78a4b467e7ffdc01019ba9ea26d5b2f48d2cbc6696399f86e9da86224546735d",
     "Coming next: \u2192 Chat: the bubble in the corner of any page. \u2192 Care: an agent that tracks your mood between check-ins. \u2192 Voice: mic in, mouth out. Same agent. New places to meet it.",
     "Kaja already browses, remembers and learns new tricks. Live today: \u2192 Browser, terminal or Telegram. Local or cloud. \u2192 Drives a real Chrome, keeps notes between chats. \u2192 Skills, tools and MCP in one click. \u2192 Sandbox: one docker command. \u2192 Barkochba is playable.",
@@ -20202,7 +20208,7 @@
     "Docs, install and every way in: https://kaja.io Source: https://github.com/SubZtep/kaja",
     "Kaja is an open-source AI agent that browses the web, remembers you, and learns new tricks. Run it locally. Your models, your data. https://kaja.io"
    ],
-   "checked": "2026-11-07T14:25:22+00:00"
+   "checked": "2026-11-07T14:15:02+00:00"
   },
   "truecoursedev": {
    "handle": "truecoursedev",
@@ -20210,30 +20216,22 @@
    "id": "2118902395891818497",
    "name": "Truecourse",
    "joined": "2026-11-07T03:05:19+00:00",
-   "followers": 2,
+   "followers": 6,
    "following": 2,
-   "posts": 8,
+   "posts": 11,
    "verified": null,
-   "last_post": "2026-11-07T14:26:45+00:00",
-   "sample": 7,
+   "last_post": null,
+   "sample": 0,
    "sample_full_week": false,
-   "posts_7d": 7,
-   "avg_likes": 0.6,
-   "avg_views": 24,
+   "posts_7d": 0,
+   "avg_likes": null,
+   "avg_views": null,
    "bio_site": "https://truecourse.dev/",
    "bio": "Engineering the future with AI, precision, and human control. The next standard starts here.",
    "cas": [],
    "fake_posts": [],
-   "texts": [
-    "\"It failed\" is not a bug report. Every TrueCourse flow keeps the evidence: a replay, a screenshot per step, expected vs. actual, and the full transcript. Step 4 expected \"Refunded to Visa 4242\". It found \"Issued as store credit\".",
-    "supply burned. https://robinhoodchain.blockscout.com/tx/0xaa1ff2a43775053eb077b0f900bbbe3def028496ca823637620218bfdd391b92",
-    "Build passed. Tests passed. Still blocked. The docs say refunds must return to the original payment method. This PR sent them to store credit. A failing TrueCourse check quotes the exact doc sentence, next to what the product actually did.",
-    "How TrueCourse works, in 30 seconds: 01 Connect your docs 02 Connect your repository 03 Each requirement becomes a flow 04 Every pull request is checked 05 Claude Code reads the failure over MCP and fixes it https://docs.truecourse.dev",
-    "There are two kinds of bugs. Code bugs: null refs, off-by-ones, races. AI reviewers are good at these. Intent bugs: clean, safe code that does the wrong thing. A reviewer reading a diff can't see what your product promised. Your docs can.",
-    "AI-written commits went up 37x in a year across 99 open-source SaaS repos. Bug rate barely moved: 18.9 \u2192 17.7 per 100 commits. Median merge time: +44%. The bottleneck didn't disappear. It moved from writing code to checking it.",
-    "Meet TrueCourse, the IDE for product owners. AI writes the code. You own what it does. It turns the requirements you already wrote into checks on every PR, and blocks merges that break what your docs promise. Open source. Backed by Berkeley SkyDeck. https://truecourse.dev"
-   ],
-   "checked": "2026-11-07T14:25:22+00:00"
+   "texts": [],
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "nexurlslll": {
    "handle": "nexurlslll",
@@ -20275,7 +20273,7 @@
     "Wow cat as a Service on NexURLs. A simple API that serves random cat images and GIFs with optional text, tags, sizes and filters. https://nexurls.com/t/Sqb9vs",
     "I wish more websites had a little personality. Some of the coolest ones look like somebody built them over a weekend and just kept going."
    ],
-   "checked": "2026-11-07T14:25:22+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "reactable_io": {
    "handle": "reactable_io",
@@ -20304,7 +20302,7 @@
     "What's actually behind your app? \ud83d\udc40 Reactable assesses your code across 12 critical areas, including: \ud83d\udd10 Security \ud83e\udde9 Architecture \u26a1 Code quality \ud83d\udee1\ufe0f Data privacy Get a clear readiness score and direct prompts you can use to fix issues we find.",
     "Building an app has never been easier. Knowing if it's actually ready to launch? That's another story. Meet Reactable. \ud83d\ude80 We help founders and developers uncover hidden risks in their code with AI-powered assessments."
    ],
-   "checked": "2026-11-07T14:25:22+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   }
  },
  "ids": {
@@ -24734,8 +24732,8 @@
     197
    ],
    "2026-11-07": [
-    372,
-    201
+    371,
+    208
    ]
   },
   "klll_floor": {
@@ -24776,7 +24774,7 @@
     79
    ],
    "2026-11-07": [
-    307,
+    306,
     79
    ]
   },
@@ -24838,8 +24836,8 @@
     487
    ],
    "2026-11-07": [
-    732,
-    490
+    734,
+    491
    ]
   },
   "namidefi": {
@@ -24894,7 +24892,7 @@
     73
    ],
    "2026-11-07": [
-    680,
+    679,
     73
    ]
   },
@@ -24956,8 +24954,8 @@
     1427
    ],
    "2026-11-07": [
-    1793,
-    1435
+    1790,
+    1441
    ]
   },
   "offrouter": {
@@ -24984,8 +24982,8 @@
     163
    ],
    "2026-11-07": [
-    406,
-    164
+    405,
+    165
    ]
   },
   "indiecreations_": {
@@ -25984,8 +25982,8 @@
     2820
    ],
    "2026-11-07": [
-    917,
-    2831
+    919,
+    2866
    ]
   },
   "nocturn_rh": {
@@ -27008,7 +27006,7 @@
     11
    ],
    "2026-11-07": [
-    148,
+    149,
     11
    ]
   },
@@ -27018,7 +27016,7 @@
     13
    ],
    "2026-11-07": [
-    19,
+    20,
     13
    ]
   },
@@ -27038,7 +27036,7 @@
     1258
    ],
    "2026-11-07": [
-    14243,
+    14242,
     1258
    ]
   },
@@ -28046,14 +28044,14 @@
   },
   "kajadotio": {
    "2026-11-07": [
-    3,
-    12
+    2,
+    7
    ]
   },
   "truecoursedev": {
    "2026-11-07": [
-    2,
-    8
+    6,
+    11
    ]
   },
   "nexurlslll": {
@@ -28160,11 +28158,11 @@
   },
   "quietwinning": {
    "found": true,
-   "members": 185,
+   "members": 184,
    "kind": "subscribers",
    "online": null,
    "name": "quietwinning",
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "namidefi": {
    "found": true,
@@ -28321,7 +28319,7 @@
   "quietwinning": {
    "2026-11-05": 186,
    "2026-11-06": 185,
-   "2026-11-07": 185
+   "2026-11-07": 184
   },
   "namidefi": {
    "2026-11-05": 1036,
@@ -28871,7 +28869,7 @@
   "useverdex": {
    "twitter": "useverdex",
    "blog": "https://useverdex.xyz",
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "melandlabs": {
    "twitter": "AlloomiAI",
@@ -29126,7 +29124,7 @@
   "pardnchiu": {
    "twitter": "pardnchiu",
    "blog": "https://pardn.io",
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "nocturn-ai-developer": {
    "twitter": null,
@@ -29346,17 +29344,17 @@
   "derrickapporg": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "unicornultrafoundation": {
    "twitter": null,
    "blog": "https://u2u.xyz",
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "reviewstage": {
    "twitter": null,
    "blog": "https://vespin.dev",
-   "checked": "2026-11-07T02:27:43+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   },
   "discodirector": {
    "twitter": "badfriend",
@@ -29671,12 +29669,12 @@
   "subztep": {
    "twitter": "SubZtep",
    "blog": "",
-   "checked": "2026-11-07T14:25:22+00:00"
+   "checked": "2026-11-07T14:15:02+00:00"
   },
   "truecourse-ai": {
    "twitter": null,
    "blog": "",
-   "checked": "2026-11-07T14:25:22+00:00"
+   "checked": "2026-11-07T14:37:38+00:00"
   }
  }
 }
