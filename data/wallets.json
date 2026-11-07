@@ -7850,5 +7850,15 @@
    }
   ],
   "wallet_txs": 91
+ },
+ "0x57d919bc38ca9d3c1d67d63edf82b042f522b62c": {
+  "checked": "2026-11-07T09:47:25+00:00",
+  "pons": true,
+  "wallet": "0x69ad8664b8a8dd67edebe25b684bdf0778790219",
+  "launches": 164,
+  "before": 56,
+  "after": 107,
+  "others": [],
+  "wallet_txs": 1888
  }
 }
