@@ -5494,7 +5494,23 @@
   "0x944025cf8f3d3071609a57f8466cecf7ba2bad0e": "2026-11-07T12:15:27+00:00",
   "0xb76aa886c4ea0b1c2adfe6aeeb3ccb0dbca6e0c5": "2026-11-07T12:15:27+00:00",
   "0xe4c32221fc38764675d931ea98e3b8a0a62cef92": "2026-11-07T12:15:27+00:00",
-  "0xff20a70016ef1c69504a143d157319642b9532cb": "2026-11-07T12:15:27+00:00"
+  "0xff20a70016ef1c69504a143d157319642b9532cb": "2026-11-07T12:15:27+00:00",
+  "0xe653eb1a9694e0bc60273eb27f5917db909eb115": "2026-11-07T12:30:29+00:00",
+  "0x2fe05351f36c229651ebbc7a95dddea00eb3f709": "2026-11-07T12:30:29+00:00",
+  "0xaa180932980bb30514d52a2564765be794ccf5ee": "2026-11-07T12:30:29+00:00",
+  "0x3e615d5c84232ddbd1fb7bab214acb6c52765a93": "2026-11-07T12:30:29+00:00",
+  "0xd2bf95e7267145e3ebde671ffda5e33179652597": "2026-11-07T12:30:29+00:00",
+  "0x6f2e8eb9314a4e1bff830e175c4c788602575464": "2026-11-07T12:30:29+00:00",
+  "0xe4e7e1f3336745076a1bf5c77f3f65b29af281f1": "2026-11-07T12:30:29+00:00",
+  "0xb22b23f598f0bfa933132cb5a1da8e8755e5bd5d": "2026-11-07T12:30:29+00:00",
+  "0x6b5ef7fb8368a13921423ceb96a7190c16a3e7a0": "2026-11-07T12:30:29+00:00",
+  "0x04bbdfb084333cab1676387478be95295cf4f764": "2026-11-07T12:30:29+00:00",
+  "0x490fc66a4596a37ed69dcb136e42ec22357ee118": "2026-11-07T12:30:29+00:00",
+  "0x5a5f31bd5ac51b5458dde96c87b8085ab9c537de": "2026-11-07T12:30:29+00:00",
+  "0x9ef99eeed25c7bcf496921f755d0637cc5f84020": "2026-11-07T12:30:29+00:00",
+  "0xab528bbe7d5d917e7c555f9b5e804adca0fde0c5": "2026-11-07T12:30:29+00:00",
+  "0xb8c4c904a9ae86ebfe41b35cf0b674839c254020": "2026-11-07T12:30:29+00:00",
+  "0xd025f752a9e495d230cfd80e975b68325ff4ec16": "2026-11-07T12:30:29+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -29754,7 +29770,8 @@
      "pushed": "private",
      "commits": "private"
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x62c6a2a8b86a61f55e622b142e46dfe1ab1c1293": {
    "address": "0x62c6a2a8b86a61f55e622b142e46dfe1ab1c1293",
@@ -29784,10 +29801,82 @@
     },
     "roadmap": [],
     "facts": {}
+   },
+   "launched_src": "pons"
+  },
+  "0x2fe05351f36c229651ebbc7a95dddea00eb3f709": {
+   "address": "0x2fe05351f36c229651ebbc7a95dddea00eb3f709",
+   "symbol": "DIGGD",
+   "name": "Diggd",
+   "description": "Buried now. Dug up at 1M. Bury your roadmap, your next CA or your confession on Robinhood Chain: it stays six feet under until the token hits its market cap or a date arrives. The hash goes on-chain, so not a word can change.",
+   "website": "https://diggd.fun",
+   "twitter": "https://x.com/Diggd_rbh",
+   "launched": "2026-11-07T12:29:23+00:00",
+   "mcap": 8167.7447843950185,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T12:30:29+00:00",
+   "scored_at": "2026-11-07T12:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "repo": "Diggd-Solana/diggd",
+    "score": 25,
+    "raw_score": 40,
+    "capped": true,
+    "not_theirs": false,
+    "flags": [
+     "X account doesn't match the website: the token links @Diggd_rbh, but its website links @diggd_sol \u2014 may be someone copying the project's links"
+    ],
+    "reasons": {
+     "Platform": [
+      "\ud83d\udfe1 Looks like it earns fees from users (fees, launchpad) \u2014 guess from their text, needs a look (+20)",
+      "\ud83d\udfe1 Says fees go back to the token (burn, buy back, buyback) \u2014 claimed, not checked on chain (+10)"
+     ],
+     "Really theirs": [
+      "\u274c Token's address isn't posted by their repo, website or official X (+0)",
+      "\u2705 Repo and website: website links the repo, repo links the website (+10)",
+      "\u2139\ufe0f Copy check couldn't run yet: GitHub's search hasn't indexed this repo (common for new repos), will retry",
+      "\u2705 Their website mentions the token: $DIGGD \u2014 \u201cected=\"true\"] { background: var(--ink); color: var(--gold); } /* $DIGGD: three layers */ .layers { margin-top: 10px; border-top: 3px soli\u201d (https://diggd.fun)",
+      "\u2705 Their docs mentions the token: $DIGGD \u2014 \u201cected=\"true\"] { background: var(--ink); color: var(--gold); } /* $DIGGD: three layers */ .layers { margin-top: 10px; border-top: 3px soli\u201d (https://diggd.fun#/token)",
+      "\u2705 Their docs mentions the token: $DIGGD \u2014 \u201cected=\"true\"] { background: var(--ink); color: var(--gold); } /* $DIGGD: three layers */ .layers { margin-top: 10px; border-top: 3px soli\u201d (https://diggd.fun#/docs/introduction)",
+      "\u2705 Their docs mentions the token: $DIGGD \u2014 \u201cected=\"true\"] { background: var(--ink); color: var(--gold); } /* $DIGGD: three layers */ .layers { margin-top: 10px; border-top: 3px soli\u201d (https://diggd.fun#/docs/mcp)"
+     ],
+     "Real code": [
+      "\u274c 6 changes over 0 days (+0)",
+      "\u274c No smart contracts or tests (+0)"
+     ],
+     "Team": [
+      "\u2139\ufe0f One person, new account, no outside interest: account 0 days old, 1 people, 0 stars, 0 forks"
+     ],
+     "Safety": [
+      "\u274c No contract addresses in the README (+0)",
+      "\u274c No security, audit or timelock info (+0)"
+     ]
+    },
+    "roadmap": [
+     "No roadmap found in the repo or on the website"
+    ],
+    "notes": [],
+    "token_mentioned": true,
+    "copy_of": null,
+    "sources_read": [
+     "https://diggd.fun",
+     "https://diggd.fun",
+     "https://diggd.fun#/token",
+     "https://diggd.fun#/docs/introduction",
+     "https://diggd.fun#/docs/mcp",
+     "https://diggd.fun#/docs/rest-api"
+    ],
+    "facts": {
+     "commits": 6,
+     "stars": 0,
+     "created": "2026-11-07",
+     "pushed": "2026-11-07",
+     "people": 1
+    }
    }
   }
  },
- "checked_total": 5484,
+ "checked_total": 5500,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -32929,6 +33018,11 @@
   }
  ],
  "symbol_counts": {
+  "CEVA": 1,
+  "DIGGD": 1,
+  "CIEN": 1,
+  "ARCHY": 1,
+  "WESTRA": 1,
   "TRESTLE": 1,
   "TRP": 1,
   "STM": 1,
@@ -32963,19 +33057,20 @@
   "CCP": 1,
   "GOBLE": 1,
   "BLIT": 1,
-  "NARENDRAP": 1,
-  "MERYAL": 1,
-  "HN": 1,
-  "SILKCOMPUT": 1,
-  "OILHOOD": 1,
   "HMM": 4,
   "OAK": 2,
   "DELTA": 1,
   "WIF": 1,
   "PONS": 1,
-  "HARMONIC": 1,
-  "CHARLIE": 1,
   "GAGE": 1,
+  "HARMONIC": 1,
+  "microduck": 1,
+  "CHARLIE": 1,
+  "NARENDRAP": 1,
+  "MERYAL": 1,
+  "HN": 1,
+  "SILKCOMPUT": 1,
+  "OILHOOD": 1,
   "ROBINHOOD": 1,
   "RIVET": 1,
   "BELIEVEPAD": 1,
@@ -33012,7 +33107,6 @@
   "AXORA": 1,
   "QUACK": 1,
   "VOXEL": 1,
-  "WESTRA": 1,
   "TH": 1,
   "ARNOLD": 1,
   "PATRIOTP": 1,
@@ -33087,7 +33181,6 @@
   "OBT": 1,
   "VEILED": 1,
   "QEDRA": 1,
-  "microduck": 1,
   "PRIV": 1,
   "PRIMAL": 2,
   "XARIA": 2,
@@ -57550,7 +57643,8 @@
      "contract_addresses": 26,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xa1762c3bb9a9930666f03d25b37205a7d2e338b8": {
    "address": "0xa1762c3bb9a9930666f03d25b37205a7d2e338b8",
@@ -57620,7 +57714,8 @@
      "contract_addresses": 5,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xb451653860c3a454373530b8eb0e1de0cdf5fe2b": {
    "address": "0xb451653860c3a454373530b8eb0e1de0cdf5fe2b",
@@ -57689,6 +57784,77 @@
       "https://kicker.markets/docs"
      ],
      "contract_addresses": 26,
+     "winners_linked": []
+    }
+   },
+   "launched_src": "pons"
+  },
+  "0xe653eb1a9694e0bc60273eb27f5917db909eb115": {
+   "address": "0xe653eb1a9694e0bc60273eb27f5917db909eb115",
+   "symbol": "CEVA",
+   "name": "Cevanos",
+   "description": "When a customer writes in by chat, email, WhatsApp or voice, an AI agent from Cevanos looks up the answer in the company's systems. Harder cases go to the team with the full context.",
+   "website": "https://cevanos.ai",
+   "twitter": "https://x.com/cevanos",
+   "site_via_x": null,
+   "launched": "2026-11-07T12:29:25+00:00",
+   "mcap": 3972.196297956863,
+   "where": "Pons launchpad (curve)",
+   "first_seen": "2026-11-07T12:30:29+00:00",
+   "scored_at": "2026-11-07T12:30:29+00:00",
+   "found_on": "website",
+   "scoring": {
+    "kind": "site",
+    "v": 3,
+    "repo": null,
+    "score": 20,
+    "raw_score": 20,
+    "capped": false,
+    "flags": [],
+    "reasons": {
+     "Plug-in tools": [
+      "\u2139\ufe0f Site offers API keys for developers (counted, no points) (+0)",
+      "\u274c No sign of an SDK or install line (+0)",
+      "\u274c No sign of an MCP connection for AI agents (+0)",
+      "\u2705 Has docs written for AI to read (/llms.txt) (+10)",
+      "\u2705 Links to developer docs (+5)"
+     ],
+     "Really theirs": [
+      "\ud83d\udfe1 Capped at 60: nothing on their own pages or recent X posts shows this token is theirs",
+      "\u274c Token's address isn't on their website, docs or official X (+0)",
+      "\u274c Lists fewer than 2 contract addresses (+0)"
+     ],
+     "Money and Robinhood Chain": [
+      "\u274c No sign money goes back to the token, or that holding it unlocks anything (+0)",
+      "\u274c No use of stock tokens or USDG (+0)",
+      "\u2705 Takes real payments (\u201cStripe\u201d): a service with paying customers (+5)"
+     ],
+     "Live product": [
+      "\u2139\ufe0f Has a working app (app, dashboard, console or wallet connect)",
+      "\u2139\ufe0f Made for AI agents to use",
+      "\u2139\ufe0f Mentions an audit \u2014 not checked"
+     ]
+    },
+    "roadmap": [],
+    "notes": [],
+    "tools": 2,
+    "listed": true,
+    "copy_of": null,
+    "token_mentioned": false,
+    "sources_read": [
+     "https://cevanos.ai",
+     "https://cevanos.ai",
+     "https://cevanos.ai/llms-full.txt",
+     "https://cevanos.ai/llms.txt",
+     "https://cevanos.ai/docs",
+     "https://cevanos.ai/docs/api",
+     "https://cevanos.ai/docs/integrations",
+     "https://cevanos.ai/pricing"
+    ],
+    "facts": {
+     "tools": 2,
+     "dev_pages": [],
+     "contract_addresses": 0,
      "winners_linked": []
     }
    }
@@ -59110,7 +59276,7 @@
   "0x63b53cf27e3360516defd941442e00f39c57cb1d": "2026-11-06T10:00:38+00:00",
   "0xe10195999a422314155b1e158281dbd4f27adc46": "2026-11-06T10:00:38+00:00",
   "0x590898a162d39f46f8a27fb855d068d08d6b1e18": "2026-11-06T10:00:38+00:00",
-  "0xe9056598e2f1e9bbc2432100f12fcdfc9ab78a0a": "2026-11-06T10:00:38+00:00",
+  "0xe9056598e2f1e9bbc2432100f12fcdfc9ab78a0a": "2026-11-07T12:30:29+00:00",
   "0x134f456ae6d866667a36a1804659e8c265ba2013": "2026-11-06T10:00:38+00:00",
   "0xf3bd9307463f8d26dbed22968b4da18935d9c095": "2026-11-06T10:00:38+00:00",
   "0xd3f244a0ed5de72f5e9d59c69136a11010d76d06": "2026-11-06T10:00:38+00:00",
@@ -59143,11 +59309,11 @@
   "0xfd149b52c4265e6fe9c6d5ae7a39ccc627703875": "2026-11-06T10:41:21+00:00",
   "0xbddd48fe7a97c4c8601cc6c22276d7fd4e2c8513": "2026-11-06T10:41:21+00:00",
   "0xcdf2ad9e12d599640321372499768eca4c4c0000": "2026-11-07T07:24:37+00:00",
-  "0x7ab1f59e871052581d0e5694159a2d6ee0d02b1a": "2026-11-06T10:41:21+00:00",
+  "0x7ab1f59e871052581d0e5694159a2d6ee0d02b1a": "2026-11-07T12:30:29+00:00",
   "0x06e0daf25cba7815f9c9c66e225d6568cc593fb8": "2026-11-06T10:41:21+00:00",
   "0xe59222ebf033d52de9c13a6be9ee788e53dcb762": "2026-11-06T10:41:21+00:00",
   "0x9ff1b213202625c9301f2a85b120bc6a932e7842": "2026-11-06T10:41:21+00:00",
-  "0x5bcbae5106833f9b6b57111def77979db8e467bb": "2026-11-06T10:41:21+00:00",
+  "0x5bcbae5106833f9b6b57111def77979db8e467bb": "2026-11-07T12:30:29+00:00",
   "0x9d8a7a1d1ccf015842f14cb1557a821c7979e993": "2026-11-06T10:41:21+00:00",
   "0xceb77adb8d2c14e81df22c6c6986fc5ec6525166": "2026-11-06T10:41:21+00:00",
   "0x7f3f80e2cb856290c631a70cd1c9cfe46291c25a": "2026-11-06T10:41:21+00:00",
@@ -60346,7 +60512,14 @@
   "0xa1762c3bb9a9930666f03d25b37205a7d2e338b8": "2026-11-07T12:15:27+00:00",
   "0xcbae6c6835af7cd2db8a772c747d772cecdb2ebe": "2026-11-07T12:15:27+00:00",
   "0xb451653860c3a454373530b8eb0e1de0cdf5fe2b": "2026-11-07T12:15:27+00:00",
-  "0x3008beabadceb806218196a9da88df39f83eecf9": "2026-11-07T12:15:27+00:00"
+  "0x3008beabadceb806218196a9da88df39f83eecf9": "2026-11-07T12:15:27+00:00",
+  "0xe653eb1a9694e0bc60273eb27f5917db909eb115": "2026-11-07T12:30:29+00:00",
+  "0xaa180932980bb30514d52a2564765be794ccf5ee": "2026-11-07T12:30:29+00:00",
+  "0x3e615d5c84232ddbd1fb7bab214acb6c52765a93": "2026-11-07T12:30:29+00:00",
+  "0xd2bf95e7267145e3ebde671ffda5e33179652597": "2026-11-07T12:30:29+00:00",
+  "0x6f2e8eb9314a4e1bff830e175c4c788602575464": "2026-11-07T12:30:29+00:00",
+  "0xe4e7e1f3336745076a1bf5c77f3f65b29af281f1": "2026-11-07T12:30:29+00:00",
+  "0x6b5ef7fb8368a13921423ceb96a7190c16a3e7a0": "2026-11-07T12:30:29+00:00"
  },
  "catchup_plain": []
 }

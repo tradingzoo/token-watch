@@ -8310,5 +8310,25 @@
   "after": 0,
   "others": [],
   "wallet_txs": 1
+ },
+ "0x2fe05351f36c229651ebbc7a95dddea00eb3f709": {
+  "checked": "2026-11-07T12:33:29+00:00",
+  "pons": true,
+  "wallet": "0xd157699f5d8a144a508aa322efb8adf87deced4d",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
+ },
+ "0xe653eb1a9694e0bc60273eb27f5917db909eb115": {
+  "checked": "2026-11-07T12:33:29+00:00",
+  "pons": true,
+  "wallet": "0xbc33a68ae9247b2813a76d7f5cd5760763a9f045",
+  "launches": 1,
+  "before": 0,
+  "after": 0,
+  "others": [],
+  "wallet_txs": 1
  }
 }
