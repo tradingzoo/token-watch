@@ -19933,6 +19933,47 @@
     "$XOXO graduated on @fobodotfun \ud83d\udc8b"
    ],
    "checked": "2026-11-07T12:00:35+00:00"
+  },
+  "whathehell125": {
+   "handle": "whathehell125",
+   "found": false,
+   "checked": "2026-11-07T12:15:27+00:00"
+  },
+  "acre_io": {
+   "handle": "ACRE_io",
+   "found": true,
+   "id": "2116033590089646080",
+   "name": "ACRE",
+   "joined": "2026-10-30T05:08:15+00:00",
+   "followers": 64,
+   "following": 5,
+   "posts": 11,
+   "verified": "individual",
+   "last_post": "2026-10-30T13:06:46+00:00",
+   "sample": 8,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 11.5,
+   "avg_views": 225,
+   "bio_site": "https://acre.lat/",
+   "bio": "Turning trading fees into tokenized stock rewards.\nPlant fees. Grow rewards.\nBuilt on Robinhood Chain.\n\n0xa1762c3bb9a9930666f03d25b37205a7d2e338b8",
+   "cas": [
+    "0xa1762c3bb9a9930666f03d25b37205a7d2e338b8"
+   ],
+   "fake_posts": [
+    "$ACRE live now on #Robinhoodchain 0xa1762c3bb9a9930666f03d25b37205a7d2e338b8 *beware of fake CA (Oct 30 09:57 UTC)"
+   ],
+   "texts": [
+    "Are you eligible? \ud83d\udc40 Connect your wallet on https://acre.lat, check Eligibility, then head to Rewards to see the stocks you\u2019ve earned. \ud83c\udf33 Add the minimum balance once your corrected rule is published.",
+    "Every great harvest starts with a seed. \ud83c\udf31 Introducing the Acre Roadmap. \ud83c\udf31 Seed - Launch, treasury, and first rewards. \ud83c\udf3f Sprout - Holder dashboard, community voting, and tracking. \ud83c\udf33 Grow - Stock baskets, compounding, and partnerships. \ud83c\udf43 Harvest - Cross-chain expansion and a community-driven asset eco",
+    "The Acre community is officially open. Join us as we build a new approach to stock-token rewards on Robinhood Chain. Follow development updates, explore the protocol, ask questions, and grow with the community. Plant Fees. Grow Rewards. Join the Acre community: https://t.me/Acre_Community",
+    "$ACRE live now on #Robinhoodchain 0xa1762c3bb9a9930666f03d25b37205a7d2e338b8 *beware of fake CA",
+    "A garden doesn't grow overnight. \ud83c\udf31 It needs resources, time, and care. Acre follows a similar idea. Trading activity generates fees. Those fees can fund stock-token purchases. Eligible holders can participate in reward distributions. That's the idea behind Acre.",
+    "Most tokens rely on attention to create demand. Acre is exploring something different. A system where trading fees help acquire stock-related assets, with rewards allocated to eligible holders. Not a promised yield. A mechanism built around real protocol activity. Plant Fees. Grow Rewards.",
+    "Acre in 3 simple steps. ACRE trading activity generates fees. Protocol funds are used to acquire stock-related tokens. Eligible holders can receive proportional reward allocations. No fixed APY. No guaranteed rewards. Just a transparent mechanism connecting trading activity to tokenized assets.",
+    "Introducing Acre. Trading activity. Stock-based rewards. Acre connects token trading activity to stock-related asset rewards for eligible holders. Follow the fees. Track the treasury. Verify the distributions. Built on Robinhood Chain."
+   ],
+   "checked": "2026-11-07T12:15:27+00:00"
   }
  },
  "ids": {
@@ -21509,6 +21550,9 @@
   ],
   "2118733681128857600": [
    "XOXOfobo"
+  ],
+  "2116033590089646080": [
+   "ACRE_io"
   ]
  },
  "past": {
@@ -22081,7 +22125,9 @@
   "_flyingcar": [],
   "bankrbot": [],
   "miharidapp": [],
-  "xoxofobo": []
+  "xoxofobo": [],
+  "whathehell125": [],
+  "acre_io": []
  },
  "history": {
   "barragetrade": {
@@ -27538,6 +27584,12 @@
    "2026-11-07": [
     21,
     27
+   ]
+  },
+  "acre_io": {
+   "2026-11-07": [
+    64,
+    11
    ]
   }
  },
