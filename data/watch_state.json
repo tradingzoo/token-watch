@@ -5010,7 +5010,20 @@
   "0x3423a89d455be66abd31250d25c71c46b3f64770": "2026-11-07T07:00:33+00:00",
   "0x3d77038bf874706ae55cc2035cb4718efdb4b725": "2026-11-07T07:00:33+00:00",
   "0x6aa4532f131c044d10ace149591e044c2f82efe0": "2026-11-07T07:00:33+00:00",
-  "0x8cf990441e61122ca4297b1d86d15e5909ed719c": "2026-11-07T07:00:33+00:00"
+  "0x8cf990441e61122ca4297b1d86d15e5909ed719c": "2026-11-07T07:00:33+00:00",
+  "0xdcbf93053cd5dfc69434dca8d11e272cd7784fe5": "2026-11-07T07:15:23+00:00",
+  "0x71159da5f8a4692cdd1ee6517a7af014bb11959c": "2026-11-07T07:15:23+00:00",
+  "0x011f8f8b1a5d2b12b94373bc8bca09ac9bd4b079": "2026-11-07T07:15:23+00:00",
+  "0x4f2f469c50e8cb505ef533229d84ec085b61e9a6": "2026-11-07T07:15:23+00:00",
+  "0xdceea9ce92e7d2e5ae3ba1eef1ed887d4cbdab60": "2026-11-07T07:15:23+00:00",
+  "0x2d60ec13f65082b077bd5593b201be161fb9aa0e": "2026-11-07T07:15:23+00:00",
+  "0x06f4e1a51ee7d8c34f00e75c6033b6f1bf7a2a3b": "2026-11-07T07:15:23+00:00",
+  "0x232ca0a739c2fefa866ecdd702732a7a4ea2787a": "2026-11-07T07:15:23+00:00",
+  "0x53a95cc3c18993e3b9b33243a2ef58939836d6a2": "2026-11-07T07:15:23+00:00",
+  "0x69e08a2e7466c4407aee7d2e9fe9b6869dba133d": "2026-11-07T07:15:23+00:00",
+  "0xa7e5bb113e0999def04447c577246130dda52a3b": "2026-11-07T07:15:23+00:00",
+  "0xb932bf334e64fbf6ec9ada32639754de5a8a14bd": "2026-11-07T07:15:23+00:00",
+  "0xe3710f59b5d7fd505f98f01cf8f821629f39116a": "2026-11-07T07:15:23+00:00"
  },
  "github": {
   "0x938d767f1cd789850867a881fdf09631f2e43714": {
@@ -27117,7 +27130,8 @@
      "pushed": "2026-10-21",
      "people": 15
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0xf9b2b9cdeefbbb4e946676759dece825f2e05783": {
    "address": "0xf9b2b9cdeefbbb4e946676759dece825f2e05783",
@@ -27165,7 +27179,8 @@
      "pushed": "private",
      "commits": "private"
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x71478519ce99f03766d551ccbdc849031b1a7e8e": {
    "address": "0x71478519ce99f03766d551ccbdc849031b1a7e8e",
@@ -27213,10 +27228,11 @@
      "pushed": "private",
      "commits": "private"
     }
-   }
+   },
+   "launched_src": "pons"
   }
  },
- "checked_total": 5000,
+ "checked_total": 5013,
  "skipped": [
   {
    "when": "2026-11-04T12:39:55+00:00",
@@ -30058,6 +30074,8 @@
   }
  ],
  "symbol_counts": {
+  "KNTL": 1,
+  "HEAT": 1,
   "FTSA": 1,
   "SCREAM": 1,
   "VOICE": 1,
@@ -30093,17 +30111,19 @@
   "MECHAZILLA": 1,
   "PILLAR": 1,
   "DROSOPHILA": 1,
-  "MTN": 1,
-  "ORBITRALS": 1,
   "HMM": 4,
   "OAK": 2,
   "WIF": 1,
-  "UFG": 1,
+  "DELTA": 1,
   "CHARLIE": 1,
   "POTATCHI": 1,
-  "TROLL": 1,
   "\u5bcc\u8d35": 1,
   "PONS": 1,
+  "BOW": 1,
+  "MTN": 1,
+  "ORBITRALS": 1,
+  "UFG": 1,
+  "TROLL": 1,
   "BENTO": 1,
   "LATHE": 1,
   "TH90": 1,
@@ -30129,13 +30149,11 @@
   "HALLOFASH": 1,
   "BLUFFREAD": 1,
   "CAT": 1,
-  "DELTA": 1,
   "ORBIO": 1,
   "ROBINCAT": 1,
   "Alice": 2,
   "DIVI": 1,
   "INFLUENCE": 1,
-  "HEAT": 1,
   "VELUM": 1,
   "PREDICTION": 1,
   "scamsem": 1,
@@ -30152,7 +30170,6 @@
   "CYBERTRUCK": 1,
   "DEPLOYR": 1,
   "GAGE": 1,
-  "BOW": 1,
   "DARWIN": 1,
   "10K": 1,
   "CAPITOLI": 1,
@@ -53249,7 +53266,8 @@
      "contract_addresses": 4,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   },
   "0x0adfa0eddf3aef4640b90d8324d1fed7d3af8f5b": {
    "address": "0x0adfa0eddf3aef4640b90d8324d1fed7d3af8f5b",
@@ -53320,7 +53338,8 @@
      "contract_addresses": 26,
      "winners_linked": []
     }
-   }
+   },
+   "launched_src": "pons"
   }
  },
  "site_checked": {
@@ -55692,7 +55711,11 @@
   "0x8c5284bdc17142cab0ea10ebb9b18ee1104a9cf3": "2026-11-07T07:00:33+00:00",
   "0xd581a742b911eb4f3bfd1f4177c92e04290b0cbc": "2026-11-07T07:00:33+00:00",
   "0xad0d9a0471603ab5e7b3b2f9881dca5b34e2c086": "2026-11-07T07:00:33+00:00",
-  "0x0adfa0eddf3aef4640b90d8324d1fed7d3af8f5b": "2026-11-07T07:00:33+00:00"
+  "0x0adfa0eddf3aef4640b90d8324d1fed7d3af8f5b": "2026-11-07T07:00:33+00:00",
+  "0x71159da5f8a4692cdd1ee6517a7af014bb11959c": "2026-11-07T07:15:23+00:00",
+  "0x011f8f8b1a5d2b12b94373bc8bca09ac9bd4b079": "2026-11-07T07:15:23+00:00",
+  "0x4f2f469c50e8cb505ef533229d84ec085b61e9a6": "2026-11-07T07:15:23+00:00",
+  "0xdceea9ce92e7d2e5ae3ba1eef1ed887d4cbdab60": "2026-11-07T07:15:23+00:00"
  },
  "catchup_plain": []
 }

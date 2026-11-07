@@ -10976,7 +10976,7 @@
   },
   "alexalabshq": {
    "handle": "AlexaLabsHQ",
-   "found": false,
+   "found": true,
    "id": "2116899039920934912",
    "name": "Alexa",
    "joined": "2026-11-01T14:25:41+00:00",
@@ -10989,7 +10989,7 @@
    "sample_full_week": true,
    "posts_7d": 19,
    "avg_likes": 11.9,
-   "avg_views": 314,
+   "avg_views": 316,
    "bio_site": "https://www.alexalabshq.xyz/",
    "bio": "All the models. One API. One wallet.",
    "cas": [],
@@ -11015,8 +11015,7 @@
     "The future of AI infrastructure is model agnostic. Alexa simplifies access to leading AI models through a unified API, eliminating the complexity of managing multiple provider integrations. Developers focus on inference. Alexa handles unified access, pricing, and settlement.",
     "Predictable AI costs start before inference execution. Alexa exposes pricing upfront, allowing developers to evaluate inference costs and define spending budgets before submitting requests. No fragmented billing across model providers. One wallet. One API. Full budget control."
    ],
-   "checked": "2026-11-06T11:58:49+00:00",
-   "gone_since": "2026-11-06T11:58:49+00:00"
+   "checked": "2026-11-07T07:15:23+00:00"
   },
   "tacklehooks": {
    "handle": "tacklehooks",
@@ -23839,6 +23838,10 @@
   },
   "alexalabshq": {
    "2026-11-05": [
+    81,
+    21
+   ],
+   "2026-11-07": [
     81,
     21
    ]
