@@ -19547,6 +19547,118 @@
    "handle": "rhcat99",
    "found": false,
    "checked": "2026-11-07T11:00:37+00:00"
+  },
+  "blitagents": {
+   "handle": "blitagents",
+   "found": true,
+   "id": "2118528590790725632",
+   "name": "blit",
+   "joined": "2026-11-06T02:27:07+00:00",
+   "followers": 1,
+   "following": 1,
+   "posts": 11,
+   "verified": null,
+   "last_post": "2026-11-07T11:08:38+00:00",
+   "sample": 11,
+   "sample_full_week": false,
+   "posts_7d": 11,
+   "avg_likes": 0.0,
+   "avg_views": 9,
+   "bio_site": "https://blit.sh/",
+   "bio": "Your whole dev machine in one browser tab. Open-source remote workspace \u2014 one binary, persistent terminals, files, Git & agents.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Four tools. One binary. A web terminal here, a persistence layer there, a terminal UI, an agent API \u2014 Blit is all of it in one system: multi-terminal workspace, remote protocol, agent API and Linux GUI compositor. Nothing to stitch together.",
+    "Try Blit without installing anything. One Docker command spins up the full workspace \u2014 terminals, files, Git, port forwarding \u2014 in a throwaway container: docker run --rm --shm-size=1g grab/blit-demo Open the tab, poke around, close it. Nothing stays behind.",
+    "One binary. Every OS you work on. Blit ships as a single binary for Linux, macOS and Windows \u2014 and its core runs in Node, Bun or Deno. Install it in one line, open a tab, and your whole workspace is there. Same workspace, whichever machine you pick up.",
+    "Your whole dev machine, in one browser tab. Blit is an open-source remote workspace: persistent terminals, files, Git and LSP that survive disconnects \u2014 plus sharing, agents and embeds. One binary. MIT. Install in one line.",
+    "Ship the terminal without building the terminal stack. MIT-licensed React and Solid packages put the same workspace, terminal and transport primitives as https://blit.sh inside your app. Your UI, or the headless core. Your call.",
+    "A display server for servers without displays. Every Blit terminal on Linux gets a headless Wayland compositor \u2014 launch a browser, editor or media player on a box with no screen, and it streams to yours. $ blit surface capture 1 No X server. No display. No GPU required.",
+    "Give agents handles, not pixels. In Blit, an agent can start a process, wait for output, read the parsed screen, edit files, inspect Git and ask a real language server \u2014 in the same workspace you can watch and take over. No ANSI scraping. No brittle coordinates.",
+    "Send the live workspace, not a screen share. $ blit share prints two links: one with control, one read-only. Your teammate opens the same terminals, files and editor in their browser \u2014 no account, no SSH key, no VPN, no setup.",
+    "Every machine feels local. Name an SSH host once. Blit installs itself there on first contact, keeps the connection warm, and lines every remote up beside your local machine \u2014 production, a home server, a dev container \u2014 in the same tab. $ blit remote add prod ssh:alice@prod.co",
+    "Open the machine, not just another shell. blit open puts terminals, files, editors, search, diffs and the commit graph in one tiled tab. Close the tab. Drop the connection. Your processes and scrollback are still alive when you come back.",
+    "Your code keeps running. Blit is an open-source remote workspace: your whole dev machine \u2014 terminals, files, Git, LSP and ports \u2014 inside one browser tab. One binary. No setup drift, no third computer to babysit. $ curl -sf https://install.blit.sh | sh $ blit open"
+   ],
+   "checked": "2026-11-07T11:15:22+00:00"
+  },
+  "petais0l": {
+   "handle": "PetaIS0L",
+   "found": false,
+   "checked": "2026-11-07T11:15:22+00:00"
+  },
+  "couture0x": {
+   "handle": "couture0x",
+   "found": true,
+   "id": "1935048702311256064",
+   "name": "COUTURE",
+   "joined": "2025-06-17T18:56:02+00:00",
+   "followers": 595,
+   "following": 5,
+   "posts": 691,
+   "verified": "individual",
+   "last_post": "2026-10-25T16:42:17+00:00",
+   "sample": 20,
+   "sample_full_week": false,
+   "posts_7d": 0,
+   "avg_likes": 1.9,
+   "avg_views": 334,
+   "bio_site": null,
+   "bio": "onchain dev",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "MAX Gooner meta but we've yet to send a LITERAL SOLWAIFU MADE BY A PUMPFUN FOUNDER??? ( @outdoteth / Dylan Kerler) He legit has an entire github about it, check it out: https://github.com/outdoteth/solwaifu This is also real as it is his pinned post on his X, it is like he foretold this GOONER meta,",
+    "perfect narra to run is $nevergoon on stonk paired to hims. Hims is known for selling dick hard pills and with all the anti pumpfun stuff this is perfect. https://knowyourmeme.com/memes/never-goon-minions https://x.com/tnlsol/status/2114362934608482604?s=20",
+    "The iPhone Duo is getting absolutely cooked by everyone on the TL, Jerry Rig Everything, used Dirt to destroy the phone and it stopped closing. This can be one of the Biggest Apple meme/failures, being destroyed by Dirt. https://x.com/yesdeltaa/status/2114109352906739865?s=20",
+    "The Original Dev of the most famous/biggest GTA MOD ever made his own coin as VicewCity is returning to GTA6 https://x.com/i/trending/2112274917433422079?s=20 https://x.com/vicebounce_fun https://www.instagram.com/tek__95 CA: BiXQXFrVoZAEagv2ikQ841RfgNYziwpQxed1dBuapump",
+    "Digital Shekel paired with Bils makes the most sense solana:ChqcxP3n28ALLN2KGSePHuwhB7dMX3RZgyiuTUXvy2TR - \u05e9\u05e7\u05dc \u05d3\u05d9\u05d2\u05d9\u05d8\u05dc\u05d9 https://x.com/solana/status/1768144360187797609?s=20",
+    "The perfect narra to run on Stonk with all this PumpFun rugs is: Return to Tradition - $Tradition Why? Because stonk is raydium team, and that is where memes were born. And one on Stonk has never bonded Lets return to Tradition",
+    ".@ansem FINALLY tweeted. lots of people think he is actually ansem but hes not, we should send him fees via paid to make the ultimate meme. lets send temu ansem as a meme lol https://x.com/ansem/status/2113254560999301301?s=20",
+    "Omg Kimchi's Phone number leaked so iw as watching the GMGN GGC vid and saw that Kimchis number got leaked Go to 14:30 here for proof link: http://x.com/gmgnai/status/2112906\u2026 This is insane pairing to solana:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump Number: +64 21 280 2210 in the video you can c",
+    "whole idea is about speed https://x.com/Pumpfun/status/2112980077881266326?s=20",
+    "The current PHP coin at 400k that hit 1.1mil MC, the fees go to the guys who dropped the exploit and NOT to the person who found it https://x.com/lcfr_hax was the first person to discover the exploits as they stated here. His work convinced the PHP Foundation to invest in fixing this entire bug clas",
+    "CA: 4qiY4Sif7zjQRJiPiMkxwJzaDKgvrXBHKAXvuSPXpump",
+    "FASTEST-RISING cat name in America is\u2026 Chicken Nugget. This was posted by Pubity, Fox7 and other massive news/media outlets. With PumpFun returning to Animals too, this is THE PERFECT animal meme to send. https://eu.usatoday.com/story/pets-animals/2026/10/20/trending-pet-names-2026-rover/92330312007",
+    "WE can finally run E91 Pumpfun is a pill, it's real life version is Fluoxetine Hydrochloride The pumpfun pill looks exactly like the medicine E 91 pill which has the numbers 1 and 9 (Alon's favorite) https://www.drugs.com/imprints/e-91-14468.html",
+    "With the @Collector_Crypt hype going on with tcg. Why not make a psa 10 coin that is most valuable asset in the tcg era and pair it with onchain cards. This is the OFFICIAL PSA10 coin. solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp is going ATH and it will go even higher. This is THE perfect co",
+    "Berkshire hathway just got added to Pump pairing and I found a perfect narrative. Charlie Munger once called compared cryptocurrency to \"TURDS\" This is the fartcoin of paired meta. https://www.youtube.com/watch?v=tGmhFx_7w4I&t=56s",
+    "11 years ago Sam Altman was in a Buttcoin reddit where he said 'HODL' https://www.reddit.com/r/Buttcoin/comments/3rk03t/comment/cwp1rl3/?context=3",
+    "Cobie said he would buy a Pokeballs coin, Pairing to Coinbase and Cards https://x.com/cobie/status/477257171932311552",
+    "welcome @XRP uber drivers are ecstatic rn https://x.com/XRP/status/2112214294188441742?s=20",
+    "Elon ticker is too much, it should be Techno-King https://x.com/Exrann__/status/2112198788664172943",
+    "YouTube says Bitcoin news is \"harmful or dangerous\" content. $HOD - Harmful or Dangerous https://x.com/BitcoinNews/status/2112181984352985172?s=20"
+   ],
+   "checked": "2026-11-07T11:15:22+00:00"
+  },
+  "silkcompute": {
+   "handle": "Silkcompute",
+   "found": true,
+   "id": "2086630285492588544",
+   "name": "Silkcompute",
+   "joined": "2026-08-10T01:48:09+00:00",
+   "followers": 21,
+   "following": 51,
+   "posts": 34,
+   "verified": "individual",
+   "last_post": "2026-11-05T13:00:02+00:00",
+   "sample": 4,
+   "sample_full_week": false,
+   "posts_7d": 4,
+   "avg_likes": 3.5,
+   "avg_views": 307,
+   "bio_site": "http://silkcompute.com",
+   "bio": "Abliterates AI with OpenAI compatible API. Zero Data Retention.",
+   "cas": [],
+   "fake_posts": [],
+   "texts": [
+    "Today we're releasing Kimi K3.1 Pro abliterated. It's based on Kimi K3.1 Pro, which scores 65.7% on Terminal-Bench 4.0, right behind Opus 5.5 and ahead of GPT-6 Astra and Fable 5.1, and beats GLM-5.3 on every cyber benchmark Moonshot published. We serve it abliterated so it does the offensive cyber,",
+    "GLM-5.3 \u2192 Kimi K3.1 Pro, from Moonshot's own table: ExploitBench: 54.4 \u2192 74.7 ExploitGym: 15.0% \u2192 20.7% xdev-bench-hard: 57.1 \u2192 81.0 That's the model underneath. Abliteration removes the directions that produce refusals, so it follows through instead of shutting down.",
+    "Try it now Docs: https://silkcompute.com/docs/quickstart Platform: https://platform.silkcompute.com/signup Kimi K3.1 Pro: https://silkcompute.com/models/kimi-k3.1-pro-uncensored",
+    "Kimi K3.1 Pro abliterated is live on our API. Full details tomorrow."
+   ],
+   "checked": "2026-11-07T11:15:22+00:00"
   }
  },
  "ids": {
@@ -21084,6 +21196,15 @@
   ],
   "2002830665470156800": [
    "stardevz"
+  ],
+  "2118528590790725632": [
+   "blitagents"
+  ],
+  "1935048702311256064": [
+   "couture0x"
+  ],
+  "2086630285492588544": [
+   "Silkcompute"
   ]
  },
  "past": {
@@ -21643,7 +21764,11 @@
   "nohands_ai": [],
   "martin_casado": [],
   "stardevz": [],
-  "rhcat99": []
+  "rhcat99": [],
+  "blitagents": [],
+  "petais0l": [],
+  "couture0x": [],
+  "silkcompute": []
  },
  "history": {
   "barragetrade": {
@@ -26967,6 +27092,24 @@
     208,
     369
    ]
+  },
+  "blitagents": {
+   "2026-11-07": [
+    1,
+    11
+   ]
+  },
+  "couture0x": {
+   "2026-11-07": [
+    595,
+    691
+   ]
+  },
+  "silkcompute": {
+   "2026-11-07": [
+    21,
+    34
+   ]
   }
  },
  "telegram": {
@@ -28495,6 +28638,21 @@
    "twitter": "MEADGod",
    "blog": "",
    "checked": "2026-11-07T10:45:25+00:00"
+  },
+  "indent-com": {
+   "twitter": null,
+   "blog": "indent.com",
+   "checked": "2026-11-07T11:15:22+00:00"
+  },
+  "msingh-openai": {
+   "twitter": "msinghnyu",
+   "blog": "",
+   "checked": "2026-11-07T11:15:22+00:00"
+  },
+  "robinhoodmarkets": {
+   "twitter": null,
+   "blog": "https://www.robinhood.com",
+   "checked": "2026-11-07T11:15:22+00:00"
   }
  }
 }
